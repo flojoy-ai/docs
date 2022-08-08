@@ -10,16 +10,17 @@ const config = {
 	title: 'Joyful Visual Programming for Python',
 	tagline:
 		'Flojoy is an open-source desktop and web app for Python scripting that welcomes but does not require Python coding.',
-	url: 'https://flojoy-io.github.io/',
+	url: 'https://flojoy-io.github.io/docs/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/favicon.ico',
+	favicon: 'img/favicons/favicon.ico',
+	trailingSlash: true,
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'flowjoy-io', // Usually your GitHub org/user name.
-	projectName: 'flojoy-docs', // Usually your repo name.
+	organizationName: 'flojoy-io', // Usually your GitHub org/user name.
+	projectName: 'docs', // Usually your repo name.
 
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,6 +37,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
+					// routeBasePath: '/',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					//   editUrl:
@@ -60,10 +62,12 @@ const config = {
 		({
 			navbar: {
 				title,
-				// logo: {
-				// 	alt: title,
-				// 	src: 'img/logo.svg',
-				// },
+				logo: {
+					alt: title,
+					src: 'img/logo.svg',
+					srcDark: 'img/logo-light.svg',
+				},
+
 				items: [
 					{
 						type: 'doc',
