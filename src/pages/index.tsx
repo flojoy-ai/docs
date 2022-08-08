@@ -3,9 +3,12 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import ThemedImage from '@theme/ThemedImage';
+
 //import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.scss';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext();
@@ -25,7 +28,13 @@ function HomepageHeader() {
 					</div>
 				</div>
 				<div className="col-md-6 hide-md">
-					<img src="/img/example-light.png" alt="example" />
+					<ThemedImage
+						alt="example"
+						sources={{
+							light: useBaseUrl('/img/example-light.png'),
+							dark: useBaseUrl('/img/example-dark.png'),
+						}}
+					/>
 				</div>
 			</div>
 		</header>
