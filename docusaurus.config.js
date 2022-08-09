@@ -51,21 +51,24 @@ const config = {
 				//     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 				// },
 				theme: {
-					customCss: require.resolve('./src/css/custom.scss'),
+					customCss: [require.resolve('./src/scss/custom.scss')],
 				},
 			}),
 		],
+	],
+	stylesheets: [
+		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono&display=swap',
 	],
 	plugins: ['docusaurus-plugin-sass'],
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title,
+				//title,
 				logo: {
 					alt: title,
-					src: 'img/logo.svg',
-					srcDark: 'img/logo-light.svg',
+					src: 'img/logo-horizontal-dark.svg',
+					srcDark: 'img/logo-horizontal-light.svg',
 				},
 
 				items: [
