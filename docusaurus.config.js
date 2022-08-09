@@ -10,8 +10,8 @@ const config = {
 	title: 'Joyful Visual Programming for Python',
 	tagline:
 		'Flojoy is an open-source desktop and web app for Python scripting that welcomes but does not require Python coding.',
-	url: 'https://flojoy-io.github.io/docs/',
-	baseUrl: '/',
+	url: 'https://flojoy-io.github.io',
+	baseUrl: '/docs/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicons/favicon.png',
@@ -37,7 +37,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					// routeBasePath: '/',
+					routeBasePath: '/',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					//   editUrl:
