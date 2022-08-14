@@ -20,14 +20,23 @@ $grey: #bcc2c4;
 
 	--color-secondary: #ffa927;
 
-	--ifm-footer-background-color: 'transparent';
-	--ifm-footer-color: $grey;
-
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
+	// menu
+	--ifm-menu-color-background-active: #f2f2f2;
+	--ifm-menu-link-padding-vertical: 1rem;
+
+	// footer
+	--ifm-footer-background-color: transparent;
+	--ifm-footer-color: $grey;
+
+	// breadcrumb
 	--ifm-breadcrumb-item-background-active: var(--color-primary-transparent);
 	--ifm-breadcrumb-separator-size: 0.7rem;
+
+	// navbar
+	--ifm-navbar-shadow: none;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -44,11 +53,18 @@ $grey: #bcc2c4;
 	--ifm-font-color-base: #bcc2c4;
 	--ifm-heading-color: #ffffff;
 
+	--ifm-menu-color-background-active: #1e1e1e;
+
 	--color-primary-transparent: rgba(153, 245, 255, 0.2);
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme='dark'] {
 	--ifm-background-color: #111111;
-	--ifm-background-surface-color: #111111;
+	--ifm-background-surface-color: var(--ifm-background-color);
+}
+
+aside.theme-doc-sidebar-container,
+.table-of-contents__left-border {
+	border: none;
 }
