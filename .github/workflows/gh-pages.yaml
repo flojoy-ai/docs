@@ -1,6 +1,4 @@
 name: 'Deploy to Github Pages'
-env:
-  NODE_ENV: production
 on:
   push:
     branches: ['main']
@@ -24,7 +22,7 @@ jobs:
         run: |
           npm install 
           npm run build
-      - name: Deploy to GitHub Pages
+      - name: Push to gh-pages branch
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
