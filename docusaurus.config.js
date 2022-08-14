@@ -57,7 +57,7 @@ const config = {
 		],
 	],
 	stylesheets: [
-		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono&display=swap',
+		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
 	],
 	plugins: ['docusaurus-plugin-sass'],
 	themeConfig:
@@ -81,13 +81,13 @@ const config = {
 					// { to: "/blog", label: "Blog", position: "left" },
 					{
 						href: 'https://github.com/flojoy-io/docs',
-						label: 'GitHub',
 						position: 'right',
+						className: 'header-github-link',
+						'aria-label': 'GitHub repository',
 					},
 				],
 			},
 			footer: {
-				style: 'dark',
 				// links: [
 				// 	{
 				// 		title: 'Docs',
@@ -129,7 +129,7 @@ const config = {
 				// 	// 	],
 				// 	// },
 				// ],
-				copyright: `Copyright © ${new Date().getFullYear()} ${title}, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} ${title}, Inc.`,
 			},
 			prism: {
 				theme: lightCodeTheme,

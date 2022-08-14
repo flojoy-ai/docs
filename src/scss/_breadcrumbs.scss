@@ -1,0 +1,26 @@
+.breadcrumbsContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocBreadcrumbs-styles-module {
+	--ifm-breadcrumb-size-multiplier: 1.1 !important;
+}
+
+.breadcrumbs {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.breadcrumbs__link[aria-label='Home page'] {
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+
+	svg {
+		width: 28px;
+		height: 28px;
+	}
+}
+
+.breadcrumbs__item {
+	border-radius: 1.5rem;
+
+	&--active {
+		border: 1px solid var(--ifm-breadcrumb-color-active);
+	}
+}

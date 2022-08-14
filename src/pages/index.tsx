@@ -13,11 +13,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext();
 	return (
-		<header className={clsx('hero text-left', styles.heroBanner)}>
-			<div className="container col">
-				<div className="col-md-6">
-					<h1 className="hero__title">{siteConfig.title}</h1>
-					<p className="hero__subtitle">{siteConfig.tagline}</p>
+		<>
+			<header className={clsx('hero text-left', styles.heroBanner)}>
+				<div className="container text-center">
+					<div className={styles.heroTop}>
+						<h1 className="hero__title">{siteConfig.title}</h1>
+						<p className="hero__subtitle">{siteConfig.tagline}</p>
+					</div>
 					<div className={styles.buttons}>
 						<Link
 							className="button button--primary button--lg button--round"
@@ -27,17 +29,19 @@ function HomepageHeader() {
 						</Link>
 					</div>
 				</div>
-				<div className="col-md-6 hide-md">
+			</header>
+			<section className="mb-4 bg">
+				<div className="container text-center">
 					<ThemedImage
 						alt="example"
 						sources={{
-							light: useBaseUrl('/img/example-light.png'),
-							dark: useBaseUrl('/img/example-dark.png'),
+							light: useBaseUrl('/img/hero-image-light.svg'),
+							dark: useBaseUrl('/img/hero-image-dark.svg'),
 						}}
 					/>
 				</div>
-			</div>
-		</header>
+			</section>
+		</>
 	);
 }
 
