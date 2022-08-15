@@ -10,8 +10,8 @@ const config = {
 	title: 'Joyful Visual Programming for Python',
 	tagline:
 		'Flojoy is an open-source desktop and web app for Python scripting that welcomes but does not require Python coding.',
-	url: 'https://flojoy-io.github.io',
-	baseUrl: '/docs/',
+	url: 'https://docs.flojoy.io',
+	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicons/favicon.png',
