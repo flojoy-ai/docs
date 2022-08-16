@@ -85,6 +85,7 @@ const config = {
 					{
 						href: 'https://github.com/flojoy-io/docs',
 						position: 'right',
+						label: 'Github',
 						className: 'header-github-link',
 						'aria-label': 'GitHub repository',
 					},

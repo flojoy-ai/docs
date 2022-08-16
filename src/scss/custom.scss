@@ -9,6 +9,7 @@
 @use 'variables';
 @use 'breadcrumbs';
 @use 'icons';
+@use 'navbar';
 
 .bg-dark {
 	background-color: #111111;
@@ -60,10 +61,11 @@ body {
 
 .button {
 	text-transform: uppercase;
+	letter-spacing: 0.07em;
 }
 
 .button--lg {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	padding: 1rem 2.4rem;
 }
 

@@ -14,19 +14,19 @@ Flojoy is an open-source desktop and web app for Python scripting that welcomes 
 
 #### A Visual Python Script (VPS) that generates a sine wave, adds noise, and visualizes the results in 2 charts
 
-![image](https://user-images.githubusercontent.com/1865834/167227351-54b2bb39-f8e6-48c5-b2ef-efd36571ae02.png)
+![image](https://images2.imgbox.com/0c/6c/elr4j5jv_o.jpg)
 
 #### Light mode - the same VPS in Flojoy's light mode
 
-![image](https://user-images.githubusercontent.com/1865834/167229171-086b3d58-a6dc-4e87-8b7b-30c99cde7317.png)
+![image](https://images2.imgbox.com/35/2f/Ha6HRaNx_o.jpg)
 
 #### Control panel for building apps the control and visualize node parameters and outputs
 
-![image](https://user-images.githubusercontent.com/1865834/167229214-941a16d8-7320-4466-be5a-4a6282ebfeb1.png)
+![image](https://images2.imgbox.com/03/00/9HK5YVGO_o.jpg)
 
 #### Python code for the SINE node in the above VPS
 
-![image](https://user-images.githubusercontent.com/1865834/167229258-de7bdcf4-8df9-42ac-a1c0-c8f8afe6f9c7.png)
+![image](https://images2.imgbox.com/13/65/idBfYSLO_o.jpg)
 
 ## Prior work of note
 

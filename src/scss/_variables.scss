@@ -6,13 +6,13 @@ $grey: #bcc2c4;
 	--font-family-alternative: 'Roboto Mono', monospace;
 	--block-family-code: 'IBM Plex Mono', monospace;
 
-	--ifm-color-primary: #4737aa;
-	--ifm-color-primary-dark: #403199;
-	--ifm-color-primary-darker: #3c2f91;
-	--ifm-color-primary-darkest: #322777;
-	--ifm-color-primary-light: #4e3dbb;
-	--ifm-color-primary-lighter: #5341c2;
-	--ifm-color-primary-lightest: #6a5bca;
+	--ifm-color-primary: #7b61ff;
+	--ifm-color-primary-dark: #5e3eff;
+	--ifm-color-primary-darker: #4f2cff;
+	--ifm-color-primary-darkest: #2900f6;
+	--ifm-color-primary-light: #9884ff;
+	--ifm-color-primary-lighter: #a796ff;
+	--ifm-color-primary-lightest: #d3cbff;
 	--color-primary-transparent: rgba(122, 118, 255, 0.25);
 
 	--ifm-font-color-base: #8c9699;
@@ -22,6 +22,12 @@ $grey: #bcc2c4;
 
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+	--ifm-toc-border-color: transparent;
+
+	// navbar
+	--ifm-navbar-height: auto;
+	--ifm-navbar-shadow: none;
 
 	// menu
 	--ifm-menu-color-background-active: #f2f2f2;
@@ -34,9 +40,6 @@ $grey: #bcc2c4;
 	// breadcrumb
 	--ifm-breadcrumb-item-background-active: var(--color-primary-transparent);
 	--ifm-breadcrumb-separator-size: 0.7rem;
-
-	// navbar
-	--ifm-navbar-shadow: none;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -62,9 +65,4 @@ $grey: #bcc2c4;
 html[data-theme='dark'] {
 	--ifm-background-color: #111111;
 	--ifm-background-surface-color: var(--ifm-background-color);
-}
-
-aside.theme-doc-sidebar-container,
-.table-of-contents__left-border {
-	border: none;
 }

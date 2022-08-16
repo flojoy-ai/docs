@@ -1,26 +1,38 @@
 .breadcrumbsContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocBreadcrumbs-styles-module {
-	--ifm-breadcrumb-size-multiplier: 1.1 !important;
+	--ifm-breadcrumb-size-multiplier: 0.9 !important;
 }
 
 .breadcrumbs {
 	text-transform: uppercase;
 	font-weight: bold;
-}
+	display: flex;
+	align-items: center;
 
-.breadcrumbs__link[aria-label='Home page'] {
-	padding-right: 0.3rem;
-	padding-left: 0.3rem;
-
-	svg {
-		width: 28px;
-		height: 28px;
+	&__link {
+		letter-spacing: 0.07em;
 	}
-}
 
-.breadcrumbs__item {
-	border-radius: 1.5rem;
+	&__link[aria-label='Home page'] {
+		padding: 0;
 
-	&--active {
-		border: 1px solid var(--ifm-breadcrumb-color-active);
+		svg {
+			width: 28px;
+			height: 28px;
+		}
+	}
+
+	&__link[aria-label='Home page']:hover {
+		background: inherit;
+	}
+
+	&__item {
+		border-radius: 1.5rem;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.07em;
+
+		&--active {
+			border: 1px solid var(--ifm-breadcrumb-color-active);
+		}
 	}
 }
