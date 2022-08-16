@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -11,6 +11,14 @@ import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
+	useEffect(() => {
+		document.body.classList.add('home');
+
+		return () => {
+			document.body.classList.remove('home');
+		};
+	}, []);
+
 	const { siteConfig } = useDocusaurusContext();
 	return (
 		<>
