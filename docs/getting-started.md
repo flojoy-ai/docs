@@ -8,7 +8,7 @@ title: Getting Started
 
 ## What is it?
 
-Flojoy is an open-source desktop app for visual Python scripting . Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python sapps for ETL, DAQ, AI, CI, data visualization, and simulation. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
+Flojoy is an open-source desktop app for visual Python scripting. Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python apps for **ETL, DAQ, AI, and simulation**. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
 
 Free & MIT licensed forever.
 
