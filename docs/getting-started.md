@@ -14,7 +14,7 @@ Free & MIT licensed forever.
 
 Scroll to bottom for screenshots.
 
-## How to run this thing (Mac/Linux only)
+## Running this thing (Mac/Linux only)
 
 1. Clone the repo
 1. Make sure that you have Python, Redis, and Node already installed
@@ -61,18 +61,6 @@ Scroll to bottom for screenshots.
 
 ## Screenshots!
 
-#### A Visual Python Script (VPS) that generates a sine wave, adds noise, and visualizes the results in 2 charts
-
-![image](https://images2.imgbox.com/0c/6c/elr4j5jv_o.jpg)
-
-#### Light mode - the same VPS in Flojoy's light mode
+#### A Visual Python script that generates a sine wave, adds noise, and visualizes the results in 2 charts
 
 ![image](https://images2.imgbox.com/35/2f/Ha6HRaNx_o.jpg)
-
-#### Control panel for building apps the control and visualize node parameters and outputs
-
-![image](https://images2.imgbox.com/03/00/9HK5YVGO_o.jpg)
-
-#### Python code for the SINE node in the above VPS
-
-![image](https://images2.imgbox.com/13/65/idBfYSLO_o.jpg)
