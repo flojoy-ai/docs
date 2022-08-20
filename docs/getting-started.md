@@ -10,9 +10,9 @@ title: Getting Started
 
 Flojoy is an open-source desktop app for visual Python scripting. Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python apps for **ETL, DAQ, AI, and simulation**. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
 
-Free & MIT licensed forever.
+Free & MIT licensed.
 
-Scroll to bottom for screenshots.
+Scroll to the bottom for screenshots.
 
 ## Running this thing (Mac/Linux only)
 
@@ -41,13 +41,10 @@ Scroll to bottom for screenshots.
 ## Roadmap to release
 
 - [ ] There are no tests or CI 😬
-
+- [ ] eslint
 - [ ] The app doesn't work on Windows
-
 - [ ] Flojoy currently uses an interval in App.js to ping the backend every second with an HTTP request and check the server state (such as whether the job queue is finished). This would be ideally suited for websockets and the `ws` library, allowing real-time feedback on which Python jobs are running and pushing (rather than polling) the result when complete
-
-- [ ] It wcouldould be nice to have a "Load an example" menu item in the flow chart tab, with a showcase of simple and fun VPS examples for AI, DAQ, ETL, image processing, simulation, etc
-
+- [ ] A builtiin showcase of pedagogical, simple, and fun examples for AI, DAQ, ETL, image processing, simulation, etc
 - [ ] More delightful installation UX, such as with Electron
 
 ## Architecture
