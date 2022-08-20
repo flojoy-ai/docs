@@ -27,7 +27,7 @@ Scroll to bottom for screenshots.
    - You can provide optional argument `-r` which will shut down the existing redis server and spin up a fresh one
 
 
-## Visual scripting hall of fame (previous work of note)
+## Previous work of note
 
 - [Ryven - Flow-based visual scripting for Python](https://ryven.org/) - Heroic open-source effort by a single grad student
 - [Datablocks](https://datablocks.pro/) - Same idea as Flojoy, but code blocks are JavaScript instead of Python
@@ -38,7 +38,7 @@ Scroll to bottom for screenshots.
 - Azure ML Studio - Azure visual scripting product for AI and ML
 - [NodeRed](https://nodered.org/) - "Node-RED is a programming tool for wiring together hardware devices, APIs and online services"
 
-## Roadmap for interested contributors
+## Roadmap to release
 
 - [ ] There are no tests or CI 😬
 
