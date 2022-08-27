@@ -7,9 +7,9 @@ const title = 'Flojoy';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Joyful Visual Programming for Python',
+	title: 'FLOJOY',
 	tagline:
-		'Flojoy is an open-source desktop and web app for Python scripting that welcomes but does not require Python coding.',
+		'Joyful visual programming for Python.',
 	url: 'https://docs.flojoy.io',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
