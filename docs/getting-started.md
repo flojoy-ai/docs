@@ -6,17 +6,19 @@ title: Getting Started
 
 # Flojoy
 
-## What is it?
+## What is this?
 
-Flojoy is an open-source desktop app for visual Python scripting. Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python apps for **ETL, DAQ, AI, and simulation**. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
+Flojoy is an open-source desktop app for visual Python scripting. 
+
+Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python apps for **ETL, DAQ, AI, and simulation**. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
 
 Free & MIT licensed.
 
 Scroll to the bottom for screenshots.
 
-## Running this thing (Mac/Linux only)
+## Mac install
 
-1. Clone the repo
+1. [Clone the repo](https://github.com/flojoy-io/flojoy-desktop)
 1. Make sure that you have Python, Redis, and Node already installed
 1. `cd` into the project root
 1. Install the required python packages: `pip install -r requirements.txt`
@@ -27,11 +29,11 @@ Scroll to the bottom for screenshots.
    - You can provide optional argument `-r` which will shut down the existing redis server and spin up a fresh one
 
 
-## Previous work of note
+## Comparable products and projects
 
 - [Ryven - Flow-based visual scripting for Python](https://ryven.org/) - Heroic open-source effort by a single grad student
-- [Datablocks](https://datablocks.pro/) - Same idea as Flojoy, but code blocks are JavaScript instead of Python
-- [Apache Airflow Graph View](https://airflow.apache.org/docs/apache-airflow/stable/ui.html#graph-view). Famous project with some nice DAG visualizers, but requires coding and significant learning investment. Flojoy aspires to enable non-coders with similar Python-based ETL capabilities, within minutes of first using the app.
+- [Datablocks](https://datablocks.pro/) - Similar idea tp Flojoy, but code blocks are JavaScript instead of Python
+- [Apache Airflow Graph View](https://airflow.apache.org/docs/apache-airflow/stable/ui.html#graph-view). Famous project with some nice DAG visualizers, but requires coding and significant learning investment. Flojoy aspires to enable non-coders with similar Python-based ETL capabilities, within seconds of first using the app.
 - Alteryx - de facto commercial product for visual ETL scripting
 - LabVIEW - de facto commercial product for visual DAQ scripting
 - AWS Step Function - AWS visual scripting product for ETL and AI
@@ -41,11 +43,10 @@ Scroll to the bottom for screenshots.
 ## Roadmap to release
 
 - [ ] There are no tests or CI 😬
-- [ ] eslint
-- [ ] The app doesn't work on Windows
+- [ ] Respect eslint
+- [ ] The app does not yet work on Windows
 - [ ] Flojoy currently uses an interval in App.js to ping the backend every second with an HTTP request and check the server state (such as whether the job queue is finished). This would be ideally suited for websockets and the `ws` library, allowing real-time feedback on which Python jobs are running and pushing (rather than polling) the result when complete
 - [ ] A builtiin showcase of pedagogical, simple, and fun examples for AI, DAQ, ETL, image processing, simulation, etc
-- [ ] More delightful installation UX, such as with Electron
 
 ## Architecture
 
@@ -58,6 +59,6 @@ Scroll to the bottom for screenshots.
 
 ## Screenshots!
 
-#### A Visual Python script that generates a sine wave, adds noise, and visualizes the results in 2 charts
-
 ![image](https://images2.imgbox.com/35/2f/Ha6HRaNx_o.jpg)
+*A Visual Python script that generates a sine wave, adds noise, and visualizes the results in 2 charts*
+
