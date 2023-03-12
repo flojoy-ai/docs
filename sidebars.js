@@ -31,7 +31,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Custom Nodes',
-      items: ['custom-nodes/custom-nodes', 'custom-nodes/data-container'],
+      items: [
+        'custom-nodes/custom-nodes', 
+        'custom-nodes/data-container',
+        'custom-nodes/manifest'],
     },
     {
       type: 'category',

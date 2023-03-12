@@ -8,7 +8,7 @@ To begin writing custom nodes, there are a few requirements that the main functi
 
 - `ordered_pair` : this is the default typing of the `DataContainer` class, consisting of a simple `(x,y)` pair. Here, convention is that `x` is those inputs passed to the node, and `y` is the output. If there are multiple inputs to the node, make sure to pass them as a dictionary to `DataContainer`. For example, the built-in addition node returns 
 
-```
+```python
 DataContainer(
     x = {'a': a, 'b': b},   # a dictionary of both inputs to the node
     y = numpy.add(a,b)      # add using NumPy to ensure compatibility with all iterable types
@@ -20,7 +20,7 @@ NOTE that as of now, there are few nodes that have incorporated this type.
 
 - `greyscale` / `dataframe` / `matrix` : these three types encapsulate the same fundamental object, a 2D array of data. The differentiation is made to ensure clarity during developement (for example, image processing applications should use the `greyscale` type for binary images, not `matrix` which should be reserved for linear algebra operations). A `DataContainer` object of these types can easily be instantiated by passing the `m` parameter:
 
-```
+```python
 DataContainer(
     type = 'matrix',           # specify type at instantiation
     m = my_processed_matrix,   # the matrix manipulated and returned by the function
