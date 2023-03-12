@@ -25,7 +25,7 @@ def my_custom_function(v, params):
     return DataContainer( ... )
 ```
 
-### Custom Node Inputs
+### Node Inputs
 
 Note that the example function above takes two (2) arguments.
 
@@ -33,7 +33,7 @@ Note that the example function above takes two (2) arguments.
 
 - `params` : this is a new level of node customization that requires us to know more about how Flojoy recognizes what to do with custom nodes.
 
-### The node manifest
+### The Manifest
 
 In the source directory `PYTHON/FUNCTIONS/MANIFEST`, each node has a file of extension `manifest.yaml`, a YAML file that provides certain metadata of the node to Flojoy. The YAML structure must consist of a `COMMAND` key with a dictionary attribute. The dictionary must itself have the following keys:
 

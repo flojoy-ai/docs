@@ -30,7 +30,7 @@ const sidebars = {
     'getting-started',     
     {
       type: 'category',
-      label: 'Custom Nodes',
+      label: 'Node Architecture',
       items: [
         'custom-nodes/custom-nodes', 
         'custom-nodes/data-container',
