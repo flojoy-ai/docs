@@ -8,7 +8,7 @@ Before we begin creating a custom node, we need to first recognize how Flojoy re
 
 ### Flojoy decorator
 
-All node functions in Flojoy require a [decoration](https://peps.python.org/pep-0318/) provided by Flojoy's python package. To begin writting a custom node, in your Python file, add the boilerplate ...
+All node functions in Flojoy require a [decorator](https://peps.python.org/pep-0318/) provided by Flojoy's python package. To begin writting a custom node, in your Python file, add the boilerplate ...
 
 ```python
 from flojoy import flojoy, DataContainer
@@ -18,7 +18,7 @@ from flojoy import flojoy, DataContainer
 
 ```python
 @flojoy
-def my_custom_function(v, params):
+def my_custom_function(dc, params):
     .
     .
     .
@@ -29,7 +29,7 @@ def my_custom_function(v, params):
 
 Note that the example function above takes two (2) arguments.
 
-- `v` : a list of inputs provided to the node instance. They are ordered in the same order as the nodes are attached to the input. Remember that these are objects of type `DataContainer`, so you can access their data via their attributes, such as `v[0].y` etc.
+- `dc` : a list of inputs provided to the node instance. They are ordered in the same order as the nodes are attached to the input. Remember that these are objects of type `DataContainer`, so you can access their data via their attributes, such as `dc[0].y` etc.
 
 - `params` : this is a new level of node customization that requires us to know more about how Flojoy recognizes what to do with custom nodes.
 
