@@ -3,6 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+// Add needed imports for rendering LaTeX in Yarn
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 const title = 'Flojoy';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -38,6 +43,9 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					routeBasePath: '/',
+					// added LaTeX addins
+					remarkPlugins: [math],
+					rehypePlugins: [katex],
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					//   editUrl:
@@ -58,6 +66,14 @@ const config = {
 	],
 	stylesheets: [
 		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+		// added LaTeX addins
+		{
+			href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+			type: 'text/css',
+			integrity:
+			  'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+			crossorigin: 'anonymous',
+		},
 	],
 	plugins: ['docusaurus-plugin-sass'],
 	themeConfig:
