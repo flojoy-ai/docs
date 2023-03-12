@@ -97,6 +97,12 @@ const config = {
 						position: 'right',
 						label: 'Documentation',
 					},
+					{
+						type: 'doc',
+						docId: 'download',
+						position: 'right',
+						label: 'Download'
+					},
 					// { to: "/blog", label: "Blog", position: "left" },
 					{
 						href: 'https://github.com/flojoy-io/docs',
