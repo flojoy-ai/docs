@@ -23,6 +23,7 @@ We can then create our new function using the features discussed [here](../data-
 import numpy as np
 from flojoy import flojoy, DataContainer
 
+@flojoy
 def DIVIDE(dc, params):
 
     a = dc[0].y
@@ -57,3 +58,14 @@ To update the databases with the functionalities of the nodes (including your ne
 python3 write_python_metadata.py
 ```
 
+
+#### Congratulations! You've created your first custom node.
+
+When creating custom nodes, make sure to go through the following steps:
+
+- [x] Did I add my new function to the `__init__.py` of the category in `/PYTHON/FUNCTIONS/`?
+- [x] Did I make my new function correctly?
+  - [x] Did I add the `flojoy` decorator to my function?
+  - [x] Did I pass two arguments to my function, the `DataContainer` inputs and the parameters `params` from the manifest?
+- [x] Did I create a manifest file, correctly adding the correct category key?
+- [x] Did I update the Python metadata?    
