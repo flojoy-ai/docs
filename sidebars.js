@@ -26,7 +26,20 @@ const sidebars = {
     },
   ],
    */
-	main: ['getting-started', 'custom-nodes'],
+	main: [
+    'getting-started',     
+    {
+      type: 'category',
+      label: 'Custom Nodes',
+      items: ['custom-nodes/custom-nodes', 'custom-nodes/data-container'],
+    },
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial'],
+    },
+  ],
+
 };
 
 module.exports = sidebars;

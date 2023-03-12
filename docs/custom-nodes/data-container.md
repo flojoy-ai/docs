@@ -1,12 +1,8 @@
 ---
 sidebar_position: 2
-id: custom-nodes
-title: Custom Nodes
+id: data-container
+title: Data Container
 ---
-
-This section will detail all the needed information to create a custom node in Flojoy. During your development, remember that your custom nodes are just functions in Python, and so you can import whatever you should need. The *de facto* libraries for numeric and scientific processing in Python, `NumPy` and `SciPy`, as well as others such as `OpenCV` are installed by default with Flojoy. 
-
-## The `DataContainer` class
 
 To begin writing custom nodes, there are a few requirements that the main function called by the node must satisfy. All nodes in Flojoy must return an instance of the `DataContainer` class of `flojoy-python`. There are many types of objects that can be passed to `DataContainer`, briefly broken down here:
 
