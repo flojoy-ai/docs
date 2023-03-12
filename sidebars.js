@@ -35,7 +35,8 @@ const sidebars = {
         'custom-nodes/custom-nodes', 
         'custom-nodes/data-container',
         'custom-nodes/manifest',
-        'custom-nodes/creating-custom-node'
+        'custom-nodes/creating-custom-node',
+        'custom-nodes/custom-category'
       ],
     },
     {
