@@ -32,7 +32,7 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
 
 
   </TabItem>
-  <TabItem value="windows" label="windows">
+  <TabItem value="windows" label="Windows">
     Currently, Flojoy can not be natively installed on Windows (sorry!)
   </TabItem>
 </Tabs>
