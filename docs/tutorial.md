@@ -1,7 +1,6 @@
 ---
 sidebar_position: 3
 id: tutorial
-title: tutorial
+title: Signal processing example
 ---
 
-dghdfhdzdegbhiedfuedaglurh
