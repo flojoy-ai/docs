@@ -27,7 +27,14 @@ const sidebars = {
   ],
    */
 	main: [
-    'getting-started',     
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'getting-started',
+        'getting-started/install'
+      ],
+    },   
     {
       type: 'category',
       label: 'Node Architecture',
