@@ -37,3 +37,23 @@ def DIVIDE(dc, params):
 ```
 
 ### Creating the manifest
+
+To register our new node with Flojoy, let's make a new manifest file in `/PYTHON/FUNCTIONS/MANIFEST/`.
+
+```yaml {title='divide.manifest.yaml'}
+COMMAND:
+  - {
+      name: "Div",
+      key: "DIVIDE",
+      type: "ARITHMETIC",
+    }
+```
+
+### Registering the new function with Flojoy
+
+To update the databases with the functionalities of the nodes (including your new custom node), run the following in the root directory:
+
+```bash
+python3 write_python_metadata.py
+```
+
