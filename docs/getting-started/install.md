@@ -36,3 +36,8 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
     Currently, Flojoy can not be natively installed on Windows (sorry!)
   </TabItem>
 </Tabs>
+
+:::info
+
+There will be many terminal windows open after running the script. These correspond to the Django server, Redis, the RQ worker, and the React terminal. Do not panic!
+:::
