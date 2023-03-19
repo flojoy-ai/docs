@@ -35,12 +35,29 @@ Scroll to the bottom for screenshots.
 
 ## Architecture
 
+### Docker
+
+1. Flojoy uses Docker to containerize the whole backend. Its Docker setup is composed of three files: `docker-compose-base.yaml`, `docker-compose-prod.yaml`, and `docker-compose.yaml`.
+2. It has a base image for all the Docker images that only build when something is pushed to the main branch and is pushed to Docker Hub. `docker-compose-prod` is also built when something is pushed to the main branch and also pushed to Docker Hub. `docker-compose-prod` is only used for the Electron app.
+3. `docker-compose` is used to build images on every GitHub CI run as well as when running Docker locally in development mode, which pulls all the images from Docker hub built from `docker-compose-base` as their base image and builds images based on current existing changes.
+
+### CI/CD
+
+1. Flojoy uses a CI/CD pipeline to automate the development, testing, and deployment processes. 
+2. CI runs on every pull request and code push on the development branch. It builds Docker images from the `docker-compose` file and runs all the unit tests as well as end-to-end tests.
+3. CD workflow only runs when some codes are pushed to the main branch. It builds Docker images from `docker-compose-base` and `docker-compose-prod` as well. It also builds Electron distributions when a tag is pushed to the main branch.
+
+### Workflow
+
 1. Flojoy is a single-page React app that hinges on the https://reactflow.dev/ open-source library. Creating the Flow Chart and control dashboard is done entirely in JavaScript (React), without any interaction with a backend service.
-2. React Flow serializes flow chart layout and metadata as JSON. When an app user clicks the "Run Visual Python Script" button, this JSON payload is sent to a Node (Express) server `server.js` through the `/wfc` endpoint ("Write Flow Chart"). Express listens on port 5000, so that `create-react-app` can listen on port 3000 for development purposes (hot reloading). The flow chart object is saved in local storage for convenient access throughout the app.
-3. `server.js` writes the flow chart JSON object to Redis memory, then calls a Python script ([watch.py](https://github.com/jackparmer/flojoy/tree/main/PYTHON/WATCH) that pulls the flowchart object from Redis and munges it into a `networkx` object. (There's a Jupyter notebook in the PYTHON folder that messily illustrates transmorgifying React Flow JSON into a `networkx` object).
-4. As a `networkx` object, it's easy to perform a topological sort to determine the order of Python script execution. The Python scripts corresponding to the React Flow nodes are in the [FUNCTIONS](https://github.com/jackparmer/flojoy/tree/main/PYTHON/FUNCTIONS) folder.
-5. In topological order, the Python functions are queued as jobs in Redis using the RQ (Redis Queue) library - a lighter weight alternative to Celery. As the jobs are queued, attention is paid to which job inputs depend on other job outputs. RQ makes this easy with its `depends_on` kwarg (in the `enqueue` function).
-6. When Python jobs finish, watch.py sets a flag in Redis. The React app polls the Express server (`server.js`) once per second to see if this flag is set. If it is, then `server.js` resets the flag and returns the script results to the frontend where they are visualized in the control panel, logs tab, and flow chart node modals.
+2. React Flow serializes flow chart layout and metadata as JSON. When an app user clicks on the play button, the Front-End sends node metadata to Django, which processes that JSON data and enqueues a watchdog function to the rq worker.
+3. Flojoy has two primary rq workers: `flojoy-watch` and `flojoy`. Where `flojoy-watch` runs the watchdog function, and the other one is for nodes. Django enqueues watchdog to the watch rq worker, and eventually, rq worker executes that watchdog function.
+4. The watchdog function then processes further and enqueues nodes to corresponding rq worker in respect to their execution order. 
+5. Flojoy has its own python library [flojoy](https://pypi.org/project/flojoy/) which exports a decorator function to wrap all the node functions. Rq workers, watchdog, and the decorator all of them communicate with Django with HTTP POST requests on an API.
+6. Django receives these requests and communicates with Front-End with a socket connection to provide real-time data. 
+7. The decorator processes node metadata and prepares all the parameters of the node and looks for any dependency on another node. If the current node depends on other nodes, then it fetches their results from the rq worker and finally calls the node function with its parameter values and dependent node results.
+8. After the node function runs, the decorator collects its result and sends it to Django with a POST API call, which eventually sends them to FE through a socket connection.
+
 
 ## Screenshots!
 
