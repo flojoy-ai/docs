@@ -4,6 +4,9 @@
 # Production
 /build
 
+# gitpod config to prevent unwanted installations
+.gitpod.yml 
+
 # Generated files
 .docusaurus
 .cache-loader
