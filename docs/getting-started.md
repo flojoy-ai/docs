@@ -10,30 +10,24 @@ Flojoy is an open-source desktop app for visual Python scripting.
 
 Using a simple drag-drop interface, pre-written Python scripts are wired together as nodes in a flow chart. These flow charts can be built up into powerful Python apps for **ETL, DAQ, AI, and simulation**. Advanced Python practioners can add their own custom Python scripts as nodes in the flow chart, which can be published and reused by other Flojoy users.
 
-Free & MIT licensed.
+Free & AGPL licensed.
 
 Scroll to the bottom for screenshots.
 
 ## Comparable products and projects
 
 - [Ryven - Flow-based visual scripting for Python](https://ryven.org/) - Heroic open-source effort by a single grad student
-- [Datablocks](https://datablocks.pro/) - Similar idea tp Flojoy, but code blocks are JavaScript instead of Python
-- [Apache Airflow Graph View](https://airflow.apache.org/docs/apache-airflow/stable/ui.html#graph-view). Famous project with some nice DAG visualizers, but requires coding and significant learning investment. Flojoy aspires to enable non-coders with similar Python-based ETL capabilities, within seconds of first using the app.
+- [Datablocks](https://datablocks.pro/) - Similar idea to Flojoy, but code blocks are JavaScript instead of Python
+- [Apache Airflow Graph View](https://airflow.apache.org/docs/apache-airflow/stable/ui.html#graph-view). Famous project with some nice DAG visualizers, but requires coding and significant learning investment. Flojoy aspires to enable non-coders with similar Python-based ETL capabilities, within minutes of first using the app.
 - Alteryx - de facto commercial product for visual ETL scripting
 - LabVIEW - de facto commercial product for visual DAQ scripting
 - AWS Step Function - AWS visual scripting product for ETL and AI
 - Azure ML Studio - Azure visual scripting product for AI and ML
 - [NodeRed](https://nodered.org/) - "Node-RED is a programming tool for wiring together hardware devices, APIs and online services"
 
-## Roadmap to release
-
-- [ ] There are no tests or CI 😬
-- [ ] Respect eslint
-- [ ] The app does not yet work on Windows
-- [ ] Flojoy currently uses an interval in App.js to ping the backend every second with an HTTP request and check the server state (such as whether the job queue is finished). This would be ideally suited for websockets and the `ws` library, allowing real-time feedback on which Python jobs are running and pushing (rather than polling) the result when complete
-- [ ] A builtiin showcase of pedagogical, simple, and fun examples for AI, DAQ, ETL, image processing, simulation, etc
-
 ## Architecture
+
+<img width="606" alt="image" src="https://user-images.githubusercontent.com/1865834/228071258-418c7a14-68a9-4277-ab6b-a798f0889d09.png">
 
 ### Docker
 
@@ -47,7 +41,7 @@ Scroll to the bottom for screenshots.
 2. CI runs on every pull request and code push on the development branch. It builds Docker images from the `docker-compose` file and runs all the unit tests as well as end-to-end tests.
 3. CD workflow only runs when some codes are pushed to the main branch. It builds Docker images from `docker-compose-base` and `docker-compose-prod` as well. It also builds Electron distributions when a tag is pushed to the main branch.
 
-### Workflow
+### Data flow
 
 1. Flojoy is a single-page React app that hinges on the https://reactflow.dev/ open-source library. Creating the Flow Chart and control dashboard is done entirely in JavaScript (React), without any interaction with a backend service.
 2. React Flow serializes flow chart layout and metadata as JSON. When an app user clicks on the play button, the Front-End sends node metadata to Django, which processes that JSON data and enqueues a watchdog function to the rq worker.
