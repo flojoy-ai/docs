@@ -1,4 +1,10 @@
-# Website
+# 📚 docs.flojoy.io
+
+Check 'em out 👉 https://docs.flojoy.io/
+
+***
+
+## Contributing
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
