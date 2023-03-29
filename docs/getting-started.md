@@ -27,7 +27,7 @@ Scroll to the bottom for screenshots.
 
 ## Architecture
 
-<img width="606" alt="image" src="https://user-images.githubusercontent.com/1865834/228071258-418c7a14-68a9-4277-ab6b-a798f0889d09.png">
+<img width="606" alt="image" src="https://user-images.githubusercontent.com/1865834/228071258-418c7a14-68a9-4277-ab6b-a798f0889d09.png" />
 
 ### Docker
 
