@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 id: camera
-title: Camera example
+title: Camera Example
 ---
 
 In this page, we will go through an example of simple data aquisition from a camera using OpenCV. Also covered will be a general guide on how to create a flojoy app including node parameters and saving the app. 

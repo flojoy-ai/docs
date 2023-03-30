@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-id: tutorial
-title: Signal processing example
+id: signal
+title: Signal Processing Example
 ---
 
 In this page, we will go through a fully functional example of a digital signal processing application. In reality, the signal and timing will come from hardware inputs to Flojoy, but for now we simply simulate a noisy digital signal. 
@@ -37,12 +37,12 @@ x(t) &= \overbrace{\cos(2\pi t / 2)}^\text{primary signal}\\
 
 Now that we have our `LINSPACE` node, we need to now create 5 different waveforms with the `SINE` node. We can specify all the frequencies, amplitudes, and phases with the `CTRLS` tab. 
 
-![image](/img/FIR_signal_generation.png)
+![image](/img/FIR/FIR_signal_generation.png)
 *A screenshot from the debug tab of Flojoy with the signal generation for the FIR example. We've connected the output of the `LINSPACE` node to the 5 `SINE` nodes to create a noisy signal*
 
 To finalize our signal, we now need to add them together. To do this, we need 4 `ADD` nodes, and then we are ready to process!
 
-![image](/img/FIR_total_signal.png)
+![image](/img/FIR/FIR_total_signal.png)
 *The total noisy signal viewed in the debug tab of Flojoy*
 
 
@@ -73,12 +73,12 @@ Now having the taps that entirely define our low pass filter, we create our filt
 Connecting all of the pieces together, we can now create an instance of the `FIR` node in Flojoy, connecting first the input signal from the final of the addition nodes. We then connect the times from the linspace node so that we correctly reference the amplitude of the signal for a given time. Connecting the output of `FIR` to a visualize node, we can now finish our application. 
 
 <p float="left" style={{textAlign: 'center'}}>
-  <img src="/img/FIR_noisy_signal.png" width="400" />
-  <img src="/img/FIR_clean_signal.png" width="400" /> 
+  <img src="/img/FIR/FIR_noisy_signal.png" width="400" />
+  <img src="/img/FIR/FIR_clean_signal.png" width="400" /> 
 </p>
 
 *Left: The noisy signal passed as input to the `FIR` node. Right: the cleaned signal passed by the `FIR` node, rendered in the `LINE` visualizer node.*
 
-![image](/img/FIR_complete_app.png)
+![image](/img/FIR/FIR_complete_app.png)
 *The complete FIR signal processing example in Flojoy.*
 #### Congratualtions! You've just completed the digital signal processing example.

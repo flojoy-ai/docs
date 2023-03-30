@@ -49,7 +49,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['tutorial/tutorial', 'tutorial/camera', 'tutorial/ivcurve'],
+      items: ['tutorial/introduction', 'tutorial/signal', 'tutorial/camera', 'tutorial/ivcurve'],
     },
   ],
 
