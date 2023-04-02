@@ -11,7 +11,7 @@ You can learn more about iteration and looping [here](https://en.wikipedia.org/w
 :::
 
 
-### The `for` loop
+## The `for` loop
  One of the most common versions of iteration is the `for` loop. This is the schema specifying that we do some operation for each object in some iterable. Python users will recognize the implementation of `for` loops with the familiar syntax `for <item> in <collection>`. The `for` loop is included in Flojoy with the combination of the `LOOP` and `GOTO` nodes.
 
  <p float="left" style={{textAlign: 'center', justifyItems: 'center'}}>
@@ -44,3 +44,32 @@ To illustrate a simple example of looping in Flojoy, we can add some basic funct
 *The complete iterative subtraction example in the main tab of the Flojoy UI.*
 ![image](/img/looping/loop_controls_subtraction.png)
 *The complete iterative subtraction example in the `CTRLS` tab of Flojoy, showing how to properly connect the `GoTo` node to the `loop` node, as well as illustrating how we can easily change the number of loop iterations, as well as change the amount we subtract at each iteration.*
+
+:::info
+The complete iterative subtraction example can be downloaded [here](/apps/loop_example.txt).
+:::
+
+## The `while` loop
+
+The other common version of iteration implemented in many programming languages is that of the `while` loop (sometimes called a `do` loop) that executes some code until some condition is satisfied. In Python, a basic `while` loop which checks if an accumulator reaches some max value, for example, is easy to write:
+
+```python
+accumulator = 1
+while accumulator < 6:
+  print(accumulator)
+  accumulator += 1
+else:
+  print("accumulator is no longer less than 6")
+```
+
+However, instead of implementing a separate node in Flojoy for such a loop, we can simply provide a break condition for the infinite loop implemented already in the `loop` app. By setting `num_loops` to -1, we iterate the loop forever. We can now add a condition which will break the loop if some expression evaluates to True, thus implementing the `while` loop. We do this with the *conditional* node.
+
+### The `conditional` node
+
+The `conditional` node has two input (target) handles that serve as the left and right sides of some algebraic statement. Should the statement evaluate to True, the conditional node instructs flojoy to execute the nodes connected to the `true` source handle of the node. Otherwise, it executes the code connected to the `false` source handle.
+
+The operation interogated by the node defaults to the 'greater than or equal to' operation. However, many different algebraic operations can be passed to the node through its `OPERATOR_TYPE` parameter, controlled in the `CTRLS` tab of the UI. The operations that can be evaluated are $\le$, $>$, $<$, $\ge$, $\neq$, and $=$.
+
+:::info
+The complete iterative subtraction in a while loop example can be downloaded [here](/apps/while_loop_conditional.txt).
+:::
