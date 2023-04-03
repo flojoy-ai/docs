@@ -31,8 +31,8 @@ def DIVIDE(dc, params):
 
     result = np.divide(a,b) #ensure elementwise
     return DataContainer(
-        type='ordered_pair', 
-        x={'a': a, 'b': b}, 
+        type='ordered_pair',
+        x={'a': a, 'b': b},
         y = result
     )
 ```
@@ -43,12 +43,13 @@ To register our new node with Flojoy, let's make a new manifest file in `/PYTHON
 
 ```yaml {title='divide.manifest.yaml'}
 COMMAND:
-  - {
-      name: "Div",
-      key: "DIVIDE",
-      type: "ARITHMETIC",
-    }
+  - { name: 'Div', key: 'DIVIDE', type: 'ARITHMETIC' }
 ```
+
+### Creating Custom Component ( Frontend )
+
+In Flojoy, you can create custom component for newly created nodes. The Custom Components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
+If you don't register the newly created node type,it will render the `DefaultNode` component.
 
 ### Registering the new function with Flojoy
 
@@ -57,7 +58,6 @@ To update the databases with the functionalities of the nodes (including your ne
 ```bash
 python3 write_python_metadata.py
 ```
-
 
 #### Congratulations! You've created your first custom node.
 
@@ -68,4 +68,4 @@ When creating custom nodes, make sure to go through the following steps:
   - [x] Did I add the `flojoy` decorator to my function?
   - [x] Did I pass two arguments to my function, the `DataContainer` inputs and the parameters `params` from the manifest?
 - [x] Did I create a manifest file, correctly adding the correct category key?
-- [x] Did I update the Python metadata?    
+- [x] Did I update the Python metadata?
