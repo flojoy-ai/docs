@@ -77,5 +77,5 @@ When creating custom nodes, make sure to go through the following steps:
   - [x] Did I add the `flojoy` decorator to my function?
   - [x] Did I pass two arguments to my function, the `DataContainer` inputs and the parameters `params` from the manifest?
 - [x] Did I create a manifest file, correctly adding the correct category key?
-- [x] Did I generated the manifest for the node?
+- [x] Did I generate the manifest for the node?
 - [x] Did I update the Python metadata?
