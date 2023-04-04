@@ -48,8 +48,17 @@ COMMAND:
 
 ### Creating Custom Component ( Frontend )
 
-In Flojoy, you can create custom component for newly created nodes. The Custom Components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
+In Flojoy, you can create custom component for newly created nodes. The custom components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
 If you don't register the newly created node type,it will render the `DefaultNode` component.
+
+```typescript {title='NodeConfigs.ts'}
+import ArithmeticNode from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
+
+export const nodeConfigs = {
+	default: DefaultNode,
+	ARITHMETIC: YOUR_CUSTOM_COMPONENT,
+};
+```
 
 ### Registering the new function with Flojoy
 

@@ -1,10 +1,10 @@
 ---
 sidebar_position: 3
 id: manifest
-title: Node Manifest 
+title: Node Manifest
 ---
 
-Before we begin creating a custom node, we need to first recognize how Flojoy recognizes custom nodes, as well as how to integrate them into an application. 
+Before we begin creating a custom node, we need to first recognize how Flojoy recognizes custom nodes, as well as how to integrate them into an application.
 
 ### Flojoy decorator
 
@@ -53,15 +53,19 @@ COMMAND:
       type: ACTIVE_FEEDBACK,
       parameters:
         {
-          Kp: { type: "float", default: "1" },
-          Ki: { type: "float", default: "0" },
-          Kd: { type: "float", default: "0" },
+          Kp: { type: 'float', default: '1' },
+          Ki: { type: 'float', default: '0' },
+          Kd: { type: 'float', default: '0' },
         },
-      }
+    }
 ```
 
 It is these parameters that can be accessed via the `params` argument in your Flojoy function!
 
-### Updating Flojoy Databases 
+### Updating Flojoy Databases
 
-After creating your new manifest function, we need to update the databases Flojoy refers to for information on the nodes, as well as their actual functionality. To do this, simply run `python3 write_python_metadata.py` in the root directory of Flojoy.
+After creating your new manifest function, we need to update the databases Flojoy refers to for information on the nodes, as well as their actual functionality. To do this, simply run the following in the root directory of Flojoy.
+
+```python
+python3 generate_manifest.py
+```
