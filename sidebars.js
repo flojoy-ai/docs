@@ -51,8 +51,29 @@ const sidebars = {
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['tutorial/introduction', 'tutorial/signal', 'tutorial/camera', 'tutorial/ivcurve'],
+      items: [
+        'tutorial/introduction', 
+        {
+          type: 'category',
+          label: 'Looping',
+          items:[
+            'tutorial/looping',
+            'tutorial/forloop',
+            'tutorial/feedback',
+            'tutorial/whileloop'
+          ]
+        },
+        'tutorial/signal', 
+        'tutorial/camera', 
+        'tutorial/ivcurve'],
     },
+    {
+      type: 'category',
+      label: 'Advanced Usage',
+      items: [
+        'api/smallmemory'
+      ]
+    }
   ],
 
 };
