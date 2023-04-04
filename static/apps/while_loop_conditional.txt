@@ -7,8 +7,8 @@
                 "id": "CONSTANT-435f4278-e15e-4c4e-acf7-804ffd8e3269",
                 "type": "default",
                 "position": {
-                    "x": 511.4485231586806,
-                    "y": 578.4102702366994
+                    "x": 468.5913803015378,
+                    "y": 689.8388416652708
                 },
                 "data": {
                     "id": "CONSTANT-435f4278-e15e-4c4e-acf7-804ffd8e3269",
@@ -26,8 +26,8 @@
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 511.4485231586806,
-                    "y": 578.4102702366994
+                    "x": 468.5913803015378,
+                    "y": 689.8388416652708
                 },
                 "dragging": true
             },
@@ -37,8 +37,8 @@
                 "id": "LOOP-faed7bdc-f766-4742-b48f-d31a7b8083fb",
                 "type": "default",
                 "position": {
-                    "x": 176.76977059079616,
-                    "y": 211.27899553616393
+                    "x": 165.3411991622247,
+                    "y": 178.42185267902101
                 },
                 "data": {
                     "id": "LOOP-faed7bdc-f766-4742-b48f-d31a7b8083fb",
@@ -49,7 +49,7 @@
                         "num_loops": {
                             "functionName": "LOOP",
                             "param": "num_loops",
-                            "value": "20"
+                            "value": "-1"
                         }
                     },
                     "inputs": [
@@ -68,8 +68,8 @@
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 176.76977059079616,
-                    "y": 211.27899553616393
+                    "x": 165.3411991622247,
+                    "y": 178.42185267902101
                 },
                 "dragging": true
             },
@@ -93,13 +93,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 450.1463762144589,
-                    "y": 303.1545515212306
+                    "x": 508.71780478588744,
+                    "y": 473.15455152123064
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 450.1463762144589,
-                    "y": 303.1545515212306
+                    "x": 508.71780478588744,
+                    "y": 473.15455152123064
                 },
                 "dragging": true
             },
@@ -124,13 +124,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 869.1740372166635,
-                    "y": 390.73996449013157
+                    "x": 957.745465788092,
+                    "y": 509.3113930615601
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 869.1740372166635,
-                    "y": 390.73996449013157
+                    "x": 957.745465788092,
+                    "y": 509.3113930615601
                 },
                 "dragging": true
             },
@@ -154,13 +154,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 1429.4355372006207,
-                    "y": 613.2242631680463
+                    "x": 1659.4355372006207,
+                    "y": 513.2242631680463
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 1429.4355372006207,
-                    "y": 613.2242631680463
+                    "x": 1659.4355372006207,
+                    "y": 513.2242631680463
                 },
                 "dragging": true
             },
@@ -178,13 +178,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 657.962280393558,
-                    "y": 103.70352854221525
+                    "x": 1656.5337089649865,
+                    "y": 237.98924282792953
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 657.962280393558,
-                    "y": 103.70352854221525
+                    "x": 1656.5337089649865,
+                    "y": 237.98924282792953
                 },
                 "dragging": true
             },
@@ -208,13 +208,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 649.8754728773727,
-                    "y": 291.5691430363213
+                    "x": 705.5897585916583,
+                    "y": 467.2834287506071
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 649.8754728773727,
-                    "y": 291.5691430363213
+                    "x": 705.5897585916583,
+                    "y": 467.2834287506071
                 },
                 "dragging": true
             },
@@ -260,37 +260,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 1122.9068137088684,
-                    "y": 399.4859858394027
+                    "x": 1235.7639565660115,
+                    "y": 455.20027155368837
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 1122.9068137088684,
-                    "y": 399.4859858394027
-                },
-                "dragging": true
-            },
-            {
-                "width": 150,
-                "height": 135,
-                "id": "END-2cfa7938-cf32-4707-a85f-f36a12c3357c",
-                "type": "TERMINATOR",
-                "data": {
-                    "id": "END-2cfa7938-cf32-4707-a85f-f36a12c3357c",
-                    "label": "END_1",
-                    "func": "END",
-                    "type": "TERMINATOR",
-                    "ctrls": {},
-                    "selected": false
-                },
-                "position": {
-                    "x": 1479.5175285305809,
-                    "y": 310.089727792325
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 1479.5175285305809,
-                    "y": 310.089727792325
+                    "x": 1235.7639565660115,
+                    "y": 455.20027155368837
                 },
                 "dragging": true
             }
@@ -354,17 +330,17 @@
             },
             {
                 "source": "CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6e",
-                "sourceHandle": "true",
-                "target": "END-2cfa7938-cf32-4707-a85f-f36a12c3357c",
-                "targetHandle": "END",
-                "id": "reactflow__edge-CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6etrue-END-2cfa7938-cf32-4707-a85f-f36a12c3357cEND"
-            },
-            {
-                "source": "CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6e",
                 "sourceHandle": "false",
                 "target": "GOTO-d1e8f8ee-4907-4fd5-9d89-2f65351c2263",
                 "targetHandle": "GOTO",
                 "id": "reactflow__edge-CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6efalse-GOTO-d1e8f8ee-4907-4fd5-9d89-2f65351c2263GOTO"
+            },
+            {
+                "source": "CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6e",
+                "sourceHandle": "true",
+                "target": "END-12d90ef2-4084-4532-94f2-dde2ba198b79",
+                "targetHandle": "END",
+                "id": "reactflow__edge-CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6etrue-END-12d90ef2-4084-4532-94f2-dde2ba198b79END"
             }
         ],
         "viewport": {
@@ -385,10 +361,11 @@
                 "id": "CONDITIONAL_CONDITIONAL_operator_type",
                 "functionName": "CONDITIONAL",
                 "param": "operator_type",
-                "nodeId": "CONDITIONAL-2e565212-13e4-497c-89ca-2440fb98f68c",
-                "inputId": "ctrl-3280c18b-84d7-4f72-a6ab-5b4721123c92"
+                "nodeId": "CONDITIONAL-ae1199d4-b2bf-4190-b8c7-dfa70f092b6e",
+                "inputId": "ctrl-3280c18b-84d7-4f72-a6ab-5b4721123c92",
+                "type": "string"
             },
-            "val": "<=",
+            "val": ">=",
             "layout": {
                 "w": 2,
                 "h": 2,

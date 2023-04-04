@@ -52,7 +52,16 @@ const sidebars = {
       label: 'Tutorial',
       items: [
         'tutorial/introduction', 
-        'tutorial/looping',
+        {
+          type: 'category',
+          label: 'Looping',
+          items:[
+            'tutorial/looping',
+            'tutorial/forloop',
+            'tutorial/feedback',
+            'tutorial/whileloop'
+          ]
+        },
         'tutorial/signal', 
         'tutorial/camera', 
         'tutorial/ivcurve'],
