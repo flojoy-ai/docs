@@ -14,4 +14,4 @@ In order to contribute your own custom node,
 - We have a [Pull Request Template](https://github.com/flojoy-io/nodes/blob/main/pull_request_template.md) for nodes repository that must be followed by the developer.
 - After that, back to the **studio** root directory, you should also push it to remote. And **studio** repository also has a seperate pull request strategy, the only difference is we give the PR to the develop branch and later the develop branch is merged with main. So Anyone try to create a branch in **studio** project it has to be created from develop. And also in order to give a pull request ( studio repository ), the developer must include the nodes repository pull request link in it.
 
-This way the **nodes** submodule will be tracked in the **stuio** repository by the latest commit hash also the pull requests will be in sync as well.
+This way the **nodes** submodule will be tracked in the **studio** repository by the latest commit hash also the pull requests will be in sync as well.
