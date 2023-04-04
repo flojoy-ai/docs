@@ -66,6 +66,13 @@ const sidebars = {
         'tutorial/camera', 
         'tutorial/ivcurve'],
     },
+    {
+      type: 'category',
+      label: 'Advanced Usage',
+      items: [
+        'api/smallmemory'
+      ]
+    }
   ],
 
 };
