@@ -8,6 +8,11 @@ There are instances where a custom node will need to store complicated data such
 
 To this aim, we have implemented the `SmallMemory` class in `flojoy-python`. It is a helper API that is geared to allowing developers to store custom data in Redis such that it can be easily accessed later in the execution of the app. The most common robust datatype that requires storage is usually `NumPy` arrays. However, the `SmallMemory` class is capable of the reading and writing of many data types from Redis.
 
+To use the `SmallMemory` class, we simply import it in the header of our custom node via:
+
+```python
+from node_sdk.small_memory import SmallMemory
+```
 :::info
 
 Flojoy automatically garbage collects all data that is stored at the end of a job, so the user need only concern themselves with the reading and writing of the data (how very Python!)
