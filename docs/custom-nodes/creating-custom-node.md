@@ -52,11 +52,11 @@ In Flojoy, you can create custom component for newly created nodes. The custom c
 If you don't register the newly created node type,it will render the `DefaultNode` component.
 
 ```typescript {title='NodeConfigs.ts'}
-import ArithmeticNode from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
+import MyCustomComponent from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
 
 export const nodeConfigs = {
 	default: DefaultNode,
-	ARITHMETIC: YOUR_CUSTOM_COMPONENT,
+	ARITHMETIC: MyCustomComponent,
 };
 ```
 
