@@ -16,6 +16,10 @@ Also covered will be a general guide on how to create a flojoy app including nod
 - A computer which is connected to the Keithley 2400 with a serial communication cable. 
 
 
+![image](/img/ivcurve/KEITHLEY2400_setup.jpg)
+*Setup with a computer, a Keithley2400 sourcemeter, a solar cell for testing and artificial sun*
+
+
 
 **SOFTWARE** : In order to record an IV curve you'll need to use our software Flojoy, you can follow these instructions https://docs.flojoy.io/getting-started/install/ in order to use the software on your computer
 
@@ -29,10 +33,24 @@ Also covered will be a general guide on how to create a flojoy app including nod
 
 - Selecting the nodes you need for your IV curve : LINSPACE (in Generators, SIMULATION) ; KEITHLEY2400 (in Instruments, KEITHLEY2400) ; LINE (in Visualizations, VISOR) and finally END (in Terminator, TERMINATOR). Place them and connect them together on the graphical interface :  
 
+![image](/img/ivcurve/KEITHLEY2400_nodes.png)
+*Choose the nodes you'll need from this menu*
+
+After selecting your nodes from the menu you should have an interface similar to this :
+
+![image](/img/ivcurve/KEITHLEY2400_nodes1.png)
+*Classical setup for an IV curve measurement*
+
+
 - Choosing the parameters for your experiment, you need to go to the Controle section by clicking on CTRLS and then toggle Edit, after that you can clisk on the button "add" and choose the type of parameters you want to add, to start we'll add NUMERIC INPUT to define our voltages range : 
   LINSPACE START : Define your first Voltage 
   LINSPACE END : Define your last Voltage 
   LINSPACE STEP : Define the number of voltages between the first and the last one. 
+  
+  Here's a look at the CRTL section after defining the LINSPACE parameters : 
+  
+  ![image](/img/ivcurve/KEITHLEY2400_parameters.png)
+  * Crtl section after defining the parameters for LINSPACE* 
   
 - After that you'll need to select your serial communication parameters for the Comport, you'll need to add a TEXT INPUT : 
   KEITHLEY2400 COMPORT : Define your communication port where the sourcemeter is connected (Default is : /dev/tty/USBO (Linux))
@@ -40,5 +58,8 @@ Also covered will be a general guide on how to create a flojoy app including nod
     
 - Last step : When you have defined all your parameters, you should turn on your sourcemeter, place your solar cell under the light and click "PLAY" in order to start the experiment. The LINSPACE will generate data that will be send as voltage to the instrument and we'll record the output current from the solar cell. 
 
-- The plot will be available in the "Debug" section where you can use your data and play with it using Plotly interface.    
+- The plot will be available in the "Debug" section where you can use your data and play with it using Plotly interface. 
+
+![image](/img/ivcurve/KEITHLEY2400_ivcurve.png)
+  
 - When you are done you can save the Flojoy interface in your computer so you'll be able to use it again for other measurements. 
