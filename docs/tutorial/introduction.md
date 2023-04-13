@@ -51,23 +51,24 @@ On some platforms the delete button will delete nodes, while on others backspace
 
 Then with the default nodes cleared we can add ours. Click on "Add Node" at the top right and click on "Generators -> SIMULATION -> Random (Uniform)" in the submenu that opens up. 
 
-# Add pictures of the submenu
+![image](/img/introduction/add_nodes.png)
+*The add node submenu.*
 
-This is your first node! This one creates randomized data. Next add two more nodes: Histogram and a terminator. You can use the search bar at the top of the submenu to easily find specific nodes.
+This is your first node! This one creates randomized data. Next add two more nodes: linspace, scatter, histogram and a terminator (or end). You can use the search bar at the top of the submenu to easily find specific nodes. Next arange the nodes as below. The exact placment of nodes is not important, the node connections do.
 
-# Add a picture of the search bar
+![image](/img/introduction/nodes.png)
+*The exact placement of the nodes is not too important.*
+
+Next connect the nodes together. To do this, click and drag starting from one of the small boxes at the left or right of a node. Connect the nodes as seen below. Note the flojoy will run the nodes in order from left to right.
+
+![image](/img/introduction/connections.png)
+*The connections must match exactly.*
 
 ### Running and saving the app.
 
-At the top right of the interface click on "SCRIPT". You can then click the blue "Play" button at the top right to run the app. If one node turns red an error has occurred in that node. You can click on "DEBUG" to see a summary of  the output from each node.
+At the top right of the interface click on "SCRIPT". You can then click the blue "Play" button at the top right to run the app. If one node turns red an error has occurred in that node. Great! You've ran you're first app. You can click on "DEBUG" to see a summary of the output from each node (DEBUG is one of three tabs in the top left).
 
-To save the app for later use, click on "File -> Save As" in the top right and save the txt file with the desired name and location. You can also load an already saved app from here.
+To save the app for later use, click on "File -> Save As" in the top right and save the txt file with the desired name and location. You can also load an already saved app from here as well using "File -> Load".
 
-# Next sections can be left for a new section?
-
-### Adding the CTRLS/parameters.
-
-The next step is the addition of the CTRLS (controls) which allow control over behavior of indiviual nodes. In the top left of the interface, click "CTRLS". Then in the top right click on the grey switch next to "Edit". It will turn green. Click on the the "+ Add" button to add controls. A submenu will open allowing you to choose controls to add. 
-
-
-
+![image](/img/introduction/results.png)
+*The results can be seen in the DEBUG menu.*

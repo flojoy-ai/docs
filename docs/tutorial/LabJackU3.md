@@ -35,7 +35,7 @@ When you have these 4 connections, your setup is ready, you can place your senso
 
 The LabJack Node doesn't need any data input, so it can be placed on the left on the interface : 
 
-![image](/img/labjacku3/LABJACKU3_nodes.jpg)
+![image](/img/labjacku3/LABJACKU3_node.png)
 *Classical node placement for temperature measurements*
 
 You'll need to setup one parameters in the CRTL panel which is the number of temperature sensors you are using for your experiment : 
@@ -44,5 +44,5 @@ After that you can choose your Visualisation node that fits your project to disp
 
 Also you can use the loop node (See documentation) in order to update the temperature measurements, you can set the parameters you want for the loops (Delay, number of loops, etc..) 
 
-![image](/img/labjacku3/LABJACKU3_nodeswithloop.jpg)
+![image](/img/labjacku3/LABJACKU3_nodewithloop.png)
 
