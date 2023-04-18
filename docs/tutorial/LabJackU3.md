@@ -1,4 +1,4 @@
-- This is a tutorial for using the node called LabJAck u3 in order to measure temperature with  temperature sensors (Add models)
+- This is a tutorial for using the node called LabJAck u3 in order to measure temperature with  temperature sensors (Lm34 Caz/Nopb)
 
 
 **- Hardware required** : 
