@@ -1,13 +1,13 @@
 - This is a tutorial for using the node called Phidget 22 and measure pressures from Flexiforce sensors using a Phidget InterfaceKit
 
 
-** Hardware required** : 
+**Hardware required** : 
 - A Phidget InterfaceKit (Model 8/8/8 1018_3 is the one we used to develop the node)
 - N pressure sensors (This tutorial will present measurement from FlexiForce sensor but you can use all the Sensors compatible with Phidget.
 - Connections cables (USB, Electronic cables)
 
 
-** Software required :**
+**Software required :**
 - Flojoy software running (Go to the page -- Getting started/Installation)
 - Phidget 22 PAckage -- (It should be installed automatically from Requirements) (Otherwise follow docs from : https://www.phidgets.com/docs/Main_Page)
 
