@@ -17,10 +17,10 @@ You need to connect the LABJACKU3 Device to your computer with an USB cable.
 The you need to connect the temperature sensor to the Labjacku3 device. 
 Before that if you use the LM34Caz/Nopb you'll need to add a small resistor between the Vout and the LabJack device to the circuit to protect the sensor (see pictures) :
 
-![image](/img/labjacku3/LABJACKU3_sensor.jpg)
+![LM34 connections](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998838/flojoy-docs/Labjacku3/LABJACKU3_sensor_dphqly.jpg)
 *Connection on the LM34 temperature sensor* 
 
-![image](/img/labjacku3/LABJACKU3_connections.jpg)
+![Cable connections](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998837/flojoy-docs/Labjacku3/LABJACKU3_connections_ojffn2.jpg)
 *Connection between the sensor and the LabjackU3 device*
 
 The connections are describe here on the pictures below (Left LabJack and right Sensors pin) : 
@@ -35,7 +35,7 @@ When you have these 4 connections, your setup is ready, you can place your senso
 
 The LabJack Node doesn't need any data input, so it can be placed on the left on the interface : 
 
-![image](/img/labjacku3/LABJACKU3_node.png)
+![Labjack nodes](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998837/flojoy-docs/Labjacku3/LABJACKU3_nodes_nenhsn.png)
 *Classical node placement for temperature measurements*
 
 You'll need to setup one parameters in the CRTL panel which is the number of temperature sensors you are using for your experiment : 
@@ -44,5 +44,6 @@ After that you can choose your Visualisation node that fits your project to disp
 
 Also you can use the loop node (See documentation) in order to update the temperature measurements, you can set the parameters you want for the loops (Delay, number of loops, etc..) 
 
-![image](/img/labjacku3/LABJACKU3_nodewithloop.png)
+![Labjack Node with loop](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998837/flojoy-docs/Labjacku3/LABJACKU3_nodeswithloop_wcn0c1.png)
+*Labjack node used with a loop to update temperature measurements*
 
