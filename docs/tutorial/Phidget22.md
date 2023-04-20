@@ -15,18 +15,18 @@
 - Connect the PHIDGET Interfacekit to your computer with an USB Cable
 - Connect the Flexiforce sensors with the Phidget Interfacekit using a Flexiforce adapter (See Image)
 
-![image](/img/phidget22/PHIDGET22_sensor.jpg)
+![Phidget-sensor](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998936/flojoy-docs/Phidget22/Phidget22_sensor_somv3v.jpg)
 
 **Node Management :** 
 
 The PHIDGET22 node doesn't need any data input, so it can be placed on the left on the Flojoy interface : 
 
-![image](/img/phidget22/PHIDGET22_nodes.png)
+![Phidget-nodes](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998928/flojoy-docs/Phidget22/PHIDGET22_nodeswithloop_fcsmeg.png)
 
 You'll need to setup one numeric parameters in the CRTL panel which is the number of pressure sensors you are using for your experiment. 
 Note that the node is measuring voltage from the sensors (The calibration will depends on the type of sensor you are using)
 
-![image](/img/phidget22/PHIDGET22_ctrl.png)
+![Phidget control](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998928/flojoy-docs/Phidget22/PHIDGET22_ctrl_kulmpk.png)
 
 **Calibration :** 
 
@@ -42,6 +42,6 @@ After that you can choose your Visualisation node that fits your project to disp
 Also you can use the loop node (See documentation) in order to update the measurements, you can set the parameters you want for the loops
 (Delay, number of loops, etc..) 
 
-![image](/img/phidget22/PHIDGET22_nodeswithloop.png)
+![Phidgets nodes with loop](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998928/flojoy-docs/Phidget22/PHIDGET22_nodes_frmvux.png)
 
 
