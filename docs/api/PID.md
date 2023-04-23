@@ -15,7 +15,7 @@ These three modes of control provide a powerful toolbox to drive potentially ver
 ![image](/img/active_feedback/PID.png)
 *This is the typical schematic of the PID controller, where the input signal is weighted in its intensity, integral, and derivative by coefficients $K_p$, $K_I$, and $K_D$ respectively before being summed and passed to the control system.*
 
-This would seem to indicate that the following will be true for the system output $u$ for a given sampling time $T$:
+This would seem to indicate that the following will be true for the controller output $u$ for a given sampling time $T$:
 
 $$
 u_n = K_p e_n + TK_I\sum_n e_n + \frac{K_D}{T}(e_n-e_{n-1})
