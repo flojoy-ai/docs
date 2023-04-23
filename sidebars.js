@@ -71,7 +71,16 @@ const sidebars = {
       type: 'category',
       label: 'Advanced Usage',
       items: [
-        'api/smallmemory'
+        'api/smallmemory',
+        {
+          type: 'category',
+          label: 'Active Feedback Control',
+          items: [
+            'api/active_feedback',
+            'api/model_systems',
+            'api/pid'
+          ],
+        },
       ]
     }
   ],

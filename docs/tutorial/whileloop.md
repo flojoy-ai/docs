@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 id: whileloop
-title: Conditions and while
+title: Conditions and WHILE
 ---
 
 The other common version of iteration implemented in many programming languages is that of the `while` loop (sometimes called a `do` loop) that executes some code until some condition is satisfied. In Python, a basic `while` loop which checks if an accumulator reaches some max value, for example, is easy to write:

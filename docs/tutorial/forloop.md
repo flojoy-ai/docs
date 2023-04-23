@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 id: forloop
-title: The for loop
+title: The FOR loop
 ---
 
 One of the most common versions of iteration is the `for` loop. This is the schema specifying that we do some operation for each object in some iterable. Python users will recognize the implementation of `for` loops with the familiar syntax `for <item> in <collection>`. The `for` loop is included in Flojoy with the combination of the `LOOP` and `GOTO` nodes.
