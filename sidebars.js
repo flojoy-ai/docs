@@ -50,7 +50,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Tutorials',
       items: [
         'tutorial/introduction', 
         {
@@ -63,9 +63,18 @@ const sidebars = {
             'tutorial/whileloop'
           ]
         },
+               {
+          type: 'category',
+          label: 'Metrology',
+          items:[
+            'tutorial/ivcurve',
+            'tutorial/Phidget22',
+            'tutorial/LabJackU3',
+          ]
+        },
         'tutorial/signal', 
         'tutorial/camera', 
-        'tutorial/ivcurve'],
+        ],
     },
     {
       type: 'category',
