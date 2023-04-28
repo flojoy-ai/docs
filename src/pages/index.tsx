@@ -44,14 +44,6 @@ function HomepageHeader() {
 								Download For Mac
 							</Link>
 						</div>
-						<div className={styles.buttons}>
-							<Link
-								className="button button--primary button--lg button--round"
-								to="/getting-started/install"
-							>
-								Get Started
-							</Link>
-						</div>
 					</div>
 				</div>
 			</header>

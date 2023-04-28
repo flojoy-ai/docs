@@ -14,14 +14,14 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
   - It may be worthwhile to create a virtual environment to use with Flojoy to ensure cross-module compatibility. You can find instruction on how to create a Python virtual env [here](https://docs.python.org/3.10/library/venv.html) (only for Mac/Unix)
 - Node
   - `Nodejs` is required to run the primary application. You can see the installation instructions for `Nodejs` [here](https://nodejs.org/en/download/package-manager/).
-- Redis (For Mac/Unix)
+- Redis (For Mac & Linux)
   - Redis is an open-source, in-memory data store used by Flojoy. It can be installed by the instructions [here](https://redis.io/docs/getting-started/installation/).
 - Memurai (For Windows)
   - Memurai is an alternative of Redis for Windows platform. It can be downloaded and installed from official website [here](https://www.memurai.com/get-memurai)
 
-<Tabs>
-  <TabItem value="unix" label="Mac/Unix" default>
-    To install Flojoy on UNIX:
+<Tabs groupId="platform" queryString="platform">
+  <TabItem value="unix" label="Mac & Linux">
+    To install Flojoy on Mac & Linux:
 
 1. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: `git clone --recursive https://github.com/flojoy-io/studio.git`
 2. CD into the project root `cd studio` 
