@@ -10,12 +10,7 @@ Suppose we wanted to contribute a node that divides two items elementwise (for t
 
 ### Creating the source files
 
-To start, we create the file `divide.py` inside `/PYTHON/FUNCTIONS/ARITHMETIC`, and add the divide function to the `__all__` variable inside `__init__.py` of the same directory.
-
-```diff {title='__init__.py'}
-- __all__ = ["ADD", "MULTIPLY", "SUBTRACT"]
-+ __all__ = ["ADD", "MULTIPLY", "SUBTRACT", "DIVIDE"]
-```
+To start, we create the file `divide.py` inside `/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/`. Each node must have its own folder. 
 
 We can then create our new function using the features discussed [here](../data-container).
 
@@ -39,7 +34,7 @@ def DIVIDE(dc, params):
 
 ### Creating the manifest
 
-To register our new node with Flojoy, let's make a new manifest file in `/PYTHON/FUNCTIONS/MANIFEST/`.
+To register our new node with Flojoy, let's make a new manifest file in `/PYTHON/nodes/MANIFEST/`.
 
 ```yaml {title='divide.manifest.yaml'}
 COMMAND:
@@ -48,7 +43,7 @@ COMMAND:
 
 ### Creating Custom Component ( Frontend )
 
-In Flojoy, you can create custom component for newly created nodes. The custom components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
+In Flojoy, you can create custom component for newly created nodes (i.e. shape and node connections). The custom components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
 If you don't register the newly created node type,it will render the `DefaultNode` component.
 
 ```typescript {title='NodeConfigs.ts'}
@@ -62,6 +57,10 @@ export const nodeConfigs = {
 
 ### Registering the new function with Flojoy
 
+:::info
+This is now performed at startup of Flojoy.
+:::
+
 To update the databases with the functionalities of the nodes (including your new custom node), run the following in the root directory:
 
 ```bash
@@ -72,7 +71,6 @@ python3 write_python_metadata.py
 
 When creating custom nodes, make sure to go through the following steps:
 
-- [x] Did I add my new function to the `__init__.py` of the category in `/PYTHON/FUNCTIONS/`?
 - [x] Did I make my new function correctly?
   - [x] Did I add the `flojoy` decorator to my function?
   - [x] Did I pass two arguments to my function, the `DataContainer` inputs and the parameters `params` from the manifest?
