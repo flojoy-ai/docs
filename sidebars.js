@@ -63,19 +63,35 @@ const sidebars = {
             'tutorial/whileloop'
           ]
         },
-               {
+         {
           type: 'category',
-          label: 'Metrology',
+          label: 'Signal Processing',
           items:[
-            'tutorial/ivcurve',
-            'tutorial/Phidget22',
-            'tutorial/LabJackU3',
-          ]
-        },
-        'tutorial/signal', 
-        'tutorial/camera', 
+                'tutorial/signal',
+           ]
+           },
+
+        
         ],
     },
+   {
+        type: 'category',
+          label: 'App demo',
+           items:[
+           {
+          type: 'category',
+          label: 'Instruments',
+          items:[
+            'tutorial/camera',
+            'tutorial/LabJackU3'
+            'tutorial/ivcurve',
+            'tutorial/Phidget22',
+            'tutorial/Stepper motor driver Tic'
+          ]
+           },
+         ]
+        },
+   
     {
       type: 'category',
       label: 'Advanced Usage',
