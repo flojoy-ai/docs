@@ -64,7 +64,7 @@ const sidebars = {
           label: 'AI and Machine Learning',
           items:[
            ]
-             }
+             },
            {
           type: 'category',
           label: 'Instruments',
