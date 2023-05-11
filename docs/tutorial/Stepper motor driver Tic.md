@@ -1,49 +1,45 @@
-This is a tutorial for using the nodes called Stepper Motor driver Tic and Stepper Driver motor Tic Knob in order to control a motor with the Flojoy App
+# Stepper motor control
 
-**Hardware required :**
+This is a tutorial for using the Flojoy nodes
+- Stepper Motor driver Tic, and 
+- Stepper Driver motor Tic Knob 
+- in order to control a motor with the Flojoy Studio
 
-- A Motor (Nema 15-23)
-- A Tic motor driver (All models are available and should work with these nodes) -- TIC T825 was used for experimentation. 
-- A Power Supply wich enough power to run the driver and the motor. (You'll need to setup the good current value depending on the motor size you are using)
-- Connections cables (USB, Electronic cables)
+## Hardware required
+
+- A stepper motor (we used a [Nema 15-23](https://www.pololu.com/category/140/nema-23-stepper-motors))
+- A Tic motor driver (we used a [TIC T825](https://www.pololu.com/product/3131), but any Tic driver should work).
+- A power supply with enough power to run the driver and  motor. (You'll need to setup the current value depending on your motor and your driver)
+- Connection cables (USB, power supply leads, etc)
 
 ![TIC Driver Connections](https://res.cloudinary.com/dhopxs1y3/image/upload/v1683653875/steppermotor_z7yaly.jpg)
 *Connection between the computer, the Tic driver, the stepper motor and the power supply* 
 
+## Software required
 
-**Software required :**
+Flojoy Studio (please see [Getting Started/Installation](https://docs.flojoy.io/getting-started/install/))
 
-Flojoy software running (Go to the page -- Getting started/Installation)
+## Flojoy Node Management
+- Input data: None
+- Output node: End (To stop the process)
 
+You don't necessarily need any node placed before the stepper motor nodes - the only data needed by the nodes is provided by the node's parameters.
 
-**Node Management :**
-- Input data : None
-- Output node : End (To stop the process)
+## Node Parameters
 
-You don't need to have a node placed before the stepper motor nodes because the only data needed by the nodes is set up with the parameters. 
+There are two types of nodes for the Tic motor driver: 
 
-**Parameters : **
-
-- We have two types of node for the motor driver : 
-
-First the Stepper Driver Tic node which allows you to set 2 different speeds and 4 positions for the stepper motor. 
-The motor will move to the first two positions with first speed parameters and then move to position 3 and 4 with the second speed parameters 
-(You can set the same speed for both and reduce the number of movement by settting the same position for 2,3 and 4)
-
+1. First, the *Stepper Driver Tic node* which allows you to set 2 different speeds and 4 positions for the stepper motor. 
+# TODO: Update this for an arbitrary number of positions, speeds, and sleep times
 ![Stepper node classic](https://res.cloudinary.com/dhopxs1y3/image/upload/v1683653875/steppernode_mssx65.png)
 *Flojoy interface with the classic node* 
 
-
-
-Secondly the Stepper Driver Tic Knob node which allows you to control the rotation of the motor with a knob. 
+2. Secondly, the *Stepper Driver Tic Knob* node which allows you to control the rotation of the motor with a knob. 
 You can choose the motor rotation with the value of the knob (From 0 to 100 is corresponding to a rotation between 0 and 360 degrees)
-
 ![Stepper node knob](https://res.cloudinary.com/dhopxs1y3/image/upload/v1683653875/steppernodeknob_qhsk73.png)
 *Flojoy interface with the knob node* 
 
-At the end of the process the stepper motor will be placed in the last position set up and wait for a new parameters for the next movement. 
-It should be possible to use these nodes with the LOOP node in order to make a repetitive movement with the motor. 
-
+TODO: Example that uses these nodes with the LOOP node in order to make a repetitive movement with the motor. 
 
 
 
