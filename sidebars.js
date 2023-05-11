@@ -54,6 +54,21 @@ const sidebars = {
       items: [
         'tutorial/introduction', 
         {
+        type: 'category',
+          label: 'App demo',
+           items:[
+           {
+          type: 'category',
+          label: 'Instruments',
+          items:[
+            'tutorial/camera',
+            'tutorial/LabJackU3',
+            'tutorial/ivcurve',
+            'tutorial/Phidget22',
+            'tutorial/Stepper motor driver Tic'
+          ]
+           },
+          {
           type: 'category',
           label: 'Looping',
           items:[
@@ -70,27 +85,8 @@ const sidebars = {
                 'tutorial/signal',
            ]
            },
-
-        
         ],
     },
-   {
-        type: 'category',
-          label: 'App demo',
-           items:[
-           {
-          type: 'category',
-          label: 'Instruments',
-          items:[
-            'tutorial/camera',
-            'tutorial/LabJackU3',
-            'tutorial/ivcurve',
-            'tutorial/Phidget22',
-            'tutorial/Stepper motor driver Tic'
-          ]
-           },
-         ]
-        },
    
     {
       type: 'category',
