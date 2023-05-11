@@ -59,10 +59,6 @@ const sidebars = {
         type: 'category',
           label: 'App demo',
            items:[
-             {
-          type: 'category',
-          label: 'AI and Machine Learning',
-             },
            {
           type: 'category',
           label: 'Instruments',
