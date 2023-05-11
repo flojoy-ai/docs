@@ -62,8 +62,6 @@ const sidebars = {
              {
           type: 'category',
           label: 'AI and Machine Learning',
-          items:[
-           ]
              },
            {
           type: 'category',
