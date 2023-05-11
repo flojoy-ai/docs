@@ -101,6 +101,20 @@ const sidebars = {
           },
                 ]
         },
+            
+                  {
+        type: 'category',
+          label: 'Transformers',
+           items:[
+          {
+          type: 'category',
+          label: 'Signal Processing',
+          items:[
+                'tutorial/signal',
+                ]
+           },
+                ]
+        },
         ],
     },
    ],
