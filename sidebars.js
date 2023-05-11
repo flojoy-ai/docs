@@ -95,6 +95,8 @@ const sidebars = {
            },
         ],
     },
+   ],
+  },
    
     {
       type: 'category',
