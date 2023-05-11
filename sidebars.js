@@ -48,6 +48,8 @@ const sidebars = {
         'custom-nodes/contributing-nodes'
       ],
     },
+   
+   
     {
       type: 'category',
       label: 'Tutorials',
@@ -57,6 +59,12 @@ const sidebars = {
         type: 'category',
           label: 'App demo',
            items:[
+             {
+          type: 'category',
+          label: 'AI and Machine Learning',
+          items:[
+           ]
+             }
            {
           type: 'category',
           label: 'Instruments',
@@ -105,7 +113,5 @@ const sidebars = {
       ]
     }
   ],
-
-};
 
 module.exports = sidebars;
