@@ -83,7 +83,7 @@ const sidebars = {
           label: 'Instruments',
           items:[
             'tutorial/camera',
-            'tutorial/LabJackU3'
+            'tutorial/LabJackU3',
             'tutorial/ivcurve',
             'tutorial/Phidget22',
             'tutorial/Stepper motor driver Tic'
