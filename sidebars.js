@@ -59,31 +59,20 @@ const sidebars = {
         type: 'category',
           label: 'App demo',
            items:[
-            
-                 {
+      {
         type: 'category',
           label: 'Generator',
            items:[
           {
           type: 'category',
-          label: 'Simulation - Signal Processing',
+          label: 'Simulation',
           items:[
                 'tutorial/signal',
                 ]
            },
                 ]
         },
-            
-        {
-          type: 'category',
-          label: 'Looping',
-          items:[
-            'tutorial/looping',
-            'tutorial/forloop',
-            'tutorial/feedback',
-            'tutorial/whileloop'
-          ]
-        },
+
            {
           type: 'category',
           label: 'Instruments',
@@ -94,7 +83,24 @@ const sidebars = {
             'tutorial/Phidget22',
             'tutorial/Stepper motor driver Tic'
           ]
-           },
+           },    
+                        
+       {
+        type: 'category',
+          label: 'Logic Gates',
+           items:[ 
+         {
+          type: 'category',
+          label: 'Looping',
+          items:[
+            'tutorial/looping',
+            'tutorial/forloop',
+            'tutorial/feedback',
+            'tutorial/whileloop'
+                ]
+          },
+                ]
+        },
         ],
     },
    ],
