@@ -91,6 +91,18 @@ const sidebars = {
                  ],
            },
                 ]
+        },   
+       {
+        type: 'category',
+          label: 'Extractors',
+           items:[
+          {
+          type: 'category',
+          label: 'Files',
+           items:['tutorial/Extractors/Files/Open_CSV'
+                 ],
+           },
+                ]
         },
       {
         type: 'category',
