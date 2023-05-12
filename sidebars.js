@@ -149,6 +149,15 @@ const sidebars = {
            },
                 ]
         },
+            
+      {
+        type: 'category',
+          label: 'Logic gates',
+           items:['tutorial/Logic_Gates/forloop',
+                  'tutorial/Logic_Gates/whileloop',
+                  'tutorial/Logic_Gates/looping',
+                 ],
+      },
   ],
 },
   ]   
