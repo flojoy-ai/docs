@@ -74,6 +74,24 @@ const sidebars = {
         },
       ]
     },
+   
+     {
+        type: 'category',
+          label: 'App demos',
+           items:[
+      {
+        type: 'category',
+          label: 'Generators',
+           items:[
+          {
+          type: 'category',
+          label: 'Simulation',
+           items:['tutorials/Generators/Simulation/Feedback
+                 ]
+           },
+                ]
+        },
+    },
   ],
 };
 module.exports = sidebars;
