@@ -96,12 +96,12 @@ const sidebars = {
           type: 'category',
           label: 'Instruments',
           items:[
-            'tutorial/Instruments/Cameras/USB web cam',
+            'tutorial/Instruments/Cameras/camera',
             'tutorial/Instruments/LabJack/U3',
-            'tutorial/Instruments/Keithley/Keithley 2400',
+            'tutorial/Instruments/Keithley/ivcurve',
             'tutorial/Instruments/Phidget/Phidget22',
             'tutorial/Instruments/Stepper motors/PyTic',
-            'tutorial/Instruments/Serial/PySerial',
+            'tutorial/Instruments/Serial/serial',
           ]
            },    
                         
@@ -129,7 +129,7 @@ const sidebars = {
           type: 'category',
           label: 'Signal Processing',
           items:[
-                'tutorial/Transformers/Signal_Processing/FIR',
+                'tutorial/Transformers/Signal_Processing/signal',
                 ]
            },
                 ]
