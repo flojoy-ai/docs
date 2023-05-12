@@ -113,9 +113,9 @@ const sidebars = {
           type: 'category',
           label: 'Looping',
           items:[
-            'tutorial/Logic gates/looping',
-            'tutorial/Logic gates/forloop'
-            'tutorial/Logic gates/whileloop'
+            'tutorial/Logic_Gates/looping',
+            'tutorial/Logic_Gates/forloop'
+            'tutorial/Logic_Gates/whileloop'
                 ]
           },
                 ]
@@ -129,7 +129,7 @@ const sidebars = {
           type: 'category',
           label: 'Signal Processing',
           items:[
-                'tutorial/Transformers/Signal Processing/FIR',
+                'tutorial/Transformers/Signal_Processing/FIR',
                 ]
            },
                 ]
