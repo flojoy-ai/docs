@@ -129,7 +129,7 @@ const sidebars = {
           type: 'category',
           label: 'Signal Processing',
           items:[
-                'tutorial/Transformers/Signal_Processing/signal',
+                'tutorial/Transformers/Signal _Processing/signal',
                 ]
            },
                 ]
