@@ -114,8 +114,8 @@ const sidebars = {
           label: 'Looping',
           items:[
             'tutorial/Logic_Gates/looping',
-            'tutorial/Logic_Gates/forloop'
-            'tutorial/Logic_Gates/whileloop'
+            'tutorial/Logic_Gates/forloop',
+            'tutorial/Logic_Gates/whileloop',
                 ]
           },
                 ]
