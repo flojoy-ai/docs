@@ -73,7 +73,7 @@ const sidebars = {
           ],
         },
       ]
-    }
+    },
    {
         type: 'category',
           label: 'App demos',
