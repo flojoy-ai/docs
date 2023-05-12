@@ -81,7 +81,8 @@ const sidebars = {
             'tutorial/LabJackU3',
             'tutorial/ivcurve',
             'tutorial/Phidget22',
-            'tutorial/Stepper motor driver Tic'
+            'tutorial/Stepper motor driver Tic',
+            'tutorial/serial',
           ]
            },    
                         
