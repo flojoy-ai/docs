@@ -55,13 +55,32 @@ const sidebars = {
       label: 'Tutorials',
       items: [
         'tutorial/introduction', 
-      {
+             ],
+     },
+   
+    {
+      type: 'category',
+      label: 'Advanced Usage',
+      items: [
+        'api/smallmemory',
+        {
+          type: 'category',
+          label: 'Active Feedback Control',
+          items: [
+            'api/active_feedback',
+            'api/model_systems',
+            'api/pid'
+          ],
+        },
+      ]
+    }
+   {
         type: 'category',
-          label: 'App demo',
+          label: 'App demos',
            items:[
       {
         type: 'category',
-          label: 'Generator',
+          label: 'Generators',
            items:[
           {
           type: 'category',
@@ -117,26 +136,7 @@ const sidebars = {
                 ]
         },
         ],
-    },
-   ],
-  },
-   
-    {
-      type: 'category',
-      label: 'Advanced Usage',
-      items: [
-        'api/smallmemory',
-        {
-          type: 'category',
-          label: 'Active Feedback Control',
-          items: [
-            'api/active_feedback',
-            'api/model_systems',
-            'api/pid'
-          ],
-        },
-      ]
-    }
+    }, 
   ],
 };
 
