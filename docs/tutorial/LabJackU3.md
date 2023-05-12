@@ -1,19 +1,18 @@
-#LABJACKU3 - Temperature Measurement
+# LABJACKU3 - Temperature Measurement
 
-- This is a tutorial for using the node called LabJAck u3 in order to measure temperature with  temperature sensors (Lm34 Caz/Nopb)
+- This is a tutorial for the node called LABJACKU3 in order to record temperature measurements. 
 
-
- ##Hardware required 
+ ## Hardware required 
 - A LabJack U3 LV daq 
 - N temperature sensors (This tutorial will present connections with LM34Caz/Nopb : https://www.digikey.com/en/products/detail/texas-instruments/LM34CAZ-NOPB/117873)
 - Connections cables (USB, Electronic cables)
 
 
-##Software required
+## Software required
 - Flojoy software running (Go to the page -- Getting started/Installation)
 - Exodriver for the LabJackU3 device and their requirements follow the guideline from : (https://labjack.com/pages/support?doc=/software-driver/installer-downloads/exodriver/)
 
-##Connection
+## Connection
 
 -Connect the LABJACKU3 Device to your computer with an USB cable. 
 -Connect the temperature sensor to the Labjacku3 device :  
@@ -33,16 +32,16 @@ FI0 (For your first sensor) --> Vout pin on the sensor (Voltage are received wit
 
 After connecting,  place your sensor where you want to measure temperature and then start Flojoy.
 
-##Node Management
+## Node Management
 
 The LabJack Node doesn't need any data input, it can be the first node of the app : 
 
 ![Labjack nodes](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998837/flojoy-docs/Labjacku3/LABJACKU3_nodes_nenhsn.png)
-*Classical node placement for temperature measurements*
+*Flojoy app example for temperature measurements*
 
 - Set the parameter "sensor_numbers" for the LabJACKU3 node with the number of temperature sensors connected to your LabJackU3 device.
 
-- Choose your Visualisation node that fits your project to display the temperature measurements.  
+- Choose your Visualisation node that fits your project to display the temperature measurements (Histogram, Bar, Line, etc).  
 
 - Use the loop node (See documentation) in order to update the temperature measurements, you can set the parameters you want for the loops (Delay, number of loops, etc..) 
 
