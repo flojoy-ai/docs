@@ -158,6 +158,48 @@ const sidebars = {
                   'tutorial/Logic_Gates/looping',
                  ],
       },
+            
+      {
+        type: 'category',
+          label: 'Transformers',
+           items:[
+          {
+          type: 'category',
+          label: 'Casting',
+           items:['tutorial/Transformers/Casting/Data2frame',
+                  'tutorial/Transformers/Casting/Matrix2Dataframe',
+                  'tutorial/Transformers/Casting/String2float',
+                  'tutorial/Transformers/Casting/Float2int',
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'Arithmetic',
+           items:['tutorial/Transformers/Arithmetic/Add',
+                  'tutorial/Transformers/Arithmetic/Subtract',
+                  'tutorial/Transformers/Arithmetic/Multiply',
+                  'tutorial/Transformers/Arithmetic/Divide',
+                  'tutorial/Transformers/Arithmetic/Absolute',
+                 ],
+           },
+            
+                      {
+          type: 'category',
+          label: 'Calculus',
+           items:['tutorial/Transformers/Calculus/Integrate',
+                  'tutorial/Transformers/Calculus/Differentiate',
+                 ],
+           },
+            
+          {
+          type: 'category',
+          label: 'Signal_Processing',
+           items:['tutorial/Transformers/Signal_Processing/FIR
+                 ],
+           },
+            
+                ]
+        },
   ],
 },
   ]   
