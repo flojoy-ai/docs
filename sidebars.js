@@ -123,7 +123,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Keithley',
-           items:['tutorial/Instruments/Keithley/Keithley_2400'
+           items:['tutorial/Instruments/Keithley/ivcurve'
                  ],
            },
           {
