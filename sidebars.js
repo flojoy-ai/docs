@@ -74,50 +74,6 @@ const sidebars = {
         },
       ]
     },
-   {
-        type: 'category',
-          label: 'App demos',
-           items:[
-      {
-        type: 'category',
-          label: 'Generators',
-           items:[
-          {
-          type: 'category',
-          label: 'Simulation',
-           },
-                ]
-        },
-
-           {
-          type: 'category',
-          label: 'Instruments',
-
-           },    
-                        
-       {
-        type: 'category',
-          label: 'Logic Gates',
-           items:[ 
-         {
-          type: 'category',
-          label: 'Looping',
-          },
-                ]
-        },
-            
-                  {
-        type: 'category',
-          label: 'Transformers',
-           items:[
-          {
-          type: 'category',
-          label: 'Signal Processing',
-           },
-                ]
-        },
-        ],
-    }, 
   ],
 };
 
