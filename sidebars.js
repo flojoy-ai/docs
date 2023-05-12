@@ -86,7 +86,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Simulation',
-           items:['tutorials/Generators/Simulation/Feedback
+           items:['tutorials/Generators/Simulation/Feedback'
                  ],
            },
                 ]
