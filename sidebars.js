@@ -79,6 +79,19 @@ const sidebars = {
         type: 'category',
           label: 'App demos',
            items:[
+            
+       {
+        type: 'category',
+          label: 'AI & ML',
+           items:[
+          {
+          type: 'category',
+          label: 'Object detection',
+           items:['tutorial/AI_ML/Object_detection/YOLOv3'
+                 ],
+           },
+                ]
+        },
       {
         type: 'category',
           label: 'Generators',
