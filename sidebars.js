@@ -166,10 +166,10 @@ const sidebars = {
           {
           type: 'category',
           label: 'Casting',
-           items:['tutorial/Transformers/Casting/Data2frame',
+           items:['tutorial/Transformers/Casting/Data2frameMatrix',
                   'tutorial/Transformers/Casting/Matrix2Dataframe',
-                  'tutorial/Transformers/Casting/String2float',
-                  'tutorial/Transformers/Casting/Float2int',
+                  'tutorial/Transformers/Casting/String2Float',
+                  'tutorial/Transformers/Casting/Float2Int',
                  ],
            },
           {
