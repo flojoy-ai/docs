@@ -86,7 +86,7 @@ const sidebars = {
           type: 'category',
           label: 'Simulation',
           items:[
-                'tutorial/signal',
+                'tutorial/Generators/Simulation/Feedback',
                 ]
            },
                 ]
@@ -96,12 +96,12 @@ const sidebars = {
           type: 'category',
           label: 'Instruments',
           items:[
-            'tutorial/camera',
-            'tutorial/LabJackU3',
-            'tutorial/ivcurve',
-            'tutorial/Phidget22',
-            'tutorial/Stepper motor driver Tic',
-            'tutorial/serial',
+            'tutorial/Instruments/Cameras/USB web cam',
+            'tutorial/Instruments/LabJack/U3',
+            'tutorial/Instruments/Keithley/Keithley 2400',
+            'tutorial/Instruments/Phidget/Phidget22',
+            'tutorial/Instruments/Stepper motors/PyTic',
+            'tutorial/Instruments/Serial/PySerial',
           ]
            },    
                         
@@ -113,10 +113,9 @@ const sidebars = {
           type: 'category',
           label: 'Looping',
           items:[
-            'tutorial/looping',
-            'tutorial/forloop',
-            'tutorial/feedback',
-            'tutorial/whileloop'
+            'tutorial/Logic gates/looping',
+            'tutorial/Logic gates/forloop'
+            'tutorial/Logic gates/whileloop'
                 ]
           },
                 ]
@@ -130,7 +129,7 @@ const sidebars = {
           type: 'category',
           label: 'Signal Processing',
           items:[
-                'tutorial/signal',
+                'tutorial/Transformers/Signal Processing/FIR',
                 ]
            },
                 ]
