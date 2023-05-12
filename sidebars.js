@@ -194,7 +194,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Signal_Processing',
-           items:['tutorial/Transformers/Signal_Processing/FIR'
+           items:['tutorial/Transformers/Signal_Processing/signal'
                  ],
            },
             
