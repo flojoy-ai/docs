@@ -135,6 +135,20 @@ const sidebars = {
             
                 ]
         },
+      {
+        type: 'category',
+          label: 'Loaders',
+           items:[
+          {
+          type: 'category',
+          label: 'Frontier',
+           items:['tutorial/Loaders/Frontier/Measurement_upload',
+                  'tutorial/Loaders/Frontier/Image_upload',
+                  'tutorial/Loaders/Frontier/Time_series_stream'
+                 ],
+           },
+                ]
+        },
   ],
 },
   ]   
