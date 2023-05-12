@@ -116,6 +116,25 @@ const sidebars = {
            },
                 ]
         },
+      {
+        type: 'category',
+          label: 'Instruments',
+           items:[
+          {
+          type: 'category',
+          label: 'Keithley',
+           items:['tutorial/Instruments/Keithley/Keithley_2400'
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'LabJack',
+           items:['tutorial/Instruments/LabJack/U3'
+                 ],
+           },
+            
+                ]
+        },
   ],
 },
   ]   
