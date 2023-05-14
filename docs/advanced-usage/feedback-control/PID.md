@@ -27,7 +27,7 @@ $$
 u_n = K_pe_n + \frac{TK_I}{2}(e_n-e_{n-1}) + \frac{K_D}{6T}\left(e_n-e_{n-3}+3(e_{n-1}-e_{n-2})\right)
 $$
 
-This is the final form of PID control established in the `PID` node of Flojoy. In this node, we assume the time constants of the system are in units of milliseconds, and that the sampling time $T=$ 1 ms. 
+This is the final form of PID control established in the [`PID`](https://github.com/flojoy-io/nodes/blob/main/TRANSFORMERS/SIGNAL_PROCESSING/PID/PID.py) node of Flojoy. In this node, we assume the time constants of the system are in units of milliseconds, and that the sampling time $T=$ 1 ms. 
 
 :::info
 Since control theory is a large field, interested readers are encouraged to read more information [here](https://en.wikipedia.org/wiki/PID_controller) to understand more the theory, motivation, and applications of the active feedback procedure using PID controllers.

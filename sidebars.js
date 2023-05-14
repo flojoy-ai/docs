@@ -131,9 +131,10 @@ const sidebars = {
       {
         type: 'category',
           label: 'Logic gates',
-           items:['nodes/logic-gates/forloop',
-                  'nodes/logic-gates/whileloop',
+           items:[
                   'nodes/logic-gates/looping',
+                  'nodes/logic-gates/forloop',
+                  'nodes/logic-gates/whileloop',
                  ],
       },
             

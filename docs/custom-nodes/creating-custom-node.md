@@ -10,7 +10,7 @@ Suppose we wanted to contribute a node that divides two items elementwise (for t
 
 ### Creating the source files
 
-To start, we create the file `divide.py` inside `/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/`. Each node must have its own folder. 
+To start, we create the file `DIVIDE/divide.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder. 
 
 We can then create our new function using the features discussed [here](../data-container).
 
@@ -34,7 +34,7 @@ def DIVIDE(dc, params):
 
 ### Creating the manifest
 
-To register our new node with Flojoy, let's make a new manifest file in `/PYTHON/nodes/MANIFEST/`.
+To register our new node with Flojoy, let's make a new manifest file in [`PYTHON/nodes/MANIFEST`](https://github.com/flojoy-io/nodes/tree/main/MANIFEST).
 
 ```yaml {title='divide.manifest.yaml'}
 COMMAND:
@@ -43,7 +43,7 @@ COMMAND:
 
 ### Creating Custom Component ( Frontend )
 
-In Flojoy, you can create custom component for newly created nodes (i.e. shape and node connections). The custom components are located in `/src/feature/custom-nodes` folder. Create a custom component for the newly created nodes and register the design in `/src/configs/NodeConfigs.ts` file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
+In Flojoy, you can create custom component for newly created nodes (i.e. shape and node connections). The custom components are located in [`/src/feature/flow_chart_panel/components/custom-nodes`](https://github.com/flojoy-io/studio/tree/main/src/feature/flow_chart_panel/components/custom-nodes) folder. Create a custom component for the newly created nodes and register the design in [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
 If you don't register the newly created node type,it will render the `DefaultNode` component.
 
 ```typescript {title='NodeConfigs.ts'}
