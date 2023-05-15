@@ -10,8 +10,7 @@ import 'reactflow/dist/style.css';
 import StaticDisplayNode from './StaticDisplayNode'; const nodeTypes = { default: StaticDisplayNode };
 import { VictoryChart, VictoryScatter, VictoryAxis} from 'victory';
 
-/* Not SSR safe */
-// import ReactJson from 'react-json-view'
+import { JSONTree } from 'react-json-tree';
 
 const axesStyle = { tickLabels: { fontSize: 8, fill: '#BCC2C4' }, label: { fontSize: 8, fill: '#BCC2C4' }};
 
@@ -55,15 +54,7 @@ export default function AppDisplay({children, title, data}) {
                 </TabItem>
                 <TabItem value="spec" label="App JSON spec">
                     <div style={{ minHeight: HEIGHT }}>
-                        <BrowserOnly fallback={<div>Loading...</div>}>
-                        {() => {
-                            <ReactJson 
-                                src={appObject} 
-                                theme={colorMode === 'dark' ? 'monokai' : ''}
-                                collapsed={true}
-                            />
-                        }}
-                        </BrowserOnly>
+                        <JSONTree data={appObject} />
                     </div>
                 </TabItem>
             </Tabs>

@@ -26,7 +26,7 @@
 		"raw-loader": "^4.0.2",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-json-view": "^1.21.3",
+		"react-json-tree": "^0.18.0",
 		"reactflow": "^11.7.0",
 		"rehype-katex": "5",
 		"remark-math": "3",
