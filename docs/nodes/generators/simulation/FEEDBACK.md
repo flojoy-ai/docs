@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-id: feedback
+id: FEEDBACK
 title: The feedback node
 ---
 

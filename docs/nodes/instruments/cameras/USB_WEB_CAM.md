@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-id: camera
+id: USB_WEB_CAM
 title: Camera Example
 ---
 

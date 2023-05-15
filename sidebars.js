@@ -116,7 +116,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Simulation',
-           items:['nodes/generators/simulation/feedback',
+           items:['nodes/generators/simulation/FEEDBACK',
                   'nodes/generators/simulation/TIME_SERIES',
                   'nodes/generators/simulation/LINSPACE',
                   'nodes/generators/simulation/CONSTANT',
@@ -167,7 +167,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Cameras',
-           items:['nodes/instruments/cameras/camera'
+           items:['nodes/instruments/cameras/USB_WEB_CAM'
                  ],
            },
             
@@ -181,7 +181,7 @@ const sidebars = {
                        {
           type: 'category',
           label: 'Stepper Motor',
-           items:['nodes/instruments/stepper_motors/PY_TIC'
+           items:['nodes/instruments/stepper-motors/PY_TIC'
                  ],
            },
             
