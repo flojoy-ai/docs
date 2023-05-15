@@ -116,7 +116,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Simulation',
-           items:['nodes/generators/simulation/FEEDBACK',
+           items:['nodes/generators/simulation/feedback',
                   'nodes/generators/simulation/TIME_SERIES',
                   'nodes/generators/simulation/LINSPACE',
                   'nodes/generators/simulation/CONSTANT',
@@ -128,7 +128,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Data',
-           items:['nodes/generators/data/R_Datasets',
+           items:['nodes/generators/data/R_DATASETS',
                  ],
            },
           {
