@@ -147,7 +147,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Keithley',
-           items:['nodes/instruments/keithley/IV_CURVE'
+           items:['nodes/instruments/keithley/iv_curve/IV_CURVE'
                  ],
            },
           {
@@ -250,9 +250,26 @@ const sidebars = {
            items:['nodes/transformers/DSP/FIR'
                  ],
            },
+           {
+          type: 'category',
+          label: 'Matrix Manipulation',
+           items:['nodes/transformers/matrix_manipulation/MATMUL',
+                  'nodes/transformers/matrix_manipulation/INVERT'
+                 ],
+           },
             
                 ]
         },
+
+              {
+        type: 'category',
+          label: 'Visualizers',
+           items:[
+                  'nodes/visualizers/plotly/PLOTLY',
+                  'nodes/visualizers/time_series_stream/TIME_SERIES_STREAM',
+                 ],
+      },
+
   ],
 },
   ]   

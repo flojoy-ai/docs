@@ -1,0 +1,2 @@
+
+The Iv curve node is used to record an IV Curve with Flojoy using a Keithley2400 sourcemeter.
