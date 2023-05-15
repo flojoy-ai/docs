@@ -90,7 +90,7 @@ const sidebars = {
                       {
           type: 'category',
           label: 'Casting',
-           items:['nodes/AI-ML/regressions/ONE_HOT_ENCODING'
+           items:['nodes/AI-ML/casting/ONE_HOT_ENCODING'
                  ],
            },
                 ]
@@ -102,7 +102,8 @@ const sidebars = {
           {
           type: 'category',
           label: 'Files',
-           items:['nodes/extractors/files/OPEN_CSV'
+           items:['nodes/extractors/files/OPEN_CSV',
+                  'nodes/extractors/files/OPEN_IMAGE'
                  ],
            },
                 ]
