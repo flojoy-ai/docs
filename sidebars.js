@@ -80,6 +80,19 @@ const sidebars = {
            items:['nodes/AI-ML/object-detection/YOLOv3'
                  ],
            },
+            
+          {
+          type: 'category',
+          label: 'Regressions',
+           items:['nodes/AI-ML/regressions/LEAST_SQUARES'
+                 ],
+           },
+                      {
+          type: 'category',
+          label: 'Casting',
+           items:['nodes/AI-ML/casting/ONE_HOT_ENCODING'
+                 ],
+           },
                 ]
         },
        {
@@ -89,9 +102,42 @@ const sidebars = {
           {
           type: 'category',
           label: 'Files',
-           items:['nodes/extractors/files/OPEN_CSV'
+           items:['nodes/extractors/files/OPEN_CSV',
+                  'nodes/extractors/files/OPEN_IMAGE'
                  ],
            },
+                ]
+        },
+            
+              {
+        type: 'category',
+          label: 'Generators',
+           items:[
+          {
+          type: 'category',
+          label: 'Simulation',
+           items:['nodes/generators/simulation/FEEDBACK',
+                  'nodes/generators/simulation/TIME_SERIES',
+                  'nodes/generators/simulation/LINSPACE',
+                  'nodes/generators/simulation/CONSTANT',
+                  'nodes/generators/simulation/2ND_ORDER',
+                  'nodes/generators/simulation/RAND_UNIFORM',
+                  'nodes/generators/simulation/RAND_GAUSSIAN',
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'Data',
+           items:['nodes/generators/data/R_Datasets',
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'Images',
+           items:['nodes/generators/Images/SKLEARN_IMAGES',
+                 ],
+           },
+            
                 ]
         },
       {
