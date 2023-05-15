@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 id: FEEDBACK
-title: The feedback node
+title: FEEDBACK
 ---
 
 Before we get into another common version of looping, it is worth while now to mention the `feedback` node. Often in iterating, it is necessary to retrieve the result of a node in its most recent iteration. As we will flush out in more detail later with an example, we may wish to retrieve the most recent value from a subtraction operation in the last iteration of the loop, for example, to compare two different values and assess if we continue looping or not. 
