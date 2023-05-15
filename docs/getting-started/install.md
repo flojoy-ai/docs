@@ -29,7 +29,7 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
 
    - If you have virtual environment installed, you can provide the path to the virtualenv folder as follows:
       ```bash
-        bash flojoy -v venv2 # venv2 is the name of the virtual environment folder.
+        bash flojoy -v venv # venv is the name of the virtual environment folder.
       ```
    - You can provide optional argument `-r` which will shut down the existing redis server and spin up a fresh one
    - You can provide `-n` argument to skip installing Javascript packages.

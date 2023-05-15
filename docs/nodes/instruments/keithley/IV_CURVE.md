@@ -21,17 +21,17 @@ Also covered will be a general guide on how to create a flojoy app including nod
 
 
 
-**SOFTWARE** : In order to record an IV curve you'll need to use our software Flojoy, you can follow these instructions https://docs.flojoy.io/getting-started/install/ in order to use the software on your computer
+**SOFTWARE** : In order to record an IV curve you'll need to use our software Flojoy, you can follow [these instructions](https://docs.flojoy.io/getting-started/install/) in order to use the software on your computer
 
 
 
 **PACKAGE** : 
 
-  - After installing all the package from the Flojoy software you'll need to install the "pyserial" package : $ pip install pyserial, this will allow you to use serial communications with the Keithley 2400 to exchange data with him. 
+  - After installing all the package from the Flojoy software you'll need to install the `pyserial` package via `pip install pyserial`, this will allow you to use serial communications with the Keithley 2400 to exchange data with it. 
 
 **RUN FLOJOY** : When your setup is ready you can run the app Flojoy and start using it in order to record your IV curve, here are the steps to follow when opening the app : 
 
-- Select the nodes you need for your IV curve measurement : LINSPACE (in Generators, SIMULATION) ; KEITHLEY2400 (in Instruments, KEITHLEY2400) ; LINE (in Visualizations, VISOR) and finally END (in Terminator, TERMINATOR). Place them and connect them together on the graphical interface like this :  
+- Select the nodes you need for your IV curve measurement : [`LINSPACE`](https://github.com/flojoy-io/nodes/blob/main/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE.py) (in `GENERATORS/SIMULATIONS`) ; [`KEITHLEY2400`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/Keithley/Keithley2400/KEITHLEY2400.py) (in `INSTRUMENTS/ KEITHLEY/KEITHLEY2400`) ; [`LINE`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/LINE/LINE.py) (in `VISUALIZATION/Plotly`) and finally [`END`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/TERMINATORS/END.py) (in `LOGIC_GATES/TERMINATORS`). Place them and connect them together on the graphical interface like this :  
 
 ![Keithley2400-nodes](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681999027/flojoy-docs/Keithley2400/KEITHLEY2400_nodes1_w8nnwd.png)
 *Classical setup for an IV curve measurement*

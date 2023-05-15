@@ -43,7 +43,7 @@ y_n = (1-e^{-1/d_1})(1-e^{-1/d_2})x_n + (e^{-1/d_1}+e^{-1/d_2})y_{n-1} - e^{-1/d
 $$
 where $d_1$, and $d_2$ are the time constants of each of the filters respectively.
 
-This basic second order system is implemented in Flojoy in the `SECOND_ORDER_SYSTEM` node.
+This basic second order system is implemented in Flojoy in the [`SECOND_ORDER_SYSTEM`](https://github.com/flojoy-io/nodes/blob/main/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/SECOND_ORDER_SYSTEM.py) node.
 
 ``` python title=SECOND_ORDER_SYSTEM.py
 import numpy as np
