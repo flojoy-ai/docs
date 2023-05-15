@@ -160,28 +160,28 @@ const sidebars = {
            {
           type: 'category',
           label: 'Phidget',
-           items:['nodes/instruments/Phidget/Phidget22'
+           items:['nodes/instruments/phidget/PHIDGET 22'
                  ],
            },
             
           {
           type: 'category',
           label: 'Cameras',
-           items:['nodes/instruments/cameras/USB_WEB_CAM'
+           items:['nodes/instruments/cameras/camera'
                  ],
            },
             
            {
           type: 'category',
           label: 'Serial',
-           items:['nodes/instruments/serial/PY_SERIAL'
+           items:['nodes/instruments/serial/serial'
                  ],
            },
             
                        {
           type: 'category',
           label: 'Stepper Motor',
-           items:['nodes/instruments/stepper_motor/PY_TIC'
+           items:['nodes/instruments/stepper_motors/PY_TIC'
                  ],
            },
             
