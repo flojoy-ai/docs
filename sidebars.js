@@ -108,6 +108,38 @@ const sidebars = {
            },
                 ]
         },
+            
+              {
+        type: 'category',
+          label: 'Generators',
+           items:[
+          {
+          type: 'category',
+          label: 'Simulation',
+           items:['nodes/generators/simulation/FEEDBACK',
+                  'nodes/generators/simulation/TIME_SERIES',
+                  'nodes/generators/simulation/LINSPACE',
+                  'nodes/generators/simulation/CONSTANT',
+                  'nodes/generators/simulation/2ND_ORDER',
+                  'nodes/generators/simulation/RAND_UNIFORM',
+                  'nodes/generators/simulation/RAND_GAUSSIAN',
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'Data',
+           items:['nodes/generators/data/R_Datasets',
+                 ],
+           },
+          {
+          type: 'category',
+          label: 'Images',
+           items:['nodes/generators/Images/SKLEARN_IMAGES',
+                 ],
+           },
+            
+                ]
+        },
       {
         type: 'category',
           label: 'Instruments',
