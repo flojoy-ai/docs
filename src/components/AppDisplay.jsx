@@ -5,15 +5,13 @@ import TabItem from '@theme/TabItem';
 import {useColorMode} from '@docusaurus/theme-common';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
-import { VictoryChart, VictoryScatter, VictoryAxis} from 'victory';
-
-import ReactJson from 'react-json-view'
 import ReactFlow, { Background } from 'reactflow';
 import 'reactflow/dist/style.css';
+import StaticDisplayNode from './StaticDisplayNode'; const nodeTypes = { default: StaticDisplayNode };
+import { VictoryChart, VictoryScatter, VictoryAxis} from 'victory';
 
-import StaticDisplayNode from './StaticDisplayNode';
-
-const nodeTypes = { default: StaticDisplayNode };
+/* Not SSR safe */
+// import ReactJson from 'react-json-view'
 
 const axesStyle = { tickLabels: { fontSize: 8, fill: '#BCC2C4' }, label: { fontSize: 8, fill: '#BCC2C4' }};
 
@@ -25,7 +23,7 @@ export default function AppDisplay({children, title, data}) {
 
     return (
         <div>                
-            <h2>{`Example: ${title}`}</h2>
+            <h2>{`Example: ${title}`}</h2>            
             <Tabs>
                 <TabItem value="app" label="App" default>
                     <div style={{ height: HEIGHT }}>
@@ -55,13 +53,17 @@ export default function AppDisplay({children, title, data}) {
                         </VictoryChart>
                     </div>
                 </TabItem>
-                <TabItem value="spec" label="App JSON spec">  
-                    <div style={{ minHeight: HEIGHT }}>             
-                        <ReactJson 
-                            src={appObject} 
-                            theme={colorMode === 'dark' ? 'monokai' : ''}
-                            collapsed={true}
-                        />
+                <TabItem value="spec" label="App JSON spec">
+                    <div style={{ minHeight: HEIGHT }}>
+                        <BrowserOnly fallback={<div>Loading...</div>}>
+                        {() => {
+                            <ReactJson 
+                                src={appObject} 
+                                theme={colorMode === 'dark' ? 'monokai' : ''}
+                                collapsed={true}
+                            />
+                        }}
+                        </BrowserOnly>
                     </div>
                 </TabItem>
             </Tabs>
