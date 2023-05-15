@@ -153,14 +153,14 @@ const sidebars = {
           {
           type: 'category',
           label: 'LabJack',
-           items:['nodes/instruments/labjack/U3'
+           items:['nodes/instruments/labjack/U3/U3'
                  ],
            },
             
            {
           type: 'category',
           label: 'Phidget',
-           items:['nodes/instruments/phidget/PHIDGET 22'
+           items:['nodes/instruments/phidget/phidget22/PHIDGET22',
                  ],
            },
             

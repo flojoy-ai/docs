@@ -1,0 +1,1 @@
+    """Takes a number of sensors as parameters and return their temperature measurement"""
