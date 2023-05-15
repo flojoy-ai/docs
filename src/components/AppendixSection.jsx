@@ -25,7 +25,7 @@ export default function AppendixSection({children, index, folderPath}) {
     <>
         <br></br>
         <details>
-            <summary><span style={sectionStyle}><h3>{SECTION}</h3></span></summary>
+            <summary><span style={sectionStyle}><h4>{SECTION}</h4></span></summary>
             {children === undefined ? children : boilerplate[index]}
             <br></br>
             <small><i><a href={HREF}>Edit {fileNames[index]} on GitHub</a></i></small>
