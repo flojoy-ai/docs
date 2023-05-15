@@ -80,6 +80,19 @@ const sidebars = {
            items:['nodes/AI-ML/object-detection/YOLOv3'
                  ],
            },
+            
+          {
+          type: 'category',
+          label: 'Regressions',
+           items:['nodes/AI-ML/regressions/LEAST_SQUARES'
+                 ],
+           },
+                      {
+          type: 'category',
+          label: 'Casting',
+           items:['nodes/AI-ML/regressions/ONE_HOT_ENCODING'
+                 ],
+           },
                 ]
         },
        {
