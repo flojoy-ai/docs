@@ -167,7 +167,7 @@ const sidebars = {
           {
           type: 'category',
           label: 'Cameras',
-           items:['nodes/instruments/cameras/USB_WEB_CAM'
+           items:['nodes/instruments/cameras/usb_web_cam/USB_WEB_CAM'
                  ],
            },
             
