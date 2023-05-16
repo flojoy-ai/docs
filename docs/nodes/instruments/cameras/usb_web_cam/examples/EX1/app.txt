@@ -1,0 +1,135 @@
+{
+    "rfInstance": {
+        "nodes": [
+            {
+                "width": 150,
+                "height": 135,
+                "id": "CAMERA-f0097300-3e44-4ef7-a670-183bdb644c12",
+                "type": "WEB_CAM",
+                "data": {
+                    "id": "CAMERA-f0097300-3e44-4ef7-a670-183bdb644c12",
+                    "label": "CAMERA",
+                    "func": "CAMERA",
+                    "type": "WEB_CAM",
+                    "ctrls": {
+                        "file_type": {
+                            "functionName": "CAMERA",
+                            "param": "file_type",
+                            "value": "image"
+                        },
+                        "camera_ind": {
+                            "functionName": "CAMERA",
+                            "param": "camera_ind",
+                            "value": "0"
+                        }
+                    },
+                    "selected": false
+                },
+                "position": {
+                    "x": 136.08076292255683,
+                    "y": 93.65260210739842
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 136.08076292255683,
+                    "y": 93.65260210739842
+                },
+                "dragging": true
+            },
+            {
+                "width": 190,
+                "height": 115,
+                "id": "OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5",
+                "type": "AI_OBJECT_DETECTION",
+                "data": {
+                    "id": "OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5",
+                    "label": "OBJECT_DETECTION",
+                    "func": "OBJECT_DETECTION",
+                    "type": "AI_OBJECT_DETECTION",
+                    "ctrls": {},
+                    "pip_dependencies": [
+                        {
+                            "name": "opencv-python-headless",
+                            "v": "4.7.0.72"
+                        }
+                    ],
+                    "selected": false
+                },
+                "position": {
+                    "x": 564.1247187734817,
+                    "y": 102.0812947068112
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 564.1247187734817,
+                    "y": 102.0812947068112
+                },
+                "dragging": true
+            },
+            {
+                "width": 190,
+                "height": 115,
+                "id": "END-43267bba-a0f0-43a3-97a0-d2a5e1261aee",
+                "type": "TERMINATOR",
+                "data": {
+                    "id": "END-43267bba-a0f0-43a3-97a0-d2a5e1261aee",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATOR",
+                    "ctrls": {},
+                    "selected": true
+                },
+                "position": {
+                    "x": 999.6862512483099,
+                    "y": 100.96594091628975
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 999.6862512483099,
+                    "y": 100.96594091628975
+                },
+                "dragging": true
+            }
+        ],
+        "edges": [
+            {
+                "source": "CAMERA-f0097300-3e44-4ef7-a670-183bdb644c12",
+                "sourceHandle": "main",
+                "target": "OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5",
+                "targetHandle": "OBJECT_DETECTION",
+                "id": "reactflow__edge-CAMERA-f0097300-3e44-4ef7-a670-183bdb644c12main-OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5OBJECT_DETECTION"
+            },
+            {
+                "source": "OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5",
+                "sourceHandle": "main",
+                "target": "END-43267bba-a0f0-43a3-97a0-d2a5e1261aee",
+                "targetHandle": "END",
+                "id": "reactflow__edge-OBJECT_DETECTION-530b8968-52b2-4b17-922b-b2059ce630c5main-END-43267bba-a0f0-43a3-97a0-d2a5e1261aeeEND"
+            }
+        ],
+        "viewport": {
+            "x": 285.56308011929104,
+            "y": 110.31233455081605,
+            "zoom": 0.8659987266695705
+        }
+    },
+    "ctrlsManifest": [
+        {
+            "type": "input",
+            "name": "Slider",
+            "id": "INPUT_PLACEHOLDER",
+            "hidden": false,
+            "minHeight": 1,
+            "minWidth": 2,
+            "layout": {
+                "x": 0,
+                "y": 0,
+                "h": 2,
+                "w": 2,
+                "minH": 1,
+                "minW": 2,
+                "i": "INPUT_PLACEHOLDER"
+            }
+        }
+    ]
+}
