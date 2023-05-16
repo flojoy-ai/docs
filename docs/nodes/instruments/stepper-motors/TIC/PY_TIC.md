@@ -27,13 +27,26 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-    title='Pressure Measurement with Phidget 22'
+    title='Temperature measurement with LabJack'
     data={Data1}
-    nodeLabel='Pressures'>
+    nodeLabel='TIC'>
     {App1}
 </AppDisplay>
 
 <Example1 />
+
+import Example2 from './examples/EX2/example.md';
+import App2 from '!!raw-loader!./examples/EX2/app.txt';
+import Data2 from '!!raw-loader!./examples/EX2/output.txt';
+
+<AppDisplay 
+    title='Temperature measurement with LabJack'
+    data={Data2}
+    nodeLabel='TIC'>
+    {App2}
+</AppDisplay>
+
+<Example2 />
 
 <SectionBreak />
 
@@ -45,7 +58,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/phidget/phidget22/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/phidget/phidget22/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/phidget/phidget22/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Media}</AppendixSection>
+
 

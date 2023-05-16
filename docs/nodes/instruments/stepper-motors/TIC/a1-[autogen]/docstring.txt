@@ -1,0 +1,11 @@
+
+# Stepper motor control
+
+This is a tutorial for using the Flojoy nodes
+- Stepper Motor driver Tic, and
+- Stepper Driver motor Tic Knob
+- in order to control a motor with the Flojoy Studio
+
+
+    The python function takes a knob position as a parameter to control the rotation of the motor and allow to control position
+    and speed of a motor with a TIC driver.

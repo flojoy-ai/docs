@@ -157,10 +157,10 @@ const sidebars = {
                  ],
            },
             
-           {
+          {
           type: 'category',
           label: 'Phidget',
-           items:['nodes/instruments/phidget/phidget22/PHIDGET22',
+          items:['nodes/instruments/phidget/phidget22/PHIDGET22',
                  ],
            },
             
@@ -181,7 +181,7 @@ const sidebars = {
                        {
           type: 'category',
           label: 'Stepper Motor',
-           items:['nodes/instruments/stepper-motors/PY_TIC'
+           items:['nodes/instruments/stepper-motors/TIC/PY_TIC'
                  ],
            },
             
