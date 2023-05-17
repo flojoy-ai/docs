@@ -77,3 +77,10 @@ When creating custom nodes, make sure to go through the following steps:
 - [x] Did I create a manifest file, correctly adding the correct category key?
 - [x] Did I generate the manifest for the node?
 - [x] Did I update the Python metadata?
+
+#### Common Errors:
+
+```[2023-05-17 08:29:33.105-RQ-watch] AttributeError: module 'nodes.GENERATORS.SIMULATIONS.TESTING.TESTING' has no attribute 'TESTING'```
+
+This likely means your function name does not match the Key in your manifest.yaml file.
+
