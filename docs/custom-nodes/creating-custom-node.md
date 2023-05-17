@@ -80,7 +80,13 @@ When creating custom nodes, make sure to go through the following steps:
 
 #### Common Errors:
 
-```[2023-05-17 08:29:33.105-RQ-watch] AttributeError: module 'nodes.GENERATORS.SIMULATIONS.TESTING.TESTING' has no attribute 'TESTING'```
+ - ```[2023-05-17 08:29:33.105-RQ-watch] AttributeError: module 'nodes.GENERATORS.SIMULATIONS.TESTING.TESTING' has no attribute 'TESTING'```
 
 This likely means your function name does not match the Key in your manifest.yaml file.
+
+ - ```[2023-05-17 08:59:25.876-RQ-watch]   File "/home/dal/Documents/flojoy/20230517/studio/./PYTHON/WATCH/watch.py", line 127, in run_job
+[2023-05-17 08:59:25.876-RQ-watch]     cmd = node["cmd"]
+[2023-05-17 08:59:25.876-RQ-watch] KeyError: 'cmd'```
+
+This likely means you have to run ```python3 generate_manifest.py``` in the root Flojoy directory. 
 
