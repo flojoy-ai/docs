@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
-id: serial
-title: Serial Example
+id: SERIAL_TIMESERIES
+title: Serial Time Series Example
 ---
 
 In this page, we will go through an example of simple data aquisition from a serial device. This example will assume an Arduino is being used although any serial device should work.
