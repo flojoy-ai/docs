@@ -118,18 +118,18 @@
             {
                 "width": 99,
                 "height": 115,
-                "id": "ADD-a586b5d7-4343-430d-89ce-3c2a3d156695",
+                "id": "SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695",
                 "type": "ARITHMETIC",
                 "data": {
-                    "id": "ADD-a586b5d7-4343-430d-89ce-3c2a3d156695",
-                    "label": "ADD",
-                    "func": "ADD",
+                    "id": "SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695",
+                    "label": "SUBTRACT",
+                    "func": "SUBTRACT",
                     "type": "ARITHMETIC",
                     "ctrls": {},
                     "inputs": [
                         {
                             "name": "y",
-                            "id": "add_y",
+                            "id": "subtract_y",
                             "type": "target"
                         }
                     ],
@@ -187,25 +187,25 @@
                 "id": "reactflow__edge-LINSPACE-340e6c5c-8e47-4a5e-95ed-dc627e9135cemain-SINE-2cd08316-0a0c-4c13-9b1d-382ba4d74cbdSINE"
             },
             {
-                "source": "ADD-a586b5d7-4343-430d-89ce-3c2a3d156695",
+                "source": "SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695",
                 "sourceHandle": "main",
                 "target": "SCATTER-da4e4991-d9a4-4c71-95e6-56b13266ede6",
                 "targetHandle": "SCATTER",
-                "id": "reactflow__edge-ADD-a586b5d7-4343-430d-89ce-3c2a3d156695main-SCATTER-da4e4991-d9a4-4c71-95e6-56b13266ede6SCATTER"
+                "id": "reactflow__edge-SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695main-SCATTER-da4e4991-d9a4-4c71-95e6-56b13266ede6SCATTER"
             },
             {
                 "source": "SINE-2cd08316-0a0c-4c13-9b1d-382ba4d74cbd",
                 "sourceHandle": "main",
-                "target": "ADD-a586b5d7-4343-430d-89ce-3c2a3d156695",
-                "targetHandle": "ADD",
-                "id": "reactflow__edge-SINE-2cd08316-0a0c-4c13-9b1d-382ba4d74cbdmain-ADD-a586b5d7-4343-430d-89ce-3c2a3d156695ADD"
+                "target": "SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695",
+                "targetHandle": "SUBTRACT",
+                "id": "reactflow__edge-SINE-2cd08316-0a0c-4c13-9b1d-382ba4d74cbdmain-SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695SUBTRACT"
             },
             {
                 "source": "RAND-434f7314-f239-4e7d-a9c6-629529db1d82",
                 "sourceHandle": "main",
-                "target": "ADD-a586b5d7-4343-430d-89ce-3c2a3d156695",
-                "targetHandle": "add_y",
-                "id": "reactflow__edge-RAND-434f7314-f239-4e7d-a9c6-629529db1d82main-ADD-a586b5d7-4343-430d-89ce-3c2a3d156695add_y"
+                "target": "SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695",
+                "targetHandle": "subtract_y",
+                "id": "reactflow__edge-RAND-434f7314-f239-4e7d-a9c6-629529db1d82main-SUBTRACT-a586b5d7-4343-430d-89ce-3c2a3d156695subtract_y"
             }
         ],
         "viewport": {
