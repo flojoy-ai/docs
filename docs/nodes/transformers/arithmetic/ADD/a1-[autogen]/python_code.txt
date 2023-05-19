@@ -13,9 +13,9 @@ def ADD(dc_inputs: list[DataContainer], params: dicts):
     a = [0]
     b = [0]
 
-    if len(v) == 2:
-        a = v[0].y
-        b = v[1]["y"]
+    if len(dc_inputs) == 2:
+        a = dc_inputs[0].y
+        b = dc_inputs[1]["y"]
 
     y = np.add(a, b)
 
