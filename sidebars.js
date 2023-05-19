@@ -229,7 +229,7 @@ const sidebars = {
           type: 'category',
           label: 'Arithmetic',
            items:['nodes/transformers/arithmetic/ADD/ADD',
-                  'nodes/transformers/arithmetic/SUBTRACT',
+                  'nodes/transformers/arithmetic/SUBTRACT/SUBTRACT',
                   'nodes/transformers/arithmetic/MULTIPLY',
                   'nodes/transformers/arithmetic/DIVIDE',
                   'nodes/transformers/arithmetic/ABSOLUTE',
