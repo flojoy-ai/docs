@@ -22,13 +22,12 @@ export default function AppendixSection({children, index, folderPath}) {
   const HREF = ROOT + folderPath + fileNames[index];
 
 
-  console.log('this is children', children);
   return (
     <>
         <br></br>
         <details>
             <summary><span style={sectionStyle}><h4>{SECTION}</h4></span></summary>
-            {children === undefined ? boilerplate[index] : children}
+            {children === undefined ? children : boilerplate[index]}
             <br></br>
             <small><i><a href={HREF}>Edit {fileNames[index]} on GitHub</a></i></small>
         </details>
