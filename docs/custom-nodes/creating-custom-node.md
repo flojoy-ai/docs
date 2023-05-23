@@ -10,7 +10,7 @@ Suppose we wanted to contribute a node that divides two items elementwise (for t
 
 ### Creating the source files
 
-To start, we create the file `DIVIDE/divide.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder. 
+To start, we create the file `DIVIDE/divide.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
 
 We can then create our new function using the features discussed [here](../data-container).
 
@@ -67,7 +67,37 @@ To update the databases with the functionalities of the nodes (including your ne
 python3 write_python_metadata.py
 ```
 
-#### Congratulations! You've created your first custom node.
+### Almost done! Housekeeping time
+
+Let's make sure your code is properly formatted!
+
+We use [black](https://github.com/psf/black) as our formatter for Python, which you can install by running
+
+```bash
+pip3 install black
+```
+
+or
+
+```bash
+pip3 install -r requirements.txt
+```
+
+on the root of the nodes repo.
+
+Once the formatter is installed, simply run
+
+```bash
+black .
+```
+
+on the root of the nodes repo and all your Python files will be properly formatted!
+
+:::tip
+It is always a good idea to setup format on save on the editor of your choice!
+:::
+
+### Congratulations! You've created your first custom node.
 
 When creating custom nodes, make sure to go through the following steps:
 
@@ -77,3 +107,13 @@ When creating custom nodes, make sure to go through the following steps:
 - [x] Did I create a manifest file, correctly adding the correct category key?
 - [x] Did I generate the manifest for the node?
 - [x] Did I update the Python metadata?
+
+### Common Errors:
+
+- `[2023-05-17 08:29:33.105-RQ-watch] AttributeError: module 'nodes.GENERATORS.SIMULATIONS.TESTING.TESTING' has no attribute 'TESTING'`
+
+This likely means your function name does not match the Key in your manifest.yaml file.
+
+- `[2023-05-17 08:59:25.876-RQ-watch] cmd = node["cmd"]    KeyError: 'cmd'`
+
+This likely means you have to run `python3 generate_manifest.py` in the root Flojoy directory.

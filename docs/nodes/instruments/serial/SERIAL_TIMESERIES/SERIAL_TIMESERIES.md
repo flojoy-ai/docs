@@ -1,3 +1,18 @@
+<<<<<<<< HEAD:docs/nodes/instruments/serial/py_serial/examples/EX1/example.md
+========
+---
+sidebar_position: 2
+id: SERIAL_TIMESERIES
+title: Serial Time Series Example
+---
+
+In this page, we will go through an example of simple data aquisition from a serial device. This example will assume an Arduino is being used although any serial device should work.
+
+:::info
+This app requires a serial device such as an Arduino.
+:::
+
+>>>>>>>> origin/main:docs/nodes/instruments/serial/SERIAL_TIMESERIES/SERIAL_TIMESERIES.md
 The returned x-axis from the node is time in seconds starting from 0. The y-axis can be anything with n number of columns. Note that if two y axis columns are needed, the SELECT_ARRAY node must be used.
 
 ### Setting up the serial device.
