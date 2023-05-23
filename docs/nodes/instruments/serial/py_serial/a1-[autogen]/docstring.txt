@@ -1,0 +1,9 @@
+In this page, we will go through an example of simple data aquisition from a serial device. This example will assume an Arduino is being used although any serial device should work.
+
+
+    Node to take simple time dependent 1d data from an Ardunio,
+    or a similar serial device.
+
+
+    It is important that the last line Arduino is returning is the
+    data with a new line at the end (i.e. println()).
