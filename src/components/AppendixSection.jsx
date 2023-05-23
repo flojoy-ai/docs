@@ -22,6 +22,7 @@ export default function AppendixSection({children, index, folderPath}) {
   const HREF = ROOT + folderPath + fileNames[index];
 
 
+console.log('this is children', children);
   return (
     <>
         <br></br>
