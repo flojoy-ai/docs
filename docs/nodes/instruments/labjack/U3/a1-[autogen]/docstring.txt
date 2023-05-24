@@ -1,3 +1,3 @@
 The LABJACKU3 node allows you tu record temperature measurement from sensors that are connected to a LabJack U3-LV.
 The user can connect up to 8 different sensor on the Labjack device and record 8 temperature measurements simultaneously.
-Also, you can update temperature measurements with time by combining the U3 and the loop nodes.
+Also, you can update temperature measurements with time by combining the LABJACKU3 and the LOOP nodes.

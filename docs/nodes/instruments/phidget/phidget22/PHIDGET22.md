@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-    title='Pressure Measurement with Phidget 22'
+    title='Pressure measurement with Phidget 22'
     data={Data1}
     nodeLabel='Pressures'>
     {App1}
