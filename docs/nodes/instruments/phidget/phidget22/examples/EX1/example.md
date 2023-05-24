@@ -1,23 +1,24 @@
-## Connection :
-- Connect the PHIDGET Interfacekit to your computer with an USB Cable
+
+The example above show a simple Flojoy app for the PHIDGET22 node, before using it you'll need to connect all your devices and 
+calibrate your sensors :
+
+### Connection :
+- Connect the PHIDGET Interfacekit to your computer with a USB Cable
 - Connect the Flexiforce sensors with the Phidget Interfacekit using a Flexiforce adapter (See Image)
 
- ## Node Management and measurements parameters :
 
-The PHIDGET22 node doesn't need any data input, so it can be placed on the left on the Flojoy interface : 
+### Calibration :
+- Apply some known pressures and measure induced voltages on your sensor. Use the Phidget control panel in order to do that.
+It should be a linear relation between them and the calibration parameters are the coefficients of the line :
+- Volt=Cal2*Pression+Cal1 --> Pression=Voltage-Cal1 / Cal2.
 
-You need to specify is the number of pressure sensors you are using for your experiment and then you can start your calibration 
+### Parameters :
+After that you can set up the parameters for the Phidget22 node: 
 
-## Calibration :
+- N_Sensors : Number of sensors
+- Calibration 1 & 2 : Linear relation between pressure and voltage measurements
 
-In order to Calibrate your sensor, you'll need to apply some known pressures and measure induced voltages on your sensor. (Possibility to use the Phidget control panel to do that). 
+### Visualisation :
+Before running choose the Visualisation node that fits your project to display the pressure measurements as you want.  
 
-From these measurements you deduce the relation between the voltage and the pressure applied on the sensor and you can use operationnal
-nodes in order to convert voltage into pressures.
-
-## Visualisation :
-
-After that you can choose your Visualisation node that fits your project to display the pressure measurements as you want.  
-
-Also, you can use the loop node (See documentation) in order to update the measurements, you can set the parameters you want for the loops
-(Delay, number of loops, etc..) 
+It's also possible to update pressure measurements with time using the LOOP node (See documentation).
