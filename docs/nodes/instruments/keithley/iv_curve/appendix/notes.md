@@ -1,5 +1,6 @@
 Notes and Documentation: 
 
-- Keithley 2400 Documentation : chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://download.tek.com/manual/2400S-900-01_K-Sep2011_User.pdf
+- Keithley 2400 Documentation : [Keithley_Docs](https://canada.newark.com/keithley/2400/source-meter-voltage-current-200v/dp/41J2103)
+- [IV Curve theory](https://www.pveducation.org/pvcdrom/solar-cell-operation/iv-curve)
 
 
