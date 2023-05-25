@@ -174,7 +174,7 @@ const sidebars = {
            {
           type: 'category',
           label: 'Serial',
-           items:['nodes/instruments/serial/SERIAL_TIMESERIES/SERIAL_TIMESERIES',
+           items:['nodes/instruments/serial/py_serial/PY_SERIAL',
                  ],
            },
             

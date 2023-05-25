@@ -1,4 +1,5 @@
-In this page, we will go through an example of simple data aquisition from a serial device. This example will assume an Arduino is being used although any serial device should work.
+In this page, we will go through an example of simple data aquisition from a serial device.
+This example will assume an Arduino is being used although any serial device should work.
 
 
     Node to take simple time dependent 1d data from an Ardunio,
