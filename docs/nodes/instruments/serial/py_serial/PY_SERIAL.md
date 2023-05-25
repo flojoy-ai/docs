@@ -35,6 +35,6 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/serial/py_serial/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/serial/py_serial//appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/serial/py_serial//appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='py_serial/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='py_serial//appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='py_serial//appendix/'>{Media}</AppendixSection>
