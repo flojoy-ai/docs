@@ -45,6 +45,6 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/cameras/usb_web_cam/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/cameras/usb_web_cam/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/cameras/usb_web_cam/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='cameras/usb_web_cam/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='cameras/usb_web_cam/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='cameras/usb_web_cam/appendix/'>{Media}</AppendixSection>

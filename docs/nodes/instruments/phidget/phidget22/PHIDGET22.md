@@ -45,7 +45,7 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/phidget/phidget22/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/phidget/phidget22/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/phidget/phidget22/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='phidget/phidget22/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='phidget/phidget22/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='phidget/phidget22/appendix/'>{Media}</AppendixSection>
 

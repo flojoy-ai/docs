@@ -44,6 +44,6 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/keithley/iv_curve/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/keithley/iv_curve/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/keithley/iv_curve/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='keithley/iv_curve/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='keithley/iv_curve/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='keithley/iv_curve/appendix/'>{Media}</AppendixSection>
