@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export default function AppendixSection({ children, index, folderPath }) {
 	const sections = [
@@ -19,24 +20,31 @@ export default function AppendixSection({ children, index, folderPath }) {
 	const sectionStyle = { display: 'inline-block', cursor: 'pointer' };
 	const SECTION = sections[index];
 	const HREF = ROOT + folderPath + fileNames[index];
+
+	const isDriverDoc = children && children.includes('Driver doc :');
+
 	return (
 		<>
-			<br></br>
+			<br />
 			<details>
 				<summary>
 					<span style={sectionStyle}>
 						<h4>{SECTION}</h4>
 					</span>
 				</summary>
-				{children !== undefined ? children : boilerplate[index]}
-				<br></br>
+				{isDriverDoc ? null : children !== undefined ? (
+					<ReactMarkdown>{children}</ReactMarkdown>
+				) : (
+					<ReactMarkdown>{boilerplate[index]}</ReactMarkdown>
+				)}
+				<br />
 				<small>
 					<i>
 						<a href={HREF}>Edit {fileNames[index]} on GitHub</a>
 					</i>
 				</small>
 			</details>
-			<hr></hr>
+			<hr />
 		</>
 	);
 }
