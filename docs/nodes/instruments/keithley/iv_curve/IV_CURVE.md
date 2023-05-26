@@ -6,6 +6,7 @@ import Parameters from '@site/src/components/Parameters';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
+import CloudinaryImage from '@site/src/components/CloudinaryImage';
 
 [//]: # (TODO: Machine-generate this section)
 
@@ -47,3 +48,4 @@ import Media from '!!raw-loader!./appendix/media.md';
 <AppendixSection index={0} folderPath='keithley/iv_curve/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='keithley/iv_curve/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='keithley/iv_curve/appendix/'>{Media}</AppendixSection>
+
