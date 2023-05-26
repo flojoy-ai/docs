@@ -78,28 +78,16 @@ const sidebars = {
 			label: 'Node Examples',
 		  items: unflatten(nodesLookup(), { object: false, delimiter: '>' }),
     },
-		{
-			type: 'category',
-			label: 'Node Architecture',
-			items: [
-				'custom-nodes/custom-nodes',
-				'custom-nodes/data-container',
-				'custom-nodes/manifest',
-				'custom-nodes/creating-custom-node',
-				'custom-nodes/custom-category',
-				'custom-nodes/contributing-nodes',
-			],
-		},
 
 		{
 			type: 'category',
-			label: 'More Tutorials',
+			label: 'General Tutorials',
 			items: ['nodes/introduction'],
 		},
 
 		{
 			type: 'category',
-			label: 'Advanced Usage',
+			label: 'Advanced Tutorials',
 			items: [
 				'advanced-usage/small-memory',
 				{
@@ -111,6 +99,18 @@ const sidebars = {
 						'advanced-usage/feedback-control/pid',
 					],
 				},
+        {
+          type: 'category',
+          label: 'Node Architecture',
+          items: [
+            'custom-nodes/custom-nodes',
+            'custom-nodes/data-container',
+            'custom-nodes/manifest',
+            'custom-nodes/creating-custom-node',
+            'custom-nodes/custom-category',
+            'custom-nodes/contributing-nodes',
+          ],
+        }
 			],
 		},
 	],
