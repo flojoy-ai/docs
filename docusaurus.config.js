@@ -82,17 +82,15 @@ const config = {
 
 				items: [
 					{
-						type: 'doc',
-						docId: 'getting-started',
-						position: 'right',
-						label: 'Documentation',
-					},
-					{
-						href: 'https://docs.flojoy.io',
+						href: '/getting-started/install',
 						position: 'right',
 						label: 'Download'
-					},
-					// { to: "/blog", label: "Blog", position: "left" },
+					},					
+					{
+						href: 'https://community.flojoy.io/',
+						position: 'right',
+						label: 'Community'
+					},					
 					{
 						href: 'https://github.com/flojoy-io/docs',
 						position: 'right',

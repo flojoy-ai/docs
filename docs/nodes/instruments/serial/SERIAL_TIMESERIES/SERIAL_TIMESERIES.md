@@ -1,3 +1,5 @@
+<<<<<<<< HEAD:docs/nodes/instruments/serial/py_serial/examples/EX1/example.md
+========
 ---
 sidebar_position: 2
 id: SERIAL_TIMESERIES
@@ -10,6 +12,7 @@ In this page, we will go through an example of simple data aquisition from a ser
 This app requires a serial device such as an Arduino.
 :::
 
+>>>>>>>> origin/main:docs/nodes/instruments/serial/SERIAL_TIMESERIES/SERIAL_TIMESERIES.md
 The returned x-axis from the node is time in seconds starting from 0. The y-axis can be anything with n number of columns. Note that if two y axis columns are needed, the SELECT_ARRAY node must be used.
 
 ### Setting up the serial device.
@@ -42,13 +45,7 @@ print(reading0, ',' , reading1)
 
 ### Loading the app.
 
-Click File -> Load and load the serial.txt file in the apps folder (or add each node seperately). The example app is shown below. 
-
-![image](/img/serial/load.png)
-*Load the app.*
-
-![image](/img/serial/script.png)
-*The app should match this image.*
+Click File -> Load and load the serial.txt file in the apps folder (or add each node seperately). The example app is shown below.
 
 The SELECT_ARRAY node chooses which y-axis column to use. If only one column is returned by the serial device, do not use the SELECT_ARRAY node.
 
@@ -60,13 +57,3 @@ The parameters available for SERIAL are as follows:
 - COMPORT (The serial Com port to use.)
 - BAUD_RATE (Default 9600)
 - RECORD_PERIOD (The time between two readings.)
-
-The parameters available for SELECT_ARRAY:
-
-- COLUMN (The y-axis column to use)
-
-![image](/img/serial/ctrls.png)
-*<br />Choose the CTRLs parameters for your setup*
-
-![image](/img/serial/example.png)
-*Example results from the app. The top column is light intensity which is constant here. The bottom column is temperature in Kelvin.*

@@ -52,14 +52,14 @@ import Data2 from '!!raw-loader!./examples/EX2/output.txt';
 
 [//]: # (Appendix)
 
-import Notes from './appendix/notes.md';
-import Hardware from './appendix/hardware.md';
-import Media from './appendix/media.md';
+import Notes from '!!raw-loader!./appendix/notes.md';
+import Hardware from '!!raw-loader!./appendix/hardware.md';
+import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/stepper-motors/TIC/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='stepper-motors/TIC/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='stepper-motors/TIC/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='stepper-motors/TIC/appendix/'>{Media}</AppendixSection>
 
 

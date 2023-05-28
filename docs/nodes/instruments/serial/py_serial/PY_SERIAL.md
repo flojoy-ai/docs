@@ -1,5 +1,4 @@
-
-[//]: # (Custom component imports)
+[//]: #
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
@@ -8,7 +7,7 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (TODO: Machine-generate this section)
+[//]: # 
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -45,6 +44,6 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='cameras/usb_web_cam/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='cameras/usb_web_cam/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='cameras/usb_web_cam/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='py_serial/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='py_serial//appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='py_serial//appendix/'>{Media}</AppendixSection>

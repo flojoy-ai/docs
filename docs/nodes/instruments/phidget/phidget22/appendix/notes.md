@@ -1,3 +1,3 @@
-Documentation : 
 
-https://www.phidgets.com/docs/Main_Page
+
+[Phidget Website](https://www.phidgets.com/docs/Main_Page)

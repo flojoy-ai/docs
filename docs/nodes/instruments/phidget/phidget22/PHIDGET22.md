@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-    title='Pressure Measurement with Phidget 22'
+    title='Pressure measurement with Phidget 22'
     data={Data1}
     nodeLabel='Pressures'>
     {App1}
@@ -39,13 +39,13 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 [//]: # (Appendix)
 
-import Notes from './appendix/notes.md';
-import Hardware from './appendix/hardware.md';
-import Media from './appendix/media.md';
+import Notes from '!!raw-loader!./appendix/notes.md';
+import Hardware from '!!raw-loader!./appendix/hardware.md';
+import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/instruments/phidget/phidget22/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/instruments/phidget/phidget22/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/instruments/phidget/phidget22/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='phidget/phidget22/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='phidget/phidget22/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='phidget/phidget22/appendix/'>{Media}</AppendixSection>
 
