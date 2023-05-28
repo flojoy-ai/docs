@@ -1,66 +1,8 @@
 var unflatten = require('flat').unflatten
+var fs = require('fs');
 
-function nodesLookup() {
-  return {
-    // ETL
-
-    'ETL > Extract > File System': ['nodes/extractors/files/OPEN_CSV', 
-                                'nodes/extractors/files/OPEN_IMAGE'],
-
-    'ETL > Load': ['nodes/loaders/frontier/MEASUREMENT_UPLOAD'],
-    
-    'ETL > Transform > Arithmetic': ['nodes/transformers/arithmetic/ADD/ADD',
-                                        'nodes/transformers/arithmetic/SUBTRACT/SUBTRACT',
-                                        'nodes/transformers/arithmetic/MULTIPLY',
-                                        'nodes/transformers/arithmetic/DIVIDE',
-                                        'nodes/transformers/arithmetic/ABSOLUTE'],
-
-    'ETL > Transform > Calculus': ['nodes/transformers/calculus/INTEGRATE',
-                                      'nodes/transformers/calculus/DIFFERENTIATE'],
-
-    'ETL > Transform > DSP': ['nodes/transformers/DSP/FIR'],
-
-    'ETL > Transform > Type Casting': ['nodes/transformers/casting/DF_TO_MAT', 
-                                          'nodes/transformers/casting/MAT_TO_DF', 
-                                          'nodes/transformers/casting/STR_TO_FLOAT',
-                                          'nodes/transformers/casting/FLOAT_TO_INT'],
-
-    'ETL > Transform > Matrix Manipulation': ['nodes/transformers/matrix_manipulation/MATMUL',
-                                                'nodes/transformers/matrix_manipulation/INVERT'],
-
-    // Data
-
-    'Data > Generate > Synthetic Data > DATAFRAMES': ['nodes/generators/data/R_DATASETS'],
-
-    'Data > Generate > Synthetic Data > IMAGES': ['nodes/generators/Images/SKLEARN_IMAGES'],
-
-    'Data > Generate > Simulation': ['nodes/generators/simulation/FEEDBACK',
-                                      'nodes/generators/simulation/TIME_SERIES',
-                                      'nodes/generators/simulation/LINSPACE',
-                                      'nodes/generators/simulation/CONSTANT',
-                                      'nodes/generators/simulation/2ND_ORDER',
-                                      'nodes/generators/simulation/RAND_UNIFORM',
-                                      'nodes/generators/simulation/RAND_GAUSSIAN'],
-    
-    'Data > Visualize > Plotly': ['nodes/visualizers/plotly/PLOTLY'],
-
-    'Data > AI & ML > Foundational Models': ['nodes/AI-ML/object-detection/YOLOv3'],
-
-    // FLOW CONTROL
-
-    'Flow': ['nodes/logic-gates/looping',
-                    'nodes/logic-gates/forloop',
-                    'nodes/logic-gates/whileloop'],
-
-    // I/O
-
-    'I/O > Instruments > Keithley >': ['nodes/instruments/keithley/iv_curve/IV_CURVE'],
-    'I/O > Instruments > LabJack >': ['nodes/instruments/labjack/U3/U3'],
-    'I/O > Motion > Stepper Motor Drivers': ['nodes/instruments/stepper-motors/TIC/PY_TIC'],
-    'I/O > Imaging': ['nodes/instruments/cameras/usb_web_cam/USB_WEB_CAM'],
-    'I/O > Protocols > Serial': ['nodes/instruments/serial/py_serial/PY_SERIAL'],
-  };
-}
+const data = fs.readFileSync('nodeSidebar.json', 'utf8');
+const nodesObj = JSON.parse(data.replace(/\s+/g, ''));
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -75,8 +17,8 @@ const sidebars = {
 		},
     {
 			type: 'category',
-			label: 'Node Examples',
-		  items: unflatten(nodesLookup(), { object: false, delimiter: '>' }),
+			label: 'Node Examples',      
+      items: unflatten(nodesObj, { object: false, delimiter: '>' }),
     },
 
 		{
