@@ -13,8 +13,7 @@ const title = 'Flojoy';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'FLOJOY',
-	tagline:
-		'Joyful visual programming for Python.',
+	tagline: 'Joyful visual programming for Python.',
 	url: 'https://docs.flojoy.io',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
@@ -61,7 +60,7 @@ const config = {
 			href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
 			type: 'text/css',
 			integrity:
-			  'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+				'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
 			crossorigin: 'anonymous',
 		},
 	],
@@ -76,21 +75,21 @@ const config = {
 				//title,
 				logo: {
 					alt: title,
-					src: 'img/logo-horizontal-dark.svg',
-					srcDark: 'img/logo-horizontal-light.svg',
+					src: 'img/logo.png',
+					srcDark: 'img/logo.png',
 				},
 
 				items: [
 					{
 						href: '/getting-started/install',
 						position: 'right',
-						label: 'Download'
-					},					
+						label: 'Download',
+					},
 					{
 						href: 'https://community.flojoy.io/',
 						position: 'right',
-						label: 'Community'
-					},					
+						label: 'Community',
+					},
 					{
 						href: 'https://github.com/flojoy-io/docs',
 						position: 'right',
