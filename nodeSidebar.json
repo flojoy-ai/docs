@@ -22,8 +22,29 @@
         "nodes/GENERATORS/SIMULATIONS/SINE/SINE",
         "nodes/GENERATORS/SIMULATIONS/TIMESERIES/TIMESERIES"
     ],
+    "I/O > Instruments > Keithley": [
+        "nodes/INSTRUMENTS/KEITHLEY/KEITHLEY2400/KEITHLEY2400"
+    ],
+    "I/O > Instruments > LabJack": [
+        "nodes/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3"
+    ],
+    "I/O > Protocols > Serial": [
+        "nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT",
+        "nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/SERIAL_TIMESERIES"
+    ],
+    "I/O > Motion > Stepper Motor Drivers": [
+        "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC",
+        "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB"
+    ],
+    "I/O > Imaging": [
+        "nodes/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA"
+    ],
     "ETL > Load": [
         "nodes/LOADERS/CLOUD_DATABASE/LOADER/LOADER"
+    ],
+    "Flow": [
+        "nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL",
+        "nodes/LOGIC_GATES/LOOPS/GOTO"
     ],
     "ETL > Transform > Arithmetic": [
         "nodes/TRANSFORMERS/ARITHMETIC/ABS/ABS",

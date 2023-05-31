@@ -25,7 +25,7 @@ def update_map(
 ):
     for key, item in nodes_map.items():
         if item == "":
-            break
+            continue
         formatted_path = file_path.replace("\\", "/").replace(".md", "")
         if isinstance(item, list):
             for i in item:

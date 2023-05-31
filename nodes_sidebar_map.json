@@ -14,8 +14,8 @@
   "Data > AI & ML > Regressions": "",
   "Data > AI & ML > Casting": "",
   "Flow": ["LOOPS", "CONDITIONALS"],
-  "I/O > Instruments > Keithley >": "KEITHLEY",
-  "I/O > Instruments > LabJack >": "LABJACK",
+  "I/O > Instruments > Keithley": "KEITHLEY",
+  "I/O > Instruments > LabJack": "LABJACK",
   "I/O > Motion > Stepper Motor Drivers": "STEPPER_MOTOR",
   "I/O > Imaging": "WEB_CAM",
   "I/O > Protocols > Serial": "SERIAL"

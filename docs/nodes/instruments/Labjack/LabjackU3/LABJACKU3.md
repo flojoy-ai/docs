@@ -30,8 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/Labjack/LabjackU3/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/Labjack/LabjackU3/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/Labjack/LabjackU3/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Media}</AppendixSection>
 
 

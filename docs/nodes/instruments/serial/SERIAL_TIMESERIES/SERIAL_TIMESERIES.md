@@ -30,8 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/appendix/'>{Media}</AppendixSection>
 
 

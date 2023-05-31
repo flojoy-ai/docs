@@ -30,8 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/Stepper_Motor/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/Stepper_Motor/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/Stepper_Motor/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Media}</AppendixSection>
 
 

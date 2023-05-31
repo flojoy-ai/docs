@@ -30,8 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/Phidget/Phidget22/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/Phidget/Phidget22/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/Phidget/Phidget22/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/PHIDGET/PHIDGET22/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/PHIDGET/PHIDGET22/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/PHIDGET/PHIDGET22/appendix/'>{Media}</AppendixSection>
 
 
