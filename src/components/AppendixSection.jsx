@@ -14,7 +14,7 @@ export default function AppendixSection({ children, index, folderPath }) {
 		'No supporting screenshots, photos, or videos have been added to the media.md file for this node.',
 	];
 
-	const ROOT = 'https://github.com/flojoy-io/docs/tree/main/docs/nodes';
+	const ROOT = 'https://github.com/flojoy-io/docs/tree/main/docs/';
 
 	const fileNames = ['notes.md', 'hardware.md', 'media.md'];
 	const sectionStyle = { display: 'inline-block', cursor: 'pointer' };

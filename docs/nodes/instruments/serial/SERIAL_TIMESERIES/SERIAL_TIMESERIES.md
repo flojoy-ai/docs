@@ -1,59 +1,37 @@
-<<<<<<<< HEAD:docs/nodes/instruments/serial/py_serial/examples/EX1/example.md
-========
----
-sidebar_position: 2
-id: SERIAL_TIMESERIES
-title: Serial Time Series Example
----
 
-In this page, we will go through an example of simple data aquisition from a serial device. This example will assume an Arduino is being used although any serial device should work.
+[//]: # (Custom component imports)
 
-:::info
-This app requires a serial device such as an Arduino.
-:::
+import DocString from '@site/src/components/DocString';
+import PythonCode from '@site/src/components/PythonCode';
+import Parameters from '@site/src/components/Parameters';
+import AppDisplay from '@site/src/components/AppDisplay';
+import SectionBreak from '@site/src/components/SectionBreak';
+import AppendixSection from '@site/src/components/AppendixSection';
 
->>>>>>>> origin/main:docs/nodes/instruments/serial/SERIAL_TIMESERIES/SERIAL_TIMESERIES.md
-The returned x-axis from the node is time in seconds starting from 0. The y-axis can be anything with n number of columns. Note that if two y axis columns are needed, the SELECT_ARRAY node must be used.
+[//]: # (TODO: Machine-generate this section)
 
-### Setting up the serial device.
+import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
+import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
-The serial device should return y-axis data in a comma seperated format. In C++ like an Ardunio uses, the data should be returned like so:
+<DocString>{DocstringSource}</DocString>
+<PythonCode>{PythonSource}</PythonCode>
+<Parameters>{ParametersSource}</Parameters>
 
-```
-print(reading0)
-print(",")
-println(reading1)
-```
+<SectionBreak />
 
-:::caution
-The first data points must be returned with print while last data point must be println or equivalent.
-:::
+    
 
-In Python (>3.6) this would appear like:
+[//]: # (Appendix)
 
-```
-print(f'{reading0}','{reading1}')
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-```
+## Appendix
 
-or
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/Serial/Serial_timeseries/appendix/'>{Media}</AppendixSection>
 
-```
-print(reading0, ',' , reading1)
 
-```
-
-### Loading the app.
-
-Click File -> Load and load the serial.txt file in the apps folder (or add each node seperately). The example app is shown below.
-
-The SELECT_ARRAY node chooses which y-axis column to use. If only one column is returned by the serial device, do not use the SELECT_ARRAY node.
-
-### CTRLs setup.
-
-The parameters available for SERIAL are as follows:
-
-- NUM_READINGS (the number of readings that the node will make.)
-- COMPORT (The serial Com port to use.)
-- BAUD_RATE (Default 9600)
-- RECORD_PERIOD (The time between two readings.)

@@ -1,7 +1,0 @@
-
-
-This tutorial will explain how to use the Flojoy nodes STEPPER_DRIVER_TIC, and STEPPER_DRIVER_TIC_KNOB in order to control
-a stepper motor with from Flojoy interface.
-
-- Both node have a different behavior, but they allow you to control the stepper motor movement from the parameters
-you are choosing on the Flojoy interface.

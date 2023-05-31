@@ -1,3 +1,4 @@
+
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
@@ -19,6 +20,8 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <SectionBreak />
 
+    
+
 [//]: # (Examples)
 
 import Example1 from './examples/EX1/example.md';
@@ -26,7 +29,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-    title='Add 2 numpy arrays'
+    title='ADD'
     data={Data1}
     nodeLabel='ADD'>
     {App1}
@@ -35,6 +38,8 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 <Example1 />
 
 <SectionBreak />
+  
+    
 
 [//]: # (Appendix)
 
@@ -44,6 +49,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/transformers/arithmetic/ADD/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/transformers/arithmetic/ADD/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/transformers/arithmetic/ADD/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Media}</AppendixSection>
+
+

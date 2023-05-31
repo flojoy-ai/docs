@@ -20,22 +20,7 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <SectionBreak />
 
-[//]: # (Examples)
-
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import Data1 from '!!raw-loader!./examples/EX1/output.txt';
-
-<AppDisplay 
-    title='Multiple 2 numpy arrays elementwise'
-    data={Data1}
-    nodeLabel='MULTIPLY'>
-    {App1}
-</AppDisplay>
-
-<Example1 />
-
-<SectionBreak />
+    
 
 [//]: # (Appendix)
 
@@ -45,6 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='/transformers/arithmetic/MULTIPLY/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='/transformers/arithmetic/MULTIPLY/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='/transformers/arithmetic/MULTIPLY/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/appendix/'>{Media}</AppendixSection>
+
+

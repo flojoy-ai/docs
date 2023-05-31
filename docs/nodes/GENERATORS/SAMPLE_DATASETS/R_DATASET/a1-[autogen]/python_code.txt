@@ -1,0 +1,10 @@
+from flojoy import flojoy, DataContainer
+from rdatasets import data
+
+
+@flojoy
+def R_DATASET(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
+    
+    dataset_key = params["dataset_key"]
+    df = data(dataset_key)
+    return DataContainer(type="dataframe", m=df)

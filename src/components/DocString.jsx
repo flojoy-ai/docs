@@ -1,22 +1,23 @@
 import React from 'react';
 
-export default function DocString({children}) {
+export default function DocString({ children }) {
+	const ERROR = 'This function does not have a docstring description yet.';
 
-  const ERROR = 'This function does not have a docstring description yet.';
+	if (children.trim() === '') {
+		return ERROR;
+	}
+  const content = children.split('\n').map(l=> l.trimStart()).join("\n")
 
-  if( children.trim() === '') {
-    return(ERROR);
-  }
-
-  return (
-    <>
-      <blockquote
-        style={{
-          padding: '0.2rem',
-        }}>
-        {children}
-      </blockquote>
-      <br></br>
-    </>
-  );
+	return (
+		<>
+			<blockquote
+				style={{
+					padding: '0.5rem',
+				}}
+			>
+				<pre>{content}</pre>
+			</blockquote>
+			<br></br>
+		</>
+	);
 }
