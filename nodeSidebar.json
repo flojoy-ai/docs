@@ -44,7 +44,8 @@
     ],
     "Flow": [
         "nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL",
-        "nodes/LOGIC_GATES/LOOPS/GOTO"
+        "nodes/LOGIC_GATES/LOOPS/GOTO/GOTO",
+        "nodes/LOGIC_GATES/LOOPS/LOOP/LOOP"
     ],
     "ETL > Transform > Arithmetic": [
         "nodes/TRANSFORMERS/ARITHMETIC/ABS/ABS",

@@ -30,8 +30,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/LOGIC_GATES/LOOPS/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/LOGIC_GATES/LOOPS/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/LOGIC_GATES/LOOPS/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'>{Media}</AppendixSection>
 
 
