@@ -64,6 +64,9 @@
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/PID",
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/SAVGOL"
     ],
+    "Data > Visualize > Data Structure": [
+        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW"
+    ],
     "Data > Visualize > Plotly": [
         "nodes/VISUALIZERS/PLOTLY/BAR/BAR",
         "nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/BIG_NUMBER",

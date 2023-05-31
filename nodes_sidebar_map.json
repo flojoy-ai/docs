@@ -10,6 +10,7 @@
   "Data > Generate > Synthetic Data > IMAGES": "SAMPLE_IMAGES",
   "Data > Generate > Simulation": "SIMULATIONS",
   "Data > Visualize > Plotly": "PLOTLY",
+  "Data > Visualize > Data Structure": "DATA_STRUCTURE",
   "Data > AI & ML > Object Detection": "OBJECT_DETECTION",
   "Data > AI & ML > Regressions": "",
   "Data > AI & ML > Casting": "",
