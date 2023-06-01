@@ -1,4 +1,0 @@
-
-    Takes current limit and sleep time as parameters and allow to control position
-    and speed of a motor with a TIC driver
-    

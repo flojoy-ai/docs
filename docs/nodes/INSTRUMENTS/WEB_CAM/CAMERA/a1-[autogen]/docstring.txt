@@ -1,4 +1,0 @@
-
-    Takes a picture from a connected camera using OpenCV.
-    If no camera is connected, an error would be thrown.
-    

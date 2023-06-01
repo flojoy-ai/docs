@@ -1,3 +1,0 @@
-
-    IV curve measurement with a Keithley 2400 source meter, send voltages and measure currents
-    

@@ -1,1 +1,0 @@
-Subtract 2 input vectors and return the result

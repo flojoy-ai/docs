@@ -1,2 +1,0 @@
-Apply a Savitzky-Golay filter to an input vector.
-    The default behaviour is implementing a 3-point moving average of the data.

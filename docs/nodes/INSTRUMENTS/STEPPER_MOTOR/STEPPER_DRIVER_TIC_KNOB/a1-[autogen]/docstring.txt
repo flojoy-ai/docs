@@ -1,4 +1,0 @@
-
-    Takes knob position as parameters to control the rotation of the motor and allow to control position
-    and speed of a motor with a TIC driver
-    

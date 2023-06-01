@@ -1,1 +1,0 @@
-Apply a butterworth filter to an input vector
