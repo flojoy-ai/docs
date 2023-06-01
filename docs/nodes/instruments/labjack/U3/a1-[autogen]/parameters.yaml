@@ -1,4 +1,0 @@
-    parameters:
-      numbers:
-        type: int
-        default: 1

@@ -1,4 +1,0 @@
-
-The Iv curve node is used to record an IV Curve with Flojoy using a Keithley2400 sourcemeter.
-It allows the user to set up serial communication (Comport and Baudrate) between his computer and a Keithley 2400 source meter.
-Then, it is used to send voltages to the device and record current measurements to plot an I-V curve.

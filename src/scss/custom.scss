@@ -89,6 +89,10 @@ body {
 		flex-direction: column;
 	}
 }
+.menu__link:not(.menu__link--sublist) {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas,'Liberation Mono', 'Courier New', monospace;
+}
+
 
 // .bg {
 // 	position: relative;

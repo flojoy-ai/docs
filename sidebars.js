@@ -1,8 +1,8 @@
-var unflatten = require('flat').unflatten
-var fs = require('fs');
+const unflatten = require('flat').unflatten
+const fs = require('fs');
 
 const data = fs.readFileSync('nodeSidebar.json', 'utf8');
-const nodesObj = JSON.parse(data.replace(/\s+/g, ''));
+const nodesObj = JSON.parse(data);
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
