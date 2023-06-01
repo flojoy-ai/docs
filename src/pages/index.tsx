@@ -3,11 +3,10 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import ThemedImage from '@theme/ThemedImage';
-
 import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { downloadLinks } from '../utils/download-links';
+import QuickStart from '../components/QuickStart';
 
 function HomepageHeader() {
 	useEffect(() => {
@@ -19,6 +18,11 @@ function HomepageHeader() {
 	}, []);
 
 	const { siteConfig } = useDocusaurusContext();
+	const bgImage = {
+		light: useBaseUrl('/img/hero-image-light.svg'),
+		dark: useBaseUrl('/img/hero-image-dark.svg'),
+	};
+
 	return (
 		<>
 			<header className={clsx('hero text-left', styles.heroBanner)}>
@@ -47,15 +51,14 @@ function HomepageHeader() {
 					</div>
 				</div>
 			</header>
-			<section className="mb-4 bg">
+			<section
+				className={clsx('mb-4', styles.backgroundSection)}
+				style={{
+					backgroundImage: `url(${bgImage?.light})`,
+				}}
+			>
 				<div className="container text-center">
-					<ThemedImage
-						alt="example"
-						sources={{
-							light: useBaseUrl('/img/hero-image-light.svg'),
-							dark: useBaseUrl('/img/hero-image-dark.svg'),
-						}}
-					/>
+					<QuickStart />
 				</div>
 			</section>
 		</>
