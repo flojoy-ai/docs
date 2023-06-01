@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='TRANSFORMERS/ARITHMETIC/MULTIPLY/MULTIPLY.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='TRANSFORMERS/ARITHMETIC/MULTIPLY'
+  nodeLabel='MULTIPLY'>
+</AppDisplay>
 
 <SectionBreak />
 

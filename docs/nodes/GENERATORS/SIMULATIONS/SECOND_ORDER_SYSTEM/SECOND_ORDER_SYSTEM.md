@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/SECOND_ORDER_SYSTEM.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM'
+  nodeLabel='SECOND_ORDER_SYSTEM'>
+</AppDisplay>
 
 <SectionBreak />
 

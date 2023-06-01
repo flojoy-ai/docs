@@ -15,7 +15,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='TRANSFORMERS/ARITHMETIC/ADD/ADD.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -24,12 +24,13 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 [//]: # (Examples)
 
+## Examples
+
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-    title='ADD'
     data={Data1}
     nodeLabel='ADD'>
     {App1}

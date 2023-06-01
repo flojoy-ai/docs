@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='INSTRUMENTS/KEITHLEY/KEITHLEY2400/KEITHLEY2400.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='INSTRUMENTS/KEITHLEY/KEITHLEY2400'
+  nodeLabel='KEITHLEY2400'>
+</AppDisplay>
 
 <SectionBreak />
 

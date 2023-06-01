@@ -22,7 +22,7 @@ export default function AppDisplay({ children, data, GLink }) {
 		return (
 			<>
 				<blockquote>{NOEXAMPLEFOUND}
-                <a href={`${GitHubNodeRepo}/${GLink}`}>here</a>
+                <a href={`${GitHubNodeRepo}/${GLink}`} target='_blank'>here</a>
                 </blockquote>
 				<br /> <br />
 			</>

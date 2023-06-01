@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE'
+  nodeLabel='LOCAL_FILE'>
+</AppDisplay>
 
 <SectionBreak />
 
