@@ -7,7 +7,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { downloadLinks } from '../utils/download-links';
+import { downloadLinks } from '../utils/helper';
 
 function HomepageHeader() {
 	useEffect(() => {
