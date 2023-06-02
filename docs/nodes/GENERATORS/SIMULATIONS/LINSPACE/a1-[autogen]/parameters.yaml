@@ -1,0 +1,9 @@
+end:
+  default: 0
+  type: float
+start:
+  default: 10
+  type: float
+step:
+  default: 1000
+  type: int

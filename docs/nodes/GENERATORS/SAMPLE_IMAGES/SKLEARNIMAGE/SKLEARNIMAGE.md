@@ -15,7 +15,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/SKLEARN_IMAGE.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/SKLEARNIMAGE.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -27,8 +27,8 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 ## Examples
 
 <AppDisplay 
-  GLink='GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE'
-  nodeLabel='SKLEARN_IMAGE'>
+  GLink='GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE'
+  nodeLabel='SKLEARNIMAGE'>
 </AppDisplay>
 
 <SectionBreak />
@@ -43,8 +43,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/appendix/'>{Media}</AppendixSection>
 
 

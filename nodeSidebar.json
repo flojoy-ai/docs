@@ -11,7 +11,7 @@
         "nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/R_DATASET"
     ],
     "Data > Generate > Synthetic Data > IMAGES": [
-        "nodes/GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/SKLEARN_IMAGE"
+        "nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/SKLEARNIMAGE"
     ],
     "Data > Generate > Simulation": [
         "nodes/GENERATORS/SIMULATIONS/CONSTANT/CONSTANT",

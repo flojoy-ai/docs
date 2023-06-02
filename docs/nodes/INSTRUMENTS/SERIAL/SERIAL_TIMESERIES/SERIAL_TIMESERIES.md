@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/SERIAL_TIMESERIES.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='INSTRUMENTS/SERIAL/SERIAL_TIMESERIES'
+  nodeLabel='SERIAL_TIMESERIES'>
+</AppDisplay>
 
 <SectionBreak />
 
