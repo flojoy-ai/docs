@@ -15,8 +15,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode>{PythonSource}</PythonCode>
+<PythonCode GLink='INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
+
+<SectionBreak />
+
+    
+
+[//]: # (Examples)
+
+## Examples
+
+<AppDisplay 
+  GLink='INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT'
+  nodeLabel='SERIAL_SINGLE_MEASUREMENT'>
+</AppDisplay>
 
 <SectionBreak />
 

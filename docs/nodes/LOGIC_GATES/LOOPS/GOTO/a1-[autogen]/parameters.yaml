@@ -1,0 +1,3 @@
+goto_node_id:
+  default: ''
+  type: node_reference

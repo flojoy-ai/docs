@@ -1,0 +1,3 @@
+sleep_time:
+  default: 0
+  type: int
