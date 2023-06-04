@@ -11,42 +11,38 @@ const QuickStart = () => {
 					padding: '50px',
 				}}
 			>
-				<h3 className="hero__subtitle">QuickStart</h3>
+				<h3 className="hero__subtitle">QuickStart!</h3>
 				<ul className={styles.list}>
 					<li>
+						<span className={styles.bulletLarge}>&#x25CF;</span>
 						<a href="#" className={styles.link}>
 							<span>Robotics</span>
 						</a>
-						<p className={styles.paragraph}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-							efficitur luctus sapien non commodo.
-						</p>
+						<p className={styles.paragraph}>Control a stepper motor</p>
 					</li>
 					<li>
+						<span className={styles.bulletLarge}>&#x25CF;</span>
 						<a href="#" className={styles.link}>
-							<span>AI</span>
+							<span> AI</span>
 						</a>
 						<p className={styles.paragraph}>
-							Sed tempus consectetur est, et luctus lacus tincidunt ac.
-							Suspendisse potenti.
+							Identify objects in web cam capture
 						</p>
 					</li>
 					<li>
+						<span className={styles.bulletLarge}>&#x25CF;</span>
 						<a href="#" className={styles.link}>
 							<span>Arduino</span>
 						</a>
-						<p className={styles.paragraph}>
-							Vestibulum auctor lectus et feugiat malesuada. Phasellus imperdiet
-							ultricies turpis a finibus.
-						</p>
+						<p className={styles.paragraph}>Read temperature from an Arduino</p>
 					</li>
 					<li>
+						<span className={styles.bulletLarge}>&#x25CF;</span>
 						<a href="#" className={styles.link}>
-							<span>MATLAB</span>
+							<span> MATLAB</span>
 						</a>
 						<p className={styles.paragraph}>
-							Vestibulum auctor lectus et feugiat malesuada. Phasellus imperdiet
-							ultricies turpis a finibus.
+							Convert a .mat file to a Python dataframe
 						</p>
 					</li>
 				</ul>

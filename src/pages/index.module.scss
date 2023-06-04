@@ -15,16 +15,17 @@
 }
 
 .quickstart {
-	background-color: rgb(226, 226, 226);
-	border: 1px solid rgb(153, 245, 255);
+	background-color: #ffffff;
+	border: 1px solid var(--ifm-color-primary);
 	border-radius: 4px;
 	/* Light mode background color */
 }
 
 [data-theme='dark'] .quickstart {
-	background-color: rgb(0, 0, 0);
-	border: 1px solid rgb(153, 245, 255);
+	background-color: black;
+	border: 1px solid var(--ifm-color-primary);
 	border-radius: 4px;
+	color: white;
 	/* Dark mode background color */
 }
 .list {
@@ -49,6 +50,7 @@
 	gap: 20px;
 	font-size: 16px;
 	font-weight: bold;
+	width: 10%;
 	/* Update the font size as desired */
 }
 
@@ -58,7 +60,10 @@
 	padding-right: 15px;
 	border-radius: 14px;
 }
-
+[data-theme='dark'] .link span{
+	background-color: var(--ifm-color-primary);
+	color: black;
+}
 .link:hover {
 	text-decoration: none;
 }
@@ -66,4 +71,12 @@
 .paragraph {
 	margin: 0;
 	/* add additional paragraph styles as needed */
+}
+.bulletLarge{
+	color: black;
+ 	font-size: large;
+	margin-right: 10px;
+}
+[data-theme='dark'] .bulletLarge {
+	color: var(--ifm-color-primary);
 }
