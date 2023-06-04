@@ -1,0 +1,3 @@
+referred_node:
+  default: ''
+  type: node_reference

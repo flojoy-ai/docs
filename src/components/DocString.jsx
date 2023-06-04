@@ -1,22 +1,40 @@
 import React from 'react';
+import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
+import yaml from 'react-syntax-highlighter/dist/cjs/languages/hljs/yaml';
+import {
+	a11yDark,
+	a11yLight,
+} from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { useColorMode } from '@docusaurus/theme-common';
 
-export default function DocString({children}) {
+SyntaxHighlighter.registerLanguage('yaml', yaml);
 
-  const ERROR = 'This function does not have a docstring description yet.';
+export default function DocString({ children }) {
+	const { colorMode } = useColorMode();
 
-  if( children.trim() === '') {
-    return(ERROR);
-  }
+	const ERROR = 'This function does not have a docstring description yet.';
+	if (children.trim() === '') {
+		return (
+			<>
+				<blockquote>{ERROR}</blockquote>
+				<br /> <br />
+			</>
+		);
+	}
+	const content = children
+		.split('\n')
+		.map(l => l.trimStart())
+		.join('\n');
 
-  return (
-    <>
-      <blockquote
-        style={{
-          padding: '0.2rem',
-        }}>
-        {children}
-      </blockquote>
-      <br></br>
-    </>
-  );
+	return (
+		<>
+			<SyntaxHighlighter
+				language="yaml"
+				style={colorMode === 'dark' ? a11yDark : a11yLight}
+			>
+				{content}
+			</SyntaxHighlighter>
+			<br></br>
+		</>
+	);
 }

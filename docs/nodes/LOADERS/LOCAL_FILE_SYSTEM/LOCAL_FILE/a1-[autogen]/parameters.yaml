@@ -1,0 +1,6 @@
+file_type:
+  default: image
+  type: string
+path:
+  default: ''
+  type: string

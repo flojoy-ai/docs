@@ -1,0 +1,12 @@
+cutoff_freq:
+  default: 10.0
+  type: float
+sample_rate:
+  default: 100
+  type: float
+stop_band_attenuation:
+  default: 60
+  type: float
+transition_width:
+  default: 5.0
+  type: float

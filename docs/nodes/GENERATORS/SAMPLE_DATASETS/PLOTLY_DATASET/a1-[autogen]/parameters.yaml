@@ -1,0 +1,14 @@
+dataset_key:
+  default: wind
+  options:
+  - wind
+  - iris
+  - carshare
+  - tips
+  - election
+  - experiment
+  - gapminder
+  - medals_long
+  - medals_wide
+  - stocks
+  type: select

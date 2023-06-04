@@ -1,51 +1,81 @@
 {
-    "ETL > Extract > File System": ["nodes/extractors/files/OPEN_CSV", 
-    "nodes/extractors/files/OPEN_IMAGE"],
-
-    "ETL > Load": ["nodes/loaders/frontier/MEASUREMENT_UPLOAD"],
-
-    "ETL > Transform > Arithmetic": ["nodes/transformers/arithmetic/ADD/ADD",
-            "nodes/transformers/arithmetic/SUBTRACT/SUBTRACT",
-            "nodes/transformers/arithmetic/MULTIPLY/MULTIPLY",
-            "nodes/transformers/arithmetic/DIVIDE",
-            "nodes/transformers/arithmetic/ABSOLUTE"],
-
-    "ETL > Transform > Calculus": ["nodes/transformers/calculus/INTEGRATE",
-        "nodes/transformers/calculus/DIFFERENTIATE"],
-
-    "ETL > Transform > DSP": ["nodes/transformers/DSP/FIR"],
-
-    "ETL > Transform > Type Casting": ["nodes/transformers/casting/DF_TO_MAT", 
-            "nodes/transformers/casting/MAT_TO_DF", 
-            "nodes/transformers/casting/STR_TO_FLOAT",
-            "nodes/transformers/casting/FLOAT_TO_INT"],
-
-    "ETL > Transform > Matrix Manipulation": ["nodes/transformers/matrix_manipulation/MATMUL",
-                    "nodes/transformers/matrix_manipulation/INVERT"],
-
-    "Data > Generate > Synthetic Data > DATAFRAMES": ["nodes/generators/data/R_DATASETS"],
-
-    "Data > Generate > Synthetic Data > IMAGES": ["nodes/generators/Images/SKLEARN_IMAGES"],
-
-    "Data > Generate > Simulation": ["nodes/generators/simulation/FEEDBACK",
-        "nodes/generators/simulation/TIME_SERIES",
-        "nodes/generators/simulation/LINSPACE",
-        "nodes/generators/simulation/CONSTANT",
-        "nodes/generators/simulation/2ND_ORDER",
-        "nodes/generators/simulation/RAND_UNIFORM",
-        "nodes/generators/simulation/RAND_GAUSSIAN"],
-
-    "Data > Visualize > Plotly": ["nodes/visualizers/plotly/PLOTLY"],
-
-    "Data > AI & ML > Foundational Models": ["nodes/AI-ML/object-detection/YOLOv3"],
-
-    "Flow": ["nodes/logic-gates/looping",
-    "nodes/logic-gates/forloop",
-    "nodes/logic-gates/whileloop"],
-
-    "I/O > Instruments > Keithley >": ["nodes/instruments/keithley/iv_curve/IV_CURVE"],
-    "I/O > Instruments > LabJack >": ["nodes/instruments/labjack/U3/U3"],
-    "I/O > Motion > Stepper Motor Drivers": ["nodes/instruments/stepper-motors/TIC/PY_TIC"],
-    "I/O > Imaging": ["nodes/instruments/cameras/usb_web_cam/USB_WEB_CAM"],
-    "I/O > Protocols > Serial": ["nodes/instruments/serial/py_serial/PY_SERIAL"]
+    "Data > AI & ML > Object Detection": [
+        "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION"
+    ],
+    "ETL > Extract > File System": [
+        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
+        "nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE"
+    ],
+    "Data > Generate > Synthetic Data > DATAFRAMES": [
+        "nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/PLOTLY_DATASET",
+        "nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/R_DATASET"
+    ],
+    "Data > Generate > Synthetic Data > IMAGES": [
+        "nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/SKLEARNIMAGE"
+    ],
+    "Data > Generate > Simulation": [
+        "nodes/GENERATORS/SIMULATIONS/CONSTANT/CONSTANT",
+        "nodes/GENERATORS/SIMULATIONS/FEEDBACK/FEEDBACK",
+        "nodes/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE",
+        "nodes/GENERATORS/SIMULATIONS/RAND/RAND",
+        "nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/SECOND_ORDER_SYSTEM",
+        "nodes/GENERATORS/SIMULATIONS/SINE/SINE",
+        "nodes/GENERATORS/SIMULATIONS/TIMESERIES/TIMESERIES"
+    ],
+    "I/O > Instruments > Keithley": [
+        "nodes/INSTRUMENTS/KEITHLEY/KEITHLEY2400/KEITHLEY2400"
+    ],
+    "I/O > Instruments > LabJack": [
+        "nodes/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3"
+    ],
+    "I/O > Protocols > Serial": [
+        "nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT",
+        "nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/SERIAL_TIMESERIES"
+    ],
+    "I/O > Motion > Stepper Motor Drivers": [
+        "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC",
+        "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB"
+    ],
+    "I/O > Imaging": [
+        "nodes/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA"
+    ],
+    "ETL > Load": [
+        "nodes/LOADERS/CLOUD_DATABASE/LOADER/LOADER"
+    ],
+    "Flow": [
+        "nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL",
+        "nodes/LOGIC_GATES/LOOPS/GOTO/GOTO",
+        "nodes/LOGIC_GATES/LOOPS/LOOP/LOOP"
+    ],
+    "ETL > Transform > Arithmetic": [
+        "nodes/TRANSFORMERS/ARITHMETIC/ABS/ABS",
+        "nodes/TRANSFORMERS/ARITHMETIC/ADD/ADD",
+        "nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/DIVIDE",
+        "nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/MULTIPLY",
+        "nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/SUBTRACT"
+    ],
+    "ETL > Transform > Matrix Manipulation": [
+        "nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/INVERT",
+        "nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/MATMUL"
+    ],
+    "ETL > Transform > DSP": [
+        "nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/BUTTER",
+        "nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/FIR",
+        "nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/PID",
+        "nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/SAVGOL"
+    ],
+    "Data > Visualize > Data Structure": [
+        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW"
+    ],
+    "Data > Visualize > Plotly": [
+        "nodes/VISUALIZERS/PLOTLY/BAR/BAR",
+        "nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/BIG_NUMBER",
+        "nodes/VISUALIZERS/PLOTLY/HISTOGRAM/HISTOGRAM",
+        "nodes/VISUALIZERS/PLOTLY/IMAGE/IMAGE",
+        "nodes/VISUALIZERS/PLOTLY/LINE/LINE",
+        "nodes/VISUALIZERS/PLOTLY/SCATTER/SCATTER",
+        "nodes/VISUALIZERS/PLOTLY/SCATTER3D/SCATTER3D",
+        "nodes/VISUALIZERS/PLOTLY/SURFACE3D/SURFACE3D",
+        "nodes/VISUALIZERS/PLOTLY/TABLE/TABLE"
+    ]
 }

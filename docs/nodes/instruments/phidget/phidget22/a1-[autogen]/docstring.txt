@@ -1,2 +1,0 @@
-The PHIDGET22 node allows you to record pressure measurement using a Phidget interface kit and pressure sensors.
-You'll need to calibrate your sensors before using the app in order to record accurate pressure measurements.

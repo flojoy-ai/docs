@@ -1,0 +1,11 @@
+kernel:
+  default: 5
+  type: int
+smoothing_type:
+  default: average
+  options:
+  - average
+  - gaussian
+  - median
+  - bilateral
+  type: select
