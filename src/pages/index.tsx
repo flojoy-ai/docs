@@ -6,9 +6,7 @@ import Layout from '@theme/Layout';
 import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { downloadLinks } from '../utils/helper';
-import { downloadLinks } from '../utils/download-links';
 import QuickStart from '../components/QuickStart';
-
 
 function HomepageHeader() {
 	useEffect(() => {

@@ -15,24 +15,24 @@
 }
 
 .quickstart {
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.8);
+	/* Set the background color with 80% opacity */
 	border: 1px solid var(--ifm-color-primary);
 	border-radius: 4px;
 	/* Light mode background color */
+
+	/* Update the width and margin for responsiveness */
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1rem;
+	box-sizing: border-box;
 }
 
-[data-theme='dark'] .quickstart {
-	background-color: black;
-	border: 1px solid var(--ifm-color-primary);
-	border-radius: 4px;
-	color: white;
-	/* Dark mode background color */
-}
 .list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	
 }
 
 .list li {
@@ -47,18 +47,69 @@
 	color: white;
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 10px;
 	font-size: 16px;
 	font-weight: bold;
-	width: 10%;
-	/* Update the font size as desired */
+	width: 20%;
+	flex-wrap: wrap;
+	/* Allow text to wrap within the link */
 }
 
 .link span {
 	background-color: black;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 14px;
+	white-space: nowrap;
+	/* Prevent text from wrapping within the span */
+}
+
+.paragraph {
+	margin: 0;
+	/* add additional paragraph styles as needed */
+}
+
+.bulletLarge {
+	color: black;
+	font-size: large;
+	margin-right: 10px;
+}
+
+[data-theme='dark'] .quickstart {
+	background-color: rgba(0, 0, 0, 0.8);
+	/* Set the dark mode background color with 80% opacity */
+	border: 1px solid var(--ifm-color-primary);
+	border-radius: 4px;
+	color: white;
+	/* Dark mode background color */
+}
+
+/* Decrease font size on mobile screens */
+@media (max-width: 679px) {
+	.quickstart {
+		font-size: 14px;
+	}
+
+	.link {
+		font-size: 12px;
+		width: 30%;
+		gap: 5px;
+	}
+}
+
+/* Handle text overflow on smaller devices */
+@media (max-width: 479px) {
+	.quickstart {
+		font-size: 12px;
+	}
+
+	.link {
+		font-size: 10px;
+		width: 50%;
+	}
+}
+[data-theme='dark'] .bulletLarge {
+	color: var(--ifm-color-primary);
 }
 [data-theme='dark'] .link span{
 	background-color: var(--ifm-color-primary);
@@ -66,17 +117,4 @@
 }
 .link:hover {
 	text-decoration: none;
-}
-
-.paragraph {
-	margin: 0;
-	/* add additional paragraph styles as needed */
-}
-.bulletLarge{
-	color: black;
- 	font-size: large;
-	margin-right: 10px;
-}
-[data-theme='dark'] .bulletLarge {
-	color: var(--ifm-color-primary);
 }
