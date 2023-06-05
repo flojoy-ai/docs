@@ -1,4 +1,4 @@
-## HARDWARE :
+## HARDWARE required:
 
 In order to record an IV curve from an electric device (LED, Solar cells, etc,..) with Flojoy, you'll need a setup with :
 
