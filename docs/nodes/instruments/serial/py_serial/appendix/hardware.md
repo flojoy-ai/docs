@@ -1,4 +1,4 @@
 Hardware requirements : 
 
-An Arduino microcontroller.
+- An Arduino microcontroller.
 
