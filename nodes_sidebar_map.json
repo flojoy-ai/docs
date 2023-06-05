@@ -6,6 +6,7 @@
   "ETL > Transform > DSP": "SIGNAL_PROCESSING",
   "ETL > Transform > Type Casting": "TYPE_CASTING",
   "ETL > Transform > Matrix Manipulation": "MATRIX_MANIPULATION",
+  "ETL > Transform > Image Processing": "IMAGE_PROCESSING",
   "Data > Generate > Synthetic Data > DATAFRAMES": "SAMPLE_DATASETS",
   "Data > Generate > Synthetic Data > IMAGES": "SAMPLE_IMAGES",
   "Data > Generate > Simulation": "SIMULATIONS",
