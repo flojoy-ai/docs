@@ -15,7 +15,7 @@ DataContainer(
 )
 ```
 
-- `ordered_triple` : this is an intuitive extension of the `ordered_pair` type, allowing for the retention of a third result, `z`.
+- `ordered_triple` : this is an intuitive extension of the `ordered_pair` type, allowing for the retention of a third result, `z`. 'x' and 'y' are the inputs passed to the node, and 'z' is the output.
 NOTE that as of now, there are few nodes that have incorporated this type.
 
 - `greyscale` / `dataframe` / `matrix` : these three types encapsulate the same fundamental object, a 2D array of data. The differentiation is made to ensure clarity during developement (for example, image processing applications should use the `greyscale` type for binary images, not `matrix` which should be reserved for linear algebra operations). A `DataContainer` object of these types can easily be instantiated by passing the `m` parameter:
