@@ -1,4 +1,4 @@
-const unflatten = require('flat').unflatten
+const unflatten = require('flat').unflatten;
 const fs = require('fs');
 
 const data = fs.readFileSync('nodeSidebar.json', 'utf8');
@@ -15,11 +15,11 @@ const sidebars = {
 			id: 'getting-started/install',
 			label: 'Installation',
 		},
-    {
+		{
 			type: 'category',
-			label: 'Node Examples',      
-      items: unflatten(nodesObj, { object: false, delimiter: '>' }),
-    },
+			label: 'Node Examples',
+			items: unflatten(nodesObj, { object: false, delimiter: '>' }),
+		},
 
 		{
 			type: 'category',
@@ -31,6 +31,7 @@ const sidebars = {
 			type: 'category',
 			label: 'Advanced Tutorials',
 			items: [
+				'advanced-usage/flojoy-python-library',
 				'advanced-usage/small-memory',
 				{
 					type: 'category',
@@ -41,18 +42,18 @@ const sidebars = {
 						'advanced-usage/feedback-control/pid',
 					],
 				},
-        {
-          type: 'category',
-          label: 'Node Architecture',
-          items: [
-            'custom-nodes/custom-nodes',
-            'custom-nodes/data-container',
-            'custom-nodes/manifest',
-            'custom-nodes/creating-custom-node',
-            'custom-nodes/custom-category',
-            'custom-nodes/contributing-nodes',
-          ],
-        }
+				{
+					type: 'category',
+					label: 'Node Architecture',
+					items: [
+						'custom-nodes/custom-nodes',
+						'custom-nodes/data-container',
+						'custom-nodes/manifest',
+						'custom-nodes/creating-custom-node',
+						'custom-nodes/custom-category',
+						'custom-nodes/contributing-nodes',
+					],
+				},
 			],
 		},
 	],
