@@ -15,14 +15,14 @@ const QuickStart = () => {
 				<ul className={styles.list}>
 					<li>
 						<span className={styles.bulletLarge}>&#x25CF;</span>
-						<a href="#" className={styles.link}>
+						<a href="nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/" className={styles.link}>
 							<span>Robotics</span>
 						</a>
 						<p className={styles.paragraph}>Control a stepper motor</p>
 					</li>
 					<li>
 						<span className={styles.bulletLarge}>&#x25CF;</span>
-						<a href="#" className={styles.link}>
+						<a href="nodes/AI_ML/OBJECT_DETECTION/" className={styles.link}>
 							<span> AI</span>
 						</a>
 						<p className={styles.paragraph}>
@@ -31,12 +31,12 @@ const QuickStart = () => {
 					</li>
 					<li>
 						<span className={styles.bulletLarge}>&#x25CF;</span>
-						<a href="#" className={styles.link}>
+						<a href="nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/" className={styles.link}>
 							<span>Arduino</span>
 						</a>
 						<p className={styles.paragraph}>Read temperature from an Arduino</p>
 					</li>
-					<li>
+					{/* <li>
 						<span className={styles.bulletLarge}>&#x25CF;</span>
 						<a href="#" className={styles.link}>
 							<span> MATLAB</span>
@@ -44,7 +44,7 @@ const QuickStart = () => {
 						<p className={styles.paragraph}>
 							Convert a .mat file to a Python dataframe
 						</p>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</div>
