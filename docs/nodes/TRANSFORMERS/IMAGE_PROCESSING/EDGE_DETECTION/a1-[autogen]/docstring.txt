@@ -1,22 +1,12 @@
+The EDGE_DETECTION node detects edges in the image passed to it.
+This is done through the the Pillow image filter FIND_EDGES.
+Note that the image is converted to greyscale during this processing.
 
-    Apply image smoothing operation on the input `DataContainer` class,
-    specifically for the 'image' type,
-    represented by the RGB(A) channels.
+Parameters
+----------
+None
 
-    Args:
-    dc_inputs (list[DataContainer]): List of DataContainer objects containing
-    image channels.
-    params (dict): Additional parameters for image smoothing.
-
-    Params:
-    kernel: The strength of the smoothing. A large value will lead
-    to stronger smoothing. smoothing_type: The type of smoothing to use
-    (https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html).
-
-    Returns:
-    DataContainer: A `DataContainer` class of type 'image' representing the
-    output image with image smoothing results.
-
-    Raises:
-    Exception: If an error occurs during smoothing.
-    
+Returns
+-------
+image
+    The image with detected edges in white.
