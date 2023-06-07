@@ -21,10 +21,7 @@ export default function DocString({ children }) {
 			</>
 		);
 	}
-	const content = children
-		.split('\n')
-		.map(l => l.trimStart())
-		.join('\n');
+	const content = children;
 
 	return (
 		<>

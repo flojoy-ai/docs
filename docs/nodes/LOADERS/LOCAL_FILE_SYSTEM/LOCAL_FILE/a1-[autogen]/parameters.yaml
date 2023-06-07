@@ -1,6 +1,12 @@
 file_type:
   default: image
-  type: string
+  options:
+  - image
+  - csv
+  - json
+  - xml
+  - excel
+  type: select
 path:
   default: ''
   type: string
