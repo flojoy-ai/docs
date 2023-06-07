@@ -41,6 +41,12 @@ COMMAND:
   - { name: 'Div', key: 'DIVIDE', type: 'ARITHMETIC' }
 ```
 
+After creating `yaml` file, you can run 
+```
+python3 generate_manifest.py
+```
+to manifest the custom node.
+
 ### Creating Custom Component ( Frontend )
 
 In Flojoy, you can create custom component for newly created nodes (i.e. shape and node connections). The custom components are located in [`/src/feature/flow_chart_panel/components/custom-nodes`](https://github.com/flojoy-io/studio/tree/main/src/feature/flow_chart_panel/components/custom-nodes) folder. Create a custom component for the newly created nodes and register the design in [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.

@@ -27,8 +27,8 @@ DataContainer(
 )
 ```
 
-- `image` : this data type is reserved for, well, images! These images must be full color (for greyscale images, please use the `greyscale` type above). This means that this type requires four (4) arguments, `(r,g,b,a)` representing the red, blue, green, and alpha of the pixels in the image. These can be passed to the `DataContainer` class at instantiation just like the above examples.
+- `image` : this data type is reserved for, well, images! These images must be full color (for greyscale images, please use the `greyscale` type above). This means that this type requires four (4) arguments, `(r,g,b,a)` representing the red, blue, green, and alpha of the pixels in the image. Each of these arguments is a 2D array and can be passed to the `DataContainer` class at instantiation just like the above examples.
 
 - `scalar` : the data type reserved for [scalar](https://en.wikipedia.org/wiki/Scalar_processor#Scalar_data_type) items. By scalar, we mean only that the object can be entirely described by a single value $c$. While in principle the object passed as the `c` attribute can be anything, please reserve the usage of this type for a truly scalar object.
 
-- `file` : this data type is to pass the file name to the next node. It requires both a `file_type` attribute, and the `y` attribute, which passes the file handle to the next node.
+- `parametric_[TYPE]` : this data type consists of additional argument `t` compared to its original type. `t` represents time and it can be irregularly spaced but must always be in ascending order. Otherwise an error should be thrown.
