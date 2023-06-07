@@ -31,9 +31,12 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-  GLink='TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION'
-  nodeLabel='EDGE_DETECTION'>
+    data={Data1}
+    nodeLabel='EDGE_DETECTION'>
+    {App1}
 </AppDisplay>
+
+<Example1 />
 
 <SectionBreak />
 
