@@ -4,7 +4,7 @@ id: introduction
 title: Flojoy UI Introduction
 ---
 
-# WIP
+# UI Introduction
 
 Welcome to Flojoy!
 

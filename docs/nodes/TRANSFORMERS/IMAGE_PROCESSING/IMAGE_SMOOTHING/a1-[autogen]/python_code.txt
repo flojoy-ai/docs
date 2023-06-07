@@ -8,9 +8,7 @@ def IMAGE_SMOOTHING(dc_inputs: list[DataContainer], params: dict) -> DataContain
     
     dc_input = dc_inputs[0]
     if dc_input.type != "image":
-        raise ValueError(
-            f"unsupported DataContainer type passed to IMAGE_SMOOTHING node: '{dc_input.type}'"
-        )
+        raise ValueError(f"unsupported data IMAGE_SMOOTHING node: '{dc_input.type}'")
     r = dc_input.r
     g = dc_input.g
     b = dc_input.b

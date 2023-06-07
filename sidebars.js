@@ -24,7 +24,8 @@ const sidebars = {
 		{
 			type: 'category',
 			label: 'General Tutorials',
-			items: ['nodes/introduction'],
+			items: ['nodes/introduction',
+					'nodes/ctrls'],
 		},
 
 		{
