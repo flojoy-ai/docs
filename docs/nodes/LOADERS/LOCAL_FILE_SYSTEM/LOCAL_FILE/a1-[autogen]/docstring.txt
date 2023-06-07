@@ -1,23 +1,17 @@
+The LOCAL_FILE node loads a local file of different type and converts it to a DataContainer class.
 
-    Load a local file and convert it to a DataContainer class.
-
-    Args:
-        dc_inputs (list[DataContainer]): List of input DataContainer objects.
-
-        params (dict): `file_type` : type of file to load.
+    Parameters
+    ----------
+    file_type : str
+        type of file to load, default: image.
+    file_path : str
+        path to the file to be loaded.
 
     Returns:
-        DataContainer: The loaded file as a DataContainer class.
+    --------
+    DataContainer:
+        type 'image' for file_type 'image'
 
-    Raises:
-        Exception: If there is an error loading the file.
-
-    Supported file types:
-    - "image": Load an image file and return the RGB(A) channels as a DataContainer class.
-    - Other file types: Return a DataContainer object with the same inputs.
-
-    Note:
-    - For the "image" file type, the path to the image file is specified in the 'path' parameter of 'params'.
-      If 'path' is empty, a default image path will be used.
+        type 'dataframe' for file_type 'json', 'csv', 'excel', 'xml'
 
     

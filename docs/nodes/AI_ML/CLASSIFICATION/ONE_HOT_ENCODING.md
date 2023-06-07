@@ -15,7 +15,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='AI_ML/CLASSIFICATION/ONE_HOT_ENCODING.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -32,7 +32,7 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
     data={Data1}
-    nodeLabel='LOCAL_FILE'>
+    nodeLabel='ONE_HOT_ENCODING'>
     {App1}
 </AppDisplay>
 
@@ -50,8 +50,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Media}</AppendixSection>
 
 
