@@ -15,7 +15,6 @@ def CONDITIONAL(
     x = dc_input_x.y
     y = dc_input_y.y
     bool_ = compare_values(x[0], y[0], operator)
-    print(f"{x[0]} {operator} {y[0]} result: {bool_}")
 
     data = None
     if operator in ["<=", "<"]:
