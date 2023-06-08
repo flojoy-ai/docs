@@ -1,6 +1,7 @@
 window_type:
   type: select
   options:
+    - none
     - boxcar
     - triang
     - blackman
@@ -18,7 +19,7 @@ window_type:
     - tukey
     - taylor
     - lanczos
-  default: ""
+  default: none
 real_signal:
   type: boolean
   default: false

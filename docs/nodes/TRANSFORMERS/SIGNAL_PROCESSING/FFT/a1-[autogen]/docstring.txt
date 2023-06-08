@@ -4,7 +4,7 @@ from the time domain into the frequency domain which will be an ordered pair of 
 
 Parameters
 ---------
-window: Selection of window types, optional
+window: Selection of window types
     the node will apply a window to the signal to avoid spectral leakage
 real_signal: boolean
     whether the input signal is real or complex
