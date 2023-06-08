@@ -14,7 +14,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='AI_ML/CLASSIFICATION/ACCURACY/ACCURACY.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -29,14 +29,13 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
     data={Data1}
-    nodeLabel='SUPPORT_VECTOR_MACHINE'>
+    nodeLabel='ACCURACY'>
 {App1}
 </AppDisplay>
 
 <Example1 />
 
 <SectionBreak />
-
 
 [//]: # 'Appendix'
 
@@ -46,6 +45,6 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Media}</AppendixSection>
