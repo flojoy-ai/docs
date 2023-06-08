@@ -1,0 +1,12 @@
+DOCSTRING HERE
+
+    Parameters
+    ----------
+    arg1: ...
+    arg2: ...
+
+    Returns
+    -------
+    output1:
+        ...
+    

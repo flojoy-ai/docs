@@ -1,0 +1,6 @@
+from flojoy import flojoy, DataContainer
+
+
+@flojoy
+def SVM_CLASSIFIER(...) -> DataContainer:
+    ....
