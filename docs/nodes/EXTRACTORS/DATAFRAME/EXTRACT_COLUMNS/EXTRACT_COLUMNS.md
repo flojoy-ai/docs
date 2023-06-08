@@ -29,7 +29,7 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
     data={Data1}
-    nodeLabel='SUPPORT_VECTOR_MACHINE'>
+    nodeLabel='EXTRACT_COLUMNS'>
 {App1}
 </AppDisplay>
 

@@ -1,3 +1,3 @@
-In this example, the `SUPPORT_VECTOR_MACHINE` is passed the [iris dataset](https://archive.ics.uci.edu/dataset/53/iris), split into two parts. The training data contains 120 labels examples, while the input dataset contains 30 samples with the labels removed.
+In this example, the "wind" dataset from the `PLOTLY_DATASET` node is split into two parts with `EXTRACT_COLUMNS`.
 
-This data is read from disk with two `READ_CSV` nodes, and the output predictions made by the classifier are visualised in a `TABLE`.
+The top `EXTRACT_COLUMNS` node is passed "direction" in the `columns` parameter to extract only the `direction` column, while the bottom node is passed "strength,frequency" to extract the other two. The resulting dataframes are both visualised in a `TABLE`.

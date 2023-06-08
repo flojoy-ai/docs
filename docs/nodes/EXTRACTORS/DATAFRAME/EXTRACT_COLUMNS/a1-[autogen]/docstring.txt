@@ -1,14 +1,11 @@
-The SUPPORT_VECTOR_MACHINE node is used to train a support vector machine model for classification tasks.
-It takes a dataframe of labelled training data, and a dataframe of unlabelled input data.
+The EXTRACT_COLUMNS node takes an input dataframe and returns a dataframe with only the specified columns.
 
 Parameters
 ----------
-target: str, optional
-    The column name of the label in the input dataframe.
-kernel: 'linear' | 'poly' | 'rvm' | 'sigmoid', default='linear'
-    Specifies the kernel type to be used in the algorithm.
+columns: list of str
+The columns to extract from the input dataframe.
 
 Returns
 -------
 dataframe
-    The predictions for the input data.
+The dataframe with only the specified columns.

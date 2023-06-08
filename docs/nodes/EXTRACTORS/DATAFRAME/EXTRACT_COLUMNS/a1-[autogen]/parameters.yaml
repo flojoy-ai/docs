@@ -1,11 +1,3 @@
-target:
-  type: string
+columns:
+  type: array
   default: ''
-kernel:
-  type: select
-  options:
-    - linear
-    - poly
-    - rbf
-    - sigmoid
-  default: linear
