@@ -68,6 +68,7 @@
 		"nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/SAVGOL"
 	],
 	"Data > Visualize > Data Structure": [
+		"nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/ARRAY_VIEW",
 		"nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW"
 	],
 	"Data > Visualize > Plotly": [

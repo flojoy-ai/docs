@@ -15,7 +15,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/ARRAY_VIEW.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -32,7 +32,7 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
     data={Data1}
-    nodeLabel='MATRIX_VIEW'>
+    nodeLabel='ARRAY_VIEW'>
     {App1}
 </AppDisplay>
 
@@ -50,8 +50,6 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/appendix/'>{Media}</AppendixSection>
-
-
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/appendix/'>{Media}</AppendixSection>
