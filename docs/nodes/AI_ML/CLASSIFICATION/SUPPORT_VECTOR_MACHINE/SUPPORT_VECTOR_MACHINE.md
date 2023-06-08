@@ -14,7 +14,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -45,6 +45,6 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Media}</AppendixSection>
