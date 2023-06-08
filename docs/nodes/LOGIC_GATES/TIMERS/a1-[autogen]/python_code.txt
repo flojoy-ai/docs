@@ -8,7 +8,7 @@ import json
 @flojoy
 def TIMER(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     
-    seconds: int = params["sleep_time"]
+    seconds: float = params["sleep_time"]
     node_id = params["node_id"]
     jobset_id = params["jobset_id"]
     r_time = seconds
