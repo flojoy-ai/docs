@@ -33,7 +33,7 @@ export default function AppendixSection({ children, index, folderPath }) {
 						<h4>{SECTION}</h4>
 					</span>
 				</summary>
-				{isDriverDoc ? null : children !== undefined ? (
+				{isDriverDoc ? null : children !== '' ? (
 					<ReactMarkdown>{children}</ReactMarkdown>
 				) : (
 					<ReactMarkdown>{boilerplate[index]}</ReactMarkdown>
