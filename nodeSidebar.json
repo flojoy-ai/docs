@@ -1,6 +1,9 @@
 {
- "Data > AI & ML > Object Detection": [
+	"Data > AI & ML > Object Detection": [
 		"nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION"
+	],
+	"Data > AI & ML > Regressions": [
+		"nodes/AI_ML/REGRESSION/LEAST_SQUARES/LEAST_SQUARES"
 	],
 	"ETL > Extract > File System": [
 		"nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",

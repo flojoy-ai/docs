@@ -13,7 +13,7 @@
 	"Data > Visualize > Plotly": "PLOTLY",
 	"Data > Visualize > Data Structure": "DATA_STRUCTURE",
 	"Data > AI & ML > Object Detection": "OBJECT_DETECTION",
-	"Data > AI & ML > Regressions": "",
+	"Data > AI & ML > Regressions": "REGRESSION",
 	"Data > AI & ML > Casting": "",
 	"Flow": ["LOOPS", "CONDITIONALS"],
 	"I/O > Instruments > Keithley": "KEITHLEY",
