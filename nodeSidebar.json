@@ -1,9 +1,4 @@
 {
-    "ETL > Extract > File System": [
-        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
-        "nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE",
-        "nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE"
-    ],
     "I/O > Imaging": [
         "nodes/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA"
     ],
@@ -24,6 +19,11 @@
     "I/O > Instruments > Phidget": [
         "nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22"
     ],
+    "ETL > Extract > File System": [
+        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
+        "nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE",
+		    "nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/OPEN_MATLAB"
+    ],  
     "ETL > Transform > Matrix Manipulation": [
         "nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/MATMUL",
         "nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/INVERT"
