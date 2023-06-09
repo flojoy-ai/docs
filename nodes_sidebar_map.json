@@ -13,6 +13,7 @@
 	"Data > Visualize > Plotly": "PLOTLY",
 	"Data > Visualize > Data Structure": "DATA_STRUCTURE",
 	"Data > AI & ML > Object Detection": "OBJECT_DETECTION",
+	"Data > AI & ML > Classification": "CLASSIFICATION",
 	"Data > AI & ML > Regressions": "",
 	"Data > AI & ML > Casting": "",
 	"Flow": ["LOOPS", "CONDITIONALS"],
