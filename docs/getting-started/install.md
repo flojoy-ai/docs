@@ -11,10 +11,15 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
 
 ### Python >= 3.10
 
-A suitable python installation with `pip`. Minimum version requirement for Python is `3.10` and `20.0` for `pip`. You can download Python for your OS from [here](https://www.python.org/downloads/)
+[Download](https://www.python.org/downloads/)
 
-### Node
-`Nodejs` is required to run the primary application. You can see the installation instructions for `Nodejs` [here](https://nodejs.org/en/download/package-manager/).
+Python and `pip` are required to install and run the Flojoy nodes. Minimum version requirement for Python is `3.10` and `20.0` for `pip`. Open your Terminal and type ` python3 –version` to see if you already have Python installed and what the version number is.
+
+### Node.js
+
+[Download](https://nodejs.org/en/download/package-manager/)
+
+Node.js is required to run Flojoy's app interface. Open your Terminal and type `node -v` to see if you already have Node.js installed.
 
 <Tabs groupId="platform" queryString="platform">
   
