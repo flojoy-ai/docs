@@ -52,6 +52,7 @@ python3.10 -m venv env
 
 ```bash
 sh flojoy -v env
+```
 
 </TabItem>
 <TabItem value="windows" label="Windows">
@@ -84,10 +85,9 @@ python3.10 -m venv env
 
 ```bash
 .\flojoy -v env
-``` 
+```
 
 </TabItem>
-  
 </Tabs>
 
 <details>
