@@ -115,5 +115,5 @@ python3.10 -m venv env
 
 ## Common gotchya's
 
-- Error related to an npm package: Delete the node_modules folder then `run npm install` to reinstall all node packages
+- Error related to an npm package: Delete the node_modules folder then run `npm install` to reinstall all node packages
 - Please ask for debug help on community.flojoy.io for help troubleshooting an installation error
