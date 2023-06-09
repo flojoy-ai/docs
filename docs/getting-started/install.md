@@ -19,6 +19,7 @@ A suitable python installation with `pip`. Minimum version requirement for Pytho
 <Tabs groupId="platform" queryString="platform">
   
 <TabItem value="unix" label="Mac & Linux">
+<div>
 
 To install Flojoy on Mac & Linux:
 
@@ -54,8 +55,11 @@ python3.10 -m venv env
 sh flojoy -v env
 ```
 
+</div>
 </TabItem>
+
 <TabItem value="windows" label="Windows">
+<div>
 
 To install Flojoy on Windows:
 
@@ -87,6 +91,7 @@ python3.10 -m venv env
 .\flojoy -v env
 ```
 
+</div>
 </TabItem>
 </Tabs>
 
