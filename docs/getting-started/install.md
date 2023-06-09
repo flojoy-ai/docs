@@ -9,11 +9,11 @@ import TabItem from '@theme/TabItem';
 
 To install Flojoy, firstly there are a few prequisites needed on your machine.
 
-## Python
+### Python >= 3.10
 
 A suitable python installation with `pip`. Minimum version requirement for Python is `3.10` and `20.0` for `pip`. You can download Python for your OS from [here](https://www.python.org/downloads/)
 
-## Node
+### Node
 `Nodejs` is required to run the primary application. You can see the installation instructions for `Nodejs` [here](https://nodejs.org/en/download/package-manager/).
 
 <Tabs groupId="platform" queryString="platform">
