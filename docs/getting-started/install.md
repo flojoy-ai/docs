@@ -7,6 +7,9 @@ title: Installation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+<details>
+<summary>Click if you don't already have Python 3 or Node.js installed 👇</summary>
+
 To install Flojoy, firstly there are a few prequisites needed on your machine.
 
 ### Python >= 3.10
@@ -21,6 +24,8 @@ Python and `pip` are required to install and run the Flojoy nodes. Minimum versi
 
 Node.js is required to run Flojoy's app interface. Open your Terminal and type `node -v` to see if you already have Node.js installed.
 
+</details>
+  
 <Tabs groupId="platform" queryString="platform">
   
 <TabItem value="unix" label="Mac & Linux">
