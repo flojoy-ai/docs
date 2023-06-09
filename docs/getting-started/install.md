@@ -54,7 +54,6 @@ python3.10 -m venv env
 sh flojoy -v env
 
 </TabItem>
-
 <TabItem value="windows" label="Windows">
 
 To install Flojoy on Windows:
