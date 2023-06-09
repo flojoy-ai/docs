@@ -18,77 +18,76 @@ A suitable python installation with `pip`. Minimum version requirement for Pytho
 
 <Tabs groupId="platform" queryString="platform">
   
-  <TabItem value="unix" label="Mac & Linux">
-    <div>
-      To install Flojoy on Mac & Linux:
+<TabItem value="unix" label="Mac & Linux">
 
-      1. Install Redis, an open-source, in-memory data store used by Flojoy:
+To install Flojoy on Mac & Linux:
 
-          ```bash
-          brew install redis
-          ```
+1. Install Redis, an open-source, in-memory data store used by Flojoy:
 
-         ([Redis installation reference](https://redis.io/docs/getting-started/installation/))
+```bash
+brew install redis
+```
 
-      2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
+([Redis installation reference](https://redis.io/docs/getting-started/installation/))
 
-          ```bash
-          git clone --recursive https://github.com/flojoy-io/studio.git
-          ```
+2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
 
-      3. Navigate into the project root:
+```bash
+git clone --recursive https://github.com/flojoy-io/studio.git
+```
 
-          ```bash
-          cd studio
-          ```
+3. Navigate into the project root:
 
-      4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+```bash
+cd studio
+```
 
-         ```bash
-         python3.10 -m venv env
-         ```
+4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
 
-      5. Finally, run:
+```bash
+python3.10 -m venv env
+```
 
-          ```bash
-         sh flojoy -v env
-          ```
-    </div>
-  </TabItem>
+5. Finally, run:
 
-  <TabItem value="windows" label="Windows">
-    <div>
-      To install Flojoy on Windows:
+```bash
+sh flojoy -v env
 
-      1. [Install Memurai](https://www.memurai.com/get-memurai), an alternative to Redis for Windows
+</TabItem>
 
-      2. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
+<TabItem value="windows" label="Windows">
 
-      3. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
+To install Flojoy on Windows:
 
-          ```bash
-          git clone --recursive https://github.com/flojoy-io/studio.git
-          ```
+1. [Install Memurai](https://www.memurai.com/get-memurai), an alternative to Redis for Windows
 
-      4. Navigate into the project root:
+2. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
 
-          ```bash
-          cd studio
-          ```
+3. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
 
-      5. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+```bash
+git clone --recursive https://github.com/flojoy-io/studio.git
+```
 
-         ```bash
-         python3.10 -m venv env
-         ```
+4. Navigate into the project root:
 
-      6. Finally, run:
+```bash
+cd studio
+```
 
-          ```bash
-          .\flojoy -v env
-          ``` 
-    </div>
-  </TabItem>
+5. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+
+```bash
+python3.10 -m venv env
+```
+
+6. Finally, run:
+
+```bash
+.\flojoy -v env
+``` 
+
+</TabItem>
   
 </Tabs>
 
