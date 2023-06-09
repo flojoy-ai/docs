@@ -17,6 +17,7 @@ A suitable python installation with `pip`. Minimum version requirement for Pytho
 `Nodejs` is required to run the primary application. You can see the installation instructions for `Nodejs` [here](https://nodejs.org/en/download/package-manager/).
 
 <Tabs groupId="platform" queryString="platform">
+  
   <TabItem value="unix" label="Mac & Linux">
     To install Flojoy on Mac & Linux:
 
@@ -51,9 +52,11 @@ A suitable python installation with `pip`. Minimum version requirement for Pytho
     ```bash
    sh flojoy -v env
     ```
-</TabItem>
+    
+  </TabItem>
 
-<TabItem value="windows" label="Windows">
+  <TabItem value="windows" label="Windows">
+    
 To install Flojoy on Windows:
 
 1. [Install Memurai](https://www.memurai.com/get-memurai), an alternative to Redis for Windows
@@ -84,7 +87,8 @@ To install Flojoy on Windows:
     .\flojoy -v env
     ``` 
 
-</TabItem>
+  </TabItem>
+  
 </Tabs>
 
 <details>
