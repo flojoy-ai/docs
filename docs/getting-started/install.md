@@ -78,7 +78,7 @@ To install Flojoy on Windows:
 5. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
     
    ```bash
-   python3.10 -m venv env`
+   python3.10 -m venv env
    ```
 
 6. Finally, run:
