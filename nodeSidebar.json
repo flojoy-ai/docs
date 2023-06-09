@@ -58,14 +58,11 @@
     "Data > AI & ML > Object Detection": [
         "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
     ],
-<<<<<<< HEAD
-=======
     "Data > AI & ML > Classification": [
         "nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE",
         "nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/ONE_HOT_ENCODING",
         "nodes/AI_ML/CLASSIFICATION/ACCURACY/ACCURACY"
     ],
->>>>>>> reda-aiml-nodes-cleanup-starter
     "Data > Generate > Synthetic Data > IMAGES": [
         "nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/SKLEARNIMAGE"
     ],
