@@ -4,99 +4,117 @@
             {
                 "width": 150,
                 "height": 150,
-                "id": "ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffa",
-                "type": "CLASSIFICATION",
+                "id": "READ_CSV-38331dac-1614-41e6-aa28-c7ab6ba620a4",
+                "type": "FILE",
                 "data": {
-                    "id": "ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffa",
-                    "label": "ONE HOT ENCODING",
-                    "func": "ONE_HOT_ENCODING",
-                    "type": "CLASSIFICATION",
+                    "id": "READ_CSV-38331dac-1614-41e6-aa28-c7ab6ba620a4",
+                    "label": "READ CSV",
+                    "func": "READ_CSV",
+                    "type": "FILE",
                     "ctrls": {
-                        "categories": {
-                            "functionName": "ONE_HOT_ENCODING",
-                            "param": "categories",
-                            "value": ""
-                        },
-                        "columns": {
-                            "functionName": "ONE_HOT_ENCODING",
-                            "param": "columns",
-                            "value": "smoker,day"
+                        "file_path": {
+                            "functionName": "READ_CSV",
+                            "param": "file_path",
+                            "value": "~/Downloads/iris_train.csv"
                         }
                     },
                     "selected": false
                 },
                 "position": {
-                    "x": 492.2217042786417,
-                    "y": 150.33145519440131
+                    "x": 30.299117370698312,
+                    "y": 176.16569145577284
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 492.2217042786417,
-                    "y": 150.33145519440131
+                    "x": 30.299117370698312,
+                    "y": 176.16569145577284
                 },
                 "dragging": true
             },
             {
                 "width": 150,
                 "height": 150,
-                "id": "PLOTLY_DATASET-3ec5e34e-b56a-4779-a8cd-e5e1c01d1689",
-                "type": "SAMPLE_DATASET",
+                "id": "READ_CSV-46e0dbba-c159-4856-b711-a391ff19d5ea",
+                "type": "FILE",
                 "data": {
-                    "id": "PLOTLY_DATASET-3ec5e34e-b56a-4779-a8cd-e5e1c01d1689",
-                    "label": "PLOTLY DATASET",
-                    "func": "PLOTLY_DATASET",
-                    "type": "SAMPLE_DATASET",
+                    "id": "READ_CSV-46e0dbba-c159-4856-b711-a391ff19d5ea",
+                    "label": "READ CSV 1",
+                    "func": "READ_CSV",
+                    "type": "FILE",
                     "ctrls": {
-                        "dataset_key": {
-                            "functionName": "PLOTLY_DATASET",
-                            "param": "dataset_key",
-                            "value": "tips"
+                        "file_path": {
+                            "functionName": "READ_CSV",
+                            "param": "file_path",
+                            "value": "~/Downloads/iris_test_no_label.csv"
                         }
                     },
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
-                    "x": 165.0788471357846,
-                    "y": 147.47431233725848
+                    "x": 37.441974513555465,
+                    "y": 386.16569145577273
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
-                    "x": 165.0788471357846,
-                    "y": 147.47431233725848
+                    "x": 37.441974513555465,
+                    "y": 386.16569145577273
                 },
                 "dragging": true
             },
             {
-                "width": 380,
-                "height": 293,
-                "id": "TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261",
-                "type": "PLOTLY_VISOR",
+                "width": 150,
+                "height": 212,
+                "id": "SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31",
+                "type": "CLASSIFICATION",
                 "data": {
-                    "id": "TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261",
-                    "label": "TABLE",
-                    "func": "TABLE",
-                    "type": "PLOTLY_VISOR",
-                    "ctrls": {},
+                    "id": "SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31",
+                    "label": "SUPPORT VECTOR MACHINE",
+                    "func": "SUPPORT_VECTOR_MACHINE",
+                    "type": "CLASSIFICATION",
+                    "ctrls": {
+                        "target": {
+                            "functionName": "SUPPORT_VECTOR_MACHINE",
+                            "param": "target",
+                            "value": ""
+                        },
+                        "kernel": {
+                            "functionName": "SUPPORT_VECTOR_MACHINE",
+                            "param": "kernel",
+                            "value": "linear"
+                        }
+                    },
+                    "inputs": [
+                        {
+                            "name": "train",
+                            "id": "train",
+                            "type": "source"
+                        },
+                        {
+                            "name": "input",
+                            "id": "input",
+                            "type": "source"
+                        }
+                    ],
                     "selected": false
                 },
                 "position": {
-                    "x": 727.9359899929276,
-                    "y": 101.7600266229727
+                    "x": 351.72768879926974,
+                    "y": 230.45140574148695
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 727.9359899929276,
-                    "y": 101.7600266229727
+                    "x": 351.72768879926974,
+                    "y": 230.45140574148695
                 },
                 "dragging": true
             },
             {
                 "width": 210,
                 "height": 130,
-                "id": "END-de791708-214d-46a3-a334-af3b779d7b49",
+                "id": "END-697d4147-82db-45c9-85aa-dca67fdf672a",
                 "type": "TERMINATOR",
                 "data": {
-                    "id": "END-de791708-214d-46a3-a334-af3b779d7b49",
+                    "id": "END-697d4147-82db-45c9-85aa-dca67fdf672a",
                     "label": "END",
                     "func": "END",
                     "type": "TERMINATOR",
@@ -104,42 +122,73 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 1133.650275707213,
-                    "y": 167.47431233725848
+                    "x": 1138.870545942127,
+                    "y": 269.0228343129156
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 1133.650275707213,
-                    "y": 167.47431233725848
+                    "x": 1138.870545942127,
+                    "y": 269.0228343129156
+                },
+                "dragging": true
+            },
+            {
+                "width": 380,
+                "height": 293,
+                "id": "TABLE-b029c659-e458-42b1-88b8-7a6f6711e76f",
+                "type": "PLOTLY_VISOR",
+                "data": {
+                    "id": "TABLE-b029c659-e458-42b1-88b8-7a6f6711e76f",
+                    "label": "TABLE",
+                    "func": "TABLE",
+                    "type": "PLOTLY_VISOR",
+                    "ctrls": {},
+                    "selected": false
+                },
+                "position": {
+                    "x": 651.7276887992699,
+                    "y": 189.02283431291568
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 651.7276887992699,
+                    "y": 189.02283431291568
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "PLOTLY_DATASET-3ec5e34e-b56a-4779-a8cd-e5e1c01d1689",
+                "source": "READ_CSV-38331dac-1614-41e6-aa28-c7ab6ba620a4",
                 "sourceHandle": "main",
-                "target": "ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffa",
-                "targetHandle": "ONE_HOT_ENCODING",
-                "id": "reactflow__edge-PLOTLY_DATASET-3ec5e34e-b56a-4779-a8cd-e5e1c01d1689main-ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffaONE_HOT_ENCODING"
+                "target": "SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31",
+                "targetHandle": "train",
+                "id": "reactflow__edge-READ_CSV-38331dac-1614-41e6-aa28-c7ab6ba620a4main-SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31train"
             },
             {
-                "source": "ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffa",
+                "source": "READ_CSV-46e0dbba-c159-4856-b711-a391ff19d5ea",
                 "sourceHandle": "main",
-                "target": "TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261",
+                "target": "SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31",
+                "targetHandle": "input",
+                "id": "reactflow__edge-READ_CSV-46e0dbba-c159-4856-b711-a391ff19d5eamain-SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31input"
+            },
+            {
+                "source": "SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31",
+                "sourceHandle": "main",
+                "target": "TABLE-b029c659-e458-42b1-88b8-7a6f6711e76f",
                 "targetHandle": "TABLE",
-                "id": "reactflow__edge-ONE_HOT_ENCODING-b15db30d-818c-4c14-b6a9-2ecc0d76fffamain-TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261TABLE"
+                "id": "reactflow__edge-SUPPORT_VECTOR_MACHINE-4baed303-480c-4c22-a61b-3e98c4018d31main-TABLE-b029c659-e458-42b1-88b8-7a6f6711e76fTABLE"
             },
             {
-                "source": "TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261",
+                "source": "TABLE-b029c659-e458-42b1-88b8-7a6f6711e76f",
                 "sourceHandle": "main",
-                "target": "END-de791708-214d-46a3-a334-af3b779d7b49",
+                "target": "END-697d4147-82db-45c9-85aa-dca67fdf672a",
                 "targetHandle": "END",
-                "id": "reactflow__edge-TABLE-a7e5677c-e1cd-466d-a3ec-36742974d261main-END-de791708-214d-46a3-a334-af3b779d7b49END"
+                "id": "reactflow__edge-TABLE-b029c659-e458-42b1-88b8-7a6f6711e76fmain-END-697d4147-82db-45c9-85aa-dca67fdf672aEND"
             }
         ],
         "viewport": {
-            "x": 34.964285714285666,
+            "x": 40.964285714285666,
             "y": 190.74999999999997,
             "zoom": 0.5
         }
