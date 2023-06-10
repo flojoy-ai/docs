@@ -1,0 +1,6 @@
+baudrate:
+  default: 9600
+  type: float
+comport:
+  default: /dev/ttyUSB0
+  type: string
