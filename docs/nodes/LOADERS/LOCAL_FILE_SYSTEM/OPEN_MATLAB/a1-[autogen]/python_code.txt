@@ -10,20 +10,7 @@ import pandas as pd
 def OPEN_MATLAB(
     dc_inputs: list[DataContainer], params: dict
 ) -> Union[DataContainer, dict]:
-    """The OPEN_MATLAB node loads a local file of the .mat file format.
-    Note that if multiple 'tabs' of data are used, the number of rows
-    must match in order to stack the arrays.
-
-    Parameters
-    ----------
-    file_path : str
-        path to the file to be loaded.
-
-    Returns:
-    --------
-    DataContainer:
-        type 'dataframe', m
-    """
+    
     file_path: str = params["path"]
 
     if file_path == "":
@@ -47,4 +34,3 @@ def OPEN_MATLAB(
     df = pd.DataFrame(np.hstack((X, Y)))
 
     return DataContainer(type="dataframe", m=df)
-
