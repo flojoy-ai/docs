@@ -1,0 +1,2 @@
+
+Generates a random timeseries vector

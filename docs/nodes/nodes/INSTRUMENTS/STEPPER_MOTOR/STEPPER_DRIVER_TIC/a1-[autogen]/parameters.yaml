@@ -1,0 +1,6 @@
+current_limit:
+  default: 30
+  type: int
+sleep_time:
+  default: 2
+  type: int

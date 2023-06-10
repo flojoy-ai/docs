@@ -1,0 +1,37 @@
+The TEXT_DATASET node loads the 20 newsgroups dataset from scikit-learn.
+    The data is returned as a dataframe with one column containing the text
+    and the other containing the category.
+
+    Parameters
+    ----------
+    subset: "train" | "test" | "all", default="train"
+        Select the dataset to load: "train" for the training set, "test" for the test set, "all" for both.
+    categories: list of str, optional
+        Select the categories to load. By default, all categories are loaded.
+        The list of all categories is:
+        'alt.atheism',
+        'comp.graphics',
+        'comp.os.ms-windows.misc',
+        'comp.sys.ibm.pc.hardware',
+        'comp.sys.mac.hardware',
+        'comp.windows.x',
+        'misc.forsale',
+        'rec.autos',
+        'rec.motorcycles',
+        'rec.sport.baseball',
+        'rec.sport.hockey',
+        'sci.crypt',
+        'sci.electronics',
+        'sci.med',
+        'sci.space',
+        'soc.religion.christian',
+        'talk.politics.guns',
+        'talk.politics.mideast',
+        'talk.politics.misc',
+        'talk.religion.misc'
+    remove_headers: boolean, default=false
+        Remove the headers from the data.
+    remove_footers: boolean, default=false
+        Remove the footers from the data.
+    remove_quotes: boolean, default=false
+        Remove the quotes from the data.

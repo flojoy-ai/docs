@@ -1,0 +1,9 @@
+
+Node to convert an input array with multiple columns
+to the selected ordered pair.
+
+For example, the SERIAL node can output x=time,
+y1=temperature, y2=pressure.
+This node will select one of temperature and pressure columns to output.
+
+The x axis will be return unchanged.

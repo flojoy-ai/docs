@@ -1,0 +1,15 @@
+prefix:
+  default: ''
+  type: string
+relative_delta:
+  default: 'true'
+  options:
+  - 'true'
+  - 'false'
+  type: select
+suffix:
+  default: ''
+  type: string
+title:
+  default: ''
+  type: string
