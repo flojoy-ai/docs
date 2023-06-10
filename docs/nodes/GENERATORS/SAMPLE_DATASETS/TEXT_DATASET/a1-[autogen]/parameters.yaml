@@ -1,19 +1,19 @@
-subset:
-  type: select
-  options:
-    - train
-    - test
-    - all
-  default: train
 categories:
-  type: array
   default: ''
-remove_headers:
-  type: boolean
-  default: false
+  type: array
 remove_footers:
-  type: boolean
   default: false
+  type: boolean
+remove_headers:
+  default: false
+  type: boolean
 remove_quotes:
-  type: boolean
   default: false
+  type: boolean
+subset:
+  default: train
+  options:
+  - train
+  - test
+  - all
+  type: select
