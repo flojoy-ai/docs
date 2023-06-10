@@ -1,0 +1,1 @@
+Generates a single x-y vector of numeric (floating point) constants

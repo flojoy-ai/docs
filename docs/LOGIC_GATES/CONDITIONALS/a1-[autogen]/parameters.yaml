@@ -1,0 +1,10 @@
+operator_type:
+  default: '>='
+  options:
+  - <=
+  - '>'
+  - <
+  - '>='
+  - '!='
+  - ==
+  type: select
