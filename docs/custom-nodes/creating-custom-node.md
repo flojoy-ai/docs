@@ -43,7 +43,7 @@ COMMAND:
     type: ARITHMETIC
 ```
 
-The `type` of the manifest should be one of the available child keys of the note type you are selecting. You can see all nodes [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts).
+The `type` of the manifest should be one of the available child keys of the node type you are selecting. You can see all nodes [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts).
 
 For example, we are creating a `Transformers` node (see [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts#L160)). So we should select one of its child keys as our `type` (`ARITHMETIC`, `SIGNAL_PROCESSING`, `REGRESSIONS`, `IMAGE_PROCESSING`, `IMAGE_IDENTIFICATION`, `MATRIX_MANIPULATION`, `SELECT_ARRAY`).
 
