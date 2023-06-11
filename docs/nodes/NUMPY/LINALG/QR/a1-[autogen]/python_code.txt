@@ -1,0 +1,14 @@
+from flojoy import DataContainer, flojoy
+import numpy.linalg
+
+@flojoy
+def QR(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=numpy.linalg.qr(
+			a=dc[0].y,
+			mode=(str(params['mode']) if params['mode'] != '' else None),
+		)
+	)
+

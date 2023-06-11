@@ -1,0 +1,13 @@
+from flojoy import DataContainer, flojoy
+import scipy.signal
+
+@flojoy
+def CUBIC(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=scipy.signal.cubic(
+			x=dc[0].y,
+			)
+	)
+

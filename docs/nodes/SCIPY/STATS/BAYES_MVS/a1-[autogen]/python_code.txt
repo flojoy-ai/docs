@@ -1,0 +1,14 @@
+from flojoy import DataContainer, flojoy
+import scipy.stats
+
+@flojoy
+def BAYES_MVS(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=scipy.stats.bayes_mvs(
+			data=dc[0].y,
+			alpha=(float(params['alpha']) if params['alpha'] != '' else None),
+		)
+	)
+

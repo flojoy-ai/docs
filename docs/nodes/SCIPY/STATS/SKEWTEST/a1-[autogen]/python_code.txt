@@ -1,0 +1,16 @@
+from flojoy import DataContainer, flojoy
+import scipy.stats
+
+@flojoy
+def SKEWTEST(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=scipy.stats.skewtest(
+			a=dc[0].y,
+			axis=(int(params['axis']) if params['axis'] != '' else None),
+			nan_policy=(str(params['nan_policy']) if params['nan_policy'] != '' else None),
+			alternative=(str(params['alternative']) if params['alternative'] != '' else None),
+		)
+	)
+
