@@ -1,4 +1,0 @@
-
-
-Return the eigenvalues and eigenvectors of a complex Hermitian
-(conjugate symmetric) or a real symmetric matrix.
