@@ -10,10 +10,10 @@ As you create custom nodes, it is also possible to create categories if any of t
 
 Flojoy relies on a different routine to tell which Python functions should be placed in what category in the UI. This routine needs to be made aware of the new category. 
 
-To do this, edit [`/src/feature/flow_chart_panel/manifest/COMMANDS_MANIFEST.ts`](https://github.com/flojoy-io/studio/blob/main/src/feature/flow_chart_panel/manifest/COMMANDS_MANIFEST.ts) by adding a new element to the `SECTIONS` variable. This new element should have a `title` key (the title of the new category as to be shown in the UI), and a `child` key, which will control which subcategories this new element controls. 
+To do this, edit [`src/utils/ManifestLoader.ts`](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts) by adding a new element to the `CMND_TREE` variable. This new element should have a `title` key (the title of the new category as to be shown in the UI), and a `child` key, which will control which subcategories this new element controls. 
 
 
-```typescript {title='COMMAND_MANIFEST.ts'}
+```typescript {title='ManifestLoader.ts'}
   {
     title: "My new category",
     child: [
