@@ -1,0 +1,14 @@
+from flojoy import DataContainer, flojoy
+import numpy.linalg
+
+@flojoy
+def MATRIX_POWER(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=numpy.linalg.matrix_power(
+			a=dc[0].y,
+			n=(int(params['n']) if params['n'] != '' else None),
+		)
+	)
+

@@ -1,0 +1,13 @@
+from flojoy import DataContainer, flojoy
+import scipy.stats
+
+@flojoy
+def SHAPIRO(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=scipy.stats.shapiro(
+			x=dc[0].y,
+			)
+	)
+

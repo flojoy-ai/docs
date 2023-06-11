@@ -1,0 +1,12 @@
+axis:
+  default: 0
+  type: int
+inclusive:
+  default: true
+  type: boolean
+lowerlimit:
+  default: null
+  type: float
+nan_policy:
+  default: propagate
+  type: string

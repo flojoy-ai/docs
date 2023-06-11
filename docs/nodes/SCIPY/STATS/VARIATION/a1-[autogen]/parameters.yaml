@@ -1,0 +1,12 @@
+axis:
+  default: 0
+  type: int
+ddof:
+  default: 0
+  type: int
+keepdims:
+  default: false
+  type: boolean
+nan_policy:
+  default: propagate
+  type: string

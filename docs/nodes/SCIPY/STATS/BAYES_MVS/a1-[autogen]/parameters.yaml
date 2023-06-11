@@ -1,0 +1,3 @@
+alpha:
+  default: 0.9
+  type: float

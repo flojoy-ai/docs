@@ -1,0 +1,13 @@
+
+	B-spline basis function of order n.
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+The parameters of the function in this Flojoy wrapper are given below.
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+
+Parameters
+----------
+x : array_like
+	a knot vector
+n : int
+	The order of the spline. Must be non-negative, i.e., n >= 0

@@ -1,0 +1,14 @@
+from flojoy import DataContainer, flojoy
+import scipy.signal
+
+@flojoy
+def BSPLINE(dc, params):
+	''''''
+	return DataContainer(
+		x=dc[0].y,
+		y=scipy.signal.bspline(
+			x=dc[0].y,
+			n=(int(params['n']) if params['n'] != '' else None),
+		)
+	)
+
