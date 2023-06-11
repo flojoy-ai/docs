@@ -1,15 +1,19 @@
 from flojoy import DataContainer, flojoy
 import scipy.stats
 
+
 @flojoy
 def TRIMBOTH(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=scipy.stats.trimboth(
-			a=dc[0].y,
-			proportiontocut=(float(params['proportiontocut']) if params['proportiontocut'] != '' else None),
-			axis=(int(params['axis']) if params['axis'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.stats.trimboth(
+            a=dc[0].y,
+            proportiontocut=(
+                float(params["proportiontocut"])
+                if params["proportiontocut"] != ""
+                else None
+            ),
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+        ),
+    )

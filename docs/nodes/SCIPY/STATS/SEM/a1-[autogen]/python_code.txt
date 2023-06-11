@@ -1,16 +1,18 @@
 from flojoy import DataContainer, flojoy
 import scipy.stats
 
+
 @flojoy
 def SEM(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=scipy.stats.sem(
-			a=dc[0].y,
-			axis=(int(params['axis']) if params['axis'] != '' else None),
-			ddof=(int(params['ddof']) if params['ddof'] != '' else None),
-			nan_policy=(str(params['nan_policy']) if params['nan_policy'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.stats.sem(
+            a=dc[0].y,
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+            ddof=(int(params["ddof"]) if params["ddof"] != "" else None),
+            nan_policy=(
+                str(params["nan_policy"]) if params["nan_policy"] != "" else None
+            ),
+        ),
+    )

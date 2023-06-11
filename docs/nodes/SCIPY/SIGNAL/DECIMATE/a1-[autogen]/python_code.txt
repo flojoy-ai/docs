@@ -1,18 +1,20 @@
 from flojoy import DataContainer, flojoy
 import scipy.signal
 
+
 @flojoy
 def DECIMATE(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=scipy.signal.decimate(
-			x=dc[0].y,
-			q=(int(params['q']) if params['q'] != '' else None),
-			n=(int(params['n']) if params['n'] != '' else None),
-			ftype=(str(params['ftype']) if params['ftype'] != '' else None),
-			axis=(int(params['axis']) if params['axis'] != '' else None),
-			zero_phase=(bool(params['zero_phase']) if params['zero_phase'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.signal.decimate(
+            x=dc[0].y,
+            q=(int(params["q"]) if params["q"] != "" else None),
+            n=(int(params["n"]) if params["n"] != "" else None),
+            ftype=(str(params["ftype"]) if params["ftype"] != "" else None),
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+            zero_phase=(
+                bool(params["zero_phase"]) if params["zero_phase"] != "" else None
+            ),
+        ),
+    )

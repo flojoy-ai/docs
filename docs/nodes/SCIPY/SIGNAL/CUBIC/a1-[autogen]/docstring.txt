@@ -1,7 +1,7 @@
 
-	A cubic B-spline.
+        A cubic B-spline.
 
-	This is a special case of `bspline`, and equivalent to ``bspline(x, 3)``.
+        This is a special case of `bspline`, and equivalent to ``bspline(x, 3)``.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -10,4 +10,4 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 x : array_like
-	a knot vector
+        a knot vector

@@ -1,16 +1,22 @@
 from flojoy import DataContainer, flojoy
 import numpy.linalg
 
+
 @flojoy
 def SVD(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=numpy.linalg.svd(
-			a=dc[0].y,
-			full_matrices=(bool(params['full_matrices']) if params['full_matrices'] != '' else None),
-			compute_uv=(bool(params['compute_uv']) if params['compute_uv'] != '' else None),
-			hermitian=(bool(params['hermitian']) if params['hermitian'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.svd(
+            a=dc[0].y,
+            full_matrices=(
+                bool(params["full_matrices"]) if params["full_matrices"] != "" else None
+            ),
+            compute_uv=(
+                bool(params["compute_uv"]) if params["compute_uv"] != "" else None
+            ),
+            hermitian=(
+                bool(params["hermitian"]) if params["hermitian"] != "" else None
+            ),
+        ),
+    )

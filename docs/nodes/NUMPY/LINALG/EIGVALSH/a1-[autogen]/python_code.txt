@@ -1,14 +1,14 @@
 from flojoy import DataContainer, flojoy
 import numpy.linalg
 
+
 @flojoy
 def EIGVALSH(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=numpy.linalg.eigvalsh(
-			a=dc[0].y,
-			UPLO=(str(params['UPLO']) if params['UPLO'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.eigvalsh(
+            a=dc[0].y,
+            UPLO=(str(params["UPLO"]) if params["UPLO"] != "" else None),
+        ),
+    )

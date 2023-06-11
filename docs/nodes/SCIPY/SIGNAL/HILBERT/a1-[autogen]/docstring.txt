@@ -1,8 +1,8 @@
 
 
-	Compute the analytic signal, using the Hilbert transform.
+        Compute the analytic signal, using the Hilbert transform.
 
-	The transformation is done along the last axis by default.
+        The transformation is done along the last axis by default.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -11,7 +11,7 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 x : array_like
-	Signal data.  Must be real.
+        Signal data.  Must be real.
 N : int, optional
 Number of Fourier components.  Default: ``x.shape[axis]``
 axis : int, optional

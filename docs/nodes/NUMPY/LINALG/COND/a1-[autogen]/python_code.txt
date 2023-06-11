@@ -1,14 +1,14 @@
 from flojoy import DataContainer, flojoy
 import numpy.linalg
 
+
 @flojoy
 def COND(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=numpy.linalg.cond(
-			x=dc[0].y,
-			p=(None(params['p']) if params['p'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.cond(
+            x=dc[0].y,
+            p=(None(params["p"]) if params["p"] != "" else None),
+        ),
+    )

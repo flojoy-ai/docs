@@ -1,9 +1,9 @@
 
 
-	Compute the eigenvalues of a general matrix.
+        Compute the eigenvalues of a general matrix.
 
 Main difference between `eigvals` and `eig`: the eigenvectors aren't
-	returned.
+        returned.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -12,4 +12,4 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 a : (..., M, M) array_like
-	A complex- or real-valued matrix whose eigenvalues will be computed.
+        A complex- or real-valued matrix whose eigenvalues will be computed.

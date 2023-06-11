@@ -1,13 +1,13 @@
 from flojoy import DataContainer, flojoy
 import numpy.linalg
 
+
 @flojoy
 def DET(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=numpy.linalg.det(
-			a=dc[0].y,
-			)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.det(
+            a=dc[0].y,
+        ),
+    )

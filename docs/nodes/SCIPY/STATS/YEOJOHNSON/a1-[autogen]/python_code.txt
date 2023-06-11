@@ -1,14 +1,14 @@
 from flojoy import DataContainer, flojoy
 import scipy.stats
 
+
 @flojoy
 def YEOJOHNSON(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=scipy.stats.yeojohnson(
-			x=dc[0].y,
-			lmbda=(float(params['lmbda']) if params['lmbda'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.stats.yeojohnson(
+            x=dc[0].y,
+            lmbda=(float(params["lmbda"]) if params["lmbda"] != "" else None),
+        ),
+    )

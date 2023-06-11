@@ -1,5 +1,5 @@
 
-	Compute the Kaiser parameter `beta`, given the attenuation `a`.
+        Compute the Kaiser parameter `beta`, given the attenuation `a`.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -8,5 +8,5 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 a : float
-	The desired attenuation in the stopband and maximum ripple in
-	the passband, in dB.  This should be a *positive* number.
+        The desired attenuation in the stopband and maximum ripple in
+        the passband, in dB.  This should be a *positive* number.

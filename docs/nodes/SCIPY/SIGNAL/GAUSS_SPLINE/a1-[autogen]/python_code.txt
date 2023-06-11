@@ -1,14 +1,14 @@
 from flojoy import DataContainer, flojoy
 import scipy.signal
 
+
 @flojoy
 def GAUSS_SPLINE(dc, params):
-	''''''
-	return DataContainer(
-		x=dc[0].y,
-		y=scipy.signal.gauss_spline(
-			x=dc[0].y,
-			n=(int(params['n']) if params['n'] != '' else None),
-		)
-	)
-
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.signal.gauss_spline(
+            x=dc[0].y,
+            n=(int(params["n"]) if params["n"] != "" else None),
+        ),
+    )
