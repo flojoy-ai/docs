@@ -7,8 +7,6 @@ CELL_SIZE = 50
 FONT_SIZE = 10
 MAX_ALLOWED_SHAPE = 10
 MIN_ALLOWED_SHAPE = 4
-v_dot = "$\\vdots$"
-d_dot = "$\\ddots$"
 l_dot = "$\\ldots$"
 
 

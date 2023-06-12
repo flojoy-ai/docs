@@ -1,0 +1,21 @@
+axis:
+  default: -1
+  type: int
+detrend:
+  default: constant
+  type: string
+fs:
+  default: 1.0
+  type: float
+nfft:
+  default: null
+  type: int
+return_onesided:
+  default: true
+  type: boolean
+scaling:
+  default: density
+  type: string
+window:
+  default: boxcar
+  type: string

@@ -1,0 +1,12 @@
+alternative:
+  default: two-sided
+  type: string
+axis:
+  default: 0
+  type: int
+nan_policy:
+  default: propagate
+  type: string
+popmean:
+  default: null
+  type: float or array_like
