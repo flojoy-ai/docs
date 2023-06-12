@@ -1,5 +1,6 @@
 {
-	"ETL > Extract > File System": ["LOCAL_FILE_SYSTEM", "FILE"],
+	"ETL > Extract > File System": ["LOCAL_FILE_SYSTEL", "FILE"],
+	"ETL > Extract > Dataframe": "DATAFRAME",
 	"ETL > Load": "CLOUD_DATABASE",
 	"ETL > Transform > Arithmetic": "ARITHMETIC",
 	"ETL > Transform > Calculus": "CALCULUS",
@@ -16,7 +17,7 @@
 	"Data > AI & ML > Classification": "CLASSIFICATION",
 	"Data > AI & ML > Regressions": "",
 	"Data > AI & ML > Casting": "",
-	"Flow": ["LOOPS", "CONDITIONALS"],
+	"Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
 	"I/O > Instruments > Keithley": "KEITHLEY",
 	"I/O > Instruments > LabJack": "LABJACK",
 	"I/O > Instruments > Phidget": "PHIDGET",
