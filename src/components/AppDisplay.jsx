@@ -4,16 +4,27 @@ import TabItem from '@theme/TabItem';
 import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
 import 'reactflow/dist/style.css';
 import StaticDisplayNode from './StaticDisplayNode';
-const nodeTypes = { default: StaticDisplayNode };
 import { VictoryChart, VictoryScatter, VictoryAxis } from 'victory';
 
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
+import DefaultNode from './nodes/DefaultNode';
+import SimulationNode from './nodes/SimulationNode';
+import ArithmeticNode from './nodes/ArithmeticNode';
+import VisorNode from './nodes/VisorNode';
 
 const axesStyle = {
 	tickLabels: { fontSize: 8, fill: '#BCC2C4' },
 	label: { fontSize: 8, fill: '#BCC2C4' },
+};
+
+const nodeTypes = {
+	default: DefaultNode,
+	SIMULATION: SimulationNode,
+	ARITHMETIC: ArithmeticNode,
+	PLOTLY_VISOR: VisorNode,
+	VISOR: VisorNode,
 };
 
 export default function AppDisplay({ children, data, GLink }) {

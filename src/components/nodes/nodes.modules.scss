@@ -1,0 +1,76 @@
+:root {
+	--fj-color-accent1: 123, 97, 255; /* #7b61ff */
+	--fj-color-accent2: 46, 131, 255; /* #2e83ff */
+	--fj-color-accent3: 255, 169, 39; /* #ffa927 */
+}
+
+[data-theme='dark'] {
+	--fj-color-accent1: 153, 245, 255; /* #99f5ff */
+	--fj-color-accent2: 123, 97, 255; /* #7b61ff */
+	--fj-color-accent3: 255, 201, 63; /* #ffc93f */
+}
+
+.nodeContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 17px;
+	min-height: 130px;
+	height: fit-content;
+}
+
+.defaultNode {
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	width: 210px;
+	border-radius: 6px;
+	font-weight: 600;
+	border: 1px solid rgb(var(--fj-color-accent1));
+	color: rgb(var(--fj-color-accent1));
+	background-color: rgba(var(--fj-color-accent1), 0.3);
+}
+
+.simulationNode {
+	width: 130px;
+	border-radius: 6px;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid rgb(var(--fj-color-accent2));
+	color: rgb(var(--fj-color-accent2));
+	background-color: rgba(var(--fj-color-accent2), 0.15);
+	text-align: center;
+	overflow-wrap: anywhere;
+	padding: 16px;
+}
+
+.nodeLabel {
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.arithmeticNode {
+	background: transparent;
+}
+
+.operatorIcon {
+	position: absolute;
+	left: 29px;
+	height: 20px;
+	width: 20px;
+}
+
+.visorNode {
+	background: transparent;
+
+	path:not(:global(.no-fill)) {
+		fill: rgb(var(--fj-color-accent1));
+	}
+
+	path:global(.stroke) {
+		stroke: rgb(var(--fj-color-accent1));
+	}
+}
