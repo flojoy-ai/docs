@@ -122,6 +122,7 @@ export default function AppDisplay({ children, data, GLink }) {
 					<button
 						className="button button--primary button--lg button--round"
 						style={{ padding: '12px 16px', fontSize: 16 }}
+						onClick={handleDownload}
 					>
 						Download
 					</button>
