@@ -1,0 +1,21 @@
+from flojoy import DataContainer, flojoy
+import scipy.signal
+
+
+@flojoy
+def DETREND(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.signal.detrend(
+            data=dc[0].y,
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+            type=(str(params["type"]) if params["type"] != "" else None),
+            bp=(int(params["bp"]) if params["bp"] != "" else None),
+            overwrite_data=(
+                bool(params["overwrite_data"])
+                if params["overwrite_data"] != ""
+                else None
+            ),
+        ),
+    )

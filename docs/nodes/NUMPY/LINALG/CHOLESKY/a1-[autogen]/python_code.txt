@@ -1,0 +1,13 @@
+from flojoy import DataContainer, flojoy
+import numpy.linalg
+
+
+@flojoy
+def CHOLESKY(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.cholesky(
+            a=dc[0].y,
+        ),
+    )
