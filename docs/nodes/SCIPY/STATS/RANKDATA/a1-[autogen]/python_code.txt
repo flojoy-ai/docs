@@ -1,0 +1,15 @@
+from flojoy import DataContainer, flojoy
+import scipy.stats
+
+
+@flojoy
+def RANKDATA(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.stats.rankdata(
+            a=dc[0].y,
+            method=(str(params["method"]) if params["method"] != "" else None),
+            axis=(None(params["axis"]) if params["axis"] != "" else None),
+        ),
+    )
