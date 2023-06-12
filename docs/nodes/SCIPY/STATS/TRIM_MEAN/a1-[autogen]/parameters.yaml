@@ -1,0 +1,6 @@
+axis:
+  default: 0
+  type: int
+proportiontocut:
+  default: null
+  type: float

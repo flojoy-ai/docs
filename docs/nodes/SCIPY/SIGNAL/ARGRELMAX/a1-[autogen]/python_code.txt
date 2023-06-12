@@ -1,0 +1,16 @@
+from flojoy import DataContainer, flojoy
+import scipy.signal
+
+
+@flojoy
+def ARGRELMAX(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.signal.argrelmax(
+            data=dc[0].y,
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+            order=(int(params["order"]) if params["order"] != "" else None),
+            mode=(str(params["mode"]) if params["mode"] != "" else None),
+        ),
+    )

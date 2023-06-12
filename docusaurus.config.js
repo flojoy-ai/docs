@@ -100,53 +100,30 @@ const config = {
 				],
 			},
 			footer: {
-				// links: [
-				// 	{
-				// 		title: 'Docs',
-				// 		items: [
-				// 			{
-				// 				label: 'Tutorial',
-				// 				to: '/docs/intro',
-				// 			},
-				// 		],
-				// 	},
-				// 	{
-				// 		title: 'Community',
-				// 		items: [
-				// 			// {
-				// 			// 	label: 'Stack Overflow',
-				// 			// 	href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-				// 			// },
-				// 			// {
-				// 			// 	label: 'Discord',
-				// 			// 	href: 'https://discordapp.com/invite/docusaurus',
-				// 			// },
-				// 			{
-				// 				label: 'Twitter',
-				// 				href: 'https://twitter.com/flojoy',
-				// 			},
-				// 		],
-				// 	},
-				// 	// {
-				// 	// 	title: 'More',
-				// 	// 	items: [
-				// 	// 		{
-				// 	// 			label: 'Blog',
-				// 	// 			to: '/blog',
-				// 	// 		},
-				// 	// 		{
-				// 	// 			label: 'GitHub',
-				// 	// 			href: 'https://github.com/facebook/docusaurus',
-				// 	// 		},
-				// 	// 	],
-				// 	// },
-				// ],
 				copyright: `Copyright ©${new Date().getFullYear()} ${title}, Inc.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
+			algolia: {
+				// The application ID provided by Algolia
+				appId: '8F0URYIKW5',
+		  
+				// Public API key: it is safe to commit it
+				apiKey: '089cd76d3023464d056479e65880af90',
+		  
+				indexName: 'Flojoy Docs',
+		  
+				// Optional: see doc section below
+				contextualSearch: true,
+		  
+				// Optional: Algolia search parameters
+				searchParameters: {},
+		  
+				// Optional: path for search page that enabled by default (`false` to disable it)
+				searchPagePath: 'search',
+			  },			
 		}),
 };
 
