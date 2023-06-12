@@ -1,0 +1,15 @@
+axis:
+  default: -1
+  type: int
+ftype:
+  default: iir
+  type: string
+n:
+  default: null
+  type: int
+q:
+  default: null
+  type: int
+zero_phase:
+  default: true
+  type: boolean

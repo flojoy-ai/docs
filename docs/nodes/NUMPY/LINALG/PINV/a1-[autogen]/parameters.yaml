@@ -1,0 +1,6 @@
+hermitian:
+  default: false
+  type: boolean
+rcond:
+  default: 1e-15
+  type: float

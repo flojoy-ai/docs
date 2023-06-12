@@ -1,0 +1,14 @@
+from flojoy import DataContainer, flojoy
+import numpy.linalg
+
+
+@flojoy
+def TENSORINV(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=numpy.linalg.tensorinv(
+            a=dc[0].y,
+            ind=(int(params["ind"]) if params["ind"] != "" else None),
+        ),
+    )

@@ -1,0 +1,15 @@
+from flojoy import DataContainer, flojoy
+import scipy.signal
+
+
+@flojoy
+def HILBERT(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.signal.hilbert(
+            x=dc[0].y,
+            N=(int(params["N"]) if params["N"] != "" else None),
+            axis=(int(params["axis"]) if params["axis"] != "" else None),
+        ),
+    )

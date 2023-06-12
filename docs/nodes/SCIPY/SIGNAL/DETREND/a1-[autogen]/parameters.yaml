@@ -1,0 +1,12 @@
+axis:
+  default: -1
+  type: int
+bp:
+  default: 0
+  type: int
+overwrite_data:
+  default: false
+  type: boolean
+type:
+  default: linear
+  type: string

@@ -1,0 +1,15 @@
+axis:
+  default: 0
+  type: int
+bias:
+  default: true
+  type: boolean
+fisher:
+  default: true
+  type: boolean
+keepdims:
+  default: false
+  type: boolean
+nan_policy:
+  default: propagate
+  type: string
