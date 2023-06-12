@@ -7,9 +7,7 @@ const QuickStart = () => {
 		<div className={clsx(styles.quickstart)}>
 			<div
 				className="container text-left"
-				style={{
-					padding: '50px',
-				}}
+				style={{padding: '50px',}}
 			>
 				<h3 className="hero__subtitle">QuickStart!</h3>
 				<ul className={styles.list}>
@@ -36,15 +34,15 @@ const QuickStart = () => {
 						</a>
 						<p className={styles.paragraph}>Read temperature from an Arduino</p>
 					</li>
-					{/* <li>
+					<li>
 						<span className={styles.bulletLarge}>&#x25CF;</span>
-						<a href="#" className={styles.link}>
+						<a href="nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/" className={styles.link}>
 							<span> MATLAB</span>
 						</a>
 						<p className={styles.paragraph}>
 							Convert a .mat file to a Python dataframe
 						</p>
-					</li> */}
+					</li>
 				</ul>
 			</div>
 		</div>

@@ -15,8 +15,10 @@
 		"typecheck": "tsc"
 	},
 	"dependencies": {
+		"@docsearch/js": "^3.5.0",
 		"@docusaurus/core": "^2.4.0",
 		"@docusaurus/preset-classic": "^2.4.0",
+		"@docusaurus/theme-search-algolia": "^2.4.1",
 		"@mdx-js/react": "^1.6.22",
 		"clsx": "^1.2.1",
 		"docusaurus": "^1.14.7",

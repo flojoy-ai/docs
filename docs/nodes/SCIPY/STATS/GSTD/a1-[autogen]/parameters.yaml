@@ -1,0 +1,6 @@
+axis:
+  default: 0
+  type: int
+ddof:
+  default: 1
+  type: int
