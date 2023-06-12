@@ -1799,7 +1799,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docsearch/react@npm:^3.1.1":
+"@docsearch/js@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@docsearch/js@npm:3.5.0"
+  dependencies:
+    "@docsearch/react": 3.5.0
+    preact: ^10.0.0
+  checksum: f21fcd7a63a93f29fa2d0cb8816cd87f00543ed1344655447c931085034c51ed464f844d639c83824f3949b6725147a7c385ef676041c073107110c343c0a6f9
+  languageName: node
+  linkType: hard
+
+"@docsearch/react@npm:3.5.0, @docsearch/react@npm:^3.1.1":
   version: 3.5.0
   resolution: "@docsearch/react@npm:3.5.0"
   dependencies:
@@ -2229,7 +2239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/theme-search-algolia@npm:2.4.1":
+"@docusaurus/theme-search-algolia@npm:2.4.1, @docusaurus/theme-search-algolia@npm:^2.4.1":
   version: 2.4.1
   resolution: "@docusaurus/theme-search-algolia@npm:2.4.1"
   dependencies:
@@ -8206,9 +8216,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "flojoy-doc@workspace:."
   dependencies:
+    "@docsearch/js": ^3.5.0
     "@docusaurus/core": ^2.4.0
     "@docusaurus/module-type-aliases": ^2.4.0
     "@docusaurus/preset-classic": ^2.4.0
+    "@docusaurus/theme-search-algolia": ^2.4.1
     "@mdx-js/react": ^1.6.22
     "@tsconfig/docusaurus": ^1.0.6
     "@types/flat": ^5.0.2
@@ -14027,6 +14039,13 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 814e2126dacfea313588eda09cc99a9b4c26ec55c059188aa7a916d20d26d483483106dc5ff9e560731b59f45c5bb91b945dfadc670aed875cc90ddbbf4e787d
+  languageName: node
+  linkType: hard
+
+"preact@npm:^10.0.0":
+  version: 10.15.1
+  resolution: "preact@npm:10.15.1"
+  checksum: dabad11843b19b40b11846a25ff0b1fc4bc58268909e01a7faddb341a40983d24fbe7d44ad6e2c5d35e43091963af616800552fec9af44dd0a2f0f698d1bba1f
   languageName: node
   linkType: hard
 
