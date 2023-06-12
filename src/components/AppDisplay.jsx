@@ -54,6 +54,17 @@ export default function AppDisplay({ children, data, GLink }) {
 	const appObject = JSON.parse(children)['rfInstance'];
 	const HEIGHT = '20em';
 
+	const handleDownload = () => {
+		const jsonData = JSON.stringify(appObject, null, 2);
+		const blob = new Blob([jsonData], { type: 'text/plain;charset=utf-8' });
+		const url = URL.createObjectURL(blob);
+		const link = document.createElement('a');
+		link.href = url;
+		link.download = 'example.txt';
+		link.click();
+		URL.revokeObjectURL(url);
+	};
+
 	return (
 		<div>
 			<Tabs>
@@ -107,7 +118,13 @@ export default function AppDisplay({ children, data, GLink }) {
 						</VictoryChart>
 					</div>
 				</TabItem>
-				<TabItem value="spec" label="App JSON spec">
+				<TabItem value="spec" label="Download App">
+					<button
+						className="button button--primary button--lg button--round"
+						style={{ padding: '12px 16px', fontSize: 16 }}
+					>
+						Download
+					</button>
 					<div style={{ minHeight: HEIGHT }}>
 						<JSONTree data={appObject} />
 					</div>
