@@ -29,13 +29,13 @@ def update_map(
         formatted_path = file_path.replace("\\", "/").replace(".md", "")
         if isinstance(item, list):
             for i in item:
-                if f"{i}/" in formatted_path.upper():
+                if f"/{i}/" in formatted_path.upper():
                     if map_file.get(key, None) is not None:
                         map_file[key].append(formatted_path)
                     else:
                         map_file[key] = [formatted_path]
         else:
-            if f"{item}/" in formatted_path.upper():
+            if f"/{item}/" in formatted_path.upper():
                 if map_file.get(key, None) is not None:
                     map_file[key].append(formatted_path)
                 else:

@@ -15,7 +15,7 @@
 	"Data > AI & ML > Object Detection": "OBJECT_DETECTION",
 	"Data > AI & ML > Regressions": "",
 	"Data > AI & ML > Casting": "",
-	"Flow": ["LOOPS", "CONDITIONALS"],
+	"Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
 	"I/O > Instruments > Keithley": "KEITHLEY",
 	"I/O > Instruments > LabJack": "LABJACK",
 	"I/O > Instruments > Phidget": "PHIDGET",
