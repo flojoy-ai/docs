@@ -50,8 +50,8 @@ const ConditionalNode = ({ data }) => {
 						</>
 					)}
 					{data.func === 'TIMER' && (
-						<div>
-							{data['ctrls'][`TIMER_${data.label}_sleep_time`]['value']}s
+						<div style={{ textAlign: 'center' }}>
+							{data['ctrls']['sleep_time']['value']}s
 						</div>
 					)}
 					{data.func === 'LOOP' && (

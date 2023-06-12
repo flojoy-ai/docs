@@ -44,27 +44,12 @@
 	padding: 16px;
 }
 
-.nodeLabel {
-	font-weight: 600;
-	font-size: 16px;
-	font-family: 'Open Sans';
-	text-align: center;
-	letter-spacing: 1px;
-}
-
 .arithmeticNode {
 	background: transparent;
 }
 
 .terminatorNode {
 	background-color: #f03e3e30;
-}
-
-.operatorIcon {
-	position: absolute;
-	left: 29px;
-	height: 20px;
-	width: 20px;
 }
 
 .visorNode {
@@ -77,4 +62,19 @@
 	path:global(.stroke) {
 		stroke: rgb(var(--fj-color-accent1));
 	}
+}
+
+.nodeLabel {
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.operatorIcon {
+	position: absolute;
+	left: 29px;
+	height: 20px;
+	width: 20px;
 }
