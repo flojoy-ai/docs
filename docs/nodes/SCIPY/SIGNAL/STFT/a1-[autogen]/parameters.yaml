@@ -1,0 +1,33 @@
+axis:
+  default: -1
+  type: int
+boundary:
+  default: zeros
+  type: string
+detrend:
+  default: false
+  type: boolean
+fs:
+  default: 1.0
+  type: float
+nfft:
+  default: null
+  type: int
+noverlap:
+  default: null
+  type: int
+nperseg:
+  default: 256
+  type: int
+padded:
+  default: true
+  type: boolean
+return_onesided:
+  default: true
+  type: boolean
+scaling:
+  default: spectrum
+  type: string
+window:
+  default: hann
+  type: string

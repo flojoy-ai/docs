@@ -17,11 +17,14 @@
 	"Data > AI & ML > Classification": "CLASSIFICATION",
 	"Data > AI & ML > Regressions": "",
 	"Data > AI & ML > Casting": "",
-	"Flow": ["LOOPS", "CONDITIONALS"],
+	"Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
 	"I/O > Instruments > Keithley": "KEITHLEY",
 	"I/O > Instruments > LabJack": "LABJACK",
 	"I/O > Instruments > Phidget": "PHIDGET",
 	"I/O > Motion > Stepper Motor Drivers": "STEPPER_MOTOR",
 	"I/O > Imaging": "WEB_CAM",
-	"I/O > Protocols > Serial": "SERIAL"
+	"I/O > Protocols > Serial": "SERIAL",
+	"SCIentific PYthon (SciPy) > Stats": "STATS",
+	"SCIentific PYthon (SciPy) > Signal": "SIGNAL",
+	"NUMerical PYthon (NumPy) > Linalg" : "LINALG"
 }

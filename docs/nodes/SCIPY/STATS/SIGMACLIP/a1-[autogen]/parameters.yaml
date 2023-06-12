@@ -1,0 +1,6 @@
+high:
+  default: 4.0
+  type: float
+low:
+  default: 4.0
+  type: float

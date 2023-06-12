@@ -1,0 +1,21 @@
+axis:
+  default: -1
+  type: int
+cval:
+  default: 0.0
+  type: float
+delta:
+  default: 1.0
+  type: float
+deriv:
+  default: 0
+  type: int
+mode:
+  default: interp
+  type: string
+polyorder:
+  default: null
+  type: int
+window_length:
+  default: null
+  type: int
