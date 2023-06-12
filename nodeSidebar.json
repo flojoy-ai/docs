@@ -1,6 +1,11 @@
 {
+    "Data > AI & ML > Classification": [
+        "nodes/AI_ML/CLASSIFICATION/ACCURACY/ACCURACY",
+        "nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/ONE_HOT_ENCODING",
+        "nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE"
+    ],
     "Data > AI & ML > Object Detection": [
-        "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION"
+        "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
     ],
     "ETL > Transform > Arithmetic": [
         "nodes/ARITHMETIC/ABS",
@@ -10,10 +15,11 @@
         "nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/MULTIPLY",
         "nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/SUBTRACT"
     ],
+    "ETL > Extract > Dataframe": [
+        "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/EXTRACT_COLUMNS"
+    ],
     "ETL > Extract > File System": [
-        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
-        "nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE",
-        "nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/OPEN_MATLAB"
+        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV"
     ],
     "Data > Generate > Synthetic Data > DATAFRAMES": [
         "nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/PLOTLY_DATASET",
