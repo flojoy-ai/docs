@@ -41,7 +41,9 @@ In the source directory [`PYTHON/nodes/MANIFEST`](https://github.com/flojoy-io/n
 
 - `key` : This is a unique identifier for the node that will allow for reference within the source of Flojoy
 
-- `type` : This is the identifier of the node into its resepctive parent category. These keys (and their respective sections) can be found in [`/src/feature/flow_chart_panel/manifest/COMMANDS_MANIFEST.ts`](https://github.com/flojoy-io/studio/blob/main/src/feature/flow_chart_panel/manifest/COMMANDS_MANIFEST.ts)
+- `type` : This is the identifier of the node into its resepctive parent category. These keys (and their respective sections) can be found in [`src/utils/ManifestLoader.ts`](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts)
+
+- `pip_dependencies`: [Optionally] A list of additional pip dependencies needed for this node, outside of the core dependencies of flojoy 
 
 - `parameters` : This is a dictionary of parameters that can be tweaked in the UI to control the behaviour of a particular instance of this node. For example, an instance of the Proportion-Interal-Derivative (PID) controller node has its time constants set as below in [`PYTHON/nodes/MANIFEST/pid.manifest.yaml`](https://github.com/flojoy-io/nodes/blob/main/MANIFEST/pid.manifest.yaml):
 
@@ -60,6 +62,9 @@ COMMAND:
       Kd:
         type: float
         default: 356.25
+    pip_dependencies:
+      - name: dill
+        v: 0.3.6
 ```
 
 It is these parameters that can be accessed via the `params` argument in your Flojoy function!
