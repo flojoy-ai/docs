@@ -1,0 +1,18 @@
+from flojoy import DataContainer, flojoy
+import scipy.stats
+
+
+@flojoy
+def BINOM_TEST(dc, params):
+    
+    return DataContainer(
+        x=dc[0].y,
+        y=scipy.stats.binom_test(
+            x=dc[0].y,
+            n=(int(params["n"]) if params["n"] != "" else None),
+            p=(float(params["p"]) if params["p"] != "" else None),
+            alternative=(
+                str(params["alternative"]) if params["alternative"] != "" else None
+            ),
+        ),
+    )

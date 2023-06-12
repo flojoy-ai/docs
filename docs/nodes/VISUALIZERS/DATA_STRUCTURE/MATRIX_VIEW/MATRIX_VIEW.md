@@ -26,10 +26,17 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import Data1 from '!!raw-loader!./examples/EX1/output.txt';
+
 <AppDisplay 
-  GLink='VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW'
-  nodeLabel='MATRIX_VIEW'>
+    data={Data1}
+    nodeLabel='MATRIX_VIEW'>
+    {App1}
 </AppDisplay>
+
+<Example1 />
 
 <SectionBreak />
 
@@ -37,9 +44,9 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 [//]: # (Appendix)
 
-import Notes from './appendix/notes.md';
-import Hardware from './appendix/hardware.md';
-import Media from './appendix/media.md';
+import Notes from '!!raw-loader!./appendix/notes.md';
+import Hardware from '!!raw-loader!./appendix/hardware.md';
+import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 

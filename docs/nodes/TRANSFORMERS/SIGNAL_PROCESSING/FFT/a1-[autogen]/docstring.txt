@@ -1,0 +1,19 @@
+The FFT node Performs a Discrete Fourier Transform on the input vector.
+Through the FFT algorithm, the input vector will be transformed
+from the time domain into the frequency domain which will be an ordered pair of arrays.
+
+Parameters
+---------
+window: Selection of window types
+    the node will apply a window to the signal to avoid spectral leakage
+real_signal: boolean
+    whether the input signal is real or complex
+sample_rate: int
+    the sample rate of the real signal, if the input is complex, it will default to 1
+    regardless of the input
+
+Returns
+-------
+ordered_pair
+    x: frequency
+    y: spectrum of the signal

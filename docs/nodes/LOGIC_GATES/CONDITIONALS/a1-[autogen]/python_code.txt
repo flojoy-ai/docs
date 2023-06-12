@@ -7,10 +7,13 @@ from utils.utils import compare_values
 def CONDITIONAL(
     dc_inputs: list[DataContainer], params: dict
 ) -> Union[DataContainer, dict]:
+    
     operator = params["operator_type"]
 
-    x = dc_inputs[1].y
-    y = dc_inputs[0].y
+    dc_input_x = dc_inputs[0]
+    dc_input_y = dc_inputs[1]
+    x = dc_input_x.y
+    y = dc_input_y.y
     bool_ = compare_values(x[0], y[0], operator)
 
     data = None

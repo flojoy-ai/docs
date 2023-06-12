@@ -1,0 +1,14 @@
+The SUPPORT_VECTOR_MACHINE node is used to train a support vector machine model for classification tasks.
+It takes a dataframe of labelled training data, and a dataframe of unlabelled input data.
+
+Parameters
+----------
+target: str, optional
+    The column name of the label in the input dataframe.
+kernel: 'linear' | 'poly' | 'rvm' | 'sigmoid', default='linear'
+    Specifies the kernel type to be used in the algorithm.
+
+Returns
+-------
+dataframe
+    The predictions for the input data.

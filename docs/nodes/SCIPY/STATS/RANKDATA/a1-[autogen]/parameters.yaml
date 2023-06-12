@@ -1,0 +1,6 @@
+axis:
+  default: null
+  type: None
+method:
+  default: average
+  type: string
