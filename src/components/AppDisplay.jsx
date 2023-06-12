@@ -12,7 +12,9 @@ import { useColorMode } from '@docusaurus/theme-common';
 import DefaultNode from './nodes/DefaultNode';
 import SimulationNode from './nodes/SimulationNode';
 import ArithmeticNode from './nodes/ArithmeticNode';
+import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
+import TerminatorNode from './nodes/TerminatorNode';
 
 const axesStyle = {
 	tickLabels: { fontSize: 8, fill: '#BCC2C4' },
@@ -23,8 +25,12 @@ const nodeTypes = {
 	default: DefaultNode,
 	SIMULATION: SimulationNode,
 	ARITHMETIC: ArithmeticNode,
+	CONDITIONAL: ConditionalNode,
+	LOOP: ConditionalNode,
+	TIMER: ConditionalNode,
 	PLOTLY_VISOR: VisorNode,
 	VISOR: VisorNode,
+	TERMINATOR: TerminatorNode,
 };
 
 export default function AppDisplay({ children, data, GLink }) {
