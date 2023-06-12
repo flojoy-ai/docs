@@ -1,6 +1,5 @@
 from flojoy import flojoy, DataContainer
 import pandas as pd
-from typing import cast
 
 
 @flojoy
@@ -31,8 +30,7 @@ def ONE_HOT_ENCODING(dc_inputs: list[DataContainer], params: dict) -> DataContai
     if columns:
         encoded = pd.get_dummies(dc.m[columns])
     else:
-        df = cast(pd.DataFrame, dc.m)
-        cat_df = df.select_dtypes(include=["object", "category"])
+        cat_df = dc.m.select_dtypes(include=["object", "category"])
         encoded = pd.get_dummies(cat_df, dtype=int)
 
     return DataContainer(type="dataframe", m=encoded)
