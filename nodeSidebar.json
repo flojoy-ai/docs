@@ -16,6 +16,14 @@
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/SAVGOL",
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/BUTTER"
     ],
+    "Data > AI & ML > Object Detection": [
+        "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
+    ],
+    "Data > AI & ML > Classification": [
+        "nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE",
+        "nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/ONE_HOT_ENCODING",
+        "nodes/AI_ML/CLASSIFICATION/ACCURACY/ACCURACY"
+    ],
     "I/O > Protocols > Serial": [
         "nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/SERIAL_TIMESERIES",
         "nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT"
@@ -23,15 +31,15 @@
     "I/O > Instruments > LabJack": [
         "nodes/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3"
     ],
+    "I/O > Instruments > Phidget": [
+        "nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22"
+    ],
     "I/O > Instruments > Keithley": [
         "nodes/INSTRUMENTS/KEITHLEY/KEITHLEY2400/KEITHLEY2400"
     ],
     "I/O > Motion > Stepper Motor Drivers": [
         "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB",
         "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC"
-    ],
-    "I/O > Instruments > Phidget": [
-        "nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22"
     ],
     "I/O > Imaging": [
         "nodes/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA"
@@ -44,14 +52,6 @@
     "ETL > Transform > Image Processing": [
         "nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/EDGE_DETECTION",
         "nodes/TRANSFORMERS/IMAGE_PROCESSING/IMAGE_SMOOTHING/IMAGE_SMOOTHING"
-    ],
-    "Data > AI & ML > Object Detection": [
-        "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
-    ],
-    "Data > AI & ML > Classification": [
-        "nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE",
-        "nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/ONE_HOT_ENCODING",
-        "nodes/AI_ML/CLASSIFICATION/ACCURACY/ACCURACY"
     ],
     "ETL > Transform > Arithmetic": [
         "nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/SUBTRACT",
