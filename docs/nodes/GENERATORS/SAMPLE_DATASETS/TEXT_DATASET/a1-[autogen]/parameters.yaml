@@ -1,0 +1,19 @@
+categories:
+  default: ''
+  type: array
+remove_footers:
+  default: false
+  type: boolean
+remove_headers:
+  default: false
+  type: boolean
+remove_quotes:
+  default: false
+  type: boolean
+subset:
+  default: train
+  options:
+  - train
+  - test
+  - all
+  type: select

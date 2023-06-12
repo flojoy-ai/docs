@@ -1,0 +1,9 @@
+alternative:
+  default: two-sided
+  type: string
+n:
+  default: null
+  type: int
+p:
+  default: 0.5
+  type: float
