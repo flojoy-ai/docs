@@ -3,4 +3,4 @@ periods:
   type: int
 run_forecast:
   default: true
-  type: bool
+  type: boolean
