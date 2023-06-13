@@ -54,7 +54,7 @@ const config = {
 		],
 	],
 	stylesheets: [
-		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@700&family=Open+Sans:ital,wght@0,400;0;600,0,700;1,400;1,600;1,700&display=swap',
 		// added LaTeX addins
 		{
 			href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
@@ -109,21 +109,21 @@ const config = {
 			algolia: {
 				// The application ID provided by Algolia
 				appId: '8F0URYIKW5',
-		  
+
 				// Public API key: it is safe to commit it
 				apiKey: '089cd76d3023464d056479e65880af90',
-		  
+
 				indexName: 'Flojoy Docs',
-		  
+
 				// Optional: see doc section below
 				contextualSearch: true,
-		  
+
 				// Optional: Algolia search parameters
 				searchParameters: {},
-		  
+
 				// Optional: path for search page that enabled by default (`false` to disable it)
 				searchPagePath: 'search',
-			  },			
+			},
 		}),
 };
 
