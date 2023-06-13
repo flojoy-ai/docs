@@ -1,0 +1,6 @@
+column:
+  default: 2
+  type: int
+row:
+  default: 2
+  type: int

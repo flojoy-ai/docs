@@ -36,6 +36,7 @@
 		"rehype-katex": "5",
 		"remark-math": "3",
 		"sass": "^1.54.3",
+		"uuid": "^9.0.0",
 		"victory": "^36.6.10",
 		"victory-chart": "^36.6.10",
 		"yaml": "^2.2.2"
