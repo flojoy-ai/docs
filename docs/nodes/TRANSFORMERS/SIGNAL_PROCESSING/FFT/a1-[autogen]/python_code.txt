@@ -4,7 +4,7 @@ from flojoy import flojoy, DataContainer
 
 
 @flojoy
-def FFT(dc_inputs: list[DataContainer], params: dict) -> DataContainer: 
+def FFT(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     if len(dc_inputs) != 1:
         raise ValueError(
             f"FFT node requires 1 input signal, but {len(dc_inputs)} was given!"
@@ -18,28 +18,42 @@ def FFT(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     window_type: str = params["window_type"]
     real: bool = params["real_signal"]
     sample_rate: int = params["sample_rate"]  # Hz
+    display: bool = params["display"]
 
     if sample_rate <= 0:
-        raise ValueError(
-            f"Sample rate must be greater than 0"
-        )
+        raise ValueError(f"Sample rate must be greater than 0")
 
     signal_value = dc.y
     x = dc.x
+    sample_spacing = 1.0 / sample_rate
 
-    if window_type == "none":
-        fourier = fft.rfft(signal_value) if real else fft.fft(signal_value)
-    else:
-        window = signal.get_window(window_type, len(signal_value))
-        fourier = (
-            fft.rfft(signal_value * window) if real else fft.fft(signal_value * window)
+    if display:
+        # x-axis
+        frequency = (
+            fft.rfftfreq(x.shape[-1], sample_spacing)
+            if real
+            else fft.fftfreq(x.shape[-1], sample_spacing)
         )
+        frequency = fft.fftshift(frequency)
 
-    fourier = fft.fftshift(fourier)
-    frequency = (
-        fft.rfftfreq(x.shape[-1], 1 / sample_rate) if real else fft.fftfreq(x.shape[-1])
+        # y-axis
+        if window_type == "none":
+            fourier = fft.rfft(signal_value) if real else fft.fft(signal_value)
+        else:
+            window = signal.get_window(window_type, len(signal_value))
+            fourier = (
+                fft.rfft(signal_value * window)
+                if real
+                else fft.fft(signal_value * window)
+            )
+        fourier = fft.fftshift(fourier)
+        fourier = abs(fourier)
+    else:  # used for processing
+        fourier = fft.rfft(signal_value) if real else fft.fft(signal_value)
+        frequency = x
+
+    return (
+        DataContainer(x=frequency, y=fourier)
+        if display
+        else DataContainer(x=frequency, y={"real": fourier.real, "imag": fourier.imag})
     )
-    frequency = fft.fftshift(frequency)
-
-    result = abs(fourier)
-    return DataContainer(x=frequency, y=result)

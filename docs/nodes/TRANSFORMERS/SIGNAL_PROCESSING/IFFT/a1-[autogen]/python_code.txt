@@ -1,0 +1,27 @@
+from scipy import fft, signal
+from flojoy import flojoy, DataContainer
+
+
+@flojoy
+def IFFT(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
+   if len(dc_inputs) != 1:
+        raise ValueError(
+            f"FFT node requires 1 input signal, but {len(dc_inputs)} was given!"
+        )
+    dc = dc_inputs[0]
+    if dc.type != "ordered_pair":
+        raise ValueError(
+            f"unsupported DataContainer type passed to FFT node: '{dc.type}'"
+        )
+
+    x = dc.x
+    fourier = dc.y
+    realValue = fourier["real"]
+    imagValue = fourier["imag"]
+    real: bool = params["real_signal"]
+
+    fourier = realValue + 1j * imagValue
+
+    result = fft.irfft(fourier) if real else fft.ifft(fourier, len(x))
+    result = result.real
+    return DataContainer(x=x, y=result)
