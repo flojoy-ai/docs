@@ -3,7 +3,9 @@
         "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/EXTRACT_COLUMNS"
     ],
     "ETL > Extract > File System": [
-        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV"
+        "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
+        "nodes/EXTRACTORS/FILE/OPEN_IMAGE/OPEN_IMAGE",
+        "nodes/EXTRACTORS/FILE/OPEN_PARQUET/OPEN_PARQUET"
     ],
     "NUMerical PYthon (NumPy) > Linalg": [
         "nodes/NUMPY/LINALG/INV/INV",
