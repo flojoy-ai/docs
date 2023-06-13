@@ -1,0 +1,3 @@
+real_signal:
+  default: false
+  type: boolean
