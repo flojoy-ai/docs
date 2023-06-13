@@ -8,5 +8,5 @@ None
 
 Returns
 -------
-numpy array / constant
+numpy array / float
     integrated value in sequence of y array.
