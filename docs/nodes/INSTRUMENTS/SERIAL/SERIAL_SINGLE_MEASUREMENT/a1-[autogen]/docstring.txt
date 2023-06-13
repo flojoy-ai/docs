@@ -1,28 +1,33 @@
 
-    Node to take a single reading of data from an Ardunio,
-    or a similar serial device.
-    For example you can record temperature following this tutorial:
+The SERIAL_SINGLE_MEASUREMENT Node takes a single reading of data from an Ardunio,
+or a similar serial device.
 
-    https://learn.adafruit.com/thermistor/using-a-thermistor
+For example you can record temperature following this tutorial:
 
-    with Serial.println(steinhart) as the only line printing.
+https://learn.adafruit.com/thermistor/using-a-thermistor
 
-    It is important that the last line Arduino is returning is the
-    data with a new line at the end (i.e. println()).
+with Serial.println(steinhart) as the only line printing.
 
-    The other lines must be returned with print()
-    with print(",") between each line.
+It is important that the last line Arduino is returning is the
+data with a new line at the end (i.e. println()).
 
-    For example:
+The other lines must be returned with print()
+with print(",") between each line.
 
-    print(reading0)
-    print(",")
-    println(reading1)
+For example:
 
-    If there is more than one column, the SELECT_ARRAY node must be
-    used after this node.
+print(reading0)
+print(",")
+println(reading1)
 
-    params:
-    BAUD_RATE: Baud rate for the serial device.
-    com_port: COM port of the serial device
-    
+The SERIAL_SINGLE_MEASUREMENT receive data from the arduino serial console as a string and split
+it using "," as separators. Then it returns the values measured in a list names reading.
+
+
+Parameters :
+------------
+baudrate: Float
+    Baud rate for the serial communication.
+
+comport: String
+    Define the COM port on which the Serial device is connected
