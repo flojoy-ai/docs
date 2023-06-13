@@ -1,7 +1,16 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import { useLocation } from '@docusaurus/router';
 
 export default function AppendixSection({ children, index, folderPath }) {
+	const location = useLocation();
+	const isIONode = location.pathname.indexOf('INSTRUMENTS') !== -1;
+
+	// Don't display hardware info on non IO nodes
+	if (!isIONode && index === 1) {
+		return null;
+	}
+
 	const sections = [
 		'Theory and technical notes',
 		'Parts list and drivers',

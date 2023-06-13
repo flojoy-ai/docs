@@ -17,16 +17,16 @@
 
 /* Hide Algolia attribution */
 .DocSearch-Logo {
-    display: none;
+	display: none;
 }
 
 .searchLogoColumn_node_modules {
-    display: none;
+	display: none;
 }
 
-.DocSearch-Hit[aria-selected=true] a {
-    background-color: #000 !important;
-}    
+.DocSearch-Hit[aria-selected='true'] a {
+	background-color: #000 !important;
+}
 
 html,
 body {
@@ -103,9 +103,9 @@ body {
 	}
 }
 .menu__link:not(.menu__link--sublist) {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas,'Liberation Mono', 'Courier New', monospace;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+		'Courier New', monospace;
 }
-
 
 // .bg {
 // 	position: relative;
@@ -158,8 +158,29 @@ body {
 		text-align: right;
 	}
 }
-.quick--start-button{
+.quick--start-button {
 	background-color: #111111;
 	border-radius: 7px;
 	padding: 13px;
+}
+
+.react-flow__node {
+	background: transparent !important;
+	border: none !important;
+}
+.react-flow__node-default {
+	width: fit-content;
+	padding: 0px;
+	/* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
+	font-weight: 600;
+	/* border-radius: 17px; */
+	/* background-color: #99f5ff4f; */
+	/* border: 1px solid #99F5FF; */
+	/* color: #99F5FF; */
+	background: transparent !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-color: transparent !important;
 }

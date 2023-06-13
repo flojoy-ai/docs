@@ -4,16 +4,33 @@ import TabItem from '@theme/TabItem';
 import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
 import 'reactflow/dist/style.css';
 import StaticDisplayNode from './StaticDisplayNode';
-const nodeTypes = { default: StaticDisplayNode };
 import { VictoryChart, VictoryScatter, VictoryAxis } from 'victory';
 
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
+import DefaultNode from './nodes/DefaultNode';
+import SimulationNode from './nodes/SimulationNode';
+import ArithmeticNode from './nodes/ArithmeticNode';
+import ConditionalNode from './nodes/ConditionalNode';
+import VisorNode from './nodes/VisorNode';
+import TerminatorNode from './nodes/TerminatorNode';
 
 const axesStyle = {
 	tickLabels: { fontSize: 8, fill: '#BCC2C4' },
 	label: { fontSize: 8, fill: '#BCC2C4' },
+};
+
+const nodeTypes = {
+	default: DefaultNode,
+	SIMULATION: SimulationNode,
+	ARITHMETIC: ArithmeticNode,
+	CONDITIONAL: ConditionalNode,
+	LOOP: ConditionalNode,
+	TIMER: ConditionalNode,
+	PLOTLY_VISOR: VisorNode,
+	VISOR: VisorNode,
+	TERMINATOR: TerminatorNode,
 };
 
 export default function AppDisplay({ children, data, GLink }) {
@@ -36,6 +53,17 @@ export default function AppDisplay({ children, data, GLink }) {
 
 	const appObject = JSON.parse(children)['rfInstance'];
 	const HEIGHT = '20em';
+
+	const handleDownload = () => {
+		const jsonData = JSON.stringify(appObject, null, 2);
+		const blob = new Blob([jsonData], { type: 'text/plain;charset=utf-8' });
+		const url = URL.createObjectURL(blob);
+		const link = document.createElement('a');
+		link.href = url;
+		link.download = 'example.txt';
+		link.click();
+		URL.revokeObjectURL(url);
+	};
 
 	return (
 		<div>
@@ -90,7 +118,14 @@ export default function AppDisplay({ children, data, GLink }) {
 						</VictoryChart>
 					</div>
 				</TabItem>
-				<TabItem value="spec" label="App JSON spec">
+				<TabItem value="spec" label="Download App">
+					<button
+						className="button button--primary button--lg button--round"
+						style={{ padding: '12px 16px', fontSize: 16 }}
+						onClick={handleDownload}
+					>
+						Download
+					</button>
 					<div style={{ minHeight: HEIGHT }}>
 						<JSONTree data={appObject} />
 					</div>
