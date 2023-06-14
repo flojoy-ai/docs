@@ -1,7 +1,6 @@
 {
-  "arrowParens": "avoid",
-  "singleQuote": true,
-  "endOfLine": "lf",
-  "useTabs": true,
-  "tabWidth": 2
+	"arrowParens": "avoid",
+	"singleQuote": true,
+	"endOfLine": "lf",
+	"tabWidth": 2
 }

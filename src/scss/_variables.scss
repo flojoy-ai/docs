@@ -1,72 +1,72 @@
 $grey: #bcc2c4;
 
 :root {
-	--font-family: 'Open Sans', sans-serif;
-	--ifm-heading-font-family: 'Inter', sans-serif;
-	--font-family-alternative: 'Roboto Mono', monospace;
-	--block-family-code: 'IBM Plex Mono', monospace;
+  --font-family: 'Open Sans', sans-serif;
+  --ifm-heading-font-family: 'Inter', sans-serif;
+  --font-family-alternative: 'Roboto Mono', monospace;
+  --block-family-code: 'IBM Plex Mono', monospace;
 
-	--ifm-color-primary: #7b61ff;
-	--ifm-color-primary-dark: #5e3eff;
-	--ifm-color-primary-darker: #4f2cff;
-	--ifm-color-primary-darkest: #2900f6;
-	--ifm-color-primary-light: #9884ff;
-	--ifm-color-primary-lighter: #a796ff;
-	--ifm-color-primary-lightest: #d3cbff;
-	--color-primary-transparent: rgba(122, 118, 255, 0.25);
+  --ifm-color-primary: #7b61ff;
+  --ifm-color-primary-dark: #5e3eff;
+  --ifm-color-primary-darker: #4f2cff;
+  --ifm-color-primary-darkest: #2900f6;
+  --ifm-color-primary-light: #9884ff;
+  --ifm-color-primary-lighter: #a796ff;
+  --ifm-color-primary-lightest: #d3cbff;
+  --color-primary-transparent: rgba(122, 118, 255, 0.25);
 
-	--ifm-font-color-base: #8c9699;
-	--ifm-heading-color: #000000;
+  --ifm-font-color-base: #8c9699;
+  --ifm-heading-color: #000000;
 
-	--color-secondary: #ffa927;
+  --color-secondary: #ffa927;
 
-	--ifm-code-font-size: 95%;
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-	// --ifm-toc-border-color: transparent;
+  // --ifm-toc-border-color: transparent;
 
-	// navbar
-	--ifm-navbar-height: auto;
-	// --ifm-navbar-shadow: none;
+  // navbar
+  --ifm-navbar-height: auto;
+  // --ifm-navbar-shadow: none;
 
-	// menu
-	--ifm-menu-color-background-active: #f2f2f2;
-	--ifm-menu-link-padding-vertical: 1rem;
+  // menu
+  --ifm-menu-color-background-active: #f2f2f2;
+  --ifm-menu-link-padding-vertical: 1rem;
 
-	// footer
-	--ifm-footer-background-color: transparent;
-	--ifm-footer-color: $grey;
+  // footer
+  --ifm-footer-background-color: transparent;
+  --ifm-footer-color: $grey;
 
-	// breadcrumb
-	--ifm-breadcrumb-item-background-active: var(--color-primary-transparent);
-	--ifm-breadcrumb-separator-size: 0.7rem;
+  // breadcrumb
+  --ifm-breadcrumb-item-background-active: var(--color-primary-transparent);
+  --ifm-breadcrumb-separator-size: 0.7rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-	--ifm-color-primary: #99f5ff;
-	--ifm-color-primary-dark: #70f1ff;
-	--ifm-color-primary-darker: #5cefff;
-	--ifm-color-primary-darkest: #1fe9ff;
-	--ifm-color-primary-light: #c2f9ff;
-	--ifm-color-primary-lighter: #d6fbff;
-	--ifm-color-primary-lightest: #ffffff;
-	--ifm-background-color: #111111;
+  --ifm-color-primary: #99f5ff;
+  --ifm-color-primary-dark: #70f1ff;
+  --ifm-color-primary-darker: #5cefff;
+  --ifm-color-primary-darkest: #1fe9ff;
+  --ifm-color-primary-light: #c2f9ff;
+  --ifm-color-primary-lighter: #d6fbff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #111111;
 
-	--ifm-font-color-base: #bcc2c4;
-	--ifm-heading-color: #ffffff;
+  --ifm-font-color-base: #bcc2c4;
+  --ifm-heading-color: #ffffff;
 
-	--ifm-menu-color-background-active: #1e1e1e;
+  --ifm-menu-color-background-active: #1e1e1e;
 
-	--color-primary-transparent: rgba(153, 245, 255, 0.2);
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --color-primary-transparent: rgba(153, 245, 255, 0.2);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme='dark'] {
-	--ifm-background-color: #111111;
-	--ifm-background-surface-color: var(--ifm-background-color);
+  --ifm-background-color: #111111;
+  --ifm-background-surface-color: var(--ifm-background-color);
 }
 
 body.home {
-	--ifm-navbar-shadow: none;
+  --ifm-navbar-shadow: none;
 }

@@ -1,122 +1,122 @@
 :root {
-	--fj-color-accent1: 123, 97, 255; /* #7b61ff */
-	--fj-color-accent2: 46, 131, 255; /* #2e83ff */
-	--fj-color-accent3: 255, 169, 39; /* #ffa927 */
-	--fj-color-accent4: 255, 123, 97;
-	--fj-color-accent5: 0, 123, 255;
+  --fj-color-accent1: 123, 97, 255; /* #7b61ff */
+  --fj-color-accent2: 46, 131, 255; /* #2e83ff */
+  --fj-color-accent3: 255, 169, 39; /* #ffa927 */
+  --fj-color-accent4: 255, 123, 97;
+  --fj-color-accent5: 0, 123, 255;
 }
 
 [data-theme='dark'] {
-	--fj-color-accent1: 153, 245, 255; /* #99f5ff */
-	--fj-color-accent2: 123, 97, 255; /* #7b61ff */
-	--fj-color-accent3: 255, 201, 63; /* #ffc93f */
-	--fj-color-accent4: 255, 123, 97;
-	--fj-color-accent5: 0, 123, 255;
+  --fj-color-accent1: 153, 245, 255; /* #99f5ff */
+  --fj-color-accent2: 123, 97, 255; /* #7b61ff */
+  --fj-color-accent3: 255, 201, 63; /* #ffc93f */
+  --fj-color-accent4: 255, 123, 97;
+  --fj-color-accent5: 0, 123, 255;
 }
 
 .nodeContainer {
-	position: relative;
-	display: flex;
-	align-items: center;
-	font-size: 17px;
-	min-height: 130px;
-	height: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  min-height: 130px;
+  height: fit-content;
 }
 
 .defaultNode {
-	flex-direction: column;
-	justify-content: center;
-	padding: 10px;
-	width: 210px;
-	border-radius: 6px;
-	font-weight: 600;
-	border: 1px solid rgb(var(--fj-color-accent1));
-	color: rgb(var(--fj-color-accent1));
-	background-color: rgba(var(--fj-color-accent1), 0.3);
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 210px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 1px solid rgb(var(--fj-color-accent1));
+  color: rgb(var(--fj-color-accent1));
+  background-color: rgba(var(--fj-color-accent1), 0.3);
 }
 
 .simulationNode {
-	width: 130px;
-	border-radius: 6px;
-	flex-direction: column;
-	justify-content: center;
-	border: 1px solid rgb(var(--fj-color-accent2));
-	color: rgb(var(--fj-color-accent2));
-	background-color: rgba(var(--fj-color-accent2), 0.15);
-	text-align: center;
-	overflow-wrap: anywhere;
-	padding: 16px;
+  width: 130px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(var(--fj-color-accent2));
+  color: rgb(var(--fj-color-accent2));
+  background-color: rgba(var(--fj-color-accent2), 0.15);
+  text-align: center;
+  overflow-wrap: anywhere;
+  padding: 16px;
 }
 
 .arithmeticNode {
-	background: transparent;
+  background: transparent;
 }
 
 .terminatorNode {
-	background-color: #f03e3e30;
+  background-color: #f03e3e30;
 }
 
 .visorNode {
-	background: transparent;
+  background: transparent;
 
-	path:not(:global(.no-fill)) {
-		fill: rgb(var(--fj-color-accent1));
-	}
+  path:not(:global(.no-fill)) {
+    fill: rgb(var(--fj-color-accent1));
+  }
 
-	path:global(.stroke) {
-		stroke: rgb(var(--fj-color-accent1));
-	}
+  path:global(.stroke) {
+    stroke: rgb(var(--fj-color-accent1));
+  }
 }
 
 .scipyNode {
-	width: 180px;
-	height: 130px;
-	border-radius: 6px;
-	flex-direction: column;
-	justify-content: center;
-	border: 1px solid rgb(var(--fj-color-accent4));
-	color: rgb(var(--fj-color-accent4));
-	background-color: rgba(var(--fj-color-accent4, 0.15));
+  width: 180px;
+  height: 130px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(var(--fj-color-accent4));
+  color: rgb(var(--fj-color-accent4));
+  background-color: rgba(var(--fj-color-accent4, 0.15));
 }
 
 .numpyNode {
-	width: 180px;
-	height: 130px;
-	border-radius: 6px;
-	flex-direction: column;
-	justify-content: center;
-	border: 1px solid rgb(var(--fj-color-accent5));
-	color: rgb(var(--fj-color-accent5));
-	background-color: rgba(var(--fj-color-accent5, 0.15));
+  width: 180px;
+  height: 130px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(var(--fj-color-accent5));
+  color: rgb(var(--fj-color-accent5));
+  background-color: rgba(var(--fj-color-accent5, 0.15));
 }
 
 .nodeLabel {
-	font-weight: 600;
-	font-size: 18px;
-	font-family: 'Open Sans';
-	text-align: center;
-	letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .operatorIcon {
-	position: absolute;
-	left: 29px;
-	height: 20px;
-	width: 20px;
+  position: absolute;
+  left: 29px;
+  height: 20px;
+  width: 20px;
 }
 
 .scipyLibIcon {
-	position: absolute;
-	right: 8px;
-	bottom: 5px;
-	height: 40px;
-	width: 40px;
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+  height: 40px;
+  width: 40px;
 }
 
 .numpyLibIcon {
-	position: absolute;
-	right: -8px;
-	bottom: -8px;
-	height: 55px;
-	width: 55px;
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
+  height: 55px;
+  width: 55px;
 }

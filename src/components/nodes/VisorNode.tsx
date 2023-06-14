@@ -13,23 +13,23 @@ import styles from './nodes.module.scss';
 import { makeNode } from './makeNode';
 
 const chartElemMap = {
-	SCATTER: <Scatter />,
-	HISTOGRAM: <Histogram />,
-	LINE: <LineChart />,
-	SURFACE3D: <Surface3D />,
-	SCATTER3D: <Scatter3D />,
-	BAR: <BarChart />,
-	TABLE: <PlotlyTable />,
-	IMAGE: <PlotlyImage />,
-	BOX: <BoxPlot />,
-	BIG_NUMBER: <BigNumber />,
-	MATRIX_VIEW: <PlotlyTable />,
-	ARRAY_VIEW: <PlotlyTable />,
+  SCATTER: <Scatter />,
+  HISTOGRAM: <Histogram />,
+  LINE: <LineChart />,
+  SURFACE3D: <Surface3D />,
+  SCATTER3D: <Scatter3D />,
+  BAR: <BarChart />,
+  TABLE: <PlotlyTable />,
+  IMAGE: <PlotlyImage />,
+  BOX: <BoxPlot />,
+  BIG_NUMBER: <BigNumber />,
+  MATRIX_VIEW: <PlotlyTable />,
+  ARRAY_VIEW: <PlotlyTable />,
 };
 
 export default memo(
-	makeNode({
-		extraContentFunc: data => chartElemMap[data.func],
-		styles: [styles.visorNode, styles.nodeContainer],
-	})
+  makeNode({
+    extraContentFunc: data => chartElemMap[data.func],
+    styles: [styles.visorNode, styles.nodeContainer],
+  })
 );
