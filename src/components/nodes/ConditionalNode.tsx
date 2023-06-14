@@ -2,8 +2,9 @@ import HandleComponent from './HandleComponent';
 import React, { memo } from 'react';
 import clsx from 'clsx';
 import styles from './nodes.modules.scss';
+import { NodeProps } from 'reactflow';
 
-const ConditionalNode = ({ data }) => {
+const ConditionalNode = ({ data }: NodeProps) => {
 	const params = data.inputs || [];
 
 	const current_iteration = 0;
@@ -25,7 +26,7 @@ const ConditionalNode = ({ data }) => {
 				<div>
 					{data.func === 'CONDITIONAL' && (
 						<>
-							{params?.length !== 0 ? (
+							{params.length !== 0 && (
 								<div
 									style={{
 										marginTop: 20,
@@ -34,18 +35,6 @@ const ConditionalNode = ({ data }) => {
 								>
 									x {data['ctrls']['operator_type']['value']} y
 								</div>
-							) : (
-								<>
-									{Object.keys(additionalInfo)
-										.filter(value => value === data.id)
-										.map((_, index) => {
-											return (
-												<div key={index + 1}>
-													status: {additionalInfo[data.id]['status']}
-												</div>
-											);
-										})}
-								</>
 							)}
 						</>
 					)}

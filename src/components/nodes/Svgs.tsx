@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-export const AddBGTemplate = ({ ...props }) => {
+export const AddBGTemplate = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			data-testid="default-svg"
@@ -21,7 +21,7 @@ export const AddBGTemplate = ({ ...props }) => {
 	);
 };
 
-export const MultiplySvg = ({ ...props }) => {
+export const MultiplySvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			data-testid="multiply-svg"
@@ -56,7 +56,7 @@ export const MultiplySvg = ({ ...props }) => {
 	);
 };
 
-export const AddSvg = ({ ...props }) => {
+export const AddSvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			data-testid="add-svg"
@@ -75,7 +75,7 @@ export const AddSvg = ({ ...props }) => {
 	);
 };
 
-export const AtSvg = ({ ...props }) => {
+export const AtSvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			data-testid="matmul-svg"
@@ -108,7 +108,7 @@ export const AtSvg = ({ ...props }) => {
 	);
 };
 
-export const SubSvg = ({ ...props }) => {
+export const SubSvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			data-testid="sub-svg"
@@ -127,7 +127,7 @@ export const SubSvg = ({ ...props }) => {
 	);
 };
 
-export const ScipySvg = ({ ...props }) => {
+export const ScipySvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ export const ScipySvg = ({ ...props }) => {
 	);
 };
 
-export const NumpySvg = ({ ...props }) => {
+export const NumpySvg = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

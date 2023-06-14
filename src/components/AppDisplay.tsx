@@ -15,7 +15,6 @@ import ArithmeticNode from './nodes/ArithmeticNode';
 import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
-
 const axesStyle = {
 	tickLabels: { fontSize: 8, fill: '#BCC2C4' },
 	label: { fontSize: 8, fill: '#BCC2C4' },
@@ -33,7 +32,19 @@ const nodeTypes = {
 	TERMINATOR: TerminatorNode,
 };
 
-export default function AppDisplay({ children, data, GLink }) {
+type AppDisplayProps = {
+	children: any;
+	nodeLabel: string;
+	data: string;
+	GLink: string;
+};
+
+export default function AppDisplay({
+	children,
+	nodeLabel,
+	data,
+	GLink,
+}: AppDisplayProps) {
 	const { colorMode } = useColorMode();
 	const NOEXAMPLEFOUND =
 		'No examples have been written for this node yet. You can add some ';
@@ -107,15 +118,15 @@ export default function AppDisplay({ children, data, GLink }) {
 				</TabItem>
 				<TabItem value="output" label="Output">
 					<div style={{ minHeight: HEIGHT }}>
-						<VictoryChart>
-							<VictoryAxis label="x" style={axesStyle} />
-							<VictoryAxis dependentAxis label="y" style={axesStyle} />
-							<VictoryScatter
-								style={{ data: { fill: '#7B61FF' } }}
-								size={1}
-								data={data}
-							/>
-						</VictoryChart>
+						{/* <VictoryChart> */}
+						{/* 	<VictoryAxis label="x" style={axesStyle} /> */}
+						{/* 	<VictoryAxis dependentAxis label="y" style={axesStyle} /> */}
+						{/* 	<VictoryScatter */}
+						{/* 		style={{ data: { fill: '#7B61FF' } }} */}
+						{/* 		size={1} */}
+						{/* 		data={data} */}
+						{/* 	/> */}
+						{/* </VictoryChart> */}
 					</div>
 				</TabItem>
 				<TabItem value="spec" label="Download App">

@@ -2,8 +2,9 @@ import { MultiplySvg, AddSvg, SubSvg, AddBGTemplate } from './Svgs';
 import React, { memo } from 'react';
 import styles from './nodes.modules.scss';
 import { makeNode } from './makeNode';
+import { NodeData } from '@site/src/types/data';
 
-const getOperatorIcon = data => {
+const getOperatorIcon = (data: NodeData) => {
 	switch (data.func) {
 		case 'MULTIPLY':
 			return <MultiplySvg className={styles.operatorIcon} />;
@@ -12,13 +13,13 @@ const getOperatorIcon = data => {
 		case 'SUBTRACT':
 			return <SubSvg className={styles.operatorIcon} />;
 		default:
-			return <Box />;
+			return <div />;
 	}
 };
 
 export default memo(
 	makeNode({
-		extraContentFunc: data => (
+		extraContentFunc: (data: NodeData) => (
 			<>
 				<AddBGTemplate />
 				{getOperatorIcon(data)}

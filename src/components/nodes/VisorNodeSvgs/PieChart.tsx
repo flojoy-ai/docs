@@ -1,6 +1,6 @@
-import React, { memo } from 'react';
+import React, { memo, SVGProps } from 'react';
 
-const PieChartIcon = ({ ...props }) => {
+const PieChartIcon = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			width="64"
@@ -25,7 +25,7 @@ const PieChartIcon = ({ ...props }) => {
 	);
 };
 
-const PieChartTitle = ({ ...props }) => {
+const PieChartTitle = ({ ...props }: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
 			width="23"
@@ -40,28 +40,26 @@ const PieChartTitle = ({ ...props }) => {
 	);
 };
 
-const PieChart = () => {
-	return (
-		<Fragment>
-			<PieChartTitle
-				style={{
-					position: 'absolute',
-					bottom: 5,
-					left: '50%',
-					transform: 'translateX(-50%)',
-					height: 105,
-				}}
-			/>
-			<PieChartIcon
-				style={{
-					position: 'absolute',
-					top: 21,
-					left: '50%',
-					transform: 'translateX(-50%)',
-				}}
-			/>
-		</Fragment>
-	);
-};
+const PieChart = () => (
+	<>
+		<PieChartTitle
+			style={{
+				position: 'absolute',
+				bottom: 5,
+				left: '50%',
+				transform: 'translateX(-50%)',
+				height: 105,
+			}}
+		/>
+		<PieChartIcon
+			style={{
+				position: 'absolute',
+				top: 21,
+				left: '50%',
+				transform: 'translateX(-50%)',
+			}}
+		/>
+	</>
+);
 
 export default memo(PieChart);
