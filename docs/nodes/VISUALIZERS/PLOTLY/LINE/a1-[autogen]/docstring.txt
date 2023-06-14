@@ -6,4 +6,4 @@ The LINE node creates a Plotly Line visualization for a given input data contain
 
     Supported DC types:
     -------------------
-    `ordered_pair`, `dataframe` (including timeseries), `matrix`, `ordered_triple`
+    `ordered_pair`, `dataframe` (including timeseries), `matrix`
