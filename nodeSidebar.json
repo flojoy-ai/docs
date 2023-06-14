@@ -7,6 +7,9 @@
     "Data > AI & ML > Object Detection": [
         "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
     ],
+    "Data > AI & ML > Predict Time Series": [
+        "nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/PROPHET_PREDICT"
+    ],
     "ETL > Transform > Arithmetic": [
         "nodes/ARITHMETIC/ABS",
         "nodes/TRANSFORMERS/ARITHMETIC/ABS/ABS",
