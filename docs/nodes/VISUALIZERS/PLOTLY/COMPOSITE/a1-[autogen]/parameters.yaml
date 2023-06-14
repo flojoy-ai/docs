@@ -1,0 +1,16 @@
+first_figure:
+  default: scatter
+  options:
+  - bar
+  - line
+  - histogram
+  - scatter
+  type: select
+second_figure:
+  default: scatter
+  options:
+  - bar
+  - line
+  - histogram
+  - scatter
+  type: select
