@@ -1,0 +1,15 @@
+func:
+  default: ''
+  type: string
+lower_bound_x:
+  default: 0.0
+  type: float
+lower_bound_y:
+  default: 0.0
+  type: float
+upper_bound_x:
+  default: 0.0
+  type: float
+upper_bound_y:
+  default: 0.0
+  type: float
