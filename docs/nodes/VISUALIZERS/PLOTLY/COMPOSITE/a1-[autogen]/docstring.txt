@@ -5,8 +5,7 @@ The COMPOSITE node creates a combination of Plotly visualizations for a given in
     first_figure: 'bar' | 'line' | 'histogram' | 'scatter'
     second_figure: 'bar' | 'line' | 'histogram' | 'scatter'
 
-    Returns
-    -------
-    plotly
-        The figure object that contains the graphed data for two inputs
+    Supported DC types:
+    ----------------
+    `ordered_pair`, `dataframe` (including timeseries), `ordered_triple`, `matrix`
 
