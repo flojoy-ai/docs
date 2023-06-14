@@ -8,7 +8,8 @@ from prophet.serialize import model_from_json
 def PROPHET_PLOT(
     dc_inputs: List[DataContainer], params: Dict[str, Any]
 ) -> DataContainer:
-    
+
+
     dc_input = dc_inputs[0]
     extra = dc_input.get("extra", None)
     if not extra or "prophet" not in extra:
