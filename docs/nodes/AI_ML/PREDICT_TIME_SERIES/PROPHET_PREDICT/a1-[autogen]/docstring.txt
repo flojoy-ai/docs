@@ -1,0 +1,39 @@
+The PROPHET_PREDICT node rains a Prophet model on the incoming dataframe
+
+    The DataContainer input type must be `dataframe`, and that dataframe must have its
+    first column (or index) be of datetime type.
+
+    This node always returns a DataContainer of type 'dataframe'. It will also
+    always return an `extra` field with a key `prophet` whose value is the JSONified
+    Prophet model, which can be loaded as follows:
+        ```python
+        from prophet.serialize import model_from_json
+
+        model = model_from_json(dc_inputs.extra["prophet"])
+        ```
+
+    Parameters
+    ----------
+    run_forecast : bool
+        If the True (default case), the returning DataContainer
+        will have its dataframe (`m` parameter of the DataContainer) be the forecasted
+        dataframe. It will also have an `extra` field with the key "original" which is
+        the original dataframe passed in.
+
+        If false, the returning dataframe will be the original data.
+
+        This node will also always have an `extra` field "run_forecast" which matches
+        that of the param passed in. This is for future nodes to know if a forecast
+        has already been run
+
+        Default True
+    periods : int
+        The number of periods to predict out. Only used if run_forecast is True.
+        Default 365
+
+    Returns
+    -------
+    DataContainer of type `dataframe` with param `m` which indicates either the original
+        df passed in, or the forecasted df (depending on if `run_forecast` is True),
+        as well as the `extra` param with keys "run_forecast" which correspond to the
+        input param, and potentially "original" in the event that `run_forecast` is True
