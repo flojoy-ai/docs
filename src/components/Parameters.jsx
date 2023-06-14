@@ -14,9 +14,8 @@ export default function Parameters({ children }) {
 			<h3>Input parameters</h3>
 			{Object.keys(params).map(key => {
 				return (
-					<>
-						<details>
-							<summary key={key}>
+						<details key={key}>
+							<summary>
 								<code>{key}</code>
 							</summary>
 							<ul>
@@ -29,7 +28,7 @@ export default function Parameters({ children }) {
 								})}
 							</ul>
 						</details>
-					</>
+			
 				);
 			})}
 		</div>

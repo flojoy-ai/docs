@@ -1,4 +1,3 @@
-import HandleComponent from './HandleComponent';
 import React, { memo } from 'react';
 import Scatter from './VisorNodeSvgs/Scatter';
 import Histogram from './VisorNodeSvgs/Histogram';
@@ -10,8 +9,8 @@ import PlotlyTable from './VisorNodeSvgs/Table';
 import BoxPlot from './VisorNodeSvgs/BoxPlot';
 import PlotlyImage from './VisorNodeSvgs/Image';
 import BigNumber from './VisorNodeSvgs/BigNumber';
-import clsx from 'clsx';
 import styles from './nodes.modules.scss';
+import { makeNode } from './makeNode';
 
 const chartElemMap = {
 	SCATTER: <Scatter />,
@@ -28,23 +27,9 @@ const chartElemMap = {
 	ARRAY_VIEW: <PlotlyTable />,
 };
 
-const VisorNode = ({ data }) => {
-	const params = data.inputs ?? [];
-
-	return (
-		<div className={clsx(styles.visorNode, styles.nodeContainer)}>
-			{chartElemMap[data.func]}
-			<div
-				style={{
-					display: 'flex',
-					flexDirection: 'column',
-					height: params.length > 0 ? (params.length + 1) * 40 : 'fit-content',
-				}}
-			>
-				<HandleComponent data={data} inputs={params} />
-			</div>
-		</div>
-	);
-};
-
-export default memo(VisorNode);
+export default memo(
+	makeNode({
+		extraContentFunc: data => chartElemMap[data.func],
+		styles: [styles.visorNode, styles.nodeContainer],
+	})
+);

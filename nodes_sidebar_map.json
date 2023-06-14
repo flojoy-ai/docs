@@ -17,6 +17,7 @@
 	"Data > AI & ML > Classification": "CLASSIFICATION",
 	"Data > AI & ML > Regressions": "",
 	"Data > AI & ML > Casting": "",
+	"Data > AI & ML > Predict Time Series": "PREDICT_TIME_SERIES",
 	"Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
 	"I/O > Instruments > Keithley": "KEITHLEY",
 	"I/O > Instruments > LabJack": "LABJACK",
