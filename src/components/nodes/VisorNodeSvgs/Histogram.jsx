@@ -1,5 +1,25 @@
 import React, { memo } from 'react';
-import { BGTemplate } from '../Svgs';
+
+const BGTemplate = ({ ...props }) => {
+	<svg
+		data-testid="default-svg"
+		style={style}
+		width="250"
+		height="159"
+		viewBox="0 0 250 159"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path
+			d="M0.88501 6C0.88501 2.96243 3.34744 0.5 6.38501 0.5H243.882C246.92 0.5 249.382 2.96243 249.382 6V152.246C249.382 155.284 246.92 157.746 243.882 157.746H6.385C3.34744 157.746 0.88501 155.284 0.88501 152.246V6Z"
+			className="stroke"
+			strokeWidth={'3'}
+			stopOpacity={'0.8'}
+			fillOpacity="0.2"
+		/>
+	</svg>;
+};
 
 const HistoTitle = ({ ...props }) => {
 	return (
@@ -70,7 +90,7 @@ const Histogram = () => {
 					}}
 				/>
 			</div>
-			<BGTemplate theme={theme.colorScheme} />
+			<BGTemplate />
 		</>
 	);
 };
