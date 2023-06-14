@@ -32,7 +32,7 @@ export default function PythonCode({ GLink, children }) {
 					href={`${GitHubNodeRepo}/${GLink}`}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="navbar__item navbar__link header-github-link"
+					className="navbar__item navbar__link header-github-link"
 					aria-label="GitHub repository"
                     style={{
                         padding: '5px'
@@ -44,7 +44,7 @@ export default function PythonCode({ GLink, children }) {
 						height="13.5"
 						aria-hidden="true"
 						viewBox="0 0 24 24"
-						class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"
+						className="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"
 					>
 						<path
 							fill="currentColor"
