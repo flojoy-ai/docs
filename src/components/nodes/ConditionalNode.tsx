@@ -1,7 +1,7 @@
 import HandleComponent from './HandleComponent';
 import React, { memo } from 'react';
 import clsx from 'clsx';
-import styles from './nodes.modules.scss';
+import styles from './nodes.module.scss';
 import { NodeProps } from 'reactflow';
 
 const ConditionalNode = ({ data }: NodeProps) => {

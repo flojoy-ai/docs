@@ -1,4 +1,4 @@
-import styles from './nodes.modules.scss';
+import styles from './nodes.module.scss';
 import React, { memo } from 'react';
 import { makeNode } from './makeNode';
 

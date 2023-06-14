@@ -9,7 +9,7 @@ import PlotlyTable from './VisorNodeSvgs/Table';
 import BoxPlot from './VisorNodeSvgs/BoxPlot';
 import PlotlyImage from './VisorNodeSvgs/Image';
 import BigNumber from './VisorNodeSvgs/BigNumber';
-import styles from './nodes.modules.scss';
+import styles from './nodes.module.scss';
 import { makeNode } from './makeNode';
 
 const chartElemMap = {

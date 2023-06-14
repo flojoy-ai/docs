@@ -1,8 +1,8 @@
 import { MultiplySvg, AddSvg, SubSvg, AddBGTemplate } from './Svgs';
 import React, { memo } from 'react';
-import styles from './nodes.modules.scss';
+import styles from './nodes.module.scss';
 import { makeNode } from './makeNode';
-import { NodeData } from '@site/src/types/data';
+import { NodeData } from '../../types/data';
 
 const getOperatorIcon = (data: NodeData) => {
 	switch (data.func) {

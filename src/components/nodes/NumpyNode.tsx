@@ -1,7 +1,7 @@
 import { makeNode } from './makeNode';
 import React, { memo } from 'react';
 import { NumpySvg } from './Svgs';
-import styles from '@site/src/components/nodes/nodes.modules.scss';
+import styles from './nodes.module.scss';
 import { NodeData } from '@site/src/types/data';
 
 export default memo(

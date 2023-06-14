@@ -1,4 +1,4 @@
-import classes from './nodes.modules.scss';
+import classes from './nodes.module.scss';
 import React from 'react';
 import clsx from 'clsx';
 import HandleComponent from './HandleComponent';
