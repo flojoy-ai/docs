@@ -9,7 +9,11 @@ import { useColorMode } from '@docusaurus/theme-common';
 
 SyntaxHighlighter.registerLanguage('yaml', yaml);
 
-export default function DocString({ children }: { children: string }) {
+type DocStringProps = {
+	children: string;
+};
+
+export default function DocString({ children }: DocStringProps) {
 	const { colorMode } = useColorMode();
 
 	const ERROR = 'This function does not have a docstring description yet.';

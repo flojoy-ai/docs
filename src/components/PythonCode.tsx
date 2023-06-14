@@ -2,8 +2,12 @@ import React from 'react';
 import CodeBlock from '@theme/CodeBlock';
 import { GitHubNodeRepo } from '../utils/helper';
 
+type PythonCodeProps = {
+	GLink: string;
+	children: string;
+};
 
-export default function PythonCode({ GLink, children }) {
+export default function PythonCode({ GLink, children }: PythonCodeProps) {
 	let code = children;
 
 	if (code.includes('"""')) {
@@ -19,24 +23,24 @@ export default function PythonCode({ GLink, children }) {
 
 	return (
 		<div>
-            <div style={{
-                display:'flex',
-                gap:'5px',
-                justifyContent:'flex-start',
-                alignItems:'center'
-            }}>
-			<h3 style={{marginBottom:0}}>
-				Python code
-			</h3>
+			<div
+				style={{
+					display: 'flex',
+					gap: '5px',
+					justifyContent: 'flex-start',
+					alignItems: 'center',
+				}}
+			>
+				<h3 style={{ marginBottom: 0 }}>Python code</h3>
 				<a
 					href={`${GitHubNodeRepo}/${GLink}`}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="navbar__item navbar__link header-github-link"
 					aria-label="GitHub repository"
-                    style={{
-                        padding: '5px'
-                    }}
+					style={{
+						padding: '5px',
+					}}
 				>
 					Github
 					<svg
@@ -52,8 +56,7 @@ export default function PythonCode({ GLink, children }) {
 						></path>
 					</svg>
 				</a>
-
-            </div>
+			</div>
 			<details open>
 				<CodeBlock className="language-python">{code}</CodeBlock>
 			</details>
