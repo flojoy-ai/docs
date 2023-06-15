@@ -9,8 +9,6 @@ import ReactFlow, {
   Edge,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-import StaticDisplayNode from './StaticDisplayNode';
-import { VictoryChart, VictoryScatter, VictoryAxis } from 'victory';
 
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
@@ -40,6 +38,34 @@ const resultNodeTypes = {
   default: ResultNode,
 };
 
+const FlowMinimap = () => {
+  const { colorMode } = useColorMode();
+  return (
+    <MiniMap
+      style={{
+        backgroundColor:
+          colorMode === 'light'
+            ? 'rgba(0, 0, 0, 0.1)'
+            : 'rgba(255, 255, 255, 0.1)',
+        height: 80,
+        width: 150,
+      }}
+      nodeColor={
+        colorMode === 'light'
+          ? 'rgba(0, 0, 0, 0.25)'
+          : 'rgba(255, 255, 255, 0.25)'
+      }
+      maskColor={
+        colorMode === 'light'
+          ? 'rgba(0, 0, 0, 0.05)'
+          : 'rgba(255, 255, 255, 0.05)'
+      }
+      zoomable
+      pannable
+    />
+  );
+};
+
 type AppDisplayProps = {
   children: string | null;
   nodeLabel?: string;
@@ -47,13 +73,7 @@ type AppDisplayProps = {
   GLink: string;
 };
 
-export default function AppDisplay({
-  children,
-  nodeLabel,
-  data,
-  GLink,
-}: AppDisplayProps) {
-  const { colorMode } = useColorMode();
+export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -121,28 +141,7 @@ export default function AppDisplay({
                 fitView
                 proOptions={{ hideAttribution: true }}
               >
-                <MiniMap
-                  style={{
-                    backgroundColor:
-                      colorMode === 'light'
-                        ? 'rgba(0, 0, 0, 0.1)'
-                        : 'rgba(255, 255, 255, 0.1)',
-                    height: 80,
-                    width: 150,
-                  }}
-                  nodeColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.25)'
-                      : 'rgba(255, 255, 255, 0.25)'
-                  }
-                  maskColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.05)'
-                      : 'rgba(255, 255, 255, 0.05)'
-                  }
-                  zoomable
-                  pannable
-                />
+                <FlowMinimap />
                 <Background />
               </ReactFlow>
             </div>
@@ -158,67 +157,11 @@ export default function AppDisplay({
                 fitView
                 proOptions={{ hideAttribution: true }}
               >
-                <MiniMap
-                  style={{
-                    backgroundColor:
-                      colorMode === 'light'
-                        ? 'rgba(0, 0, 0, 0.1)'
-                        : 'rgba(255, 255, 255, 0.1)',
-                    height: 80,
-                    width: 150,
-                  }}
-                  nodeColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.25)'
-                      : 'rgba(255, 255, 255, 0.25)'
-                  }
-                  maskColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.05)'
-                      : 'rgba(255, 255, 255, 0.05)'
-                  }
-                  zoomable
-                  pannable
-                />
+                <FlowMinimap />
                 <Background />
               </ReactFlow>
             </div>
           </ReactFlowProvider>
-          {/* <ReactFlowProvider> */}
-          {/*   <div style={{ minHeight: HEIGHT }}> */}
-          {/*     <ReactFlow */}
-          {/*       nodes={nodes} */}
-          {/*       nodeTypes={nodeTypes} */}
-          {/*       edges={edges} */}
-          {/*       fitView */}
-          {/*       proOptions={{ hideAttribution: true }} */}
-          {/*     > */}
-          {/*       <MiniMap */}
-          {/*         style={{ */}
-          {/*           backgroundColor: */}
-          {/*             colorMode === 'light' */}
-          {/*               ? 'rgba(0, 0, 0, 0.1)' */}
-          {/*               : 'rgba(255, 255, 255, 0.1)', */}
-          {/*           height: 80, */}
-          {/*           width: 150, */}
-          {/*         }} */}
-          {/*         nodeColor={ */}
-          {/*           colorMode === 'light' */}
-          {/*             ? 'rgba(0, 0, 0, 0.25)' */}
-          {/*             : 'rgba(255, 255, 255, 0.25)' */}
-          {/*         } */}
-          {/*         maskColor={ */}
-          {/*           colorMode === 'light' */}
-          {/*             ? 'rgba(0, 0, 0, 0.05)' */}
-          {/*             : 'rgba(255, 255, 255, 0.05)' */}
-          {/*         } */}
-          {/*         zoomable */}
-          {/*         pannable */}
-          {/*       /> */}
-          {/*       <Background /> */}
-          {/*     </ReactFlow> */}
-          {/*   </div> */}
-          {/* </ReactFlowProvider> */}
         </TabItem>
         <TabItem value="spec" label="Download App">
           <button
