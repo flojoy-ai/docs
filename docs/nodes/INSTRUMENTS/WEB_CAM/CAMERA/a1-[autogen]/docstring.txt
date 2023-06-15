@@ -1,4 +1,15 @@
-
-    Takes a picture from a connected camera using OpenCV.
+Acquires an image using the selected camera.
     If no camera is connected, an error would be thrown.
-    
+
+    Parameters:
+    ----------
+    camera_ind: Camera index (i.e. camera identifier)
+    resolution: Camera resolution. Choose from a few options.
+
+    Returns:
+    ----------
+        DataContainer: A `DataContainer` class of type 'image' representing the output image.
+
+    Raises:
+    ----------
+        Exception: If an error occurs during taking an image.
