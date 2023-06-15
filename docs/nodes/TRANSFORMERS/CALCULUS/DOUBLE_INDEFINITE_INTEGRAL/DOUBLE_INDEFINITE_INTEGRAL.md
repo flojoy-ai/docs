@@ -15,7 +15,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='TRANSFORMERS/CALCULUS/INDEFINITE_INTEGRAL/DOUBLE_INDEFINITE_INTEGRAL.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/DOUBLE_INDEFINITE_INTEGRAL.py'>{PythonSource}</PythonCode>
 <Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
@@ -27,7 +27,7 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 ## Examples
 
 <AppDisplay 
-  GLink='TRANSFORMERS/CALCULUS/INDEFINITE_INTEGRAL'
+  GLink='TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL'
   nodeLabel='DOUBLE_INDEFINITE_INTEGRAL'>
 </AppDisplay>
 
