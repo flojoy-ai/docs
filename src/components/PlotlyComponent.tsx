@@ -1,19 +1,11 @@
 /* eslint @typescript-eslint/no-explicit-any: 0 */
 import { Layout } from 'plotly.js';
-import React from 'react';
+import React, { useMemo } from 'react';
 import { useEffect } from 'react';
 import Plot, { PlotParams } from 'react-plotly.js';
 import { OverridePlotData } from '../types/data';
-
-const defaultLayout: Partial<Layout> = {
-  paper_bgcolor: 'rgba(0,0,0,0)',
-  plot_bgcolor: '#FFF',
-  autosize: true,
-  font: { color: '#FFF' },
-  margin: { t: 40, r: 40, b: 40, l: 40 },
-  xaxis: { zeroline: false, type: '-' },
-  template: {},
-};
+import { useColorMode } from '@docusaurus/theme-common';
+import { getThemeColor } from '../utils/themeColors';
 
 const matrixSize = {
   width: 240,
@@ -30,6 +22,21 @@ type PlotProps = {
 const PlotlyComponent = (props: PlotProps) => {
   const { data, layout, useResizeHandler, style, id, isThumbnail } = props;
   const isMatrix = data[0]?.header?.values.length === 0;
+  const { colorMode } = useColorMode();
+  const accentColor = getThemeColor('accent1', 'dark');
+
+  const defaultLayout: Partial<Layout> = useMemo(
+    () => ({
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor: colorMode === 'dark' ? '#2c2e33' : '#ffffff',
+      autosize: true,
+      font: { color: accentColor },
+      margin: { t: 40, r: 40, b: 40, l: 40 },
+      xaxis: { zeroline: false, type: '-' },
+      template: {},
+    }),
+    [colorMode]
+  );
 
   useEffect(() => {
     if (!window) {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
@@ -76,20 +76,24 @@ export default function AppDisplay({
   const nodes: Node<NodeData>[] = appObject['nodes'];
   const edges: Edge[] = appObject['edges'];
 
-  const resultNodes = nodes.map((node: Node<NodeData>) => {
-    const nodeResult = results.find(
-      (result: Node<NodeData>) => result.id === node.id
-    );
-    return {
-      ...node,
-      type: 'default',
-      position: node.position,
-      data: {
-        ...node.data,
-        resultData: nodeResult?.result,
-      },
-    };
-  });
+  const resultNodes = useMemo(
+    () =>
+      nodes.map((node: Node<NodeData>) => {
+        const nodeResult = results.find(
+          (result: Node<NodeData>) => result.id === node.id
+        );
+        return {
+          ...node,
+          type: 'default',
+          position: { x: node.position.x * 2, y: node.position.y * 2 },
+          data: {
+            ...node.data,
+            resultData: nodeResult?.result,
+          },
+        };
+      }),
+    []
+  );
   console.log(resultNodes);
   const HEIGHT = '20em';
 
@@ -145,6 +149,41 @@ export default function AppDisplay({
           </ReactFlowProvider>
         </TabItem>
         <TabItem value="output" label="Output">
+          <ReactFlowProvider>
+            <div style={{ height: HEIGHT }}>
+              <ReactFlow
+                nodes={resultNodes}
+                nodeTypes={resultNodeTypes}
+                edges={edges}
+                fitView
+                proOptions={{ hideAttribution: true }}
+              >
+                <MiniMap
+                  style={{
+                    backgroundColor:
+                      colorMode === 'light'
+                        ? 'rgba(0, 0, 0, 0.1)'
+                        : 'rgba(255, 255, 255, 0.1)',
+                    height: 80,
+                    width: 150,
+                  }}
+                  nodeColor={
+                    colorMode === 'light'
+                      ? 'rgba(0, 0, 0, 0.25)'
+                      : 'rgba(255, 255, 255, 0.25)'
+                  }
+                  maskColor={
+                    colorMode === 'light'
+                      ? 'rgba(0, 0, 0, 0.05)'
+                      : 'rgba(255, 255, 255, 0.05)'
+                  }
+                  zoomable
+                  pannable
+                />
+                <Background />
+              </ReactFlow>
+            </div>
+          </ReactFlowProvider>
           {/* <ReactFlowProvider> */}
           {/*   <div style={{ minHeight: HEIGHT }}> */}
           {/*     <ReactFlow */}
