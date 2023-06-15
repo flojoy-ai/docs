@@ -5,8 +5,6 @@ export type NodeData = {
   label: string;
   func: string;
   type: string;
-  running?: boolean;
-  failed?: boolean;
   ctrls: {
     [key: string]: {
       functionName: string;
@@ -15,9 +13,6 @@ export type NodeData = {
     };
   };
   inputs?: Array<{ name: string; id: string; type: string }>;
-  selects?: any;
-  selected?: boolean;
-  handleRemove?: (nodeId: string, nodeLabel: string) => void;
 };
 
 export type OverridePlotData = Array<

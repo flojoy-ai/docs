@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
@@ -114,10 +114,8 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
       }),
     []
   );
-  console.log(resultNodes);
-  const HEIGHT = '20em';
 
-  const handleDownload = () => {
+  const handleDownload = useCallback(() => {
     const jsonData = JSON.stringify(appObject, null, 2);
     const blob = new Blob([jsonData], { type: 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob);
@@ -126,7 +124,9 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
     link.download = 'example.txt';
     link.click();
     URL.revokeObjectURL(url);
-  };
+  }, [appObject]);
+
+  const HEIGHT = 320;
 
   return (
     <div>

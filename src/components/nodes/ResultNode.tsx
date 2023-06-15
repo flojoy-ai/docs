@@ -13,7 +13,7 @@ const ResultNode = ({ data }: ResultNode) => {
   const { colorMode } = useColorMode();
 
   return (
-    <div style={{ position: 'relative' }} data-testid="result-node">
+    <div style={{ position: 'relative' }}>
       <>
         <Handle
           type="target"
@@ -27,9 +27,7 @@ const ResultNode = ({ data }: ResultNode) => {
         />
       </>
 
-      {!data?.resultData ? (
-        <p> NO Result </p>
-      ) : (
+      {data.resultData ? (
         <PlotlyComponent
           id={data.id}
           data={makePlotlyData(
@@ -48,6 +46,8 @@ const ResultNode = ({ data }: ResultNode) => {
           }}
           isThumbnail
         />
+      ) : (
+        <p>No Result</p>
       )}
     </div>
   );
