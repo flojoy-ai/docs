@@ -91,14 +91,14 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
   }
 
   const appObject = JSON.parse(children)['rfInstance'];
-  const results = JSON.parse(data)['io'];
+  const results = data && JSON.parse(data)['io'];
 
   const nodes: Node<NodeData>[] = appObject['nodes'];
   const edges: Edge[] = appObject['edges'];
 
-  const resultNodes = useMemo(
-    () =>
-      nodes.map((node: Node<NodeData>) => {
+  const resultNodes = useMemo(() => {
+    if (results) {
+      return nodes.map((node: Node<NodeData>) => {
         const nodeResult = results.find(
           (result: Node<NodeData>) => result.id === node.id
         );
@@ -111,9 +111,11 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
             resultData: nodeResult?.result,
           },
         };
-      }),
-    []
-  );
+      });
+    } else {
+      return [];
+    }
+  }, [results]);
 
   const handleDownload = useCallback(() => {
     const jsonData = JSON.stringify(appObject, null, 2);
@@ -148,20 +150,24 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
           </ReactFlowProvider>
         </TabItem>
         <TabItem value="output" label="Output">
-          <ReactFlowProvider>
-            <div style={{ height: HEIGHT }}>
-              <ReactFlow
-                nodes={resultNodes}
-                nodeTypes={resultNodeTypes}
-                edges={edges}
-                fitView
-                proOptions={{ hideAttribution: true }}
-              >
-                <FlowMinimap />
-                <Background />
-              </ReactFlow>
-            </div>
-          </ReactFlowProvider>
+          {results ? (
+            <ReactFlowProvider>
+              <div style={{ height: HEIGHT }}>
+                <ReactFlow
+                  nodes={resultNodes}
+                  nodeTypes={resultNodeTypes}
+                  edges={edges}
+                  fitView
+                  proOptions={{ hideAttribution: true }}
+                >
+                  <FlowMinimap />
+                  <Background />
+                </ReactFlow>
+              </div>
+            </ReactFlowProvider>
+          ) : (
+            <blockquote>No outputs found for this example.</blockquote>
+          )}
         </TabItem>
         <TabItem value="spec" label="Download App">
           <button
