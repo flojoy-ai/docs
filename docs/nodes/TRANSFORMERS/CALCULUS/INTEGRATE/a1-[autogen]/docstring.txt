@@ -8,5 +8,5 @@ None
 
 Returns
 -------
-numpy array / float
-    integrated value in sequence of y array.
+DataContainer:
+    type 'ordered_pair', x, y
