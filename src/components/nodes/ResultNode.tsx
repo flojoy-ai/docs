@@ -5,11 +5,11 @@ import PlotlyComponent from '../PlotlyComponent';
 import { makePlotlyData } from '@site/src/utils/makePlotlyData';
 import { ResultNodeData } from '@site/src/types/data';
 
-type ResultNode = {
+type ResultNodeProps = {
   data: ResultNodeData;
 };
 
-const ResultNode = ({ data }: ResultNode) => {
+const ResultNode = ({ data }: ResultNodeProps) => {
   const { colorMode } = useColorMode();
 
   return (

@@ -1,7 +1,6 @@
 /* eslint @typescript-eslint/no-explicit-any: 0 */
 import { Layout } from 'plotly.js';
-import React, { useMemo } from 'react';
-import { useEffect } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import Plot, { PlotParams } from 'react-plotly.js';
 import { OverridePlotData } from '../types/data';
 import { useColorMode } from '@docusaurus/theme-common';
