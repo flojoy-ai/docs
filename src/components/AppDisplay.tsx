@@ -1,7 +1,13 @@
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
+import ReactFlow, {
+  Background,
+  MiniMap,
+  ReactFlowProvider,
+  Node,
+  Edge,
+} from 'reactflow';
 import 'reactflow/dist/style.css';
 import StaticDisplayNode from './StaticDisplayNode';
 import { VictoryChart, VictoryScatter, VictoryAxis } from 'victory';
@@ -15,11 +21,8 @@ import ArithmeticNode from './nodes/ArithmeticNode';
 import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
-
-const axesStyle = {
-  tickLabels: { fontSize: 8, fill: '#BCC2C4' },
-  label: { fontSize: 8, fill: '#BCC2C4' },
-};
+import { NodeData } from '../types/data';
+import ResultNode from './nodes/ResultNode';
 
 const nodeTypes = {
   default: DefaultNode,
@@ -33,10 +36,14 @@ const nodeTypes = {
   TERMINATOR: TerminatorNode,
 };
 
+const resultNodeTypes = {
+  default: ResultNode,
+};
+
 type AppDisplayProps = {
-  children: any;
-  nodeLabel: string;
-  data: string;
+  children: string | null;
+  nodeLabel?: string;
+  data: string | null;
   GLink: string;
 };
 
@@ -64,6 +71,26 @@ export default function AppDisplay({
   }
 
   const appObject = JSON.parse(children)['rfInstance'];
+  const results = JSON.parse(data)['io'];
+
+  const nodes: Node<NodeData>[] = appObject['nodes'];
+  const edges: Edge[] = appObject['edges'];
+
+  const resultNodes = nodes.map((node: Node<NodeData>) => {
+    const nodeResult = results.find(
+      (result: Node<NodeData>) => result.id === node.id
+    );
+    return {
+      ...node,
+      type: 'default',
+      position: node.position,
+      data: {
+        ...node.data,
+        resultData: nodeResult?.result,
+      },
+    };
+  });
+  console.log(resultNodes);
   const HEIGHT = '20em';
 
   const handleDownload = () => {
@@ -84,9 +111,9 @@ export default function AppDisplay({
           <ReactFlowProvider>
             <div style={{ height: HEIGHT }}>
               <ReactFlow
-                nodes={appObject['nodes']}
+                nodes={nodes}
                 nodeTypes={nodeTypes}
-                edges={appObject['edges']}
+                edges={edges}
                 fitView
                 proOptions={{ hideAttribution: true }}
               >
@@ -118,17 +145,41 @@ export default function AppDisplay({
           </ReactFlowProvider>
         </TabItem>
         <TabItem value="output" label="Output">
-          <div style={{ minHeight: HEIGHT }}>
-            {/* <VictoryChart> */}
-            {/* 	<VictoryAxis label="x" style={axesStyle} /> */}
-            {/* 	<VictoryAxis dependentAxis label="y" style={axesStyle} /> */}
-            {/* 	<VictoryScatter */}
-            {/* 		style={{ data: { fill: '#7B61FF' } }} */}
-            {/* 		size={1} */}
-            {/* 		data={data} */}
-            {/* 	/> */}
-            {/* </VictoryChart> */}
-          </div>
+          {/* <ReactFlowProvider> */}
+          {/*   <div style={{ minHeight: HEIGHT }}> */}
+          {/*     <ReactFlow */}
+          {/*       nodes={nodes} */}
+          {/*       nodeTypes={nodeTypes} */}
+          {/*       edges={edges} */}
+          {/*       fitView */}
+          {/*       proOptions={{ hideAttribution: true }} */}
+          {/*     > */}
+          {/*       <MiniMap */}
+          {/*         style={{ */}
+          {/*           backgroundColor: */}
+          {/*             colorMode === 'light' */}
+          {/*               ? 'rgba(0, 0, 0, 0.1)' */}
+          {/*               : 'rgba(255, 255, 255, 0.1)', */}
+          {/*           height: 80, */}
+          {/*           width: 150, */}
+          {/*         }} */}
+          {/*         nodeColor={ */}
+          {/*           colorMode === 'light' */}
+          {/*             ? 'rgba(0, 0, 0, 0.25)' */}
+          {/*             : 'rgba(255, 255, 255, 0.25)' */}
+          {/*         } */}
+          {/*         maskColor={ */}
+          {/*           colorMode === 'light' */}
+          {/*             ? 'rgba(0, 0, 0, 0.05)' */}
+          {/*             : 'rgba(255, 255, 255, 0.05)' */}
+          {/*         } */}
+          {/*         zoomable */}
+          {/*         pannable */}
+          {/*       /> */}
+          {/*       <Background /> */}
+          {/*     </ReactFlow> */}
+          {/*   </div> */}
+          {/* </ReactFlowProvider> */}
         </TabItem>
         <TabItem value="spec" label="Download App">
           <button
