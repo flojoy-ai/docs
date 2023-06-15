@@ -1,6 +1,6 @@
 d1:
-  default: 250
+  default: '250'
   type: float
 d2:
-  default: 100
+  default: '100'
   type: float

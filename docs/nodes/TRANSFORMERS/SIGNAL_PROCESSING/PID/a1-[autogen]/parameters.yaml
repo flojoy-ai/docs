@@ -1,9 +1,9 @@
 Kd:
-  default: 356.25
+  default: '356.25'
   type: float
 Ki:
-  default: 0.0143
+  default: '0.0143'
   type: float
 Kp:
-  default: 5
+  default: '5'
   type: float
