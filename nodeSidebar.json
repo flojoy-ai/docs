@@ -1,11 +1,14 @@
 {
-    "ETL > Extract > Dataframe": [
+    "Data > Extract & Load > Dataframe": [
         "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/EXTRACT_COLUMNS"
     ],
-    "ETL > Extract > File System": [
+    "Data > Extract & Load > File System": [
         "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV",
         "nodes/EXTRACTORS/FILE/OPEN_IMAGE/OPEN_IMAGE",
         "nodes/EXTRACTORS/FILE/OPEN_PARQUET/OPEN_PARQUET"
+    ],
+    "Data > Extract & Load > Cloud Database": [
+        "nodes/LOADERS/CLOUD_DATABASE/LOADER/LOADER"
     ],
     "NUMerical PYthon (NumPy) > Linalg": [
         "nodes/NUMPY/LINALG/INV/INV",
@@ -43,15 +46,15 @@
     "I/O > Instruments > Phidget": [
         "nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22"
     ],
-    "ETL > Transform > Matrix Manipulation": [
+    "Data > Transform > Matrix Manipulation": [
         "nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/MATMUL",
         "nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/INVERT"
     ],
-    "ETL > Transform > Image Processing": [
+    "Data > Transform > Image Processing": [
         "nodes/TRANSFORMERS/IMAGE_PROCESSING/IMAGE_SMOOTHING/IMAGE_SMOOTHING",
         "nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/EDGE_DETECTION"
     ],
-    "ETL > Transform > Arithmetic": [
+    "Data > Transform > Arithmetic": [
         "nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/MULTIPLY",
         "nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/SUBTRACT",
         "nodes/TRANSFORMERS/ARITHMETIC/ADD/ADD",
@@ -59,7 +62,7 @@
         "nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/DIVIDE",
         "nodes/ARITHMETIC/ABS"
     ],
-    "ETL > Transform > DSP": [
+    "Data > Transform > DSP": [
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/FIR",
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/BUTTER",
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/FFT",
@@ -67,13 +70,10 @@
         "nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/SAVGOL",
         "nodes/SIGNAL_PROCESSING/PID"
     ],
-    "ETL > Transform > Type Casting": [
+    "Data > Transform > Type Casting": [
         "nodes/TRANSFORMERS/TYPE_CASTING/NP_2_DF/NP_2_DF",
         "nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/DF_2_NP",
         "nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/MAT_2_DF"
-    ],
-    "ETL > Load": [
-        "nodes/LOADERS/CLOUD_DATABASE/LOADER/LOADER"
     ],
     "SCIentific PYthon (SciPy) > Signal": [
         "nodes/SCIPY/SIGNAL/PERIODOGRAM/PERIODOGRAM",
