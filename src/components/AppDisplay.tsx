@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
+import ReactFlow, {
+  Background,
+  MiniMap,
+  Node,
+  NodeTypes,
+  ReactFlowProvider,
+} from 'reactflow';
 import 'reactflow/dist/style.css';
-// import StaticDisplayNode from './StaticDisplayNode';
-// import { VictoryChart, VictoryScatter, VictoryAxis } from 'victory';
-
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
@@ -15,11 +18,9 @@ import ArithmeticNode from './nodes/ArithmeticNode';
 import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
+import { NodeData } from '../types/data';
 
-const axesStyle = {
-  tickLabels: { fontSize: 8, fill: '#BCC2C4' },
-  label: { fontSize: 8, fill: '#BCC2C4' },
-};
+const HEIGHT = '20em';
 
 const nodeTypes = {
   default: DefaultNode,
@@ -33,6 +34,34 @@ const nodeTypes = {
   TERMINATOR: TerminatorNode,
 };
 
+const FlowMiniMap = () => {
+  const { colorMode } = useColorMode();
+  return (
+    <MiniMap
+      style={{
+        backgroundColor:
+          colorMode === 'light'
+            ? 'rgba(0, 0, 0, 0.1)'
+            : 'rgba(255, 255, 255, 0.1)',
+        height: 80,
+        width: 150,
+      }}
+      nodeColor={
+        colorMode === 'light'
+          ? 'rgba(0, 0, 0, 0.25)'
+          : 'rgba(255, 255, 255, 0.25)'
+      }
+      maskColor={
+        colorMode === 'light'
+          ? 'rgba(0, 0, 0, 0.05)'
+          : 'rgba(255, 255, 255, 0.05)'
+      }
+      zoomable
+      pannable
+    />
+  );
+};
+
 type AppDisplayProps = {
   children: any;
   nodeLabel: string;
@@ -40,13 +69,8 @@ type AppDisplayProps = {
   GLink: string;
 };
 
-export default function AppDisplay({
-  children,
-  nodeLabel,
-  data,
-  GLink,
-}: AppDisplayProps) {
-  const { colorMode } = useColorMode();
+export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
+  const [resultNodeTypes, setResultNodeTypes] = useState<NodeTypes>(nodeTypes);
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -64,9 +88,31 @@ export default function AppDisplay({
   }
 
   const appObject = JSON.parse(children)['rfInstance'];
-  const HEIGHT = '20em';
+  const nodes = appObject['nodes'];
+  const edges = appObject['edges'];
+  const results = data ? JSON.parse(data)['io'] : null;
+  const resultNodes = useMemo(
+    () =>
+      results
+        ? nodes.map((node: Node<NodeData>) => {
+            const nodeResult = results.find(
+              (result: Node<NodeData>) => result.id === node.id
+            );
+            return {
+              ...node,
+              type: 'default',
+              position: { x: node.position.x * 2, y: node.position.y * 2 },
+              data: {
+                ...node.data,
+                resultData: nodeResult?.result,
+              },
+            };
+          })
+        : null,
+    [results]
+  );
 
-  const handleDownload = () => {
+  const handleDownload = useCallback(() => {
     const jsonData = JSON.stringify(appObject, null, 2);
     const blob = new Blob([jsonData], { type: 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob);
@@ -75,7 +121,14 @@ export default function AppDisplay({
     link.download = 'example.txt';
     link.click();
     URL.revokeObjectURL(url);
-  };
+  }, [appObject]);
+
+  useEffect(() => {
+    const ResultNode = require('./nodes/ResultNode').default;
+    setResultNodeTypes({
+      default: ResultNode,
+    });
+  }, []);
 
   return (
     <div>
@@ -84,34 +137,13 @@ export default function AppDisplay({
           <ReactFlowProvider>
             <div style={{ height: HEIGHT }}>
               <ReactFlow
-                nodes={appObject['nodes']}
+                nodes={nodes}
                 nodeTypes={nodeTypes}
-                edges={appObject['edges']}
+                edges={edges}
                 fitView
                 proOptions={{ hideAttribution: true }}
               >
-                <MiniMap
-                  style={{
-                    backgroundColor:
-                      colorMode === 'light'
-                        ? 'rgba(0, 0, 0, 0.1)'
-                        : 'rgba(255, 255, 255, 0.1)',
-                    height: 80,
-                    width: 150,
-                  }}
-                  nodeColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.25)'
-                      : 'rgba(255, 255, 255, 0.25)'
-                  }
-                  maskColor={
-                    colorMode === 'light'
-                      ? 'rgba(0, 0, 0, 0.05)'
-                      : 'rgba(255, 255, 255, 0.05)'
-                  }
-                  zoomable
-                  pannable
-                />
+                <FlowMiniMap />
                 <Background />
               </ReactFlow>
             </div>
@@ -119,15 +151,24 @@ export default function AppDisplay({
         </TabItem>
         <TabItem value="output" label="Output">
           <div style={{ minHeight: HEIGHT }}>
-            {/* <VictoryChart> */}
-            {/* 	<VictoryAxis label="x" style={axesStyle} /> */}
-            {/* 	<VictoryAxis dependentAxis label="y" style={axesStyle} /> */}
-            {/* 	<VictoryScatter */}
-            {/* 		style={{ data: { fill: '#7B61FF' } }} */}
-            {/* 		size={1} */}
-            {/* 		data={data} */}
-            {/* 	/> */}
-            {/* </VictoryChart> */}
+            {results ? (
+              <ReactFlowProvider>
+                <div style={{ height: HEIGHT }}>
+                  <ReactFlow
+                    nodes={resultNodes}
+                    nodeTypes={resultNodeTypes}
+                    edges={edges}
+                    fitView
+                    proOptions={{ hideAttribution: true }}
+                  >
+                    <FlowMiniMap />
+                    <Background />
+                  </ReactFlow>
+                </div>
+              </ReactFlowProvider>
+            ) : (
+              <blockquote>Example output for this app is not found!</blockquote>
+            )}
           </div>
         </TabItem>
         <TabItem value="spec" label="Download App">
