@@ -7,6 +7,7 @@ import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { downloadLinks } from '../utils/helper';
 import QuickStart from '../components/QuickStart';
+import { FaApple, FaWindows } from 'react-icons/fa';
 
 function HomepageHeader() {
   useEffect(() => {
@@ -28,7 +29,7 @@ function HomepageHeader() {
       <header className={clsx('hero text-left', styles.heroBanner)}>
         <div className="container text-center">
           <div className={styles.heroTop}>
-            <h1 className="hero__title">{siteConfig.title}</h1>
+            <h1 className="hero__title hero__font__family">{siteConfig.title}</h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className="d-flex align-center justify-center gap-3 flex-column-lg">
@@ -37,6 +38,7 @@ function HomepageHeader() {
                 className="button button--primary button--lg button--round"
                 to={downloadLinks.windows}
               >
+                <FaWindows />&nbsp;
                 Download For Windows
               </Link>
             </div>
@@ -45,6 +47,7 @@ function HomepageHeader() {
                 className="button button--primary button--lg button--round"
                 to={downloadLinks.mac}
               >
+                <FaApple />&nbsp;
                 Download For Mac
               </Link>
             </div>

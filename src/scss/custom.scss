@@ -35,8 +35,18 @@ body {
 
 .hero {
   .hero__title {
-    font-size: 4rem;
+    font-size: 8rem;
+    letter-spacing: 15px;
+    font-family: 'PonyMaker';
+      src: url('PonyMaker.woff') format('woff'), /* Modern Browsers */
+          url('Ponymaker-nzAg.ttf')  format('truetype'), /* Safari, Android, iOS */
   }
+}
+
+.hero__title, .hero__subtitle {
+  background: linear-gradient(90deg, #99F5FF 0%, #7B61FF 50%, #7B61FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-left {
@@ -106,32 +116,6 @@ body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
 }
-
-// .bg {
-// 	position: relative;
-// }
-
-// .bg > * {
-// 	z-index: 1;
-// 	position: relative;
-// }
-
-// .bg::before {
-// 	content: '';
-// 	position: absolute;
-// 	top: 0;
-// 	bottom: 0;
-// 	width: 100%;
-// 	border-top: transparent;
-// 	background-clip: border-box;
-// 	background: url('/img/home-bg-dark.svg') no-repeat;
-// 	background-size: cover;
-// 	background-position: 0 0;
-// 	margin-top: -200px;
-// 	padding-top: 200px;
-// 	z-index: 0;
-// 	pointer-events: none;
-// }
 
 #__docusaurus {
   background: url('/img/home-bg-light.svg') no-repeat;
