@@ -91,28 +91,36 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
   }
 
   const appObject = JSON.parse(children)['rfInstance'];
-  const results = JSON.parse(data)['io'];
+
+  let results = null;
+  try {
+    results = JSON.parse(data)['io'];
+  } catch (Exception) {
+    console.error('Missing example results for node');
+  }
 
   const nodes: Node<NodeData>[] = appObject['nodes'];
   const edges: Edge[] = appObject['edges'];
 
   const resultNodes = useMemo(
     () =>
-      nodes.map((node: Node<NodeData>) => {
-        const nodeResult = results.find(
-          (result: Node<NodeData>) => result.id === node.id
-        );
-        return {
-          ...node,
-          type: 'default',
-          position: { x: node.position.x * 2, y: node.position.y * 2 },
-          data: {
-            ...node.data,
-            resultData: nodeResult?.result,
-          },
-        };
-      }),
-    []
+      results
+        ? nodes.map((node: Node<NodeData>) => {
+            const nodeResult = results.find(
+              (result: Node<NodeData>) => result.id === node.id
+            );
+            return {
+              ...node,
+              type: 'default',
+              position: { x: node.position.x * 2, y: node.position.y * 2 },
+              data: {
+                ...node.data,
+                resultData: nodeResult?.result,
+              },
+            };
+          })
+        : null,
+    [results]
   );
 
   const handleDownload = useCallback(() => {
@@ -148,20 +156,24 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
           </ReactFlowProvider>
         </TabItem>
         <TabItem value="output" label="Output">
-          <ReactFlowProvider>
-            <div style={{ height: HEIGHT }}>
-              <ReactFlow
-                nodes={resultNodes}
-                nodeTypes={resultNodeTypes}
-                edges={edges}
-                fitView
-                proOptions={{ hideAttribution: true }}
-              >
-                <FlowMinimap />
-                <Background />
-              </ReactFlow>
-            </div>
-          </ReactFlowProvider>
+          {results ? (
+            <ReactFlowProvider>
+              <div style={{ height: HEIGHT }}>
+                <ReactFlow
+                  nodes={resultNodes}
+                  nodeTypes={resultNodeTypes}
+                  edges={edges}
+                  fitView
+                  proOptions={{ hideAttribution: true }}
+                >
+                  <FlowMinimap />
+                  <Background />
+                </ReactFlow>
+              </div>
+            </ReactFlowProvider>
+          ) : (
+            <div>No example output for this app</div>
+          )}
         </TabItem>
         <TabItem value="spec" label="Download App">
           <button
