@@ -1,15 +1,14 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
   Background,
   MiniMap,
-  ReactFlowProvider,
   Node,
-  Edge,
+  NodeTypes,
+  ReactFlowProvider,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
@@ -20,7 +19,8 @@ import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
 import { NodeData } from '../types/data';
-import ResultNode from './nodes/ResultNode';
+
+const HEIGHT = '20em';
 
 const nodeTypes = {
   default: DefaultNode,
@@ -34,11 +34,7 @@ const nodeTypes = {
   TERMINATOR: TerminatorNode,
 };
 
-const resultNodeTypes = {
-  default: ResultNode,
-};
-
-const FlowMinimap = () => {
+const FlowMiniMap = () => {
   const { colorMode } = useColorMode();
   return (
     <MiniMap
@@ -74,6 +70,7 @@ type AppDisplayProps = {
 };
 
 export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
+  const [resultNodeTypes, setResultNodeTypes] = useState<NodeTypes>(nodeTypes);
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -91,17 +88,9 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
   }
 
   const appObject = JSON.parse(children)['rfInstance'];
-
-  let results = null;
-  try {
-    results = JSON.parse(data)['io'];
-  } catch (Exception) {
-    console.error('Missing example results for node');
-  }
-
-  const nodes: Node<NodeData>[] = appObject['nodes'];
-  const edges: Edge[] = appObject['edges'];
-
+  const nodes = appObject['nodes'];
+  const edges = appObject['edges'];
+  const results = data ? JSON.parse(data)['io'] : null;
   const resultNodes = useMemo(
     () =>
       results
@@ -134,7 +123,12 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
     URL.revokeObjectURL(url);
   }, [appObject]);
 
-  const HEIGHT = 320;
+  useEffect(() => {
+    const ResultNode = require('./nodes/ResultNode').default;
+    setResultNodeTypes({
+      default: ResultNode,
+    });
+  }, []);
 
   return (
     <div>
@@ -149,31 +143,33 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
                 fitView
                 proOptions={{ hideAttribution: true }}
               >
-                <FlowMinimap />
+                <FlowMiniMap />
                 <Background />
               </ReactFlow>
             </div>
           </ReactFlowProvider>
         </TabItem>
         <TabItem value="output" label="Output">
-          {results ? (
-            <ReactFlowProvider>
-              <div style={{ height: HEIGHT }}>
-                <ReactFlow
-                  nodes={resultNodes}
-                  nodeTypes={resultNodeTypes}
-                  edges={edges}
-                  fitView
-                  proOptions={{ hideAttribution: true }}
-                >
-                  <FlowMinimap />
-                  <Background />
-                </ReactFlow>
-              </div>
-            </ReactFlowProvider>
-          ) : (
-            <div>No example output for this app</div>
-          )}
+          <div style={{ minHeight: HEIGHT }}>
+            {results ? (
+              <ReactFlowProvider>
+                <div style={{ height: HEIGHT }}>
+                  <ReactFlow
+                    nodes={resultNodes}
+                    nodeTypes={resultNodeTypes}
+                    edges={edges}
+                    fitView
+                    proOptions={{ hideAttribution: true }}
+                  >
+                    <FlowMiniMap />
+                    <Background />
+                  </ReactFlow>
+                </div>
+              </ReactFlowProvider>
+            ) : (
+              <blockquote>Example output for this app is not found!</blockquote>
+            )}
+          </div>
         </TabItem>
         <TabItem value="spec" label="Download App">
           <button
