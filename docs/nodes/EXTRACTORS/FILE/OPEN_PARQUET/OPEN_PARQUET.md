@@ -31,7 +31,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-  GLink='EXTRACTORS/FILE/OPEN_PARQUET'
+  data={Data1}
   nodeLabel='OPEN_PARQUET'>
   {App1}
 </AppDisplay>
