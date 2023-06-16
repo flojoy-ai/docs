@@ -1,4 +1,4 @@
-The FFT node performs a Discrete Fourier Transform on the input vector.
+The FFT node Performs a Discrete Fourier Transform on the input vector.
     Through the FFT algorithm, the input vector will be transformed
     from the time domain into the frequency domain which will be an ordered pair of arrays.
 
@@ -9,9 +9,8 @@ The FFT node performs a Discrete Fourier Transform on the input vector.
     real_signal: boolean
         whether the input signal is real or complex
     sample_rate: int
-        the sample rate of the signal, defaults to 1
-    display: boolean
-        whether the output would be graphed, set to false for pure data, true for data that's more suitable to be graphed
+        the sample rate of the real signal, if the input is complex, it will default to 1
+        regardless of the input
 
     Returns
     -------
