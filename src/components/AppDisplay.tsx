@@ -63,9 +63,9 @@ const FlowMiniMap = () => {
 };
 
 type AppDisplayProps = {
-  children: any;
-  nodeLabel: string;
-  data: string;
+  children: string | null;
+  nodeLabel?: string;
+  data: string | null;
   GLink: string;
 };
 
