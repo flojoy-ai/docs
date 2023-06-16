@@ -3,12 +3,16 @@ import ReactMarkdown from 'react-markdown';
 import { useLocation } from '@docusaurus/router';
 
 type AppendixSectionProps = {
-  children: string | React.ReactNode;
+  children: string;
   index: number;
   folderPath: string;
 };
 
-export default function AppendixSection({ children, index, folderPath }) {
+export default function AppendixSection({
+  children,
+  index,
+  folderPath,
+}: AppendixSectionProps) {
   const location = useLocation();
   const isIONode = location.pathname.indexOf('INSTRUMENTS') !== -1;
 

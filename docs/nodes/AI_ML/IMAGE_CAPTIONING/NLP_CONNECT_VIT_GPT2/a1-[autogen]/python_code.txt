@@ -8,7 +8,6 @@ import pandas as pd
 
 @flojoy
 def NLP_CONNECT_VIT_GPT2(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
-    
 
     if len(dc_inputs) != 1 or dc_inputs[0].type != "image":
         raise ValueError(
@@ -32,5 +31,6 @@ def NLP_CONNECT_VIT_GPT2(dc_inputs: list[DataContainer], params: dict) -> DataCo
     pred = preds[0].strip()
 
     df_pred = pd.DataFrame.from_records([(pred,)], columns=["caption"])
+
 
     return DataContainer(type="dataframe", m=df_pred)
