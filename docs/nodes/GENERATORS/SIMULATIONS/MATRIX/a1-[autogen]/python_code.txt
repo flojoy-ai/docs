@@ -4,6 +4,5 @@ from flojoy import flojoy, DataContainer
 
 @flojoy
 def MATRIX(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
-
     mat = np.random.randint(20, size=(params["row"], params["column"]))
     return DataContainer(type="matrix", m=mat)

@@ -8,7 +8,7 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (TODO: Machine-generate this section)
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -39,7 +39,6 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 <Example1 />
 
 <SectionBreak />
-
     
 
 [//]: # (Appendix)

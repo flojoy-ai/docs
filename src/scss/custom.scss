@@ -12,100 +12,100 @@
 @use 'navbar';
 
 .bg-dark {
-	background-color: #111111;
+  background-color: #111111;
 }
 
 /* Hide Algolia attribution */
 .DocSearch-Logo {
-    display: none;
+  display: none;
 }
 
 .searchLogoColumn_node_modules {
-    display: none;
+  display: none;
 }
 
-.DocSearch-Hit[aria-selected=true] a {
-    background-color: #000 !important;
-}    
+.DocSearch-Hit[aria-selected='true'] a {
+  background-color: #000 !important;
+}
 
 html,
 body {
-	font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 .hero {
-	.hero__title {
-		font-size: 4rem;
-	}
+  .hero__title {
+    font-size: 4rem;
+  }
 }
 
 .text-left {
-	text-align: left !important;
+  text-align: left !important;
 }
 
 .d-flex {
-	display: flex;
+  display: flex;
 }
 
 .align-center {
-	align-items: center;
+  align-items: center;
 }
 
 .container {
-	max-width: 1280px;
-	margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .col-md-6 {
-	width: 50%;
+  width: 50%;
 }
 
 .container > div {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .mb-4 {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .button {
-	text-transform: uppercase;
-	letter-spacing: 0.07em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
 }
 
 .button--lg {
-	font-size: 1.3rem;
-	padding: 1rem 2.4rem;
+  font-size: 1.3rem;
+  padding: 1rem 2.4rem;
 }
 
 .button--round {
-	border-radius: 5rem;
+  border-radius: 5rem;
 }
 
 .justify-center {
-	justify-content: center;
+  justify-content: center;
 }
 .gap-3 {
-	gap: 12px;
+  gap: 12px;
 }
 @media only screen and (max-width: 768px) {
-	.hide-md {
-		display: none;
-	}
+  .hide-md {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1100px) {
-	.flex-column-lg {
-		flex-direction: column;
-	}
+  .flex-column-lg {
+    flex-direction: column;
+  }
 }
 .menu__link:not(.menu__link--sublist) {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas,'Liberation Mono', 'Courier New', monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
 }
-
 
 // .bg {
 // 	position: relative;
@@ -134,32 +134,53 @@ body {
 // }
 
 #__docusaurus {
-	background: url('/img/home-bg-light.svg') no-repeat;
-	background-position-y: bottom;
-	background-size: contain;
+  background: url('/img/home-bg-light.svg') no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
 }
 
 /* overwrites for dark theme */
 
 [data-theme='dark'] {
-	#__docusaurus {
-		background-image: url('/img/home-bg-dark.svg');
-	}
+  #__docusaurus {
+    background-image: url('/img/home-bg-dark.svg');
+  }
 }
 
 .hero {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 /* footer */
 
 .footer {
-	.footer__copyright {
-		text-align: right;
-	}
+  .footer__copyright {
+    text-align: right;
+  }
 }
-.quick--start-button{
-	background-color: #111111;
-	border-radius: 7px;
-	padding: 13px;
+.quick--start-button {
+  background-color: #111111;
+  border-radius: 7px;
+  padding: 13px;
+}
+
+.react-flow__node {
+  background: transparent !important;
+  border: none !important;
+}
+.react-flow__node-default {
+  width: fit-content;
+  padding: 0px;
+  /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
+  font-weight: 600;
+  /* border-radius: 17px; */
+  /* background-color: #99f5ff4f; */
+  /* border: 1px solid #99F5FF; */
+  /* color: #99F5FF; */
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-color: transparent !important;
 }

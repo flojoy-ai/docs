@@ -1,0 +1,6 @@
+periods:
+  default: 365
+  type: int
+run_forecast:
+  default: true
+  type: boolean

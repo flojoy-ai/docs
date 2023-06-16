@@ -1,0 +1,11 @@
+kernel:
+  default: linear
+  options:
+  - linear
+  - poly
+  - rbf
+  - sigmoid
+  type: select
+target:
+  default: ''
+  type: string
