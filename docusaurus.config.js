@@ -79,12 +79,17 @@ const config = {
           srcDark: 'img/logo.png',
         },
 
-        items: [
+        items: [         
           {
             href: '/getting-started/install',
             position: 'right',
             label: 'Download',
           },
+          {
+            href: '/nodes/ask-ai',
+            position: 'right',
+            label: 'Ask AI',
+          },           
           {
             href: 'https://community.flojoy.io/',
             position: 'right',
