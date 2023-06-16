@@ -31,7 +31,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
-  GLink='TRANSFORMERS/CALCULUS/INTEGRATE'
+  data={Data1}
   nodeLabel='INTEGRATE'>
   {App1}
 </AppDisplay>
