@@ -32,7 +32,9 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
   GLink='GENERATORS/SIMULATIONS/MATRIX'
-  nodeLabel='MATRIX'>
+  nodeLabel='MATRIX'
+  data={Data1}
+  >
   {App1}
 </AppDisplay>
 
