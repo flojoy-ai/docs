@@ -20,6 +20,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicons/favicon.png',
   trailingSlash: true,
+  staticDirectories: ['static'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
