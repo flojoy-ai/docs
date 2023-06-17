@@ -1,8 +1,14 @@
+---
+sidebar_position: 2
+id: ask-ai
+title: Ask AI
+---
+
 # Ask AI 🔮 
 
 Ask anything at the intersection of Flojoy, SciPy, NumPy, sklearn, and PyMeasure
 
-### Examples
+### Example questions
 - Write a Flojoy node that...
     - adds 2 plus 3
     - calculates a double integral
@@ -11,4 +17,5 @@ Ask anything at the intersection of Flojoy, SciPy, NumPy, sklearn, and PyMeasure
     - reads from a GPIB virtual instrument
 - What is Flojoy?
 
-<iframe width='100%' height='800' src='https://markprompt.com/s/u4ZA1Roi' />
+<iframe width='100%' height='800' src='https://markprompt.com/s/Zptf17MA' />
+

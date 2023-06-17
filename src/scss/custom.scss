@@ -11,8 +11,14 @@
 @use 'icons';
 @use 'navbar';
 
+@font-face {
+  font-family: "PonyMaker";
+  src: url('/static/PonyMaker.woff') format('woff');
+}
+
+
 .bg-dark {
-  background-color: #111111;
+  background-color: #000;
 }
 
 /* Hide Algolia attribution */
@@ -38,8 +44,6 @@ body {
     font-size: 8rem;
     letter-spacing: 15px;
     font-family: 'PonyMaker';
-      src: url('PonyMaker.woff') format('woff'), /* Modern Browsers */
-          url('Ponymaker-nzAg.ttf')  format('truetype'), /* Safari, Android, iOS */
   }
 }
 
@@ -155,12 +159,7 @@ body {
 .react-flow__node-default {
   width: fit-content;
   padding: 0px;
-  /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
   font-weight: 600;
-  /* border-radius: 17px; */
-  /* background-color: #99f5ff4f; */
-  /* border: 1px solid #99F5FF; */
-  /* color: #99F5FF; */
   background: transparent !important;
   display: flex;
   justify-content: center;
