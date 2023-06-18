@@ -29,7 +29,10 @@ function HomepageHeader() {
       <header className={clsx('hero text-left', styles.heroBanner)}>
         <div className="container text-center">
           <div className={styles.heroTop}>
-            <h1 className="hero__title hero__font__family">{siteConfig.title}</h1>
+            <h1 className="hero__title hero__font__family">
+		<span>FLO</span>
+		<span>JOY</span>
+	    </h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className="d-flex align-center justify-center gap-3 flex-column-lg">
@@ -39,7 +42,7 @@ function HomepageHeader() {
                 to={downloadLinks.windows}
               >
                 <FaWindows />&nbsp;
-                Download For Windows
+                <span class="download__text">Download</span> For Windows
               </Link>
             </div>
             <div className={styles.buttons}>
@@ -48,7 +51,7 @@ function HomepageHeader() {
                 to={downloadLinks.mac}
               >
                 <FaApple />&nbsp;
-                Download For Mac
+                <span class="download__text">Download</span> For Mac
               </Link>
             </div>
           </div>

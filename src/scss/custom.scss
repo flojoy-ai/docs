@@ -153,6 +153,47 @@ body {
   padding: 13px;
 }
 
+.quickstart__container {
+  padding: 20px;
+  li {
+      padding: 10px 0;
+      font-size: 1.2rem;
+  }
+  a > span {
+      padding: 5px 20px;
+      margin-right: 10px;
+      border-radius: 20px !important;
+  }
+  .hero__subtitle {
+      font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__title > span {
+    display: block;
+  }
+  .hero__subtitle {
+    font-size: 2rem !important;
+  }
+  .download__text {
+    display: none;
+  }
+  .quickstart__container {
+    span {
+      display: block;
+    }
+    a > span {
+      font-size: 1.4rem;
+    }
+    li {
+      display: block !important;
+      font-size: 1.4rem;
+      padding: 20px 0;
+    }
+  }
+}
+
 .react-flow__node {
   background: transparent !important;
   border: none !important;
