@@ -11,12 +11,11 @@
 @use 'icons';
 @use 'navbar';
 
-/*
+
 @font-face {
   font-family: "PonyMaker";
-  src: url('../../static/PonyMaker.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/flojoy-io/studio@0.1.1/src/PonyMaker.woff') format('woff');
 }
-*/
 
 
 .bg-dark {
@@ -45,7 +44,7 @@ body {
   .hero__title {
     font-size: 8rem;
     letter-spacing: 15px;
-    font-family: sans-serif;
+    font-family: 'PonyMaker', sans-serif;
   }
 }
 
