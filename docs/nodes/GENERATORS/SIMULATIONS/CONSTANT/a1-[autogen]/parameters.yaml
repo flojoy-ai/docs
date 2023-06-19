@@ -1,3 +1,2 @@
-constant:
-  default: 3
-  type: float
+"COMMAND:\n  - name: Constant\n    key: CONSTANT\n    type: SIMULATION\n    parameters:\n\
+  \      constant:\n        type: float\n        default: 3"

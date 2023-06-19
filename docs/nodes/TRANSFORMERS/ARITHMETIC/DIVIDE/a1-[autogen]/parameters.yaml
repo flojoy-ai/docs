@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Divide\n    key: DIVIDE\n    type: ARITHMETIC\n    inputs:\n\
+  \      - name: y\n        id: divide_y\n        type: target"

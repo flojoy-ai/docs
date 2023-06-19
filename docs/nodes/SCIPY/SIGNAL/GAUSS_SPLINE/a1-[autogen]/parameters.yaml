@@ -1,3 +1,2 @@
-n:
-  default: null
-  type: int
+"COMMAND:\n  - name: Gauss_spline\n    key: GAUSS_SPLINE\n    type: SCIPY_SIGNAL\n\
+  \    parameters: \n      n: \n        type: int\n        default:"

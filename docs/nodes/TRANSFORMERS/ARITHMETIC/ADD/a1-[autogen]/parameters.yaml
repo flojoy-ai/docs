@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Add\n    key: ADD\n    type: ARITHMETIC\n    inputs: \n     \
+  \ - name: y\n        id: add_y\n        type: target"

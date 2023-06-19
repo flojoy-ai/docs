@@ -1,15 +1,6 @@
-prefix:
-  default: ''
-  type: string
-relative_delta:
-  default: 'true'
-  options:
-  - 'true'
-  - 'false'
-  type: select
-suffix:
-  default: ''
-  type: string
-title:
-  default: ''
-  type: string
+"COMMAND:\n  - name: BIG_NUMBER\n    key: BIG_NUMBER\n    type: PLOTLY_VISOR\n   \
+  \ parameters:\n      suffix:\n        type: string\n        default: \"\"\n    \
+  \  prefix:\n        type: string\n        default: \"\"\n      relative_delta:\n\
+  \        type: select\n        options:\n          - \"true\"\n          - \"false\"\
+  \n        default: \"true\"\n      title:\n        type: string\n        default:\
+  \ \"\""

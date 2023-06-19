@@ -1,47 +1,16 @@
-img_key:
-  default: astronaut
-  options:
-  - astronaut
-  - binary_blobs
-  - brain
-  - brick
-  - camera
-  - cat
-  - cell
-  - cells3d
-  - checkerboard
-  - chelsea
-  - clock
-  - coffee
-  - coins
-  - colorwheel
-  - create_image_fetcher
-  - data_dir
-  - download_all
-  - eagle
-  - file_hash
-  - grass
-  - gravel
-  - horse
-  - hubble_deep_field
-  - human_mitosis
-  - image_fetcher
-  - immunohistochemistry
-  - kidney
-  - lbp_frontal_face_cascade_filename
-  - lfw_subset
-  - lily
-  - logo
-  - microaneurysms
-  - moon
-  - nickel_solidification
-  - page
-  - protein_transport
-  - retina
-  - rocket
-  - shepp_logan_phantom
-  - skin
-  - stereo_motorcycle
-  - text
-  - vortex
-  type: select
+"COMMAND:\n  - name: SK Learn Image\n    key: SKLEARNIMAGE\n    type: SAMPLE_IMAGE\n\
+  \    parameters:\n      img_key:\n        type: select\n        options:\n     \
+  \     - astronaut\n          - binary_blobs\n          - brain\n          - brick\n\
+  \          - camera\n          - cat\n          - cell\n          - cells3d\n  \
+  \        - checkerboard\n          - chelsea\n          - clock\n          - coffee\n\
+  \          - coins\n          - colorwheel\n          - create_image_fetcher\n \
+  \         - data_dir\n          - download_all\n          - eagle\n          - file_hash\n\
+  \          - grass\n          - gravel\n          - horse\n          - hubble_deep_field\n\
+  \          - human_mitosis\n          - image_fetcher\n          - immunohistochemistry\n\
+  \          - kidney\n          - lbp_frontal_face_cascade_filename\n          -\
+  \ lfw_subset\n          - lily\n          - logo\n          - microaneurysms\n \
+  \         - moon\n          - nickel_solidification\n          - page\n        \
+  \  - protein_transport\n          - retina\n          - rocket\n          - shepp_logan_phantom\n\
+  \          - skin\n          - stereo_motorcycle\n          - text\n          -\
+  \ vortex\n        default: astronaut\n    pip_dependencies:\n      - name: scikit-image\n\
+  \        v: \"0.20.0\""

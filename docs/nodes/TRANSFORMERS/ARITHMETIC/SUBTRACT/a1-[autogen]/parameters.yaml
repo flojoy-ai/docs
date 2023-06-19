@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Subtract\n    key: SUBTRACT\n    type: ARITHMETIC\n    inputs:\n\
+  \      - name: y\n        id: sub_y\n        type: target"

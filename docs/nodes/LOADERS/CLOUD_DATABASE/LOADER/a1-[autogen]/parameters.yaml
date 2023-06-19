@@ -1,3 +1,2 @@
-measurement_uuid:
-  default: ''
-  type: string
+"COMMAND:\n  - name: Loader\n    key: LOADER\n    type: CLOUD_DATABASE\n    parameters:\n\
+  \      measurement_uuid:\n        type: string\n        default: \"\""

@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Multiply\n    key: MULTIPLY\n    type: ARITHMETIC\n    inputs:\n\
+  \      - name: y\n        id: multiply_y\n        type: target"

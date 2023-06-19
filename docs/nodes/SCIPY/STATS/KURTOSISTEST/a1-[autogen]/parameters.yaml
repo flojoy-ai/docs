@@ -1,9 +1,4 @@
-alternative:
-  default: two-sided
-  type: string
-axis:
-  default: 0
-  type: int
-nan_policy:
-  default: propagate
-  type: string
+"COMMAND:\n  - name: Kurtosistest\n    key: KURTOSISTEST\n    type: SCIPY_STATS\n\
+  \    parameters: \n      axis: \n        type: int\n        default: 0 \n      nan_policy:\
+  \ \n        type: string\n        default: propagate \n      alternative: \n   \
+  \     type: string\n        default: two-sided"
