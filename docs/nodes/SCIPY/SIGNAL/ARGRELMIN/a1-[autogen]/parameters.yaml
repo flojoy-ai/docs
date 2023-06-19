@@ -1,0 +1,9 @@
+axis:
+  default: 0
+  type: int
+mode:
+  default: clip
+  type: string
+order:
+  default: 1
+  type: int

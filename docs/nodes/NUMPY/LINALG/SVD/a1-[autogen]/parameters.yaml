@@ -1,0 +1,9 @@
+compute_uv:
+  default: true
+  type: boolean
+full_matrices:
+  default: true
+  type: boolean
+hermitian:
+  default: false
+  type: boolean

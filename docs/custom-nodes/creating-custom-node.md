@@ -38,8 +38,19 @@ To register our new node with Flojoy, let's make a new manifest file in [`PYTHON
 
 ```yaml {title='divide.manifest.yaml'}
 COMMAND:
-  - { name: 'Div', key: 'DIVIDE', type: 'ARITHMETIC' }
+  - name: Divide
+    key: DIVIDE
+    type: ARITHMETIC
 ```
+The `type` of the manifest should be one of the available child keys of the node type you are selecting. You can see all nodes [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts).
+
+For example, we are creating a `Transformers` node (see [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts#L160)). So we should select one of its child keys as our `type` (`ARITHMETIC`, `SIGNAL_PROCESSING`, `REGRESSIONS`, `IMAGE_PROCESSING`, `IMAGE_IDENTIFICATION`, `MATRIX_MANIPULATION`, `SELECT_ARRAY`).
+
+After creating `yaml` file, you can run 
+```
+python3 generate_manifest.py
+```
+to manifest the custom node.
 
 ### Creating Custom Component ( Frontend )
 

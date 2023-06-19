@@ -1,0 +1,28 @@
+real_signal:
+  default: false
+  type: boolean
+sample_rate:
+  default: 1
+  type: int
+window_type:
+  default: none
+  options:
+  - none
+  - boxcar
+  - triang
+  - blackman
+  - hamming
+  - hann
+  - bartlett
+  - flattop
+  - parzen
+  - bohman
+  - blackmanharris
+  - nuttall
+  - barthann
+  - cosine
+  - exponential
+  - tukey
+  - taylor
+  - lanczos
+  type: select

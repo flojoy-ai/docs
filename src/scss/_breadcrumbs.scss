@@ -1,38 +1,38 @@
 .breadcrumbsContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocBreadcrumbs-styles-module {
-	--ifm-breadcrumb-size-multiplier: 0.9 !important;
+  --ifm-breadcrumb-size-multiplier: 0.9 !important;
 }
 
 .breadcrumbs {
-	text-transform: uppercase;
-	font-weight: bold;
-	display: flex;
-	align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 
-	&__link {
-		letter-spacing: 0.07em;
-	}
+  &__link {
+    letter-spacing: 0.07em;
+  }
 
-	&__link[aria-label='Home page'] {
-		padding: 0;
+  &__link[aria-label='Home page'] {
+    padding: 0;
 
-		svg {
-			width: 28px;
-			height: 28px;
-		}
-	}
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
 
-	&__link[aria-label='Home page']:hover {
-		background: inherit;
-	}
+  &__link[aria-label='Home page']:hover {
+    background: inherit;
+  }
 
-	&__item {
-		border-radius: 1.5rem;
-		display: flex;
-		align-items: center;
-		letter-spacing: 0.07em;
+  &__item {
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
 
-		&--active {
-			border: 1px solid var(--ifm-breadcrumb-color-active);
-		}
-	}
+    &--active {
+      border: 1px solid var(--ifm-breadcrumb-color-active);
+    }
+  }
 }

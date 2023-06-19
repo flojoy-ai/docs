@@ -1,0 +1,3 @@
+periods:
+  default: 365
+  type: int
