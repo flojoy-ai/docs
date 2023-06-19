@@ -1,0 +1,7 @@
+
+The RASPBERRY_PI Node displays informations about the Raspberry pi which is
+used to run Flojoy such as CPU temperature and memory available on the device
+
+Parameters :
+------------
+None
