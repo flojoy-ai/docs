@@ -41,7 +41,7 @@ brew install redis
 
 ([Redis installation reference](https://redis.io/docs/getting-started/installation/))
 
-2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
+2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
 
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
@@ -62,7 +62,7 @@ python3.10 -m venv env
 5. Finally, run:
 
 ```bash
-sh flojoy -v env
+bash flojoy -v venv
 ```
 
 </div>
@@ -77,7 +77,7 @@ To install Flojoy on Windows:
 
 2. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
 
-3. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows: 
+3. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
 
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
@@ -116,7 +116,7 @@ python3.10 -m venv env
   </ul>
 </details>
 
-***
+---
 
 ## Common gotchya's
 
