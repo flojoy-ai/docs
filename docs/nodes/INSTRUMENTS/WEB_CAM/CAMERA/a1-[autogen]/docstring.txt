@@ -1,14 +1,3 @@
-The CAMERA node acquires an image using the selected camera.
-    If no camera is detected, an error would be thrown.
 
-    Parameters:
-    ----------
-    camera_ind : int
-        Camera index (i.e. camera identifier)
-    resolution : select
-        Camera resolution. Choose from a few options.
-
-    Returns:
-    ----------
-    DataContainer:
-        type 'image'
+Takes a picture from a connected camera using OpenCV.
+If no camera is connected, an error would be thrown.
