@@ -1,0 +1,18 @@
+The BART_LARGE_CNN node takes an input dataframe with multiple rows and a single "text" column,
+    and produces a dataframe with a single "summary_text" column.  The "summary_text" column contains a summary
+    of the text in the corresponding row of the input dataframe.
+
+    Parameters
+    ----------
+    max_length: int
+        The maximum length of the summary text.
+    min_length: int
+        The minimum length of the summary text.
+    do_sample: bool
+        Whether or not to use sampling to generate the summary text. If do_sample is False, greedy decoding is used.
+        Otherwise, probabilistic sampling is used for the next token.
+    Returns:
+    --------
+    DataContainer:
+        type 'dataframe' containing the summary text in the "summary_text" column.
+

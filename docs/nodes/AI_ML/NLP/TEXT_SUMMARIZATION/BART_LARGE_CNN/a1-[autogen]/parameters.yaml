@@ -1,0 +1,9 @@
+do_sample:
+  default: false
+  type: boolean
+max_length:
+  default: 130
+  type: int
+min_length:
+  default: 30
+  type: int
