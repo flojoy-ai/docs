@@ -1,3 +1,6 @@
+display:
+  default: true
+  type: boolean
 real_signal:
   default: false
   type: boolean
