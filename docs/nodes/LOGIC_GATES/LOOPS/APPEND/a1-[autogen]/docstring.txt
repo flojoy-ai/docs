@@ -1,0 +1,11 @@
+The APPEND node appends a single data point to an array.
+    Ordered pair type must be used for both the data point
+    and the array.
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    Ordered pair.
