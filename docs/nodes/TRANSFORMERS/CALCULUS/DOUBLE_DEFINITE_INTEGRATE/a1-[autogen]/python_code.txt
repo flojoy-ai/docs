@@ -1,0 +1,26 @@
+from flojoy import flojoy, DataContainer
+from scipy import integrate
+from sympy import parse_expr, lambdify
+
+
+@flojoy
+def DOUBLE_DEFINITE_INTEGRAL(
+    dc_inputs: list[DataContainer], params: dict
+) -> DataContainer:
+    
+    func = params["function"]
+    func = parse_expr(func)
+    symbols = tuple(func.free_symbols)
+
+    f = lambdify(symbols, func)
+
+    upper_bound_x = params["upper_bound_x"]
+    lower_bound_x = params["lower_bound_x"]
+    upper_bound_y = params["upper_bound_y"]
+    lower_bound_y = params["lower_bound_y"]
+
+    result = integrate.nquad(
+        f, [(lower_bound_x, upper_bound_x), (lower_bound_y, upper_bound_y)]
+    )[0]
+
+    return DataContainer(type="scalar", c=result)
