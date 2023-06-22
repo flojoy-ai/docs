@@ -1,0 +1,12 @@
+
+The INDEFINITE_INTEGRAL node takes three matrices and computes double integral.
+It returns a matrix where each cell represents volumn up to the given point.
+
+Parameters
+----------
+None
+
+Returns
+-------
+DataContainer:
+    type 'matrix', m

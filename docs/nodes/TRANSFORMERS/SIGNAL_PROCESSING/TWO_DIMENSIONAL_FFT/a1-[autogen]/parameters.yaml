@@ -1,0 +1,11 @@
+color:
+  default: grayscale
+  options:
+  - grayscale
+  - red
+  - green
+  - blue
+  type: select
+real_signal:
+  default: true
+  type: boolean

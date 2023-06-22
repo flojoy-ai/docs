@@ -2,11 +2,8 @@ prefix:
   default: ''
   type: string
 relative_delta:
-  default: 'true'
-  options:
-  - 'true'
-  - 'false'
-  type: select
+  default: true
+  type: boolean
 suffix:
   default: ''
   type: string
