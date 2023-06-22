@@ -1,0 +1,26 @@
+amplitude:
+  default: 1
+  type: float
+frequency:
+  default: 1
+  type: float
+offset:
+  default: 0
+  type: float
+phase:
+  default: 0.0
+  type: float
+sample_rate:
+  default: 100
+  type: int
+time:
+  default: 10
+  type: int
+waveform:
+  default: sine
+  options:
+  - sine
+  - square
+  - triangle
+  - sawtooth
+  type: select

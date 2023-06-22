@@ -1,1 +1,18 @@
-Apply a butterworth filter to an input vector
+The BUTTER node applies a butterworth filter to an input vector
+
+    Parameters
+    ----------
+    filter_order: int
+        The intensity of the filter
+    critical_frequency: array or int
+        The frequency where the filter takes effect. For lowpass and highpass, takes in a scalar.
+        For bandpass and bandstop, takes in array with the length of two
+    btype: select
+        The type of the filter
+    sample_rate: int
+        The sample rate of the input signal
+
+    Returns
+    -------
+        x: time domain
+        y: filtered signal

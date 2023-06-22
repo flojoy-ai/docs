@@ -2,207 +2,207 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 150,
-                "id": "LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626",
-                "type": "default",
-                "data": {
-                    "id": "LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626",
-                    "label": "LINSPACE",
-                    "func": "LINSPACE",
-                    "type": "SIMULATION",
-                    "ctrls": {
-                        "start": {
-                            "functionName": "LINSPACE",
-                            "param": "start",
-                            "value": 10
-                        },
-                        "end": {
-                            "functionName": "LINSPACE",
-                            "param": "end",
-                            "value": 0
-                        },
-                        "step": {
-                            "functionName": "LINSPACE",
-                            "param": "step",
-                            "value": 1000
-                        }
-                    },
-                    "selected": false
-                },
-                "position": {
-                    "x": -144.22958297787403,
-                    "y": 234.29120307418458
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": -144.22958297787403,
-                    "y": 234.29120307418458
-                },
-                "dragging": true
-            },
-            {
                 "width": 130,
                 "height": 130,
-                "id": "SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4",
+                "id": "BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1",
                 "type": "SIMULATION",
                 "data": {
-                    "id": "SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4",
-                    "label": "SINE",
-                    "func": "SINE",
+                    "id": "BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1",
+                    "label": "BASIC OSCILLATOR",
+                    "func": "BASIC_OSCILLATOR",
                     "type": "SIMULATION",
                     "ctrls": {
+                        "sample_rate": {
+                            "functionName": "BASIC_OSCILLATOR",
+                            "param": "sample_rate",
+                            "value": "50"
+                        },
+                        "time": {
+                            "functionName": "BASIC_OSCILLATOR",
+                            "param": "time",
+                            "value": "10"
+                        },
                         "frequency": {
-                            "functionName": "SINE",
+                            "functionName": "BASIC_OSCILLATOR",
                             "param": "frequency",
-                            "value": "69"
+                            "value": "10"
                         },
                         "offset": {
-                            "functionName": "SINE",
+                            "functionName": "BASIC_OSCILLATOR",
                             "param": "offset",
                             "value": 0
                         },
                         "amplitude": {
-                            "functionName": "SINE",
+                            "functionName": "BASIC_OSCILLATOR",
                             "param": "amplitude",
                             "value": 1
                         },
                         "phase": {
-                            "functionName": "SINE",
+                            "functionName": "BASIC_OSCILLATOR",
                             "param": "phase",
                             "value": 0
                         },
                         "waveform": {
-                            "functionName": "SINE",
+                            "functionName": "BASIC_OSCILLATOR",
                             "param": "waveform",
-                            "value": "sine"
+                            "value": "sawtooth"
                         }
                     },
                     "selected": false
                 },
                 "position": {
-                    "x": 208.62755987926886,
-                    "y": 62.86263164561308
+                    "x": 227.59186898260987,
+                    "y": 121.14594453114421
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 208.62755987926886,
-                    "y": 62.86263164561308
-                },
-                "dragging": true
-            },
-            {
-                "width": 130,
-                "height": 130,
-                "id": "SINE-354ea790-a168-4de5-926e-8aced107d349",
-                "type": "SIMULATION",
-                "data": {
-                    "id": "SINE-354ea790-a168-4de5-926e-8aced107d349",
-                    "label": "SINE 1",
-                    "func": "SINE",
-                    "type": "SIMULATION",
-                    "ctrls": {
-                        "frequency": {
-                            "functionName": "SINE",
-                            "param": "frequency",
-                            "value": "59"
-                        },
-                        "offset": {
-                            "functionName": "SINE",
-                            "param": "offset",
-                            "value": 0
-                        },
-                        "amplitude": {
-                            "functionName": "SINE",
-                            "param": "amplitude",
-                            "value": 1
-                        },
-                        "phase": {
-                            "functionName": "SINE",
-                            "param": "phase",
-                            "value": 0
-                        },
-                        "waveform": {
-                            "functionName": "SINE",
-                            "param": "waveform",
-                            "value": "sine"
-                        }
-                    },
-                    "selected": false
-                },
-                "position": {
-                    "x": 202.91327416498314,
-                    "y": 395.71977450275585
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 202.91327416498314,
-                    "y": 395.71977450275585
-                },
-                "dragging": true
-            },
-            {
-                "width": 99,
-                "height": 130,
-                "id": "ADD-532cc637-34de-44f7-b1e8-d1483795aa16",
-                "type": "ARITHMETIC",
-                "data": {
-                    "id": "ADD-532cc637-34de-44f7-b1e8-d1483795aa16",
-                    "label": "ADD",
-                    "func": "ADD",
-                    "type": "ARITHMETIC",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "y",
-                            "id": "add_y",
-                            "type": "target"
-                        }
-                    ],
-                    "selected": false
-                },
-                "position": {
-                    "x": 428.62755987926886,
-                    "y": 245.71977450275585
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 428.62755987926886,
-                    "y": 245.71977450275585
+                    "x": 227.59186898260987,
+                    "y": 121.14594453114421
                 },
                 "dragging": true
             },
             {
                 "width": 150,
                 "height": 150,
-                "id": "BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9",
+                "id": "BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354",
                 "type": "SIGNAL_PROCESSING",
                 "data": {
-                    "id": "BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9",
+                    "id": "BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354",
                     "label": "BUTTER",
                     "func": "BUTTER",
                     "type": "SIGNAL_PROCESSING",
-                    "ctrls": {},
+                    "ctrls": {
+                        "filter_order": {
+                            "functionName": "BUTTER",
+                            "param": "filter_order",
+                            "value": "4"
+                        },
+                        "critical_frequency": {
+                            "functionName": "BUTTER",
+                            "param": "critical_frequency",
+                            "value": "5"
+                        },
+                        "btype": {
+                            "functionName": "BUTTER",
+                            "param": "btype",
+                            "value": "lowpass"
+                        },
+                        "sample_rate": {
+                            "functionName": "BUTTER",
+                            "param": "sample_rate",
+                            "value": "50"
+                        }
+                    },
+                    "selected": true
+                },
+                "position": {
+                    "x": 600.4490118397526,
+                    "y": 2.574515959715484
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 600.4490118397526,
+                    "y": 2.574515959715484
+                },
+                "dragging": true
+            },
+            {
+                "width": 150,
+                "height": 150,
+                "id": "FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20",
+                "type": "SIGNAL_PROCESSING",
+                "data": {
+                    "id": "FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20",
+                    "label": "FFT",
+                    "func": "FFT",
+                    "type": "SIGNAL_PROCESSING",
+                    "ctrls": {
+                        "window_type": {
+                            "functionName": "FFT",
+                            "param": "window_type",
+                            "value": "hann"
+                        },
+                        "display": {
+                            "functionName": "FFT",
+                            "param": "display",
+                            "value": true
+                        },
+                        "real_signal": {
+                            "functionName": "FFT",
+                            "param": "real_signal",
+                            "value": true
+                        },
+                        "sample_rate": {
+                            "functionName": "FFT",
+                            "param": "sample_rate",
+                            "value": "50"
+                        }
+                    },
                     "selected": false
                 },
                 "position": {
-                    "x": 664.3418455935546,
-                    "y": 230.0054887884702
+                    "x": 611.8775832683242,
+                    "y": 312.57451595971554
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 664.3418455935546,
-                    "y": 230.0054887884702
+                    "x": 611.8775832683242,
+                    "y": 312.57451595971554
+                },
+                "dragging": true
+            },
+            {
+                "width": 150,
+                "height": 150,
+                "id": "FFT-40dd301d-f922-4ae1-9818-8ba6a8412bba",
+                "type": "SIGNAL_PROCESSING",
+                "data": {
+                    "id": "FFT-40dd301d-f922-4ae1-9818-8ba6a8412bba",
+                    "label": "FFT 1",
+                    "func": "FFT",
+                    "type": "SIGNAL_PROCESSING",
+                    "ctrls": {
+                        "window_type": {
+                            "functionName": "FFT",
+                            "param": "window_type",
+                            "value": "hann"
+                        },
+                        "display": {
+                            "functionName": "FFT",
+                            "param": "display",
+                            "value": true
+                        },
+                        "real_signal": {
+                            "functionName": "FFT",
+                            "param": "real_signal",
+                            "value": true
+                        },
+                        "sample_rate": {
+                            "functionName": "FFT",
+                            "param": "sample_rate",
+                            "value": "50"
+                        }
+                    },
+                    "selected": false
+                },
+                "position": {
+                    "x": 901.8775832683243,
+                    "y": 5.431658816858459
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 901.8775832683243,
+                    "y": 5.431658816858459
                 },
                 "dragging": true
             },
             {
                 "width": 380,
                 "height": 293,
-                "id": "LINE-f3ad568f-959a-4517-81e3-48ce7da460c9",
+                "id": "LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4",
                 "type": "PLOTLY_VISOR",
                 "data": {
-                    "id": "LINE-f3ad568f-959a-4517-81e3-48ce7da460c9",
+                    "id": "LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4",
                     "label": "LINE",
                     "func": "LINE",
                     "type": "PLOTLY_VISOR",
@@ -210,96 +210,120 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 952.9132741649831,
-                    "y": 184.29120307418452
+                    "x": 1218.2259048467238,
+                    "y": 321.58237708923224
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 952.9132741649831,
-                    "y": 184.29120307418452
+                    "x": 1218.2259048467238,
+                    "y": 321.58237708923224
+                },
+                "dragging": true
+            },
+            {
+                "width": 380,
+                "height": 293,
+                "id": "LINE-a74e8c09-3b5b-49db-b793-df88ae22e005",
+                "type": "PLOTLY_VISOR",
+                "data": {
+                    "id": "LINE-a74e8c09-3b5b-49db-b793-df88ae22e005",
+                    "label": "LINE 1",
+                    "func": "LINE",
+                    "type": "PLOTLY_VISOR",
+                    "ctrls": {},
+                    "selected": false
+                },
+                "position": {
+                    "x": 1206.7973334181518,
+                    "y": -38.41762291076776
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1206.7973334181518,
+                    "y": -38.41762291076776
                 },
                 "dragging": true
             },
             {
                 "width": 210,
                 "height": 130,
-                "id": "END-bfcecfae-944d-4189-86f1-db1b41aeed2a",
+                "id": "END-57b0130f-f983-4779-8fb5-d5a7ff3fc256",
                 "type": "TERMINATOR",
                 "data": {
-                    "id": "END-bfcecfae-944d-4189-86f1-db1b41aeed2a",
+                    "id": "END-57b0130f-f983-4779-8fb5-d5a7ff3fc256",
                     "label": "END",
                     "func": "END",
                     "type": "TERMINATOR",
                     "ctrls": {},
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
-                    "x": 1375.7704170221261,
-                    "y": 248.57691735989874
+                    "x": 1766.7973334181522,
+                    "y": 154.43951994637513
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
-                    "x": 1375.7704170221261,
-                    "y": 248.57691735989874
+                    "x": 1766.7973334181522,
+                    "y": 154.43951994637513
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626",
+                "source": "BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1",
                 "sourceHandle": "main",
-                "target": "SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4",
-                "targetHandle": "SINE",
-                "id": "reactflow__edge-LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626main-SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4SINE"
-            },
-            {
-                "source": "LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626",
-                "sourceHandle": "main",
-                "target": "SINE-354ea790-a168-4de5-926e-8aced107d349",
-                "targetHandle": "SINE",
-                "id": "reactflow__edge-LINSPACE-c9dc355d-a512-4007-8859-6648f53e2626main-SINE-354ea790-a168-4de5-926e-8aced107d349SINE"
-            },
-            {
-                "source": "SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4",
-                "sourceHandle": "main",
-                "target": "ADD-532cc637-34de-44f7-b1e8-d1483795aa16",
-                "targetHandle": "ADD",
-                "id": "reactflow__edge-SINE-e19605b9-62e1-4df0-8868-031a5d6f11d4main-ADD-532cc637-34de-44f7-b1e8-d1483795aa16ADD"
-            },
-            {
-                "source": "SINE-354ea790-a168-4de5-926e-8aced107d349",
-                "sourceHandle": "main",
-                "target": "ADD-532cc637-34de-44f7-b1e8-d1483795aa16",
-                "targetHandle": "add_y",
-                "id": "reactflow__edge-SINE-354ea790-a168-4de5-926e-8aced107d349main-ADD-532cc637-34de-44f7-b1e8-d1483795aa16add_y"
-            },
-            {
-                "source": "ADD-532cc637-34de-44f7-b1e8-d1483795aa16",
-                "sourceHandle": "main",
-                "target": "BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9",
+                "target": "BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354",
                 "targetHandle": "BUTTER",
-                "id": "reactflow__edge-ADD-532cc637-34de-44f7-b1e8-d1483795aa16main-BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9BUTTER"
+                "id": "reactflow__edge-BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1main-BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354BUTTER"
             },
             {
-                "source": "BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9",
+                "source": "BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1",
                 "sourceHandle": "main",
-                "target": "LINE-f3ad568f-959a-4517-81e3-48ce7da460c9",
-                "targetHandle": "LINE",
-                "id": "reactflow__edge-BUTTER-21ebcdfd-054c-4121-b85a-8aa0658404e9main-LINE-f3ad568f-959a-4517-81e3-48ce7da460c9LINE"
+                "target": "FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20",
+                "targetHandle": "FFT",
+                "id": "reactflow__edge-BASIC_OSCILLATOR-fb4f8fce-a40e-44f9-b913-7d429383bda1main-FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20FFT"
             },
             {
-                "source": "LINE-f3ad568f-959a-4517-81e3-48ce7da460c9",
+                "source": "BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354",
                 "sourceHandle": "main",
-                "target": "END-bfcecfae-944d-4189-86f1-db1b41aeed2a",
+                "target": "FFT-40dd301d-f922-4ae1-9818-8ba6a8412bba",
+                "targetHandle": "FFT",
+                "id": "reactflow__edge-BUTTER-0a6f8d53-ade9-4a32-82ea-cf5bff17f354main-FFT-40dd301d-f922-4ae1-9818-8ba6a8412bbaFFT"
+            },
+            {
+                "source": "LINE-a74e8c09-3b5b-49db-b793-df88ae22e005",
+                "sourceHandle": "main",
+                "target": "END-57b0130f-f983-4779-8fb5-d5a7ff3fc256",
                 "targetHandle": "END",
-                "id": "reactflow__edge-LINE-f3ad568f-959a-4517-81e3-48ce7da460c9main-END-bfcecfae-944d-4189-86f1-db1b41aeed2aEND"
+                "id": "reactflow__edge-LINE-a74e8c09-3b5b-49db-b793-df88ae22e005main-END-57b0130f-f983-4779-8fb5-d5a7ff3fc256END"
+            },
+            {
+                "source": "LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4",
+                "sourceHandle": "main",
+                "target": "END-57b0130f-f983-4779-8fb5-d5a7ff3fc256",
+                "targetHandle": "END",
+                "id": "reactflow__edge-LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4main-END-57b0130f-f983-4779-8fb5-d5a7ff3fc256END"
+            },
+            {
+                "source": "FFT-40dd301d-f922-4ae1-9818-8ba6a8412bba",
+                "sourceHandle": "main",
+                "target": "LINE-a74e8c09-3b5b-49db-b793-df88ae22e005",
+                "targetHandle": "LINE",
+                "id": "reactflow__edge-FFT-40dd301d-f922-4ae1-9818-8ba6a8412bbamain-LINE-a74e8c09-3b5b-49db-b793-df88ae22e005LINE"
+            },
+            {
+                "source": "FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20",
+                "sourceHandle": "main",
+                "target": "LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4",
+                "targetHandle": "LINE",
+                "id": "reactflow__edge-FFT-0bb33f4f-11c1-4eb1-8122-31fede042d20main-LINE-35f34335-1c3f-4012-b64c-ab2fbce34fd4LINE"
             }
         ],
         "viewport": {
-            "x": 178.95788989770995,
-            "y": 69.74260865081652,
-            "zoom": 0.7756174461376771
+            "x": -167.124442689357,
+            "y": 72.11028638925825,
+            "zoom": 1.1057947648122763
         }
     },
     "ctrlsManifest": [

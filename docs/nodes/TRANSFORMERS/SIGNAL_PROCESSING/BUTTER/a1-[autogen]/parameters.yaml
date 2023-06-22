@@ -1,0 +1,17 @@
+btype:
+  default: lowpass
+  options:
+  - lowpass
+  - highpass
+  - bandpass
+  - bandstop
+  type: select
+critical_frequency:
+  default: 1
+  type: int
+filter_order:
+  default: 1
+  type: int
+sample_rate:
+  default: 1
+  type: int

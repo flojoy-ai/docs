@@ -1,1 +1,9 @@
-Node creates a Plotly Line visualization for a given input data container.
+The LINE node creates a Plotly Line visualization for a given input data container.
+
+    Parameters:
+    -----------
+    None
+
+    Supported DC types:
+    -------------------
+    `ordered_pair`, `dataframe` (including timeseries), `matrix`

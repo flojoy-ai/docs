@@ -1,0 +1,12 @@
+
+The DIFFERENTIATE node takes two list, x and y, as input.
+It computes the derivative of the array, y with respect to x.
+
+Parameters
+----------
+None
+
+Returns
+-------
+numpy array
+    Derivative of the array

@@ -1,12 +1,41 @@
-cutoff_freq:
+cutoff_high:
+  default: 15.0
+  type: float
+cutoff_low:
   default: 10.0
   type: float
+filter_type:
+  default: lowpass
+  options:
+  - lowpass
+  - highpass
+  - bandpass
+  - bandstop
+  type: select
 sample_rate:
   default: 100
   type: float
-stop_band_attenuation:
-  default: 60
-  type: float
-transition_width:
-  default: 5.0
-  type: float
+taps:
+  default: 200
+  type: int
+window:
+  default: hann
+  options:
+  - boxcar
+  - triang
+  - blackman
+  - hamming
+  - hann
+  - bartlett
+  - flattop
+  - parzen
+  - bohman
+  - blackmanharris
+  - nuttall
+  - barthann
+  - cosine
+  - exponential
+  - tukey
+  - taylor
+  - lanczos
+  type: select
