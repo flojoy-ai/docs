@@ -1,0 +1,15 @@
+The TWO_DIMENSIONAL_FFT node performs a two-dimensional fourier transform on the input matrix.
+    With the FFT algorithm, the input matrix will undergo a change of basis
+    from the space domain into the frequency domain.
+
+    Parameters
+    ----------
+    real_input: boolean
+        true if the input matrix is consists of only real numbers, false otherwise
+    color: select
+        If the input is an RGBA or RGB image, this parameter selects the color channel to perform fft on
+
+    Returns
+    -------
+    image
+        The frequency spectrum of the color channel
