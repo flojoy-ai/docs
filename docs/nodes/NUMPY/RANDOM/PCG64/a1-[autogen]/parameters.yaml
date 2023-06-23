@@ -1,0 +1,6 @@
+seed:
+  default: null
+  type: int
+state:
+  default: None
+  type: numpy.random.RandomState

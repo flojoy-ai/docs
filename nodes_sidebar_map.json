@@ -27,5 +27,6 @@
   "I/O > Protocols > Serial": "SERIAL",
   "SCIentific PYthon (SciPy) > Stats": "STATS",
   "SCIentific PYthon (SciPy) > Signal": "SIGNAL",
-  "NUMerical PYthon (NumPy) > Linalg": "LINALG"
+  "NUMerical PYthon (NumPy) > Linalg": "LINALG",
+  "NUMerical PYthon (NumPy) > Random": "RANDOM"
 }

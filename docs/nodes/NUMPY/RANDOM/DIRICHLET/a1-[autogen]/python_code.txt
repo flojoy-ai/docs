@@ -1,0 +1,11 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def DIRICHLET(dc: list, params: dict) -> DataContainer:
+    
+    size: str = params.get("size", "dc[0].y.shape")
+    out = np.random.dirichlet(alpha=dc[0].y, size=eval(size))
+    return DataContainer(x=dc[0].y, y=out)

@@ -1,0 +1,17 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def F(dc: list, params: dict) -> DataContainer:
+    
+    dfn = params.get("dfn", None)
+    dfd = params.get("dfd", None)
+    size = params.get("size", "dc[0].y.shape")
+    if dfn is None or dfd is None:
+        raise ValueError("dfn and dfd must be specified in params.")
+    if not isinstance(dfn, (int, np.integer)) or not isinstance(dfd, (int, np.integer)):
+        raise TypeError("dfn and dfd must be integers.")
+    out = np.random.f(int(dfn), int(dfd), size=eval(size))
+    return DataContainer(x=dc[0].y, y=out)

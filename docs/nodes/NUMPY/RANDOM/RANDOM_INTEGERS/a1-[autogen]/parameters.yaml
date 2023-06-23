@@ -1,0 +1,9 @@
+high:
+  default: null
+  type: int
+low:
+  default: 0
+  type: int
+size:
+  default: dc[0].y.shape
+  type: string

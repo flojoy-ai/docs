@@ -1,0 +1,12 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def CHISQUARE(dc: list, params: dict) -> DataContainer:
+    
+    df: float = params.get("df", None)
+    size: str = params.get("size", "dc[0].y.shape")
+    out = np.random.chisquare(df=float(df), size=eval(size))
+    return DataContainer(x=dc[0].y, y=out)

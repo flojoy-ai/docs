@@ -1,0 +1,10 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def SHUFFLE(dc: list, params: dict) -> DataContainer:
+    
+    axis = params.get("axis", -1)
+    return DataContainer(x=dc[0].y, y=np.random.shuffle(dc[0].y, axis=int(axis)))

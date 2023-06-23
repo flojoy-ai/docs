@@ -1,0 +1,12 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def VONMISES(dc: list, params: dict) -> DataContainer:
+    
+    mu = params.get('mu', 0.0)
+    kappa = params.get('kappa', 1.0)
+    size = params.get("size", 'dc[0].y.shape')
+    return DataContainer(x=dc[0].y, y=np.random.vonmises(float(mu), float(kappa), size=eval(size)))

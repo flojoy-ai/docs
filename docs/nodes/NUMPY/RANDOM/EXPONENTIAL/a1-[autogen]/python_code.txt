@@ -1,0 +1,14 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def EXPONENTIAL(dc: list, params: dict) -> DataContainer:
+    
+    # Strictly type all internal variables
+    beta: float = params.get("beta", 1.0)
+
+    # Calculate and return the exponential distribution
+    out = (1.0 / float(beta)) * np.exp(-dc[0].y / float(beta))
+    return DataContainer(x=dc[0].y, y=out)

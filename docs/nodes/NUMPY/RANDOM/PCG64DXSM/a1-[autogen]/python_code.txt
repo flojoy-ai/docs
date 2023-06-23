@@ -1,0 +1,15 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def PCG64DXSM(dc: list, params: dict) -> DataContainer:
+    
+    # Strictly type all internal variables
+    a: int = params.get("a", 0)
+    b: int = params.get("b", 0)
+    c: int = params.get("c", 0)
+
+    # Return the DataContainer instance
+    return DataContainer(x=dc[0].y, y=np.random.PCG64DXSM(a=int(a), b=int(b), c=int(c)))

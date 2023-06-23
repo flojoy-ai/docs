@@ -1,0 +1,9 @@
+a:
+  default: 1.0
+  type: float
+b:
+  default: 1.0
+  type: float
+size:
+  default: dc[0].y.shape
+  type: string

@@ -1,0 +1,12 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+@flojoy
+
+
+def STANDARD_NORMAL(dc: list, params: dict) -> DataContainer:
+    
+    size = params.get("size", 'dc[0].y.shape')
+    out = np.random.standard_normal(size=eval(size))
+    
+    return DataContainer(x=dc[0].y, y=out)

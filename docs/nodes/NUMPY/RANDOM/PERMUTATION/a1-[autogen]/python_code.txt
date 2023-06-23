@@ -1,0 +1,9 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def PERMUTATION(dc: list, params: dict) -> DataContainer:
+    
+    return DataContainer(x=dc[0].y, y=np.random.permutation(dc[0].y))

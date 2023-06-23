@@ -1,0 +1,12 @@
+
+Random values in a given shape.
+
+Create an array of the given shape and populate it with
+random samples from a uniform distribution
+over ``[0, 1)``.
+
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+The parameters of the function in this Flojoy wrapper are given below.
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+
