@@ -1,0 +1,9 @@
+mean:
+  default: 0
+  type: float
+size:
+  default: dc[0].y.shape
+  type: string
+std:
+  default: 1.0
+  type: float

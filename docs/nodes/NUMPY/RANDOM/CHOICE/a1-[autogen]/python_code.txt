@@ -1,0 +1,15 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def CHOICE(dc: list, params: dict) -> DataContainer:
+    
+    # Enforce strict typing
+    size: str = params.get("size", "dc[0].y.shape")
+    replace: bool = params.get("replace", False)
+
+    # Call numpy.random.choice
+    out = np.random.choice(dc[0].y, size=eval(size), replace=bool(replace), p=None)
+    return DataContainer(x=dc[0].y, y=out)

@@ -1,0 +1,21 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def LOGSERIES(dc: list, params: dict) -> DataContainer:
+    
+    # Enforce strict typing
+    size: str = params.get("size", "dc[0].y.shape")
+    p: float = params.get("loc", 0.5)
+
+    # Check that dc[0].y is in the range [0, 1]
+    if not 0 <= p <= 1:
+        raise ValueError("dc[0].y must be in the range [0, 1].")
+
+    # Draw samples from the logarithmic series distribution
+    out = np.random.logseries(p=float(p), size=eval(size))
+
+    # Return a DataContainer instance
+    return DataContainer(x=dc[0].y, y=out)

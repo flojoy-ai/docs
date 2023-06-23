@@ -1,0 +1,9 @@
+a:
+  default: 0
+  type: int
+b:
+  default: 0
+  type: int
+c:
+  default: 0
+  type: int

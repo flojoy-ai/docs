@@ -1,0 +1,9 @@
+dfd:
+  default: null
+  type: int
+dfn:
+  default: null
+  type: int
+size:
+  default: dc[0].y.shape
+  type: string

@@ -1,0 +1,11 @@
+import numpy as np
+from flojoy import flojoy, DataContainer
+from typing import Optional, Union, Tuple, List
+
+
+@flojoy
+def GEOMETRIC(dc: list, params: dict) -> DataContainer:
+    
+    p = params.get("p", 0.5)
+    size = params.get("size", "dc[0].y.shape")
+    return DataContainer(x=dc[0].y, y=np.random.geometric(float(p), size=eval(size)))
