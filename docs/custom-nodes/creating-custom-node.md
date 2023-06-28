@@ -58,9 +58,9 @@ def TRAIN_TEST_SPLIT(
     return TrainTestSplitOutput(train=DataFrame(df=train), test=DataFrame(df=test))
 ```
 
-First, what if the node needs to import that isn't already installed? We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
+In this example, the node needs to import `sklearn` which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
 
-Second, the node needs to return two `DataContainers`. We can do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
+This node needs to return two `DataContainers`. We do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
 
 Looking at the parameters, we have one `DataContainer` input, named `default`. When we only have 1 input and we don't want to label it in the frontend, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter, that has a default value of 0.2.
 
