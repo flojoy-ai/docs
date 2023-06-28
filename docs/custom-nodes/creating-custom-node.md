@@ -10,47 +10,59 @@ Suppose we wanted to contribute a node that divides two items elementwise (for t
 
 ### Creating the source files
 
-To start, we create the file `DIVIDE/divide.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
+To start, we create the file `DIVIDE/DIVIDE.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
 
 We can then create our new function using the features discussed [here](../data-container).
 
-```python {title='divide.py'}
+```python {title='DIVIDE.py'}
 import numpy as np
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, OrderedPair
 
-@flojoy
-def DIVIDE(dc, params):
-
-    a = dc[0].y
-    b = dc[1].y
-
-    result = np.divide(a,b) #ensure elementwise
-    return DataContainer(
-        type='ordered_pair',
-        x={'a': a, 'b': b},
-        y = result
-    )
+@flojoy(node_type="ARITHMETIC")
+def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
+    x = a.x
+    result = np.divide(a.y,b.y)
+    return OrderedPair(x=x, y=result)
 ```
 
-### Creating the manifest
+Note: The type hints are important! This is how Flojoy differentiates between node inputs (that you connect edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (ex: `OrderedPair`, `Matrix`, etc.) is an input, and everything else is a parameter.
 
-To register our new node with Flojoy, let's make a new manifest file in [`PYTHON/nodes/MANIFEST`](https://github.com/flojoy-io/nodes/tree/main/MANIFEST).
+The `node_type` argument to the `flojoy` decorator specifies what kind of node this should display as in the frontend.
 
-```yaml {title='divide.manifest.yaml'}
-COMMAND:
-  - name: Divide
-    key: DIVIDE
-    type: ARITHMETIC
+### A more advanced example
+
+Let's say we want to create a node to wrap `scikit-learn`'s `train_test_split` function. This node will have to return two different `DataContainer`s.
+
+```python {title="TRAIN_TEST_SPLIT.py"}
+
+import pandas as pd
+from typing import cast
+from dataclasses import dataclass
+from flojoy import flojoy, DataFrame
+from sklearn.model_selection import train_test_split
+
+
+@dataclass(frozen=True)
+class TrainTestSplitOutput:
+    train: DataFrame
+    test: DataFrame
+
+
+@flojoy(deps={"scikit-learn": "1.2.2"})
+def TRAIN_TEST_SPLIT(
+    default: DataFrame, test_size: float = 0.2
+) -> TrainTestSplitOutput:
+    df = default.m
+
+    train, test = cast(list[pd.DataFrame], train_test_split(df, test_size))
+    return TrainTestSplitOutput(train=DataFrame(df=train), test=DataFrame(df=test))
 ```
-The `type` of the manifest should be one of the available child keys of the node type you are selecting. You can see all nodes [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts).
 
-For example, we are creating a `Transformers` node (see [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts#L160)). So we should select one of its child keys as our `type` (`ARITHMETIC`, `SIGNAL_PROCESSING`, `REGRESSIONS`, `IMAGE_PROCESSING`, `IMAGE_IDENTIFICATION`, `MATRIX_MANIPULATION`, `SELECT_ARRAY`).
+First, what if the node needs to import that isn't already installed? We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
 
-After creating `yaml` file, you can run 
-```
-python3 generate_manifest.py
-```
-to manifest the custom node.
+Second, the node needs to return two `DataContainers`. We can do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
+
+Looking at the parameters, we have one `DataContainer` input, named `default`. When we only have 1 input and we don't want to label it in the frontend, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter, that has a default value of 0.2.
 
 ### Creating Custom Component ( Frontend )
 
@@ -61,8 +73,8 @@ If you don't register the newly created node type,it will render the `DefaultNod
 import MyCustomComponent from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
 
 export const nodeConfigs = {
-	default: DefaultNode,
-	ARITHMETIC: MyCustomComponent,
+  default: DefaultNode,
+  ARITHMETIC: MyCustomComponent,
 };
 ```
 
