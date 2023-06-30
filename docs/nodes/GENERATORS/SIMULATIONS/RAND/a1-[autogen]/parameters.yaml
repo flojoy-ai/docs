@@ -1,0 +1,8 @@
+distribution:
+  default: uniform
+  options:
+  - normal
+  - uniform
+  - poisson
+  - dirichlet
+  type: select

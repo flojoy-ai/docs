@@ -5,17 +5,21 @@
                 "width": 150,
                 "height": 181,
                 "id": "LOOP-faed7bdc-f766-4742-b48f-d31a7b8083fb",
-                "type": "LOOP",
+                "type": "default",
+                "position": {
+                    "x": 199.83204415740659,
+                    "y": 241.1242907400127
+                },
                 "data": {
                     "id": "LOOP-faed7bdc-f766-4742-b48f-d31a7b8083fb",
-                    "label": "LOOP",
+                    "label": "loop",
                     "func": "LOOP",
                     "type": "LOOP",
                     "ctrls": {
                         "num_loops": {
                             "functionName": "LOOP",
                             "param": "num_loops",
-                            "value": "5"
+                            "value": "2"
                         }
                     },
                     "inputs": [
@@ -30,16 +34,12 @@
                             "type": "source"
                         }
                     ],
-                    "selected": false
+                    "selected": true
                 },
-                "position": {
-                    "x": 165.19821730816662,
-                    "y": 224.91813286421683
-                },
-                "selected": false,
+                "selected": true,
                 "positionAbsolute": {
-                    "x": 165.19821730816662,
-                    "y": 224.91813286421683
+                    "x": 199.83204415740659,
+                    "y": 241.1242907400127
                 },
                 "dragging": true
             },

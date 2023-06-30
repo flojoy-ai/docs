@@ -1,0 +1,12 @@
+The RAND node generates a random number or a list of numbers with
+    various different distributions
+
+    Parameters
+    ----------
+    distribution : str
+        the distribution over the random samples
+
+    Returns:
+    -------
+    DataContainer:
+        type 'ordered pair'
