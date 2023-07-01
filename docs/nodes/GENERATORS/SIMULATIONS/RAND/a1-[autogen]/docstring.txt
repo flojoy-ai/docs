@@ -1,5 +1,5 @@
-The RAND node generates a random number or a list of numbers with
-    various different distributions
+The RAND node generates a random number or a list of random numbers
+    depending on the distribution selected.
 
     Parameters
     ----------
