@@ -1,10 +1,10 @@
 
-The FEEDBACK node takes one reference node as parameters and returns the data from this node most recent output.
+The FEEDBACK node takes one reference node as  a parameter and returns the data from this node's most recent output.
 
 Parameters
 ----------
-node_reference
+referred_node
 
 Return
 ------
-Data container from node_reference
+Data container from referred_node
