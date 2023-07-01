@@ -4,5 +4,4 @@ distribution:
   - normal
   - uniform
   - poisson
-  - dirichlet
   type: select
