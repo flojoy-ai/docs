@@ -1,12 +1,5 @@
-prefix:
-  default: ''
-  type: string
-relative_delta:
-  default: true
-  type: boolean
-suffix:
-  default: ''
-  type: string
-title:
-  default: ''
-  type: string
+"COMMAND:\n  - name: BIG_NUMBER\n    key: BIG_NUMBER\n    type: PLOTLY_VISOR\n   \
+  \ parameters:\n      suffix:\n        type: string\n        default: \"\"\n    \
+  \  prefix:\n        type: string\n        default: \"\"\n      relative_delta:\n\
+  \        type: boolean\n        default: true\n      title:\n        type: string\n\
+  \        default: \"\""

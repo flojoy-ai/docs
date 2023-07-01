@@ -1,0 +1,3 @@
+"COMMAND:\n- name: HISTOGRAM\n  key: HISTOGRAM\n  type: PLOTLY_VISOR\n  inputs:\n\
+  \  - name: default\n    id: default\n    type: OrderedPair|DataFrame|Matrix\n  outputs:\n\
+  \  - name: default\n    id: default\n    type: Plotly\n"

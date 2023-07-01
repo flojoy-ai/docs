@@ -1,13 +1,7 @@
-from flojoy import DataContainer, flojoy
+from flojoy import DataContainer, flojoy, DefaultParams
 import scipy.stats
 
-
 @flojoy
-def MVSDIST(dc, params):
+def MVSDIST(default: DataContainer, default_parmas: DefaultParams):
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.mvsdist(
-            data=dc[0].y,
-        ),
-    )
+    return DataContainer(x=dc[0].y, y=scipy.stats.mvsdist(data=dc[0].y))

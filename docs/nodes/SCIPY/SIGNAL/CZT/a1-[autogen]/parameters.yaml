@@ -1,9 +1,3 @@
-axis:
-  default: -1
-  type: int
-m:
-  default: null
-  type: int
-w:
-  default: null
-  type: complex
+"COMMAND:\n  - name: Czt\n    key: CZT\n    type: SCIPY_SIGNAL\n    parameters: \n\
+  \      m: \n        type: int\n        default:  \n      w: \n        type: complex\n\
+  \        default:  \n      axis: \n        type: int\n        default: -1"

@@ -1,0 +1,3 @@
+"COMMAND:\n- name: TABLE\n  key: TABLE\n  type: PLOTLY_VISOR\n  inputs:\n  - name:\
+  \ default\n    id: default\n    type: DataFrame\n  outputs:\n  - name: default\n\
+  \    id: default\n    type: Plotly\n"

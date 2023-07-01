@@ -1,12 +1,5 @@
-alternative:
-  default: two-sided
-  type: string
-axis:
-  default: 0
-  type: int
-nan_policy:
-  default: propagate
-  type: string
-popmean:
-  default: null
-  type: float or array_like
+"COMMAND:\n  - name: Ttest_1samp\n    key: TTEST_1SAMP\n    type: SCIPY_STATS\n  \
+  \  parameters: \n      popmean: \n        type: float or array_like\n        default:\
+  \  \n      axis: \n        type: int\n        default: 0 \n      nan_policy: \n\
+  \        type: string\n        default: propagate \n      alternative: \n      \
+  \  type: string\n        default: two-sided"

@@ -1,0 +1,3 @@
+"COMMAND:\n- name: RAND\n  key: RAND\n  type: SIMULATION\n  inputs:\n  - name: default\n\
+  \    id: default\n    type: OrderedPair\n  outputs:\n  - name: default\n    id:\
+  \ default\n    type: OrderedPair\n"

@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: MATRIX_VIEW\n    key: MATRIX_VIEW\n    type: DATA_STRUCTURE\n\
+  \    ui_component_id: PLOTLY_VISOR"

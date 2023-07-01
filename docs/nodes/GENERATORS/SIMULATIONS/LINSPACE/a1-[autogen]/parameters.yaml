@@ -1,9 +1,4 @@
-end:
-  default: 0
-  type: float
-start:
-  default: 10
-  type: float
-step:
-  default: 1000
-  type: int
+"COMMAND:\n- name: LINSPACE\n  key: LINSPACE\n  type: default\n  parameters:\n   \
+  \ start:\n      type: float\n      default: 10\n    end:\n      type: float\n  \
+  \    default: 0\n    step:\n      type: int\n      default: 1000\n  outputs:\n \
+  \ - name: default\n    id: default\n    type: OrderedPair\n"

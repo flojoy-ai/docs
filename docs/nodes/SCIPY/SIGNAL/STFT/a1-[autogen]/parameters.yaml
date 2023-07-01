@@ -1,33 +1,10 @@
-axis:
-  default: -1
-  type: int
-boundary:
-  default: zeros
-  type: string
-detrend:
-  default: false
-  type: boolean
-fs:
-  default: 1.0
-  type: float
-nfft:
-  default: null
-  type: int
-noverlap:
-  default: null
-  type: int
-nperseg:
-  default: 256
-  type: int
-padded:
-  default: true
-  type: boolean
-return_onesided:
-  default: true
-  type: boolean
-scaling:
-  default: spectrum
-  type: string
-window:
-  default: hann
-  type: string
+"COMMAND:\n  - name: Stft\n    key: STFT\n    type: SCIPY_SIGNAL\n    parameters:\
+  \ \n      fs: \n        type: float\n        default: 1.0 \n      window: \n   \
+  \     type: string\n        default: hann \n      nperseg: \n        type: int\n\
+  \        default: 256 \n      noverlap: \n        type: int\n        default:  \n\
+  \      nfft: \n        type: int\n        default:  \n      detrend: \n        type:\
+  \ boolean\n        default: False \n      return_onesided: \n        type: boolean\n\
+  \        default: True \n      boundary: \n        type: string\n        default:\
+  \ zeros \n      padded: \n        type: boolean\n        default: True \n      axis:\
+  \ \n        type: int\n        default: -1 \n      scaling: \n        type: string\n\
+  \        default: spectrum"

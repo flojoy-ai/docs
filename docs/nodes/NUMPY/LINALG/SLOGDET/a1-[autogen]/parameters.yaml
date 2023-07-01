@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Slogdet\n    key: SLOGDET\n    type: NUMPY_LINALG"

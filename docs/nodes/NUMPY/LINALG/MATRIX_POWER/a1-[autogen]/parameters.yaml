@@ -1,3 +1,2 @@
-n:
-  default: null
-  type: int
+"COMMAND:\n  - name: Matrix_power\n    key: MATRIX_POWER\n    type: NUMPY_LINALG\n\
+  \    parameters: \n      n: \n        type: int\n        default:"

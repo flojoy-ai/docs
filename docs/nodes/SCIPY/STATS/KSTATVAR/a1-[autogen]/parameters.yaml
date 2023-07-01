@@ -1,12 +1,5 @@
-axis:
-  default: null
-  type: int or None
-keepdims:
-  default: false
-  type: boolean
-n:
-  default: 2
-  type: int
-nan_policy:
-  default: propagate
-  type: string
+"COMMAND:\n  - name: Kstatvar\n    key: KSTATVAR\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      n: \n        type: int\n        default: 2 \n      axis: \n        type:\
+  \ int or None\n        default:  \n      nan_policy: \n        type: string\n  \
+  \      default: propagate \n      keepdims: \n        type: boolean\n        default:\
+  \ False"

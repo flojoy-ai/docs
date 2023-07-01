@@ -8,7 +8,7 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (TODO: Machine-generate this section)
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -26,13 +26,20 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import Data1 from '!!raw-loader!./examples/EX1/output.txt';
+
 <AppDisplay 
-  GLink='VISUALIZERS/PLOTLY/BIG_NUMBER'
-  nodeLabel='BIG_NUMBER'>
+    data={Data1}
+    nodeLabel='BIG_NUMBER'>
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)

@@ -1,0 +1,67 @@
+from typing import Literal, Any
+from flojoy import (
+    flojoy,
+    DataContainer,
+    JobResultBuilder,
+    DefaultParams,
+    OrderedPair,
+)  # type:ignore
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)  # Multiple outputs
+class ConditionalOutput:
+    true: dict[str, str | list[str] | DataContainer] | DataContainer
+    false: dict[str, str | list[str] | DataContainer] | DataContainer
+
+
+@flojoy
+def CONDITIONAL(
+    x: OrderedPair,
+    y: OrderedPair,
+    default_parmas: DefaultParams,
+    operator_type: Literal["<=", ">", "<", ">=", "!=", "=="] = ">=",
+) -> ConditionalOutput:
+    
+
+    y_of_x = x.y
+    y_of_y = y.y
+    bool_ = compare_values(y_of_x[0], y_of_y[0], operator_type)
+    data = None
+    if operator_type in ["<=", "<"]:
+        if not bool_:
+            data = OrderedPair(x=x.x, y=y.y)
+        else:
+            data = OrderedPair(x=y.x, y=x.y)
+    elif bool_:
+        data = OrderedPair(x=x.x, y=y.y)
+    else:
+        data = OrderedPair(x=y.x, y=x.y)
+    next_direction = str(bool_).lower()
+    return ConditionalOutput(
+        true=JobResultBuilder()
+        .from_data(data)
+        .flow_to_directions([next_direction])
+        .build(),
+        false=JobResultBuilder()
+        .from_data(data)
+        .flow_to_directions([next_direction])
+        .build(),
+    )
+
+
+def compare_values(first_value: Any, second_value: Any, operator: str):
+    bool_: bool = False
+    if operator == "<=":
+        bool_ = first_value <= second_value
+    elif operator == ">":
+        bool_ = first_value > second_value
+    elif operator == "<":
+        bool_ = first_value < second_value
+    elif operator == ">=":
+        bool_ = first_value >= second_value
+    elif operator == "!=":
+        bool_ = first_value != second_value
+    else:
+        bool_ = first_value == second_value
+    return bool_

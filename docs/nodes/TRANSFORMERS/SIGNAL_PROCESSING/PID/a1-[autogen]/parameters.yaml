@@ -1,9 +1,4 @@
-Kd:
-  default: 356.25
-  type: float
-Ki:
-  default: 0.0143
-  type: float
-Kp:
-  default: 5
-  type: float
+"COMMAND:\n  - name: PID\n    key: PID\n    type: SIGNAL_PROCESSING\n    parameters:\n\
+  \      Kp: \n        type: float\n        default: 5\n      Ki: \n        type:\
+  \ float\n        default: 0.0143\n      Kd: \n        type: float\n        default:\
+  \ 356.25"

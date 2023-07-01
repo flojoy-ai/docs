@@ -1,6 +1,3 @@
-axis:
-  default: 0
-  type: int
-ddof:
-  default: 1
-  type: int
+"COMMAND:\n  - name: Gstd\n    key: GSTD\n    type: SCIPY_STATS\n    parameters: \n\
+  \      axis: \n        type: int\n        default: 0 \n      ddof: \n        type:\
+  \ int\n        default: 1"

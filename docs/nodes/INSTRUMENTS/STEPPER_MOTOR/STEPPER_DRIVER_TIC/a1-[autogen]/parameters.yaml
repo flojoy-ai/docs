@@ -1,6 +1,4 @@
-current_limit:
-  default: 30
-  type: int
-sleep_time:
-  default: 2
-  type: int
+"COMMAND:\n  - name: STEPPER_DRIVER_TIC\n    key: STEPPER_DRIVER_TIC\n    type: STEPPER\n\
+  \    parameters:\n        current_limit:\n          type: int\n          default:\
+  \ 30\n        sleep_time:\n          type: int\n          default: 2\n    pip_dependencies:\n\
+  \     - name : ticlib\n       v: \"0.2.2\""

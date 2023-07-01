@@ -1,3 +1,3 @@
-numbers:
-  default: 1
-  type: int
+"COMMAND:\n  - name: LABJACKU3\n    key: LABJACKU3\n    type: LABJACK\n    parameters:\n\
+  \      numbers:\n        type: int\n        default: 1\n    pip_dependencies:\n\
+  \      - name: labjackpython\n        v: \"2.1.0\""

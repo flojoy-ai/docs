@@ -1,6 +1,3 @@
-axis:
-  default: 0
-  type: int
-proportiontocut:
-  default: null
-  type: float
+"COMMAND:\n  - name: Trim_mean\n    key: TRIM_MEAN\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      proportiontocut: \n        type: float\n        default:  \n      axis:\
+  \ \n        type: int\n        default: 0"
