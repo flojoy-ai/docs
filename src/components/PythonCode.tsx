@@ -57,7 +57,7 @@ export default function PythonCode({ GLink, children }: PythonCodeProps) {
           </svg>
         </a>
       </div>
-      <details open>
+      <details>
         <CodeBlock className="language-python">{code}</CodeBlock>
       </details>
       <br></br>

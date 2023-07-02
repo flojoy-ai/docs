@@ -5,7 +5,6 @@ export default function SectionBreak() {
     <>
       <br></br>
       <br></br>
-      <hr></hr>
       <br></br>
       <br></br>
     </>

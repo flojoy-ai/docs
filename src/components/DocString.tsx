@@ -1,16 +1,14 @@
 import React from 'react';
-import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-import yaml from 'react-syntax-highlighter/dist/cjs/languages/hljs/yaml';
-import {
-  a11yDark,
-  a11yLight,
-} from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { useColorMode } from '@docusaurus/theme-common';
-
-SyntaxHighlighter.registerLanguage('yaml', yaml);
 
 type DocStringProps = {
   children: string;
+};
+
+const STYLES = {
+  boxShadow: 0 3px 10px rgb(0 0 0 / 0.2),
+  whiteSpace: 'pre-line',
+  padding: '20px'
 };
 
 export default function DocString({ children }: DocStringProps) {
@@ -29,12 +27,9 @@ export default function DocString({ children }: DocStringProps) {
 
   return (
     <>
-      <SyntaxHighlighter
-        language="yaml"
-        style={colorMode === 'dark' ? a11yDark : a11yLight}
-      >
+      <p style={{'white-space': 'pre-line;'}}>
         {content}
-      </SyntaxHighlighter>
+      </p>
       <br></br>
     </>
   );

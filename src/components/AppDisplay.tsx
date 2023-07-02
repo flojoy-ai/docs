@@ -140,7 +140,7 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
                 nodes={nodes}
                 nodeTypes={nodeTypes}
                 edges={edges}
-                fitView
+                fitView={{padding: 1}}
                 proOptions={{ hideAttribution: true }}
               >
                 <FlowMiniMap />
@@ -158,7 +158,7 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
                     nodes={resultNodes}
                     nodeTypes={resultNodeTypes}
                     edges={edges}
-                    fitView
+                    fitView={{padding: 1}}
                     proOptions={{ hideAttribution: true }}
                   >
                     <FlowMiniMap />

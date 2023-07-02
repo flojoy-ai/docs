@@ -6,7 +6,7 @@ type ParametersProps = {
 };
 
 export default function Parameters({ children }: ParametersProps) {
-  const ERROR = 'This node does not currently have any input parameters.';
+  const ERROR = '';
   if (children.trim() === '') {
     return <blockquote>{ERROR}</blockquote>;
   }
