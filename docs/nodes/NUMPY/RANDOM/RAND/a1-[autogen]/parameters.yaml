@@ -1,3 +1,7 @@
-size:
-  default: dc[0].y.shape
-  type: string
+distribution:
+  default: uniform
+  options:
+  - normal
+  - uniform
+  - poisson
+  type: select
