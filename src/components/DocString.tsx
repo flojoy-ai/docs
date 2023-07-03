@@ -6,7 +6,7 @@ type DocStringProps = {
 };
 
 const STYLES = {
-  boxShadow: 0 3px 10px rgb(0 0 0 / 0.2),
+  boxShadow: '0 3px 10px rgb(0 0 0 / 0.2)',
   whiteSpace: 'pre-line',
   padding: '20px'
 };
