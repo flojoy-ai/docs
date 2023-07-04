@@ -1,12 +1,6 @@
-file_type:
-  default: image
-  options:
-  - image
-  - csv
-  - json
-  - xml
-  - excel
-  type: select
-path:
-  default: ''
-  type: string
+"COMMAND:\n  - name: Local File\n    key: LOCAL_FILE\n    type: LOCAL_FILE_SYSTEM\n\
+  \    parameters:\n      file_type:\n        type: select\n        options:\n   \
+  \       - image\n          - csv\n          - json\n          - xml\n          -\
+  \ excel\n        default: image\n      path:\n        type: string\n        default:\
+  \ ''\n    pip_dependencies:\n      - name: xlrd\n        v: \"2.0.1\"\n      - name:\
+  \ lxml\n        v: \"4.9.2\""

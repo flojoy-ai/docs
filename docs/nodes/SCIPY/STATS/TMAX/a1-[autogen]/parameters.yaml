@@ -1,12 +1,5 @@
-axis:
-  default: 0
-  type: int
-inclusive:
-  default: true
-  type: boolean
-nan_policy:
-  default: propagate
-  type: string
-upperlimit:
-  default: null
-  type: float
+"COMMAND:\n  - name: Tmax\n    key: TMAX\n    type: SCIPY_STATS\n    parameters: \n\
+  \      upperlimit: \n        type: float\n        default:  \n      axis: \n   \
+  \     type: int\n        default: 0 \n      inclusive: \n        type: boolean\n\
+  \        default: True \n      nan_policy: \n        type: string\n        default:\
+  \ propagate"

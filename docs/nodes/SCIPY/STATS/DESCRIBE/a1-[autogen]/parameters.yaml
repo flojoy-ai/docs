@@ -1,12 +1,4 @@
-axis:
-  default: 0
-  type: int
-bias:
-  default: true
-  type: boolean
-ddof:
-  default: 1
-  type: int
-nan_policy:
-  default: propagate
-  type: string
+"COMMAND:\n  - name: Describe\n    key: DESCRIBE\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      axis: \n        type: int\n        default: 0 \n      ddof: \n       \
+  \ type: int\n        default: 1 \n      bias: \n        type: boolean\n        default:\
+  \ True \n      nan_policy: \n        type: string\n        default: propagate"

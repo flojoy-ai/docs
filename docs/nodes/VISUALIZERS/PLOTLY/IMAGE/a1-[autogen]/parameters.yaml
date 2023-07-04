@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Image Viewer\n    key: IMAGE\n    type: PLOTLY_VISOR"

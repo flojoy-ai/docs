@@ -1,5 +1,4 @@
-The BIG_NUMBER node generates a plotly figure displaying a big number
-    with optional prefix and suffix.
+The BIG_NUMBER node generates a plotly figure displaying a big number with optional prefix and suffix.
 
     Parameters:
     -----------
@@ -14,4 +13,4 @@ The BIG_NUMBER node generates a plotly figure displaying a big number
 
     Supported DC types:
     -------------------
-    `ordered_pair` or `scalar`
+    `ordered_pair`

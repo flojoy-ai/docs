@@ -1,14 +1,5 @@
-dataset_key:
-  default: wind
-  options:
-  - wind
-  - iris
-  - carshare
-  - tips
-  - election
-  - experiment
-  - gapminder
-  - medals_long
-  - medals_wide
-  - stocks
-  type: select
+"COMMAND:\n  - name: Plotly Dataset\n    key: PLOTLY_DATASET\n    type: SAMPLE_DATASET\n\
+  \    parameters:\n      dataset_key:\n        type: select\n        options:\n \
+  \         - wind\n          - iris\n          - carshare\n          - tips\n   \
+  \       - election\n          - experiment\n          - gapminder\n          - medals_long\n\
+  \          - medals_wide\n          - stocks\n        default: wind"

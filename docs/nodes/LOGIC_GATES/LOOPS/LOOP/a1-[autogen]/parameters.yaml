@@ -1,3 +1,4 @@
-num_loops:
-  default: -1
-  type: int
+"COMMAND:\n  - name: Loop\n    key: LOOP\n    type: LOOP\n    parameters:\n      num_loops:\n\
+  \        type: int\n        default: -1\n    inputs:\n      - name: end\n      \
+  \  id: end\n        type: source\n      - name: body\n        id: body\n       \
+  \ type: source"

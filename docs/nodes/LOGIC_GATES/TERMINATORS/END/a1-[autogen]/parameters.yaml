@@ -1,0 +1,2 @@
+"COMMAND:\n- name: END\n  key: END\n  type: TERMINATOR\n  inputs:\n  - name: default\n\
+  \    id: default\n    type: any\n  outputs: []\n"

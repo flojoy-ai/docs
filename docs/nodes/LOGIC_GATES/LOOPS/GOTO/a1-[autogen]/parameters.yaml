@@ -1,3 +1,2 @@
-goto_node_id:
-  default: ''
-  type: node_reference
+"COMMAND:\n  - name: GoTo\n    key: GOTO\n    type: LOOP\n    parameters:\n      goto_node_id:\n\
+  \        type: node_reference\n        default: \"\""

@@ -1,3 +1,2 @@
-referred_node:
-  default: ''
-  type: node_reference
+"COMMAND:\n  - name: Feedback\n    key: FEEDBACK\n    type: SIMULATION\n    parameters:\n\
+  \      referred_node:\n        type: node_reference\n        default: \"\""

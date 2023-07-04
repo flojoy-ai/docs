@@ -1,12 +1,5 @@
-cutoff_freq:
-  default: 10.0
-  type: float
-sample_rate:
-  default: 100
-  type: float
-stop_band_attenuation:
-  default: 60
-  type: float
-transition_width:
-  default: 5.0
-  type: float
+"COMMAND:\n  - name: Low-pass FIR Filter\n    key: FIR\n    type: SIGNAL_PROCESSING\n\
+  \    parameters:\n      sample_rate:\n        type: float\n        default: 100\n\
+  \      transition_width:\n        type: float\n        default: 5.0\n      stop_band_attenuation:\n\
+  \        type: float\n        default: 60\n      cutoff_freq:\n        type: float\n\
+  \        default: 10.0"

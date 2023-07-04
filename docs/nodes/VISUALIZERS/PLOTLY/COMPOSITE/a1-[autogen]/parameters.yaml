@@ -1,16 +1,8 @@
-first_figure:
-  default: scatter
-  options:
-  - bar
-  - line
-  - histogram
-  - scatter
-  type: select
-second_figure:
-  default: scatter
-  options:
-  - bar
-  - line
-  - histogram
-  - scatter
-  type: select
+"COMMAND:\n  - name: Composite plot \n    key: COMPOSITE\n    type: PLOTLY_VISOR\n\
+  \    inputs:\n      - name: \"\"\n        id: primary_trace\n        type: target\n\
+  \      - name: \"\"\n        id: secondary_trace\n        type: target\n    parameters:\n\
+  \      first_figure:\n        type: select\n        options:\n          - bar\n\
+  \          - line\n          - histogram\n          - scatter\n        default:\
+  \ scatter\n      second_figure:\n        type: select\n        options:\n      \
+  \    - bar\n          - line\n          - histogram\n          - scatter\n     \
+  \   default: scatter"
