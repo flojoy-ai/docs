@@ -11,9 +11,5 @@ def CONSTANT(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
         y = np.full(len(x), params["constant"])
         return DataContainer(x=x, y=y)
 
-    x = list()
-    for i in range(1000):
-        x.append(i)
-    y = np.full(1000, params["constant"])
-
-    return DataContainer(x=x, y=y)
+    else:
+        return DataContainer(type="scalar", c=params["constant"])
