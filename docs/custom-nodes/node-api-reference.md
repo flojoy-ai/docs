@@ -143,7 +143,7 @@ def PLOTLY_DATASET(dataset_key: Literal["wind", "iris", "carshare"] = "wind"): -
 
 ### Parameter type wrappers
 
-These are types that carry special meaning in Flojoy but just wrap regular python types. The inner value can be accessed by calling `.unwrap()` on the object.
+These are types that carry special meaning in Flojoy but just wrap regular Python types. The inner value can be accessed by calling `.unwrap()` on the object.
 
 `NodeReference`: A reference to another node in the flow chart
 `Array`: A generic array (`list[str | int | float]`)
