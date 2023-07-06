@@ -1,15 +1,6 @@
-function:
-  default: ''
-  type: string
-lower_bound_x:
-  default: 0.0
-  type: float
-lower_bound_y:
-  default: 0.0
-  type: float
-upper_bound_x:
-  default: 0.0
-  type: float
-upper_bound_y:
-  default: 0.0
-  type: float
+"COMMAND:\n  - name: Double_Definite_Integral\n    key: DOUBLE_DEFINITE_INTEGRAL\n\
+  \    type: CALCULUS\n    parameters:\n      function:\n        type: string\n  \
+  \      default: \"\"\n      upper_bound_x:\n        type: float\n        default:\
+  \ 0.0\n      lower_bound_x:\n        type: float\n        default: 0.0\n      upper_bound_y:\n\
+  \        type: float\n        default: 0.0\n      lower_bound_y:\n        type:\
+  \ float\n        default: 0.0\n"

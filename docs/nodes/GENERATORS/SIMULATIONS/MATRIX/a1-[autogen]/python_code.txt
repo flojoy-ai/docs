@@ -1,12 +1,12 @@
 import numpy as np
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, Matrix, DefaultParams
 
 
 @flojoy
-def MATRIX(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
+def MATRIX(params: DefaultParams) -> Matrix:
     
 
     np.random.seed()
     mat = np.random.randint(20, size=(params["row"], params["column"]))
 
-    return DataContainer(type="matrix", m=mat)
+    return Matrix(m=mat)

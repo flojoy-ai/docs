@@ -1,0 +1,8 @@
+"COMMAND:\n  - name: Conditional\n    key: CONDITIONAL\n    type: CONDITIONAL\n  \
+  \  parameters:\n      operator_type:\n        type: select\n        options:\n \
+  \         - \"<=\"\n          - \">\"\n          - \"<\"\n          - \">=\"\n \
+  \         - \"!=\"\n          - \"==\"\n        default: \">=\"\n    inputs:\n \
+  \     - name: x\n        id: first\n        type: target\n      - name: y\n    \
+  \    id: second\n        type: target\n      - name: \"true\"\n        id: \"true\"\
+  \n        type: source\n      - name: \"false\"\n        id: \"false\"\n       \
+  \ type: source"

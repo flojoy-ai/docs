@@ -1,0 +1,3 @@
+"COMMAND:\n  - name: Accuracy\n    key: ACCURACY\n    type: CLASSIFICATION\n    inputs:\n\
+  \      - name: true_data\n        id: true_data\n        type: target\n      - name:\
+  \ predicted\n        id: predicted\n        type: target\n"

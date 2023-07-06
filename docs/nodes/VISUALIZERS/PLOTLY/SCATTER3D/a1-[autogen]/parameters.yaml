@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: 3D Scatter Plot\n    key: SCATTER3D\n    type: PLOTLY_VISOR\n\
+  \    inputs: []"

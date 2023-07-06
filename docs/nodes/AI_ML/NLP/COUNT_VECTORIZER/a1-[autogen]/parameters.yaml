@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: CountVectorizer\n    key: COUNT_VECTORIZER\n    type: NLP\n \
+  \   pip_dependencies:\n      - name: scikit-learn\n        v: \"1.2.2\""

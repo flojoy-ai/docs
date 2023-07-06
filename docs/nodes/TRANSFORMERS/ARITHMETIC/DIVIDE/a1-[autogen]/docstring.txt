@@ -1,15 +1,3 @@
-The DIVIDE node divides the values from the two inputs.
-    The node can handle scalar and ordered pair inputs currently
-
-    TODO - reconcile.py so matrix and dataframe types can be handled.
-
-    Parameters
-    ----------
-    None
-
-    Returns:
-    --------
-    DataContainer:
-        type 'ordered pair' if one 'ordered pair' is input.
-
-        type 'scalar' if two 'scalars' are input.
+Divide 2 or more numeric arrays, matrices, dataframes, or constants element-wise.
+    When a constant is added to an array or matrix, each element in the array or
+    matrix will be increased by the constant value.

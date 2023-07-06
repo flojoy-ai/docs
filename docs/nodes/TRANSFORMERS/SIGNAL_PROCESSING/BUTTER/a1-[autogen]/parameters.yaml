@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Butterworth Filter\n    key: BUTTER\n    type: SIGNAL_PROCESSING"

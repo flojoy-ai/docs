@@ -1,4 +1,4 @@
-from flojoy import flojoy, DataContainer, JobResultBuilder
+from flojoy import flojoy, DataFrame, JobResultBuilder
 from typing import Union
 import numpy as np
 from scipy.io import loadmat
@@ -7,12 +7,8 @@ import pandas as pd
 
 
 @flojoy
-def OPEN_MATLAB(
-    dc_inputs: list[DataContainer], params: dict
-) -> Union[DataContainer, dict]:
+def OPEN_MATLAB(file_path: str = "") -> Union[DataFrame, dict]:
     
-    file_path: str = params["path"]
-
     if file_path == "":
         file_path = path.join(
             path.dirname(path.abspath(__file__)),
@@ -33,4 +29,4 @@ def OPEN_MATLAB(
 
     df = pd.DataFrame(np.hstack((X, Y)))
 
-    return DataContainer(type="dataframe", m=df)
+    return DataFrame(m=df)

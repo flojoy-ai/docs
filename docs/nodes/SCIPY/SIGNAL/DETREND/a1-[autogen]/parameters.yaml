@@ -1,12 +1,5 @@
-axis:
-  default: -1
-  type: int
-bp:
-  default: 0
-  type: int
-overwrite_data:
-  default: false
-  type: boolean
-type:
-  default: linear
-  type: string
+"COMMAND:\n  - name: Detrend\n    key: DETREND\n    type: SCIPY_SIGNAL\n    parameters:\
+  \ \n      axis: \n        type: int\n        default: -1 \n      type: \n      \
+  \  type: string\n        default: linear \n      bp: \n        type: int\n     \
+  \   default: 0 \n      overwrite_data: \n        type: boolean\n        default:\
+  \ False"

@@ -1,3 +1,4 @@
-constant:
-  default: 3
-  type: float
+"COMMAND:\n- name: CONSTANT\n  key: CONSTANT\n  type: SIMULATION\n  inputs:\n  - name:\
+  \ default\n    id: default\n    type: OrderedPair\n  parameters:\n    constant:\n\
+  \      type: float\n      default: 3.0\n  outputs:\n  - name: default\n    id: default\n\
+  \    type: OrderedPair\n"

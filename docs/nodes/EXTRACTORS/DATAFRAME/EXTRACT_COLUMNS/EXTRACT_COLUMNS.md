@@ -1,4 +1,5 @@
-[//]: # 'Custom component imports'
+
+[//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
@@ -7,7 +8,7 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # 'TODO: Machine-generate this section'
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -19,7 +20,9 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <SectionBreak />
 
-[//]: # 'Examples'
+    
+
+[//]: # (Examples)
 
 ## Examples
 
@@ -30,14 +33,16 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 <AppDisplay 
     data={Data1}
     nodeLabel='EXTRACT_COLUMNS'>
-{App1}
+    {App1}
 </AppDisplay>
 
 <Example1 />
 
 <SectionBreak />
+  
+    
 
-[//]: # 'Appendix'
+[//]: # (Appendix)
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
@@ -48,3 +53,5 @@ import Media from '!!raw-loader!./appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Media}</AppendixSection>
+
+

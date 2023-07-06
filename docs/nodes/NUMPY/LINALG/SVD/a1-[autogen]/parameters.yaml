@@ -1,9 +1,4 @@
-compute_uv:
-  default: true
-  type: boolean
-full_matrices:
-  default: true
-  type: boolean
-hermitian:
-  default: false
-  type: boolean
+"COMMAND:\n  - name: Svd\n    key: SVD\n    type: NUMPY_LINALG\n    parameters: \n\
+  \      full_matrices: \n        type: boolean\n        default: True \n      compute_uv:\
+  \ \n        type: boolean\n        default: True \n      hermitian: \n        type:\
+  \ boolean\n        default: False"
