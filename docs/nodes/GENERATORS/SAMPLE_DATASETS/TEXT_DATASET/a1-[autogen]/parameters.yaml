@@ -1,19 +1,7 @@
-categories:
-  default: ''
-  type: array
-remove_footers:
-  default: false
-  type: boolean
-remove_headers:
-  default: false
-  type: boolean
-remove_quotes:
-  default: false
-  type: boolean
-subset:
-  default: train
-  options:
-  - train
-  - test
-  - all
-  type: select
+"COMMAND:\n  - name: Text Dataset\n    key: TEXT_DATASET\n    type: SAMPLE_DATASET\n\
+  \    parameters:\n      subset:\n        type: select\n        options:\n      \
+  \    - train \n          - test \n          - all\n        default: train\n    \
+  \  categories:\n        type: array\n        default: \"\"\n      remove_headers:\n\
+  \        type: boolean\n        default: false\n      remove_footers:\n        type:\
+  \ boolean\n        default: false\n      remove_quotes:\n        type: boolean\n\
+  \        default: false"

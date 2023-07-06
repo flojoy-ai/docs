@@ -1,6 +1,3 @@
-axis:
-  default: null
-  type: None
-method:
-  default: average
-  type: string
+"COMMAND:\n  - name: Rankdata\n    key: RANKDATA\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      method: \n        type: string\n        default: average \n      axis:\
+  \ \n        type: None\n        default:"

@@ -1,3 +1,2 @@
-p:
-  default: null
-  type: None
+"COMMAND:\n  - name: Cond\n    key: COND\n    type: NUMPY_LINALG\n    parameters:\
+  \ \n      p: \n        type: None\n        default:"

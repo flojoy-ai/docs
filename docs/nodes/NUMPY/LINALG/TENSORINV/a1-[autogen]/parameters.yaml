@@ -1,3 +1,2 @@
-ind:
-  default: 2
-  type: int
+"COMMAND:\n  - name: Tensorinv\n    key: TENSORINV\n    type: NUMPY_LINALG\n    parameters:\
+  \ \n      ind: \n        type: int\n        default: 2"

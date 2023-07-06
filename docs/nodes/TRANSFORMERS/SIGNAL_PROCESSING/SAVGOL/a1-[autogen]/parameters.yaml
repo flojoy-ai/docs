@@ -1,6 +1,3 @@
-porder:
-  default: 1
-  type: int
-wlen:
-  default: 3
-  type: int
+"COMMAND:\n  - name: Savitzky-Golay Filter\n    key: SAVGOL\n    type: SIGNAL_PROCESSING\n\
+  \    parameters:\n      wlen:\n        type: int\n        default: 3\n      porder:\n\
+  \        type: int\n        default: 1"

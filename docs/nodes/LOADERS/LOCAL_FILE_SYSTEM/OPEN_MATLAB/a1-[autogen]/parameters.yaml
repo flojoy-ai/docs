@@ -1,3 +1,2 @@
-path:
-  default: ''
-  type: string
+"COMMAND:\n  - name: Open Matlab\n    key: OPEN_MATLAB\n    type: LOCAL_FILE_SYSTEM\n\
+  \    parameters:\n      path:\n        type: string\n        default: ''"

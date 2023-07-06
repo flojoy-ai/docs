@@ -1,9 +1,4 @@
-axis:
-  default: 0
-  type: int
-proportiontocut:
-  default: null
-  type: float
-tail:
-  default: right
-  type: string
+"COMMAND:\n  - name: Trim1\n    key: TRIM1\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      proportiontocut: \n        type: float\n        default:  \n      tail:\
+  \ \n        type: string\n        default: right \n      axis: \n        type: int\n\
+  \        default: 0"
