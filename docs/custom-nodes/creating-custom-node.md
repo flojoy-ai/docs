@@ -1,56 +1,39 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 id: creating-custom-node
 title: Creating a custom node
+description: Learn how to create a custom node in Flojoy by writing a Python function.
 ---
 
 ## Division: an example
 
-Suppose we wanted to contribute a node that divides two items elementwise (for the case of vector inputs, for instance). Although we could do this with the built-in `invert` and `multiply` nodes, we want to create this node for convenience.
+Suppose we wanted to contribute a node that divides two items element-wise (for the case of vector inputs, for instance). Although we could do this with the built-in `invert` and `multiply` nodes, we want to create this node for convenience.
 
 ### Creating the source files
 
-To start, we create the file `DIVIDE/divide.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
+To start, we create the file `DIVIDE/DIVIDE.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
 
 We can then create our new function using the features discussed [here](../data-container).
 
-```python {title='divide.py'}
+```python {title='DIVIDE.py'}
 import numpy as np
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, OrderedPair
 
 @flojoy
-def DIVIDE(dc, params):
+def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
+    result = np.divide(a.y, b.y)
 
-    a = dc[0].y
-    b = dc[1].y
-
-    result = np.divide(a,b) #ensure elementwise
-    return DataContainer(
-        type='ordered_pair',
-        x={'a': a, 'b': b},
+    return OrderedPair(
+        x = a.x,
         y = result
     )
 ```
 
-### Creating the manifest
+`OrderedPair` is a class that inherits from `DataContainer`. Function parameters that have a type annotation that is a `DataContainer` are interpreted as **node inputs**, meaning they are passed in by connecting nodes together. Here, the `DIVIDE` node takes in two `OrderedPair`s, `a` and `b`, and returns a new `OrderedPair`.
 
-To register our new node with Flojoy, let's make a new manifest file in [`PYTHON/nodes/MANIFEST`](https://github.com/flojoy-io/nodes/tree/main/MANIFEST).
+Note that unlike normal Python functions, type annotations for Flojoy nodes are **required** for the node to function properly.
 
-```yaml {title='divide.manifest.yaml'}
-COMMAND:
-  - name: Divide
-    key: DIVIDE
-    type: ARITHMETIC
-```
-The `type` of the manifest should be one of the available child keys of the node type you are selecting. You can see all nodes [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts).
-
-For example, we are creating a `Transformers` node (see [here](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts#L160)). So we should select one of its child keys as our `type` (`ARITHMETIC`, `SIGNAL_PROCESSING`, `REGRESSIONS`, `IMAGE_PROCESSING`, `IMAGE_IDENTIFICATION`, `MATRIX_MANIPULATION`, `SELECT_ARRAY`).
-
-After creating `yaml` file, you can run 
-```
-python3 generate_manifest.py
-```
-to manifest the custom node.
+For more information, see the [API Reference](../node-api-reference).
 
 ### Creating Custom Component ( Frontend )
 
@@ -61,8 +44,8 @@ If you don't register the newly created node type,it will render the `DefaultNod
 import MyCustomComponent from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
 
 export const nodeConfigs = {
-	default: DefaultNode,
-	ARITHMETIC: MyCustomComponent,
+  default: DefaultNode,
+  ARITHMETIC: MyCustomComponent,
 };
 ```
 
