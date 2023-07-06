@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 id: node-api-reference
-title: Node API Reference
+title: Flojoy Node API Reference
 description: API reference for developing Flojoy nodes in Python.
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 id: data-container
-title: Data Container
+title: DataContainers
 description: Flojoy's DataContainer type is the fundamental object used to pass data between nodes.
 ---
 
