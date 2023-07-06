@@ -46,10 +46,10 @@ const sidebars = {
           items: [
             'custom-nodes/custom-nodes',
             'custom-nodes/data-container',
-            'custom-nodes/manifest',
             'custom-nodes/creating-custom-node',
             'custom-nodes/custom-category',
             'custom-nodes/contributing-nodes',
+            'custom-nodes/node-api-reference',
           ],
         },
       ],
