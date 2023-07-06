@@ -4,7 +4,7 @@ id: contributing-nodes
 title: Contributing Nodes
 ---
 
-Currently there are two submodules in the flojoy studio repository. The **nodes** submodule includes all the node definitions.
+Currently there are only one submodule in the flojoy studio repository. The **nodes** submodule, that includes all the node definitions.
 
 ### Contributing to Nodes Submodule
 

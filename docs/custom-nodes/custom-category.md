@@ -8,25 +8,30 @@ As you create custom nodes, it is also possible to create categories if any of t
 
 ### Informing the UI
 
-Flojoy relies on a different routine to tell which Python functions should be placed in what category in the UI. This routine needs to be made aware of the new category.
+Flojoy relies on folder structure to tell which Python functions should be placed in what category in the UI. You can easily introduce a new category following Flojoy node's folder structure below:
 
-To do this, edit [`src/utils/ManifestLoader.ts`](https://github.com/flojoy-io/studio/blob/main/src/utils/ManifestLoader.ts) by adding a new element to the `CMND_TREE` variable. This new element should have a `title` key (the title of the new category as to be shown in the UI), and a `child` key, which will control which subcategories this new element controls.
+```txt
+├── nodes
+│   ├── Parent Category
+│   │   ├── Sub Category
+│   │   │   ├── Node
+│   │   │   │   ├── Node.py
+│   │   │   │   ├── example.md
 
-```typescript {title='ManifestLoader.ts'}
-  {
-    title: "My new category",
-    child: [
-        {
-            name: "My subcategory", key: "MY_NEW_KEY_FOR_THIS_SUBCATEGORY"
-        }
-    ]
-  }
 ```
 
 ### Updating the internal databases
 
 :::info
-This is now performed at startup of Flojoy.
+This is now performed at startup of Flojoy. So simply rerunning the startup script is sufficient.
 :::
 
-Now that you have incorporated these changes to make a new category, the internal Python databases need to be updated as before by running `python3 write_python_metadata.py` in the root directory.
+To update the databases with the new category and the functionalities of the nodes (including your new custom node), run following commands in the root directory:
+
+```bash
+python3 generate_manifest.py # generates nodes manifest for Front-end
+```
+
+```bash
+python3 write_python_metadata.py # writes nodes metatdata to Front-end
+```

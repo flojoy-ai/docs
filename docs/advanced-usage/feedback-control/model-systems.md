@@ -47,18 +47,23 @@ This basic second order system is implemented in Flojoy in the [`SECOND_ORDER_SY
 
 ``` python title=SECOND_ORDER_SYSTEM.py
 import numpy as np
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, OrderedPair, DefaultParams
 from node_sdk.small_memory import SmallMemory
 
-memory_key = 'SECOND_ORDER_SYSTEM'
+memory_key = "SECOND_ORDER_SYSTEM"
 
-@flojoy
-def SECOND_ORDER_SYSTEM(v, params):
+
+@flojoy(inject_node_metadata=True)
+def SECOND_ORDER_SYSTEM(
+    default: OrderedPair,
+    default_params: DefaultParams,
+    d1: float = 250,
+    d2: float = 100,
+):
     # Let's first define things that won't change over
     # each iteration: time constants, etc ...
-    d1 = float(params['d1']) #first time constant in us, 250
-    d2 = float(params['d2']) #second time constant in us, 100
-    node_id = params.get('node_id', 0)
+
+    node_id = default_params.node_id
 
     # ... and now some helper functions
     x1 = np.exp(-1.0 / d1) if d1 > 0 else 0.0

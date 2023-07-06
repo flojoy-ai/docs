@@ -32,11 +32,21 @@ The API needs a few parameters to be able to store data internally.
     - strings
     - dictionaries
 
-In Flojoy, we can easily retrieve the node ID via
+In Flojoy, we can access to node id with passing `inject_node_metadata=True` to `flojoy` decorator and adding a parameter with `DefaultParams` class type annotation like below:
+```python
+from flojoy import flojoy, DefaultParams
+
+@flojoy(inject_node_metadata=True)
+def Node(..., default_params: DefaultParams):
+    ...
+```
+Then we can easily access to node id as following
 
 ```python
-node_id = params.get('node_id', 0)
+node_id = default_params.node_id
 ```
+Know more about [`DefaultParams`](../custom-nodes/node-api-reference.md#defaultparams)
+
 and the memory key for that given function is usually defined in the header of the Python file for that node. To then write data to memory, we simply instantiate the API and call the appropriate method:
 
 ```python

@@ -31,7 +31,9 @@ def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
 
 `OrderedPair` is a class that inherits from `DataContainer`. Function parameters that have a type annotation that is a `DataContainer` are interpreted as **node inputs**, meaning they are passed in by connecting nodes together. Here, the `DIVIDE` node takes in two `OrderedPair`s, `a` and `b`, and returns a new `OrderedPair`.
 
-Note that unlike normal Python functions, type annotations for Flojoy nodes are **required** for the node to function properly.
+:::caution
+Unlike normal Python functions, type annotations for Flojoy nodes are **required** for the node to function properly.
+:::
 
 For more information, see the [API Reference](../node-api-reference).
 
@@ -52,13 +54,17 @@ export const nodeConfigs = {
 ### Registering the new function with Flojoy
 
 :::info
-This is now performed at startup of Flojoy.
+This is now performed at startup of Flojoy. So simply rerunning the startup script is sufficient.
 :::
 
-To update the databases with the functionalities of the nodes (including your new custom node), run the following in the root directory:
+To update the databases with the functionalities of the nodes (including your new custom node), run following commands in the root directory:
 
 ```bash
-python3 write_python_metadata.py
+python3 generate_manifest.py # generates nodes manifest for Front-end
+```
+
+```bash
+python3 write_python_metadata.py # writes nodes metatdata to Front-end
 ```
 
 ### Almost done! Housekeeping time
@@ -97,16 +103,11 @@ When creating custom nodes, make sure to go through the following steps:
 
 - [x] Did I make my new function correctly?
   - [x] Did I add the `flojoy` decorator to my function?
-  - [x] Did I pass two arguments to my function, the `DataContainer` inputs and the parameters `params` from the manifest?
-- [x] Did I create a manifest file, correctly adding the correct category key?
+  - [x] Did I add inputs and parameters for the node correctly with proper type annotations?
 - [x] Did I generate the manifest for the node?
 - [x] Did I update the Python metadata?
 
 ### Common Errors:
-
-- `[2023-05-17 08:29:33.105-RQ-watch] AttributeError: module 'nodes.GENERATORS.SIMULATIONS.TESTING.TESTING' has no attribute 'TESTING'`
-
-This likely means your function name does not match the Key in your manifest.yaml file.
 
 - `[2023-05-17 08:59:25.876-RQ-watch] cmd = node["cmd"]    KeyError: 'cmd'`
 
