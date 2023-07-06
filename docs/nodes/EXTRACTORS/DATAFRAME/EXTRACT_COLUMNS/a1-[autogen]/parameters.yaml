@@ -1,3 +1,2 @@
-columns:
-  default: ''
-  type: array
+"COMMAND:\n  - name: Extract Columns \n    key: EXTRACT_COLUMNS\n    type: DATAFRAME\n\
+  \    parameters:\n      columns:\n        type: array\n        default: \"\""

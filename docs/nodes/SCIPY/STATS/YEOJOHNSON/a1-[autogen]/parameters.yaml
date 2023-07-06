@@ -1,3 +1,2 @@
-lmbda:
-  default: null
-  type: float
+"COMMAND:\n  - name: Yeojohnson\n    key: YEOJOHNSON\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      lmbda: \n        type: float\n        default:"

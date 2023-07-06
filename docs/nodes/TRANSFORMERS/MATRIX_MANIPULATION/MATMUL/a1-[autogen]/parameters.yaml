@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Matmul\n    key: MATMUL\n    type: MATRIX_MANIPULATION\n    inputs:\n\
+  \      - name: y\n        id: matmul_y\n        type: target"

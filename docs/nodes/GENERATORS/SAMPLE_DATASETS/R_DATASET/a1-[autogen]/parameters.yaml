@@ -1,87 +1,27 @@
-dataset_key:
-  default: iris
-  options:
-  - ability.cov
-  - airmiles
-  - AirPassengers
-  - airquality
-  - anscombe
-  - attenu
-  - attitude
-  - austres
-  - BJsales
-  - BOD
-  - cars
-  - ChickWeight
-  - chickwts
-  - co2
-  - crimtab
-  - discoveries
-  - DNase
-  - esoph
-  - euro
-  - EuStockMarkets
-  - faithful
-  - Formaldehyde
-  - freeny
-  - HairEyeColor
-  - Harman23
-  - Harman74
-  - Indometh
-  - infert
-  - InsectSprays
-  - iris
-  - iris3
-  - islands
-  - JohnsonJohnson
-  - LakeHuron
-  - LakeHuron
-  - LifeCycleSavings
-  - Loblolly
-  - longley
-  - lynx
-  - morley
-  - mtcars
-  - nhtemp
-  - Nile
-  - nottem
-  - npk
-  - occupationalStatus
-  - Orange
-  - OrchardSprays
-  - PlantGrowth
-  - precip
-  - presidents
-  - pressure
-  - Puromycin
-  - quakes
-  - randu
-  - rivers
-  - rock
-  - Seatbelts
-  - sleep
-  - stackloss
-  - sunspot.month
-  - sunspot.year
-  - sunspots
-  - swiss
-  - Theoph
-  - Titanic
-  - ToothGrowth
-  - treering
-  - trees
-  - UCBAdmissions
-  - UKDriverDeaths
-  - UKgas
-  - USAccDeaths
-  - USArrests
-  - USJudgeRatings
-  - USPersonalExpenditure
-  - USPersonalExpenditure
-  - VADeaths
-  - volcano
-  - warpbreaks
-  - women
-  - WorldPhones
-  - WWWusage
-  type: select
+"COMMAND:\n  - name: R Dataset\n    key: R_DATASET\n    type: SAMPLE_DATASET\n   \
+  \ parameters:\n      dataset_key:\n        type: select\n        options:\n    \
+  \      - ability.cov\n          - airmiles\n          - AirPassengers\n        \
+  \  - airquality\n          - anscombe\n          - attenu\n          - attitude\n\
+  \          - austres\n          - BJsales\n          - BOD\n          - cars\n \
+  \         - ChickWeight\n          - chickwts\n          - co2\n          - crimtab\n\
+  \          - discoveries\n          - DNase\n          - esoph\n          - euro\n\
+  \          - EuStockMarkets\n          - faithful\n          - Formaldehyde\n  \
+  \        - freeny\n          - HairEyeColor\n          - Harman23\n          - Harman74\n\
+  \          - Indometh\n          - infert\n          - InsectSprays\n          -\
+  \ iris\n          - iris3\n          - islands\n          - JohnsonJohnson\n   \
+  \       - LakeHuron\n          - LakeHuron\n          - LifeCycleSavings\n     \
+  \     - Loblolly\n          - longley\n          - lynx\n          - morley\n  \
+  \        - mtcars\n          - nhtemp\n          - Nile\n          - nottem\n  \
+  \        - npk\n          - occupationalStatus\n          - Orange\n          -\
+  \ OrchardSprays\n          - PlantGrowth\n          - precip\n          - presidents\n\
+  \          - pressure\n          - Puromycin\n          - quakes\n          - randu\n\
+  \          - rivers\n          - rock\n          - Seatbelts\n          - sleep\n\
+  \          - stackloss\n          - sunspot.month\n          - sunspot.year\n  \
+  \        - sunspots\n          - swiss\n          - Theoph\n          - Titanic\n\
+  \          - ToothGrowth\n          - treering\n          - trees\n          - UCBAdmissions\n\
+  \          - UKDriverDeaths\n          - UKgas\n          - USAccDeaths\n      \
+  \    - USArrests\n          - USJudgeRatings\n          - USPersonalExpenditure\n\
+  \          - USPersonalExpenditure\n          - VADeaths\n          - volcano\n\
+  \          - warpbreaks\n          - women\n          - WorldPhones\n          -\
+  \ WWWusage\n        default: iris\n    pip_dependencies:\n      - name: rdatasets\n\
+  \        v: \"0.1.0\""

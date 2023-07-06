@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: 3D Surface Plot\n    key: SURFACE3D\n    type: PLOTLY_VISOR"

@@ -1,12 +1,6 @@
-current_limit:
-  default: 30
-  type: int
-knob_value:
-  default: 0
-  type: int
-sleep_time:
-  default: 2
-  type: int
-speed:
-  default: 200000
-  type: int
+"COMMAND:\n  - name: STEPPER_DRIVER_TIC_KNOB\n    key: STEPPER_DRIVER_TIC_KNOB\n \
+  \   type: STEPPER2\n    parameters:\n          knob_value:\n            type: int\n\
+  \            default: 0\n          current_limit:\n             type: int\n    \
+  \         default: 30\n          speed :\n            type: int\n            default:\
+  \ 200000\n          sleep_time:\n            type: int\n            default: 2\n\
+  \    pip_dependencies:\n     - name : ticlib\n       v: \"0.2.2\""

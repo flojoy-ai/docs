@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: Timer\n    key: TIMER\n    type: TIMER\n    parameters:\n   \
+  \   sleep_time:\n        type: float\n        default: 0"
