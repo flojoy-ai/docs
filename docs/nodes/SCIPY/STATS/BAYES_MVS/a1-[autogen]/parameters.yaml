@@ -1,3 +1,2 @@
-alpha:
-  default: 0.9
-  type: float
+"COMMAND:\n  - name: Bayes_mvs\n    key: BAYES_MVS\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      alpha: \n        type: float\n        default: 0.9"

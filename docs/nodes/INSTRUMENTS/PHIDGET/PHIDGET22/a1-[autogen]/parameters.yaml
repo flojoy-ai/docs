@@ -1,9 +1,4 @@
-calibration1:
-  default: 0.015
-  type: float
-calibration2:
-  default: 0.06
-  type: float
-n_sensors:
-  default: 3
-  type: int
+"COMMAND:\n  - name: PHIDGET22\n    key: PHIDGET22\n    type: PHIDGET\n    parameters:\n\
+  \      n_sensors:\n        type: int\n        default: 3\n      calibration1 :\n\
+  \        type: float\n        default: 0.015\n      calibration2:\n        type:\
+  \ float\n        default: 0.06\n    pip_dependencies:\n      - name: Phidget22"

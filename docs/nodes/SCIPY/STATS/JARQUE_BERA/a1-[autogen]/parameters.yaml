@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Jarque_bera\n    key: JARQUE_BERA\n    type: SCIPY_STATS"

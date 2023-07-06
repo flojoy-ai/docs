@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Bar Chart\n    key: BAR\n    type: PLOTLY_VISOR"
