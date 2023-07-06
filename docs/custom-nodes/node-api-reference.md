@@ -45,7 +45,7 @@ def SINE(default: OrderedPair) -> OrderedPair:
 
 ### Unions
 
-Node inputs or outputs with multiple possible types can be indicated with a type union. Note that the Flojoy editor's type checking will allow a connection if there is any overlap at all between two types. (For example, passing `Matrix | DataFrame | Greyscale` to an input of type `Matrix | OrderedPair | OrderedPair` is allowed).
+Node inputs or outputs with multiple possible types can be indicated with a type union. Note that the Flojoy editor's type checking will allow a connection if there is any overlap at all between two types. (For example, passing `Matrix | DataFrame | Greyscale` to an input of type `Matrix | OrderedPair | OrderedTriple` is allowed).
 
 ```python
 @flojoy
@@ -146,6 +146,7 @@ def PLOTLY_DATASET(dataset_key: Literal["wind", "iris", "carshare"] = "wind"): -
 These are types that carry special meaning in Flojoy but just wrap regular Python types. The inner value can be accessed by calling `.unwrap()` on the object.
 
 `NodeReference`: A reference to another node in the flow chart
+
 `Array`: A generic array (`list[str | int | float]`)
 
 ```python

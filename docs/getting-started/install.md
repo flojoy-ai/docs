@@ -109,10 +109,14 @@ python3.10 -m venv env
 <summary>Optional flags</summary>
   <ul>
     <li><code>-v</code> provides the path to the Python virtual environment</li>
-    <li><code>-r</code> shuts down the existing redis server and spin up a fresh one</li>
+    <li><code>-r</code> shuts down the existing redis server and spin up a fresh one (For Mac and Linux)</li>
     <li><code>-n</code> skips installing the Node packages in package.json</li>
     <li><code>-p</code> skips installing the Python packages in requirements.txt</li>
     <li><code>-P</code> runs the backend server on a specific port</li>
+    <li><code>-s</code> To **NOT** update submodules</li>
+    <li><code>-S</code> To **NOT** enable Sentry</li>
+    <li><code>-T</code> To enable Telemetry</li>
+    <li><code>-d</code> To enable debug mode for backend</li>
   </ul>
 </details>
 

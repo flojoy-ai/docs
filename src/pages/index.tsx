@@ -30,9 +30,9 @@ function HomepageHeader() {
         <div className="container text-center">
           <div className={styles.heroTop}>
             <h1 className="hero__title hero__font__family">
-		<span>FLO</span>
-		<span>JOY</span>
-	    </h1>
+              <span>FLO</span>
+              <span>JOY</span>
+            </h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className="d-flex align-center justify-center gap-3 flex-column-lg">
@@ -41,7 +41,8 @@ function HomepageHeader() {
                 className="button button--primary button--lg button--round"
                 to={downloadLinks.windows}
               >
-                <FaWindows />&nbsp;
+                <FaWindows />
+                &nbsp;
                 <span class="download__text">Download</span> For Windows
               </Link>
             </div>
@@ -50,7 +51,8 @@ function HomepageHeader() {
                 className="button button--primary button--lg button--round"
                 to={downloadLinks.mac}
               >
-                <FaApple />&nbsp;
+                <FaApple />
+                &nbsp;
                 <span class="download__text">Download</span> For Mac
               </Link>
             </div>

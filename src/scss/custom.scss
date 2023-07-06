@@ -11,12 +11,11 @@
 @use 'icons';
 @use 'navbar';
 
-
 @font-face {
-  font-family: "PonyMaker";
-  src: url('https://cdn.jsdelivr.net/gh/flojoy-io/studio@0.1.1/src/PonyMaker.woff') format('woff');
+  font-family: 'PonyMaker';
+  src: url('https://cdn.jsdelivr.net/gh/flojoy-io/studio@0.1.1/src/PonyMaker.woff')
+    format('woff');
 }
-
 
 .bg-dark {
   background-color: #000;
@@ -48,8 +47,9 @@ body {
   }
 }
 
-.hero__title, .hero__subtitle {
-  background: linear-gradient(90deg, #99F5FF 0%, #7B61FF 50%, #7B61FF 100%);
+.hero__title,
+.hero__subtitle {
+  background: linear-gradient(90deg, #99f5ff 0%, #7b61ff 50%, #7b61ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,16 +156,16 @@ body {
 .quickstart__container {
   padding: 20px;
   li {
-      padding: 10px 0;
-      font-size: 1.2rem;
+    padding: 10px 0;
+    font-size: 1.2rem;
   }
   a > span {
-      padding: 5px 20px;
-      margin-right: 10px;
-      border-radius: 20px !important;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border-radius: 20px !important;
   }
   .hero__subtitle {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 }
 

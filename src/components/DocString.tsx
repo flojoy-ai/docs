@@ -8,7 +8,7 @@ type DocStringProps = {
 const STYLES = {
   boxShadow: '0 3px 10px rgb(0 0 0 / 0.2)',
   whiteSpace: 'pre-line',
-  padding: '20px'
+  padding: '20px',
 };
 
 export default function DocString({ children }: DocStringProps) {
@@ -27,9 +27,7 @@ export default function DocString({ children }: DocStringProps) {
 
   return (
     <>
-      <p style={{'white-space': 'pre-line;'}}>
-        {content}
-      </p>
+      <p style={{ 'white-space': 'pre-line;' }}>{content}</p>
       <br></br>
     </>
   );
