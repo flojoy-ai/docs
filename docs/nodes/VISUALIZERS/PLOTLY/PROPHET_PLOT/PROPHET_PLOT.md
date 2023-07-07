@@ -25,6 +25,7 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 [//]: # (Examples)
 
 ## Examples
+
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
@@ -38,7 +39,7 @@ import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 <Example1 />
 
 <SectionBreak />
-
+  
     
 
 [//]: # (Appendix)

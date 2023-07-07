@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Eigvals\n    key: EIGVALS\n    type: NUMPY_LINALG"

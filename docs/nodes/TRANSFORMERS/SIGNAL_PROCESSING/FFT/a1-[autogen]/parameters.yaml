@@ -1,31 +1,10 @@
-display:
-  default: true
-  type: boolean
-real_signal:
-  default: false
-  type: boolean
-sample_rate:
-  default: 1
-  type: int
-window_type:
-  default: none
-  options:
-  - none
-  - boxcar
-  - triang
-  - blackman
-  - hamming
-  - hann
-  - bartlett
-  - flattop
-  - parzen
-  - bohman
-  - blackmanharris
-  - nuttall
-  - barthann
-  - cosine
-  - exponential
-  - tukey
-  - taylor
-  - lanczos
-  type: select
+"COMMAND:\n  - name: Fast Fourier Transform\n    key: FFT\n    type: SIGNAL_PROCESSING\n\
+  \    parameters:\n      window_type:\n        type: select\n        options:\n \
+  \         - none\n          - boxcar\n          - triang\n          - blackman\n\
+  \          - hamming\n          - hann\n          - bartlett\n          - flattop\n\
+  \          - parzen\n          - bohman\n          - blackmanharris\n          -\
+  \ nuttall\n          - barthann\n          - cosine\n          - exponential\n \
+  \         - tukey\n          - taylor\n          - lanczos\n        default: none\n\
+  \      display:\n        type: boolean\n        default: true\n      real_signal:\n\
+  \        type: boolean\n        default: false\n      sample_rate:\n        type:\
+  \ int\n        default: 1"

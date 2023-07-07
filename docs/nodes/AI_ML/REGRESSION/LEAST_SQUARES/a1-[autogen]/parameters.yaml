@@ -1,0 +1,3 @@
+"COMMAND:\n  - name: LEAST_SQUARES\n    key: LEAST_SQUARES\n    type: REGRESSION\n\
+  \    inputs:\n      - name: x\n        id: first\n        type: target\n      -\
+  \ name: y\n        id: second\n        type: target\n"

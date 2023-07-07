@@ -1,12 +1,6 @@
-baudrate:
-  default: 9600
-  type: int
-comport:
-  default: /dev/ttyACM0
-  type: string
-num_readings:
-  default: 100
-  type: int
-record_period:
-  default: 1
-  type: float
+"COMMAND:\n  - name: SERIAL_TIMESERIES\n    key: SERIAL_TIMESERIES\n    type: SERIAL\n\
+  \    parameters:\n      comport:\n        type: string\n        default: \"/dev/ttyACM0\"\
+  \n      baudrate:\n        type: int\n        default: 9600\n      num_readings:\n\
+  \        type: int\n        default: 100\n      record_period:\n        type: float\n\
+  \        default: 1\n    pip_dependencies:\n      - name: pyserial\n        v: \"\
+  3.5\""

@@ -1,11 +1,5 @@
-color:
-  default: grayscale
-  options:
-  - grayscale
-  - red
-  - green
-  - blue
-  type: select
-real_signal:
-  default: true
-  type: boolean
+"COMMAND:\n  - name: Two Dimensional Fast Fourier Transform\n    key: TWO_DIMENSIONAL_FFT\n\
+  \    type: SIGNAL_PROCESSING\n    parameters:\n      real_signal:\n        type:\
+  \ boolean\n        default: true\n      color:\n        type: select\n        options:\n\
+  \          - grayscale\n          - red\n          - green\n          - blue\n \
+  \       default: grayscale\n\n"
