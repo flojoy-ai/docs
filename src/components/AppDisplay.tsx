@@ -140,6 +140,7 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
                 nodes={nodes}
                 nodeTypes={nodeTypes}
                 edges={edges}
+                minZoom={0.25}
                 fitView={{ padding: 1 }}
                 proOptions={{ hideAttribution: true }}
               >
