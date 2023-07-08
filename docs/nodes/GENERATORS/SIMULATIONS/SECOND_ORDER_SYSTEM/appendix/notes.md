@@ -1,0 +1,1 @@
+The thoery behind a second order system is further explained [`here`](https://docs.flojoy.io/advanced-usage/feedback-control/model-systems/).
