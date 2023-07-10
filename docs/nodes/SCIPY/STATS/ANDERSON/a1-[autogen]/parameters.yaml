@@ -1,3 +1,2 @@
-dist:
-  default: norm
-  type: string
+"COMMAND:\n  - name: Anderson\n    key: ANDERSON\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      dist: \n        type: string\n        default: norm"

@@ -1,6 +1,3 @@
-hermitian:
-  default: false
-  type: boolean
-rcond:
-  default: 1e-15
-  type: float
+"COMMAND:\n  - name: Pinv\n    key: PINV\n    type: NUMPY_LINALG\n    parameters:\
+  \ \n      rcond: \n        type: float\n        default: 1e-15 \n      hermitian:\
+  \ \n        type: boolean\n        default: False"

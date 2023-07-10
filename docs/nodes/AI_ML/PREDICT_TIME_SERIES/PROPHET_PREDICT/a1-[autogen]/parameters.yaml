@@ -1,6 +1,4 @@
-periods:
-  default: 365
-  type: int
-run_forecast:
-  default: true
-  type: boolean
+"COMMAND:\n  - name: Prophet Predict\n    key: PROPHET_PREDICT\n    type: PREDICT_TIME_SERIES\n\
+  \    parameters:\n      periods:\n        type: int\n        default: 365\n    \
+  \  run_forecast:\n        type: boolean\n        default: true\n    pip_dependencies:\n\
+  \      - name: prophet\n        v: \"1.1.4\""

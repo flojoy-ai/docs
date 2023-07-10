@@ -1,30 +1,9 @@
-average:
-  default: mean
-  type: string
-axis:
-  default: -1
-  type: int
-detrend:
-  default: constant
-  type: string
-fs:
-  default: 1.0
-  type: float
-nfft:
-  default: null
-  type: int
-noverlap:
-  default: null
-  type: int
-nperseg:
-  default: null
-  type: int
-return_onesided:
-  default: true
-  type: boolean
-scaling:
-  default: density
-  type: string
-window:
-  default: hann
-  type: string
+"COMMAND:\n  - name: Welch\n    key: WELCH\n    type: SCIPY_SIGNAL\n    parameters:\
+  \ \n      fs: \n        type: float\n        default: 1.0 \n      window: \n   \
+  \     type: string\n        default: hann \n      nperseg: \n        type: int\n\
+  \        default:  \n      noverlap: \n        type: int\n        default:  \n \
+  \     nfft: \n        type: int\n        default:  \n      detrend: \n        type:\
+  \ string\n        default: constant \n      return_onesided: \n        type: boolean\n\
+  \        default: True \n      scaling: \n        type: string\n        default:\
+  \ density \n      axis: \n        type: int\n        default: -1 \n      average:\
+  \ \n        type: string\n        default: mean"

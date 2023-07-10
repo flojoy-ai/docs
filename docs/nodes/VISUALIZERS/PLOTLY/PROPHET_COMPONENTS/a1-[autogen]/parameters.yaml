@@ -1,3 +1,3 @@
-periods:
-  default: 365
-  type: int
+"COMMAND:\n  - name: Prophet Components\n    key: PROPHET_COMPONENTS\n    type: PLOTLY_VISOR\n\
+  \    parameters:\n      periods:\n        type: int\n        default: 365\n    pip_dependencies:\n\
+  \      - name: prophet\n        v: \"1.1.4\""

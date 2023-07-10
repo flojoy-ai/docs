@@ -1,9 +1,4 @@
-alternative:
-  default: two-sided
-  type: string
-n:
-  default: null
-  type: int
-p:
-  default: 0.5
-  type: float
+"COMMAND:\n  - name: Binom_test\n    key: BINOM_TEST\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      n: \n        type: int\n        default:  \n      p: \n        type: float\n\
+  \        default: 0.5 \n      alternative: \n        type: string\n        default:\
+  \ two-sided"

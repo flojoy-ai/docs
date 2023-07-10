@@ -1,21 +1,7 @@
-axis:
-  default: -1
-  type: int
-cval:
-  default: 0.0
-  type: float
-delta:
-  default: 1.0
-  type: float
-deriv:
-  default: 0
-  type: int
-mode:
-  default: interp
-  type: string
-polyorder:
-  default: null
-  type: int
-window_length:
-  default: null
-  type: int
+"COMMAND:\n  - name: Savgol_filter\n    key: SAVGOL_FILTER\n    type: SCIPY_SIGNAL\n\
+  \    parameters: \n      window_length: \n        type: int\n        default:  \n\
+  \      polyorder: \n        type: int\n        default:  \n      deriv: \n     \
+  \   type: int\n        default: 0 \n      delta: \n        type: float\n       \
+  \ default: 1.0 \n      axis: \n        type: int\n        default: -1 \n      mode:\
+  \ \n        type: string\n        default: interp \n      cval: \n        type:\
+  \ float\n        default: 0.0"
