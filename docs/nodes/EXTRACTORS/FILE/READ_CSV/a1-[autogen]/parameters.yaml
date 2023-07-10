@@ -1,3 +1,2 @@
-file_path:
-  default: https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv
-  type: string
+"COMMAND:\n  - name: READ_CSV\n    key: READ_CSV\n    type: FILE\n    parameters:\n\
+  \      file_path:\n        type: string\n        default: \"https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv\""

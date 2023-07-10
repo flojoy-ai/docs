@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: BART_LARGE_CNN text summarization\n    key: BART_LARGE_CNN\n\
+  \    type: TEXT_SUMMARIZATION\n"

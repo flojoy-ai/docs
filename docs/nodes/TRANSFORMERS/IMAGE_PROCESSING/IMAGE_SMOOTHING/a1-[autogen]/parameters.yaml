@@ -1,11 +1,5 @@
-kernel:
-  default: 5
-  type: int
-smoothing_type:
-  default: average
-  options:
-  - average
-  - gaussian
-  - median
-  - bilateral
-  type: select
+"COMMAND:\n  - name: Image Smoothing\n    key: IMAGE_SMOOTHING\n    type: IMAGE_PROCESSING\n\
+  \    parameters:\n      kernel:\n        type: int\n        default: 5\n      smoothing_type:\n\
+  \        type: select\n        options:\n          - average\n          - gaussian\n\
+  \          - median\n          - bilateral\n        default: average\n    pip_dependencies:\n\
+  \      - name: opencv-python-headless\n        v: \"4.7.0.72\""

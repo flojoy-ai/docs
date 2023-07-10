@@ -2,10 +2,9 @@ The REDIS_LOAD node loads data directly from REDIS.
 
     Parameters
     ----------
-    referred_node: list of str
+    referred_node: str
         The node where REDIS data will be loaded from.
 
     Returns
     -------
-    dataframe
-        The dataframe loaded from Redis. Ordered pair.
+    OrderedPair
