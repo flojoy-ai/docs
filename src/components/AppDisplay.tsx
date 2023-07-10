@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
@@ -19,6 +19,7 @@ import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
 import { NodeData } from '../types/data';
+import ReactCompareImage from 'react-compare-image';
 
 const HEIGHT = '20em';
 
@@ -65,12 +66,17 @@ const FlowMiniMap = () => {
 type AppDisplayProps = {
   children: string | null;
   nodeLabel?: string;
-  data: string | null;
   GLink: string;
+  outputImg?: string;
+  appImg?: string;
 };
 
-export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
-  const [resultNodeTypes, setResultNodeTypes] = useState<NodeTypes>(nodeTypes);
+export default function AppDisplay({
+  children,
+  GLink,
+  outputImg,
+  appImg,
+}: AppDisplayProps) {
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -90,27 +96,6 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
   const appObject = JSON.parse(children)['rfInstance'];
   const nodes = appObject['nodes'];
   const edges = appObject['edges'];
-  const results = data ? JSON.parse(data)['io'] : null;
-  const resultNodes = useMemo(
-    () =>
-      results
-        ? nodes.map((node: Node<NodeData>) => {
-            const nodeResult = results.find(
-              (result: Node<NodeData>) => result.id === node.id
-            );
-            return {
-              ...node,
-              type: 'default',
-              position: { x: node.position.x * 2, y: node.position.y * 2 },
-              data: {
-                ...node.data,
-                resultData: nodeResult?.result,
-              },
-            };
-          })
-        : null,
-    [results]
-  );
 
   const handleDownload = useCallback(() => {
     const jsonData = JSON.stringify(appObject, null, 2);
@@ -123,13 +108,6 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
     URL.revokeObjectURL(url);
   }, [appObject]);
 
-  useEffect(() => {
-    const ResultNode = require('./nodes/ResultNode').default;
-    setResultNodeTypes({
-      default: ResultNode,
-    });
-  }, []);
-
   return (
     <div>
       <Tabs>
@@ -141,7 +119,10 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
                 nodeTypes={nodeTypes}
                 edges={edges}
                 minZoom={0.25}
-                fitView={{ padding: 1 }}
+                fitView
+                fitViewOptions={{
+                  padding: 1,
+                }}
                 proOptions={{ hideAttribution: true }}
               >
                 <FlowMiniMap />
@@ -152,21 +133,17 @@ export default function AppDisplay({ children, data, GLink }: AppDisplayProps) {
         </TabItem>
         <TabItem value="output" label="Output">
           <div style={{ minHeight: HEIGHT }}>
-            {results ? (
-              <ReactFlowProvider>
-                <div style={{ height: HEIGHT }}>
-                  <ReactFlow
-                    nodes={resultNodes}
-                    nodeTypes={resultNodeTypes}
-                    edges={edges}
-                    fitView={{ padding: 1 }}
-                    proOptions={{ hideAttribution: true }}
-                  >
-                    <FlowMiniMap />
-                    <Background />
-                  </ReactFlow>
-                </div>
-              </ReactFlowProvider>
+            {outputImg ? (
+              <ReactCompareImage
+                leftImage={appImg ?? outputImg}
+                aspectRatio={'wider'}
+                leftImageCss={{
+                  objectFit: 'containe',
+                }}
+                rightImageCss={{ objectFit: 'contain' }}
+                rightImage={outputImg}
+                sliderPositionPercentage={0.1}
+              />
             ) : (
               <blockquote>Example output for this app is not found!</blockquote>
             )}
