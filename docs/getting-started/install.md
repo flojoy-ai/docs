@@ -56,7 +56,7 @@ cd studio
 4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
 
 ```bash
-python3.10 -m venv env
+python3.10 -m venv venv
 ```
 
 5. Finally, run:
