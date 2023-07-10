@@ -1,0 +1,3 @@
+"COMMAND:\n- name: MULTIPLY\n  key: MULTIPLY\n  type: ARITHMETIC\n  inputs:\n  - name:\
+  \ a\n    id: a\n    type: OrderedPair\n  - name: b\n    id: b\n    type: OrderedPair\n\
+  \  outputs:\n  - name: default\n    id: default\n    type: OrderedPair\n"

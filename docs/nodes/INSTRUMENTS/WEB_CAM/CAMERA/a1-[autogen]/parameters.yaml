@@ -1,12 +1,6 @@
-camera_ind:
-  default: -1
-  type: int
-resolution:
-  default: default
-  options:
-  - default
-  - 640x360
-  - 640x480
-  - 1280x720
-  - 1920x1080
-  type: select
+"COMMAND:\n  - name: Camera\n    key: CAMERA\n    type: WEB_CAM\n    parameters:\n\
+  \      camera_ind:\n        type: int\n        default: -1\n      resolution:\n\
+  \        type: select\n        options:\n          - default\n          - 640x360\n\
+  \          - 640x480\n          - 1280x720\n          - 1920x1080\n        default:\
+  \ default\n    pip_dependencies:\n      - name: opencv-python-headless\n       \
+  \ v: \"4.7.0.72\""

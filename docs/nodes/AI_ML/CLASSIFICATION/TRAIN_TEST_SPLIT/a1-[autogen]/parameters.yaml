@@ -1,0 +1,5 @@
+"COMMAND:\n- name: TRAIN_TEST_SPLIT\n  key: TRAIN_TEST_SPLIT\n  type: default\n  inputs:\n\
+  \  - name: default\n    id: default\n    type: DataFrame\n  parameters:\n    test_size:\n\
+  \      type: float\n      default: 0.2\n  outputs:\n  - name: train\n    id: train\n\
+  \    type: DataFrame\n  - name: test\n    id: test\n    type: DataFrame\n  pip_dependencies:\n\
+  \  - name: scikit-learn\n    v: 1.2.2\n"

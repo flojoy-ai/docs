@@ -1,14 +1,8 @@
 import numpy as np
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, OrderedPair
 
 
 @flojoy
-def ABS(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
+def ABS(default: OrderedPair) -> OrderedPair:
     
-
-    match dc_inputs[0].type:
-        case "scalar":
-            return DataContainer(type="scalar", c=np.abs(dc_inputs[0].c))
-
-        case "ordered_pair":
-            return DataContainer(x=dc_inputs[0].x, y=np.abs(dc_inputs[0].y))
+    return OrderedPair(x=default.y, y=np.abs(default.y))

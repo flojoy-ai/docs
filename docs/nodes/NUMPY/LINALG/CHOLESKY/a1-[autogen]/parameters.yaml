@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Cholesky\n    key: CHOLESKY\n    type: NUMPY_LINALG"

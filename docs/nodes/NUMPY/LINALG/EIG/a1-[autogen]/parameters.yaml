@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Eig\n    key: EIG\n    type: NUMPY_LINALG"

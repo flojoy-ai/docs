@@ -1,9 +1,4 @@
-axis:
-  default: 0
-  type: int
-mode:
-  default: clip
-  type: string
-order:
-  default: 1
-  type: int
+"COMMAND:\n  - name: Argrelmax\n    key: ARGRELMAX\n    type: SCIPY_SIGNAL\n    parameters:\
+  \ \n      axis: \n        type: int\n        default: 0 \n      order: \n      \
+  \  type: int\n        default: 1 \n      mode: \n        type: string\n        default:\
+  \ clip"
