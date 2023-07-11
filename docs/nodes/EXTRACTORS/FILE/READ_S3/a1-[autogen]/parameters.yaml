@@ -1,0 +1,9 @@
+bucket_name:
+  default: ''
+  type: string
+file_name:
+  default: ''
+  type: string
+s3_key_name:
+  default: ''
+  type: string

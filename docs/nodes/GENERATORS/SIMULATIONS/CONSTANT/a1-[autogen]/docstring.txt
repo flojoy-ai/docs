@@ -1,1 +1,12 @@
-Generates a single x-y vector of numeric (floating point) constants
+The CONSTANT node generates a single x-y vector of numeric
+    (floating point) constants or a single scalar.
+
+    Parameters
+    ----------
+    constant : float
+        the constant value returned
+
+    Returns:
+    -------
+    DataContainer:
+        type 'ordered pair'
