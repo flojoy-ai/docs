@@ -1,0 +1,3 @@
+"COMMAND:\n  - name: Edge Detection\n    key: EDGE_DETECTION\n    type: IMAGE_PROCESSING\n\
+  \    pip_dependencies:\n      - name: opencv-python-headless\n        v: \"4.7.0.72\"\
+  \n      - name: Pillow\n        v: \"9.5.0\""

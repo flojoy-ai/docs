@@ -1,9 +1,4 @@
-axis:
-  default: 0
-  type: int
-ddof:
-  default: 0
-  type: int
-nan_policy:
-  default: propagate
-  type: string
+"COMMAND:\n  - name: Zscore\n    key: ZSCORE\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      axis: \n        type: int\n        default: 0 \n      ddof: \n       \
+  \ type: int\n        default: 0 \n      nan_policy: \n        type: string\n   \
+  \     default: propagate"

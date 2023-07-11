@@ -1,15 +1,5 @@
-axis:
-  default: -1
-  type: int
-ftype:
-  default: iir
-  type: string
-n:
-  default: null
-  type: int
-q:
-  default: null
-  type: int
-zero_phase:
-  default: true
-  type: boolean
+"COMMAND:\n  - name: Decimate\n    key: DECIMATE\n    type: SCIPY_SIGNAL\n    parameters:\
+  \ \n      q: \n        type: int\n        default:  \n      n: \n        type: int\n\
+  \        default:  \n      ftype: \n        type: string\n        default: iir \n\
+  \      axis: \n        type: int\n        default: -1 \n      zero_phase: \n   \
+  \     type: boolean\n        default: True"

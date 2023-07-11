@@ -1,3 +1,2 @@
-file_path:
-  default: ''
-  type: string
+"COMMAND:\n  - name: OPEN_IMAGE\n    key: OPEN_IMAGE\n    type: FILE\n    parameters:\n\
+  \      file_path:\n        type: string\n        default: \"\"\n        "

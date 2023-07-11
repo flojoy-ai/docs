@@ -1,0 +1,2 @@
+"COMMAND:\n  - name: DeepLabV3 Image Segmentation\n    key: DEEPLAB_V3\n    type:\
+  \ SEGMENTATION\n    "

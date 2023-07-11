@@ -1,3 +1,2 @@
-column:
-  default: 0
-  type: int
+"COMMAND:\n  - name: SELECT_ARRAY\n    key: SELECT_ARRAY\n    type: SELECT_ARRAY\n\
+  \    parameters:\n      column:\n        type: int\n        default: 0"

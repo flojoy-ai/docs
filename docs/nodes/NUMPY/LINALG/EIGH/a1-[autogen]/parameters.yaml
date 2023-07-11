@@ -1,3 +1,2 @@
-UPLO:
-  default: L
-  type: string
+"COMMAND:\n  - name: Eigh\n    key: EIGH\n    type: NUMPY_LINALG\n    parameters:\
+  \ \n      UPLO: \n        type: string\n        default: L"

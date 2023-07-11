@@ -1,12 +1,5 @@
-axis:
-  default: 0
-  type: int
-keepdims:
-  default: false
-  type: boolean
-moment:
-  default: 1
-  type: int
-nan_policy:
-  default: propagate
-  type: string
+"COMMAND:\n  - name: Moment\n    key: MOMENT\n    type: SCIPY_STATS\n    parameters:\
+  \ \n      moment: \n        type: int\n        default: 1 \n      axis: \n     \
+  \   type: int\n        default: 0 \n      nan_policy: \n        type: string\n \
+  \       default: propagate \n      keepdims: \n        type: boolean\n        default:\
+  \ False"

@@ -1,21 +1,7 @@
-axis:
-  default: -1
-  type: int
-detrend:
-  default: constant
-  type: string
-fs:
-  default: 1.0
-  type: float
-nfft:
-  default: null
-  type: int
-return_onesided:
-  default: true
-  type: boolean
-scaling:
-  default: density
-  type: string
-window:
-  default: boxcar
-  type: string
+"COMMAND:\n  - name: Periodogram\n    key: PERIODOGRAM\n    type: SCIPY_SIGNAL\n \
+  \   parameters: \n      fs: \n        type: float\n        default: 1.0 \n     \
+  \ window: \n        type: string\n        default: boxcar \n      nfft: \n     \
+  \   type: int\n        default:  \n      detrend: \n        type: string\n     \
+  \   default: constant \n      return_onesided: \n        type: boolean\n       \
+  \ default: True \n      scaling: \n        type: string\n        default: density\
+  \ \n      axis: \n        type: int\n        default: -1"
