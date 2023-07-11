@@ -1,3 +1,2 @@
-rcond:
-  default: 1.0
-  type: float
+"COMMAND:\n  - name: Invert\n    key: INVERT\n    type: MATRIX_MANIPULATION\n    parameters:\n\
+  \      rcond:\n        type: float\n        default: 1.0"

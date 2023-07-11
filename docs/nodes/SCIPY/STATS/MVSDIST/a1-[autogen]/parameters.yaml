@@ -1,0 +1,1 @@
+"COMMAND:\n  - name: Mvsdist\n    key: MVSDIST\n    type: SCIPY_STATS"

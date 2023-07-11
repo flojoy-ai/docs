@@ -1,3 +1,2 @@
-mode:
-  default: reduced
-  type: string
+"COMMAND:\n  - name: Qr\n    key: QR\n    type: NUMPY_LINALG\n    parameters: \n \
+  \     mode: \n        type: string\n        default: reduced"

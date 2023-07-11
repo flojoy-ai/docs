@@ -1,6 +1,3 @@
-categories:
-  default: ''
-  type: array
-columns:
-  default: ''
-  type: array
+"COMMAND:\n  - name: One Hot Encoding\n    key: ONE_HOT_ENCODING\n    type: CLASSIFICATION\n\
+  \    parameters:\n      categories:\n        type: array\n        default: \"\"\n\
+  \      columns:\n        type: array\n        default: \"\""

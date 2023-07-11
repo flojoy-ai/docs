@@ -1,11 +1,6 @@
-kernel:
-  default: linear
-  options:
-  - linear
-  - poly
-  - rbf
-  - sigmoid
-  type: select
-target:
-  default: ''
-  type: string
+"COMMAND:\n  - name: Support Vector Machine\n    key: SUPPORT_VECTOR_MACHINE\n   \
+  \ type: CLASSIFICATION\n    inputs:\n      - name: train\n        id: train\n  \
+  \      type: target\n      - name: input\n        id: input\n        type: target\n\
+  \    parameters:\n      target:\n        type: string\n        default: \"\"\n \
+  \     kernel:\n        type: select\n        options:\n          - linear\n    \
+  \      - poly\n          - rbf\n          - sigmoid\n        default: linear"

@@ -1,3 +1,3 @@
-referred_node:
-  default: ''
-  type: node_reference
+"COMMAND:\n  - name: Redis Loader\n    key: REDIS_LOAD\n    type: REDIS_SYSTEM\n \
+  \   parameters: \n      referred_node: \n        type: node_reference\n        default:\
+  \ ''"
