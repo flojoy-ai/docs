@@ -16,6 +16,7 @@
   "Data > AI & ML > Object Detection": "OBJECT_DETECTION",
   "Data > AI & ML > Regressions": "REGRESSION",
   "Data > AI & ML > Classification": "CLASSIFICATION",
+  "Data> AI & ML > StabilityAI": "STABILITYAI",
   "Data > AI & ML > Casting": "",
   "Data > AI & ML > Predict Time Series": "PREDICT_TIME_SERIES",
   "Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
