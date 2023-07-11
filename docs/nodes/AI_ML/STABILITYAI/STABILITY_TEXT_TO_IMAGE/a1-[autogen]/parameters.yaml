@@ -1,0 +1,12 @@
+cfg_scale:
+  default: 7.0
+  type: float
+height:
+  default: 512
+  type: int
+prompt:
+  default: A lighthouse on a cliff.
+  type: string
+width:
+  default: 512
+  type: int
