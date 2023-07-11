@@ -13,5 +13,5 @@ The PID node acts like a PID function.
 
     Returns
     -------
-    dataframe
-        The dataframe modified according to the PID. Ordered pair.
+    OrderedPair
+        The dataframe modified according to the PID.

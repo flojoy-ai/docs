@@ -12,11 +12,11 @@ import AppendixSection from '@site/src/components/AppendixSection';
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
-import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
+
 
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='AI_ML/NLP/COUNT_VECTORIZER/COUNT_VECTORIZER.py'>{PythonSource}</PythonCode>
-<Parameters>{ParametersSource}</Parameters>
+
 
 <SectionBreak />
 

@@ -1,6 +1,7 @@
 The TWO_DIMENSIONAL_FFT node performs a two-dimensional fourier transform on the input matrix.
     With the FFT algorithm, the input matrix will undergo a change of basis
     from the space domain into the frequency domain.
+    grayscale, dataframe, image or matrix
 
     Parameters
     ----------
@@ -11,5 +12,9 @@ The TWO_DIMENSIONAL_FFT node performs a two-dimensional fourier transform on the
 
     Returns
     -------
-    image
+    Matrix if input is Matrix
+        m: The matrix after 2DFFT
+    DataFrame if input is Dataframe
+        df: the dataframe after 2DFFT
+    Image
         The frequency spectrum of the color channel

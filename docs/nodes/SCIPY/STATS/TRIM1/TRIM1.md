@@ -12,11 +12,11 @@ import AppendixSection from '@site/src/components/AppendixSection';
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
-import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
+
 
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='SCIPY/stats/TRIM1/TRIM1.py'>{PythonSource}</PythonCode>
-<Parameters>{ParametersSource}</Parameters>
+
 
 <SectionBreak />
 

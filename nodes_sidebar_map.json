@@ -1,7 +1,7 @@
 {
-  "ETL > Extract > File System": ["LOCAL_FILE_SYSTEL", "FILE"],
+  "ETL > Extract > File System": ["LOCAL_FILE_SYSTEM", "FILE"],
   "ETL > Extract > Dataframe": "DATAFRAME",
-  "ETL > Load": "CLOUD_DATABASE",
+  "ETL > Load": ["CLOUD_DATABASE", "INTERNAL_MEMORY"],
   "ETL > Transform > Arithmetic": "ARITHMETIC",
   "ETL > Transform > Calculus": "CALCULUS",
   "ETL > Transform > DSP": "SIGNAL_PROCESSING",

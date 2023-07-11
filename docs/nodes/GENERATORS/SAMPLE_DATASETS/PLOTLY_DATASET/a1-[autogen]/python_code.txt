@@ -1,10 +1,24 @@
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, DataFrame
 from plotly.express import data
+from typing import Literal
 
 
 @flojoy
-def PLOTLY_DATASET(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
-    dataset_key = params["dataset_key"]
+def PLOTLY_DATASET(
+    dataset_key: Literal[
+        "wind",
+        "iris",
+        "carshare",
+        "tips",
+        "election",
+        "experiment",
+        "gapminder",
+        "medals_long",
+        "medals_wide",
+        "stocks",
+    ] = "wind"
+) -> DataFrame:
+    
     df = getattr(data, dataset_key)()
 
-    return DataContainer(type="dataframe", m=df)
+    return DataFrame(df=df)

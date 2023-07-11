@@ -3,10 +3,23 @@ The RAND node generates a random number or a list of random numbers
 
     Parameters
     ----------
-    distribution : str
+    distribution: select
         the distribution over the random samples
+    lower_bound: float
+        the lower bound of the output interval
+    upper_bound: float
+        the upper bound of the output interval
+    normal_mean: float
+        the mean or "center" of the normal distribution
+    normal_standard_deviation: float
+        the spread or "width" of the normal distribution
+    poisson_events: float
+        the expected number of events occurring in a fixed time-interval when distribution is poisson
 
-    Returns:
+    Returns
     -------
-    DataContainer:
-        type 'ordered pair'
+    OrderedPair if there's an input
+        x: the x-axis of the input
+        y: the random samples
+    Scalar if no input connection
+        c: the random number
