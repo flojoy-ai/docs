@@ -5,7 +5,7 @@
                 "width": 150,
                 "height": 181,
                 "id": "LOOP-faed7bdc-f766-4742-b48f-d31a7b8083fb",
-                "type": "LOOP",
+                "type": "default",
                 "position": {
                     "x": -171.59652727116486,
                     "y": 229.6957193114413
