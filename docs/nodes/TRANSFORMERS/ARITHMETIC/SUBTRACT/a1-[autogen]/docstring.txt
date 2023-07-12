@@ -1,15 +1,1 @@
-The SUBTRACT node subtracts the values from the two inputs.
-    The node can handle scalar and ordered pair inputs currently
-
-    TODO - reconcile.py so matrix and dataframe types can be handled.
-
-    Parameters
-    ----------
-    None
-
-    Returns:
-    --------
-    DataContainer:
-        type 'ordered pair' if one 'ordered pair' is input.
-
-        type 'scalar' if two 'scalars' are input.
+Subtract 2 input vectors and return the result

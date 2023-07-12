@@ -1,11 +1,8 @@
+The R_DATASET node retrieves a pandas DataFrame from rdatasets using the provided dataset_key parameter and returns it wrapped in a DataContainer.
 
-    Retrieves a pandas DataFrame from rdatasets using the provided dataset_key parameter and returns it wrapped in a DataContainer.
-
-    Args:
-        dc_inputs (list[DataContainer]): A list of DataContainer objects, but not used in this function.
-        params (dict): A dictionary of parameters for this function.
-            dataset_key (str): The key used to retrieve the DataFrame.
+    Parameters:
+    -----------
+    dataset_key: str
 
     Returns:
-        DataContainer: A DataContainer object containing the retrieved pandas DataFrame.
-    
+        DataFrame: A DataContainer object containing the retrieved pandas DataFrame.

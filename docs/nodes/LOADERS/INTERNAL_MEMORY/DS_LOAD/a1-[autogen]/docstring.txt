@@ -1,0 +1,10 @@
+The DS_LOAD node loads data directly from in-memory data storage.
+
+    Parameters
+    ----------
+    referred_node: str
+        The ID of the node to retrieve the result from.
+
+    Returns
+    -------
+    OrderedPair
