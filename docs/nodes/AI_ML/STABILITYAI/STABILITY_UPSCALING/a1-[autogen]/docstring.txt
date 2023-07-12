@@ -1,0 +1,10 @@
+
+The STABILITY_UPSCALING node uses the STABILITY AI gRCP API to upscale an image.
+The image can be passed as input to the node using form data or by a previous node in the flow.
+
+Parameters
+----------
+image_path: Optional[string]
+    The path to the image to be upscaled.
+output_width : int
+    The output image width. Default is 1024.

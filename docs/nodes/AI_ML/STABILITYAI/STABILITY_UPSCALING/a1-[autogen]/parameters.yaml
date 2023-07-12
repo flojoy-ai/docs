@@ -1,0 +1,6 @@
+image_path:
+  default: ''
+  type: string
+output_width:
+  default: 1024
+  type: int
