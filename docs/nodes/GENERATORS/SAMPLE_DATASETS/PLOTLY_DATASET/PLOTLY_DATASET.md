@@ -8,15 +8,13 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (TODO: Machine-generate this section)
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
-import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/PLOTLY_DATASET.py'>{PythonSource}</PythonCode>
-<Parameters>{ParametersSource}</Parameters>
 
 <SectionBreak />
 
@@ -28,11 +26,14 @@ import ParametersSource from '!!raw-loader!./a1-[autogen]/parameters.yaml';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import Data1 from '!!raw-loader!./examples/EX1/output.txt';
+
+
 
 <AppDisplay 
-    data={Data1}
-    nodeLabel='PLOTLY_DATASET'>
+    nodeLabel='PLOTLY_DATASET'
+    appImg={''}
+    outputImg={''}
+    >
     {App1}
 </AppDisplay>
 

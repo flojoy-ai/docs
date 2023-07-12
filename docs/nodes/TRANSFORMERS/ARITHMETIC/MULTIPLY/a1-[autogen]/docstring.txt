@@ -1,15 +1,1 @@
-The MULTIPLY node multiplies the values from the two inputs.
-    The node can handle scalar and ordered pair inputs currently
-
-    TODO - reconcile.py so matrix and dataframe types can be handled.
-
-    Parameters
-    ----------
-    None
-
-    Returns:
-    --------
-    DataContainer:
-        type 'ordered pair' if one 'ordered pair' is input.
-
-        type 'scalar' if two 'scalars' are input.
+Takes 2 input vectors, multiplies them, and returns the result

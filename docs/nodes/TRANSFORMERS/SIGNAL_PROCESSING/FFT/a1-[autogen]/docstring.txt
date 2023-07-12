@@ -15,7 +15,12 @@ The FFT node performs a Discrete Fourier Transform on the input vector.
 
     Returns
     -------
-    ordered_pair
+    Ordered_pair if display is true
         x: frequency
         y: spectrum of the signal
+    DataFrame if display is false
+        time: time domain
+        frequency: frequency domain
+        real: real section of the signal
+        imag: imaginary section of the signal
 
