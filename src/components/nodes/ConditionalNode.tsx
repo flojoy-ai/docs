@@ -58,7 +58,7 @@ const ConditionalNode = ({ data }: NodeProps) => {
           height: params.length > 0 ? (params.length + 1) * 32 : 'fit-content',
         }}
       >
-        <HandleComponent data={data} inputs={params} />
+        <HandleComponent data={data} />
       </div>
     </div>
   );

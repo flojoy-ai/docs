@@ -120,3 +120,14 @@
   height: 55px;
   width: 55px;
 }
+.handleWrapper {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.flex {
+  display: flex;
+}

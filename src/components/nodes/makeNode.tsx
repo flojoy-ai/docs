@@ -24,7 +24,7 @@ export const makeNode = ({ extraContentFunc = undefined, styles }) => {
               params.length > 0 ? (params.length + 1) * 40 : 'fit-content',
           }}
         >
-          <HandleComponent data={data} inputs={params} />
+          <HandleComponent data={data} />
         </div>
       </div>
     );
