@@ -1,7 +1,0 @@
-The TIMER node sleeps for a specified number of seconds.
-
-    Parameters
-    ----------
-    sleep_time: int
-        number of seconds to sleep
-    

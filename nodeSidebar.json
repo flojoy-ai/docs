@@ -68,12 +68,10 @@
         "nodes/LOADERS/INTERNAL_MEMORY/DS_LOAD/DS_LOAD"
     ],
     "Flow": [
-        "nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL",
         "nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL/CONDITIONAL",
         "nodes/LOGIC_GATES/LOOPS/APPEND/APPEND",
         "nodes/LOGIC_GATES/LOOPS/GOTO/GOTO",
         "nodes/LOGIC_GATES/LOOPS/LOOP/LOOP",
-        "nodes/LOGIC_GATES/TIMERS/TIMER",
         "nodes/LOGIC_GATES/TIMERS/TIMER/TIMER"
     ],
     "NUMerical PYthon (NumPy) > Linalg": [
