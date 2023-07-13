@@ -3,20 +3,17 @@
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
-
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (TODO: Machine-generate this section)
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/MATMUL.py'>{PythonSource}</PythonCode>
-
 
 <SectionBreak />
 
@@ -26,13 +23,23 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
+
 <AppDisplay 
-  GLink='TRANSFORMERS/MATRIX_MANIPULATION/MATMUL'
-  nodeLabel='MATMUL'>
+    nodeLabel='MATMUL'
+    appImg={appImg}
+    outputImg={outputImg}
+    >
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)
