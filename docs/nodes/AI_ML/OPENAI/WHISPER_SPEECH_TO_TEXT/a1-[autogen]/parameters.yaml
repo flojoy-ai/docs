@@ -1,0 +1,3 @@
+file_path:
+  default: path/to/file.mp3
+  type: string

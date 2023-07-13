@@ -1,0 +1,3 @@
+prompt:
+  default: A cute baby sea otter
+  type: string

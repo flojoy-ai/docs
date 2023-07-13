@@ -8,3 +8,7 @@ Parameters
 ----------
 prompt: string
     A sentence describing the image you want to generate.
+width: int
+    The width of the generated image.
+height: int
+    The height of the generated image.

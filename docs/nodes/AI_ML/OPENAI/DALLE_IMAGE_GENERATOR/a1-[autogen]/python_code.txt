@@ -1,24 +1,27 @@
 import numpy as np
-from flojoy import flojoy, DataContainer
-from typing import List
+from flojoy import flojoy, Image
 import openai
-from PIL import Image
+from PIL import Image as PilImage
 import requests
 from io import BytesIO
 import os
 
 
 @flojoy
-def DALLE_IMAGE_GENERATOR(dc: List[DataContainer], params: dict):
+def DALLE_IMAGE_GENERATOR(
+    prompt: str,
+    width: int = 1024,
+    height: int = 1024,
+) -> Image:
+    
     openai.api_key = os.environ.get("OPENAI_API_KEY")
-    prompt = params.get("prompt")
-    result = openai.Image.create(prompt=prompt, n=1, size="1024x1024")
+    result = openai.Image.create(prompt=prompt, n=1, size=f"{width}x{height}")
     if not result.data:
         raise Exception("No image data in result")
 
     url = result.data[0].get("url")
     response = requests.get(url)
-    img = Image.open(BytesIO(response.content))
+    img = PilImage.open(BytesIO(response.content))
 
     img_array = np.asarray(img)
     red_channel = img_array[:, :, 0]
@@ -29,8 +32,7 @@ def DALLE_IMAGE_GENERATOR(dc: List[DataContainer], params: dict):
     if img_array.shape[2] == 4:
         alpha_channel = img_array[:, :, 3]
 
-    return DataContainer(
-        type="image",
+    return Image(
         r=red_channel,
         g=green_channel,
         b=blue_channel,

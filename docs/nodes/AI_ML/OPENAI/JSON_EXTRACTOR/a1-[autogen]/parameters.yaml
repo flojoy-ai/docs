@@ -1,0 +1,6 @@
+prompt:
+  default: ''
+  type: string
+properties:
+  default: comma,separated,properties,to,extract
+  type: string

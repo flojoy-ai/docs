@@ -6,6 +6,7 @@ file_type:
   - json
   - xml
   - excel
+  - mp3
   type: select
 path:
   default: ''
