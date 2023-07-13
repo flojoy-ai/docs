@@ -1,14 +1,18 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def ANDERSON(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.anderson(
-            x=dc[0].y,
-            dist=(str(params["dist"]) if params["dist"] != "" else None),
-        ),
-    )
+@flojoy(node_type='default')
+def ANDERSON(
+	default: OrderedPair,
+	dist: str = 'norm',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.anderson(
+			x=default.y,
+			dist=dist,
+		)
+	)
+	return result

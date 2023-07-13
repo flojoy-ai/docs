@@ -1,16 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.signal
 
 
-@flojoy
-def ARGRELMIN(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.argrelmin(
-            data=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            order=(int(params["order"]) if params["order"] != "" else None),
-            mode=(str(params["mode"]) if params["mode"] != "" else None),
-        ),
-    )
+@flojoy(node_type='default')
+def ARGRELMIN(
+	default: OrderedPair,
+	axis: int = 0,
+	order: int = 1,
+	mode: str = 'clip',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.signal.argrelmin(
+			data=default.y,
+			axis=axis,
+			order=order,
+			mode=mode,
+		)
+	)
+	return result

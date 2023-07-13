@@ -1,18 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def BINOM_TEST(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.binom_test(
-            x=dc[0].y,
-            n=(int(params["n"]) if params["n"] != "" else None),
-            p=(float(params["p"]) if params["p"] != "" else None),
-            alternative=(
-                str(params["alternative"]) if params["alternative"] != "" else None
-            ),
-        ),
-    )
+@flojoy(node_type='default')
+def BINOM_TEST(
+	default: OrderedPair,
+	n: int,
+	p: float = 0.5,
+	alternative: str = 'two-sided',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.binom_test(
+			x=default.y,
+			n=n,
+			p=p,
+			alternative=alternative,
+		)
+	)
+	return result

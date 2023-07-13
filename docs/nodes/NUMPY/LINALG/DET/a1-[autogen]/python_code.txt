@@ -1,13 +1,16 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import numpy.linalg
 
 
-@flojoy
-def DET(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.det(
-            a=dc[0].y,
-        ),
-    )
+@flojoy(node_type='default')
+def DET(
+	default: OrderedPair,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=numpy.linalg.det(
+			a=default.y,
+			)
+	)
+	return result

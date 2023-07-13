@@ -1,14 +1,18 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import numpy.linalg
 
 
-@flojoy
-def QR(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.qr(
-            a=dc[0].y,
-            mode=(str(params["mode"]) if params["mode"] != "" else None),
-        ),
-    )
+@flojoy(node_type='default')
+def QR(
+	default: OrderedPair,
+	mode: str = 'reduced',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=numpy.linalg.qr(
+			a=default.y,
+			mode=mode,
+		)
+	)
+	return result

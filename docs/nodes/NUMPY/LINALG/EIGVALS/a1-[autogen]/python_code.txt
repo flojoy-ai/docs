@@ -1,13 +1,16 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import numpy.linalg
 
 
-@flojoy
-def EIGVALS(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.eigvals(
-            a=dc[0].y,
-        ),
-    )
+@flojoy(node_type='default')
+def EIGVALS(
+	default: OrderedPair,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=numpy.linalg.eigvals(
+			a=default.y,
+			)
+	)
+	return result

@@ -1,13 +1,16 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def JARQUE_BERA(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.jarque_bera(
-            x=dc[0].y,
-        ),
-    )
+@flojoy(node_type='default')
+def JARQUE_BERA(
+	default: OrderedPair,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.jarque_bera(
+			x=default.y,
+			)
+	)
+	return result

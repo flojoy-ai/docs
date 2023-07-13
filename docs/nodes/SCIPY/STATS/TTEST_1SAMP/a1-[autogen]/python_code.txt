@@ -1,25 +1,24 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def TTEST_1SAMP(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.ttest_1samp(
-            a=dc[0].y,
-            popmean=(
-                float or array_like(params["popmean"])
-                if params["popmean"] != ""
-                else None
-            ),
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            nan_policy=(
-                str(params["nan_policy"]) if params["nan_policy"] != "" else None
-            ),
-            alternative=(
-                str(params["alternative"]) if params["alternative"] != "" else None
-            ),
-        ),
-    )
+@flojoy(node_type='default')
+def TTEST_1SAMP(
+	default: OrderedPair,
+	popmean: float or array_like,
+	axis: int = 0,
+	nan_policy: str = 'propagate',
+	alternative: str = 'two-sided',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.ttest_1samp(
+			a=default.y,
+			popmean=popmean,
+			axis=axis,
+			nan_policy=nan_policy,
+			alternative=alternative,
+		)
+	)
+	return result

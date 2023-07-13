@@ -1,13 +1,16 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def SHAPIRO(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.shapiro(
-            x=dc[0].y,
-        ),
-    )
+@flojoy(node_type='default')
+def SHAPIRO(
+	default: OrderedPair,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.shapiro(
+			x=default.y,
+			)
+	)
+	return result

@@ -1,18 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def GZSCORE(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.gzscore(
-            a=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            ddof=(int(params["ddof"]) if params["ddof"] != "" else None),
-            nan_policy=(
-                str(params["nan_policy"]) if params["nan_policy"] != "" else None
-            ),
-        ),
-    )
+@flojoy(node_type='default')
+def GZSCORE(
+	default: OrderedPair,
+	axis: int = 0,
+	ddof: int = 0,
+	nan_policy: str = 'propagate',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.gzscore(
+			a=default.y,
+			axis=axis,
+			ddof=ddof,
+			nan_policy=nan_policy,
+		)
+	)
+	return result

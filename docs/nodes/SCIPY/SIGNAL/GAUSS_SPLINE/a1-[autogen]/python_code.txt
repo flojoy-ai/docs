@@ -1,14 +1,18 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.signal
 
 
-@flojoy
-def GAUSS_SPLINE(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.gauss_spline(
-            x=dc[0].y,
-            n=(int(params["n"]) if params["n"] != "" else None),
-        ),
-    )
+@flojoy(node_type='default')
+def GAUSS_SPLINE(
+	default: OrderedPair,
+	n: int,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.signal.gauss_spline(
+			x=default.y,
+			n=n,
+		)
+	)
+	return result

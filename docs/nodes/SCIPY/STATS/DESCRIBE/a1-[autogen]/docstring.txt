@@ -1,5 +1,5 @@
 
-        Compute several descriptive statistics of the passed array.
+	Compute several descriptive statistics of the passed array.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -8,17 +8,17 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 a : array_like
-        Input data.
+	Input data.
 axis : int or None, optional
-        Axis along which statistics are calculated. Default is 0.
-        If None, compute over the whole array `a`.
+	Axis along which statistics are calculated. Default is 0.
+	If None, compute over the whole array `a`.
 ddof : int, optional
-        Delta degrees of freedom (only for variance).  Default is 1.
+	Delta degrees of freedom (only for variance).  Default is 1.
 bias : bool, optional
-        If False, then the skewness and kurtosis calculations are corrected
-        for statistical bias.
+	If False, then the skewness and kurtosis calculations are corrected
+	for statistical bias.
 nan_policy : {'propagate', 'raise', 'omit'}, optional
-        Defines how to handle when input contains nan.
+	Defines how to handle when input contains nan.
 The following options are available (default is 'propagate'):
 
 * 'propagate': returns nan

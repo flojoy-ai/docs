@@ -1,17 +1,20 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import numpy.linalg
 
 
-@flojoy
-def PINV(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.pinv(
-            a=dc[0].y,
-            rcond=(float(params["rcond"]) if params["rcond"] != "" else None),
-            hermitian=(
-                bool(params["hermitian"]) if params["hermitian"] != "" else None
-            ),
-        ),
-    )
+@flojoy(node_type='default')
+def PINV(
+	default: OrderedPair,
+	rcond: float = 1e-15,
+	hermitian: bool = False,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=numpy.linalg.pinv(
+			a=default.y,
+			rcond=rcond,
+			hermitian=hermitian,
+		)
+	)
+	return result

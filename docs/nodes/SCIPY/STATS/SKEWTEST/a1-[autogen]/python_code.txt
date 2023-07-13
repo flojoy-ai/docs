@@ -1,20 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def SKEWTEST(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.skewtest(
-            a=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            nan_policy=(
-                str(params["nan_policy"]) if params["nan_policy"] != "" else None
-            ),
-            alternative=(
-                str(params["alternative"]) if params["alternative"] != "" else None
-            ),
-        ),
-    )
+@flojoy(node_type='default')
+def SKEWTEST(
+	default: OrderedPair,
+	axis: int = 0,
+	nan_policy: str = 'propagate',
+	alternative: str = 'two-sided',
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.skewtest(
+			a=default.y,
+			axis=axis,
+			nan_policy=nan_policy,
+			alternative=alternative,
+		)
+	)
+	return result

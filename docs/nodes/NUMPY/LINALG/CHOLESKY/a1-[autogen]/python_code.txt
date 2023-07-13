@@ -1,13 +1,16 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import numpy.linalg
 
 
-@flojoy
-def CHOLESKY(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.cholesky(
-            a=dc[0].y,
-        ),
-    )
+@flojoy(node_type='default')
+def CHOLESKY(
+	default: OrderedPair,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=numpy.linalg.cholesky(
+			a=default.y,
+			)
+	)
+	return result

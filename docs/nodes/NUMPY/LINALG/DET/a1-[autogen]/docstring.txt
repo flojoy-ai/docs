@@ -1,6 +1,6 @@
 
 
-        Compute the determinant of an array.
+	Compute the determinant of an array.
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 The parameters of the function in this Flojoy wrapper are given below.
@@ -9,4 +9,4 @@ The parameters of the function in this Flojoy wrapper are given below.
 Parameters
 ----------
 a : (..., M, M) array_like
-        Input array to compute determinants for.
+	Input array to compute determinants for.

@@ -1,20 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy
 import scipy.stats
 
 
-@flojoy
-def KURTOSIS(dc, params):
-    
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.kurtosis(
-            a=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            fisher=(bool(params["fisher"]) if params["fisher"] != "" else None),
-            bias=(bool(params["bias"]) if params["bias"] != "" else None),
-            nan_policy=(
-                str(params["nan_policy"]) if params["nan_policy"] != "" else None
-            ),
-            keepdims=(bool(params["keepdims"]) if params["keepdims"] != "" else None),
-        ),
-    )
+@flojoy(node_type='default')
+def KURTOSIS(
+	default: OrderedPair,
+	axis: int = 0,
+	fisher: bool = True,
+	bias: bool = True,
+	nan_policy: str = 'propagate',
+	keepdims: bool = False,
+	) -> OrderedPair:
+	''''''
+	result = OrderedPair(
+		x=default.x,
+		y=scipy.stats.kurtosis(
+			a=default.y,
+			axis=axis,
+			fisher=fisher,
+			bias=bias,
+			nan_policy=nan_policy,
+			keepdims=keepdims,
+		)
+	)
+	return result
