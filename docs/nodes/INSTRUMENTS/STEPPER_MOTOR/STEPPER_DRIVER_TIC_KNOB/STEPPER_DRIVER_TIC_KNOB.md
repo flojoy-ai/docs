@@ -3,7 +3,6 @@
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
-
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -26,12 +25,12 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-
+import appImg from './examples/EX1/app.jpeg'
 
 
 <AppDisplay 
     nodeLabel='STEPPER_DRIVER_TIC_KNOB'
-    appImg={''}
+    appImg={appImg}
     outputImg={''}
     >
     {App1}

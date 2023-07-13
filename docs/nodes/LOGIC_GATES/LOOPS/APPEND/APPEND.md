@@ -3,7 +3,6 @@
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
-
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -13,10 +12,8 @@ import AppendixSection from '@site/src/components/AppendixSection';
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='LOGIC_GATES/LOOPS/APPEND/APPEND.py'>{PythonSource}</PythonCode>
-
 
 <SectionBreak />
 
@@ -28,11 +25,14 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import Data1 from '!!raw-loader!./examples/EX1/output.txt';
+
+
 
 <AppDisplay 
-    data={Data1}
-    nodeLabel='APPEND'>
+    nodeLabel='APPEND'
+    appImg={''}
+    outputImg={''}
+    >
     {App1}
 </AppDisplay>
 

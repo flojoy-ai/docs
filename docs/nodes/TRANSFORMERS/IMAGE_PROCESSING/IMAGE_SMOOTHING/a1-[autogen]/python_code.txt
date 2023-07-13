@@ -30,6 +30,7 @@ def IMAGE_SMOOTHING(
             case "median":
                 image = cv2.medianBlur(rgba_image, kernel)
             case "bilateral":
+                rgba_image = cv2.cvtColor(rgba_image, cv2.COLOR_BGRA2BGR)
                 image = cv2.bilateralFilter(rgba_image, kernel, kernel * 5, kernel * 5)
         try:
             r, g, b, a = cv2.split(image)

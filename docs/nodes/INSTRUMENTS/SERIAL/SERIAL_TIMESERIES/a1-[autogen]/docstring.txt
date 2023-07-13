@@ -1,26 +1,6 @@
 
-Node to take simple time dependent 1d data from an Ardunio,
+The SERIAL_TIMESERIES Node extract simple time dependent 1d data from an Ardunio,
 or a similar serial device.
-For example, you can record temperature following this tutorial:
-
-https://learn.adafruit.com/thermistor/using-a-thermistor
-
-with Serial.println(steinhart) as the only line printing.
-
-It is important that the last line Arduino is returning is the
-data with a new line at the end (i.e. println()).
-
-The other lines must be returned with print()
-with print(",") between each line.
-
-For example:
-
-print(reading0)
-print(",")
-println(reading1)
-
-If there is more than one column, the SELECT_ARRAY node must be
-used after this node.
 
 Parameters :
 ------------
