@@ -78,12 +78,12 @@ USE:
 When your virtual environment is activated you can provide it to Flojoy script by using the -v argument 
 followed by the path to the virtual environment folder : 
 
-`bash Flojoy -v $path/to/venv/folder$`
+`bash flojoy -v $path/to/env/folder$`
 
 With the path to the virtual environment folder 
 
 or
-`bash Flojoy -v venv`
+`bash flojoy -v env`
 
 With the name of the virtual environment folder. 
 
