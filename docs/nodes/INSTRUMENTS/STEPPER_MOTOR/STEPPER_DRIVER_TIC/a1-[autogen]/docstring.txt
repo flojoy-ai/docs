@@ -1,4 +1,18 @@
 
-    Takes current limit and sleep time as parameters and allow to control position
-    and speed of a motor with a TIC driver
-    
+This node controls a stepper motor movement with a TIC driver.
+The user defines the speed and the sleep time between movements.
+(To choose the position, use the STEPPER_DRIVER_TIC_KNOB)
+
+
+Parameters :
+------------
+    current_limit: int
+        Defines the current limitation that the stepper motor will receive.
+
+
+    sleep_time: int
+         Defines the sleep time after moving to each position.
+
+
+    speed: int
+         Defines the speed of the motor movement. (Between 0 and 200000)
