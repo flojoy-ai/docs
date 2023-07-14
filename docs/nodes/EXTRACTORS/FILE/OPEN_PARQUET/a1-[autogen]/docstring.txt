@@ -9,5 +9,4 @@ file_path : str
 
 Returns:
 --------
-DataContainer:
-    type 'dataframe', m
+Dataframe
