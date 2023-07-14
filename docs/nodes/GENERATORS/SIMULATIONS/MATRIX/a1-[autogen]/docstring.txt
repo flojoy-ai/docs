@@ -5,9 +5,9 @@ integers inside the matrix are in between 0 and 19
 
 Parameters
 ----------
-row: int
+row
     number of rows
-column: int
+column
     number of columns
 Return
 ------

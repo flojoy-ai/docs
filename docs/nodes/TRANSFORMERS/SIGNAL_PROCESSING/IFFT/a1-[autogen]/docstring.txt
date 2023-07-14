@@ -9,6 +9,6 @@ The IFFT performs the Inverse Discrete Fourier Transform on the input signal.
 
     Returns
     -------
-    OrderedPair
+    ordered_pair
         x = time
         y = reconstructed signal

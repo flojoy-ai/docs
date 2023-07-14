@@ -1,5 +1,5 @@
 import traceback
-from flojoy import flojoy, Image
+from flojoy import flojoy, DataContainer
 import numpy as np
 import os
 import requests
@@ -8,12 +8,17 @@ from utils.object_detection.object_detection import detect_object
 
 
 @flojoy
-def OBJECT_DETECTION(default: Image) -> Image:
+def OBJECT_DETECTION(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     
-    r = default.r
-    g = default.g
-    b = default.b
-    a = default.a
+    dc_input: DataContainer = dc_inputs[0]
+    if dc_input.type != "image":
+        raise ValueError(
+            f"unsupported DataContainer type passed to OBJECT_DETECTION node: '{dc_input.type}'"
+        )
+    r = dc_input.r
+    g = dc_input.g
+    b = dc_input.b
+    a = dc_input.a
 
     path = os.path.join(
         os.path.abspath(os.getcwd()), "PYTHON/utils/object_detection/yolov3.weights"
@@ -40,7 +45,13 @@ def OBJECT_DETECTION(default: Image) -> Image:
             alpha_channel = img_array[:, :, 3]
         else:
             alpha_channel = None
-        return Image(r=red_channel, g=green_channel, b=blue_channel, a=alpha_channel)
+        return DataContainer(
+            type="image",
+            r=red_channel,
+            g=green_channel,
+            b=blue_channel,
+            a=alpha_channel,
+        )
 
     except Exception:
         print(traceback.format_exc())

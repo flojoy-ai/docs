@@ -1,13 +1,14 @@
 import numpy as np
-from flojoy import OrderedPair, flojoy
-from functools import reduce
+from flojoy import flojoy, DataContainer
 
 
 @flojoy
-def MULTIPLY(a: OrderedPair, b: list[OrderedPair]) -> OrderedPair:
+def MULTIPLY(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     
-    x = a.x
+    a = dc_inputs[0].y
+    b = dc_inputs[1].y
 
-    y = reduce(lambda u, v: np.multiply(u, v.y), b, a.y)
+    x = dc_inputs[0].x
+    y = np.multiply(a, b)
 
-    return OrderedPair(x=x, y=y)
+    return DataContainer(x=x, y=y)

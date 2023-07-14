@@ -1,22 +1,3 @@
 
- The STEPPER_DRIVER_TIC_KNOB controls a stepper motor movement with a TIC driver.
- The user controls the motor rotation with the knob position in the node's parameters.
-
-
-Parameters :
-------------
-    knob_value: int
-        Defines the position of the motor. (Rotational movement)
-
-
-    current_limit: int
-        Defines the current limitation that the stepper motor will receive.
-
-
-    sleep_time: int
-         Defines the sleep time after moving to each position.
-
-
-    speed: int
-         Defines the speed of the motor movement. (Between 0 and 200000)
-
+Takes knob position as parameters to control the rotation of the motor and allow to control position
+and speed of a motor with a TIC driver

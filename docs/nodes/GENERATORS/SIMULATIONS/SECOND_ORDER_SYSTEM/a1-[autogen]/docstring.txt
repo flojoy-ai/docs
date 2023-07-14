@@ -11,5 +11,5 @@ The SECOND_ORDER_SYSTEM has a second order exponential function.
 
     Returns
     -------
-    OrderedPair
+    dataframe
         The most recent value of the second order function.

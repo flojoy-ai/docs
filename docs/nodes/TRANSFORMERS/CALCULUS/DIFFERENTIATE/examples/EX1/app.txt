@@ -2,247 +2,145 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 150,
-                "id": "DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156",
-                "type": "CALCULUS",
-                "data": {
-                    "id": "DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156",
-                    "label": "DIFFERENTIATE",
-                    "func": "DIFFERENTIATE",
-                    "type": "CALCULUS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair",
-                            "multiple": false
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/TRANSFORMERS/CALCULUS/DIFFERENTIATE/DIFFERENTIATE.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 585.9239574805457,
-                    "y": 426.66160214292444
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 585.9239574805457,
-                    "y": 426.66160214292444
-                },
-                "dragging": true
-            },
-            {
                 "width": 210,
                 "height": 130,
-                "id": "END-c993827b-3645-4530-871f-7468cedbda18",
-                "type": "TERMINATORS",
+                "id": "END-93b77b20-3571-4bb3-8c3f-4a43f379d25f",
+                "type": "TERMINATOR",
                 "data": {
-                    "id": "END-c993827b-3645-4530-871f-7468cedbda18",
+                    "id": "END-93b77b20-3571-4bb3-8c3f-4a43f379d25f",
                     "label": "END",
                     "func": "END",
-                    "type": "TERMINATORS",
+                    "type": "TERMINATOR",
                     "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 1291.0454683870144,
-                    "y": 430.44899167580917
+                    "x": 1253.242507985603,
+                    "y": 173.95451037603243
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 1291.0454683870144,
-                    "y": 430.44899167580917
+                    "x": 1253.242507985603,
+                    "y": 173.95451037603243
                 },
                 "dragging": true
             },
             {
                 "width": 150,
                 "height": 150,
-                "id": "LINSPACE-b722f042-7a06-47e9-8aff-ccfaeb9a2e4e",
+                "id": "LINSPACE-208945d6-d088-4033-bda8-9d92402eb3fc",
                 "type": "default",
                 "data": {
-                    "id": "LINSPACE-b722f042-7a06-47e9-8aff-ccfaeb9a2e4e",
+                    "id": "LINSPACE-208945d6-d088-4033-bda8-9d92402eb3fc",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "SIMULATION",
                     "ctrls": {
                         "start": {
-                            "type": "float",
-                            "default": 10,
                             "functionName": "LINSPACE",
                             "param": "start",
                             "value": 10
                         },
                         "end": {
-                            "type": "float",
-                            "default": 0,
                             "functionName": "LINSPACE",
                             "param": "end",
                             "value": 0
                         },
                         "step": {
-                            "type": "int",
-                            "default": 1000,
                             "functionName": "LINSPACE",
                             "param": "step",
-                            "value": 1000
+                            "value": "3"
                         }
                     },
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
-                    "x": 87.47706241963189,
-                    "y": 441.844842658924
+                    "x": 77.93027894790944,
+                    "y": 174.04179697790812
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
-                    "x": 87.47706241963189,
-                    "y": 441.844842658924
+                    "x": 77.93027894790944,
+                    "y": 174.04179697790812
                 },
                 "dragging": true
             },
             {
                 "width": 130,
                 "height": 130,
-                "id": "RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736b",
-                "type": "SIMULATIONS",
+                "id": "RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7",
+                "type": "SIMULATION",
                 "data": {
-                    "id": "RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736b",
+                    "id": "RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7",
                     "label": "RAND",
                     "func": "RAND",
-                    "type": "SIMULATIONS",
+                    "type": "SIMULATION",
                     "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair",
-                            "multiple": false
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/RAND/RAND.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 340.5423636578049,
-                    "y": 253.10076558579198
+                    "x": 476.4083224286069,
+                    "y": 160.5415428742058
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 340.5423636578049,
-                    "y": 253.10076558579198
+                    "x": 476.4083224286069,
+                    "y": 160.5415428742058
                 },
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
-                "id": "LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5",
-                "type": "PLOTLY",
+                "width": 150,
+                "height": 150,
+                "id": "DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5",
+                "type": "CALCULUS",
                 "data": {
-                    "id": "LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5",
-                    "label": "LINE",
-                    "func": "LINE",
-                    "type": "PLOTLY",
+                    "id": "DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5",
+                    "label": "DIFFERENTIATE",
+                    "func": "DIFFERENTIATE",
+                    "type": "CALCULUS",
                     "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair|DataFrame|Matrix",
-                            "multiple": false
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Plotly"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/LINE/LINE.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 901.023154743807,
-                    "y": 392.1563729244117
+                    "x": 850.183768965325,
+                    "y": 144.23502335283177
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 901.023154743807,
-                    "y": 392.1563729244117
+                    "x": 850.183768965325,
+                    "y": 144.23502335283177
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "LINSPACE-b722f042-7a06-47e9-8aff-ccfaeb9a2e4e",
-                "sourceHandle": "default",
-                "target": "RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736b",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINSPACE-b722f042-7a06-47e9-8aff-ccfaeb9a2e4edefault-RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736bdefault"
+                "source": "LINSPACE-208945d6-d088-4033-bda8-9d92402eb3fc",
+                "sourceHandle": "main",
+                "target": "RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7",
+                "targetHandle": "RAND",
+                "id": "reactflow__edge-LINSPACE-208945d6-d088-4033-bda8-9d92402eb3fcmain-RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7RAND"
             },
             {
-                "source": "RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736b",
-                "sourceHandle": "default",
-                "target": "DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156",
-                "targetHandle": "default",
-                "id": "reactflow__edge-RAND-2f1b61c5-57ea-493e-a607-40b9ed1f736bdefault-DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156default"
+                "source": "RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7",
+                "sourceHandle": "main",
+                "target": "DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5",
+                "targetHandle": "DIFFERENTIATE",
+                "id": "reactflow__edge-RAND-4c67b54c-7b9a-4c16-8a97-787cb2e523c7main-DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5DIFFERENTIATE"
             },
             {
-                "source": "DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156",
-                "sourceHandle": "default",
-                "target": "LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5",
-                "targetHandle": "default",
-                "id": "reactflow__edge-DIFFERENTIATE-bcbbd6f4-fc2d-4ad5-9ff7-73755ed8e156default-LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5default"
-            },
-            {
-                "source": "LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5",
-                "sourceHandle": "default",
-                "target": "END-c993827b-3645-4530-871f-7468cedbda18",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-de6740a9-87dd-4943-9e28-83ffae8a53d5default-END-c993827b-3645-4530-871f-7468cedbda18default"
+                "source": "DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5",
+                "sourceHandle": "main",
+                "target": "END-93b77b20-3571-4bb3-8c3f-4a43f379d25f",
+                "targetHandle": "END",
+                "id": "reactflow__edge-DIFFERENTIATE-1153d064-1d57-4618-ac29-3463c67852c5main-END-93b77b20-3571-4bb3-8c3f-4a43f379d25fEND"
             }
         ],
         "viewport": {
-            "x": 0,
-            "y": 0,
-            "zoom": 1
+            "x": 254.33229548020677,
+            "y": 119.55737845143199,
+            "zoom": 0.775994799329387
         }
     },
     "ctrlsManifest": [

@@ -1,15 +1,2 @@
-Apply a Savitzky-Golay filter to an input signal, it's generally used for smoothing data
+Apply a Savitzky-Golay filter to an input vector.
     The default behaviour is implementing a 3-point moving average of the data.
-
-    Parameters
-    ----------
-    window_length: int
-        the length of the filter window, must be less than or equal to size of the input
-    poly_order: int
-        the order of the polynomial used to fit the samples, must be less than or equal to size of window_length
-
-    Returns
-    -------
-    OrderedPair
-        x: time axis
-        y: filtered signal

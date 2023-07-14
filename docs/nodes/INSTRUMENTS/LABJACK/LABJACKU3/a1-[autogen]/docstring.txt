@@ -1,7 +1,1 @@
-
-The node LABJACKU3 allows you to record and return temperature measurements with a LABJACK U3 device.
-
-Parameters
------------
-sensor_number: int
-     Defines the number of temperature sensors connected to the LabJack U3 device.
+Takes a number of sensors as parameters and return their temperature measurement

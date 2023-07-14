@@ -1,13 +1,17 @@
-from flojoy import flojoy, OrderedTriple, Matrix
+from flojoy import flojoy, DataContainer
 import numpy as np
 
 
 @flojoy
-def DOUBLE_INDEFINITE_INTEGRAL(default: OrderedTriple) -> Matrix:
+def DOUBLE_INDEFINITE_INTEGRAL(
+    dc_inputs: list[DataContainer], params: dict
+) -> DataContainer:
     
-    input_x = default.x
-    input_y = default.y
-    input_z = default.z
+    dc_input = dc_inputs[0]
+
+    input_x = dc_input.x
+    input_y = dc_input.y
+    input_z = dc_input.z
 
     integrate = np.zeros_like(input_x)
 
@@ -42,4 +46,4 @@ def DOUBLE_INDEFINITE_INTEGRAL(default: OrderedTriple) -> Matrix:
                     - result[i - 1][j - 1]
                 )
 
-    return Matrix(m=result)
+    return DataContainer(type="matrix", m=result)

@@ -8,4 +8,5 @@ None
 
 Returns
 -------
-OrderedPair, x, y
+DataContainer:
+    type 'ordered_pair', x, y

@@ -1,20 +1,20 @@
-from flojoy import flojoy, Image
+from flojoy import flojoy, DataContainer
 import cv2
 import numpy as np
-from typing import Literal
 
 
 @flojoy
-def IMAGE_SMOOTHING(
-    default: Image,
-    kernel: int = 5,
-    smoothing_type: Literal["average", "gaussian", "median", "bilateral"] = "average",
-) -> Image:
+def IMAGE_SMOOTHING(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
     
-    r = default.r
-    g = default.g
-    b = default.b
-    a = default.a
+    dc_input = dc_inputs[0]
+    if dc_input.type != "image":
+        raise ValueError(f"unsupported data IMAGE_SMOOTHING node: '{dc_input.type}'")
+    r = dc_input.r
+    g = dc_input.g
+    b = dc_input.b
+    a = dc_input.a
+    kernel = params.get("kernel", 5)
+    smoothing_type = params.get("smoothing_type", "average")
 
     if a is not None:
         rgba_image = np.stack((r, g, b, a), axis=2)
@@ -30,7 +30,6 @@ def IMAGE_SMOOTHING(
             case "median":
                 image = cv2.medianBlur(rgba_image, kernel)
             case "bilateral":
-                rgba_image = cv2.cvtColor(rgba_image, cv2.COLOR_BGRA2BGR)
                 image = cv2.bilateralFilter(rgba_image, kernel, kernel * 5, kernel * 5)
         try:
             r, g, b, a = cv2.split(image)
@@ -38,7 +37,8 @@ def IMAGE_SMOOTHING(
             r, g, b = cv2.split(image)
         if a is None:
             a = None
-        return Image(
+        return DataContainer(
+            type="image",
             r=r,
             g=g,
             b=b,
