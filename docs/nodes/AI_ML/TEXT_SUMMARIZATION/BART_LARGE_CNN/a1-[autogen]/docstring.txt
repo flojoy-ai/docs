@@ -8,6 +8,6 @@ The BART_LARGE_CNN node takes an input dataframe with multiple rows and a single
 
     Returns:
     --------
-    DataContainer:
-        type 'dataframe' containing the summary text in the "summary_text" column.
+    DataFrame
+        dataframe containing the summary text in the "summary_text" column.
 

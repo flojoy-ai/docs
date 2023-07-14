@@ -1,13 +1,20 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.signal
 
 
-@flojoy
-def CUBIC(dc, params):
+@flojoy(node_type="default")
+def CUBIC(
+    default: OrderedPair | Matrix,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.cubic(
-            x=dc[0].y,
-        ),
+
+    result = OrderedPair(
+        m=scipy.signal.cubic(
+            x=default.y,
+        )
     )
+
+    return result

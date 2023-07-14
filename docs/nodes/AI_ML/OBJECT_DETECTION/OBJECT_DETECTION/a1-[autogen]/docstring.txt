@@ -7,9 +7,8 @@ The OBJECT_DETECTION node detects objects in the input image,
 
     Supported DC types:
     -------------------
-    `image'
+    Image
 
     Returns:
     ----------
-    DataContainer:
-        type 'image' (RGB(A)).
+    Image (RGB(A)).
