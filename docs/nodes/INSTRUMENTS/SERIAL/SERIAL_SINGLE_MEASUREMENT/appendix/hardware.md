@@ -1,3 +1,3 @@
-## HARDWARE required:
-
-- An Arduino microcontroller.
+- [An Arduino microcontroller board](https://store-usa.arduino.cc/collections/boards)
+- A thermistor
+- Connection Cables
