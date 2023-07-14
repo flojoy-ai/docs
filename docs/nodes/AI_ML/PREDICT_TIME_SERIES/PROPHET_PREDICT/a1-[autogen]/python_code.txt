@@ -1,14 +1,19 @@
 import pandas as pd
-from flojoy import flojoy, DataFrame
-from typing import Any, Dict, List
+from flojoy import flojoy, DataFrame, DataContainer
 from prophet import Prophet
+from typing import TypedDict
 from prophet.serialize import model_to_json
 
 
-@flojoy(deps={"prophet": "1.1.4", "holidays": "0.26"})
+class ProphetPredictOutput(TypedDict):
+    dataframe: DataFrame
+    prophet_data: DataContainer
+
+
+@flojoy(deps={"prophet": "1.1.4", "holidays": "0.26", "pystan": "2.19.1.1"})
 def PROPHET_PREDICT(
     default: DataFrame, run_forecast: bool = True, periods: int = 365
-) -> DataFrame:
+) -> ProphetPredictOutput:
     
 
     df = default.m
@@ -30,4 +35,6 @@ def PROPHET_PREDICT(
         forecast = model.predict(future)
         extra["original"] = df
         return_df = forecast
-    return DataFrame(df=return_df, extra=extra)
+    return ProphetPredictOutput(
+        dataframe=DataFrame(df=return_df), prophet_data=DataContainer(extra=extra)
+    )

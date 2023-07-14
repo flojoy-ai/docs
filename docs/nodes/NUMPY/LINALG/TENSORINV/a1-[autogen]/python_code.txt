@@ -1,14 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import numpy.linalg
 
 
-@flojoy
-def TENSORINV(dc, params):
+@flojoy(node_type="default")
+def TENSORINV(
+    default: OrderedPair | Matrix,
+    ind: int = 2,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.tensorinv(
-            a=dc[0].y,
-            ind=(int(params["ind"]) if params["ind"] != "" else None),
-        ),
+
+    result = numpy.linalg.tensorinv(
+        a=default.m,
+        ind=ind,
     )
+
+    if type(result) == np.ndarray:
+        result = Matrix(m=result)
+
+    elif type(result) == np.float64:
+        result = Scalar(c=result)
+
+    return result
