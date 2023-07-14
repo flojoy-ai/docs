@@ -1,1 +1,9 @@
-Declaration of the Event handler, print Voltage variation for a channel
+The node Phidget allows you to record pressures from Flexiforce sensors using a Phidget InterfaceKit.
+
+Parameters
+-----------
+n_sensors: int
+     Defines the number of pressure sensors connected to the Phidget Interface Kit.
+calibration1: float
+calibration2: float
+    Calibration parameters to convert voltage into pressure.
