@@ -1,4 +1,4 @@
-The PROPHET_PREDICT node rains a Prophet model on the incoming dataframe
+The PROPHET_PREDICT node rains a Prophet model on the incoming dataframe.
 
     The DataContainer input type must be `dataframe`, and that dataframe must have its
     first column (or index) be of datetime type.
@@ -33,7 +33,8 @@ The PROPHET_PREDICT node rains a Prophet model on the incoming dataframe
 
     Returns
     -------
-    DataContainer of type `dataframe` with param `m` which indicates either the original
-        df passed in, or the forecasted df (depending on if `run_forecast` is True),
-        as well as the `extra` param with keys "run_forecast" which correspond to the
+    DataFrame with param `df` which indicates either the original
+        df passed in, or the forecasted df (depending on if `run_forecast` is True)
+
+    DataContainer with param 'extra' containing keys "run_forecast" which correspond to the
         input param, and potentially "original" in the event that `run_forecast` is True

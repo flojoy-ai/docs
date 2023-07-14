@@ -3,9 +3,10 @@ The NLP_CONNECT_VIT_GPT2 node captions an input image and produces an output str
 
     Parameters
     ----------
+    None
 
     Returns:
     --------
     DataContainer:
-        type 'dataframe' containing the caption column, and a single row.
+        DataFrame containing the caption column, and a single row.
 
