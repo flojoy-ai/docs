@@ -1,5 +1,3 @@
-## Cloudinary Links :
-
 ![LM34 connections](https://res.cloudinary.com/dhopxs1y3/image/upload/v1681998838/flojoy-docs/Labjacku3/LABJACKU3_sensor_dphqly.jpg)
 _Connection on the LM34 temperature sensor_
 
