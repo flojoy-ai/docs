@@ -1,5 +1,5 @@
 The LEAST_SQUARE node computes the coefficients that minimizes the distance between the
-    inputs 'DataContainer' class, specifically the 'matrix' type and the regression.
+    inputs 'Matrix or OrderedPair' class and the regression.
 
     Parameters
     ----------
@@ -7,6 +7,8 @@ The LEAST_SQUARE node computes the coefficients that minimizes the distance betw
 
     Returns
     -------
-    ordered pair
+    OrderedPair
         x: input matrix (data points)
         y: fitted line computed with returned regression weights
+    Matrix
+        m : fitted matrix computed with returned regression weights
