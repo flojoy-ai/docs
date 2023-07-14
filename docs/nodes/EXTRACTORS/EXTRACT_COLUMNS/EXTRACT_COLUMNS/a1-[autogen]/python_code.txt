@@ -1,0 +1,17 @@
+from flojoy import flojoy, DataFrame, Matrix, Array
+import pandas as pd
+import numpy as np
+
+
+@flojoy
+def EXTRACT_COLUMNS(default: DataFrame | Matrix, columns: Array) -> DataFrame:
+    
+    if isinstance(default, DataFrame):
+        df = default.m
+        new_df = df[columns.unwrap()] if columns else df
+        return DataFrame(df=new_df)
+    else:
+        matrix = default.m
+        indices = np.array(columns.unwrap(), dtype=int)
+        new_matrix = matrix[:, indices] if columns else matrix
+        return Matrix(m=new_matrix)

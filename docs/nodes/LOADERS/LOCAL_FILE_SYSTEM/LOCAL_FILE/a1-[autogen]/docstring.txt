@@ -9,9 +9,8 @@ The LOCAL_FILE node loads a local file of different type and converts it to a Da
 
     Returns:
     --------
-    DataContainer:
+    Image:
         type 'image' for file_type 'image'
 
         type 'dataframe' for file_type 'json', 'csv', 'excel', 'xml'
 
-    

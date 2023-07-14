@@ -1,11 +1,14 @@
 
-    The SERIAL_SINGLE_MEASUREMENT Node takes a single reading of data from an Ardunio,
-    or a similar serial device.
+The SERIAL_SINGLE_MEASUREMENT Node takes a single reading of data from an Ardunio,
+or a similar serial device.
 
-    Parameters :
-    ------------
-    baudrate: int
-        Baud rate for the serial communication.
+For example you can record temperature following this tutorial:
+https://learn.adafruit.com/thermistor/using-a-thermistor
 
-    comport: String
-        Defines the comunication port on which the Serial device is connected
+Parameters :
+------------
+baudrate: Float
+    Baud rate for the serial communication.
+
+comport: String
+    Defines the comunication port on which the Serial device is connected
