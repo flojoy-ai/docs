@@ -34,8 +34,11 @@ const HandleComponent = ({ data }) => {
             <div
               style={{
                 position: 'absolute',
-                left: 20,
-                bottom: -12,
+                left: -110,
+                bottom: -10,
+		fontSize: '12px',
+		fontFamily: 'Monaco',
+		color: 'white'
               }}
             >
               {param.name !== 'default' ? param.name : ''}
