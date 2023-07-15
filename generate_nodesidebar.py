@@ -42,7 +42,7 @@ def update_map(
                     map_file[key] = [formatted_path]
     return map_file
 
-
+__ignore_dirs = ["appendix", "examples", "a1-[autogen]"]
 def write_nodesidebar():
     file_path = None
     nodes_map: dict[str, str | list[str]] = load_nodes_map()
@@ -50,15 +50,16 @@ def write_nodesidebar():
     new_map: dict[str, list[str]] = {}
     for root, _, files in os.walk(NODES_DIR):
         for file in files:
-            if file.endswith(".md") and "appendix" not in root:
+            if file.endswith(".md") and not any((dir in root) for dir in __ignore_dirs):
                 path_index = root.index("nodes")
                 path_from_second_dir = root[path_index:]
                 file_path = path.join(path_from_second_dir, file)
                 new_map = update_map(new_map, nodes_map, file_path)
                 break
             break
+    sorted_map = dict(sorted(new_map.items()))
     write_file(
-        path.join(path.curdir, "nodeSidebar.json"), json.dumps(new_map, indent=4)
+        path.join(path.curdir, "nodeSidebar.json"), json.dumps(sorted_map, indent=4)
     )
 
 
