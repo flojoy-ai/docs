@@ -27,7 +27,7 @@ export default function DocString({ children }: DocStringProps) {
 
   return (
     <>
-      <p style={{ 'white-space': 'pre-line;' }}>{content}</p>
+      <pre>{content}</pre>
       <br></br>
     </>
   );
