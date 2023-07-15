@@ -1,19 +1,28 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.stats
 
 
-@flojoy
-def MOMENT(dc, params):
+@flojoy(node_type="default")
+def MOMENT(
+    default: OrderedPair | Matrix,
+    moment: int = 1,
+    axis: int = 0,
+    nan_policy: str = "propagate",
+    keepdims: bool = False,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.moment(
-            a=dc[0].y,
-            moment=(int(params["moment"]) if params["moment"] != "" else None),
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            nan_policy=(
-                str(params["nan_policy"]) if params["nan_policy"] != "" else None
-            ),
-            keepdims=(bool(params["keepdims"]) if params["keepdims"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.stats.moment(
+            a=default.y,
+            moment=moment,
+            axis=axis,
+            nan_policy=nan_policy,
+            keepdims=keepdims,
+        )
     )
+
+    return result

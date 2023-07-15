@@ -1,13 +1,16 @@
+The BSPLINE node is based on a numpy or scipy function.
+    The description of that function is as follows:
 
-        B-spline basis function of order n.
+            B-spline basis function of order n.
 
--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-The parameters of the function in this Flojoy wrapper are given below.
--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+    Parameters
+    ----------
+    x : array_like
+            a knot vector
+    n : int
+            The order of the spline. Must be non-negative, i.e., n >= 0
 
-Parameters
-----------
-x : array_like
-        a knot vector
-n : int
-        The order of the spline. Must be non-negative, i.e., n >= 0
+    Returns
+    ----------
+    DataContainer:
+            type 'ordered pair', 'scalar', or 'matrix'

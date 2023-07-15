@@ -1,14 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.stats
 
 
-@flojoy
-def YEOJOHNSON(dc, params):
+@flojoy(node_type="default")
+def YEOJOHNSON(
+    default: OrderedPair | Matrix,
+    lmbda: float,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.yeojohnson(
-            x=dc[0].y,
-            lmbda=(float(params["lmbda"]) if params["lmbda"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.stats.yeojohnson(
+            x=default.y,
+            lmbda=lmbda,
+        )
     )
+
+    return result
