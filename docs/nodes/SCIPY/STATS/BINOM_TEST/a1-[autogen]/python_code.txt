@@ -1,18 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.stats
 
 
-@flojoy
-def BINOM_TEST(dc, params):
+@flojoy(node_type="default")
+def BINOM_TEST(
+    default: OrderedPair | Matrix,
+    n: int,
+    p: float = 0.5,
+    alternative: str = "two-sided",
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.binom_test(
-            x=dc[0].y,
-            n=(int(params["n"]) if params["n"] != "" else None),
-            p=(float(params["p"]) if params["p"] != "" else None),
-            alternative=(
-                str(params["alternative"]) if params["alternative"] != "" else None
-            ),
-        ),
+
+    result = OrderedPair(
+        m=scipy.stats.binom_test(
+            x=default.y,
+            n=n,
+            p=p,
+            alternative=alternative,
+        )
     )
+
+    return result

@@ -1,21 +1,28 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.signal
 
 
-@flojoy
-def DETREND(dc, params):
+@flojoy(node_type="default")
+def DETREND(
+    default: OrderedPair | Matrix,
+    axis: int = -1,
+    type: str = "linear",
+    bp: int = 0,
+    overwrite_data: bool = False,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.detrend(
-            data=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            type=(str(params["type"]) if params["type"] != "" else None),
-            bp=(int(params["bp"]) if params["bp"] != "" else None),
-            overwrite_data=(
-                bool(params["overwrite_data"])
-                if params["overwrite_data"] != ""
-                else None
-            ),
-        ),
+
+    result = OrderedPair(
+        m=scipy.signal.detrend(
+            data=default.y,
+            axis=axis,
+            type=type,
+            bp=bp,
+            overwrite_data=overwrite_data,
+        )
     )
+
+    return result

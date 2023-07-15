@@ -1,10 +1,10 @@
-This example shows Flojoy's ability to record and display temperature measurements with a LABJACK U3 device and update them in a Loop. The appendix contains all information about hardware requirements and sensor connections.
+This example shows Flojoy's ability to record and display temperature measurements with a LABJACK U3 device and update them in a Loop. The appendix contains all information about hardware requirements and sensor connections (Images).
 
 
-The workflow of this app is described below:
+After connecting the temperature sensors to your LABJACK U3 device, place the nodes on Flojoy:
 
 
-- The ['LABJACKU3'](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3.py) node communicates with the LABJACKU3 device to extract temperature measurement from the sensors. This node has only one parameter : sensor_number (6 in this example).
+- The ['LABJACKU3'](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3.py) Node communicates with the LABJACKU3 device to extract temperature measurement from the sensors. This node has only one parameter to fix: the number of sensors (6 in this example).
 
 
 - The ['BAR'](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/BAR/BAR.py) node displays all temperature measurements on the same figure.

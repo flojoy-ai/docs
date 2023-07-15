@@ -1,20 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.stats
 
 
-@flojoy
-def TRIM1(dc, params):
+@flojoy(node_type="default")
+def TRIM1(
+    default: OrderedPair | Matrix,
+    proportiontocut: float,
+    tail: str = "right",
+    axis: int = 0,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.trim1(
-            a=dc[0].y,
-            proportiontocut=(
-                float(params["proportiontocut"])
-                if params["proportiontocut"] != ""
-                else None
-            ),
-            tail=(str(params["tail"]) if params["tail"] != "" else None),
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.stats.trim1(
+            a=default.y,
+            proportiontocut=proportiontocut,
+            tail=tail,
+            axis=axis,
+        )
     )
+
+    return result

@@ -1,14 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import numpy.linalg
 
 
-@flojoy
-def MATRIX_POWER(dc, params):
+@flojoy(node_type="default")
+def MATRIX_POWER(
+    default: OrderedPair | Matrix,
+    n: int,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=numpy.linalg.matrix_power(
-            a=dc[0].y,
-            n=(int(params["n"]) if params["n"] != "" else None),
-        ),
+
+    result = numpy.linalg.matrix_power(
+        a=default.m,
+        n=n,
     )
+
+    if type(result) == np.ndarray:
+        result = Matrix(m=result)
+
+    elif type(result) == np.float64:
+        result = Scalar(c=result)
+
+    return result
