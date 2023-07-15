@@ -37,32 +37,21 @@
     ],
     "Data > Visualize > Data Structure": [
         "nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/ARRAY_VIEW",
-        "nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/example",
-        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW",
-        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/examples/EX1/example"
+        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW"
     ],
     "Data > Visualize > Plotly": [
         "nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/PROPHET_COMPONENTS",
         "nodes/VISUALIZERS/PLOTLY/SCATTER3D/SCATTER3D",
-        "nodes/VISUALIZERS/PLOTLY/SCATTER3D/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/HISTOGRAM/HISTOGRAM",
-        "nodes/VISUALIZERS/PLOTLY/HISTOGRAM/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/BIG_NUMBER",
-        "nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/IMAGE/IMAGE",
-        "nodes/VISUALIZERS/PLOTLY/IMAGE/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/SCATTER/SCATTER",
-        "nodes/VISUALIZERS/PLOTLY/SCATTER/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/PROPHET_PLOT/PROPHET_PLOT",
         "nodes/VISUALIZERS/PLOTLY/LINE/LINE",
-        "nodes/VISUALIZERS/PLOTLY/LINE/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/COMPOSITE/COMPOSITE",
-        "nodes/VISUALIZERS/PLOTLY/COMPOSITE/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/TABLE/TABLE",
-        "nodes/VISUALIZERS/PLOTLY/TABLE/examples/EX1/example",
         "nodes/VISUALIZERS/PLOTLY/SURFACE3D/SURFACE3D",
-        "nodes/VISUALIZERS/PLOTLY/BAR/BAR",
-        "nodes/VISUALIZERS/PLOTLY/BAR/examples/EX1/example"
+        "nodes/VISUALIZERS/PLOTLY/BAR/BAR"
     ],
     "Flow": [
         "nodes/LOGIC_GATES/TIMERS/TIMER",
