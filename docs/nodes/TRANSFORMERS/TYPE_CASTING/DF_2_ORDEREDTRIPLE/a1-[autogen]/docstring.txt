@@ -1,0 +1,13 @@
+
+Node to convert dataframe type data into OrderedTriple type data.
+It takes one dataframe type data to picks 3 different columns to generate OrderedTriple type.
+
+Parameters
+----------
+x: the index of column that represents x axis
+y: the index of column that represents y axis
+z: the index of column that represents z axis
+
+Returns
+-------
+OrderTriple, x, y ,z

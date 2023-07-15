@@ -1,19 +1,24 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.stats
 
 
-@flojoy
-def TRIMBOTH(dc, params):
+@flojoy(node_type="default")
+def TRIMBOTH(
+    default: OrderedPair | Matrix,
+    proportiontocut: float,
+    axis: int = 0,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.stats.trimboth(
-            a=dc[0].y,
-            proportiontocut=(
-                float(params["proportiontocut"])
-                if params["proportiontocut"] != ""
-                else None
-            ),
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.stats.trimboth(
+            a=default.y,
+            proportiontocut=proportiontocut,
+            axis=axis,
+        )
     )
+
+    return result

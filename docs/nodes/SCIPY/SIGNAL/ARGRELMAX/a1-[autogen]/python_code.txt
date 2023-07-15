@@ -1,16 +1,26 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.signal
 
 
-@flojoy
-def ARGRELMAX(dc, params):
+@flojoy(node_type="default")
+def ARGRELMAX(
+    default: OrderedPair | Matrix,
+    axis: int = 0,
+    order: int = 1,
+    mode: str = "clip",
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.argrelmax(
-            data=dc[0].y,
-            axis=(int(params["axis"]) if params["axis"] != "" else None),
-            order=(int(params["order"]) if params["order"] != "" else None),
-            mode=(str(params["mode"]) if params["mode"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.signal.argrelmax(
+            data=default.y,
+            axis=axis,
+            order=order,
+            mode=mode,
+        )
     )
+
+    return result

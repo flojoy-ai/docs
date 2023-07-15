@@ -1,14 +1,22 @@
-from flojoy import DataContainer, flojoy
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+
+
 import scipy.signal
 
 
-@flojoy
-def BSPLINE(dc, params):
+@flojoy(node_type="default")
+def BSPLINE(
+    default: OrderedPair | Matrix,
+    n: int,
+) -> OrderedPair | Matrix | Scalar:
     
-    return DataContainer(
-        x=dc[0].y,
-        y=scipy.signal.bspline(
-            x=dc[0].y,
-            n=(int(params["n"]) if params["n"] != "" else None),
-        ),
+
+    result = OrderedPair(
+        m=scipy.signal.bspline(
+            x=default.y,
+            n=n,
+        )
     )
+
+    return result
