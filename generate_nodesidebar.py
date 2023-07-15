@@ -58,6 +58,8 @@ def write_nodesidebar():
                 break
             break
     sorted_map = dict(sorted(new_map.items()))
+    for key, items in sorted_map.items():
+        sorted_map[key] = sorted(items)
     write_file(
         path.join(path.curdir, "nodeSidebar.json"), json.dumps(sorted_map, indent=4)
     )
