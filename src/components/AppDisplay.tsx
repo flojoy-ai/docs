@@ -20,6 +20,8 @@ import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
 import { NodeData } from '../types/data';
 import ReactCompareImage from 'react-compare-image';
+import { ReactCompareSlider } from 'react-compare-slider';
+import Magnifier from 'react-magnifier';
 
 const HEIGHT = '20em';
 
@@ -134,15 +136,23 @@ export default function AppDisplay({
         <TabItem value="output" label="Output">
           <div style={{ minHeight: HEIGHT }}>
             {outputImg ? (
-              <ReactCompareImage
-                leftImage={appImg ?? outputImg}
-                aspectRatio={'wider'}
-                leftImageCss={{
-                  objectFit: 'containe',
-                }}
-                rightImageCss={{ objectFit: 'contain' }}
-                rightImage={outputImg}
-                sliderPositionPercentage={0.1}
+              <ReactCompareSlider
+                itemOne={
+                  <Magnifier
+                    src={appImg}
+                    zoomFactor={1.25}
+                    mgWidth={125}
+                    mgHeight={125}
+                  />
+                }
+                itemTwo={
+                  <Magnifier
+                    src={outputImg}
+                    zoomFactor={1.25}
+                    mgWidth={125}
+                    mgHeight={125}
+                  />
+                }
               />
             ) : (
               <blockquote>Example output for this app is not found!</blockquote>
