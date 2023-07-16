@@ -36,9 +36,9 @@ const HandleComponent = ({ data }) => {
                 position: 'absolute',
                 left: -110,
                 bottom: -10,
-		fontSize: '12px',
-		fontFamily: 'Monaco',
-		color: 'white'
+                fontSize: '12px',
+                fontFamily: 'Monaco',
+                color: 'white',
               }}
             >
               {param.name !== 'default' ? param.name : ''}
