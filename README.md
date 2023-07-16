@@ -1,5 +1,7 @@
 # 📚 docs.flojoy.io
 
+![GitHub deployments](https://img.shields.io/github/deployments/flojoy-io/docs/production?style=for-the-badge&logo=vercel&label=Vercel)
+
 Check 'em out 👉 https://docs.flojoy.io/
 
 ---
