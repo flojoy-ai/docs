@@ -5,7 +5,7 @@ import clsx from 'clsx';
 const QuickStart = () => {
   return (
     <div className={clsx(styles.quickstart)}>
-      <div className="container text-left quickstart__container">
+      <div className="container quickstart__container text-left">
         <h3 className="hero__subtitle">QuickStart</h3>
         <ul className={styles.list}>
           <li>
