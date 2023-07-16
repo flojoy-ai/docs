@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-modal: 244 244 244;
+    --color-accent1: 123 97 255;
+    --color-accent1-hover: 175 159 255;
+    --color-accent2: 46 131 255;
+    --color-accent3: 255 169 39;
+  }
+
+  [data-theme='dark'] {
+    --color-modal: 25 25 25;
+    --color-accent1: 153 245 255;
+    --color-accent1-hover: 212 251 255;
+    --color-accent2: 123 97 255;
+    --color-accent3: 255 201 63;
+  }
+}

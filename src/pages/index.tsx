@@ -36,24 +36,22 @@ function HomepageHeader() {
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className="d-flex align-center justify-center gap-3 flex-column-lg">
-            <div className={styles.buttons}>
+            <div className="bg-accent1 rounded-full hover:bg-accent1-hover transition ease-in-out  duration-300 ">
               <Link
-                className="button button--primary button--lg button--round"
+                className=" flex gap-2 items-center text-white dark:text-black font-bold text-xl uppercase p-4 tracking-wider hover:no-underline hover:text-white hover:dark:text-black"
                 to={downloadLinks.windows}
               >
                 <FaWindows />
-                &nbsp;
-                <span class="download__text">Download</span> For Windows
+                Download For Windows
               </Link>
             </div>
-            <div className={styles.buttons}>
+            <div className="bg-accent1 rounded-full hover:bg-accent1-hover transition ease-in-out  duration-300 ">
               <Link
-                className="button button--primary button--lg button--round"
+                className="flex gap-2 items-center text-white dark:text-black font-bold text-xl uppercase p-4 tracking-wider hover:no-underline hover:text-white hover:dark:text-black"
                 to={downloadLinks.mac}
               >
                 <FaApple />
-                &nbsp;
-                <span class="download__text">Download</span> For Mac
+                <span className="">Download For Mac</span>
               </Link>
             </div>
           </div>

@@ -49,7 +49,10 @@ const config = {
         },
 
         theme: {
-          customCss: [require.resolve('./src/scss/custom.scss')],
+          customCss: [
+            require.resolve('./src/scss/custom.scss'),
+            require.resolve('./src/css/custom.css'),
+          ],
         },
       }),
     ],
@@ -65,7 +68,20 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -80,7 +96,7 @@ const config = {
           srcDark: 'img/logo.png',
         },
 
-        items: [         
+        items: [
           {
             href: '/getting-started/install',
             position: 'right',
@@ -90,7 +106,7 @@ const config = {
             href: '/nodes/ask-ai',
             position: 'right',
             label: 'Ask AI',
-          },           
+          },
           {
             href: 'https://community.flojoy.io/',
             position: 'right',
