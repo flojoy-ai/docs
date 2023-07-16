@@ -1,13 +1,7 @@
 import React, { useCallback } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, {
-  Background,
-  MiniMap,
-  Node,
-  NodeTypes,
-  ReactFlowProvider,
-} from 'reactflow';
+import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
@@ -18,7 +12,6 @@ import ArithmeticNode from './nodes/ArithmeticNode';
 import ConditionalNode from './nodes/ConditionalNode';
 import VisorNode from './nodes/VisorNode';
 import TerminatorNode from './nodes/TerminatorNode';
-import { NodeData } from '../types/data';
 import ReactCompareImage from 'react-compare-image';
 
 const HEIGHT = '20em';
