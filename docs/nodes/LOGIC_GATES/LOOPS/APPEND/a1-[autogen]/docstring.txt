@@ -8,4 +8,4 @@ The APPEND node appends a single data point to an array.
 
     Returns
     -------
-    Ordered pair, dataframe or matrix.
+    OrderedPair, Matrix, DataFrame
