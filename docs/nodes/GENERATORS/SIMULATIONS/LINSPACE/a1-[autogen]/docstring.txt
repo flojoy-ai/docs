@@ -1,0 +1,16 @@
+The LINSPACE node generates an array containing evenly spaced numbers over a specified interval
+
+   Parameters
+   ---------
+   start: float
+       the first value of the output vector, or the start of the interval
+   end: float
+       the last value of the output vector, or the end of the interval
+   step: int
+       number of samples to generate
+
+   Returns
+   -------
+   Vector
+       v: equally spaced samples in the interval [start, stop]
+

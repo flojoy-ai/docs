@@ -1,1 +1,14 @@
-Generates a single x-y vector of numeric (floating point) constants
+The CONSTANT node generates a single x-y vector of numeric (floating point) constants
+    if there's an input vector, otherwise the constant node will generate a scalar value
+
+    Parameters
+    ----------
+    constant: float
+
+    Returns
+    -------
+    OrderedPair if there's an input vector
+        x: input vector
+        y: constant with the size of the input vector
+    Scalar if no input
+        c: constant

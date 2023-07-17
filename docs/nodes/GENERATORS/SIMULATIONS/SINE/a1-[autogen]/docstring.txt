@@ -1,0 +1,15 @@
+The SINE node generates periodic signal with a given input
+
+   Parameters
+   ----------
+   amplitude: float
+   frequency: float
+   offset: float
+   phase: float
+   waveform: select
+
+   Returns
+   -------
+   OrderedPair
+       x: input vector
+       y: generated signal
