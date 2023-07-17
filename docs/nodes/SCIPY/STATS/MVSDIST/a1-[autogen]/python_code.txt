@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -8,6 +9,7 @@ import scipy.stats
 @flojoy(node_type="default")
 def MVSDIST(
     default: OrderedPair | Matrix,
+    select_return: Literal["mdist", "vdist", "sdist"] = "mdist",
 ) -> OrderedPair | Matrix | Scalar:
     
 

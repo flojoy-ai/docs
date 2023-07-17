@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import numpy.linalg
 
@@ -11,6 +12,7 @@ def SVD(
     full_matrices: bool = True,
     compute_uv: bool = True,
     hermitian: bool = False,
+    select_return: Literal["u", "s", "vh"] = "u",
 ) -> OrderedPair | Matrix | Scalar:
     
 
@@ -21,9 +23,12 @@ def SVD(
         hermitian=hermitian,
     )
 
+    if type(result) == namedtuple:
+        result = result._asdict()
+        result = result[select_return]
+
     if type(result) == np.ndarray:
         result = Matrix(m=result)
-
     elif type(result) == np.float64:
         result = Scalar(c=result)
 

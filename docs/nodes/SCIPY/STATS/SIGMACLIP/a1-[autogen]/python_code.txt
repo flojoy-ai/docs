@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -10,6 +11,7 @@ def SIGMACLIP(
     default: OrderedPair | Matrix,
     low: float = 4.0,
     high: float = 4.0,
+    select_return: Literal["clipped", "lower", "upper"] = "clipped",
 ) -> OrderedPair | Matrix | Scalar:
     
 

@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -11,6 +12,7 @@ def KURTOSISTEST(
     axis: int = 0,
     nan_policy: str = "propagate",
     alternative: str = "two-sided",
+    select_return: Literal["statistic", "pvalue"] = "statistic",
 ) -> OrderedPair | Matrix | Scalar:
     
 
