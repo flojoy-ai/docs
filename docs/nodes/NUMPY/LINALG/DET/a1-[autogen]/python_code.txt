@@ -8,8 +8,8 @@ import numpy.linalg
 
 @flojoy(node_type="default")
 def DET(
-    default: OrderedPair | Matrix,
-) -> OrderedPair | Matrix | Scalar:
+    default: Matrix,
+) -> Matrix | Scalar:
     
 
     result = numpy.linalg.det(

@@ -8,10 +8,10 @@ import numpy.linalg
 
 @flojoy(node_type="default")
 def PINV(
-    default: OrderedPair | Matrix,
+    default: Matrix,
     rcond: float = 1e-15,
     hermitian: bool = False,
-) -> OrderedPair | Matrix | Scalar:
+) -> Matrix | Scalar:
     
 
     result = numpy.linalg.pinv(
