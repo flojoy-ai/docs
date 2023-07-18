@@ -1,8 +1,5 @@
 from flojoy import flojoy, run_in_venv, DataFrame, Image
 
-import numpy as np
-import pandas as pd
-
 
 @flojoy
 @run_in_venv(
@@ -14,6 +11,9 @@ import pandas as pd
 )
 def NLP_CONNECT_VIT_GPT2(default: Image) -> DataFrame:
     
+
+    import numpy as np
+    import pandas as pd
 
     import transformers
     import torchvision.transforms.functional as TF
