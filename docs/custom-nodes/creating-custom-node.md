@@ -19,23 +19,51 @@ We can then create our new function using the features discussed [here](../data-
 import numpy as np
 from flojoy import flojoy, OrderedPair
 
-@flojoy
+@flojoy(node_type="ARITHMETIC")
 def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
-    result = np.divide(a.y, b.y)
-
-    return OrderedPair(
-        x = a.x,
-        y = result
-    )
+    x = a.x
+    result = np.divide(a.y,b.y)
+    return OrderedPair(x=x, y=result)
 ```
 
-`OrderedPair` is a class that inherits from `DataContainer`. Function parameters that have a type annotation that is a `DataContainer` are interpreted as **node inputs**, meaning they are passed in by connecting nodes together. Here, the `DIVIDE` node takes in two `OrderedPair`s, `a` and `b`, and returns a new `OrderedPair`.
+Note: The type hints are important! This is how Flojoy differentiates between node inputs (that you connect edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (ex: `OrderedPair`, `Matrix`, etc.) is an input, and everything else is a parameter.
 
-:::caution
-Unlike normal Python functions, type annotations for Flojoy nodes are **required** for the node to function properly.
-:::
+The `node_type` argument to the `flojoy` decorator specifies what kind of node this should display as in the frontend.
 
-For more information, see the [API Reference](../node-api-reference).
+### A more advanced example
+
+Let's say we want to create a node to wrap `scikit-learn`'s `train_test_split` function. This node will have to return two different `DataContainer`s.
+
+```python {title="TRAIN_TEST_SPLIT.py"}
+
+import pandas as pd
+from typing import cast
+from dataclasses import dataclass
+from flojoy import flojoy, DataFrame
+from sklearn.model_selection import train_test_split
+
+
+@dataclass(frozen=True)
+class TrainTestSplitOutput:
+    train: DataFrame
+    test: DataFrame
+
+
+@flojoy(deps={"scikit-learn": "1.2.2"})
+def TRAIN_TEST_SPLIT(
+    default: DataFrame, test_size: float = 0.2
+) -> TrainTestSplitOutput:
+    df = default.m
+
+    train, test = cast(list[pd.DataFrame], train_test_split(df, test_size))
+    return TrainTestSplitOutput(train=DataFrame(df=train), test=DataFrame(df=test))
+```
+
+In this example, the node needs to import `sklearn` which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
+
+This node needs to return two `DataContainers`. We do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
+
+Looking at the parameters, we have one `DataContainer` input, named `default`. When we only have 1 input and we don't want to label it in the frontend, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter, that has a default value of 0.2.
 
 ### Creating Custom Component ( Frontend )
 
