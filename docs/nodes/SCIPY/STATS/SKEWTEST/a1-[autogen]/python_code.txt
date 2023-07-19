@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -11,16 +12,18 @@ def SKEWTEST(
     axis: int = 0,
     nan_policy: str = "propagate",
     alternative: str = "two-sided",
+    select_return: Literal["statistic", "pvalue"] = "statistic",
 ) -> OrderedPair | Matrix | Scalar:
     
 
     result = OrderedPair(
-        m=scipy.stats.skewtest(
+        x=default.x,
+        y=scipy.stats.skewtest(
             a=default.y,
             axis=axis,
             nan_policy=nan_policy,
             alternative=alternative,
-        )
+        ),
     )
 
     return result

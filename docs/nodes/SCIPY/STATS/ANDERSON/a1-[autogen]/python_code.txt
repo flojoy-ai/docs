@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -9,14 +10,18 @@ import scipy.stats
 def ANDERSON(
     default: OrderedPair | Matrix,
     dist: str = "norm",
+    select_return: Literal[
+        "statistic", "critical_values", "significance_level"
+    ] = "statistic",
 ) -> OrderedPair | Matrix | Scalar:
     
 
     result = OrderedPair(
-        m=scipy.stats.anderson(
+        x=default.x,
+        y=scipy.stats.anderson(
             x=default.y,
             dist=dist,
-        )
+        ),
     )
 
     return result

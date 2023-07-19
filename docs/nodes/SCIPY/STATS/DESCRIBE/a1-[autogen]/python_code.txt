@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -12,17 +13,19 @@ def DESCRIBE(
     ddof: int = 1,
     bias: bool = True,
     nan_policy: str = "propagate",
+    select_return: Literal["nobs", "mean", "variance", "skewness", "kurtosis"] = "nobs",
 ) -> OrderedPair | Matrix | Scalar:
     
 
     result = OrderedPair(
-        m=scipy.stats.describe(
+        x=default.x,
+        y=scipy.stats.describe(
             a=default.y,
             axis=axis,
             ddof=ddof,
             bias=bias,
             nan_policy=nan_policy,
-        )
+        ),
     )
 
     return result

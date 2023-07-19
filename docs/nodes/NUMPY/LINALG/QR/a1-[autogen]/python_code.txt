@@ -1,15 +1,17 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import numpy.linalg
 
 
 @flojoy(node_type="default")
 def QR(
-    default: OrderedPair | Matrix,
+    default: Matrix,
     mode: str = "reduced",
-) -> OrderedPair | Matrix | Scalar:
+    select_return: Literal["q", "r", "(h, tau)"] = "q",
+) -> Matrix | Scalar:
     
 
     result = numpy.linalg.qr(
@@ -17,10 +19,13 @@ def QR(
         mode=mode,
     )
 
-    if type(result) == np.ndarray:
-        result = Matrix(m=result)
+    if isinstance(result, namedtuple):
+        result = result._asdict()
+        result = result[select_return]
 
-    elif type(result) == np.float64:
+    if isinstance(result, np.ndarray):
+        result = Matrix(m=result)
+    elif isinstance(result, np.float64):
         result = Scalar(c=result)
 
     return result
