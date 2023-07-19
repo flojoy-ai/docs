@@ -2,8 +2,8 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 130,
-                "height": 130,
+                "width": 208,
+                "height": 96,
                 "id": "CONSTANT-d0605522-e750-442c-bb03-e0559f5604c9",
                 "type": "SIMULATIONS",
                 "data": {
@@ -39,13 +39,13 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 100.09048391587345,
-                    "y": 59.51438898987945
+                    "x": 50.20803758274229,
+                    "y": 56.6908542917777
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 100.09048391587345,
-                    "y": 59.51438898987945
+                    "x": 50.20803758274229,
+                    "y": 56.6908542917777
                 },
                 "dragging": true
             },
@@ -105,22 +105,22 @@
                         }
                     ],
                     "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/BIG_NUMBER.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
-                    "x": 351.40960896334144,
-                    "y": -13.773163291015123
+                    "x": 430.3585972373649,
+                    "y": 7.098408321657757
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
-                    "x": 351.40960896334144,
-                    "y": -13.773163291015123
+                    "x": 430.3585972373649,
+                    "y": 7.098408321657757
                 },
                 "dragging": true
             },
             {
-                "width": 210,
-                "height": 130,
+                "width": 96,
+                "height": 96,
                 "id": "END-35d85cd3-8abd-4c37-a02d-8c9a46a65982",
                 "type": "TERMINATORS",
                 "data": {
@@ -138,16 +138,165 @@
                         }
                     ],
                     "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 1004.3488758410305,
+                    "y": 270.34643133761494
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 1004.3488758410305,
+                    "y": 270.34643133761494
+                },
+                "dragging": true
+            },
+            {
+                "width": 380,
+                "height": 293,
+                "id": "LINE-62ab80ea-5da5-4a75-8982-5897536b1986",
+                "type": "PLOTLY",
+                "data": {
+                    "id": "LINE-62ab80ea-5da5-4a75-8982-5897536b1986",
+                    "label": "LINE",
+                    "func": "LINE",
+                    "type": "PLOTLY",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "OrderedPair|DataFrame|Matrix",
+                            "multiple": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/LINE/LINE.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 843.2573223752532,
-                    "y": 64.22928839382539
+                    "x": 439.17316595049164,
+                    "y": 378.25107322159386
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 843.2573223752532,
-                    "y": 64.22928839382539
+                    "x": 439.17316595049164,
+                    "y": 378.25107322159386
+                },
+                "dragging": true
+            },
+            {
+                "width": 208,
+                "height": 96,
+                "id": "CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853",
+                "type": "SIMULATIONS",
+                "data": {
+                    "id": "CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853",
+                    "label": "2.0",
+                    "func": "CONSTANT",
+                    "type": "SIMULATIONS",
+                    "ctrls": {
+                        "constant": {
+                            "type": "float",
+                            "default": 3,
+                            "desc": null,
+                            "functionName": "CONSTANT",
+                            "param": "constant",
+                            "value": "2.0"
+                        }
+                    },
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Vector",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "OrderedPair|Scalar",
+                            "desc": "OrderedPair if there's an input\nx: input vector\ny: constant with the size of the input vector\nScalar if no input\nc: constant"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/CONSTANT/CONSTANT.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 39.76505578798387,
+                    "y": 452.4185693079222
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 39.76505578798387,
+                    "y": 452.4185693079222
+                },
+                "dragging": true
+            },
+            {
+                "width": 150,
+                "height": 180,
+                "id": "LINSPACE-2705521a-a2ba-40fa-8e5c-f3f5c34148e7",
+                "type": "default",
+                "data": {
+                    "id": "LINSPACE-2705521a-a2ba-40fa-8e5c-f3f5c34148e7",
+                    "label": "LINSPACE",
+                    "func": "LINSPACE",
+                    "type": "default",
+                    "ctrls": {
+                        "start": {
+                            "type": "float",
+                            "default": 10,
+                            "desc": null,
+                            "functionName": "LINSPACE",
+                            "param": "start",
+                            "value": "0"
+                        },
+                        "end": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "LINSPACE",
+                            "param": "end",
+                            "value": "100"
+                        },
+                        "step": {
+                            "type": "int",
+                            "default": 1000,
+                            "desc": null,
+                            "functionName": "LINSPACE",
+                            "param": "step",
+                            "value": "100"
+                        }
+                    },
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Vector",
+                            "desc": "v: equally spaced samples in the interval [start, stop]"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": -337.85939138752565,
+                    "y": 417.7654217468009
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -337.85939138752565,
+                    "y": 417.7654217468009
                 },
                 "dragging": true
             }
@@ -166,12 +315,33 @@
                 "target": "END-35d85cd3-8abd-4c37-a02d-8c9a46a65982",
                 "targetHandle": "default",
                 "id": "reactflow__edge-BIG_NUMBER-1383217e-f8d9-4d54-9e5b-cb0556a7af2fdefault-END-35d85cd3-8abd-4c37-a02d-8c9a46a65982default"
+            },
+            {
+                "source": "LINE-62ab80ea-5da5-4a75-8982-5897536b1986",
+                "sourceHandle": "default",
+                "target": "END-35d85cd3-8abd-4c37-a02d-8c9a46a65982",
+                "targetHandle": "default",
+                "id": "reactflow__edge-LINE-62ab80ea-5da5-4a75-8982-5897536b1986default-END-35d85cd3-8abd-4c37-a02d-8c9a46a65982default"
+            },
+            {
+                "source": "CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853",
+                "sourceHandle": "default",
+                "target": "LINE-62ab80ea-5da5-4a75-8982-5897536b1986",
+                "targetHandle": "default",
+                "id": "reactflow__edge-CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853default-LINE-62ab80ea-5da5-4a75-8982-5897536b1986default"
+            },
+            {
+                "source": "LINSPACE-2705521a-a2ba-40fa-8e5c-f3f5c34148e7",
+                "sourceHandle": "default",
+                "target": "CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853",
+                "targetHandle": "default",
+                "id": "reactflow__edge-LINSPACE-2705521a-a2ba-40fa-8e5c-f3f5c34148e7default-CONSTANT-70ceb877-ab7a-4dd7-8910-aa8002e7a853default"
             }
         ],
         "viewport": {
-            "x": -373.4542219202399,
-            "y": 120.20973884288571,
-            "zoom": 1.101977389476256
+            "x": 711.5234815485045,
+            "y": 308.8177793954976,
+            "zoom": 1.2060146385774106
         }
     },
     "ctrlsManifest": [
