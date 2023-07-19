@@ -1,6 +1,7 @@
 from flojoy import OrderedPair, flojoy, Matrix, Scalar
 import numpy as np
-
+from collections import namedtuple
+from typing import Literal
 
 import scipy.stats
 
@@ -12,17 +13,19 @@ def TTEST_1SAMP(
     axis: int = 0,
     nan_policy: str = "propagate",
     alternative: str = "two-sided",
+    select_return: Literal["statistic", "pvalue"] = "statistic",
 ) -> OrderedPair | Matrix | Scalar:
     
 
     result = OrderedPair(
-        m=scipy.stats.ttest_1samp(
+        x=default.x,
+        y=scipy.stats.ttest_1samp(
             a=default.y,
             popmean=popmean,
             axis=axis,
             nan_policy=nan_policy,
             alternative=alternative,
-        )
+        ),
     )
 
     return result

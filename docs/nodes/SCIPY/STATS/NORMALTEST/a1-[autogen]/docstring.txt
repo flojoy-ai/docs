@@ -10,6 +10,9 @@ The NORMALTEST node is based on a numpy or scipy function.
 
     Parameters
     ----------
+    select_return : This function has returns multiple Objects:
+            ['statistic', 'pvalue']. Select the desired one to return.
+            See the respective function docs for descriptors.
     a : array_like
             The array containing the sample to be tested.
     axis : int or None, optional

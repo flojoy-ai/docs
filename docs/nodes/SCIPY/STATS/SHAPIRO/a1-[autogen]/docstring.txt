@@ -8,6 +8,9 @@ The SHAPIRO node is based on a numpy or scipy function.
 
     Parameters
     ----------
+    select_return : This function has returns multiple Objects:
+            ['statistic', 'p-value']. Select the desired one to return.
+            See the respective function docs for descriptors.
     x : array_like
             Array of sample data.
 
