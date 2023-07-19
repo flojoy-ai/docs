@@ -82,6 +82,7 @@ const config = {
       };
     },
   ],
+  themes: ['@markprompt/docusaurus-theme-search'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -128,23 +129,17 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: '8F0URYIKW5',
-
-        // Public API key: it is safe to commit it
-        apiKey: '089cd76d3023464d056479e65880af90',
-
-        indexName: 'Flojoy Docs',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+      markprompt: {
+        projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
+        search: {
+          enabled: true,
+          provider: {
+            name: 'algolia',
+            apiKey: '089cd76d3023464d056479e65880af90',
+            appId: '8F0URYIKW5',
+            indexName: 'Flojoy Docs',
+          },
+        },
       },
     }),
 };
