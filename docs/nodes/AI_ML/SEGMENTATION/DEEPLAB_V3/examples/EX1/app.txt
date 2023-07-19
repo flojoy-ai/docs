@@ -4,46 +4,14 @@
             {
                 "width": 150,
                 "height": 150,
-<<<<<<< HEAD
                 "id": "LOCAL_FILE-ea2690c7-1b37-40c0-9d02-b000a553c3ec",
                 "type": "LOCAL_FILE_SYSTEM",
                 "data": {
                     "id": "LOCAL_FILE-ea2690c7-1b37-40c0-9d02-b000a553c3ec",
-=======
-                "id": "DEEPLAB_V3-177a9b80-ccc4-41ac-8540-a36182ae23f1",
-                "type": "SEGMENTATION",
-                "data": {
-                    "id": "DEEPLAB_V3-177a9b80-ccc4-41ac-8540-a36182ae23f1",
-                    "label": "DEEPLAB V3",
-                    "func": "DEEPLAB_V3",
-                    "type": "SEGMENTATION",
-                    "ctrls": {},
-                    "selected": false
-                },
-                "position": {
-                    "x": 637.4328003256747,
-                    "y": 317.27354040047743
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 637.4328003256747,
-                    "y": 317.27354040047743
-                },
-                "dragging": true
-            },
-            {
-                "width": 150,
-                "height": 150,
-                "id": "LOCAL_FILE-91f1384a-df11-4d37-ad0d-a6964ef5786e",
-                "type": "LOCAL_FILE_SYSTEM",
-                "data": {
-                    "id": "LOCAL_FILE-91f1384a-df11-4d37-ad0d-a6964ef5786e",
->>>>>>> add-missing-node-categories
                     "label": "LOCAL FILE",
                     "func": "LOCAL_FILE",
                     "type": "LOCAL_FILE_SYSTEM",
                     "ctrls": {
-<<<<<<< HEAD
                         "file_path": {
                             "type": "str",
                             "default": null,
@@ -73,19 +41,6 @@
                             "type": "Image|DataFrame"
                         }
                     ],
-=======
-                        "file_type": {
-                            "functionName": "LOCAL_FILE",
-                            "param": "file_type",
-                            "value": "image"
-                        },
-                        "path": {
-                            "functionName": "LOCAL_FILE",
-                            "param": "path",
-                            "value": "/Users/reda/Desktop/obama.jpg"
-                        }
-                    },
->>>>>>> add-missing-node-categories
                     "pip_dependencies": [
                         {
                             "name": "xlrd",
@@ -96,7 +51,6 @@
                             "v": "4.9.2"
                         }
                     ],
-<<<<<<< HEAD
                     "path": "PYTHON/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py",
                     "selected": false
                 },
@@ -261,25 +215,12 @@
                 "positionAbsolute": {
                     "x": 1863.718540377425,
                     "y": 708.0830404721299
-=======
-                    "selected": false
-                },
-                "position": {
-                    "x": 221.71851461138894,
-                    "y": 342.98782611476315
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 221.71851461138894,
-                    "y": 342.98782611476315
->>>>>>> add-missing-node-categories
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-<<<<<<< HEAD
                 "source": "LOCAL_FILE-ea2690c7-1b37-40c0-9d02-b000a553c3ec",
                 "sourceHandle": "default",
                 "target": "DEEPLAB_V3-d48ad00f-5f1d-4abc-b6e9-5dbca49c6504",
@@ -312,19 +253,6 @@
             "x": -501.95459935516146,
             "y": 197.98083177807212,
             "zoom": 1.4811524052100216
-=======
-                "source": "LOCAL_FILE-91f1384a-df11-4d37-ad0d-a6964ef5786e",
-                "sourceHandle": "main",
-                "target": "DEEPLAB_V3-177a9b80-ccc4-41ac-8540-a36182ae23f1",
-                "targetHandle": "DEEPLAB_V3",
-                "id": "reactflow__edge-LOCAL_FILE-91f1384a-df11-4d37-ad0d-a6964ef5786emain-DEEPLAB_V3-177a9b80-ccc4-41ac-8540-a36182ae23f1DEEPLAB_V3"
-            }
-        ],
-        "viewport": {
-            "x": 256.1664289741635,
-            "y": 83.83159762528612,
-            "zoom": 0.774501674902988
->>>>>>> add-missing-node-categories
         }
     },
     "ctrlsManifest": [
