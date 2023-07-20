@@ -3,159 +3,113 @@
         "nodes": [
             {
                 "width": 150,
-                "height": 180,
-                "id": "READ_S3-a7ae5adf-3873-46e1-b0f1-89abfb885ae6",
+                "height": 150,
+                "id": "READ_S3-4e5e8dec-036d-4bc2-b4cf-2165c66a8923",
                 "type": "FILE",
                 "data": {
-                    "id": "READ_S3-a7ae5adf-3873-46e1-b0f1-89abfb885ae6",
+                    "id": "READ_S3-4e5e8dec-036d-4bc2-b4cf-2165c66a8923",
                     "label": "READ S3",
                     "func": "READ_S3",
                     "type": "FILE",
                     "ctrls": {
                         "s3_name": {
-                            "type": "str",
-                            "default": "",
-                            "desc": "name of the key that the user used to save access and secret access key",
                             "functionName": "READ_S3",
                             "param": "s3_name",
-                            "value": "FLOJOY"
+                            "value": "flojoy-testing"
                         },
                         "bucket_name": {
-                            "type": "str",
-                            "default": "",
-                            "desc": "AWS S3 bucket name that they are trying to access",
                             "functionName": "READ_S3",
                             "param": "bucket_name",
-                            "value": "flojoy-test"
+                            "value": "read-s3-node-testing"
                         },
                         "file_name": {
-                            "type": "str",
-                            "default": "",
-                            "desc": "name of the file that they want to extract",
                             "functionName": "READ_S3",
                             "param": "file_name",
                             "value": "userdata1.parquet"
                         }
                     },
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "DataFrame",
-                            "desc": null
-                        }
-                    ],
-                    "path": "PYTHON/nodes/EXTRACTORS/FILE/READ_S3/READ_S3.py",
                     "selected": false
                 },
                 "position": {
-                    "x": -30.844856544489318,
-                    "y": -70.41830920648297
+                    "x": 238.01114122664217,
+                    "y": 667.3907700195157
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -30.844856544489318,
-                    "y": -70.41830920648297
+                    "x": 238.01114122664217,
+                    "y": 667.3907700195157
                 },
                 "dragging": true
             },
             {
-                "width": 96,
-                "height": 96,
-                "id": "END-94f1b44f-4496-4d32-a145-95750f055100",
-                "type": "TERMINATORS",
+                "width": 210,
+                "height": 130,
+                "id": "END-ec894b0d-cc13-4dcc-9ee6-f66dfdb38ed0",
+                "type": "TERMINATOR",
                 "data": {
-                    "id": "END-94f1b44f-4496-4d32-a145-95750f055100",
+                    "id": "END-ec894b0d-cc13-4dcc-9ee6-f66dfdb38ed0",
                     "label": "END",
                     "func": "END",
-                    "type": "TERMINATORS",
+                    "type": "TERMINATOR",
                     "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false,
-                            "desc": null
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 897.1988653150759,
-                    "y": -38.08358889850612
+                    "x": 1379.4397126552135,
+                    "y": 665.9621985909441
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 897.1988653150759,
-                    "y": -38.08358889850612
+                    "x": 1379.4397126552135,
+                    "y": 665.9621985909441
                 },
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
-                "id": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
-                "type": "PLOTLY",
+                "width": 380,
+                "height": 293,
+                "id": "TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22",
+                "type": "PLOTLY_VISOR",
                 "data": {
-                    "id": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
+                    "id": "TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22",
                     "label": "TABLE",
                     "func": "TABLE",
-                    "type": "PLOTLY",
+                    "type": "PLOTLY_VISOR",
                     "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedTriple|OrderedPair|DataFrame|Matrix|Vector",
-                            "multiple": false,
-                            "desc": null
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Plotly",
-                            "desc": null
-                        }
-                    ],
-                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/TABLE/TABLE.py",
                     "selected": false
                 },
                 "position": {
-                    "x": 325.5749490958755,
-                    "y": -89.02125782914803
+                    "x": 705.1539983694992,
+                    "y": 574.5336271623727
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 325.5749490958755,
-                    "y": -89.02125782914803
+                    "x": 705.1539983694992,
+                    "y": 574.5336271623727
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "READ_S3-a7ae5adf-3873-46e1-b0f1-89abfb885ae6",
-                "sourceHandle": "default",
-                "target": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
-                "targetHandle": "default",
-                "id": "reactflow__edge-READ_S3-a7ae5adf-3873-46e1-b0f1-89abfb885ae6default-TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38edefault"
+                "source": "READ_S3-4e5e8dec-036d-4bc2-b4cf-2165c66a8923",
+                "sourceHandle": "main",
+                "target": "TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22",
+                "targetHandle": "TABLE",
+                "id": "reactflow__edge-READ_S3-4e5e8dec-036d-4bc2-b4cf-2165c66a8923main-TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22TABLE"
             },
             {
-                "source": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
-                "sourceHandle": "default",
-                "target": "END-94f1b44f-4496-4d32-a145-95750f055100",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38edefault-END-94f1b44f-4496-4d32-a145-95750f055100default"
+                "source": "TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22",
+                "sourceHandle": "main",
+                "target": "END-ec894b0d-cc13-4dcc-9ee6-f66dfdb38ed0",
+                "targetHandle": "END",
+                "id": "reactflow__edge-TABLE-d71cf926-0c67-443d-9f6e-a3f6649c9c22main-END-ec894b0d-cc13-4dcc-9ee6-f66dfdb38ed0END"
             }
         ],
         "viewport": {
-            "x": 510.21439896404956,
-            "y": 541.3693344933569,
-            "zoom": 0.8648007408335578
+            "x": 383.94248946966945,
+            "y": 98.35910915060867,
+            "zoom": 1.1608238532718647
         }
     },
     "ctrlsManifest": [
