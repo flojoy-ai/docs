@@ -84,14 +84,12 @@
     ],
     "ETL > Extract > File System": [
         "nodes/EXTRACTORS/FILE/READ_S3/READ_S3",
-        "nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/example",
         "nodes/EXTRACTORS/FILE/OPEN_IMAGE/OPEN_IMAGE",
         "nodes/EXTRACTORS/FILE/OPEN_PARQUET/OPEN_PARQUET",
         "nodes/EXTRACTORS/FILE/READ_CSV/READ_CSV"
     ],
     "ETL > Extract > Dataframe": [
-        "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/EXTRACT_COLUMNS",
-        "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/examples/EX1/example"
+        "nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/EXTRACT_COLUMNS"
     ],
     "Data > Generate > Simulation": [
         "nodes/GENERATORS/SIMULATIONS/BASIC_OSCILLATOR/BASIC_OSCILLATOR",
