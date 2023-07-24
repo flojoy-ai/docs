@@ -3,7 +3,6 @@
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
-
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -13,10 +12,8 @@ import AppendixSection from '@site/src/components/AppendixSection';
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/DOUBLE_INDEFINITE_INTEGRAL.py'>{PythonSource}</PythonCode>
-
 
 <SectionBreak />
 
@@ -26,13 +23,23 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+
+
+
 <AppDisplay 
-  GLink='TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL'
-  nodeLabel='DOUBLE_INDEFINITE_INTEGRAL'>
+    nodeLabel='DOUBLE_INDEFINITE_INTEGRAL'
+    appImg={''}
+    outputImg={''}
+    >
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)
