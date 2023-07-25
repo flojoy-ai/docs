@@ -1,0 +1,13 @@
+
+The ISOLATION_FOREST node uses the Isolation Forest algorithm to detect anomalous points in a tabular dataset.
+Reference: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html
+
+Parameters
+----------
+contamination: float, default=0 (auto)
+    The estimated proportion of outliers in the data set.
+
+Returns
+-------
+dataframe
+    The original dataframe for the input data including two columns: 'anomaly_scores' and 'anomaly'.

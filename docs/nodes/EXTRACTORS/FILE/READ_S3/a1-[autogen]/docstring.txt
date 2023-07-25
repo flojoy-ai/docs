@@ -14,4 +14,4 @@ file_name:
 Returns
 ------
 DataContainer:
-    type 'dataframe', m
+    type 'dataframe', df

@@ -1,0 +1,21 @@
+from flojoy import flojoy, DataFrame as FlojoyDataFrame
+from sklearn.ensemble import IsolationForest
+
+
+@flojoy
+def ISOLATION_FOREST(
+    default: FlojoyDataFrame, 
+    contamination: float = 0
+) -> FlojoyDataFrame:
+    
+    
+    df = default.m
+    if contamination == 0:
+        contamination = "auto"
+    model = IsolationForest(contamination=contamination)
+    model.fit(df)
+    results = model.decision_function(df)
+    df['anomaly'] = model.predict(df)
+    df['anomaly_scores'] = results
+
+    return FlojoyDataFrame(df=df)

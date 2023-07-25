@@ -1,0 +1,12 @@
+
+The TABULAR_DATASETS node loads a tabular dataset from sklearn.datasets.
+
+Parameters
+----------
+dataset: str, default="Iris"
+    The name of the dataset to load. Options are: "Iris", "Diabetes", "Digits", "Wine", "Linnerud", "Breast Cancer".
+
+Returns
+-------
+dataframe: FlojoyDataframe
+    The original dataframe for the input data.
