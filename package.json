@@ -13,8 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "format": "prettier --write src/",
-    "cleanup": "rmdir /s /q node_modules"
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "@docsearch/js": "^3.5.0",

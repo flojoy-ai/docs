@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
@@ -13,8 +13,7 @@ import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
 import 'flojoy/styles/styles.css';
-import { nodeTypesMap } from 'flojoy/components';
-const HEIGHT = '20em';
+// import { nodeTypesMap } from 'flojoy/components';
 
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();
@@ -58,23 +57,11 @@ export default function AppDisplay({
   outputImg,
   appImg,
 }: AppDisplayProps) {
+  const HEIGHT = '20em';
   const colorMode = useColorMode();
 
-  const nodeTypes: NodeTypes = useMemo(
-    () =>
-      Object.fromEntries(
-        Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
-          return [
-            key,
-            props => (
-              <CustomNode nodeProps={props} theme={colorMode.colorMode} />
-            ),
-          ];
-        })
-      ),
+  const [nodeTypes, setNodeTypes] = useState({});
 
-    [colorMode.colorMode]
-  );
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -105,6 +92,23 @@ export default function AppDisplay({
     link.click();
     URL.revokeObjectURL(url);
   }, [appObject]);
+
+  useEffect(() => {
+    import('flojoy/components').then(({ nodeTypesMap }) => {
+      setNodeTypes(
+        Object.fromEntries(
+          Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
+            return [
+              key,
+              props => (
+                <CustomNode nodeProps={props} theme={colorMode.colorMode} />
+              ),
+            ];
+          })
+        )
+      );
+    });
+  }, [colorMode.colorMode]);
 
   return (
     <div>
