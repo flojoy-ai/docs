@@ -2,15 +2,15 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 180,
-                "id": "R_DATASET-29de9433-432c-4e20-bf9a-1ca8dd0b5f1a",
-                "type": "SAMPLE_DATASETS",
+                "width": 208,
+                "height": 100,
+                "id": "R_DATASET-765242a4-5a30-430b-b93f-c5028c656c47",
+                "type": "GENERATORS",
                 "data": {
-                    "id": "R_DATASET-29de9433-432c-4e20-bf9a-1ca8dd0b5f1a",
+                    "id": "R_DATASET-765242a4-5a30-430b-b93f-c5028c656c47",
                     "label": "R DATASET",
                     "func": "R_DATASET",
-                    "type": "SAMPLE_DATASETS",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "dataset_key": {
                             "type": "select",
@@ -122,26 +122,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": -562.9571189216124,
-                    "y": -141.4128255952079
+                    "x": -649.3917309301298,
+                    "y": -87.83251170127132
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -562.9571189216124,
-                    "y": -141.4128255952079
+                    "x": -649.3917309301298,
+                    "y": -87.83251170127132
                 },
                 "dragging": true
             },
             {
                 "width": 225,
                 "height": 226,
-                "id": "MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335ba",
-                "type": "PLOTLY",
+                "id": "MATRIX_VIEW-1e7dd8e1-ed29-4384-9b3d-f26a98ee445e",
+                "type": "VISUALIZERS",
                 "data": {
-                    "id": "MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335ba",
+                    "id": "MATRIX_VIEW-1e7dd8e1-ed29-4384-9b3d-f26a98ee445e",
                     "label": "MATRIX VIEW",
                     "func": "MATRIX_VIEW",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -164,26 +164,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 155.73144742803015,
-                    "y": 72.74646596172195
+                    "x": 132.6017818830103,
+                    "y": 47.683889408180164
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 155.73144742803015,
-                    "y": 72.74646596172195
+                    "x": 132.6017818830103,
+                    "y": 47.683889408180164
                 },
                 "dragging": true
             },
             {
                 "width": 225,
                 "height": 226,
-                "id": "TABLE-58792169-e556-4319-98d5-07b1f74ba771",
-                "type": "PLOTLY",
+                "id": "TABLE-1c55efb8-332b-4e75-b2b4-4c3dcc13270f",
+                "type": "VISUALIZERS",
                 "data": {
-                    "id": "TABLE-58792169-e556-4319-98d5-07b1f74ba771",
+                    "id": "TABLE-1c55efb8-332b-4e75-b2b4-4c3dcc13270f",
                     "label": "TABLE",
                     "func": "TABLE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -206,26 +206,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": -202.982189057502,
-                    "y": 52.5954339947437
+                    "x": -223.93703570099424,
+                    "y": 56.329623054485296
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -202.982189057502,
-                    "y": 52.5954339947437
+                    "x": -223.93703570099424,
+                    "y": 56.329623054485296
                 },
                 "dragging": true
             },
             {
                 "width": 225,
                 "height": 226,
-                "id": "SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499b",
-                "type": "PLOTLY",
+                "id": "SURFACE3D-ed5b8670-7142-4e9f-a310-c03971aab038",
+                "type": "VISUALIZERS",
                 "data": {
-                    "id": "SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499b",
+                    "id": "SURFACE3D-ed5b8670-7142-4e9f-a310-c03971aab038",
                     "label": "SURFACE3D",
                     "func": "SURFACE3D",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -248,26 +248,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 126.40209603556025,
-                    "y": -214.799447272996
+                    "x": 25.570084175839924,
+                    "y": -225.35029458418097
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 126.40209603556025,
-                    "y": -214.799447272996
+                    "x": 25.570084175839924,
+                    "y": -225.35029458418097
                 },
                 "dragging": true
             },
             {
-                "width": 150,
-                "height": 180,
-                "id": "DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8",
-                "type": "CALCULUS",
+                "width": 160,
+                "height": 160,
+                "id": "DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fc",
+                "type": "TRANSFORMERS",
                 "data": {
-                    "id": "DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8",
+                    "id": "DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fc",
                     "label": "DOUBLE INDEFINITE INTEGRAL",
                     "func": "DOUBLE_INDEFINITE_INTEGRAL",
-                    "type": "CALCULUS",
+                    "type": "TRANSFORMERS",
                     "ctrls": {
                         "width": {
                             "type": "int",
@@ -307,26 +307,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": -86.98911841882801,
-                    "y": -143.28993328651688
+                    "x": -203.9669414896327,
+                    "y": -154.5368353023664
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -86.98911841882801,
-                    "y": -143.28993328651688
+                    "x": -203.9669414896327,
+                    "y": -154.5368353023664
                 },
                 "dragging": true
             },
             {
-                "width": 150,
-                "height": 180,
-                "id": "DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8",
-                "type": "TYPE_CASTING",
+                "width": 160,
+                "height": 160,
+                "id": "DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7",
+                "type": "TRANSFORMERS",
                 "data": {
-                    "id": "DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8",
+                    "id": "DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7",
                     "label": "DF 2 ORDEREDTRIPLE",
                     "func": "DF_2_ORDEREDTRIPLE",
-                    "type": "TYPE_CASTING",
+                    "type": "TRANSFORMERS",
                     "ctrls": {
                         "x": {
                             "type": "int",
@@ -374,113 +374,58 @@
                     "selected": false
                 },
                 "position": {
-                    "x": -355.5157975741433,
-                    "y": -137.83679747998184
+                    "x": -411.4905384836551,
+                    "y": -120.60998425014084
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -355.5157975741433,
-                    "y": -137.83679747998184
-                },
-                "dragging": true
-            },
-            {
-                "width": 150,
-                "height": 180,
-                "id": "END-4caba366-55eb-4f66-a56d-f4d1ff985417",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-4caba366-55eb-4f66-a56d-f4d1ff985417",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false,
-                            "desc": null
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 510.32074854523654,
-                    "y": -66.4128902689578
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 510.32074854523654,
-                    "y": -66.4128902689578
+                    "x": -411.4905384836551,
+                    "y": -120.60998425014084
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "R_DATASET-29de9433-432c-4e20-bf9a-1ca8dd0b5f1a",
+                "source": "R_DATASET-765242a4-5a30-430b-b93f-c5028c656c47",
                 "sourceHandle": "default",
-                "target": "DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8",
+                "target": "DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7",
                 "targetHandle": "default",
-                "id": "reactflow__edge-R_DATASET-29de9433-432c-4e20-bf9a-1ca8dd0b5f1adefault-DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8default"
+                "id": "reactflow__edge-R_DATASET-765242a4-5a30-430b-b93f-c5028c656c47default-DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7default"
             },
             {
-                "source": "DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8",
+                "source": "DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7",
                 "sourceHandle": "default",
-                "target": "TABLE-58792169-e556-4319-98d5-07b1f74ba771",
+                "target": "DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fc",
                 "targetHandle": "default",
-                "id": "reactflow__edge-DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8default-TABLE-58792169-e556-4319-98d5-07b1f74ba771default"
+                "id": "reactflow__edge-DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7default-DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fcdefault"
             },
             {
-                "source": "DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8",
+                "source": "DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7",
                 "sourceHandle": "default",
-                "target": "DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8",
+                "target": "TABLE-1c55efb8-332b-4e75-b2b4-4c3dcc13270f",
                 "targetHandle": "default",
-                "id": "reactflow__edge-DF_2_ORDEREDTRIPLE-9f3295f7-65ab-49a4-997f-56f0f0a04dd8default-DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8default"
+                "id": "reactflow__edge-DF_2_ORDEREDTRIPLE-3b7e2e81-69c4-4437-bef4-b86bcbb5fac7default-TABLE-1c55efb8-332b-4e75-b2b4-4c3dcc13270fdefault"
             },
             {
-                "source": "DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8",
+                "source": "DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fc",
                 "sourceHandle": "default",
-                "target": "SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499b",
+                "target": "SURFACE3D-ed5b8670-7142-4e9f-a310-c03971aab038",
                 "targetHandle": "default",
-                "id": "reactflow__edge-DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8default-SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499bdefault"
+                "id": "reactflow__edge-DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fcdefault-SURFACE3D-ed5b8670-7142-4e9f-a310-c03971aab038default"
             },
             {
-                "source": "SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499b",
+                "source": "DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fc",
                 "sourceHandle": "default",
-                "target": "END-4caba366-55eb-4f66-a56d-f4d1ff985417",
+                "target": "MATRIX_VIEW-1e7dd8e1-ed29-4384-9b3d-f26a98ee445e",
                 "targetHandle": "default",
-                "id": "reactflow__edge-SURFACE3D-b5bc2835-4415-4064-834a-7b351b6c499bdefault-END-4caba366-55eb-4f66-a56d-f4d1ff985417default"
-            },
-            {
-                "source": "DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8",
-                "sourceHandle": "default",
-                "target": "MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335ba",
-                "targetHandle": "default",
-                "id": "reactflow__edge-DOUBLE_INDEFINITE_INTEGRAL-f9038b7b-3a0d-4699-a23c-40ca338fe4f8default-MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335badefault"
-            },
-            {
-                "source": "TABLE-58792169-e556-4319-98d5-07b1f74ba771",
-                "sourceHandle": "default",
-                "target": "END-4caba366-55eb-4f66-a56d-f4d1ff985417",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-58792169-e556-4319-98d5-07b1f74ba771default-END-4caba366-55eb-4f66-a56d-f4d1ff985417default"
-            },
-            {
-                "source": "MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335ba",
-                "sourceHandle": "default",
-                "target": "END-4caba366-55eb-4f66-a56d-f4d1ff985417",
-                "targetHandle": "default",
-                "id": "reactflow__edge-MATRIX_VIEW-0c7c7afe-eb31-42f6-99df-aba44fb335badefault-END-4caba366-55eb-4f66-a56d-f4d1ff985417default"
+                "id": "reactflow__edge-DOUBLE_INDEFINITE_INTEGRAL-6768afa8-84dd-4177-9030-3a022299e6fcdefault-MATRIX_VIEW-1e7dd8e1-ed29-4384-9b3d-f26a98ee445edefault"
             }
         ],
         "viewport": {
-            "x": 880.2150759232553,
-            "y": 308.835575361271,
-            "zoom": 1.3115116709574381
+            "x": 722.5478564221319,
+            "y": 307.5775746454569,
+            "zoom": 1.204238868134965
         }
     },
     "ctrlsManifest": [
