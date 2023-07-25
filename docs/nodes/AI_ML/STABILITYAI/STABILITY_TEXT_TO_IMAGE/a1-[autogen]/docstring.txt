@@ -1,0 +1,15 @@
+
+The STABILITY_TEXT_TO_IMAGE node uses the STABILITY AI Rest API to convert text to an image.
+The node returns an image.
+
+Parameters
+----------
+prompt : string
+    The prompt to be used to generate the image. Default is "A lighthouse on a cliff."
+width : int
+    The width of the image to be generated. Default is 512.
+height : int
+    The height of the image to be generated. Default is 512.
+cfg_scale: float
+    Influences how strongly your generation is guided to match your prompt,
+    higher values means more influence. Defaults to 7.0 if not specified.

@@ -1,0 +1,17 @@
+
+This node uses Stability AI Image-to-Image API to generate an image based on an input image and a text prompt.
+The image can be provided as a image file path or as a DataContainer Image object from a previous node.
+The previous node value has priority over the file path.
+
+Parameters:
+- image_path: string
+    Path to the image file to be transcribed. []".jpg", ".jpeg", ".png"] format are supported.
+- prompt: string
+    Text prompt to be used for image generation.
+- width: int
+    Width of the generated image.
+- height: int
+    Height of the generated image.
+- cfg_scale: float
+    Influences how strongly your generation is guided to match your prompt,
+    higher values means more influence. Defaults to 7.0 if not specified.
