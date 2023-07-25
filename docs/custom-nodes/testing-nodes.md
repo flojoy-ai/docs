@@ -6,7 +6,7 @@ title: Testing Nodes
 
 ### Writing automated tests for custom contributed nodes
 
-In the previous section, we described how to write a custom node. In this section, we describe how to write automated tests for your custom node. 
+In the previous section, we described how to contribute a custom node to Flojoy. In this section, we describe how to write automated tests for your custom node. 
 
 Automated tests are the best way to ensure that your custom node works as expected, and they help you to quickly identify and fix bugs in your custom node. Flojoy being a cross-platform system, automated tests will help you verify that your custom node works for all other Flojoy users on all supported platforms (Mac, Windows, and Linux).
 
