@@ -11,7 +11,7 @@
     --color-accent3: 255 169 39;
   }
 
-  [data-theme='dark'] {
+  [data-theme='dark']:root {
     --color-modal: 25 25 25;
     --color-accent1: 153 245 255;
     --color-accent1-hover: 212 251 255;
