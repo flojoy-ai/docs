@@ -42,7 +42,10 @@ def update_map(
                     map_file[key] = [formatted_path]
     return map_file
 
+
 __ignore_dirs = ["appendix", "examples", "a1-[autogen]"]
+
+
 def write_nodesidebar():
     file_path = None
     nodes_map: dict[str, str | list[str]] = load_nodes_map()
