@@ -21,7 +21,7 @@
     "@docusaurus/preset-classic": "^2.4.0",
     "@docusaurus/theme-search-algolia": "^2.4.1",
     "@markprompt/css": "^0.10.0",
-    "@markprompt/docusaurus-theme-search": "^0.7.11",
+    "@markprompt/docusaurus-theme-search": "^0.8.0",
     "@markprompt/web": "^0.14.1",
     "@mdx-js/react": "^1.6.22",
     "autoprefixer": "^10.4.14",
