@@ -33,27 +33,19 @@ Node.js is required to run Flojoy's app interface. Open your Terminal and type `
 
 To install Flojoy on Mac & Linux:
 
-1. Install Redis, an open-source, in-memory data store used by Flojoy:
-
-```bash
-brew install redis
-```
-
-([Redis installation reference](https://redis.io/docs/getting-started/installation/))
-
-2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
+1. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
 
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
 ```
 
-3. Navigate into the project root:
+2. Navigate into the project root:
 
 ```bash
 cd studio
 ```
 
-4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+3. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
 
 ```bash
 python3.10 -m venv venv
@@ -73,29 +65,27 @@ bash flojoy -v venv
 
 To install Flojoy on Windows:
 
-1. [Install Memurai](https://www.memurai.com/get-memurai), an alternative to Redis for Windows
+1. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
 
-2. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
-
-3. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
+2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
 
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
 ```
 
-4. Navigate into the project root:
+3. Navigate into the project root:
 
 ```bash
 cd studio
 ```
 
-5. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
 
 ```bash
 python3.10 -m venv env
 ```
 
-6. Finally, run:
+5. Finally, run:
 
 ```bash
 .\flojoy -v env
@@ -109,7 +99,6 @@ python3.10 -m venv env
 <summary>Optional flags</summary>
   <ul>
     <li><code>-v</code> provides the path to the Python virtual environment</li>
-    <li><code>-r</code> shuts down the existing redis server and spin up a fresh one (For Mac and Linux)</li>
     <li><code>-n</code> skips installing the Node packages in package.json</li>
     <li><code>-p</code> skips installing the Python packages in requirements.txt</li>
     <li><code>-P</code> runs the backend server on a specific port</li>

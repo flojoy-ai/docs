@@ -1,20 +1,17 @@
-from flojoy import flojoy, DataContainer
+from flojoy import flojoy, DataFrame, Matrix, Array
 import pandas as pd
-from typing import List, cast
+import numpy as np
 
 
 @flojoy
-def EXTRACT_COLUMNS(dc_inputs: list[DataContainer], params: dict) -> DataContainer:
-    dc = dc_inputs[0]
-
-    if dc.type != "dataframe":
-        raise ValueError(
-            f"unsupported DataContainer type passed to EXTRACT_COLUMNS node: {dc.type}"
-        )
-    columns: List[str] = params.get("columns", None)
-
-    df = cast(pd.DataFrame, dc.m)
-    new_df = df[columns] if columns else df
-    new_df = cast(pd.DataFrame, new_df)
-
-    return DataContainer(type="dataframe", m=new_df)
+def EXTRACT_COLUMNS(default: DataFrame | Matrix, columns: Array) -> DataFrame:
+    
+    if isinstance(default, DataFrame):
+        df = default.m
+        new_df = df[columns.unwrap()] if columns else df
+        return DataFrame(df=new_df)
+    else:
+        matrix = default.m
+        indices = np.array(columns.unwrap(), dtype=int)
+        new_matrix = matrix[:, indices] if columns else matrix
+        return Matrix(m=new_matrix)

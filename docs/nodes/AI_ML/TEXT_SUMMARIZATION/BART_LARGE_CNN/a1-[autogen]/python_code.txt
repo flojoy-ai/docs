@@ -12,6 +12,7 @@ from flojoy import flojoy, run_in_venv, DataFrame
 )
 def BART_LARGE_CNN(default: DataFrame) -> DataFrame:
 
+
     import torch
     from flojoy import snapshot_download
     from transformers import BartTokenizer, BartForConditionalGeneration
