@@ -1,11 +1,10 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, {
   Background,
   MiniMap,
   ReactFlowProvider,
-  NodeTypes,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
@@ -13,7 +12,6 @@ import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
 import 'flojoy/styles/styles.css';
-// import { nodeTypesMap } from 'flojoy/components';
 
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();

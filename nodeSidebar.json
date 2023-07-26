@@ -9,8 +9,7 @@
         "nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/NLP_CONNECT_VIT_GPT2"
     ],
     "Data > AI & ML > Natural Language Processing": [
-        "nodes/AI_ML/NLP/COUNT_VECTORIZER/COUNT_VECTORIZER",
-        "nodes/AI_ML/NLP/TEXT_SUMMARIZATION/BART_LARGE_CNN/BART_LARGE_CNN"
+        "nodes/AI_ML/NLP/COUNT_VECTORIZER/COUNT_VECTORIZER"
     ],
     "Data > AI & ML > Object Detection": [
         "nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/OBJECT_DETECTION"
@@ -25,7 +24,6 @@
         "nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/DEEPLAB_V3"
     ],
     "Data > AI & ML > Text Summarization": [
-        "nodes/AI_ML/NLP/TEXT_SUMMARIZATION/BART_LARGE_CNN/BART_LARGE_CNN",
         "nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/BART_LARGE_CNN"
     ],
     "Data > Generate > Simulation": [
