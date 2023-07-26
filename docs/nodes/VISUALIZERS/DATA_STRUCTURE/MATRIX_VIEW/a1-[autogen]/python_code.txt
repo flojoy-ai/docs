@@ -65,7 +65,7 @@ def numpy_array_as_table(arr: DCNpArrayType):
     return cell_values
 
 
-@flojoy
+@flojoy(node_type="PLOTLY")
 def MATRIX_VIEW(default: OrderedPair | Matrix) -> Plotly:
     
 

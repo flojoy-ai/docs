@@ -18,7 +18,7 @@ def numpy_array_as_table(arr: np.ndarray):
     return new_arr.reshape(-1, 1)
 
 
-@flojoy
+@flojoy(node_type="PLOTLY")
 def ARRAY_VIEW(default: OrderedPair | Matrix | DataFrame | Image) -> Plotly:
     
 

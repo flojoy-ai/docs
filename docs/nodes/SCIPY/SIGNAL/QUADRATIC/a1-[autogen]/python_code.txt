@@ -6,7 +6,7 @@ from typing import Literal
 import scipy.signal
 
 
-@flojoy
+@flojoy(node_type="default")
 def QUADRATIC(
     default: OrderedPair | Matrix,
 ) -> OrderedPair | Matrix | Scalar:
@@ -18,10 +18,7 @@ def QUADRATIC(
 
     if isinstance(result, np.ndarray):
         result = OrderedPair(x=default.x, y=result)
-    else:
-        assert isinstance(
-            result, np.number | float | int
-        ), f"Expected np.number, float or int for result, got {type(result)}"
+    elif isinstance(result, np.float64 | float | np.int64 | int):
         result = Scalar(c=float(result))
 
     return result
