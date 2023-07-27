@@ -99,6 +99,11 @@ const config = {
 
         items: [
           {
+            href: '/explore-nodes',
+            position: 'right',
+            label: 'Explore Nodes',
+          },
+          {
             href: '/getting-started/install',
             position: 'right',
             label: 'Download',
