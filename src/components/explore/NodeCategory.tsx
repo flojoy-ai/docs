@@ -1,62 +1,22 @@
 import React, { useState } from 'react';
 import { GoTriangleUp } from 'react-icons/go';
-import { cva, VariantProps } from 'class-variance-authority';
 import clsx from 'clsx';
 import { Divider } from './Divider';
 import { DataNodeLink } from './nodes/DataNodeLink';
-import { ETLNodeLink } from './nodes/ETLNodeLink';
-import { LogicNodeLink } from './nodes/LogicNodeLink';
-import { IONodeLink } from './nodes/IONodeLink';
-import { NumpyNodeLink } from './nodes/NumpyNodeLink';
-import { ScipyNodeLink } from './nodes/ScipyNodeLink';
-
-const category = cva(undefined, {
-  variants: {
-    variant: {
-      Data: ['text-accent2'],
-      ETL: ['text-accent1'],
-      'I/O': ['text-accent4'],
-      Logic: ['text-accent3'],
-      numpy: ['text-blue-500'],
-      scipy: ['text-blue-500'],
-    },
-    bg: {
-      Data: ['bg-accent2'],
-      ETL: ['bg-accent1'],
-      'I/O': ['bg-accent4'],
-      Logic: ['bg-accent3'],
-      numpy: ['bg-blue-500'],
-      scipy: ['bg-blue-500'],
-    },
-    fill: {
-      Data: ['fill-accent2'],
-      ETL: ['fill-accent1'],
-      'I/O': ['fill-accent4'],
-      Logic: ['fill-accent3'],
-      numpy: ['fill-blue-500'],
-      scipy: ['fill-blue-500'],
-    },
-  },
-});
-
-const linkMap = {
-  Data: DataNodeLink,
-  ETL: ETLNodeLink,
-  Logic: LogicNodeLink,
-  'I/O': IONodeLink,
-  numpy: NumpyNodeLink,
-  scipy: ScipyNodeLink,
-};
+import { variants } from './variants';
 
 type NodeSectionProps = {
   children: React.ReactNode;
+  className?: string;
   depth?: number;
   icon?: JSX.Element;
   title: string;
-} & VariantProps<typeof category>;
+  variant: keyof typeof variants;
+};
 
 function NodeSection({
   title,
+  className,
   depth,
   icon,
   variant,
@@ -68,15 +28,17 @@ function NodeSection({
     setCollapsed(!collapsed);
   };
 
+  const v = variants[variant];
+
   return (
-    <div>
+    <div className={className}>
       <div className="flex items-center gap-x-8 px-4 py-2">
         {icon && <div className="flex h-20 items-center">{icon}</div>}
         <div
           className={clsx(
             'font-mono',
             depth === 0 ? 'text-3xl' : 'text-lg',
-            category({ variant })
+            v.text
           )}
         >
           {title}
@@ -84,15 +46,13 @@ function NodeSection({
         <GoTriangleUp
           className={clsx(
             'cursor-pointer transition-all',
-            category({ fill: variant }),
+            v.fill,
             collapsed ? 'rotate-180' : 'rotate-0'
           )}
           onClick={toggleCollapse}
         />
       </div>
-      {depth === 0 && (
-        <Divider className={clsx(category({ bg: variant }), 'mb-6')} />
-      )}
+      {depth === 0 && <Divider className={clsx(v.bg, 'mb-6')} />}
       <div
         className={clsx(
           'grid transition-all duration-300',
@@ -117,7 +77,8 @@ type NodeCategoryProps = {
   depth?: number;
   icon?: JSX.Element;
   title: string;
-} & VariantProps<typeof category>;
+  variant: keyof typeof variants;
+};
 
 export default function NodeCategory({
   data,
@@ -126,12 +87,21 @@ export default function NodeCategory({
   title,
   variant,
 }: NodeCategoryProps) {
+  console.log(variant);
+  const v = variants[variant];
+
   if (Array.isArray(data)) {
     return (
-      <NodeSection title={title} variant={variant} depth={depth}>
+      <NodeSection
+        title={title}
+        variant={variant}
+        depth={depth}
+        icon={icon}
+        className={depth === 0 ? 'mb-8' : ''}
+      >
         <div className="flex flex-wrap gap-4">
           {data.map(page => {
-            const LinkComponent = linkMap[variant] ?? DataNodeLink;
+            const LinkComponent = v.linkComponent ?? DataNodeLink;
 
             const parts = page.split('/');
             const name = parts[parts.length - 1];
@@ -141,16 +111,19 @@ export default function NodeCategory({
           })}
         </div>
         <div className="py-2" />
-        <Divider
-          className={clsx(category({ bg: variant }), 'my-4')}
-          height={0.5}
-        />
+        <Divider className={clsx(v.bg, 'my-4')} height={0.5} />
       </NodeSection>
     );
   }
 
   return (
-    <NodeSection title={title} variant={variant} depth={depth} icon={icon}>
+    <NodeSection
+      title={title}
+      variant={variant}
+      depth={depth}
+      icon={icon}
+      className={depth === 0 ? 'mb-8' : ''}
+    >
       {Object.entries(data).map(([title, val]) => (
         <NodeCategory
           title={title}
