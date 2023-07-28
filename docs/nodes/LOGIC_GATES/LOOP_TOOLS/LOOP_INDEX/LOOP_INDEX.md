@@ -13,7 +13,7 @@ import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='AI_ML/CLASSIFICATION/ACCURACY/ACCURACY.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/LOOP_INDEX.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -23,23 +23,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-
 <AppDisplay 
-    nodeLabel='ACCURACY'
-    appImg={appImg}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX'
+  nodeLabel='LOOP_INDEX'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
-  
+
     
 
 [//]: # (Appendix)
@@ -50,8 +40,8 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/appendix/'>{Media}</AppendixSection>
 
 
