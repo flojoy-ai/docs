@@ -30,7 +30,7 @@
     "docusaurus": "^1.14.7",
     "docusaurus-plugin-sass": "^0.2.2",
     "flat": "^5.0.2",
-    "flojoy": "github:flojoy-io/types#react-17",
+    "flojoy": "github:flojoy-ai/types#react-17",
     "plotly.js": "file:./bauhaus/plotly.js-2.23.2.tgz",
     "postcss": "^8.4.26",
     "prism-react-renderer": "^1.3.5",
