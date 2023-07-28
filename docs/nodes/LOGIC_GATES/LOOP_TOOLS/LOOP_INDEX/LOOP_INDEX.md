@@ -23,13 +23,23 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+
+
+
 <AppDisplay 
-  GLink='LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX'
-  nodeLabel='LOOP_INDEX'>
+    nodeLabel='LOOP_INDEX'
+    appImg={''}
+    outputImg={''}
+    >
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)
