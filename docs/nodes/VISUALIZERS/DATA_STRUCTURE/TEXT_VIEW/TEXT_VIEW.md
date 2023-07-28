@@ -13,7 +13,7 @@ import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/DOUBLE_INDEFINITE_INTEGRAL.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -23,23 +23,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-
-
 <AppDisplay 
-    nodeLabel='DOUBLE_INDEFINITE_INTEGRAL'
-    appImg={appImg}
-    outputImg={''}
-    >
-    {App1}
+  GLink='VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW'
+  nodeLabel='TEXT_VIEW'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
-  
+
     
 
 [//]: # (Appendix)
@@ -50,8 +40,8 @@ import Media from '!!raw-loader!./appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/appendix/'>{Media}</AppendixSection>
 
 
