@@ -4,7 +4,7 @@ export function partialUnflatten(
   maxDepth: number,
   depth = 0
 ): object {
-  if (depth >= maxDepth || Array.isArray(obj)) {
+  if (depth >= maxDepth) {
     return Object.values(obj).reduce((acc, val) => acc.concat(val), []);
   }
   let res = {};
@@ -12,7 +12,7 @@ export function partialUnflatten(
   for (const [key, val] of Object.entries(obj)) {
     const [first, rest] = splitOnce(key, delimiter);
 
-    if (rest === undefined) {
+    if (!rest) {
       res[first] = val;
       continue;
     }

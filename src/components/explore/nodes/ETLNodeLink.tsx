@@ -4,7 +4,7 @@ import { NodeLinkProps, NodeLinkWrapper } from './NodeLink';
 export const ETLNodeLink = ({ children, ...props }: NodeLinkProps) => {
   return (
     <NodeLinkWrapper {...props}>
-      <div className="border border-accent1 rounded-md min-w-fit flex items-center justify-center py-2 px-4 text-accent1">
+      <div className="flex min-w-fit items-center justify-center rounded-md border border-accent1 px-4 py-2 text-accent1 duration-150 hover:bg-accent1/10">
         {children}
       </div>
     </NodeLinkWrapper>

@@ -30,13 +30,9 @@ const iconMap = {
 
 export default function Explore() {
   const data = partialUnflatten(nodeData, ' > ', 2);
-  console.log(data);
 
   return (
-    <Layout
-      title="Explore"
-      description="Explore the nodes Flojoy has to offer."
-    >
+    <Layout title="Explore">
       {Object.entries(data).map(([title, val]) => {
         const variant = variantMap[title];
         return (

@@ -8,7 +8,7 @@ export type NodeLinkProps = {
 
 export const NodeLinkWrapper = ({ to, children }: NodeLinkProps) => {
   return (
-    <Link href={to} className="hover:no-underline font-bold tracking-wider">
+    <Link href={to} className="font-bold tracking-wider hover:no-underline">
       {children}
     </Link>
   );

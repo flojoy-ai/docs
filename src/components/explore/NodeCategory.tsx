@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { GoTriangleUp } from 'react-icons/go';
 import { cva, VariantProps } from 'class-variance-authority';
 import clsx from 'clsx';
 import { Divider } from './Divider';
@@ -27,12 +28,25 @@ const category = cva(undefined, {
       numpy: ['bg-blue-500'],
       scipy: ['bg-blue-500'],
     },
-    font: {
-      0: ['text-3xl'],
-      1: ['text-lg'],
+    fill: {
+      Data: ['fill-accent2'],
+      ETL: ['fill-accent1'],
+      'I/O': ['fill-accent4'],
+      Logic: ['fill-accent3'],
+      numpy: ['fill-blue-500'],
+      scipy: ['fill-blue-500'],
     },
   },
 });
+
+const linkMap = {
+  Data: DataNodeLink,
+  ETL: ETLNodeLink,
+  Logic: LogicNodeLink,
+  'I/O': IONodeLink,
+  numpy: NumpyNodeLink,
+  scipy: ScipyNodeLink,
+};
 
 type NodeSectionProps = {
   children: React.ReactNode;
@@ -48,35 +62,48 @@ function NodeSection({
   variant,
   children,
 }: NodeSectionProps) {
+  const [collapsed, setCollapsed] = useState(false);
+
+  const toggleCollapse = () => {
+    setCollapsed(!collapsed);
+  };
+
   return (
     <div>
-      <div className="flex gap-x-8 items-center px-4 py-2">
-        {icon && <div className="h-20 flex items-center">{icon}</div>}
+      <div className="flex items-center gap-x-8 px-4 py-2">
+        {icon && <div className="flex h-20 items-center">{icon}</div>}
         <div
           className={clsx(
             'font-mono',
-            category({ variant, font: depth as 0 | 1 })
+            depth === 0 ? 'text-3xl' : 'text-lg',
+            category({ variant })
           )}
         >
           {title}
         </div>
+        <GoTriangleUp
+          className={clsx(
+            'cursor-pointer transition-all',
+            category({ fill: variant }),
+            collapsed ? 'rotate-180' : 'rotate-0'
+          )}
+          onClick={toggleCollapse}
+        />
       </div>
       {depth === 0 && (
-        <Divider className={clsx(category({ bg: variant }), 'mb-2')} />
+        <Divider className={clsx(category({ bg: variant }), 'mb-6')} />
       )}
-      {children}
+      <div
+        className={clsx(
+          'grid transition-all duration-300',
+          collapsed ? 'grid-rows-[0fr]' : 'grid-rows-[1fr]'
+        )}
+      >
+        <div className="overflow-hidden">{children}</div>
+      </div>
     </div>
   );
 }
-
-const linkMap = {
-  Data: DataNodeLink,
-  ETL: ETLNodeLink,
-  Logic: LogicNodeLink,
-  'I/O': IONodeLink,
-  numpy: NumpyNodeLink,
-  scipy: ScipyNodeLink,
-};
 
 type CategoryNode =
   | {
@@ -101,7 +128,7 @@ export default function NodeCategory({
 }: NodeCategoryProps) {
   if (Array.isArray(data)) {
     return (
-      <>
+      <NodeSection title={title} variant={variant} depth={depth}>
         <div className="flex flex-wrap gap-4">
           {data.map(page => {
             const LinkComponent = linkMap[variant] ?? DataNodeLink;
@@ -118,21 +145,19 @@ export default function NodeCategory({
           className={clsx(category({ bg: variant }), 'my-4')}
           height={0.5}
         />
-      </>
+      </NodeSection>
     );
   }
 
   return (
     <NodeSection title={title} variant={variant} depth={depth} icon={icon}>
       {Object.entries(data).map(([title, val]) => (
-        <NodeSection title={title} variant={variant} depth={depth + 1}>
-          <NodeCategory
-            title={title}
-            variant={variant}
-            data={val}
-            depth={depth + 1}
-          />
-        </NodeSection>
+        <NodeCategory
+          title={title}
+          variant={variant}
+          data={val}
+          depth={depth + 1}
+        />
       ))}
     </NodeSection>
   );

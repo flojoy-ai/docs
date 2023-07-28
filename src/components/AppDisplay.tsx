@@ -1,11 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, {
-  Background,
-  MiniMap,
-  ReactFlowProvider,
-} from 'reactflow';
+import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
