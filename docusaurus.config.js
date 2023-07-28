@@ -99,6 +99,11 @@ const config = {
 
         items: [
           {
+            href: '/explore-nodes',
+            position: 'right',
+            label: 'Explore Nodes',
+          },
+          {
             href: '/getting-started/install',
             position: 'right',
             label: 'Download',
@@ -129,8 +134,32 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      scripts: {
+        src: "https://cdn.usefathom.com/script.js",
+        dataSite: "LCCRNAEW" ,
+        defer: true
+      },
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: '8F0URYIKW5',
+      //
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '089cd76d3023464d056479e65880af90',
+      //
+      //   indexName: 'Flojoy Docs',
+      //
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+      //
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+      //
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+      // },
       markprompt: {
         projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
+        trigger: { floating: false },
         search: {
           enabled: true,
           provider: {
@@ -139,6 +168,10 @@ const config = {
             appId: '8F0URYIKW5',
             indexName: 'Flojoy Docs',
           },
+          getHref: result => result.url,
+          getHeading: result => result.pageTitle,
+          getTitle: result => result.pageDescription,
+          getSubtitle: result => result.pageContent,
         },
       },
     }),

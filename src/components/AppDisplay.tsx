@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
@@ -6,27 +6,8 @@ import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
-import DefaultNode from './nodes/DefaultNode';
-import SimulationNode from './nodes/SimulationNode';
-import ArithmeticNode from './nodes/ArithmeticNode';
-import ConditionalNode from './nodes/ConditionalNode';
-import VisorNode from './nodes/VisorNode';
-import TerminatorNode from './nodes/TerminatorNode';
 import ReactCompareImage from 'react-compare-image';
-
-const HEIGHT = '20em';
-
-const nodeTypes = {
-  default: DefaultNode,
-  SIMULATION: SimulationNode,
-  ARITHMETIC: ArithmeticNode,
-  CONDITIONAL: ConditionalNode,
-  LOOP: ConditionalNode,
-  TIMER: ConditionalNode,
-  PLOTLY_VISOR: VisorNode,
-  VISOR: VisorNode,
-  TERMINATOR: TerminatorNode,
-};
+import 'flojoy/styles/styles.css';
 
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();
@@ -70,6 +51,11 @@ export default function AppDisplay({
   outputImg,
   appImg,
 }: AppDisplayProps) {
+  const HEIGHT = '20em';
+  const colorMode = useColorMode();
+
+  const [nodeTypes, setNodeTypes] = useState({});
+
   const NOEXAMPLEFOUND =
     'No examples have been written for this node yet. You can add some ';
   if (!children) {
@@ -100,6 +86,23 @@ export default function AppDisplay({
     link.click();
     URL.revokeObjectURL(url);
   }, [appObject]);
+
+  useEffect(() => {
+    import('flojoy/components').then(({ nodeTypesMap }) => {
+      setNodeTypes(
+        Object.fromEntries(
+          Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
+            return [
+              key,
+              props => (
+                <CustomNode nodeProps={props} theme={colorMode.colorMode} />
+              ),
+            ];
+          })
+        )
+      );
+    });
+  }, [colorMode.colorMode]);
 
   return (
     <div>

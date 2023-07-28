@@ -23,7 +23,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'General Tutorials',
-      items: ['nodes/introduction', 'nodes/ctrls', 'nodes/numpyscipy',],
+      items: ['nodes/introduction', 'nodes/ctrls', 'nodes/numpyscipy'],
     },
     {
       type: 'category',
@@ -49,6 +49,7 @@ const sidebars = {
             'custom-nodes/creating-custom-node',
             'custom-nodes/custom-category',
             'custom-nodes/contributing-nodes',
+            'custom-nodes/testing-nodes',
             'custom-nodes/node-api-reference',
           ],
         },

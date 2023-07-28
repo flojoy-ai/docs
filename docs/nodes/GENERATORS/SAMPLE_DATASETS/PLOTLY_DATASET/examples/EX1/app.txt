@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "PLOTLY_DATASET-18ff6bc0-bc2c-4a83-8d32-e0017d63b86a",
-                "type": "SAMPLE_DATASETS",
+                "type": "GENERATORS",
                 "data": {
                     "id": "PLOTLY_DATASET-18ff6bc0-bc2c-4a83-8d32-e0017d63b86a",
                     "label": "PLOTLY DATASET",
                     "func": "PLOTLY_DATASET",
-                    "type": "SAMPLE_DATASETS",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "dataset_key": {
                             "type": "select",
@@ -57,12 +57,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "TABLE-074b186e-cc6b-43d4-910e-63c2a8e3650a",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "TABLE-074b186e-cc6b-43d4-910e-63c2a8e3650a",
                     "label": "TABLE",
                     "func": "TABLE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -90,39 +90,6 @@
                 "positionAbsolute": {
                     "x": 1069.1596600416776,
                     "y": 111.92430876780708
-                },
-                "dragging": true
-            },
-            {
-                "width": 210,
-                "height": 130,
-                "id": "END-f45b6df2-b5a5-408b-b945-9363620e8c3b",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-f45b6df2-b5a5-408b-b945-9363620e8c3b",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes\\LOGIC_GATES\\TERMINATORS\\END\\END.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 1534.631733258007,
-                    "y": 150.26303165505033
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 1534.631733258007,
-                    "y": 150.26303165505033
                 },
                 "dragging": true
             }

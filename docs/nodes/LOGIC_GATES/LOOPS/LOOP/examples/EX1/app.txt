@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 180,
                 "id": "LINSPACE-69bc9f1e-8cc8-4878-b6a4-d9a06dd33a9a",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "LINSPACE-69bc9f1e-8cc8-4878-b6a4-d9a06dd33a9a",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -56,15 +56,15 @@
                 "dragging": true
             },
             {
-                "width": 208,
-                "height": 96,
+                "width": 130,
+                "height": 130,
                 "id": "CONSTANT-b7112c9c-029c-4899-bd7f-ae304c690697",
-                "type": "SIMULATIONS",
+                "type": "GENERATORS",
                 "data": {
                     "id": "CONSTANT-b7112c9c-029c-4899-bd7f-ae304c690697",
                     "label": "2.0",
                     "func": "CONSTANT",
-                    "type": "SIMULATIONS",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "constant": {
                             "type": "float",
@@ -107,12 +107,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2",
                     "label": "BIG NUMBER",
                     "func": "BIG_NUMBER",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {
                         "suffix": {
                             "type": "str",
@@ -173,15 +173,68 @@
                 "dragging": true
             },
             {
-                "width": 208,
-                "height": 96,
+                "width": 210,
+                "height": 130,
+                "id": "LOOP-05cb3304-8821-40d9-8c1a-035a2211090e",
+                "type": "LOGIC_GATES",
+                "data": {
+                    "id": "LOOP-05cb3304-8821-40d9-8c1a-035a2211090e",
+                    "label": "LOOP",
+                    "func": "LOOP",
+                    "type": "LOGIC_GATES",
+                    "ctrls": {
+                        "num_loops": {
+                            "type": "int",
+                            "default": -1,
+                            "functionName": "LOOP",
+                            "param": "num_loops",
+                            "value": "10"
+                        }
+                    },
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "body",
+                            "id": "body",
+                            "type": "Any"
+                        },
+                        {
+                            "name": "end",
+                            "id": "end",
+                            "type": "Any"
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\LOGIC_GATES\\LOOPS\\LOOP\\LOOP.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": -203.56512669590455,
+                    "y": 281.08232359673536
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -203.56512669590455,
+                    "y": 281.08232359673536
+                },
+                "dragging": true
+            },
+            {
+                "width": 130,
+                "height": 130,
                 "id": "RAND-1e92e816-84fd-4fe0-8b74-293116963487",
-                "type": "SIMULATIONS",
+                "type": "GENERATORS",
                 "data": {
                     "id": "RAND-1e92e816-84fd-4fe0-8b74-293116963487",
                     "label": "RAND",
                     "func": "RAND",
-                    "type": "SIMULATIONS",
+                    "type": "GENERATORS",
                     "ctrls": {},
                     "inputs": [
                         {
