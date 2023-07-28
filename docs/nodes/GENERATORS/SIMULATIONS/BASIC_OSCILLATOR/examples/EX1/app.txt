@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-e5431bde-534f-49ca-a5e2-20c9c1f7fe08",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "BASIC_OSCILLATOR-e5431bde-534f-49ca-a5e2-20c9c1f7fe08",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -93,12 +93,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-a1b62de0-c53a-44d8-8980-66221aaa2fdd",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "LINSPACE-a1b62de0-c53a-44d8-8980-66221aaa2fdd",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -147,12 +147,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "SINE-8aa9e195-26c1-4dd8-8e79-95a07e3b0f0e",
-                "type": "SIMULATIONS",
+                "type": "GENERATORS",
                 "data": {
                     "id": "SINE-8aa9e195-26c1-4dd8-8e79-95a07e3b0f0e",
                     "label": "SINE",
                     "func": "SINE",
-                    "type": "SIMULATIONS",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "amplitude": {
                             "type": "float",
@@ -229,12 +229,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-6e4cafcb-cabe-4fb8-8a29-9272f541955f",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "LINE-6e4cafcb-cabe-4fb8-8a29-9272f541955f",
                     "label": "LINE",
                     "func": "LINE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -269,12 +269,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-2d820744-6626-4ad9-8560-6b61fc8f2cab",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "LINE-2d820744-6626-4ad9-8560-6b61fc8f2cab",
                     "label": "LINE 1",
                     "func": "LINE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -302,39 +302,6 @@
                 "positionAbsolute": {
                     "x": 1720.3114213913743,
                     "y": 114.49352467764686
-                },
-                "dragging": true
-            },
-            {
-                "width": 210,
-                "height": 130,
-                "id": "END-5e840d22-31bd-478c-aab6-a52f509edb1a",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-5e840d22-31bd-478c-aab6-a52f509edb1a",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 2278.6723365080106,
-                    "y": 250.1951820346673
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 2278.6723365080106,
-                    "y": 250.1951820346673
                 },
                 "dragging": true
             }

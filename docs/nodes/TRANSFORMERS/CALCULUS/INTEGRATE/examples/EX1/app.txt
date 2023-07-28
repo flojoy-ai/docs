@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-513ce5a5-8ad9-47cf-b0bb-aa8ac2b8ca3e",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "LINSPACE-513ce5a5-8ad9-47cf-b0bb-aa8ac2b8ca3e",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -59,12 +59,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "LINE-cd291686-3929-4601-bb11-65d38032b31f",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "LINE-cd291686-3929-4601-bb11-65d38032b31f",
                     "label": "LINE",
                     "func": "LINE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -99,12 +99,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "LINE-cc98b9c2-cfce-4698-810a-feeebc123bda",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "LINE-cc98b9c2-cfce-4698-810a-feeebc123bda",
                     "label": "LINE 1",
                     "func": "LINE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -139,12 +139,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "INTEGRATE-4e2112c5-6291-4685-aca8-1cc763f7a330",
-                "type": "CALCULUS",
+                "type": "TRANSFORMERS",
                 "data": {
                     "id": "INTEGRATE-4e2112c5-6291-4685-aca8-1cc763f7a330",
                     "label": "INTEGRATE",
                     "func": "INTEGRATE",
-                    "type": "CALCULUS",
+                    "type": "TRANSFORMERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -172,39 +172,6 @@
                 "positionAbsolute": {
                     "x": 452.9091383060205,
                     "y": 175.4343276959062
-                },
-                "dragging": true
-            },
-            {
-                "width": 210,
-                "height": 130,
-                "id": "END-99c73f89-dcf9-4a42-ac4d-2d61724b5ac8",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-99c73f89-dcf9-4a42-ac4d-2d61724b5ac8",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 1048.3660641814356,
-                    "y": 312.43076479307507
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 1048.3660641814356,
-                    "y": 312.43076479307507
                 },
                 "dragging": true
             }

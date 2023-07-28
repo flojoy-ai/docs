@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 180,
                 "id": "LINSPACE-83e1b3b0-29ca-4f42-9776-6c73652e2b71",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "LINSPACE-83e1b3b0-29ca-4f42-9776-6c73652e2b71",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -171,12 +171,12 @@
                 "width": 150,
                 "height": 180,
                 "id": "LINSPACE-4d57606b-5efd-4fab-8742-a6ac2e7f3b67",
-                "type": "default",
+                "type": "GENERATORS",
                 "data": {
                     "id": "LINSPACE-4d57606b-5efd-4fab-8742-a6ac2e7f3b67",
                     "label": "LINSPACE 1",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
