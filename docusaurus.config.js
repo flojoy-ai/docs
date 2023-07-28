@@ -129,6 +129,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      scripts: {
+        src: "https://cdn.usefathom.com/script.js",
+        dataSite: "LCCRNAEW" ,
+        defer: true
+      }
       // algolia: {
       //   // The application ID provided by Algolia
       //   appId: '8F0URYIKW5',
