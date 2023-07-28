@@ -310,6 +310,48 @@
                     "y": 244.1385709283291
                 },
                 "dragging": true
+            },
+                        {
+                "width": 225,
+                "height": 226,
+                "id": "TABLE-96cbf25b-52a2-47f1-a90d-a24b54b3dc78",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "TABLE-96cbf25b-52a2-47f1-a90d-a24b54b3dc78",
+                    "label": "TABLE",
+                    "func": "TABLE",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "OrderedTriple|OrderedPair|DataFrame|Matrix|Vector",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": null
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\VISUALIZERS\\PLOTLY\\TABLE\\TABLE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": -20.753489444882092,
+                    "y": 539.802383626878
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -20.753489444882092,
+                    "y": 539.802383626878
+                },
+                "dragging": true
             }
         ],
         "edges": [
@@ -368,6 +410,13 @@
                 "target": "BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2",
                 "targetHandle": "default",
                 "id": "reactflow__edge-MULTIPLY-f5e99c8e-bf71-4dda-9dd9-4f75618990d4default-BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2default"
+            },
+            {
+                "source": "LOOP-05cb3304-8821-40d9-8c1a-035a2211090e",
+                "sourceHandle": "end",
+                "target": "TABLE-96cbf25b-52a2-47f1-a90d-a24b54b3dc78",
+                "targetHandle": "default",
+                "id": "reactflow__edge-LOOP-05cb3304-8821-40d9-8c1a-035a2211090eend-TABLE-96cbf25b-52a2-47f1-a90d-a24b54b3dc78default"
             }
         ],
         "viewport": {
