@@ -28,13 +28,14 @@ function HomepageHeader() {
     <>
       <header className={clsx('hero text-left', styles.heroBanner)}>
         <div className="container text-center">
-          <div className={styles.heroTop}>
+          <div className={styles.heroTop}>            
             <h1 className="hero__title hero__font__family">
               <span>FLO</span>
               <span>JOY</span>
-            </h1>
+            </h1>            
             <br></br>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <br></br>
           </div>
           <div className="d-flex align-center flex-column-lg justify-center gap-3">
             <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
