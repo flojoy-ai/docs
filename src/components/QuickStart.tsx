@@ -7,6 +7,7 @@ const QuickStart = () => {
     <div className={clsx(styles.quickstart)}>
       <div className="container quickstart__container text-left">
         <h3 className="hero__subtitle">QuickStart</h3>
+        <br></br>
         <ul className={styles.list}>
           <li>
             <a
