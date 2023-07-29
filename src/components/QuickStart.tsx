@@ -19,8 +19,8 @@ const QuickStart = () => {
             <p className={styles.paragraph}>Control a stepper motor</p>
           </li>
           <li>
-            <a href="nodes/AI_ML/OBJECT_DETECTION/" className={styles.link}>
-              <span> AI</span>
+            <a href="nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/" className={styles.link}>
+              <span>AI</span>
             </a>
             <p className={styles.paragraph}>
               Identify objects in web cam capture
