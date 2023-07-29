@@ -36,6 +36,7 @@ function HomepageHeader() {
             <br></br>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
             <br></br>
+            <br></br>
           </div>
           <div className="d-flex align-center flex-column-lg justify-center gap-3">
             <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
