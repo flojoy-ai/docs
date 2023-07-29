@@ -68,6 +68,13 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
+  scripts: [
+    {
+      src: "https://cdn.usefathom.com/script.js",
+      dataSite: 'LCCRNAEW',
+      defer: true
+    },
+  ],
   plugins: [
     'docusaurus-plugin-sass',
     async function myPlugin(context, options) {
