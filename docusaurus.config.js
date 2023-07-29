@@ -14,7 +14,7 @@ const title = 'Flojoy';
 const config = {
   title: 'Flojoy',
   tagline: 'Joyful visual programming for Python.',
-  url: 'https://docs.flojoy.io',
+  url: 'https://docs.flojoy.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'flojoy-io', // Usually your GitHub org/user name.
+  organizationName: 'flojoy-ai', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -101,7 +101,7 @@ const config = {
           {
             href: '/explore-nodes',
             position: 'right',
-            label: 'Explore Nodes',
+            label: '🔭 Nodes',
           },
           {
             href: '/getting-started/install',
@@ -109,19 +109,14 @@ const config = {
             label: 'Download',
           },
           {
-            href: '/nodes/ask-ai',
-            position: 'right',
-            label: 'Ask AI',
-          },
-          {
             href: 'https://community.flojoy.io/',
             position: 'right',
-            label: 'Community',
+            label: '🛟 Help',
           },
           {
             href: 'https://github.com/flojoy-io/docs',
             position: 'right',
-            label: 'Github',
+            label: 'GitHub',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
