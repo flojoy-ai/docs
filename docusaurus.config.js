@@ -166,7 +166,7 @@ const config = {
           enabled: true,
           provider: {
             name: 'algolia',
-            apiKey: '089cd76d3023464d056479e65880af90',
+            apiKey: '12f712936d242f4a4592cdafb61a4620',
             appId: '8F0URYIKW5',
             indexName: 'Flojoy Docs',
           },
