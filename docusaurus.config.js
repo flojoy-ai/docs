@@ -101,7 +101,7 @@ const config = {
           {
             href: '/explore-nodes',
             position: 'right',
-            label: '🔭 Nodes',
+            label: 'Nodes',
           },
           {
             href: '/getting-started/install',
@@ -111,7 +111,7 @@ const config = {
           {
             href: 'https://community.flojoy.io/',
             position: 'right',
-            label: '🛟 Help',
+            label: 'Help',
           },
           {
             href: 'https://github.com/flojoy-io/docs',
