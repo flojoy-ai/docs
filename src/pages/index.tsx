@@ -64,7 +64,9 @@ function HomepageHeader() {
         className={clsx('mb-4', styles.backgroundSection)}
         style={{
           backgroundImage: `url(${bgImage?.light})`,
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: 'no-repeat',
+          backgroundRepeat: 'space',
+          backgroundPosition: 'center'
         }}
       >
         <div className="container text-center">
