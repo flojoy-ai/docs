@@ -33,6 +33,7 @@ function HomepageHeader() {
               <span>FLO</span>
               <span>JOY</span>
             </h1>
+            <br></br>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className="d-flex align-center flex-column-lg justify-center gap-3">
