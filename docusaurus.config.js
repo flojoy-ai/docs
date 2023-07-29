@@ -137,8 +137,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       scripts: {
-        src: "https://cdn.usefathom.com/script.js",
-        dataSite: "LCCRNAEW" ,
+        src: 'https://cdn.usefathom.com/script.js',
+        'data-site': "LCCRNAEW" ,
         defer: true
       },
       // algolia: {
