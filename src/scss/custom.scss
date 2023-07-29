@@ -132,7 +132,6 @@ pre {
 
 #__docusaurus {
   background: url('/img/home-bg-light.svg');
-  background-repeat: no-repeat !important;
   background-position-y: bottom;
   background-size: contain;
 }
@@ -217,4 +216,10 @@ pre {
   align-items: center;
   border: none;
   border-color: transparent !important;
+}
+
+/* Docusaurus-generated SVG icon for external nav links */
+
+.iconExternalLink_nPIU {
+  display: inline-block;
 }
