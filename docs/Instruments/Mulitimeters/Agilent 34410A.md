@@ -44,21 +44,24 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 
 <Tabs>
   <TabItem value="PyMeasure" label="PyMeasure" default>
-    GPT-generated lorem ipsum...
-    ```
-    More GPT lorem ipsum
-    ```
+GPT-generated lorem ipsum...
+    
+```py
+More GPT lorem ipsum
+```
   </TabItem>
-  <TabItem value="QCodes" label="QCodes">
-    GPT-generated lorem ipsum...
-    ```
-    More GPT lorem ipsum
-    ```
+  <TabItem value="QCodes" label="QCodes">  
+GPT-generated lorem ipsum...
+    
+```py
+More GPT lorem ipsum
+```
   </TabItem>
   <TabItem value="InstrumentKit" label="InstrumentKit">
-    GPT-generated lorem ipsum...
-    ```
-    More GPT lorem ipsum
-    ```
+GPT-generated lorem ipsum...
+    
+```py
+More GPT lorem ipsum
+```
   </TabItem>
 </Tabs>
