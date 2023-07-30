@@ -49,8 +49,12 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 - Yearly revenue: (USD): $5,420M
 </div>
 
-<div >
-![Keysight](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45b1e4f7-838c-4beb-8806-10d728fd191e%2FUntitled.png?table=block&id=fe3d0aee-491a-4624-8d07-c3a3ee7bf6a7&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2![image](https://github.com/flojoy-ai/docs/assets/1865834/4a7443a4-6b63-425d-acac-b4ba097fd606)
+<div>
+
+![Keysight](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45b1e4f7-838c-4beb-8806-10d728fd191e%2FUntitled.png?table=block&id=fe3d0aee-491a-4624-8d07-c3a3ee7bf6a7&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2)
+
+![image](https://github.com/flojoy-ai/docs/assets/1865834/4a7443a4-6b63-425d-acac-b4ba097fd606)
+
 </div>
 </div>
 </details>
@@ -62,27 +66,28 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 <Tabs>
-  <TabItem value="PyMeasure" label="PyMeasure" default>
-    GPT-generated lorem ipsum...
-        
-    ```py
-    More GPT lorem ipsum
-    ```
-  </TabItem>
-  
-  <TabItem value="QCodes" label="QCodes">  
-    GPT-generated lorem ipsum...
-        
-    ```py
-    More GPT lorem ipsum
-    ```
-  </TabItem>
+<TabItem value="PyMeasure" label="PyMeasure" default>
+GPT-generated lorem ipsum
 
-  <TabItem value="InstrumentKit" label="InstrumentKit">
-    GPT-generated lorem ipsum...
+```py
+More GPT lorem ipsum
+```
+
+</TabItem>
+  
+<TabItem value="QCodes" label="QCodes">  
+GPT-generated lorem ipsum...
         
-    ```py
-    More GPT lorem ipsum
-    ```
-  </TabItem>
+```py
+More GPT lorem ipsum
+```
+</TabItem>
+
+<TabItem value="InstrumentKit" label="InstrumentKit">
+GPT-generated lorem ipsum...
+        
+```py
+More GPT lorem ipsum
+```
+</TabItem>
 </Tabs>
