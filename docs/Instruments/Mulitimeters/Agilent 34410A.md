@@ -14,11 +14,14 @@ import TabItem from '@theme/TabItem';
 ## Instrument card
 
 <div style={{ width: '50%', float: 'left', clear: 'left' }}>
-The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB… [Read the full description](https://www.keysight.com/us/en/product/34410A/digital-multimeter-6-digit.html).
+  
+The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB… < a href=
+"https://www.keysight.com/us/en/product/34410A/digital-multimeter-6-digit.html">Read the full description</a>).
 </div>
 
+
 <div style={{ width: '50%', float: 'right', clear: 'right' }}>
-![Agilent 34410A](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb52a817b-b172-4d20-8cf1-08d696451b9c%2FUntitled.png?table=block&id=dc89b78d-1d75-4a66-b3ec-381c4420f4cd&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2)
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb52a817b-b172-4d20-8cf1-08d696451b9c%2FUntitled.png?table=block&id=dc89b78d-1d75-4a66-b3ec-381c4420f4cd&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2" alt="Agilent 34410A" />
 </div>
 
 <details><summary>Manufacturer card</summary>
