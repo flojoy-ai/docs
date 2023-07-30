@@ -15,7 +15,7 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 
 <details><summary>Manufacturer card</summary>
   
-<div style={{ width: '50%', float: 'left'; clear: 'left' }}>
+<div style={{ width: '50%', float: 'left', clear: 'left' }}>
 *Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. [Website](https://www.keysight.com/us/en/home.html).*
 - Headquarters: USA
 - Yearly revenue: (USD): $5,420M
