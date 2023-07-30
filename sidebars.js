@@ -29,7 +29,9 @@ const sidebars = {
           keywords: ['instruments'],
           // image: '/img/docusaurus.png',
         },
-        items: ['agilent34410A']
+        items: [
+          {id: 'agilent34410A', label: 'Agilent 34410A',  type: 'doc';}
+        ]
       }],
     },    
     {
