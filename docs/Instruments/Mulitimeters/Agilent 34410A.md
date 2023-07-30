@@ -24,6 +24,8 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb52a817b-b172-4d20-8cf1-08d696451b9c%2FUntitled.png?table=block&id=dc89b78d-1d75-4a66-b3ec-381c4420f4cd&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2" alt="Agilent 34410A" />
 </div>
 
+<div style={{ display: 'block' }}>
+
 <details><summary>Manufacturer card</summary>
   
 <div style={{ width: '50%', float: 'left', clear: 'left' }}>
@@ -40,6 +42,8 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 </div>
 
 </details>
+
+</div>
 
 # Connect to the Agilent 34410A in Python
 
