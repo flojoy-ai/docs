@@ -30,7 +30,7 @@ const sidebars = {
           // image: '/img/docusaurus.png',
         },
         items: [
-          {id: 'agilent34410A', label: 'Agilent 34410A',  type: 'doc'}
+          {id: 'Instruments/Mulitimeters/agilent34410A', label: 'Agilent 34410A',  type: 'doc'}
         ]
       }],
     },    
