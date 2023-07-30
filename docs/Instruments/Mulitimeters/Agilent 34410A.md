@@ -13,22 +13,25 @@ import TabItem from '@theme/TabItem';
 
 ## Instrument card
 
-<div style={{ width: '50%', float: 'left', clear: 'left' }}>
+<div className="flex">
+<div className="grow">
   
 The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB… < a href=
 "https://www.keysight.com/us/en/product/34410A/digital-multimeter-6-digit.html">Read the full description</a>).
 </div>
 
-
-<div style={{ width: '50%', float: 'right', clear: 'right' }}>
+<div >
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb52a817b-b172-4d20-8cf1-08d696451b9c%2FUntitled.png?table=block&id=dc89b78d-1d75-4a66-b3ec-381c4420f4cd&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2" alt="Agilent 34410A" />
 </div>
+</div>
 
-<div style={{ display: 'block' }}>
+<div className="py-2"/>
+
+<div >
 
 <details><summary>Manufacturer card</summary>
   
-<div style={{ width: '50%', float: 'left', clear: 'left' }}>
+<div >
 <i>Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.</i> 
 <a href="https://www.keysight.com/us/en/home.html">Website.</a>
 <ul>
@@ -37,10 +40,19 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 </ul>
 </div>
 
-<div style={{ width: '50%', float: 'right', clear: 'right' }}>
+<div >
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45b1e4f7-838c-4beb-8806-10d728fd191e%2FUntitled.png?table=block&id=fe3d0aee-491a-4624-8d07-c3a3ee7bf6a7&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2" alt="Keysight" />
+
+<div >
+*Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. [Website](https://www.keysight.com/us/en/home.html).*
+- Headquarters: USA
+- Yearly revenue: (USD): $5,420M
 </div>
 
+<div >
+![Keysight](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45b1e4f7-838c-4beb-8806-10d728fd191e%2FUntitled.png?table=block&id=fe3d0aee-491a-4624-8d07-c3a3ee7bf6a7&spaceId=207738b8-4752-4ab2-a742-7dbc10e396de&width=2000&userId=08a15830-3f2c-4a80-81c6-c0abae485b5d&cache=v2![image](https://github.com/flojoy-ai/docs/assets/1865834/4a7443a4-6b63-425d-acac-b4ba097fd606)
+</div>
+</div>
 </details>
 
 </div>
