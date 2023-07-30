@@ -5,7 +5,7 @@ import TabItem from '@theme/TabItem';
 
 ## Instrument card
 
-<div style={{ width: '50%', float: 'left'; clear: 'left' }}>
+<div style={{ width: '50%', float: 'left', clear: 'left' }}>
 The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB… [Read the full description](https://www.keysight.com/us/en/product/34410A/digital-multimeter-6-digit.html).
 </div>
 
