@@ -17,6 +17,15 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Instruments',
+      items: [{
+        type: 'category',
+        label: 'Multimeters',
+        items: ['instruments/multimeters/Agilent 34410A']
+      }],
+    },    
+    {
+      type: 'category',
       label: 'Node Examples',
       items: unflatten(nodesObj, { object: false, delimiter: '>' }),
     },
