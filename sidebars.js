@@ -21,7 +21,7 @@ const sidebars = {
       items: [{
         type: 'category',
         label: 'Multimeters',
-        items: ['instruments/multimeters/agilent34410A']
+        items: ['Instruments/Mulitimeters/agilent34410A']
       }],
     },    
     {
