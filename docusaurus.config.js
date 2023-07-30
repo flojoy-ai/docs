@@ -111,6 +111,11 @@ const config = {
             label: 'Nodes',
           },
           {
+            href: '/nodes/introduction/',
+            position: 'right',
+            label: 'Tutorials',
+          },          
+          {
             href: '/getting-started/install',
             position: 'right',
             label: 'Download',
