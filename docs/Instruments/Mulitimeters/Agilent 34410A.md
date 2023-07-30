@@ -1,3 +1,11 @@
+---
+sidebar_position: 1
+id: agilent34410A
+title: Control the Agilent 34410A multimeter in Python
+description: The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A.
+image: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb52a817b-b172-4d20-8cf1-08d696451b9c%2FUntitled.png
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
