@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-cc55781a-14c8-4405-8fd1-0157351b3486",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-cc55781a-14c8-4405-8fd1-0157351b3486",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -59,12 +59,12 @@
                 "width": 250,
                 "height": 159,
                 "id": "HISTOGRAM-c5469532-dd28-4465-b8b0-524174db86e4",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "HISTOGRAM-c5469532-dd28-4465-b8b0-524174db86e4",
                     "label": "HISTOGRAM",
                     "func": "HISTOGRAM",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -96,15 +96,48 @@
                 "dragging": true
             },
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-ebbe9c0f-1a6d-4781-9441-be59a8e49036",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-ebbe9c0f-1a6d-4781-9441-be59a8e49036",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1375.1520235520945,
+                    "y": 103.4971422058673
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1375.1520235520945,
+                    "y": 103.4971422058673
+                },
+                "dragging": true
+            },
+            {
                 "width": 130,
                 "height": 130,
                 "id": "RAND-1fe43d0a-6b15-49d0-b6e0-35c61744a60a",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "RAND-1fe43d0a-6b15-49d0-b6e0-35c61744a60a",
                     "label": "RAND",
                     "func": "RAND",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "distribution": {
                             "type": "select",
@@ -187,12 +220,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "RAND-e09e675f-ccaf-44b3-8842-6cea418c4b00",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "RAND-e09e675f-ccaf-44b3-8842-6cea418c4b00",
                     "label": "RAND 1",
                     "func": "RAND",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "distribution": {
                             "type": "select",
@@ -275,12 +308,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "BIG_NUMBER-59ecc8d4-f674-4af7-869f-f429f0b1c266",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "BIG_NUMBER-59ecc8d4-f674-4af7-869f-f429f0b1c266",
                     "label": "BIG NUMBER",
                     "func": "BIG_NUMBER",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {
                         "suffix": {
                             "type": "str",

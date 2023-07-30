@@ -30,7 +30,7 @@ def DEEPLAB_V3(default: Image) -> Image:
     # Convert input image
     input_image = TF.to_pil_image(nparray).convert("RGB")
     # Set torch hub cache directory
-    torch.hub.set_dir(os.path.join(FLOJOY_CACHE_DIR, "torch_hub"))
+    torch.hub.set_dir(os.path.join(FLOJOY_CACHE_DIR, "cache", "torch_hub"))
     model = torch.hub.load(
         "pytorch/vision:v0.10.0", "deeplabv3_resnet50", pretrained=True
     )

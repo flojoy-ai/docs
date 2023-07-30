@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-32bf4749-f44a-4f3b-9fca-280a8c1a7930",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-32bf4749-f44a-4f3b-9fca-280a8c1a7930",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -59,12 +59,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "TIMESERIES-1f113e5c-ee47-4e67-a040-ed8107f98095",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "TIMESERIES-1f113e5c-ee47-4e67-a040-ed8107f98095",
                     "label": "TIMESERIES",
                     "func": "TIMESERIES",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "start_date": {
                             "type": "str",
@@ -106,12 +106,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "MATRIX-bb1dc76f-50a7-4e4d-94f2-66c729fef752",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "MATRIX-bb1dc76f-50a7-4e4d-94f2-66c729fef752",
                     "label": "MATRIX",
                     "func": "MATRIX",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "row": {
                             "type": "int",
@@ -153,12 +153,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "PLOTLY_DATASET-a2a99924-c20c-40b8-8725-378427432b04",
-                "type": "GENERATORS",
+                "type": "SAMPLE_DATASETS",
                 "data": {
                     "id": "PLOTLY_DATASET-a2a99924-c20c-40b8-8725-378427432b04",
                     "label": "PLOTLY DATASET",
                     "func": "PLOTLY_DATASET",
-                    "type": "GENERATORS",
+                    "type": "SAMPLE_DATASETS",
                     "ctrls": {
                         "dataset_key": {
                             "type": "select",
@@ -205,12 +205,12 @@
                 "width": 250,
                 "height": 159,
                 "id": "HISTOGRAM-e3f0af53-0c45-4457-ae12-7f6eb0327f39",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "HISTOGRAM-e3f0af53-0c45-4457-ae12-7f6eb0327f39",
                     "label": "HISTOGRAM",
                     "func": "HISTOGRAM",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -242,15 +242,48 @@
                 "dragging": true
             },
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-13de4aba-1c8e-45e2-801e-3102187a3923",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-13de4aba-1c8e-45e2-801e-3102187a3923",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\LOGIC_GATES\\TERMINATORS\\END\\END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1334.6531036384777,
+                    "y": 271.2955530802111
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1334.6531036384777,
+                    "y": 271.2955530802111
+                },
+                "dragging": true
+            },
+            {
                 "width": 250,
                 "height": 159,
                 "id": "HISTOGRAM-6bb3aef4-a631-4732-931b-b4a71f49557e",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "HISTOGRAM-6bb3aef4-a631-4732-931b-b4a71f49557e",
                     "label": "HISTOGRAM 1",
                     "func": "HISTOGRAM",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -285,12 +318,12 @@
                 "width": 250,
                 "height": 159,
                 "id": "HISTOGRAM-3f0b2e7d-3a6c-4d14-a17c-3ba2fe7c0bfa",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "HISTOGRAM-3f0b2e7d-3a6c-4d14-a17c-3ba2fe7c0bfa",
                     "label": "HISTOGRAM 2",
                     "func": "HISTOGRAM",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -325,12 +358,12 @@
                 "width": 250,
                 "height": 159,
                 "id": "HISTOGRAM-31603d5b-2656-44cd-b445-071bb1cb6b1f",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "HISTOGRAM-31603d5b-2656-44cd-b445-071bb1cb6b1f",
                     "label": "HISTOGRAM 3",
                     "func": "HISTOGRAM",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {

@@ -5,12 +5,12 @@
                 "width": 240,
                 "height": 260,
                 "id": "ARRAY_VIEW-1efcd977-7ea1-4036-b70b-9e04177953f8",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "ARRAY_VIEW-1efcd977-7ea1-4036-b70b-9e04177953f8",
                     "label": "ARRAY VIEW",
                     "func": "ARRAY_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -45,12 +45,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LOCAL_FILE-6cd15e81-644c-47c3-9309-bdfb92b80322",
-                "type": "LOADERS",
+                "type": "LOCAL_FILE_SYSTEM",
                 "data": {
                     "id": "LOCAL_FILE-6cd15e81-644c-47c3-9309-bdfb92b80322",
                     "label": "LOCAL FILE",
                     "func": "LOCAL_FILE",
-                    "type": "LOADERS",
+                    "type": "LOCAL_FILE_SYSTEM",
                     "ctrls": {
                         "file_path": {
                             "type": "str",
@@ -106,15 +106,48 @@
                 "dragging": true
             },
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-c4336a1c-b75f-4b7e-acda-4a6767f5fc58",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-c4336a1c-b75f-4b7e-acda-4a6767f5fc58",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\LOGIC_GATES\\TERMINATORS\\END\\END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 727.4931647979206,
+                    "y": 308.7656577735042
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 727.4931647979206,
+                    "y": 308.7656577735042
+                },
+                "dragging": true
+            },
+            {
                 "width": 150,
                 "height": 150,
                 "id": "PLOTLY_DATASET-19eba195-7482-48cc-aac0-8cc1325fe0c9",
-                "type": "GENERATORS",
+                "type": "SAMPLE_DATASETS",
                 "data": {
                     "id": "PLOTLY_DATASET-19eba195-7482-48cc-aac0-8cc1325fe0c9",
                     "label": "PLOTLY DATASET",
                     "func": "PLOTLY_DATASET",
-                    "type": "GENERATORS",
+                    "type": "SAMPLE_DATASETS",
                     "ctrls": {
                         "dataset_key": {
                             "type": "select",
@@ -161,12 +194,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-f5c8b478-c39a-4450-abfa-52fbc5b5177b",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-f5c8b478-c39a-4450-abfa-52fbc5b5177b",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -215,12 +248,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "MATRIX-eb2f42c0-a990-4294-8032-45abfac569df",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "MATRIX-eb2f42c0-a990-4294-8032-45abfac569df",
                     "label": "MATRIX",
                     "func": "MATRIX",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "row": {
                             "type": "int",
@@ -262,12 +295,12 @@
                 "width": 240,
                 "height": 260,
                 "id": "ARRAY_VIEW-7d78d396-398b-499b-953f-e29aa877b5cf",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "ARRAY_VIEW-7d78d396-398b-499b-953f-e29aa877b5cf",
                     "label": "ARRAY VIEW 1",
                     "func": "ARRAY_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -302,12 +335,12 @@
                 "width": 240,
                 "height": 260,
                 "id": "ARRAY_VIEW-111b6446-143e-43aa-83e9-3138fcdbf17b",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "ARRAY_VIEW-111b6446-143e-43aa-83e9-3138fcdbf17b",
                     "label": "ARRAY VIEW 2",
                     "func": "ARRAY_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -342,12 +375,12 @@
                 "width": 240,
                 "height": 260,
                 "id": "ARRAY_VIEW-6736c8e9-a710-4b14-bdd4-829e0ee961c7",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "ARRAY_VIEW-6736c8e9-a710-4b14-bdd4-829e0ee961c7",
                     "label": "ARRAY VIEW 3",
                     "func": "ARRAY_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
