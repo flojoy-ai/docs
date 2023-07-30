@@ -21,7 +21,15 @@ const sidebars = {
       items: [{
         type: 'category',
         label: 'Multimeters',
-        items: ['Instruments/Mulitimeters/agilent34410A']
+        link: {
+          type: 'generated-index',
+          title: 'Instrument Guides',
+          description: 'Python connectors and tutorials for over 700 scientific benchtop instruments.',
+          slug: 'instruments',
+          keywords: ['instruments'],
+          // image: '/img/docusaurus.png',
+        },
+        items: ['agilent34410A']
       }],
     },    
     {
