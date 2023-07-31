@@ -98,6 +98,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: 'If you like Flojoy, give it a star on our GitHub! ⭐',
+        // backgroundColor: '#fafbfc',
+        // textColor: '#091E42',
+        isCloseable: true,
+      },
       colorMode: {
         defaultMode: 'dark',
       },
