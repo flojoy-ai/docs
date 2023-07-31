@@ -122,7 +122,6 @@
         "nodes/LOGIC_GATES/LOOPS/APPEND/APPEND",
         "nodes/LOGIC_GATES/LOOPS/GOTO/GOTO",
         "nodes/LOGIC_GATES/LOOPS/LOOP/LOOP",
-        "nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/LOOP_INDEX",
         "nodes/LOGIC_GATES/TIMERS/TIMER/TIMER"
     ],
     "I/O > Imaging": [
