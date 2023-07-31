@@ -48,7 +48,8 @@
     ],
     "Data > Visualize > Data Structure": [
         "nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/ARRAY_VIEW",
-        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW"
+        "nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/MATRIX_VIEW",
+        "nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW"
     ],
     "Data > Visualize > Plotly": [
         "nodes/VISUALIZERS/PLOTLY/BAR/BAR",
