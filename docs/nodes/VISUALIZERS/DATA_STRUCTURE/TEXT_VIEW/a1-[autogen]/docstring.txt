@@ -1,0 +1,1 @@
+The TEXT_VIEW node creates a text visualization for a given TextBlob DC type.

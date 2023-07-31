@@ -9,6 +9,9 @@ The QR node is based on a numpy or scipy function.
 
     Parameters
     ----------
+    select_return : This function has returns multiple objects:
+            ['q', 'r', '(h, tau)']. Select the desired one to return.
+            See the respective function docs for descriptors.
     a : array_like, shape (..., M, N)
             An array-like object with the dimensionality of at least 2.
     mode : {'reduced', 'complete', 'r', 'raw'}, optional

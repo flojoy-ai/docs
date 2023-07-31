@@ -6,6 +6,9 @@ The EIG node is based on a numpy or scipy function.
 
     Parameters
     ----------
+    select_return : This function has returns multiple objects:
+            ['w', 'v']. Select the desired one to return.
+            See the respective function docs for descriptors.
     a : (..., M, M) array
             Matrices for which the eigenvalues and right eigenvectors will
             be computed
