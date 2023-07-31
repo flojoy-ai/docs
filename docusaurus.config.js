@@ -111,38 +111,46 @@ const config = {
 
         items: [
           {
+            href: '/getting-started/install',
+            position: 'right',
+            label: 'Install',
+          },
+          {
+            type: 'dropdown',
+            label: 'Resources',
+            position: 'right',
+            items: [
+              {
+                href: '/explore-nodes',
+                label: 'Nodes',
+              },
+              {
+                href: '/nodes/introduction/',
+                label: 'Tutorial',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Connect',
+            position: 'right',
+            items: [
+              {
+                href: 'https://github.com/flojoy-io/docs',
+                label: 'GitHub',
+              },
+              {
+                href: 'https://community.flojoy.io/',
+                label: 'Community',
+              },
+            ],
+          },
+          {
             type: 'html',
             position: 'right',
             value: `<a href=# class=navbar__link data-fr-widget>
-            Page feedback
+               Feedback
           </a>`,
-          },
-          {
-            href: '/explore-nodes',
-            position: 'right',
-            label: 'Nodes',
-          },
-          {
-            href: '/nodes/introduction/',
-            position: 'right',
-            label: 'Tutorial',
-          },
-          {
-            href: '/getting-started/install',
-            position: 'right',
-            label: 'Download',
-          },
-          {
-            href: 'https://community.flojoy.io/',
-            position: 'right',
-            label: 'Help',
-          },
-          {
-            href: 'https://github.com/flojoy-io/docs',
-            position: 'right',
-            label: 'GitHub',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
           },
         ],
       },
