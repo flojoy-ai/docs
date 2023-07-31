@@ -111,15 +111,14 @@ const config = {
 
         items: [
           {
-            href: '/getting-started/install',
-            position: 'right',
-            label: 'Install',
-          },
-          {
             type: 'dropdown',
             label: 'Resources',
             position: 'right',
             items: [
+              {
+                href: '/getting-started/install',
+                label: 'Installation',
+              },
               {
                 href: '/explore-nodes',
                 label: 'Nodes',
@@ -151,6 +150,11 @@ const config = {
             value: `<a href=# class=navbar__link data-fr-widget>
                Feedback
           </a>`,
+          },
+          {
+            href: 'https://www.flojoy.ai/contact-sales',
+            label: 'Contact Sales',
+            position: 'right',
           },
         ],
       },
