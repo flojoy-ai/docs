@@ -70,9 +70,14 @@ const config = {
   ],
   scripts: [
     {
-      src: "https://cdn.usefathom.com/script.js",
+      src: 'https://cdn.usefathom.com/script.js',
       dataSite: 'LCCRNAEW',
-      defer: true
+      defer: true,
+    },
+    {
+      async: true,
+      src: 'https://www.feedbackrocket.io/sdk/v1.0.0.js',
+      'data-fr-id': 'qrrGqJ92uPlGPDmv_ZmZh',
     },
   ],
   plugins: [
@@ -106,6 +111,13 @@ const config = {
 
         items: [
           {
+            type: 'html',
+            position: 'right',
+            value: `<a href=# class=navbar__link data-fr-widget>
+            Page feedback
+          </a>`,
+          },
+          {
             href: '/explore-nodes',
             position: 'right',
             label: 'Nodes',
@@ -114,7 +126,7 @@ const config = {
             href: '/nodes/introduction/',
             position: 'right',
             label: 'Tutorial',
-          },          
+          },
           {
             href: '/getting-started/install',
             position: 'right',
@@ -143,8 +155,8 @@ const config = {
       },
       scripts: {
         src: 'https://cdn.usefathom.com/script.js',
-        'data-site': "LCCRNAEW" ,
-        defer: true
+        'data-site': 'LCCRNAEW',
+        defer: true,
       },
       // algolia: {
       //   // The application ID provided by Algolia
