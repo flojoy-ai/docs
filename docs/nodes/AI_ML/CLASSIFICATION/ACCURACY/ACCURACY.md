@@ -1,7 +1,7 @@
 ---
 title: Running an Accuracy Classification Model in Python with Flojoy
 description: The ACCURACY node takes two dataframes with the true and predicted labels from a classification task, and indicates whether the prediction was correct or not. These dataframes should both be single columns.
-keywords: [AI, Classification, Python, DataFrame]
+keywords: [AI, Classification, Python, DataFrame, Accuracy, Prediction]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg
 ---
 
