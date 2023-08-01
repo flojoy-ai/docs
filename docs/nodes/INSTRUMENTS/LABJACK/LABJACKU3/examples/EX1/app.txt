@@ -152,13 +152,6 @@
         "edges": [
             {
                 "source": "LOOP-744fed19-65b1-47c3-ad99-28db2e906bde",
-                "sourceHandle": "end",
-                "target": "END-04176810-8104-4747-9a8f-df79d12c5298",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LOOP-744fed19-65b1-47c3-ad99-28db2e906bdeend-END-04176810-8104-4747-9a8f-df79d12c5298default"
-            },
-            {
-                "source": "LOOP-744fed19-65b1-47c3-ad99-28db2e906bde",
                 "sourceHandle": "body",
                 "target": "LABJACKU3-8bb214ab-525a-490d-b539-7811b057d85f",
                 "targetHandle": "default",
@@ -170,13 +163,6 @@
                 "target": "BAR-d54011a8-5b19-471e-9aad-74ce3ca62914",
                 "targetHandle": "default",
                 "id": "reactflow__edge-LABJACKU3-8bb214ab-525a-490d-b539-7811b057d85fdefault-BAR-d54011a8-5b19-471e-9aad-74ce3ca62914default"
-            },
-            {
-                "source": "BAR-d54011a8-5b19-471e-9aad-74ce3ca62914",
-                "sourceHandle": "default",
-                "target": "GOTO-b8fa97e1-9bb8-4236-ad03-12f028086a7b",
-                "targetHandle": "default",
-                "id": "reactflow__edge-BAR-d54011a8-5b19-471e-9aad-74ce3ca62914default-GOTO-b8fa97e1-9bb8-4236-ad03-12f028086a7bdefault"
             }
         ],
         "viewport": {

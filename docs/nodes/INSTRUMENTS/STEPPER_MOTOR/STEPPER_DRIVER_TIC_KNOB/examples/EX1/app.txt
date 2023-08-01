@@ -77,15 +77,7 @@
                 "dragging": true
             }
         ],
-        "edges": [
-            {
-                "source": "STEPPER_DRIVER_TIC_KNOB-3b234e79-4648-4661-a8e8-3e14b3d0e72b",
-                "sourceHandle": "default",
-                "target": "END-04176810-8104-4747-9a8f-df79d12c5298",
-                "targetHandle": "default",
-                "id": "reactflow__edge-STEPPER_DRIVER_TIC_KNOB-3b234e79-4648-4661-a8e8-3e14b3d0e72bdefault-END-04176810-8104-4747-9a8f-df79d12c5298default"
-            }
-        ],
+        "edges": [],
         "viewport": {
             "x": -358.59636577932724,
             "y": 99.85117439980638,

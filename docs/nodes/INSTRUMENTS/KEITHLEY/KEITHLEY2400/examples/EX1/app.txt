@@ -171,13 +171,6 @@
                 "target": "LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06",
                 "targetHandle": "default",
                 "id": "reactflow__edge-KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063abdefault-LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06default"
-            },
-            {
-                "source": "LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06",
-                "sourceHandle": "default",
-                "target": "END-4ab72a2d-4c0a-422f-aac2-1adfc221c8aa",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06default-END-4ab72a2d-4c0a-422f-aac2-1adfc221c8aadefault"
             }
         ],
         "viewport": {

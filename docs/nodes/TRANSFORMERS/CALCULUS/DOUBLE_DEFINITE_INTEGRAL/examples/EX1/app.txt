@@ -367,20 +367,6 @@
                 "target": "SCATTER-d11db416-92b7-4511-a6c2-0bcdcb8064c1",
                 "targetHandle": "default",
                 "id": "reactflow__edge-ADD-a5baa9e5-24f1-4272-a9cf-3ad9efdf8983default-SCATTER-d11db416-92b7-4511-a6c2-0bcdcb8064c1default"
-            },
-            {
-                "source": "SCATTER-b69cc4b7-5314-4bdc-a841-e546ee999921",
-                "sourceHandle": "default",
-                "target": "END-fb60c910-1418-4259-938b-5bd861118271",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SCATTER-b69cc4b7-5314-4bdc-a841-e546ee999921default-END-fb60c910-1418-4259-938b-5bd861118271default"
-            },
-            {
-                "source": "SCATTER-d11db416-92b7-4511-a6c2-0bcdcb8064c1",
-                "sourceHandle": "default",
-                "target": "END-fb60c910-1418-4259-938b-5bd861118271",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SCATTER-d11db416-92b7-4511-a6c2-0bcdcb8064c1default-END-fb60c910-1418-4259-938b-5bd861118271default"
             }
         ],
         "viewport": {

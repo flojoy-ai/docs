@@ -274,13 +274,6 @@
         ],
         "edges": [
             {
-                "source": "SCATTER-9927419b-29bb-4d10-bf5a-79ea28add9a9",
-                "sourceHandle": "default",
-                "target": "END-1910d95d-6f10-4677-83b2-c5b78d23b2c4",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SCATTER-9927419b-29bb-4d10-bf5a-79ea28add9a9default-END-1910d95d-6f10-4677-83b2-c5b78d23b2c4default"
-            },
-            {
                 "source": "SINE-2cc933b2-9d01-45bb-96a3-a8dceee7a15d",
                 "sourceHandle": "default",
                 "target": "MULTIPLY-cf3c6079-3f31-4c33-b280-5ab1187e33fb",

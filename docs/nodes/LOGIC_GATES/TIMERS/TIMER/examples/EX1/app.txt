@@ -105,13 +105,6 @@
                 "target": "CONSTANT-e21a2fe3-d370-4587-b0c6-7c61f8656fd0",
                 "targetHandle": "default",
                 "id": "reactflow__edge-TIMER-b85f2c5b-f7de-4485-953d-986177ab9d31default-CONSTANT-e21a2fe3-d370-4587-b0c6-7c61f8656fd0default"
-            },
-            {
-                "source": "CONSTANT-e21a2fe3-d370-4587-b0c6-7c61f8656fd0",
-                "sourceHandle": "default",
-                "target": "END-ab10e538-ad40-4af1-a447-979a455ba0d3",
-                "targetHandle": "default",
-                "id": "reactflow__edge-CONSTANT-e21a2fe3-d370-4587-b0c6-7c61f8656fd0default-END-ab10e538-ad40-4af1-a447-979a455ba0d3default"
             }
         ],
         "viewport": {

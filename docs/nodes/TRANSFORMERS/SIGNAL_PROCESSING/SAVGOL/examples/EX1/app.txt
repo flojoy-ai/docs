@@ -421,13 +421,6 @@
                 "id": "reactflow__edge-LINSPACE-79f540d0-bf01-44ee-a5cc-bd7c22c481fedefault-RAND-67823db5-2e2b-48d2-9fa2-59711d68d8b3default"
             },
             {
-                "source": "SAVGOL-a8bd4f8a-63a4-4b06-bacd-4cf1289f022e",
-                "sourceHandle": "default",
-                "target": "END-5136c932-1e5b-4808-8235-f5ed6a4e1f6e",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SAVGOL-a8bd4f8a-63a4-4b06-bacd-4cf1289f022edefault-END-5136c932-1e5b-4808-8235-f5ed6a4e1f6edefault"
-            },
-            {
                 "source": "ADD-b6b71026-3b39-41be-9230-276ce8d76e70",
                 "sourceHandle": "default",
                 "target": "SAVGOL-a8bd4f8a-63a4-4b06-bacd-4cf1289f022e",
@@ -461,13 +454,6 @@
                 "target": "LINE-46272c52-999a-48c0-a2c4-9bf8e9f01631",
                 "targetHandle": "default",
                 "id": "reactflow__edge-SAVGOL-a8bd4f8a-63a4-4b06-bacd-4cf1289f022edefault-LINE-46272c52-999a-48c0-a2c4-9bf8e9f01631default"
-            },
-            {
-                "source": "LINE-46272c52-999a-48c0-a2c4-9bf8e9f01631",
-                "sourceHandle": "default",
-                "target": "END-5136c932-1e5b-4808-8235-f5ed6a4e1f6e",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-46272c52-999a-48c0-a2c4-9bf8e9f01631default-END-5136c932-1e5b-4808-8235-f5ed6a4e1f6edefault"
             }
         ],
         "viewport": {
