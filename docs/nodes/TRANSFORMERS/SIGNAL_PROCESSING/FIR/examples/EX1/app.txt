@@ -113,12 +113,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -201,12 +201,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
                     "label": "BASIC OSCILLATOR 1",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -289,12 +289,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
                     "label": "BASIC OSCILLATOR 2",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -377,12 +377,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
                     "label": "BASIC OSCILLATOR 3",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -465,12 +465,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
                     "label": "BASIC OSCILLATOR 4",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -1016,13 +1016,6 @@
                 "id": "reactflow__edge-ADD-15b2356b-8f79-4f9b-802c-1821c0924fcedefault-FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0default"
             },
             {
-                "source": "FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0",
-                "sourceHandle": "default",
-                "target": "END-9335c6e8-cab9-4475-846a-1466085dfa16",
-                "targetHandle": "default",
-                "id": "reactflow__edge-FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0default-END-9335c6e8-cab9-4475-846a-1466085dfa16default"
-            },
-            {
                 "source": "ADD-15b2356b-8f79-4f9b-802c-1821c0924fce",
                 "sourceHandle": "default",
                 "target": "FFT-1ee5f7c7-d72f-4d75-9804-ea9f6201edf2",
@@ -1037,13 +1030,6 @@
                 "id": "reactflow__edge-FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0default-FFT-a220559c-365a-4562-aee4-10461c688970default"
             },
             {
-                "source": "FFT-a220559c-365a-4562-aee4-10461c688970",
-                "sourceHandle": "default",
-                "target": "END-9335c6e8-cab9-4475-846a-1466085dfa16",
-                "targetHandle": "default",
-                "id": "reactflow__edge-FFT-a220559c-365a-4562-aee4-10461c688970default-END-9335c6e8-cab9-4475-846a-1466085dfa16default"
-            },
-            {
                 "source": "FFT-1ee5f7c7-d72f-4d75-9804-ea9f6201edf2",
                 "sourceHandle": "default",
                 "target": "LINE-26ea5c67-c2cc-4329-8e31-67da38886cfa",
@@ -1056,13 +1042,6 @@
                 "target": "LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3",
                 "targetHandle": "default",
                 "id": "reactflow__edge-FFT-a220559c-365a-4562-aee4-10461c688970default-LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3default"
-            },
-            {
-                "source": "LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3",
-                "sourceHandle": "default",
-                "target": "END-9335c6e8-cab9-4475-846a-1466085dfa16",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3default-END-9335c6e8-cab9-4475-846a-1466085dfa16default"
             },
             {
                 "source": "FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0",
