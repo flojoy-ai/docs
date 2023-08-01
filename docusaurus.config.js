@@ -118,6 +118,11 @@ const config = {
 
         items: [
           {
+            to: '/explore-nodes',
+            label: 'Explore Nodes',
+            position: 'right',
+          },
+          {
             type: 'dropdown',
             label: 'Resources',
             position: 'right',
@@ -154,7 +159,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: `<a href=# class=navbar__link data-fr-widget>
+            value: `<a href=# class="navbar__link feedback" data-fr-widget>
                Feedback
           </a>`,
           },
