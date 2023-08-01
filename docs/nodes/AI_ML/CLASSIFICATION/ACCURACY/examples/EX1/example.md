@@ -9,4 +9,4 @@ In this example, the [iris dataset](https://archive.ics.uci.edu/dataset/53/iris)
 
 The true labels are also extracted with another `EXTRACT_COLUMNS` to be passed to the `ACCURACY` node, along with the `SUPPORT_VECTOR_MACHINE` predictions.
 
-In the output, we see that the `SUPPORT_VECTOR_MACHINE` has made correct predictions for all of the test data.
+In the output, we see that the `SUPPORT_VECTOR_MACHINE` node has made correct predictions for all of the test data.
