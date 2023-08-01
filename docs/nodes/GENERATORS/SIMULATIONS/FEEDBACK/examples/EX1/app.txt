@@ -2,15 +2,48 @@
     "rfInstance": {
         "nodes": [
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-6555aed9-4f39-456f-94bb-2fae298ae88f",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-6555aed9-4f39-456f-94bb-2fae298ae88f",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\LOGIC_GATES\\TERMINATORS\\END\\END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 201.3357255930201,
+                    "y": 557.2980747810793
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 201.3357255930201,
+                    "y": 557.2980747810793
+                },
+                "dragging": true
+            },
+            {
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-69bc9f1e-8cc8-4878-b6a4-d9a06dd33a9a",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-69bc9f1e-8cc8-4878-b6a4-d9a06dd33a9a",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -58,13 +91,54 @@
             {
                 "width": 150,
                 "height": 150,
+                "id": "GOTO-c29d54b5-4478-42da-b59b-5e5b190a2ee6",
+                "type": "LOOPS",
+                "data": {
+                    "id": "GOTO-c29d54b5-4478-42da-b59b-5e5b190a2ee6",
+                    "label": "GOTO",
+                    "func": "GOTO",
+                    "type": "LOOPS",
+                    "ctrls": {
+                        "goto_node_id": {
+                            "type": "NodeReference",
+                            "default": "",
+                            "functionName": "GOTO",
+                            "param": "goto_node_id",
+                            "value": "LOOP-d294c908-88a7-4f19-8446-9a68061e1f14"
+                        }
+                    },
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes\\LOGIC_GATES\\LOOPS\\GOTO\\GOTO.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 842.7642970215916,
+                    "y": 378.7266462096507
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 842.7642970215916,
+                    "y": 378.7266462096507
+                },
+                "dragging": true
+            },
+            {
+                "width": 150,
+                "height": 150,
                 "id": "LOOP-d294c908-88a7-4f19-8446-9a68061e1f14",
-                "type": "LOGIC_GATES",
+                "type": "LOOPS",
                 "data": {
                     "id": "LOOP-d294c908-88a7-4f19-8446-9a68061e1f14",
                     "label": "LOOP",
                     "func": "LOOP",
-                    "type": "LOGIC_GATES",
+                    "type": "LOOPS",
                     "ctrls": {
                         "num_loops": {
                             "type": "int",
@@ -112,12 +186,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "CONSTANT-b7112c9c-029c-4899-bd7f-ae304c690697",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "CONSTANT-b7112c9c-029c-4899-bd7f-ae304c690697",
                     "label": "2.0",
                     "func": "CONSTANT",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "constant": {
                             "type": "float",
@@ -206,12 +280,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "BIG_NUMBER-e4942bf1-f23a-4344-80eb-c166dabb2dd2",
                     "label": "BIG NUMBER",
                     "func": "BIG_NUMBER",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {
                         "suffix": {
                             "type": "str",
@@ -275,12 +349,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "FEEDBACK-f81e0c07-98f4-4f31-b5b3-7a32118d139e",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "FEEDBACK-f81e0c07-98f4-4f31-b5b3-7a32118d139e",
                     "label": "FEEDBACK",
                     "func": "FEEDBACK",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "referred_node": {
                             "type": "NodeReference",
@@ -323,12 +397,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "CONSTANT-2c2b2a67-fa77-41db-9f40-f6bad42c460b",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "CONSTANT-2c2b2a67-fa77-41db-9f40-f6bad42c460b",
                     "label": "4",
                     "func": "CONSTANT",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "constant": {
                             "type": "float",

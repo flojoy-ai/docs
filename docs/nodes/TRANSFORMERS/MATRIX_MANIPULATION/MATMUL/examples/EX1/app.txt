@@ -5,12 +5,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "MATRIX-633000ac-6a8c-4597-a77f-a5b009c84dbe",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "MATRIX-633000ac-6a8c-4597-a77f-a5b009c84dbe",
                     "label": "MATRIX",
                     "func": "MATRIX",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "row": {
                             "type": "int",
@@ -52,12 +52,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "MATRIX-c0889eba-3ebb-4218-ac0e-65bda9c17c66",
-                "type": "GENERATORS",
+                "type": "SIMULATIONS",
                 "data": {
                     "id": "MATRIX-c0889eba-3ebb-4218-ac0e-65bda9c17c66",
                     "label": "MATRIX 1",
                     "func": "MATRIX",
-                    "type": "GENERATORS",
+                    "type": "SIMULATIONS",
                     "ctrls": {
                         "row": {
                             "type": "int",
@@ -99,12 +99,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "MATMUL-38d30041-5f6f-4bb6-b50b-3bbddc32d60a",
-                "type": "TRANSFORMERS",
+                "type": "MATRIX_MANIPULATION",
                 "data": {
                     "id": "MATMUL-38d30041-5f6f-4bb6-b50b-3bbddc32d60a",
                     "label": "MATMUL",
                     "func": "MATMUL",
-                    "type": "TRANSFORMERS",
+                    "type": "MATRIX_MANIPULATION",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -145,12 +145,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "MATRIX_VIEW-4839a447-fd78-4c23-87c9-de5259c26472",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "MATRIX_VIEW-4839a447-fd78-4c23-87c9-de5259c26472",
                     "label": "MATRIX VIEW 2",
                     "func": "MATRIX_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -182,15 +182,48 @@
                 "dragging": true
             },
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-d1c65d5f-6e88-4910-8052-aa688ee7f56c",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-d1c65d5f-6e88-4910-8052-aa688ee7f56c",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1532.6747052039093,
+                    "y": 499.7207009792231
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1532.6747052039093,
+                    "y": 499.7207009792231
+                },
+                "dragging": true
+            },
+            {
                 "width": 225,
                 "height": 226,
                 "id": "MATRIX_VIEW-b76ba08c-ba34-481c-bd26-74db60851d49",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "MATRIX_VIEW-b76ba08c-ba34-481c-bd26-74db60851d49",
                     "label": "MATRIX VIEW 1",
                     "func": "MATRIX_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -225,12 +258,12 @@
                 "width": 225,
                 "height": 226,
                 "id": "MATRIX_VIEW-fa80c51a-9545-4e71-9122-62d441c6698d",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "MATRIX_VIEW-fa80c51a-9545-4e71-9122-62d441c6698d",
                     "label": "MATRIX VIEW 2",
                     "func": "MATRIX_VIEW",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {

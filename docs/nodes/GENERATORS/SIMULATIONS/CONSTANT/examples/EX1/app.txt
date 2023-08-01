@@ -2,15 +2,39 @@
     "rfInstance": {
         "nodes": [
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-06a4da40-a0ae-44ad-873b-9b65d096880a",
+                "type": "TERMINATOR",
+                "data": {
+                    "id": "END-06a4da40-a0ae-44ad-873b-9b65d096880a",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATOR",
+                    "ctrls": {},
+                    "selected": false
+                },
+                "position": {
+                    "x": 1386.4285714285716,
+                    "y": 595.4285714285714
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1386.4285714285716,
+                    "y": 595.4285714285714
+                },
+                "dragging": true
+            },
+            {
                 "width": 380,
                 "height": 293,
                 "id": "BIG_NUMBER-5d523fca-e2c2-4144-a091-d3d2e6482957",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY_VISOR",
                 "data": {
                     "id": "BIG_NUMBER-5d523fca-e2c2-4144-a091-d3d2e6482957",
                     "label": "BIG NUMBER",
                     "func": "BIG_NUMBER",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY_VISOR",
                     "ctrls": {
                         "suffix": {
                             "functionName": "BIG_NUMBER",
@@ -50,12 +74,12 @@
                 "width": 130,
                 "height": 130,
                 "id": "CONSTANT-910cbc4f-ec37-4d77-878a-643d40f38b84",
-                "type": "GENERATORS",
+                "type": "SIMULATION",
                 "data": {
                     "id": "CONSTANT-910cbc4f-ec37-4d77-878a-643d40f38b84",
                     "label": "2.0",
                     "func": "CONSTANT",
-                    "type": "GENERATORS",
+                    "type": "SIMULATION",
                     "ctrls": {
                         "constant": {
                             "functionName": "CONSTANT",

@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0",
-                "type": "TRANSFORMERS",
+                "type": "SIGNAL_PROCESSING",
                 "data": {
                     "id": "FIR-e4741c3f-334d-4e53-8a1a-db5549123ee0",
                     "label": "FIR",
                     "func": "FIR",
-                    "type": "TRANSFORMERS",
+                    "type": "SIGNAL_PROCESSING",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -113,12 +113,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -201,12 +201,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
                     "label": "BASIC OSCILLATOR 1",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -289,12 +289,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
                     "label": "BASIC OSCILLATOR 2",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -377,12 +377,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
                     "label": "BASIC OSCILLATOR 3",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -465,12 +465,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
                     "label": "BASIC OSCILLATOR 4",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -596,15 +596,48 @@
                 "dragging": true
             },
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-9335c6e8-cab9-4475-846a-1466085dfa16",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-9335c6e8-cab9-4475-846a-1466085dfa16",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 3033.4264297751756,
+                    "y": 390.3687522788513
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 3033.4264297751756,
+                    "y": 390.3687522788513
+                },
+                "dragging": true
+            },
+            {
                 "width": 150,
                 "height": 150,
                 "id": "FFT-1ee5f7c7-d72f-4d75-9804-ea9f6201edf2",
-                "type": "TRANSFORMERS",
+                "type": "SIGNAL_PROCESSING",
                 "data": {
                     "id": "FFT-1ee5f7c7-d72f-4d75-9804-ea9f6201edf2",
                     "label": "FFT 1",
                     "func": "FFT",
-                    "type": "TRANSFORMERS",
+                    "type": "SIGNAL_PROCESSING",
                     "ctrls": {
                         "window": {
                             "type": "select",
@@ -687,12 +720,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "FFT-a220559c-365a-4562-aee4-10461c688970",
-                "type": "TRANSFORMERS",
+                "type": "SIGNAL_PROCESSING",
                 "data": {
                     "id": "FFT-a220559c-365a-4562-aee4-10461c688970",
                     "label": "FFT 2",
                     "func": "FFT",
-                    "type": "TRANSFORMERS",
+                    "type": "SIGNAL_PROCESSING",
                     "ctrls": {
                         "window": {
                             "type": "select",
@@ -775,12 +808,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-26ea5c67-c2cc-4329-8e31-67da38886cfa",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "LINE-26ea5c67-c2cc-4329-8e31-67da38886cfa",
                     "label": "LINE 1",
                     "func": "LINE",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -815,12 +848,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "LINE-c3f1781a-b6e6-4657-9898-c88b3432f0f3",
                     "label": "LINE 2",
                     "func": "LINE",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -855,12 +888,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-7367f167-c5f4-4a30-a554-0ba37c959ebd",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "LINE-7367f167-c5f4-4a30-a554-0ba37c959ebd",
                     "label": "LINE 3",
                     "func": "LINE",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -895,12 +928,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-9b2bacf0-8051-4dc2-939c-fbe7c2639b08",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "LINE-9b2bacf0-8051-4dc2-939c-fbe7c2639b08",
                     "label": "LINE 3",
                     "func": "LINE",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -935,12 +968,12 @@
                 "width": 380,
                 "height": 293,
                 "id": "LINE-b545e47b-fb97-427e-8f00-5c2a5e08ba39",
-                "type": "VISUALIZERS",
+                "type": "PLOTLY",
                 "data": {
                     "id": "LINE-b545e47b-fb97-427e-8f00-5c2a5e08ba39",
                     "label": "LINE 4",
                     "func": "LINE",
-                    "type": "VISUALIZERS",
+                    "type": "PLOTLY",
                     "ctrls": {},
                     "inputs": [
                         {
