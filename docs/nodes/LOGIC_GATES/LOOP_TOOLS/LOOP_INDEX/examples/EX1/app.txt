@@ -45,13 +45,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/LOGIC_GATES/LOOPS/LOOP/LOOP.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 153.08826345429478,
                     "y": 125.76028881809133
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 153.08826345429478,
                     "y": 125.76028881809133
