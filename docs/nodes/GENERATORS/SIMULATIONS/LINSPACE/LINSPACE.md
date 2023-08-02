@@ -25,12 +25,12 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
+
 import outputImg from './examples/EX1/output.jpeg'
 
 <AppDisplay 
     nodeLabel='LINSPACE'
-    appImg={appImg}
+    appImg={''}
     outputImg={outputImg}
     >
     {App1}

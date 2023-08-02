@@ -1,1 +1,1 @@
-In this example, the `READ_CSV` node loads a local .csv file and passes it to our `TRAIN_TEST_SPLIT` node. This node divides the data file according to the test size specified, which can then be used for training and testing of ML models. The information is displayed with the `TABLE` node.
+In this example, the `READ_CSV` node loads a local .csv file and passes it to our `TRAIN_TEST_SPLIT` node which divides up the data file according to the test size specified which then can be used for training and testing for ML models. The information is displayed with `TABLE` node. 

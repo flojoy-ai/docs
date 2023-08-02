@@ -25,12 +25,12 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
+
 
 
 <AppDisplay 
     nodeLabel='DOUBLE_INDEFINITE_INTEGRAL'
-    appImg={appImg}
+    appImg={''}
     outputImg={''}
     >
     {App1}
