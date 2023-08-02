@@ -64,6 +64,9 @@ for module in MODULES_TO_SCRAPE.keys():
                     description = doc.short_description + " "
                     description += doc.long_description
                 description = description.replace("\n", " ")
+                description = description.replace(":", "")
+                if description[0] == "'":
+                    description = description.replace("'", "")
                 seo += f"description: {description}\n"
 
                 seo += "keywords: "
