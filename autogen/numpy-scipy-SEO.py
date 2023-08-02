@@ -46,6 +46,7 @@ for i in dirs:
 
 # Used for generating SEO section at the top of numpy/scipy doc files (.md).
 # Will not replace the current SEO section (remove it to renew).
+# Run in the main docs directory.
 for module in MODULES_TO_SCRAPE.keys():
     for submodule in MODULES_TO_SCRAPE[module]:
         submodule_name = submodule.__name__.split(".")[-1]
@@ -60,7 +61,8 @@ for module in MODULES_TO_SCRAPE.keys():
                 if doc.long_description is None:
                     description = doc.short_description
                 else:
-                    description = doc.short_description + " " + doc.long_description
+                    description = doc.short_description + " "
+                    description += doc.long_description
                 description = description.replace("\n", " ")
                 seo += f"description: {description}\n"
 
