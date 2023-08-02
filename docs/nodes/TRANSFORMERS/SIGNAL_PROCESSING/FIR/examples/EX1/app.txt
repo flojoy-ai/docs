@@ -113,12 +113,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-acfbd611-3f27-40a4-bcc2-c49038ba2477",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -201,12 +201,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-be81c3b6-2c92-4257-8e5f-e69494b12204",
                     "label": "BASIC OSCILLATOR 1",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -289,12 +289,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-2b6574aa-a040-42e4-bdd6-c25a39dec6a1",
                     "label": "BASIC OSCILLATOR 2",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -377,12 +377,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-5166d8a1-b3bb-466f-b708-40e013d7a394",
                     "label": "BASIC OSCILLATOR 3",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -465,12 +465,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-69fc5929-55da-4773-a4d5-b68c5b2d5c28",
                     "label": "BASIC OSCILLATOR 4",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",

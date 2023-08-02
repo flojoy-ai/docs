@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-de210d16-0daa-4899-8002-a804eda33095",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-de210d16-0daa-4899-8002-a804eda33095",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",

@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8",
                     "label": "SKLEARNIMAGE",
                     "func": "SKLEARNIMAGE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "img_key": {
                             "type": "select",

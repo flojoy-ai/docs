@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-86eaccb5-f23a-4a4b-9494-df9271ed3308",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-86eaccb5-f23a-4a4b-9494-df9271ed3308",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",

@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-79f540d0-bf01-44ee-a5cc-bd7c22c481fe",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-79f540d0-bf01-44ee-a5cc-bd7c22c481fe",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -146,12 +146,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-d82cc0d9-4160-4683-981f-c32f6dfe1256",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-d82cc0d9-4160-4683-981f-c32f6dfe1256",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
