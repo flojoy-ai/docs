@@ -1,3 +1,9 @@
+---
+title: SUPPORT_VECTOR_MACHINE
+description: Train a support vector machine model for classification tasks by taking two dataframes of label and feature from labelled training data and a dataframe of unlabelled input data.
+keywords: [AI, Classification, Python, DataFrame, Train, Vector, Machine Model]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

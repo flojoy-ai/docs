@@ -17,8 +17,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -39,19 +37,15 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
+
+## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-## Appendix
-
 <AppendixSection index={0} folderPath='nodes/AI_ML/REGRESSION/LEAST_SQUARES/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/REGRESSION/LEAST_SQUARES/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/REGRESSION/LEAST_SQUARES/appendix/'>{Media}</AppendixSection>
-
-
