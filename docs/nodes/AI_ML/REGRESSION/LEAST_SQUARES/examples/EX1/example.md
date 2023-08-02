@@ -1,7 +1,7 @@
-In this example, two`LINSPACE` each generates an array of 300 samples.
+In this example, the two `LINSPACE` nodes each generate an array of 300 samples.
 
-One of the array is passed down to 'RAND' node which randomizes the data points.
+One of the arrays is passed down to the `RAND` node, which randomizes the data points.
 
-Two ordered_pairs are passed down to 'LEAST SQUARES' which calculates the coefficients that minimize the errors
-from all the data points. Then for the simplicity of plotting, the initial X matrix from first linspace is multiplied
-to the coefficients so that the line is drawn and it can be passed as ordered_pair with X.
+Two `ordered pairs` are passed down to the `LEAST_SQUARES` node, which calculates the coefficients that minimize the errors from all the data points. 
+
+To simplify the plotting, the initial X matrix from the first `LINSPACE` is multiplied with the coefficients so that the line is drawn and can be passed as an `ordered pair` with X.
