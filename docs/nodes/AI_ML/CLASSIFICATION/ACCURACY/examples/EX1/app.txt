@@ -518,13 +518,6 @@
                 "target": "TABLE-22193775-285f-4b58-93b5-9a8260454424",
                 "targetHandle": "default",
                 "id": "reactflow__edge-ACCURACY-b375ef9d-2c74-4f73-88d8-717c020422e4default-TABLE-22193775-285f-4b58-93b5-9a8260454424default"
-            },
-            {
-                "source": "TABLE-22193775-285f-4b58-93b5-9a8260454424",
-                "sourceHandle": "default",
-                "target": "END-ae48654b-4e66-40ed-900e-4a3fe291acd9",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-22193775-285f-4b58-93b5-9a8260454424default-END-ae48654b-4e66-40ed-900e-4a3fe291acd9default"
             }
         ],
         "viewport": {

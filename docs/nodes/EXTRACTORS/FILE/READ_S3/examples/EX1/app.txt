@@ -109,13 +109,6 @@
                 "target": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
                 "targetHandle": "default",
                 "id": "reactflow__edge-READ_S3-a7ae5adf-3873-46e1-b0f1-89abfb885ae6default-TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38edefault"
-            },
-            {
-                "source": "TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38e",
-                "sourceHandle": "default",
-                "target": "END-94f1b44f-4496-4d32-a145-95750f055100",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-0f7daf14-fbf4-46c1-8d75-124ce212b38edefault-END-94f1b44f-4496-4d32-a145-95750f055100default"
             }
         ],
         "viewport": {

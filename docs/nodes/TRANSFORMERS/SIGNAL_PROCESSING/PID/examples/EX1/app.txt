@@ -432,13 +432,6 @@
                 "id": "reactflow__edge-PID-cee43c6b-237d-45f8-98d0-319f48acaebfdefault-SECOND_ORDER_SYSTEM-f97650dd-54de-4204-be2d-a04451e4b622default"
             },
             {
-                "source": "SECOND_ORDER_SYSTEM-f97650dd-54de-4204-be2d-a04451e4b622",
-                "sourceHandle": "default",
-                "target": "GOTO-077af2ac-636b-4abb-a574-33e669e64457",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SECOND_ORDER_SYSTEM-f97650dd-54de-4204-be2d-a04451e4b622default-GOTO-077af2ac-636b-4abb-a574-33e669e64457default"
-            },
-            {
                 "source": "FEEDBACK-7dce3ba5-d2e2-4b60-8a2c-06218b5f718d",
                 "sourceHandle": "default",
                 "target": "SUBTRACT-3a3c4ed2-1ec0-433a-b6d6-d9819a2a02c1",
@@ -451,13 +444,6 @@
                 "target": "SUBTRACT-3a3c4ed2-1ec0-433a-b6d6-d9819a2a02c1",
                 "targetHandle": "b",
                 "id": "reactflow__edge-CONSTANT-763b863d-7a28-4264-8f33-3e02c65f85d5default-SUBTRACT-3a3c4ed2-1ec0-433a-b6d6-d9819a2a02c1b"
-            },
-            {
-                "source": "LINE-ed3aba7c-7235-43dd-baeb-6ad9dbc763b9",
-                "sourceHandle": "default",
-                "target": "END-c14d955a-8357-4341-8221-caf9f2832174",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-ed3aba7c-7235-43dd-baeb-6ad9dbc763b9default-END-c14d955a-8357-4341-8221-caf9f2832174default"
             },
             {
                 "source": "LOOP-67e6ac26-cc23-4159-8659-ef0577421ee3",

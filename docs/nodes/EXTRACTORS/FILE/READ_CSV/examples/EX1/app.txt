@@ -89,13 +89,6 @@
                 "target": "TABLE-de9611d6-a05a-4679-afe3-a7fa7f49f8a4",
                 "targetHandle": "default",
                 "id": "reactflow__edge-READ_CSV-8b04aea4-84df-4d71-ae8c-356334a25be2default-TABLE-de9611d6-a05a-4679-afe3-a7fa7f49f8a4default"
-            },
-            {
-                "source": "TABLE-de9611d6-a05a-4679-afe3-a7fa7f49f8a4",
-                "sourceHandle": "default",
-                "target": "END-40be4561-0366-4752-95aa-e08c433ebd9c",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-de9611d6-a05a-4679-afe3-a7fa7f49f8a4default-END-40be4561-0366-4752-95aa-e08c433ebd9cdefault"
             }
         ],
         "viewport": {

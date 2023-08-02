@@ -202,25 +202,11 @@
                 "id": "reactflow__edge-EDGE_DETECTION-1f01cece-bbff-47d7-b217-5b311f88d9badefault-IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804default"
             },
             {
-                "source": "IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804",
-                "sourceHandle": "default",
-                "target": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
-                "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804default-END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80default"
-            },
-            {
                 "source": "LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20c",
                 "sourceHandle": "default",
                 "target": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
                 "targetHandle": "default",
                 "id": "reactflow__edge-LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20cdefault-IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402default"
-            },
-            {
-                "source": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
-                "sourceHandle": "default",
-                "target": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
-                "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402default-END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80default"
             }
         ],
         "viewport": {
