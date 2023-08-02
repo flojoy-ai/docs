@@ -1,3 +1,10 @@
+---
+title: PROPHET_PREDICT
+description: Leverage Python's power in time series forecasting with Flojoy's PROPHET_PREDICT node that creates a forecast, identifies the trend components, and plots it in Plotly.
+keywords: [AI, ML, Python, Predict, Time Series, Forecast, Trend, Plotly, Dataframe, DataContainer]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/examples/EX1/output.jpeg
+---
+
 In this example, the `TIMESERIES` node generates random time series data 
 
 <!-- '<table border="1" class="dataframe">  <thead>   <tr style="text-align: right;">     <th></th>     <th>Timestamp</th>     <th>Data</th>  </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>2023-01-01</td>      <td>-0.187903</td>    </tr>    <tr>      <th>1</th>      <td>2023-01-02</td>      <td>0.204290</td>    </tr>    <tr>      <th>2</th>      <td>2023-01-03</td>      <td>-0.659945</td>    </tr>  </tbody></table>' -->

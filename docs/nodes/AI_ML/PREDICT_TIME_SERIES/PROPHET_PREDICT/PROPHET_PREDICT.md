@@ -1,3 +1,9 @@
+---
+title: PROPHET_PREDICT
+description: Leverage Python's power in time series forecasting with Flojoy's PROPHET_PREDICT node that creates a forecast, identifies the trend components, and plots it in Plotly.
+keywords: [AI, ML, Python, Predict, Time Series, Forecast, Trend, Plotly, Dataframe, DataContainer]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
