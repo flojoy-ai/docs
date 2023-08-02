@@ -1,1 +1,1 @@
-In this example, a `LOCAL_FILE` node reads in a jpg image . Our`OBJECT_DETECTION`node processes the image and identifies any significant objects (person, tie, ...) which the original image and the detected objects from the image are shown separately from `IMAGE` node.
+In this example, a `LOCAL_FILE` node reads a .jpg image. The `OBJECT_DETECTION` node processes the image and identifies any significant objects (e.g. person, tie, etc.). The `IMAGE` node then shows the original image and the detected objects from the image separately.

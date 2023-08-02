@@ -1,1 +1,1 @@
-In this example, the `LOCAL_FILE` node loads a local file and passes it to `NLP_CONNECT_VIT_GPT2`, which produces the appropriate image caption.
+In this example, the `LOCAL_FILE` node loads a local file and passes it to the `NLP_CONNECT_VIT_GPT2` node, which produces the appropriate image caption.
