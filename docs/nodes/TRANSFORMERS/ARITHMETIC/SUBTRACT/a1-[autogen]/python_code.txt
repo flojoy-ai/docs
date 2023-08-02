@@ -10,6 +10,7 @@ def SUBTRACT(
 ) -> OrderedPair | Scalar | Vector:
     
     initial = get_val(a)
+    print("initial: ", initial, flush=True)
     seq = map(lambda dc: get_val(dc), b)
     y = reduce(lambda u, v: np.subtract(u, v), seq, initial)
 
@@ -19,4 +20,4 @@ def SUBTRACT(
         case Vector():
             return Vector(v=y)
         case Scalar():
-            return Scalar(c=y)
+            return Scalar(c=y[-1])
