@@ -1,3 +1,9 @@
+---
+title: DEEPLAB_V3
+description: Master image segmentation in Python with Flojoy's DEEPLAB_V3 node. Unlock precise object detection and semantic segmentation capabilities for AI/ML projects.
+keywords: [AI, ML, Python, Segmentation, DataContainer]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
