@@ -75,13 +75,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes\\VISUALIZERS\\DATA_STRUCTURE\\MATRIX_VIEW\\MATRIX_VIEW.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 611.6471944648578,
                     "y": 95.620522779557
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 611.6471944648578,
                     "y": 95.620522779557
@@ -96,13 +96,6 @@
                 "target": "MATRIX_VIEW-33a3d38e-93b1-4e33-9789-9f457d04498a",
                 "targetHandle": "default",
                 "id": "reactflow__edge-MATRIX-957da30a-8624-44d8-93fb-51ec90f92485default-MATRIX_VIEW-33a3d38e-93b1-4e33-9789-9f457d04498adefault"
-            },
-            {
-                "source": "MATRIX_VIEW-33a3d38e-93b1-4e33-9789-9f457d04498a",
-                "sourceHandle": "default",
-                "target": "END-7c8843a3-119f-4f4e-83b1-0d4e55d4cbd5",
-                "targetHandle": "default",
-                "id": "reactflow__edge-MATRIX_VIEW-33a3d38e-93b1-4e33-9789-9f457d04498adefault-END-7c8843a3-119f-4f4e-83b1-0d4e55d4cbd5default"
             }
         ],
         "viewport": {

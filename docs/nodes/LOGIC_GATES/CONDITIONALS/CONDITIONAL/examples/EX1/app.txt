@@ -268,25 +268,11 @@
                 "id": "reactflow__edge-CONDITIONAL-c44f8006-f1fb-41be-ab39-de40becaf62ctrue-LINE-3c753e5a-5d90-4d92-92f9-b955d32bd24edefault"
             },
             {
-                "source": "LINE-3c753e5a-5d90-4d92-92f9-b955d32bd24e",
-                "sourceHandle": "default",
-                "target": "END-daab7962-8e6b-40db-8e40-b4e3a819279d",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-3c753e5a-5d90-4d92-92f9-b955d32bd24edefault-END-daab7962-8e6b-40db-8e40-b4e3a819279ddefault"
-            },
-            {
                 "source": "CONDITIONAL-c44f8006-f1fb-41be-ab39-de40becaf62c",
                 "sourceHandle": "false",
                 "target": "LINE-6a05bf10-f19b-401d-b8e4-0a4d56d8f27c",
                 "targetHandle": "default",
                 "id": "reactflow__edge-CONDITIONAL-c44f8006-f1fb-41be-ab39-de40becaf62cfalse-LINE-6a05bf10-f19b-401d-b8e4-0a4d56d8f27cdefault"
-            },
-            {
-                "source": "LINE-6a05bf10-f19b-401d-b8e4-0a4d56d8f27c",
-                "sourceHandle": "default",
-                "target": "END-a52e223f-0b17-4e49-8113-eb849b9886bf",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-6a05bf10-f19b-401d-b8e4-0a4d56d8f27cdefault-END-a52e223f-0b17-4e49-8113-eb849b9886bfdefault"
             }
         ],
         "viewport": {

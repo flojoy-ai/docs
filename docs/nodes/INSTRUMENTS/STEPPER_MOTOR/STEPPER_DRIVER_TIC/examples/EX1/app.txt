@@ -56,13 +56,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 883.1245033729516,
                     "y": -2.309719518942927
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 883.1245033729516,
                     "y": -2.309719518942927
@@ -70,15 +70,7 @@
                 "dragging": true
             }
         ],
-        "edges": [
-            {
-                "source": "STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749eff",
-                "sourceHandle": "default",
-                "target": "END-04176810-8104-4747-9a8f-df79d12c5298",
-                "targetHandle": "default",
-                "id": "reactflow__edge-STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749effdefault-END-04176810-8104-4747-9a8f-df79d12c5298default"
-            }
-        ],
+        "edges": [],
         "viewport": {
             "x": -358.59636577932724,
             "y": 99.85117439980638,

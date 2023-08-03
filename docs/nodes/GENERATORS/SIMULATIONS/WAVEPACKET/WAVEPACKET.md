@@ -22,11 +22,20 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 [//]: # (Examples)
 
 ## Examples
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
 <AppDisplay 
-  GLink='GENERATORS/SIMULATIONS/WAVEPACKET'
-  nodeLabel='WAVEPACKET'>
+    nodeLabel='WAVEPACKET'
+    appImg={appImg}
+    outputImg={outputImg}
+    >
+    {App1}
 </AppDisplay>
+
+<Example1 />
 
 <SectionBreak />
 

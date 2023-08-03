@@ -215,13 +215,6 @@
                 "target": "TABLE-e6aab77d-927f-4eeb-be3f-afdd469df2ae",
                 "targetHandle": "default",
                 "id": "reactflow__edge-ONE_HOT_ENCODING-eef29534-7bf7-4d54-aff9-8fc25081c822default-TABLE-e6aab77d-927f-4eeb-be3f-afdd469df2aedefault"
-            },
-            {
-                "source": "TABLE-e6aab77d-927f-4eeb-be3f-afdd469df2ae",
-                "sourceHandle": "default",
-                "target": "END-231a4b73-fe64-458a-8c94-639ad6bf3185",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-e6aab77d-927f-4eeb-be3f-afdd469df2aedefault-END-231a4b73-fe64-458a-8c94-639ad6bf3185default"
             }
         ],
         "viewport": {

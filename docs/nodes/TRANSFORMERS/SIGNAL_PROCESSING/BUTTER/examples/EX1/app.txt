@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "BASIC_OSCILLATOR-86eaccb5-f23a-4a4b-9494-df9271ed3308",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "BASIC_OSCILLATOR-86eaccb5-f23a-4a4b-9494-df9271ed3308",
                     "label": "BASIC OSCILLATOR",
                     "func": "BASIC_OSCILLATOR",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "sample_rate": {
                             "type": "int",
@@ -164,13 +164,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/FFT.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 719.0985280702616,
                     "y": 254.0429925314706
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 719.0985280702616,
                     "y": 254.0429925314706
@@ -456,20 +456,6 @@
                 "target": "LINE-1615d876-d703-4009-970b-a157b5d7af5f",
                 "targetHandle": "default",
                 "id": "reactflow__edge-FFT-da75bb73-a829-499f-a419-50ee2aeed4dddefault-LINE-1615d876-d703-4009-970b-a157b5d7af5fdefault"
-            },
-            {
-                "source": "LINE-c662104c-36e6-4b54-8f5f-ff7588218c5b",
-                "sourceHandle": "default",
-                "target": "END-34d1da0e-0f17-4392-9603-a4a3211540b4",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-c662104c-36e6-4b54-8f5f-ff7588218c5bdefault-END-34d1da0e-0f17-4392-9603-a4a3211540b4default"
-            },
-            {
-                "source": "LINE-1615d876-d703-4009-970b-a157b5d7af5f",
-                "sourceHandle": "default",
-                "target": "END-34d1da0e-0f17-4392-9603-a4a3211540b4",
-                "targetHandle": "default",
-                "id": "reactflow__edge-LINE-1615d876-d703-4009-970b-a157b5d7af5fdefault-END-34d1da0e-0f17-4392-9603-a4a3211540b4default"
             }
         ],
         "viewport": {

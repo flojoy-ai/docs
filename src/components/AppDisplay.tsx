@@ -7,12 +7,7 @@ import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
-
-// FIXME: DO NOT import this
-// import 'flojoy/styles/styles.css';
-// For docusaurus style to work properly, we need to disable preflight for tailwind
-// and since in our UI compoennt, preflight is enabled, by importing it
-// we will enable preflight for here as well, which breaks the docusaurus style
+import 'flojoy/styles/styles.css';
 
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();

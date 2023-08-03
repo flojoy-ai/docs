@@ -70,9 +70,14 @@ const config = {
   ],
   scripts: [
     {
-      src: "https://cdn.usefathom.com/script.js",
+      src: 'https://cdn.usefathom.com/script.js',
       dataSite: 'LCCRNAEW',
-      defer: true
+      defer: true,
+    },
+    {
+      async: true,
+      src: 'https://www.feedbackrocket.io/sdk/v1.0.0.js',
+      'data-fr-id': 'qrrGqJ92uPlGPDmv_ZmZh',
     },
   ],
   plugins: [
@@ -93,6 +98,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: 'If you like Flojoy, give it a star on our GitHub! ⭐',
+        // backgroundColor: '#fafbfc',
+        // textColor: '#091E42',
+        isCloseable: true,
+      },
       colorMode: {
         defaultMode: 'dark',
       },
@@ -106,31 +118,55 @@ const config = {
 
         items: [
           {
-            href: '/explore-nodes',
+            to: '/explore-nodes',
+            label: 'Explore Nodes',
             position: 'right',
-            label: 'Nodes',
           },
           {
-            href: '/nodes/introduction/',
+            type: 'dropdown',
+            label: 'Resources',
             position: 'right',
-            label: 'Tutorial',
-          },          
-          {
-            href: '/getting-started/install',
-            position: 'right',
-            label: 'Download',
+            items: [
+              {
+                href: '/getting-started/install',
+                label: 'Installation',
+              },
+              {
+                href: '/explore-nodes',
+                label: 'Nodes',
+              },
+              {
+                href: '/nodes/introduction/',
+                label: 'Tutorial',
+              },
+            ],
           },
           {
-            href: 'https://community.flojoy.io/',
+            type: 'dropdown',
+            label: 'Connect',
             position: 'right',
-            label: 'Help',
+            items: [
+              {
+                href: 'https://github.com/flojoy-io/docs',
+                label: 'GitHub',
+              },
+              {
+                href: 'https://community.flojoy.io/',
+                label: 'Community',
+              },
+            ],
           },
           {
-            href: 'https://github.com/flojoy-io/docs',
+            type: 'html',
             position: 'right',
-            label: 'GitHub',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
+            value: `<a href=# class="navbar__link feedback" data-fr-widget>
+               Feedback
+          </a>`,
+          },
+          {
+            href: 'https://www.flojoy.ai/contact-sales',
+            label: 'Contact Sales',
+            position: 'right',
           },
         ],
       },
@@ -143,8 +179,8 @@ const config = {
       },
       scripts: {
         src: 'https://cdn.usefathom.com/script.js',
-        'data-site': "LCCRNAEW" ,
-        defer: true
+        'data-site': 'LCCRNAEW',
+        defer: true,
       },
       // algolia: {
       //   // The application ID provided by Algolia

@@ -110,13 +110,6 @@
                 "target": "BAR-a5dad7fa-f6be-4814-9b64-a5c67318c653",
                 "targetHandle": "default",
                 "id": "reactflow__edge-SERIAL_SINGLE_MEASUREMENT-e2db0dcb-93ee-4548-babe-27a69ed71b1bdefault-BAR-a5dad7fa-f6be-4814-9b64-a5c67318c653default"
-            },
-            {
-                "source": "BAR-a5dad7fa-f6be-4814-9b64-a5c67318c653",
-                "sourceHandle": "default",
-                "target": "END-04176810-8104-4747-9a8f-df79d12c5298",
-                "targetHandle": "default",
-                "id": "reactflow__edge-BAR-a5dad7fa-f6be-4814-9b64-a5c67318c653default-END-04176810-8104-4747-9a8f-df79d12c5298default"
             }
         ],
         "viewport": {

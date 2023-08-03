@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-5141f39e-1fea-4266-9396-4663f566a676",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-5141f39e-1fea-4266-9396-4663f566a676",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -424,13 +424,6 @@
                 "target": "SCATTER-60ebf12f-24b1-4b81-81a2-320252811811",
                 "targetHandle": "default",
                 "id": "reactflow__edge-ADD-6913967c-6486-478d-91ec-e9db7d795e39default-SCATTER-60ebf12f-24b1-4b81-81a2-320252811811default"
-            },
-            {
-                "source": "SCATTER-60ebf12f-24b1-4b81-81a2-320252811811",
-                "sourceHandle": "default",
-                "target": "END-22c7b27a-10c5-4298-9245-0db822745833",
-                "targetHandle": "default",
-                "id": "reactflow__edge-SCATTER-60ebf12f-24b1-4b81-81a2-320252811811default-END-22c7b27a-10c5-4298-9245-0db822745833default"
             },
             {
                 "source": "SINE-70c5c7c4-e2dc-4a9f-abd1-2ce8208eb2ff",
