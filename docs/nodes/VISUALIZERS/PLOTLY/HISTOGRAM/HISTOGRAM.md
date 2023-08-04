@@ -1,3 +1,4 @@
+<!--- Add SEO here --->
 
 [//]: # (Custom component imports)
 
@@ -16,8 +17,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='VISUALIZERS/PLOTLY/HISTOGRAM/HISTOGRAM.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
-
-    
 
 [//]: # (Examples)
 
@@ -39,19 +38,15 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
+
+## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-## Appendix
-
 <AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Media}</AppendixSection>
-
-

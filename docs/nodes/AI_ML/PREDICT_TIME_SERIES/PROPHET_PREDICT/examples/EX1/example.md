@@ -19,4 +19,4 @@ It returns a `DataContainer` with the following:
   * `prophet`: the trained `Prophet` model
   * `original`: the dataframe passed into the node
 
-Finally, this is passed to the `PROPHET_PLOT` and `PROPHET_COMPONENTS` nodes. The forecast and trend components are then plotted in Plotly. Because a forecast was already run, the `PROPHET_PLOT` and `PROPHET_COMPONENTS` nodes know to use the already predicted dataframe.
+Finally, this is passed to the `PROPHET_PLOT` and `PROPHET_COMPONENTS` nodes. The forecast and trend components are then plotted in Plotly. Because a forecast was already run, the `PROPHET_PLOT` and `PROPHET_COMPONENTS` nodes will use the already predicted dataframe.
