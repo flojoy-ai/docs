@@ -1,1 +1,3 @@
-In this example we're simulating data from `LINSPACE`, `TIMESERIES`, `MATRIX` and `PLOTLY_DATASET` and visualizing them with `SCATTER` node which creates a Plotly Scatter visualization for each of the input node.
+<!--- Add SEO here --->
+
+In this example, we are simulating data from the `LINSPACE`, `TIMESERIES`, `MATRIX` and `PLOTLY_DATASET` and visualizing them with the `SCATTER` node. This creates a Plotly Scatter visualization from each of the input nodes.
