@@ -1,3 +1,8 @@
+---
+title : Flojoy Press Kit
+description: Logos, screenshots, bios, headshots, and contact email for press covering Flojoy.
+---
+
 # PRESS KIT 📰
 
 ## Logos - full text 
@@ -21,3 +26,7 @@
 ![flojoy_ceo_headshot](https://github.com/flojoy-ai/docs/assets/1865834/c80c45d2-6f5f-4a46-9fc5-3bc99547029d)
 
 ### Jack Parmer [CV](https://jackparmer.com) | [crunchbase](https://www.crunchbase.com/person/jack-parmer)
+
+### Contact
+
+media@flojoy.io
