@@ -100,7 +100,7 @@ const config = {
     ({
       announcementBar: {
         id: 'support_us',
-        content: 'If you like Flojoy, <a target="_blank" rel="noopener noreferrer" href="#">give it a star on GitHub ⭐</a>',
+        content: 'If you like Flojoy, <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">give it a star on GitHub ⭐</a>',
         backgroundColor: '#000',
         textColor: '#FFF',
         isCloseable: true,
