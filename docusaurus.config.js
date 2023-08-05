@@ -100,9 +100,9 @@ const config = {
     ({
       announcementBar: {
         id: 'support_us',
-        content: 'If you like Flojoy, give it a star on our GitHub! ⭐',
-        // backgroundColor: '#fafbfc',
-        // textColor: '#091E42',
+        content: 'If you like Flojoy, <a target="_blank" rel="noopener noreferrer" href="#">give it a star on GitHub ⭐</a>',
+        backgroundColor: '#000',
+        textColor: '#FFF',
         isCloseable: true,
       },
       colorMode: {
