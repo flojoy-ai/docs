@@ -1,5 +1,5 @@
 
-# KEYSIGHT N6705B
+# Keysight N6705B
 
 ## Instrument Card
 
@@ -17,7 +17,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT N6705B in Python
+## Connect to the Keysight N6705B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

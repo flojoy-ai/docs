@@ -1,5 +1,5 @@
 
-# KEYSIGHT N7776C
+# Keysight N7776C
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT N7776C in Python
+## Connect to the Keysight N7776C in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

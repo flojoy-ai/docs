@@ -1,5 +1,5 @@
 
-# KEYSIGHT 34980A Submodules
+# Keysight 34980A Submodules
 
 ## Instrument Card
 
@@ -18,7 +18,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT 34980A Submodules in Python
+## Connect to the Keysight 34980A Submodules in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

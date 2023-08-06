@@ -1,9 +1,9 @@
 
-# KEYSIGHT - 34401A
+# Keysight B2200A
 
 ## Instrument Card
 
-The Keysight Technologies, Inc. 34401A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34401A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
+The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
@@ -15,7 +15,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT - 34401A in Python
+## Connect to the Keysight B2200A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

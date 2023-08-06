@@ -1,5 +1,5 @@
 
-# KEYSIGHT B1500A
+# Keysight B1500A
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT B1500A in Python
+## Connect to the Keysight B1500A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

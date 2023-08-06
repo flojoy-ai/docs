@@ -1,5 +1,5 @@
 
-# KEYSIGHT M3201A
+# Keysight M3201A
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT M3201A in Python
+## Connect to the Keysight M3201A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

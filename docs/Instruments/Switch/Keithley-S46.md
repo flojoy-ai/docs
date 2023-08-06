@@ -1,5 +1,5 @@
 
-# Keithley S 46
+# Keithley S46
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 </ul>
 </details>
 
-## Connect to the Keithley S 46 in Python
+## Connect to the Keithley S46 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

@@ -1,5 +1,5 @@
 
-# KEYSIGHT DSOX1102G
+# Keysight DSOX1102G
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the KEYSIGHT DSOX1102G in Python
+## Connect to the Keysight DSOX1102G in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
