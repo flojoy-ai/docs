@@ -1,5 +1,5 @@
 
-# Thorlab DCU224C (Example)
+# Thorlabs - DCU224C
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 </ul>
 </details>
 
-## Connect to the Thorlab DCU224C (Example) in Python
+## Connect to the Thorlabs - DCU224C in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

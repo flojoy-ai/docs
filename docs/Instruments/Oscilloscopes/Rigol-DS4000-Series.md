@@ -1,9 +1,9 @@
 
-# Rigol DS1000 (Series)
+# Rigol DS4000-Series
 
 ## Instrument Card
 
-The 1000 Series from RIGOL include the B, D, and E series oscilloscopes. The E Series are the value leader with 50-100 MHz models that include 2 channels and 1 Million points of memory. The D Series add low speed digital capture enabling basic mixed signal analysis in a economic package. The B Series provide more speed and power including our economic 4 channel, 200 MHz DS1204B model which provides 2 GSa/sec sampling. With features including FFTs, record and replay, roll mode, alternate trigger mode, and adjustable trigger sensitivity the 1000 Series is a great entry for value oscilloscope requirements.
+The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional operation, which come off very well compared to higher prices models of other brands.
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
@@ -16,7 +16,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 </ul>
 </details>
 
-## Connect to the Rigol DS1000 (Series) in Python
+## Connect to the Rigol DS4000-Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

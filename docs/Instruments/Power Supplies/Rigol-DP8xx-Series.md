@@ -1,5 +1,5 @@
 
-# Rigol DP8xx (xx --> Series)
+# Rigol DP8xx-Series
 
 ## Instrument Card
 
@@ -16,7 +16,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 </ul>
 </details>
 
-## Connect to the Rigol DP8xx (xx --> Series) in Python
+## Connect to the Rigol DP8xx-Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

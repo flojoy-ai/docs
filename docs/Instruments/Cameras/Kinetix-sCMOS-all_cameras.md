@@ -1,5 +1,5 @@
 
-# Kinetix sCMOS (And All the Cameras))
+# Kinetix sCMOS-all_cameras
 
 ## Instrument Card
 
@@ -15,7 +15,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 </ul>
 </details>
 
-## Connect to the Kinetix sCMOS (And All the Cameras)) in Python
+## Connect to the Kinetix sCMOS-all_cameras in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

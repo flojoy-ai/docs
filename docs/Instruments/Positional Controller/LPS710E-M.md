@@ -1,9 +1,9 @@
 
-# CC126Mu (Example)
+# LPS710E/M
 
 ## Instrument Card
 
-Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled Package, USB 3.0 Interface, 1/4"-20 Taps
+The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis travel for a microscope slide while maintaining a compact, low-profile footprint. It features submicron repeatability, nanometer positioning resolution, low angular error, and fast millisecond response and settling times. When used with the LPSA1(/M) microscope slide holder, the stage is ideal for imaging modalities requiring sensitive sample positioning and sectioning, such as confocal laser scanning microscopy. This stage is not compatible with trans-illumination.
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
@@ -15,7 +15,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 </ul>
 </details>
 
-## Connect to the CC126Mu (Example) in Python
+## Connect to the LPS710E/M in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

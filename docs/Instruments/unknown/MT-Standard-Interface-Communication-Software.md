@@ -7,7 +7,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
-. <a href="">Website</a>.
+. <a href="nan">Website</a>.
 <br></br>
 <ul>
   <li>Headquarters: nan</li>
