@@ -1,0 +1,22 @@
+
+# KEYSIGHT B2962A
+
+## Instrument Card
+
+The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
+
+<details open>
+<summary><h2>Manufacturer Card</h2></summary>
+Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
+<br></br>
+<ul>
+  <li>Headquarters: USA</li>
+  <li>Yearly Revenue (millions, USD): 5420.0</li>
+</ul>
+</details>
+
+## Connect to the KEYSIGHT B2962A in Python
+
+[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+
