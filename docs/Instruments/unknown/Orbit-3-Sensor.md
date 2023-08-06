@@ -7,7 +7,7 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
-Unable to find Vendor Description. <a href="nan">Website</a>.
+Unable to find Vendor Description. <a href="">Website</a>.
 <br></br>
 <ul>
   <li>Headquarters: nan</li>
