@@ -7,8 +7,9 @@ The iBeam smart is the ultimate choice when looking for a high-performance, ultr
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/Laser) for quantum technologies, biophotonics and material inspection. <a href="https://www.toptica.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Germany</li>
   <li>Yearly Revenue (millions, USD): 75.0</li>

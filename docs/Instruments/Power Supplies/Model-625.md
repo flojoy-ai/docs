@@ -7,8 +7,9 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Westerville, Ohio, USA</li>
   <li>Yearly Revenue (millions, USD): 21.4</li>

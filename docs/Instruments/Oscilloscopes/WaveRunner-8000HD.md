@@ -7,8 +7,9 @@ Providing 12 bits all the time, more channels than any other oscilloscope, and l
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 5458.6</li>

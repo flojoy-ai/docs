@@ -7,8 +7,9 @@ multi-functional piezo controller for closed loop positioners
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Attocube** is a leading pioneer for nanotechnology solutions in precision motion and nanopositioning applications, cryogenic microscopy,. <a href="https://www.attocube.com/en">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Germany</li>
   <li>Yearly Revenue (millions, USD): 14.0</li>

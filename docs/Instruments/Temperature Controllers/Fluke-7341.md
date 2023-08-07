@@ -7,8 +7,9 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Fluke** Corporation is the world leader in professional electronic test tools and software for measuring and condition monitoring. <a href="https://us.flukecal.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 700.0</li>

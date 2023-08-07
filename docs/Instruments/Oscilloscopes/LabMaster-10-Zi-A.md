@@ -7,8 +7,9 @@ The LabMaster 10 Zi is the world's highest-performance modular oscilloscope - it
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 5458.6</li>

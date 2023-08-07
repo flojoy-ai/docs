@@ -8,8 +8,9 @@ With a modern and intuitive user interface, you gain direct control and overview
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Bluefors** is the world's leading manufacturer of ultra-low temperature dilution refrigerator measurement systems. <a href="https://bluefors.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Finland</li>
   <li>Yearly Revenue (millions, USD): 32.0</li>

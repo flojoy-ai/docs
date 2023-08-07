@@ -16,8 +16,9 @@ Wide range of PWM frequencies for linear motor support
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Parker Hannifin Corporation, originally Parker Appliance Company, usually referred to as just Parker, is an American corporation specializing in motion and control technologies. <a href="https://www.parker.com/us/en/home.html">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 18000.0</li>

@@ -7,8 +7,9 @@ The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz. It was initi
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: CJ Delft, Netherlands</li>
   <li>Yearly Revenue (millions, USD): 41.3</li>

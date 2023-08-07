@@ -7,8 +7,9 @@ The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-meg
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Raspberry Pi** is a series of small single-board computers (SBCs) developed in the United Kingdom by the **Raspberry Pi** Foundation in association with Broadcom. <a href="https://www.raspberrypi.org/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: UK</li>
   <li>Yearly Revenue (millions, USD): 44.0</li>

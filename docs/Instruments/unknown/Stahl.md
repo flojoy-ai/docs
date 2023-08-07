@@ -7,8 +7,9 @@
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Unable to find Vendor Description. <a href="https://r-stahl.com/en/global/home/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: nan</li>
   <li>Yearly Revenue (millions, USD): nan</li>

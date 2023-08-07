@@ -7,8 +7,9 @@ Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic me
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Quantum Design manufactures automated temperature and magnetic field testing platforms. <a href="https://www.qdusa.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: San Diego, California</li>
   <li>Yearly Revenue (millions, USD): 41.5</li>

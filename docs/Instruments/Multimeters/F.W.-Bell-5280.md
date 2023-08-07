@@ -7,8 +7,9 @@ Handheld single-axis digital magnetometer gauss / tesla meter for measuring magn
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Technology leaders in instrumentation. Designing and manufacturing **F.W. Bell** gaussmeters, probes, current sensors and Hall generators for over 60 years. <a href="https://fwbell.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: UK (Meggit)</li>
   <li>Yearly Revenue (millions, USD): nan</li>

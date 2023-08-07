@@ -7,8 +7,9 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **JUMO** is your expert partner and manufacturer for industrial sensor technology up to the automation solution for temperature, pressure, and liquids. <a href="https://jumo.ca/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Canada</li>
   <li>Yearly Revenue (millions, USD): 69.0</li>

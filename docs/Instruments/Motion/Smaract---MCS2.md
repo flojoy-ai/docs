@@ -9,8 +9,9 @@ Its stringent modular design approach makes it the perfect choice for all field 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 In our [Motion](https://www.smaract.com/en/motion) business unit, we develop and produce high-precision, compact products for nano-positioning that meet the highest demands while being easy to handle. <a href="https://www.smaract.com/en/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 15.0</li>

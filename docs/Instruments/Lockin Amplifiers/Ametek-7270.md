@@ -7,8 +7,9 @@ The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Since 1930, our talented and diverse workforce has been delivering **differentiated technology solutions** to create strong, sustainable and profitable growth. <a href="https://www.ametek.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 6200.0</li>
