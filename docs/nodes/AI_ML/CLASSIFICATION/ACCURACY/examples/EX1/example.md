@@ -1,6 +1,6 @@
 ---
 title: Running an Accuracy Classification Model in Python with Flojoy
-description: How to strip the labels of data, extract only the features of a datatest and run a prediction accuracy classification model in Python with Flojoy.
+description: How to strip the labels from data, extract only the features of a datatest, and run a prediction accuracy classification model in Python with Flojoy.
 keywords: [AI, Classification, Python, DataFrame, Accuracy, Prediction]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg
 ---

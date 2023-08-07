@@ -1,3 +1,9 @@
+---
+title: DEEPLAB_V3
+description: Master image segmentation in Python with Flojoy's DEEPLAB_V3 node. Unlock precise object detection and semantic segmentation capabilities for AI/ML projects.
+keywords: [AI, ML, Python, Segmentation, DataContainer]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -16,8 +22,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='AI_ML/SEGMENTATION/DEEPLAB_V3/DEEPLAB_V3.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
-
-    
 
 [//]: # (Examples)
 
@@ -39,19 +43,15 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
+
+## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-## Appendix
-
 <AppendixSection index={0} folderPath='nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/appendix/'>{Media}</AppendixSection>
-
-
