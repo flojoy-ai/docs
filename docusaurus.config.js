@@ -100,9 +100,10 @@ const config = {
     ({
       announcementBar: {
         id: 'support_us',
-        content: 'If you like Flojoy, give it a star on our GitHub! ⭐',
-        // backgroundColor: '#fafbfc',
-        // textColor: '#091E42',
+        content:
+          'If you like Flojoy, <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">give it a star on GitHub ⭐</a>',
+        backgroundColor: '#000',
+        textColor: '#FFF',
         isCloseable: true,
       },
       colorMode: {
@@ -134,6 +135,10 @@ const config = {
               {
                 href: '/explore-nodes',
                 label: 'Nodes',
+              },
+              {
+                href: '/Instruments/introduction',
+                label: 'Instruments',
               },
               {
                 href: '/nodes/introduction/',
