@@ -40,14 +40,16 @@
                             "type": "DataFrame"
                         }
                     ],
-                    "path": "PYTHON/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/PROPHET_PREDICT.py"
+                    "path": "PYTHON/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/PROPHET_PREDICT.py",
+                    "selected": false
                 },
                 "position": {
                     "x": 44.19991981803559,
                     "y": 49.45240668102545
                 },
                 "width": 150,
-                "height": 150
+                "height": 150,
+                "selected": false
             },
             {
                 "width": 130,
@@ -214,20 +216,6 @@
                 "target": "PROPHET_PLOT-94b3e918-2bd3-4b08-9620-0017623eef60",
                 "targetHandle": "default",
                 "id": "reactflow__edge-PROPHET_PREDICT-f91b407d-a959-4080-8f4f-9ccb8aaf62afdefault-PROPHET_PLOT-94b3e918-2bd3-4b08-9620-0017623eef60default"
-            },
-            {
-                "source": "PROPHET_COMPONENTS-38474a31-dfa1-4d2b-8834-558ecadb82e3",
-                "sourceHandle": "default",
-                "target": "END-19d116f5-06e8-4a8c-b5ae-59b6db539708",
-                "targetHandle": "default",
-                "id": "reactflow__edge-PROPHET_COMPONENTS-38474a31-dfa1-4d2b-8834-558ecadb82e3default-END-19d116f5-06e8-4a8c-b5ae-59b6db539708default"
-            },
-            {
-                "source": "PROPHET_PLOT-94b3e918-2bd3-4b08-9620-0017623eef60",
-                "sourceHandle": "default",
-                "target": "END-19d116f5-06e8-4a8c-b5ae-59b6db539708",
-                "targetHandle": "default",
-                "id": "reactflow__edge-PROPHET_PLOT-94b3e918-2bd3-4b08-9620-0017623eef60default-END-19d116f5-06e8-4a8c-b5ae-59b6db539708default"
             }
         ],
         "viewport": {

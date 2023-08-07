@@ -108,13 +108,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/TABLE/TABLE.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 1496.5324809006217,
                     "y": 648.6028296725746
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 1496.5324809006217,
                     "y": 648.6028296725746
@@ -292,13 +292,6 @@
             }
         ],
         "edges": [
-            {
-                "source": "TABLE-500d4621-276f-4b84-a114-1e4498781381",
-                "sourceHandle": "default",
-                "target": "END-287eeb1e-c006-47bd-baab-6e4d5620511f",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-500d4621-276f-4b84-a114-1e4498781381default-END-287eeb1e-c006-47bd-baab-6e4d5620511fdefault"
-            },
             {
                 "source": "READ_CSV-59c660d6-c37c-48e6-9e32-11490ebba845",
                 "sourceHandle": "default",

@@ -1,8 +1,7 @@
 ---
 title: SECOND_ORDER_SYSTEM
-description: The SECOND_ORDER_SYSTEM has a second order exponential function. This node is designed to be used in a Python loop . The data is appended as the loop progress and written to memory.
-keywords: [Python, Simulations, Python second order system simulations, Exponential function, Second-order system analysis, Flojoy generator nodes, Python simulation tools, System simulation examples, Dynamic system design, Python simulation documentation, Second"-"order system modeling,
-Dynamic system analysis in Python]
+description: The SECOND_ORDER_SYSTEM has a second order exponential function. This node is designed to be used in a Python loop. The data is appended as the loop progresses and written to memory.
+keywords: [Python, Simulations, Python second order system simulations, Exponential function, Second-order system analysis, Flojoy generator nodes, Python simulation tools, System simulation examples, Dynamic system design, Python simulation documentation, Second-order system modeling, Dynamic system analysis in Python]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/examples/EX1/output.jpeg
 ---
 
@@ -24,8 +23,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -46,19 +43,15 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
+
+## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-## Appendix
-
 <AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/appendix/'>{Media}</AppendixSection>
-
-

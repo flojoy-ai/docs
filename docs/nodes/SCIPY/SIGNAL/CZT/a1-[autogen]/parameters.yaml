@@ -1,9 +1,0 @@
-axis:
-  default: -1
-  type: int
-m:
-  default: null
-  type: int
-w:
-  default: null
-  type: complex

@@ -1,6 +1,6 @@
 ---
 title: TRAIN_TEST_SPLIT
-description: The TRAIN_TEST_SPLIT node is used to split data into test and training data in Python, according to specified size, before any Machine Learning tasks occur.
+description: The TRAIN_TEST_SPLIT node is used to split data into test and training data in Python, according to a specified size, before any Machine Learning tasks occur.
 keywords: [AI, Classification, Python, DataFrame, Train, Training, Test, Machine Learning, ML Model]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/examples/EX1/output.jpeg
 ---

@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "LINSPACE-96f418c8-14ed-4457-abea-9520da6d5078",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "LINSPACE-96f418c8-14ed-4457-abea-9520da6d5078",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "start": {
                             "type": "float",
@@ -279,20 +279,6 @@
                 "target": "TABLE-41e3d344-1ece-4eb2-adb8-dc944c80b49b",
                 "targetHandle": "default",
                 "id": "reactflow__edge-LINSPACE-96f418c8-14ed-4457-abea-9520da6d5078default-TABLE-41e3d344-1ece-4eb2-adb8-dc944c80b49bdefault"
-            },
-            {
-                "source": "TABLE-41e3d344-1ece-4eb2-adb8-dc944c80b49b",
-                "sourceHandle": "default",
-                "target": "END-d43f4851-88ee-4a28-9c4f-e9db6f5e16fd",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-41e3d344-1ece-4eb2-adb8-dc944c80b49bdefault-END-d43f4851-88ee-4a28-9c4f-e9db6f5e16fddefault"
-            },
-            {
-                "source": "TABLE-57c89935-c3df-4ba4-a8a5-f53534c47ee9",
-                "sourceHandle": "default",
-                "target": "END-d43f4851-88ee-4a28-9c4f-e9db6f5e16fd",
-                "targetHandle": "default",
-                "id": "reactflow__edge-TABLE-57c89935-c3df-4ba4-a8a5-f53534c47ee9default-END-d43f4851-88ee-4a28-9c4f-e9db6f5e16fddefault"
             }
         ],
         "viewport": {

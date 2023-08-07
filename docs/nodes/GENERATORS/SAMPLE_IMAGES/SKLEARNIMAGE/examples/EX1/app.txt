@@ -5,12 +5,12 @@
                 "width": 150,
                 "height": 150,
                 "id": "SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8",
-                "type": "GENERATORS",
+                "type": "default",
                 "data": {
                     "id": "SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8",
                     "label": "SKLEARNIMAGE",
                     "func": "SKLEARNIMAGE",
-                    "type": "GENERATORS",
+                    "type": "default",
                     "ctrls": {
                         "img_key": {
                             "type": "select",
@@ -215,13 +215,6 @@
                 "id": "reactflow__edge-SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8default-OBJECT_DETECTION-4ba045ca-f490-4f8b-853c-9c38e1297062default"
             },
             {
-                "source": "OBJECT_DETECTION-4ba045ca-f490-4f8b-853c-9c38e1297062",
-                "sourceHandle": "default",
-                "target": "END-8d20d677-c761-43cf-8b24-cde84bd667b9",
-                "targetHandle": "default",
-                "id": "reactflow__edge-OBJECT_DETECTION-4ba045ca-f490-4f8b-853c-9c38e1297062default-END-8d20d677-c761-43cf-8b24-cde84bd667b9default"
-            },
-            {
                 "source": "SKLEARNIMAGE-874fdd2b-fea5-4dc6-8898-2905d070aca8",
                 "sourceHandle": "default",
                 "target": "IMAGE-135a920b-87fa-4759-bfca-0b6ad739b406",
@@ -234,13 +227,6 @@
                 "target": "IMAGE-455a09f6-8f20-4087-ab60-9f01c1b2427c",
                 "targetHandle": "default",
                 "id": "reactflow__edge-OBJECT_DETECTION-4ba045ca-f490-4f8b-853c-9c38e1297062default-IMAGE-455a09f6-8f20-4087-ab60-9f01c1b2427cdefault"
-            },
-            {
-                "source": "IMAGE-455a09f6-8f20-4087-ab60-9f01c1b2427c",
-                "sourceHandle": "default",
-                "target": "END-8d20d677-c761-43cf-8b24-cde84bd667b9",
-                "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-455a09f6-8f20-4087-ab60-9f01c1b2427cdefault-END-8d20d677-c761-43cf-8b24-cde84bd667b9default"
             }
         ],
         "viewport": {

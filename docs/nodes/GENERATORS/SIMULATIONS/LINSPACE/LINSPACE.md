@@ -1,6 +1,6 @@
 ---
 title: LINSPACE
-description: In this example, the Python-based LINSPACE node generates a OrderedPair which is visualized with the SCATTER node.
+description: In this example, the Python-based LINSPACE node generates an OrderedPair, which is visualized with the SCATTER node.
 keywords: [Python, Simulations]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/LINSPACE/examples/EX1/output.jpeg
 ---
@@ -23,8 +23,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -45,19 +43,15 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
+
+## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-## Appendix
-
 <AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/LINSPACE/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/LINSPACE/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/LINSPACE/appendix/'>{Media}</AppendixSection>
-
-

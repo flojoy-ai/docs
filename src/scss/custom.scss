@@ -115,6 +115,13 @@ pre {
 .gap-3 {
   gap: 12px;
 }
+
+@media only screen and (max-width: 996px) {
+  .feedback {
+    padding: 12px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .hide-md {
     display: none;
