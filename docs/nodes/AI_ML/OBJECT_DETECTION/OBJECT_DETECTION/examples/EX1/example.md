@@ -1,6 +1,6 @@
 ---
 title: OBJECT_DETECTION
-description: Streamline object detection with Python using Flojoy's OBJECT_DETECTION node that detects objects in the input image,and returns an 'image' DataContainer with those objects highlighted.
+description: Streamline object detection with Python using Flojoy's OBJECT_DETECTION node that detects objects in the input image, and returns an 'image' DataContainer with those objects highlighted.
 keywords: [AI, ML, Python, Object Detection, Image, jpeg, DataContainer]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/examples/EX1/output.jpeg
 ---

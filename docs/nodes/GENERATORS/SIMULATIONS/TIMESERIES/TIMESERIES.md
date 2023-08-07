@@ -1,7 +1,7 @@
 ---
 title: TIMESERIES
-description: Discover Python"-"powered time series simulations with Flojoy's TIMESERIES node. The TIMESERIES node generates a random timeseries vector.
-keywords: [Python, Simula, Python time series simulations, Dynamic time series modeling, Time series forecasting, Flojoy generator nodes, Python simulation tools, Time series analysis techniques, Time series simulation examples, Python simulation documentation, Dynamic data analysis,  Time series modeling in Python]
+description: Discover Python-powered time series simulations with Flojoy's TIMESERIES node. The TIMESERIES node generates a random timeseries vector.
+keywords: [Python, Simulation, Python time series simulations, Dynamic time series modeling, Time series forecasting, Flojoy generator nodes, Python simulation tools, Time series analysis techniques, Time series simulation examples, Python simulation documentation, Dynamic data analysis, Time series modeling in Python]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/TIMESERIES/examples/EX1/output.jpeg
 ---
 
