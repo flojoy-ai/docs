@@ -5,4 +5,4 @@ keywords: [Python, Simulations, Python second order system simulations, Exponent
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/examples/EX1/output.jpeg
 ---
 
-This example demonstrates an active PID controller for a mock non-linear system to be driven to a given setpoint using `SECOND_ORDER_SYSTEM` node.
+This example demonstrates an active PID controller for a mock non-linear system to be driven to a given setpoint using the `SECOND_ORDER_SYSTEM` node.

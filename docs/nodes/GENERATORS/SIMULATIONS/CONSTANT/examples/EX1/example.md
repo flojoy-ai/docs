@@ -5,5 +5,4 @@ keywords: [Python, Simulations, Value Generator, Python-based simulations, Pytho
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/CONSTANT/examples/EX1/output.jpeg
 ---
 
-In this example, the `CONSTANT` node generates a scalar which is 
-visualized with the `BIG_NUMBER` node.
+In this example, the `CONSTANT` node generates a scalar which is visualized with the `BIG_NUMBER` node.

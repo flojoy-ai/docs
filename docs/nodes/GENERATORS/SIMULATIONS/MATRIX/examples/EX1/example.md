@@ -5,4 +5,4 @@ keywords: [Python, Simulations, Python Matrix simulations, Matrix manipulation t
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/MATRIX/examples/EX1/output.jpeg
 ---
 
-In this example, `MATRIX` node generates 8x8 matrix and passes it `MATRIX_VIEW` node.
+In this example, the `MATRIX` node generates an 8x8 matrix and passes it to the `MATRIX_VIEW` node.

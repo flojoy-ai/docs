@@ -5,4 +5,4 @@ keywords: [Python, Simulation, Python time series simulations, Dynamic time seri
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/TIMESERIES/examples/EX1/output.jpeg
 ---
 
-In this example, we select a starting date and end date for `TIMESERIES` node and it generates a random data for each day, which can be seen from the `TABLE` node.
+In this example, we select a starting date and end date for the `TIMESERIES` node, which generates random data for each day, as can be seen from the `TABLE` node.
