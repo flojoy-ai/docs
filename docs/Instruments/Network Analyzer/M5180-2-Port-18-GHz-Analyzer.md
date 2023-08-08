@@ -7,8 +7,9 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Copper Mountain Technologies** develops innovative RF test and measurement solutions for engineers worldwide that enable engineers to extend their reach. <a href="https://coppermountaintech.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 301.0</li>

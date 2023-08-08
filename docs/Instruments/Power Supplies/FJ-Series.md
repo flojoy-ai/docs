@@ -7,8 +7,9 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC converters, high voltage, RF & custom **power** products? Discover our extensive range. <a href="https://www.xppower.com">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Singapore</li>
   <li>Yearly Revenue (millions, USD): 295.0</li>

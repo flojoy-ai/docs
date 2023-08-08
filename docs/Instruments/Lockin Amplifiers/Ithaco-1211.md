@@ -7,8 +7,9 @@ The Ithaco 1211 Current Preamplifier measures current with full scale sensitivit
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Artisan Technology Group ® is a team of top-talent engineers and customer service specialists. We serve organizations that need to maintain and extend the life of their critical industrial, commercial, and military systems beyond obsolescence. <a href="https://www.artisantg.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 17.0</li>

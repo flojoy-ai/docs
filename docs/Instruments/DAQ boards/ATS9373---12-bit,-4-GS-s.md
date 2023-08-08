@@ -7,8 +7,9 @@ ATS9373 is a 12-bit waveform digitizer board that can sample one analog input at
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of serving the test and measurement market, in general, and the embedded waveform digitizer (OEM) market segment, in particular, by providing highly differentiated, high performance instrumentation products at affordable prices. <a href="https://www.alazartech.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: CANADA - QC</li>
   <li>Yearly Revenue (millions, USD): 4.0</li>

@@ -7,8 +7,9 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Spectrum Instrumentation manufactures high-speed, high-resolution PC measurement equipment for the most demanding applications. 200+ products are available for your Perfect Fit Solution, combined with intuitive measurement software, support directly from the engineers and five years warranty. Spectrum products and solutions are used by leading companies and research institutes worldwide. <a href="https://spectrum-instrumentation.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Grosshandorf, Germany</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>

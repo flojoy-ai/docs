@@ -7,8 +7,9 @@ PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Austin, Texas, USA</li>
   <li>Yearly Revenue (millions, USD): 1657.0</li>

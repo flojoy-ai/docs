@@ -7,8 +7,9 @@ This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is:
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Munich, Germany</li>
   <li>Yearly Revenue (millions, USD): 2500.0</li>

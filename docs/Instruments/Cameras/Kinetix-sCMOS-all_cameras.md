@@ -7,8 +7,9 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Teledyne** provides enabling technologies to sense, transmit and analyze information for industrial growth markets. <a href="https://www.teledyne.com">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 4614.0</li>

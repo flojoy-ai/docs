@@ -9,8 +9,9 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **iglent** is a China-based manufacturer specializing in electronic test & measurement instruments. Siglent founders began a preliminary study of digital oscilloscopes in 2002. It founded in 2007, and now Siglent has extended its product line to include digital oscilloscopes, function / arbitrary waveform generators, RF generators，digital multi-meters, DC power supplies, spectrum analyzers, spectrum & vector network analyzers, isolated handheld oscilloscopes, DC electronic loads and other general test instruments.Siglent also manufactured entry-level products for Lecroy. <a href="https://siglentna.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Shenzhen, China</li>
   <li>Yearly Revenue (millions, USD): 57.0</li>

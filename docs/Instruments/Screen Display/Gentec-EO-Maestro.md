@@ -7,8 +7,9 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Gentec-EO is a manufacturer of laser beam measurement technologies. <a href="https://www.gentec-eo.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Canda - QC</li>
   <li>Yearly Revenue (millions, USD): 14.0</li>

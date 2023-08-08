@@ -7,8 +7,9 @@ All SCPI Multimeters
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 . <a href="https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: nan</li>
   <li>Yearly Revenue (millions, USD): nan</li>

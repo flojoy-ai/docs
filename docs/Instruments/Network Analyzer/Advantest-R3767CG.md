@@ -7,8 +7,9 @@ The Advantest R3765CG/R3767CG network analyzers are vector network analyzers tha
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Advantest manufactures and sells semiconductor and component test system products and mechatronics-related products. <a href="https://www.advantest.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Japan</li>
   <li>Yearly Revenue (millions, USD): 2940.0</li>
