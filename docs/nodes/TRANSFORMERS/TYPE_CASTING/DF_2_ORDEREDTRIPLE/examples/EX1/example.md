@@ -1,1 +1,3 @@
-In this example, `DF_2_OrderedTriple` node takes the Dataframe type data as input and converts it to OrderedTriple type by selecting the first three columns.
+<!--- Add SEO here --->
+
+In this example, the `DF_2_ORDEREDTRIPLE` node takes the `dataframe` type data as input and converts it to an `OrderedTriple` type by selecting the first three columns.

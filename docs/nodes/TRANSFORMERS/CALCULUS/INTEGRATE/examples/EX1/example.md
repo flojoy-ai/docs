@@ -1,5 +1,7 @@
-In this example, the `LINSPACE` node generate two lists (the `Ordered_pair` composed of x and y) that are required for the `INTEGRATE` node.
+<!--- Add SEO here --->
 
-Then `INTEGRATE` node computes its integration using trapezoidal rule on the given input lists.
+In this example, the `LINSPACE` node generates two lists (the `Ordered_pair`, composed of x and y) that are required for the `INTEGRATE` node.
 
-With the two `LINE` nodes we can see that the original `LINSPACE` function is a diagonal of the form $y=x$ which is constantly increasing. Then the `LINE` node representing the integrate result is showing us an increasing curve as expected since the integral of $x$ is $\frac{x^2}{2}$.
+The `INTEGRATE` node then applies the trapezoidal rule on the given input lists to compute the integration.
+
+With the two `LINE` nodes, we can see that the original `LINSPACE` function is a diagonal of the form $y=x$, which is constantly increasing. The second `LINE` node, which represents the integrate result, is showing an increasing curve. This is expected since the integral of $x$ is $\frac{x^2}{2}$.
