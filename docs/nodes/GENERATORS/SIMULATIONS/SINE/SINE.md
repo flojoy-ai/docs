@@ -1,9 +1,3 @@
----
-title: SINE
-description: In this example, the LINSPACE and SINE nodes generate a sine function which is visualized with the SCATTER node.
-keywords: [Python, Simulations]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/SINE/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -31,13 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
+
+
 
 <AppDisplay 
     nodeLabel='SINE'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>

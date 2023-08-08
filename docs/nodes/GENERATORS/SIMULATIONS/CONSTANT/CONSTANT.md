@@ -1,9 +1,3 @@
----
-title: CONSTANT
-description: Easily create constant value simulations using Python and Flojoy's CONSTANT generator node. It generates a single x-y vector of numeric (floating point) constants.
-keywords: [Python, Simulations, Value Generator, Python-based simulations, Python constant value generator, Constant simulations in Python, Python simulation tools, Constant value modeling, Python simulation examples, Simulation documentation, Constant value generation, Python simulation techniques, Constant value modeling]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/CONSTANT/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -31,15 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
 
 
 
 <AppDisplay 
     nodeLabel='CONSTANT'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>

@@ -1,9 +1,3 @@
----
-title: BASIC_OSCILLATOR
-description: A straightforward way to generate signals, with sample rate and the time in seconds as parameters. Particularly useful with signal processing applications, as the sample rate is commonly used.
-keywords: [Python, Python-based simulations, Basic oscillator generator, Dynamic analysis techniques, Oscillator modeling, Simulation documentation, Simulation tools, Python oscillator examples, Oscillation simulations, Interactive oscillator models]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/BASIC_OSCILLATOR/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -31,13 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
+
+
 
 <AppDisplay 
     nodeLabel='BASIC_OSCILLATOR'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>

@@ -1,3 +1,1 @@
-<!--- Add SEO here --->
-
-In this example, we are simulating data from the `PLOTLY_DATASET` and `DF_2_ORDEREDTRIPLE` nodes and visualizing them with the `SCATTER3D` node. This creates a Plotly Scatter 3D visualization from the input nodes.
+In this example we're simulating data from `PLOTLY_DATASET` and `DF_2_ORDEREDTRIPLE` and visualizing them with `SCATTER3D` node which creates a Plotly Scatter 3D visualization for the input node.

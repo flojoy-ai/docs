@@ -1,9 +1,3 @@
----
-title: NLP_CONNECT_VIT_GPT2
-description: Enhance image captioning using Python with the NLP_CONNECT_VIT_GPT2 node that captions an input image and produces an output string wrapped in a dataframe.
-keywords: [AI, Python, DataFrame, Image Caption, Machine Learning, ML]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -23,18 +17,20 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
+    
+
 [//]: # (Examples)
 
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
+
 import outputImg from './examples/EX1/output.jpeg'
 
 <AppDisplay 
     nodeLabel='NLP_CONNECT_VIT_GPT2'
-    appImg={appImg}
+    appImg={''}
     outputImg={outputImg}
     >
     {App1}
@@ -43,14 +39,16 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
+  
+    
 
 [//]: # (Appendix)
-
-## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
+
+## Appendix
 
 <AppendixSection index={0} folderPath='nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/appendix/'>{Hardware}</AppendixSection>

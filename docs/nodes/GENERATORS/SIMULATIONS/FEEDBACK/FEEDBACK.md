@@ -1,10 +1,3 @@
----
-title: CONSTANT
-description: Discover Python-based feedback simulations with Flojoy's FEEDBACK node. It captures the result of the specified node ID. If the result is not found, it passes the result of the parent node.
-keywords: [Python, Simulations, Python feedback simulations, Feedback loop,
-Feedback systems in Python, Flojoy generator nodes, Python simulation tools, Feedback modeling examples, Dynamic feedback simulations, Python simulation, Feedback loop generation, Python simulation techniques, Dynamic system modeling in Python]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/FEEDBACK/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -32,15 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
 
 
 
 <AppDisplay 
     nodeLabel='FEEDBACK'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>

@@ -1,9 +1,3 @@
----
-title: MATRIX
-description: Master random matrix simulations with Python using the MATIX generator node from Flojoy. The MATRIX node takes row and col arguments as input and generates a random matrix where the integers inside the matrix are between 0 and 19.
-keywords: [Python, Simulations, Python Matrix simulations, Matrix manipulation techniques, Flojoy generator nodes, Dynamic matrix modeling, Matrix simulation examples, Python simulation tools, Matrix manipulation in Python, Matrix-based simulations, Dynamic system modeling, Python matrix generator, Random matrix generator]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/MATRIX/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -31,15 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
 
 
 
 <AppDisplay 
     nodeLabel='MATRIX'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>

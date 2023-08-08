@@ -1,9 +1,3 @@
----
-title: SECOND_ORDER_SYSTEM
-description: The SECOND_ORDER_SYSTEM has a second order exponential function. This node is designed to be used in a Python loop. The data is appended as the loop progresses and written to memory.
-keywords: [Python, Simulations, Python second order system simulations, Exponential function, Second-order system analysis, Flojoy generator nodes, Python simulation tools, System simulation examples, Dynamic system design, Python simulation documentation, Second-order system modeling, Dynamic system analysis in Python]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/SECOND_ORDER_SYSTEM/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -31,13 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
+
+
 
 <AppDisplay 
     nodeLabel='SECOND_ORDER_SYSTEM'
-    appImg={appImg}
-    outputImg={outputImg}
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>
