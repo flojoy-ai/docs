@@ -7,8 +7,9 @@ The Keysight N5222B PNA Microwave Network Analyzer 10 MHz to 26.5 GHz is an inte
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 5420.0</li>

@@ -7,8 +7,9 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Anritsu** Has Testing Solutions for Automotive, Government, Data Center, & IoT Industries. Test Solutions for IoT Devices, Government Radar, Automotive, & Signal Integrity. <a href="https://www.anritsu.com/en-us/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: JAPAN</li>
   <li>Yearly Revenue (millions, USD): 670.0</li>

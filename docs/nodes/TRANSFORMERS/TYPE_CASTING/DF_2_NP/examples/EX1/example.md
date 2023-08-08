@@ -1,7 +1,7 @@
-In this example we use the `R_DATASET` node to generate a dataframe with the airquality string in the parameter of the node.
+<!--- Add SEO here --->
 
-With the top `LINE` node we see the input data where each line of a different color represent the evolution of a column as we go through its rows.
+In this example, we use the `R_DATASET` node to generate a dataframe with the `airquality` string as the node parameter.
 
-Then we use the `DF_2_NP` node to convert the input data from the dataframe type to the numpy array type.
+With the top `LINE` node we visualize the input data. Here each line of a different color represents the evolution of a column as it progresses through the rows. There are 6 lines, representing columns 0 to 5.
 
-With the bottom `LINE` node we can see the output data of `DF_2_NP`. In this graph we see a lot more of lines since each line is representing the evolution of each row as we go through its columns. We can also observe this by observing that the amount of different lines in the previous `LINE` node is 6 (so column 0 to 5), exacty like the axis we have here going from 0 to 5. This shows that our output data is a numpy array as expected.
+Then we use the `DF_2_NP` node to convert the input data from a `dataframe` type to a `numpy array` type. The output data is visualized with the bottom `LINE` node, showing a lot more lines, since each line represents the evolution of each row as it progresses through the columns. Further, the axis here ranges from 0 to 5, which corresponds with the columns 0 to 5 in the top `LINE` node. This confirms that the output data is a numpy array.

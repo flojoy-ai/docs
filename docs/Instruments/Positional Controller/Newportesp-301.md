@@ -7,8 +7,9 @@ The ESP301-3N 3 Axis Motion Controller and Driver is the successor of the popula
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Irvine, California, United States</li>
   <li>Yearly Revenue (millions, USD): 3500.0</li>

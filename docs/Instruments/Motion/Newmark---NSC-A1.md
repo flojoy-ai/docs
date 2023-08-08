@@ -8,8 +8,9 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Newmark Systems** is a world leader in precision rotary table technology designed for critical positioning applications. <a href="https://www.newmarksystems.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 12.0</li>

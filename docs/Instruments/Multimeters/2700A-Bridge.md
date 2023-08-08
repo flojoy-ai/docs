@@ -11,8 +11,9 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Andeen**-**Hagerling**, Inc. - manufacturers of the world's most accurate capacitance bridges and standards. <a href="https://www.andeen-hagerling.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 1.0</li>

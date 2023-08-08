@@ -9,8 +9,9 @@ N6705B accepts the same modules as N6700 Modular Power System, with over 30 modu
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 5420.0</li>

@@ -7,8 +7,9 @@ The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Singl
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 The PicoQuant group was founded in 1996 to develop robust, compact, and easy to use time-resolved instrumentation and systems. Since April 2008 sales and support in North America is handled by PicoQuant Photonics North America Inc. In January 2010, the PicoQuant group was extended by PicoQuant Innovations, which was founded to support the increasing activities in the field of teaching, customer support, and event organization. <a href="https://www.picoquant.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Berlin, Germany</li>
   <li>Yearly Revenue (millions, USD): 14.7</li>

@@ -7,8 +7,9 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Temptronic** temperature forcing systems, are designed for testing and characterization of semiconductors, ICs, chips, electronics, and materials. <a href="https://www.intestthermal.com/temptronic">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 19.0</li>

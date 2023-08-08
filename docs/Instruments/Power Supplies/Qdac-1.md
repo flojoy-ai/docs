@@ -7,8 +7,9 @@ The original and popular QDAC from QDevil is a high-precision low-noise computer
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Founded in 2016, QDevil is an international quantum technology company focused on developing and manufacturing auxiliary electronics and specialized components, operating from mK to room temperature. The mission is to accelerate research and development in quantum electronics labs. To fulfill the mission QDevil helps customers around the world by supplying world-class auxiliary electronics. <a href="https://qdevil.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: COPENHAGEN, DENMARK</li>
   <li>Yearly Revenue (millions, USD): 2.0</li>

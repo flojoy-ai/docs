@@ -7,8 +7,9 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 **Thermotron** is a worldwide temperature chamber, humidity chamber, and vibration testing equipment manufacturer. View our testing equipment today!. <a href="https://thermotron.com/">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 89.0</li>

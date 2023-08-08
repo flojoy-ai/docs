@@ -7,8 +7,9 @@ The System 8500 Power Supply program offers the ultrastable Model 854 specially 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Danfysik accelerator system and accelerator components are in service at most particle accelerator facilities worldwide. <a href="https://www.danfysik.com/en">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Denmark</li>
   <li>Yearly Revenue (millions, USD): 13.0</li>

@@ -1,3 +1,3 @@
-In this example, it takes an image from the local file and process image smoothing.
+<!--- Add SEO here --->
 
-The result is available through the `IMAGE` node.
+In this example, an image is used from a local file and processed with the `IMAGE_SMOOTHING` node. The result is visualized with the `IMAGE` node.

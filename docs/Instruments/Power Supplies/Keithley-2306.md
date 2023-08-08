@@ -7,8 +7,9 @@ The dual channel Battery/Charger Simulator was designed specifically for develop
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Cleveland, Ohio, United States</li>
   <li>Yearly Revenue (millions, USD): 110.6</li>

@@ -7,8 +7,9 @@ The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequen
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
-<br></br>
+
 <ul>
   <li>Headquarters: Switzerland</li>
   <li>Yearly Revenue (millions, USD): 38.0</li>
