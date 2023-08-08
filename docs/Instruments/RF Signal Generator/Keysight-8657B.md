@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Agilent Technologies 8657A and 8657B signal generators are designed to test AM, FM, and pulsed receivers as well as components.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/Sx_451sbIk2632EpkrPEig/zRwtYw4mdHpK0Nr0vm9Bq_qrp0QVh6iRqtaZcx_6AJvHGzTWfxAsKOTDh2wJXSKDQo_Li6yElJw0JK3PqAYgnw/c8VdnFunmThJHquZunBuD6_B48zOf3j9LkvU8JtV-cA"/>
+
+</div>
+
+The Agilent Technologies 8657A and 8657B signal generators are designed to test AM, FM, and pulsed receivers as well as components.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

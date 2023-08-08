@@ -3,9 +3,23 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N, K1) including stereo/dual sound and NICAM
 Double-sideband test modulator for all IFs between 32 and 46 MHz
 RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/abRzilVYBL3R2kpFw8LD5Q/Dx3jZ0Yq472e2Jx_CJ_IktIczWPqZxY6pbjACgy7ackQemrNiC2M6Hqa6Zf_xzibkyhgmyBxuUfOQz3sFfNTSD_tO3s9br64Mzr2RbJf1iU/3eJrbPUC61BbKO5R6Itinue5xMNQrkRhqrnf9s3abmo"/>
+
+</div>
+
+Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N, K1) including stereo/dual sound and NICAM
+Double-sideband test modulator for all IFs between 32 and 46 MHz
+RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

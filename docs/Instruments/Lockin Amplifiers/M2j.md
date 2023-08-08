@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The M2j module is a low noise amplifier initially designed for use in reflectometry. It has been optimised for use with the F1d IQ Demodulator with a 40 MHz to 1.5 GHz frequency range. This is reflected in the gain flatness of M2j: within 3dB from 40 MHz to 1.4 GHz.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/iCiZI1zB1n4E5DV6n0K10A/zpkUj0Leg2XrMtKXWYZdFYtvmS0aqOqUkJwGzaMl4UBBuYJ4DKNt7Gno95gKwn8D6l5tP6nhIRzns-dCy_kLJqxTwq8c4vOxpWraSPXJuJQ/h5bckmfg5W0CIyIoQdJw3qmzrYjxLWzNRQbwulS_HBU"/>
+
+</div>
+
+The M2j module is a low noise amplifier initially designed for use in reflectometry. It has been optimised for use with the F1d IQ Demodulator with a 40 MHz to 1.5 GHz frequency range. This is reflected in the gain flatness of M2j: within 3dB from 40 MHz to 1.4 GHz.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

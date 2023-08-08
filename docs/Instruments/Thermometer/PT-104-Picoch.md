@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The PT-104 is a four-channel temperature measuring data logger. It offers the ultimate in resolution (0.001 °C) and accuracy (0.015 °C). Along with temperature it can also be used to measure resistance.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/6FWxugok9JNp9pZEVEjtJQ/bA9FQUE3GFFB55Sne8vs1KEsYhx6oB_7flCQFBKnEiJXBwenaasdsJgzz28nRa-Rmm_eQMin-xYMEbqlDiFrJm28iFlJWXwmcWC5vFG3-iU/YUkPkeoER6taFuQwisK4V_PvfJ95b3cuSLIxJlulpN8"/>
+
+</div>
+
+The PT-104 is a four-channel temperature measuring data logger. It offers the ultimate in resolution (0.001 °C) and accuracy (0.015 °C). Along with temperature it can also be used to measure resistance.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

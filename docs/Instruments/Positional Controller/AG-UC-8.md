@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agilis axes. Power is supplied through the same USB port used for communication. USB hubs may also be used for powering and communication, but must provide the required 5 V supply, e.g. must feature an external power supply. Two holes in the controller allow stacking of several controllers and attachment to optical tables.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/FFjUn94ta2-kC_TLZfM8TQ/AqHS8Vth_RQbwTywQqxsgl7HaIcZW-kW4l51BH1phZatr_01QSTREfQfnxzY3tNz8SWUsgX-atgSH0dF2fBExXAFYTYEoOyr1SvockIm4LI/nPyeHoq4q1pv0OG6kUMJzbvp5IPJ32dcYlgxgsgRZoU"/>
+
+</div>
+
+The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agilis axes. Power is supplied through the same USB port used for communication. USB hubs may also be used for powering and communication, but must provide the required 5 V supply, e.g. must feature an external power supply. Two holes in the controller allow stacking of several controllers and attachment to optical tables.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

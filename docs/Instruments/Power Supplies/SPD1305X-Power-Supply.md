@@ -3,9 +3,23 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Siglent’s SPD1305X Series Programmable Linear DC Power Supply has a 2.8 inch TFT-LCD (240 * 320) color display. The SPD1305X outputs up to 150 Watts of power and has a Voltage range of 0-30 V and Current range of 0-5 A. The Voltage resolution is 1 uV while the Current resolution is 1 mA.
 
 Because higher currents supplied through smaller gauge wire or longer distances can cause a drop in voltage to the supplied load, the SPD1305X incorporates Remote Sensing in order to measure the actual supplied voltage at the load. The remote sensed voltage is fed back to the power supply and output voltage is adjusted almost instantaneously.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/OBLdFd08jP1RYG1pbSn-6A/06i0Tenl0IK0ADH5YMESCaeGZej91fRB5Gl-0ICh4MK0D90SiAMiRtRiiHcfU7RP-EmiJzJrvLzsylU5gvNMMq3TgPf5oy8uvxxGWkb1VIl9kKeXfDSWcMuut9n4EnUp/c7SCFMrrHkAAO0Qe3HF129n8jOUZkW9Ju3VQOLhXONg"/>
+
+</div>
+
+Siglent’s SPD1305X Series Programmable Linear DC Power Supply has a 2.8 inch TFT-LCD (240 * 320) color display. The SPD1305X outputs up to 150 Watts of power and has a Voltage range of 0-30 V and Current range of 0-5 A. The Voltage resolution is 1 uV while the Current resolution is 1 mA.
+
+Because higher currents supplied through smaller gauge wire or longer distances can cause a drop in voltage to the supplied load, the SPD1305X incorporates Remote Sensing in order to measure the actual supplied voltage at the load. The remote sensed voltage is fed back to the power supply and output voltage is adjusted almost instantaneously.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

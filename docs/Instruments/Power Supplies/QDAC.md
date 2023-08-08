@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled DAC with 24 voltage channel generators operating at a sample rate of 1MS/s. It is designed for DC and intermediate-frequency control of quantum devices, including, for example, gate electrodes and flux bias coils in qubits. It is also a very versatile instrument that can be used for many other purposes.
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled DAC with 24 voltage channel generators operating at a sample rate of 1MS/s. It is designed for DC and intermediate-frequency control of quantum devices, including, for example, gate electrodes and flux bias coils in qubits. It is also a very versatile instrument that can be used for many other purposes.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

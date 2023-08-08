@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Source a wide range of voltages and currents with the 360W, 720W, or 1080W Series 2260B Programmable DC Power Supplies. The 360W versions can output current of 36A, 13.5A, 4.5A, or 1.44A; the 720W models can output 72A, 27A, 9A, or 2.88A; and the 1080W instruments can output 108A, 40.5A, 13.5A or 4.32A. This wide range of output voltages and current, combined with multiple interface choices, makes the Series 2260B ideal for use in a wide range of applications, including research and design, quality control, and production test.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/tRvBtmlLyHBJsDKwwdr-Gg/4s7bpvtEEyy6VXpLbZgX0OegWsTIOvn39KQkoM3_Hyi6XL1_NJBoifE5zS4L5u1S-HdRsIdTaYAq94qolx-bcN7nVvt1Gipznv6_S-UNn54/HkG7Nv_I8FdUjbuGC3ACEZ3g77BWu-l5LGUNAkqwIXE"/>
+
+</div>
+
+Source a wide range of voltages and currents with the 360W, 720W, or 1080W Series 2260B Programmable DC Power Supplies. The 360W versions can output current of 36A, 13.5A, 4.5A, or 1.44A; the 720W models can output 72A, 27A, 9A, or 2.88A; and the 1080W instruments can output 108A, 40.5A, 13.5A or 4.32A. This wide range of output voltages and current, combined with multiple interface choices, makes the Series 2260B ideal for use in a wide range of applications, including research and design, quality control, and production test.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher power and the choice of wavelength. The TopMode series sets records in terms of power, coherence and wavelength stability. The proprietary CoHerence-Advanced Regulation Method (CHARM) provides an active stabilization of the lasers’ coherence and ensures continuous single-frequency operation. TopMode and CHARM means nothing less than reliable 24/7 operation.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/y0Tk9Ul-oFoBRz-l5bDxZA/4XKsKSnc77B_hp_Q-Tk3caXy8W2eY0aWmUI7Zjqj7D5NOwzpwsRm8bEVrDelkJd7kDhQjaDOAMv5vjn46s-PGBHu6NWs9vf48t1XfjpAXhitOkjOnxt-1j7zqI2cUopD/opgsz4GircKUF7XJ6Hn1I3Gcv6dRUQfX6o4GpfU67gU"/>
+
+</div>
+
+TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher power and the choice of wavelength. The TopMode series sets records in terms of power, coherence and wavelength stability. The proprietary CoHerence-Advanced Regulation Method (CHARM) provides an active stabilization of the lasers’ coherence and ensures continuous single-frequency operation. TopMode and CHARM means nothing less than reliable 24/7 operation.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

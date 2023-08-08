@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/WPPZlRjUB69nPk0BlCmzVw/bhkXy9FwbKUT69bQP2X1EHvxAkRPIZEFYIdnVep9bm4ea93KnyV4A3_8U9Iwi2l9nXZOpcvthqQ0UfraEz7Ew_ghV_NBbHdceFl4zbXSg_A/gVgENRZ1JTzoDO-CbyVawaViCZ-Gr93KqoRuE_KjduM"/>
+
+</div>
+
+The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

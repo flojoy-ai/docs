@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to create high quality signals up to 60 MHz (Sine) with very low jitter (200 ps) and the new SiFi (SIgnal FIdelity) technology. Beside the two analog outputs, the device includes an USB-Host- and an USB-device interface.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/8NlQs3smwe66G_-9duGTUQ/JuFpB3XL_Zq1YCfMAwJY3-pJckBA81nVuDSKrSv8jBAlzU_lHcpfKTTAQlIdAiqAXa4zg0pNmBaUhpB4VrMILOMfpXTcqSLiya-ckt8RMZVoYPjW8-oAqfgRlKeg2SRm/xktcXC4kfFzA8xBBQpfpx--KXApeHE4xaWINAzCtX7g"/>
+
+</div>
+
+The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to create high quality signals up to 60 MHz (Sine) with very low jitter (200 ps) and the new SiFi (SIgnal FIdelity) technology. Beside the two analog outputs, the device includes an USB-Host- and an USB-device interface.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

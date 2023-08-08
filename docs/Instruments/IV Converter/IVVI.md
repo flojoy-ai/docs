@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 An ohmmeter is an electrical instrument that measures electrical resistance (the opposition offered by a circuit or component to the flow of electric current). Multimeters also function as ohmmeters when in resistance-measuring mode. An ohmmeter applies current to the circuit or component whose resistance is to be measured. It then measures the resulting voltage and calculates the resistance using Ohm’s law	https://en.wikipedia.org/wiki/Ohmmeter
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/68vvkDIyDlQP-MTcY-a0zA/aCEQjnyYnrrDov6ZACTBzFTKz0EJA9x5a2542pOqlJIqNftIhyMdVIfMfxM_lJnHIyUQLfBBiRl1754cxZ03_4x9PvChzD09FJRBQrZiXxU/-5E-ylxOUPYg6Wk4ZrpeaGXuDgZfC8oKABnMvGptpy4"/>
+
+</div>
+
+An ohmmeter is an electrical instrument that measures electrical resistance (the opposition offered by a circuit or component to the flow of electric current). Multimeters also function as ohmmeters when in resistance-measuring mode. An ohmmeter applies current to the circuit or component whose resistance is to be measured. It then measures the resulting voltage and calculates the resistance using Ohm’s law	https://en.wikipedia.org/wiki/Ohmmeter>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

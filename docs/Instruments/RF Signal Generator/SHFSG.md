@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Zurich Instruments SHFSG Signal Generator produces qubit control signals in the frequency range from DC to 8.5 GHz with a spurious-free modulation bandwidth of 1 GHz. The SHFSG uses a double superheterodyne technique for frequency up-conversion, which eliminates the need for mixer calibration and saves time on system tune-up. Each SHFSG comes with 4 or 8 analog output channels with 14-bit vertical resolution. Controlled by LabOne, its APIs or the LabOne Q Software, the SHFSG supports quantum computing projects with sizes ranging from a few to several hundred qubits.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/5h3yzshXJ6unE0NAFT-FOg/Tl8HgKNTFm7B8h3RFch_SHFQz3VxDZNYocdrvlmnnHDb58rEeHQHR3prUfi_owRBIscmCOh3fB5NdZg7RtFp0NZ2IQpownbO18EU3GXzyWjkc8KiYeP18ytFi-zUqlqm/94wrF1SuT1n1kPE9TeNjVMwURKRNBn5yUhm1UjVN3L0"/>
+
+</div>
+
+The Zurich Instruments SHFSG Signal Generator produces qubit control signals in the frequency range from DC to 8.5 GHz with a spurious-free modulation bandwidth of 1 GHz. The SHFSG uses a double superheterodyne technique for frequency up-conversion, which eliminates the need for mixer calibration and saves time on system tune-up. Each SHFSG comes with 4 or 8 analog output channels with 14-bit vertical resolution. Controlled by LabOne, its APIs or the LabOne Q Software, the SHFSG supports quantum computing projects with sizes ranging from a few to several hundred qubits.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

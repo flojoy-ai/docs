@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 technology to achieve 12-bit resolution at up to 8 GHz bandwidth, for the lowest noise and unmatched signal fidelity. Up to 5 Gpt of highly responsive acquisition memory gives more visibility into system behavior, and the exceptional analysis toolbox enables deep insight.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/60hinuw72XIV02FnjeOwjQ/KAGA-9wdLMpusaKszkE2vQ0PKw5gOV0FH2ySvvP5GhtBV3BOGk_QdLzDNVI6VvO2vLk4biKPF2S90NdCWNTytT3LCSIkpsQAi_iBph2GXzY/g_Gu3DXjCNB_eoNfDY5tIO2nkC-nZtjG893UR5Tk5i4"/>
+
+</div>
+
+WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 technology to achieve 12-bit resolution at up to 8 GHz bandwidth, for the lowest noise and unmatched signal fidelity. Up to 5 Gpt of highly responsive acquisition memory gives more visibility into system behavior, and the exceptional analysis toolbox enables deep insight.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

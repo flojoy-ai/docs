@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Class Connecting To The Lakeshore 425 Gaussmeter
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+Class Connecting To The Lakeshore 425 Gaussmeter>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

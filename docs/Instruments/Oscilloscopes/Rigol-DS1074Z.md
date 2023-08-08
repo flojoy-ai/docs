@@ -3,8 +3,21 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 4 analog channels, Upgradable to 16 digital channels (requires optional RPL1116 logic probe to operate)
 Built in 2 channel 25MHz waveform generator
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/fDQngIGCLQ0UlT5MjexQeQ/EeMdNfDXXAR-Eg0tyFhadnZpr-sd3MS9vuD1FKjdI8aDxi1KA3NYkLC-e6jwprWVKq7nBly5bvgf4PaxcschQmmGDW6DRKWjaUyBfVpPnDktYoOTWtzltVn3PA4lLTww/PddduRg1TDV1mLOcS5BELSR2AhvMOh-FcyVJm2xusgk"/>
+
+</div>
+
+4 analog channels, Upgradable to 16 digital channels (requires optional RPL1116 logic probe to operate)
+Built in 2 channel 25MHz waveform generator>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

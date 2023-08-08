@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The GS200 is a low voltage/current DC source with high accuracy, high stability, and high resolution. With its excellent traceability, stability, and 5 1/2-digit resolution, the GS200 generates extremely low-noise DC voltage and current signals that are required for many applications. Additionally, the optional monitoring feature turns the GS200 into a voltage and current measuring instrument.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/zQ6nK5MWUe_QBtuW4CDcfQ/X4eI6ZBkeEfRjPPZU2ezidLwSPvH8iG7HOjYcyaYcXI-WcfCIbLwco6140LO-FvBAXMf61yvWnvadth9BWMdLS3MAwB5xmzTuUp-6VxgiAo/B666ZTukmqRv-TZPDeXB7QSctSRvPGlKXz-yvMNvwIA"/>
+
+</div>
+
+The GS200 is a low voltage/current DC source with high accuracy, high stability, and high resolution. With its excellent traceability, stability, and 5 1/2-digit resolution, the GS200 generates extremely low-noise DC voltage and current signals that are required for many applications. Additionally, the optional monitoring feature turns the GS200 into a voltage and current measuring instrument.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

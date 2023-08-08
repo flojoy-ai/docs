@@ -3,12 +3,29 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 3 Outputs; total power up to 195W
 Low Ripple Noise <350 uVrms/2mVpp
 Fast transient response time: <50 us
 Channel isolation: CH1 || CH2,CH3
 OVP/OCP/OTP protection functions
 Built in V, A, W measurements and waveform display
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/7YZufu_uFg7kV7sv7u7HXg/Pxd2fVVLd5tNw61EH-GzrR0d4H3rqhRDo6cegjwm20r7t4XuOEtTJeL-ISo66iC9ku7wRIkuOWSuVK6wKi_hLZvqWG6PVItvJ43MlQ1Ch5nDHE3hTxYM-aK8hA469LpQ/_UU-Cdyi6vspoE8l65GHOt6z3D3W6-qqxlkN4zmQjRM"/>
+
+</div>
+
+3 Outputs; total power up to 195W
+Low Ripple Noise <350 uVrms/2mVpp
+Fast transient response time: <50 us
+Channel isolation: CH1 || CH2,CH3
+OVP/OCP/OTP protection functions
+Built in V, A, W measurements and waveform display>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

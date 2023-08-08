@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequency range from DC to 500 kHz (and up to 5 MHz when upgraded). Thanks to its embedded data and web servers, the MFLI can be used directly with any device running a web browser without further software installations
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/zd38xLdBacJXDN7GisgeDw/k1DycZ7zhb_1R_rT4QXSNXadp_5L2E-8tMuLrTcKMHO_UU2v-H952DHew8_CzSm3kqEXhKVWqQBH1QKPeDbvPABulDuxBk8SBFjht0JazTw/VLhNSWObPf_9hl5WCyQRfSNt9wadysxf7V2wJ7ZvPQw"/>
+
+</div>
+
+The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequency range from DC to 500 kHz (and up to 5 MHz when upgraded). Thanks to its embedded data and web servers, the MFLI can be used directly with any device running a web browser without further software installations>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

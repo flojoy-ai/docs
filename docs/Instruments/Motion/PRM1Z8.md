@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stage that accepts Ø1" optics and SM1-threaded components. The user can measure the angular displacement by using the Vernier dial in conjunction with the graduation marks that are marked on the rotating plate in 1° increments. This rotation stage/mount is also equipped with a home limit switch to facilitate automated rotation to the precise 0° position, allowing absolute angular positioning thereafter. The limit switch is designed to allow continuous rotation of the stage over multiple 360° cycles.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/NnmIZ9AghGJYCkh0AN3fCw/bMxyT_j9xxQNubvlpFBl8M-CrG9pni1HqQbbDen_dL7pSEwCMmmF2_CxQ-QhxofgFL2D_TMBCi4SXp55aocR7GQrZqkwLQpV0o7Wro9oSsg/4WgzR8ocyW38GY6-s2QDYHdEiCutC2DZ-ncYn8FAKdM"/>
+
+</div>
+
+The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stage that accepts Ø1" optics and SM1-threaded components. The user can measure the angular displacement by using the Vernier dial in conjunction with the graduation marks that are marked on the rotating plate in 1° increments. This rotation stage/mount is also equipped with a home limit switch to facilitate automated rotation to the precise 0° position, allowing absolute angular positioning thereafter. The limit switch is designed to allow continuous rotation of the stage over multiple 360° cycles.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

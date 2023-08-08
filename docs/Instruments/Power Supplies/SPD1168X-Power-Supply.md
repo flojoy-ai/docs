@@ -3,9 +3,23 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Siglent’s SPD1168X Series Programmable Linear DC Power Supply has a 2.8 inch TFT-LCD (240 * 320) color display. The SPD1168X outputs up to 128 Watts of power and has a Voltage range of 0-16 V and Current range of 0-8 A. The Voltage resolution is 1 uV while the Current resolution is 1 mA.
 
 Because higher currents supplied through smaller gauge wire or longer distances can cause a drop in voltage to the supplied load, the SPD1168X incorporates Remote Sensing in order to measure the actual supplied voltage at the load. The remote sensed voltage is fed back to the power supply and output voltage is adjusted almost instantaneously.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/SH8mjT4mHRWwqmYzHeuLOg/kH-6RaPVXI78FD17Mj-SFfwU20yYz5NkbYw8-gr4mB6Ml6GNsIiN94E87_cG4Hy9Ud2ZejGPJux37dOL4z7UxnYPAdgbIOJd_7I3Wawt6wilUOr4Mc0CVpdSd0-wWYIR/Bfq0zD1nnUWn6GZN-QKI-aZLNHgt2OFjCvsEmliQ1Go"/>
+
+</div>
+
+Siglent’s SPD1168X Series Programmable Linear DC Power Supply has a 2.8 inch TFT-LCD (240 * 320) color display. The SPD1168X outputs up to 128 Watts of power and has a Voltage range of 0-16 V and Current range of 0-8 A. The Voltage resolution is 1 uV while the Current resolution is 1 mA.
+
+Because higher currents supplied through smaller gauge wire or longer distances can cause a drop in voltage to the supplied load, the SPD1168X incorporates Remote Sensing in order to measure the actual supplied voltage at the load. The remote sensed voltage is fed back to the power supply and output voltage is adjusted almost instantaneously.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
