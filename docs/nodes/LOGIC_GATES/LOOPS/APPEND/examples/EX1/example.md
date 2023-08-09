@@ -1,5 +1,7 @@
-In this example, `LINSPACE` and `RAND` generate an ordered pair with random y values. 
+<!--- Add SEO here --->
 
-This array is then passed a loop which uses the `APPEND` node to append a new random y value to the ordered pair.
+In this example, the `LINSPACE` and `RAND` nodes generate an `OrderedPair` with random y values. 
 
-The `SCATTER` node is updated each loop showing how the `APPEND` node works,
+This array is then passed a loop which uses the `APPEND` node to append a new random y value to the `OrderedPair`.
+
+The `SCATTER` node is updated with each loop, showing how the `APPEND` node works.
