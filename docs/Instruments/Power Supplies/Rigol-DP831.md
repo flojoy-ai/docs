@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Rigol DP831 features a relative large (8.9 cm / 3.5") and easy to read TFT monochrome display. In addition to the normal digital displays for voltage, current, and power, these values can also be displayed as signal curves.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/NFtGSUbXj6Y6fJ_m-tqABA/D8Mp79S1c0NjEciwsI1Jvaqjtn2LGubrYmm4KdakDkMbAJjkEYvhn3cP5ewP_91MZrUkpEdULUKD6WColnFxMIkjtcboXt1CjgbsSS9W8xU/pt6-ON5ddmbouvU1KGAEcOAwJNFVlMO6bf8IkY4Aing"/>
+
+</div>
+
+The Rigol DP831 features a relative large (8.9 cm / 3.5") and easy to read TFT monochrome display. In addition to the normal digital displays for voltage, current, and power, these values can also be displayed as signal curves.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

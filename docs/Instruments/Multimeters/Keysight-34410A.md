@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/UjM2JYqjweD0MUEz2Om-kw/ZvQxfjnYfIyEwDq6jP1kZ3QP0JlPJG1OFWWzvKwpiffyCwQeBcOKDhC9662_ypO7G5xTa6njqZ8zp6yi8S8bVh4z07SMpcp_lFYeL93xAPI/4vzbigz-tYkR_brs4IQRjduy76I-afWQHm7_Z4zMsjQ"/>
+
+</div>
+
+The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

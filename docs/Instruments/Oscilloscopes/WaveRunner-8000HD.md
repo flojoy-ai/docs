@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Providing 12 bits all the time, more channels than any other oscilloscope, and long memory without tradeoffs – the WaveRunner 8000HD 8 channel oscilloscope captures every detail.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/o9B-oRJLhKJ3BgO0L5JejA/JethfzsUfqrjIfOCozSC9fFTtc2mF-PR5W3YJivZrTE-XAyTaRQPrqDPG6RsmqPogT7rvSib2O7Ov03kZ9QxuTaMa9pBdvBNm8y5wdsyj3c/w0VaIGDQ-cZFI6M27PJg0OhL8GqTE6373z-Oir3_OxI"/>
+
+</div>
+
+Providing 12 bits all the time, more channels than any other oscilloscope, and long memory without tradeoffs – the WaveRunner 8000HD 8 channel oscilloscope captures every detail.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially created for setting gate-voltages on samples. In contrast to most commercial units, there are no processor or clock circuits present in this module. This to prevent interference. The only time any digital signals are present is when the DAC values are being changed. Afterwards the module goes back to being static. The DAC values are set via the controller module. As this module is generally used for gate voltage control, the use of an isolated controller module (C1b/C2 combination) is recommended.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/FpLCFAAMjy38UO1mR5IaVw/IWYcfJPhpCGbFyeCHIQe-p1_vbAvBMXzn47E6hDofwuZsUl8rA5oQuSwd62mtVd-DcXY21jpCqVDFKg18XCcOgLoYipCQWzCd_oUPfLu1pU/Oz73_AEXErxAo_-gmG2lsST8liCRDtvOYh9I1tPOwgA"/>
+
+</div>
+
+The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially created for setting gate-voltages on samples. In contrast to most commercial units, there are no processor or clock circuits present in this module. This to prevent interference. The only time any digital signals are present is when the DAC values are being changed. Afterwards the module goes back to being static. The DAC values are set via the controller module. As this module is generally used for gate voltage control, the use of an isolated controller module (C1b/C2 combination) is recommended.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

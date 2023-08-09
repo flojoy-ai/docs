@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 33120A Function / Arbitrary Waveform Generator, 15 MHz
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/JfguQ4i0xAa4w9Lvz9UhVg/RP0hLyYlmnYs1sfLa4Xye8IZvTrXOoTkymVhmewY3bd2Dyi_-CujYco6chlEyLDoAa71Uqx0y2cxzHaIV6XIa8CX0J-JNXcNTTP-4LDPMDw/p1-AgFfllflixE5HuhpYa4DnVm3cLnX8i5quX34aBps"/>
+
+</div>
+
+33120A Function / Arbitrary Waveform Generator, 15 MHz>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

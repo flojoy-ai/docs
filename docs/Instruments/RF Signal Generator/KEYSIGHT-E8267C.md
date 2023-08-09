@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 E8267C PSG Vector Signal Generator, up to 20 GHz
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/9qm_usaRx3fw4q-rSKijMQ/jah_wt_rrYu2-LaGBCM-u2cpY4YoGBA-4lw1ZV3lyKvTxjhQCwYWI75Axx8nMr5fk9L6X6fIyYmetym2IOwBgXz9kPJXEG35cPaJvrcaGn0/O8-Krd0bj15jQWZn53k4wjQdegKBdbR7J4cFvNC27cs"/>
+
+</div>
+
+E8267C PSG Vector Signal Generator, up to 20 GHz>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

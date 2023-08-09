@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels. Each wheel contains eight filter mounts of ØD mm with clear aperture of Ød mm. Each mount is inclined by 4 degrees to prevent mutual reflections between filters. We supply the attenuator 10MWA168-20 with a standard, most popular, set of filters. See the table below. Alternatively, optics could be manufactured to individual orders. Or we could supply the attenuator without filters, which you can fit by yourself. 10MWA168-1 model comes WITHOUT filters. You bring a filter of each wheel into the optical path easily by hand or using automation. A single step motor drives the two wheels. A computer can operate the filter attenuator via a controller. Controllers are sold separately. For fastening, the attenuator has clearance slots for M6 and M4 screws. There are also two M6 holes, and one M4 hole (opposite to one of the M6 holes). Material: black anodized aluminium.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/Bp9d_OPgXQmdgeLSG1qzhA/HLVGuSTWJjE5b_-fEqL4YsVPyu8psIL3bf3ziPay09g-fXKCqgt7VNfQunxhUSzefQ_X0bDRC7b70ocpedt1PJsduxURUmrY4bNYxhGvHHBQf5TCXA7lrJ7Ub6QrN0gO/Vg6fXPk14wVfo5tZaBaazkBuy8UTTvDfKmftwgkr9jc"/>
+
+</div>
+
+Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels. Each wheel contains eight filter mounts of ØD mm with clear aperture of Ød mm. Each mount is inclined by 4 degrees to prevent mutual reflections between filters. We supply the attenuator 10MWA168-20 with a standard, most popular, set of filters. See the table below. Alternatively, optics could be manufactured to individual orders. Or we could supply the attenuator without filters, which you can fit by yourself. 10MWA168-1 model comes WITHOUT filters. You bring a filter of each wheel into the optical path easily by hand or using automation. A single step motor drives the two wheels. A computer can operate the filter attenuator via a controller. Controllers are sold separately. For fastening, the attenuator has clearance slots for M6 and M4 screws. There are also two M6 holes, and one M4 hole (opposite to one of the M6 holes). Material: black anodized aluminium.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

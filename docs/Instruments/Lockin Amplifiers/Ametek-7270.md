@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/d_y32XUvdLroxnk1Y08qIg/JXLtBkdtuuPK2_rDDak-sFZXLU7Qv2P3ZbIV9pJvM6pfUjzEy2w5PPSos5F2RhFGpqW4o3MFAE8VdFVOdxzWF69jY040xitk-CxNKls1MH68fp8y5pwlwv39g75QyJpW/-9Ts7ljgOViUDuaKnCo2sLJPX3bnygMz7WOwvIPqYN0"/>
+
+</div>
+
+The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

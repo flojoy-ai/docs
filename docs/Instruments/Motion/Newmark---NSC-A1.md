@@ -4,7 +4,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The NSC-A1 Series motion controller is a powerful single axis stepper motor control system which combines a microstepping driver with a programmable controller into a compact envelope
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/xbonQT-nu_NZJYfTlKyJSA/kOE5WFl3IAB636-QhZ0Py0ogsmzpXPC-7p3wn0rJkFdbP_-TW-OEshgSFLTyOlPKU2QbNLeEZHs6Wiq3yr77PnwRto62WwYi4-pNqkiE18JPSi4UgNs2cRZhQacI3hM8KbVPcg8FSki2CVQH9tP9JQ/GzMlpKc5FdaFlokB9ShbUZc_63mxx-l5vslHTn8vmrc"/>
+
+</div>
+
+The NSC-A1 Series motion controller is a powerful single axis stepper motor control system which combines a microstepping driver with a programmable controller into a compact envelope>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

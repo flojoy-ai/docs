@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 All SCPI Multimeters
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+All SCPI Multimeters>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

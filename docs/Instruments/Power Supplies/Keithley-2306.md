@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The dual channel Battery/Charger Simulator was designed specifically for development and test applications of portable, battery-operated products, such as cellular and cordless telephones, mobile radios, and pagers. This precision DC power supply product has ultrafast transient response so it can have output characteristics identical to actual batteries. This supply employs a unique variable output resistance so the voltage output can emulate a battery's response. It provides stable voltage outputs, even when a device-under-test (DUT) makes the rapid transition from the standby (low current) state to the RF transmission (high current) state. In addition, they can monitor DUT power consumption by measuring both DC currents and pulse load currents. The battery-simulator channel can be programmed to operate like a discharged rechargeable battery, sinking current from a separate charger.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/d-d6nErYnscLacxn6KSprQ/lhbmjHhru7d2u_FYUbt5b4Ojx83E-DguEPWNJaDf0iUm-tIoo-umQdw8tOORhV6mrQgPRWUMJCZ-nM6OEkI4vyPTxVfNdrJme_2ZF-UhCE8/K0kKqQASK9_eGUxD4Zw5EcUDlMuOOQZNKhJhmazbqNw"/>
+
+</div>
+
+The dual channel Battery/Charger Simulator was designed specifically for development and test applications of portable, battery-operated products, such as cellular and cordless telephones, mobile radios, and pagers. This precision DC power supply product has ultrafast transient response so it can have output characteristics identical to actual batteries. This supply employs a unique variable output resistance so the voltage output can emulate a battery's response. It provides stable voltage outputs, even when a device-under-test (DUT) makes the rapid transition from the standby (low current) state to the RF transmission (high current) state. In addition, they can monitor DUT power consumption by measuring both DC currents and pulse load currents. The battery-simulator channel can be programmed to operate like a discharged rechargeable battery, sinking current from a separate charger.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

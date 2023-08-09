@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keysight N5230C PNA-L is a microwave network analyzer made to test amplifiers, passive parts, and frequency converters using S-parameters and basic nonlinearity. The Keysight N5230C has a 110 dB system / 122 dB receiver dynamic range. The N5230C has a 300 kHz to 20 GHz frequency range and has 2 or 4 ports with built-in sources.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/bXpqq6S5pUewQJ-6mSD1Mg/XMqVj37U1j7yV5izfmuptWe9WJwE-5nUEIzYMELnDofX3cJzHYqzRAakjBc6lm1mm20uqY_fYL400cahNC2DVr6pTKGfq5h44tKf0-DmJJE/_mBlzt0AUzeD37sQHBuhcss5eCi_xEgS5WKuG0SHx2A"/>
+
+</div>
+
+The Keysight N5230C PNA-L is a microwave network analyzer made to test amplifiers, passive parts, and frequency converters using S-parameters and basic nonlinearity. The Keysight N5230C has a 110 dB system / 122 dB receiver dynamic range. The N5230C has a 300 kHz to 20 GHz frequency range and has 2 or 4 ports with built-in sources.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 N5183B MXG X-Series microwave analog signal generator offers 9 kHz to 40 GHz frequency coverage and near PSG levels of phase noise performance.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/O0H6NlDAF9n9SLXWCnYxdA/pO2UofrsJX7SvClqA7bKUuTEZb1fgpyYvtPdgksL68Bn1DogP0NsGq1HU2NP_vOU60-yFUyEcEk27jDLkgo7XG7ArMz1ixngAl_8YcQQgT0/2aT-VNv_ySmtCWMGhqosVfNprD8HcH7CVy4Mf3m4_ZE"/>
+
+</div>
+
+N5183B MXG X-Series microwave analog signal generator offers 9 kHz to 40 GHz frequency coverage and near PSG levels of phase noise performance.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

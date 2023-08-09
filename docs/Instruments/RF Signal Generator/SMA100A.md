@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is: -Sma100A. Signal quality, speed and flexibility these are the criteria by which signal generators are measured today. The R&S SMA100A perfectly meets these criteria, and thus is a premium-class analog generator that sets standards due to its outstanding characteristics.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/vQUt3fadcJ4S1UuIwK4D9g/owlkBOiGtc1qR1KDnn7WO6fQePIbyXcM6h062ntEnXg2kR1uHxXHV1_NKNMVLpKanWhZsEwhEAPDuCaC2k-oUkr5ZS_Zmz-udXYHaw8SLw6rQESKht5b4XiRyKXvUYa6Tjn23KwgGmVQjcLgIZzvZ0hdOxsSH1aEI3E2o7LmxwbnJPRfVuPIbJz7yQtnqz44/frEjYCepSVkcIhSCR57X0uvgvfSZ-P7B0F4DQqW55Ns"/>
+
+</div>
+
+This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is: -Sma100A. Signal quality, speed and flexibility these are the criteria by which signal generators are measured today. The R&S SMA100A perfectly meets these criteria, and thus is a premium-class analog generator that sets standards due to its outstanding characteristics.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

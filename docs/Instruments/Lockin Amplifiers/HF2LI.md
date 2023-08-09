@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequency range between DC and 50 MHz. It is the instrument of choice for the characterization of MEMS devices such as gyroscopes and for measurements in the area of microfluidics.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/W6Y3wjw9sz-8mg-0U8g0PQ/i1A6HrKqWFxTzppIN8RT8TV43kWzbUnYdHlT-mP-6r7slpt77x823WKNmu9K5d-7DJeVGa7Nfw1rtMZ84ZAe0KqqIQIx3Tfo-59byjG6MJk/uqCerbXkSEXu6K3d8JJGAq88Gk7OhiCVxNvJQgJm46A"/>
+
+</div>
+
+The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequency range between DC and 50 MHz. It is the instrument of choice for the characterization of MEMS devices such as gyroscopes and for measurements in the area of microfluidics.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

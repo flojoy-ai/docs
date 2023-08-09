@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane PCI Express interface
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/RLSuTQMVYhAslHpqObTAIw/ngRiD3vYcNOU7bG7N9lzSpKJ9jdXSfS0xDe_7KW5JVUz3gONos3fC-ltTpcBIhnH8HPgQr1owCJkyHoFRKxUvSM03SPVwOyCkZ95K7vM_Fo/RexAk0VW7K7FViLxi0giYLA_P50IsXig27O-hvKAFjo"/>
+
+</div>
+
+ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane PCI Express interface>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

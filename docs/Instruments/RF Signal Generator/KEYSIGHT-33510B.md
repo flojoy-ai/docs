@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The 33510B waveform generator provides Keysight's exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/ea24koJa7PMnQr_W1OgMRQ/PWqdc_VfExHEAouFRabT_e6RejbFDbw-9r8zsj5rlON68OkN_lynokXB5HrDTQbFGmowIqdF_bZZawe3Vvq14ro9LWsricWI1U0jtRp0Jk4/HMQQZgRUyO53ZapdA-ZK5HhQPIxJK7i_IXyFToaEF_Y"/>
+
+</div>
+
+The 33510B waveform generator provides Keysight's exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

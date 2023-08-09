@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Single Photon Counting (TCSPC) system. It is connected to a PC through a USB 2.0 interface. The high quality and reliability of the PicoHarp 300 is expressed by a unique 5-year limited warranty.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/RGM-5RUa7TxUDc9ctZfPUw/MXF8F6Qb1Whc1FEDNTMzq9CtY2tWXNRMcgGfd4P8QCi4f7dxpbIcEa04Pk-PYWnx7aBwAmyyjxm-hM79U_zIsbKnRYkJZ9i518NEA_3-lyGEwEbrHv3y2lGxJDSz7Ip7/531Osm3GGBoUSOqoG8tC_rm4bVkF2JK8kyDoHN5no4I"/>
+
+</div>
+
+The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Single Photon Counting (TCSPC) system. It is connected to a PC through a USB 2.0 interface. The high quality and reliability of the PicoHarp 300 is expressed by a unique 5-year limited warranty.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

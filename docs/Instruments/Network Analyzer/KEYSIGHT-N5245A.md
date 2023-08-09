@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/4pvto2N1iyftEi6EQRJ9ZA/sfKf0xr5k7orbtxF83IRVeihyE3VnCjt6SefhofaeoTuBXGaLntu9_2zqfcgklKo4RVAUBJ0PkpBzDSNZ0uOYegI-HBstAXcqWBR-onQ7AU/wm-O44_TAz_7zV9XZLmVcj-K3LpoPQs_i9UJXBlXud0"/>
+
+</div>
+
+The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

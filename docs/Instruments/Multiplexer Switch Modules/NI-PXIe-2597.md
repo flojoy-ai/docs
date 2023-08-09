@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 26.5 GHz, 50 Ω, 6x1 (SP6T) Terminated PXI RF Multiplexer Switch Module—The PXI‑2597 is ideal for passing high-order harmonics from PXI RF Signal Upconverter modules or routing multiple sources to PXI RF Signal Downconverter modules. The internal termination of the PXI‑2597 helps prevent high-power reflections that arise from open channels on the module. You can use the PXI‑2597 onboard relay count tracking feature to predict relay lifetime and reduce unexpected system downtime.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/K-fR5gnbZ-qefQGOvdzouw/U5LKN7YESAndPVSaDqGcsNCJanPGK1vHRazYeYwIdGPYnXezC3vScL5u4vPKcY6U7bmhoa0Kp6--z8xokA4y1P4Uc1Ft3gvsXqBI6ew4w9U/asKGLC2O-LFZAfHEp7a2aISEx1HavDjwLmldolNPDKQ"/>
+
+</div>
+
+26.5 GHz, 50 Ω, 6x1 (SP6T) Terminated PXI RF Multiplexer Switch Module—The PXI‑2597 is ideal for passing high-order harmonics from PXI RF Signal Upconverter modules or routing multiple sources to PXI RF Signal Downconverter modules. The internal termination of the PXI‑2597 helps prevent high-power reflections that arise from open channels on the module. You can use the PXI‑2597 onboard relay count tracking feature to predict relay lifetime and reduce unexpected system downtime.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

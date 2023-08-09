@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art DC standard technology. The dual multiplying D/A converter has enabled the compatibility of high-speed response and high resolution. The 7651 also provides high accuracy and stability. In addition to the source function (current supply), the sink function (current absorption) is also available, so the 7651 can be used as not only DC voltage/current source but also high-precision electronic load. Further, a series of powerful functions to meet the system use such as the programming function up to 50 steps, the IC memory card capable of storing 7 patterns of programs, and GP-IB interface are provided as standard. This 7651 can be used for a wide range of fields from R & D to production line, service and maintenance.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/ayGMQbgpGMqxBjF6q2JqNQ/W8LbwUnUPm_C8Hv7Uy8V7dHJ5xTwJwVX2fltOFC6TnLy8-rcgMPG6eJDNvEwoath0R2ZX4qJJqitbzEkmvjysokEjz3EdXbn1Ik_Qj7xTkk/Ip5OLMjHiW4GQAfQxoJSbzxZSU2uhZYh8DvtRWrbp3I"/>
+
+</div>
+
+The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art DC standard technology. The dual multiplying D/A converter has enabled the compatibility of high-speed response and high resolution. The 7651 also provides high accuracy and stability. In addition to the source function (current supply), the sink function (current absorption) is also available, so the 7651 can be used as not only DC voltage/current source but also high-precision electronic load. Further, a series of powerful functions to meet the system use such as the programming function up to 50 steps, the IC memory card capable of storing 7 patterns of programs, and GP-IB interface are provided as standard. This 7651 can be used for a wide range of fields from R & D to production line, service and maintenance.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
