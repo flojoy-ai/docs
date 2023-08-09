@@ -141,6 +141,10 @@ const config = {
                 label: 'Instruments',
               },
               {
+                href: '/cloud/documentation',
+                label: 'Cloud',
+              },
+              {
                 href: '/nodes/introduction/',
                 label: 'Tutorial',
               },
