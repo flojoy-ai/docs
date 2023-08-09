@@ -11,7 +11,7 @@ Lake Shore combined the technical advantages of digital signal processing with
 
 </div>
 
-<img src={require("./Lakeshore-475.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Lakeshore-475.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

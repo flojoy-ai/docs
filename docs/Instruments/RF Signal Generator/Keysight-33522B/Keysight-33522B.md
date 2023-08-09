@@ -11,7 +11,7 @@ Keysight 33500B Series waveform generators with exclusive Trueform signal genera
 
 </div>
 
-<img src={require("./Keysight-33522B.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-33522B.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./DMM6500-Keithley.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./DMM6500-Keithley.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

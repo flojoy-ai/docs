@@ -11,7 +11,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 
 </div>
 
-<img src={require("./Rigol-DG1062Z.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Rigol-DG1062Z.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The GS200 is a low voltage/current DC source with high accuracy, high stability,
 
 </div>
 
-<img src={require("./Yokogawa-GS-200.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Yokogawa-GS-200.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

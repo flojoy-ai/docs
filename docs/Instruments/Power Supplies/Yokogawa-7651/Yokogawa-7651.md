@@ -11,7 +11,7 @@ The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art
 
 </div>
 
-<img src={require("./Yokogawa-7651.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Yokogawa-7651.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

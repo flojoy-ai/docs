@@ -15,7 +15,7 @@ controls the retardance of the LC device.
 
 </div>
 
-<img src={require("./LCC25.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./LCC25.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

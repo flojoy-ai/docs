@@ -11,7 +11,7 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 
 </div>
 
-<img src={require("./Weinschel-8320.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Weinschel-8320.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis tra
 
 </div>
 
-<img src={require("./LPS710E-M.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./LPS710E-M.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

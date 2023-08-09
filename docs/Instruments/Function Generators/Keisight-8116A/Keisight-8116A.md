@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Keisight-8116A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keisight-8116A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

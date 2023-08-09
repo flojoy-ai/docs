@@ -11,7 +11,7 @@ The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power s
 
 </div>
 
-<img src={require("./Keysight-B2962A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-B2962A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

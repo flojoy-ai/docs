@@ -11,7 +11,7 @@ The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synt
 
 </div>
 
-<img src={require("./Keysight-33250A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-33250A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

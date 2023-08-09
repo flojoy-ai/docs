@@ -11,7 +11,7 @@ The Keysight N5173B EXG microwave analog signal generator is the cost-effective 
 
 </div>
 
-<img src={require("./Keysight-N5173B-EXG.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-N5173B-EXG.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

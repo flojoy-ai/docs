@@ -11,7 +11,7 @@ Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer fo
 
 </div>
 
-<img src={require("./Keithley-2400.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-2400.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

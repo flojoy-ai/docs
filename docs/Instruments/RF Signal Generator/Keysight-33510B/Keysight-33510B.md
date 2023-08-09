@@ -11,7 +11,7 @@ The 33510B waveform generator provides Keysight's exclusive Trueform technology 
 
 </div>
 
-<img src={require("./Keysight-33510B.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-33510B.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

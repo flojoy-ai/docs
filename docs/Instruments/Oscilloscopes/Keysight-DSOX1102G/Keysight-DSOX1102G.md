@@ -11,7 +11,7 @@ The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channel
 
 </div>
 
-<img src={require("./Keysight-DSOX1102G.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-DSOX1102G.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

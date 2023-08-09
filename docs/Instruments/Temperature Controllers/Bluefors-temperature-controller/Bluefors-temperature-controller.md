@@ -12,7 +12,7 @@ With a modern and intuitive user interface, you gain direct control and overview
 
 </div>
 
-<img src={require("./Bluefors-temperature-controller.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Bluefors-temperature-controller.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

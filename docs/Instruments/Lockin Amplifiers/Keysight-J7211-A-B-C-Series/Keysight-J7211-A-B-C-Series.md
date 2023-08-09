@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Keysight-J7211-A-B-C-Series.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-J7211-A-B-C-Series.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The ZVL is a compact, cost-efficient, powerful and portable network analyzer. It
 
 </div>
 
-<img src={require("./ZVL-13.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./ZVL-13.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

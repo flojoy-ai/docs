@@ -11,7 +11,7 @@ The Model 6220 DC Current Source and Model 6221 AC and DC Current Source combine
 
 </div>
 
-<img src={require("./Keithley-6220.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-6220.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 
