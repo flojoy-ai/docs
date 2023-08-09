@@ -11,7 +11,7 @@ The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially
 
 </div>
 
-<img src={require("./D5a.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./D5a.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 
 </div>
 
-<img src={require("./Model-625.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Model-625.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

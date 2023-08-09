@@ -11,7 +11,7 @@ The 2604B SourceMeter SMU instrument is a new dual channel SMU instrument with b
 
 </div>
 
-<img src={require("./Keithley-2604B.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-2604B.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The 2750 offers a cost-effective, high performance, affordable alternatives to s
 
 </div>
 
-<img src={require("./Keithley-2750.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-2750.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -13,7 +13,7 @@ The Keithley 580 can test more devices by enabling both test current polarity an
 
 </div>
 
-<img src={require("./Keithley-580.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-580.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

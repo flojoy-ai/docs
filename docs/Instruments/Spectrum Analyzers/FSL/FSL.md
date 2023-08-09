@@ -13,7 +13,7 @@ These analyzers are ideal for a large number of applications in development, ser
 
 </div>
 
-<img src={require("./FSL.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./FSL.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

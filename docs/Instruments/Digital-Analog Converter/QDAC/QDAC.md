@@ -11,7 +11,7 @@ QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled
 
 </div>
 
-<img src={require("./QDAC.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./QDAC.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

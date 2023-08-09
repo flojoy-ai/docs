@@ -11,7 +11,7 @@ The Keysight N5230C PNA-L is a microwave network analyzer made to test amplifier
 
 </div>
 
-<img src={require("./Keysight-N5230C.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-N5230C.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

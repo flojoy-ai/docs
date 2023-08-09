@@ -11,7 +11,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 
 </div>
 
-<img src={require("./M2j.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./M2j.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

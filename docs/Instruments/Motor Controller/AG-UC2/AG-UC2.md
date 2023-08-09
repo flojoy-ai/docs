@@ -11,7 +11,7 @@ The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axe
 
 </div>
 
-<img src={require("./AG-UC2.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./AG-UC2.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

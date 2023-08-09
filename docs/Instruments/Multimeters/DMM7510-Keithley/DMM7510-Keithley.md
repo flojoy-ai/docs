@@ -11,7 +11,7 @@ The DMM7510 7.5 digit multimeter combines a precision, high-resolution digital m
 
 </div>
 
-<img src={require("./DMM7510-Keithley.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./DMM7510-Keithley.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

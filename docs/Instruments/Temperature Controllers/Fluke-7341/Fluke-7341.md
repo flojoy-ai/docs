@@ -11,7 +11,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 </div>
 
-<img src={require("./Fluke-7341.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Fluke-7341.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

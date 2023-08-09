@@ -11,7 +11,7 @@ Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost 
 
 </div>
 
-<img src={require("./CC1.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./CC1.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ Class Connecting To The Lakeshore 425 Gaussmeter
 
 </div>
 
-<img src={require("./LKS-425-Gaussmeterctrl.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./LKS-425-Gaussmeterctrl.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

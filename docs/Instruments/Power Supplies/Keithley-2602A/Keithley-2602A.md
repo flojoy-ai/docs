@@ -11,7 +11,7 @@ The Keithley 2602A SourceMeter is used as either a bench-top I-V characterizatio
 
 </div>
 
-<img src={require("./Keithley-2602A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-2602A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

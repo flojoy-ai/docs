@@ -11,7 +11,7 @@ E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 
 </div>
 
-<img src={require("./Keysight-E3631A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-E3631A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

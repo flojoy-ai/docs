@@ -14,7 +14,7 @@ Application-specific probe customization available.
 
 </div>
 
-<img src={require("./Lakeshore-421.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Lakeshore-421.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

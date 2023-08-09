@@ -11,7 +11,7 @@ The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts com
 
 </div>
 
-<img src={require("./Keysight-N3300A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-N3300A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

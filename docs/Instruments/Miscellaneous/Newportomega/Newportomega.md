@@ -11,7 +11,7 @@ Device Server To Show The Omega Strain Gage From Newport, In A Tango System.
 
 </div>
 
-<img src={require("./Newportomega.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Newportomega.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

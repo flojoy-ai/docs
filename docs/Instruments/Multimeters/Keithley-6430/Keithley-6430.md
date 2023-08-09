@@ -11,7 +11,7 @@ he 6½-digit Model 6430 Sub-Femtoamp Remote SourceMeter SMU Instrument can measu
 
 </div>
 
-<img src={require("./Keithley-6430.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-6430.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

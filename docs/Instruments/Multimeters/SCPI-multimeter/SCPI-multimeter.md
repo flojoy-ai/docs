@@ -11,7 +11,7 @@ All SCPI Multimeters
 
 </div>
 
-<img src={require("./SCPI-multimeter.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./SCPI-multimeter.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

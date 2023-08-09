@@ -11,7 +11,7 @@ The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-d
 
 </div>
 
-<img src={require("./Keithley-485.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-485.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

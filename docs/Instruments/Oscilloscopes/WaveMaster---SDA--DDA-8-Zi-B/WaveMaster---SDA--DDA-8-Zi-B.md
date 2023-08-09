@@ -11,7 +11,7 @@ The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set 
 
 </div>
 
-<img src={require("./WaveMaster---SDA--DDA-8-Zi-B.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./WaveMaster---SDA--DDA-8-Zi-B.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

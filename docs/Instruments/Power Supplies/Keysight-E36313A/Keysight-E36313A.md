@@ -11,7 +11,7 @@ The triple output, 160 W, E36313A provides small, compact size for bench use; lo
 
 </div>
 
-<img src={require("./Keysight-E36313A.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keysight-E36313A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 

@@ -11,7 +11,7 @@ The Model 2000 6_-Digit Multimeter is part of Keithleys family of high performan
 
 </div>
 
-<img src={require("./Keithley-2000.jpg").default} style={{width:"256px", height: "200px"}}/>
+<img src={require("./Keithley-2000.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 
