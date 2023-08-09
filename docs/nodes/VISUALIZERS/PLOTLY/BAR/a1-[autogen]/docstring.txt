@@ -6,4 +6,4 @@ The BAR node creates a Plotly Bar visualization for a given input data container
 
     Supported DC types:
     ----------------
-    `OrderedPair`, `dataframe` (including timeseries), `matrix`, `vector`
+    `OrderedPair`, `DataFrame` (including timeseries), `Matrix`, `Vector`
