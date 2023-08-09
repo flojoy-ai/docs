@@ -13,4 +13,4 @@ The BIG_NUMBER node generates a plotly figure displaying a big number with optio
 
     Supported DC types:
     -------------------
-    `ordered_pair` or `scalar`
+    `OrderedPair` or `scalar`

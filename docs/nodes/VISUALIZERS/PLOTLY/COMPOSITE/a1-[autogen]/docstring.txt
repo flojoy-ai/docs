@@ -7,5 +7,5 @@ The COMPOSITE node creates a combination of Plotly visualizations for a given in
 
     Supported DC types:
     ----------------
-    `ordered_pair`, `dataframe` (including timeseries), `matrix`, `vector`
+    `OrderedPair`, `dataframe` (including timeseries), `matrix`, `vector`
 

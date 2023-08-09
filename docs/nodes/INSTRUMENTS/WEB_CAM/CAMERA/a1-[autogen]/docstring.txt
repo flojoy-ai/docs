@@ -11,4 +11,4 @@ The CAMERA node acquires an image using the selected camera.
     Returns:
     ----------
     DataContainer:
-        type 'image'
+        type 'Image'

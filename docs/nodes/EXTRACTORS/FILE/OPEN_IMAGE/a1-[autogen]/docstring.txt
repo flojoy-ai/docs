@@ -10,4 +10,4 @@ file_path : str
 Returns:
 --------
 DataContainer:
-    type 'image', r, g, b , a
+    type 'Image', r, g, b, a

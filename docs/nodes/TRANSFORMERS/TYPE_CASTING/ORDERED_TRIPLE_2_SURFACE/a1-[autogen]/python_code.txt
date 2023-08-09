@@ -3,7 +3,7 @@ import numpy as np
 
 
 @flojoy
-def ORDERED_TRIPLE_2_SURFACE(default: OrderedTriple) -> Surface:
+def OrderedTriple_2_SURFACE(default: OrderedTriple) -> Surface:
     
     x = np.unique(default.x)
     y = np.unique(default.y)
