@@ -11,7 +11,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 
 </div>
 
-<img src={require("./Keysight-M960XA-Series.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-M960XA-Series.jpg").default} width="256"/>
 
 </div>
 

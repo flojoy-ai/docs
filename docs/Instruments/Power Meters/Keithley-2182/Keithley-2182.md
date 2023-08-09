@@ -11,7 +11,7 @@ The two-channel Model 2182A Nanovoltmeter is optimized for making stable, low no
 
 </div>
 
-<img src={require("./Keithley-2182.jpg").default} width="256" height="150"/>
+<img src={require("./Keithley-2182.jpg").default} width="256"/>
 
 </div>
 

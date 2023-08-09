@@ -11,7 +11,7 @@ The Zurich Instruments SHFQA Quantum Analyzer integrates in a single instrument 
 
 </div>
 
-<img src={require("./SHFQA.jpg").default} width="256" height="150"/>
+<img src={require("./SHFQA.jpg").default} width="256"/>
 
 </div>
 

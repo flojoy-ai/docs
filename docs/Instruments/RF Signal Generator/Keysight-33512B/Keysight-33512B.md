@@ -11,7 +11,7 @@ The 33512B provides Keysight’s exclusive Trueform technology which offers unma
 
 </div>
 
-<img src={require("./Keysight-33512B.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-33512B.jpg").default} width="256"/>
 
 </div>
 

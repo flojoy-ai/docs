@@ -11,7 +11,7 @@ Providing 12 bits all the time, more channels than any other oscilloscope, and l
 
 </div>
 
-<img src={require("./WaveRunner-8000HD.jpg").default} width="256" height="150"/>
+<img src={require("./WaveRunner-8000HD.jpg").default} width="256"/>
 
 </div>
 

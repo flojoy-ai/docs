@@ -20,7 +20,7 @@ Wide range of PWM frequencies for linear motor support
 
 </div>
 
-<img src={require("./Gemini-GV6.jpg").default} width="256" height="150"/>
+<img src={require("./Gemini-GV6.jpg").default} width="256"/>
 
 </div>
 

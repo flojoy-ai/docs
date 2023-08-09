@@ -13,7 +13,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 
 </div>
 
-<img src={require("./SPD1305X-Power-Supply.jpg").default} width="256" height="150"/>
+<img src={require("./SPD1305X-Power-Supply.jpg").default} width="256"/>
 
 </div>
 

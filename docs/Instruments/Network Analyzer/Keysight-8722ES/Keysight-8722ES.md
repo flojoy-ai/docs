@@ -11,7 +11,7 @@ The Agilent 8722ES Vector Network Analyzer (VNA) allows users to test a RF devic
 
 </div>
 
-<img src={require("./Keysight-8722ES.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-8722ES.jpg").default} width="256"/>
 
 </div>
 

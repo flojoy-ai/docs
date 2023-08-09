@@ -11,7 +11,7 @@ The System 8500 Power Supply program offers the ultrastable Model 854 specially 
 
 </div>
 
-<img src={require("./SYSTEM-8500---Model-854.jpg").default} width="256" height="150"/>
+<img src={require("./SYSTEM-8500---Model-854.jpg").default} width="256"/>
 
 </div>
 

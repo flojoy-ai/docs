@@ -11,7 +11,7 @@ The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Singl
 
 </div>
 
-<img src={require("./PicoHarp-300.jpg").default} width="256" height="150"/>
+<img src={require("./PicoHarp-300.jpg").default} width="256"/>
 
 </div>
 

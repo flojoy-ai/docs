@@ -11,7 +11,7 @@ The Ithaco 1211 Current Preamplifier measures current with full scale sensitivit
 
 </div>
 
-<img src={require("./Ithaco-1211.jpg").default} width="256" height="150"/>
+<img src={require("./Ithaco-1211.jpg").default} width="256"/>
 
 </div>
 

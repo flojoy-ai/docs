@@ -11,7 +11,7 @@ QDAC-II is the next generation of the successful QDAC from QDevil. It has all th
 
 </div>
 
-<img src={require("./Qdac-2-Array.jpg").default} width="256" height="150"/>
+<img src={require("./Qdac-2-Array.jpg").default} width="256"/>
 
 </div>
 

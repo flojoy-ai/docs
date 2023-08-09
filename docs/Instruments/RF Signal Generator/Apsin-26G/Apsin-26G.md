@@ -11,7 +11,7 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 
 </div>
 
-<img src={require("./Apsin-26G.jpg").default} width="256" height="150"/>
+<img src={require("./Apsin-26G.jpg").default} width="256"/>
 
 </div>
 

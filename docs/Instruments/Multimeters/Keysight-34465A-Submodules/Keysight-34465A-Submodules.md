@@ -11,7 +11,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src={require("./Keysight-34465A-Submodules.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-34465A-Submodules.jpg").default} width="256"/>
 
 </div>
 

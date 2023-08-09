@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Keysight-MAwgDef.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-MAwgDef.jpg").default} width="256"/>
 
 </div>
 

@@ -11,7 +11,7 @@ The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz. It was initi
 
 </div>
 
-<img src={require("./F1d.jpg").default} width="256" height="150"/>
+<img src={require("./F1d.jpg").default} width="256"/>
 
 </div>
 

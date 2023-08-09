@@ -11,7 +11,7 @@ N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src={require("./Keysight-N9000A.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-N9000A.jpg").default} width="256"/>
 
 </div>
 

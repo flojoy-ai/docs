@@ -11,7 +11,7 @@ The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideal
 
 </div>
 
-<img src={require("./IDUS-401-CCD.jpg").default} width="256" height="150"/>
+<img src={require("./IDUS-401-CCD.jpg").default} width="256"/>
 
 </div>
 

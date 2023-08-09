@@ -11,7 +11,7 @@ The WaveSurfer 3000z has a 10.1" capacitive touch display, the longest memory, a
 
 </div>
 
-<img src={require("./WaveSurfer-3000z.jpg").default} width="256" height="150"/>
+<img src={require("./WaveSurfer-3000z.jpg").default} width="256"/>
 
 </div>
 
