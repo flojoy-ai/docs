@@ -11,7 +11,7 @@ Infiniium series oscilloscopes feature application-specific software that allows
 
 </div>
 
-<img src={require("./Infiniium-oscilloscopes-Series.jpg").default} width="256" height="150"/>
+<img src={require("./Infiniium-oscilloscopes-Series.jpg").default} width="256"/>
 
 </div>
 

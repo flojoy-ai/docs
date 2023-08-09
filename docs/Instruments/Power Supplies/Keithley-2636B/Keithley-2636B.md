@@ -11,7 +11,7 @@ The 2636B from Keithley is a 2600B series dual channel system SourceMeter® (SMU
 
 </div>
 
-<img src={require("./Keithley-2636B.jpg").default} width="256" height="150"/>
+<img src={require("./Keithley-2636B.jpg").default} width="256"/>
 
 </div>
 

@@ -11,7 +11,7 @@ Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board 
 
 </div>
 
-<img src={require("./Keysight-M3201A.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-M3201A.jpg").default} width="256"/>
 
 </div>
 

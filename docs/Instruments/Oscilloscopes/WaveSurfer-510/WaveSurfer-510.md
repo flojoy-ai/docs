@@ -11,7 +11,7 @@ The WaveSurfer 510 combines the MAUI with OneTouch user interface with powerful 
 
 </div>
 
-<img src={require("./WaveSurfer-510.jpg").default} width="256" height="150"/>
+<img src={require("./WaveSurfer-510.jpg").default} width="256"/>
 
 </div>
 

@@ -11,7 +11,7 @@ This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is:
 
 </div>
 
-<img src={require("./SMA100A.jpg").default} width="256" height="150"/>
+<img src={require("./SMA100A.jpg").default} width="256"/>
 
 </div>
 

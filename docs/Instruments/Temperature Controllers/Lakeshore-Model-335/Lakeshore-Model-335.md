@@ -11,7 +11,7 @@ The Model 335 supports the industry's most advanced line of cryogenic temperatur
 
 </div>
 
-<img src={require("./Lakeshore-Model-335.jpg").default} width="256" height="150"/>
+<img src={require("./Lakeshore-Model-335.jpg").default} width="256"/>
 
 </div>
 

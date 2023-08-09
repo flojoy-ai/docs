@@ -11,7 +11,7 @@ The Keysight 33622A function/arbitrary waveform generators offer the standard si
 
 </div>
 
-<img src={require("./Keysight-33622A.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-33622A.jpg").default} width="256"/>
 
 </div>
 

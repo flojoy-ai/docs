@@ -11,7 +11,7 @@ The LDA-302P-HN Lab Brick USB programmable 50 Ohm digital attenuator has an inpu
 
 </div>
 
-<img src={require("./LDA-302P-HN.jpg").default} width="256" height="150"/>
+<img src={require("./LDA-302P-HN.jpg").default} width="256"/>
 
 </div>
 

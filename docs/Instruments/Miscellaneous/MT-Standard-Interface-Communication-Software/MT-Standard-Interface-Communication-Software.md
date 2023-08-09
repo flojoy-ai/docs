@@ -11,7 +11,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 
 </div>
 
-<img src={require("./MT-Standard-Interface-Communication-Software.jpg").default} width="256" height="150"/>
+<img src={require("./MT-Standard-Interface-Communication-Software.jpg").default} width="256"/>
 
 </div>
 

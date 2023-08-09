@@ -12,7 +12,7 @@ Infiniium DCA Wide-Bandwidth Oscilloscope / up to 50 GHz
 
 </div>
 
-<img src={require("./Keysight-86100A.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-86100A.jpg").default} width="256"/>
 
 </div>
 

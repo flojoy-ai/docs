@@ -11,7 +11,7 @@ ATS9373 is a 12-bit waveform digitizer board that can sample one analog input at
 
 </div>
 
-<img src={require("./ATS9373---12-bit,-4-GS-s.jpg").default} width="256" height="150"/>
+<img src={require("./ATS9373---12-bit,-4-GS-s.jpg").default} width="256"/>
 
 </div>
 

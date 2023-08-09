@@ -11,7 +11,7 @@ The LDA-802EH Digital Attenuator is a high dynamic range, bidirectional, 50 Ohm 
 
 </div>
 
-<img src={require("./LDA-802EH.jpg").default} width="256" height="150"/>
+<img src={require("./LDA-802EH.jpg").default} width="256"/>
 
 </div>
 

@@ -11,7 +11,7 @@ The Agilent Technologies 8657A and 8657B signal generators are designed to test 
 
 </div>
 
-<img src={require("./Keysight-8657B.jpg").default} width="256" height="150"/>
+<img src={require("./Keysight-8657B.jpg").default} width="256"/>
 
 </div>
 

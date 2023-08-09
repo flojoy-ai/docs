@@ -11,7 +11,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 
 </div>
 
-<img src={require("./M4i.6631-x8.jpg").default} width="256" height="150"/>
+<img src={require("./M4i.6631-x8.jpg").default} width="256"/>
 
 </div>
 

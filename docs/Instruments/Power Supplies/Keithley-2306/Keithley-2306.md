@@ -11,7 +11,7 @@ The dual channel Battery/Charger Simulator was designed specifically for develop
 
 </div>
 
-<img src={require("./Keithley-2306.jpg").default} width="256" height="150"/>
+<img src={require("./Keithley-2306.jpg").default} width="256"/>
 
 </div>
 

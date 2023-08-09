@@ -11,7 +11,7 @@ The Model 336 supports the industry’s most advanced line of cryogenic temperat
 
 </div>
 
-<img src={require("./Lakeshore-Model-336.jpg").default} width="256" height="150"/>
+<img src={require("./Lakeshore-Model-336.jpg").default} width="256"/>
 
 </div>
 
