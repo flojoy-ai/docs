@@ -1,0 +1,35 @@
+
+# Mercuryips Visa
+
+## Instrument Card
+
+<div className="flex">
+
+<div>
+
+
+
+</div>
+
+<img src={require("./Mercuryips-Visa.jpg").default} width="256" height="150"/>
+
+</div>
+
+>
+
+<details open>
+<summary><h2>Manufacturer Card</h2></summary>
+
+Oxford Instruments plc is a United Kingdom manufacturing and research company that designs and manufactures tools and systems for industry and research. The company is headquartered in Abingdon, Oxfordshire, England, with sites in the United Kingdom, United States, Europe, and Asia.[2] It is listed on the London Stock Exchange and is a constituent of the FTSE 250 Index.[3]. <a href="https://www.oxinst.com/">Website</a>.
+
+<ul>
+  <li>Headquarters: Abingdon, United Kingdom</li>
+  <li>Yearly Revenue (millions, USD): 367.3</li>
+</ul>
+</details>
+
+## Connect to the Mercuryips Visa in Python
+
+[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+
