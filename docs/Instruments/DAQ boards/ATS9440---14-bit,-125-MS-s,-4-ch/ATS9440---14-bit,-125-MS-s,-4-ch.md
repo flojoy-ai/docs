@@ -11,7 +11,7 @@ ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane 
 
 </div>
 
-<img src={require("./ATS9440---14-bit,-125-MS-s,-4-ch.jpg").default} width="256"/>
+<img src={require("./ATS9440---14-bit,-125-MS-s,-4-ch.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

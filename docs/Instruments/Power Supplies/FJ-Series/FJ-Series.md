@@ -11,7 +11,7 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 </div>
 
-<img src={require("./FJ-Series.jpg").default} width="256"/>
+<img src={require("./FJ-Series.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

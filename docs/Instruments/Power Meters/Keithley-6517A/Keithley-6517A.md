@@ -11,7 +11,7 @@ The Keithley 6517A 5 1/2 digit Electrometer / High Resistance Meter offers extre
 
 </div>
 
-<img src={require("./Keithley-6517A.jpg").default} width="256"/>
+<img src={require("./Keithley-6517A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

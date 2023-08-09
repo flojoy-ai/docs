@@ -11,7 +11,7 @@ The HP 3478A 5.5 digit DMM with HP-IB interface
 
 </div>
 
-<img src={require("./Keysight-3478A.jpg").default} width="256"/>
+<img src={require("./Keysight-3478A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

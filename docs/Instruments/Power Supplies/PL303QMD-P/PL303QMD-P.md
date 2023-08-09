@@ -11,7 +11,7 @@ Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS23
 
 </div>
 
-<img src={require("./PL303QMD-P.jpg").default} width="256"/>
+<img src={require("./PL303QMD-P.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

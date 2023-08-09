@@ -11,7 +11,7 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 
 </div>
 
-<img src={require("./USB-SA-124-B.jpg").default} width="256"/>
+<img src={require("./USB-SA-124-B.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

@@ -12,7 +12,7 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 
 </div>
 
-<img src={require("./Newmark---NSC-A1.jpg").default} width="256"/>
+<img src={require("./Newmark---NSC-A1.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

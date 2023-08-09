@@ -13,7 +13,7 @@ This interface can be operated and powered by a PC via the mini-USB port. A read
 
 </div>
 
-<img src={require("./PM100USB.jpg").default} width="256"/>
+<img src={require("./PM100USB.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

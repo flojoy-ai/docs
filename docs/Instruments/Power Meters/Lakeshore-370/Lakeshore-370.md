@@ -11,7 +11,7 @@ The Model 370 AC resistance bridge is designed for precise, accurate, low noise,
 
 </div>
 
-<img src={require("./Lakeshore-370.jpg").default} width="256"/>
+<img src={require("./Lakeshore-370.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

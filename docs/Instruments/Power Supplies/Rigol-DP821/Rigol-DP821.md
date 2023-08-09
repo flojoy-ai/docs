@@ -11,7 +11,7 @@ The Rigol DP821 is a dual channel, remote sense programmable DC Power Supply. It
 
 </div>
 
-<img src={require("./Rigol-DP821.jpg").default} width="256"/>
+<img src={require("./Rigol-DP821.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

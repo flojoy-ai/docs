@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./NI-PXIe-2597.jpg").default} width="256"/>
+<img src={require("./NI-PXIe-2597.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

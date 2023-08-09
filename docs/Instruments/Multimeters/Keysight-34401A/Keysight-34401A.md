@@ -11,7 +11,7 @@ The Keysight Technologies, Inc. 34401A multimeter gives you the performance you 
 
 </div>
 
-<img src={require("./Keysight-34401A.jpg").default} width="256"/>
+<img src={require("./Keysight-34401A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

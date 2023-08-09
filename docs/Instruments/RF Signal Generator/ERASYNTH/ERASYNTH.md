@@ -12,7 +12,7 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 
 </div>
 
-<img src={require("./ERASYNTH.jpg").default} width="256"/>
+<img src={require("./ERASYNTH.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

@@ -11,7 +11,7 @@ The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 
 </div>
 
-<img src={require("./Ametek-7270.jpg").default} width="256"/>
+<img src={require("./Ametek-7270.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

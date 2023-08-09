@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./RFSG.jpg").default} width="256"/>
+<img src={require("./RFSG.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

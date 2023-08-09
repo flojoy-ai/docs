@@ -11,7 +11,7 @@ The 1000 Series from RIGOL include the B, D, and E series oscilloscopes. The E S
 
 </div>
 
-<img src={require("./Rigol-DS1000-Series.jpg").default} width="256"/>
+<img src={require("./Rigol-DS1000-Series.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

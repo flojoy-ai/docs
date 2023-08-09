@@ -12,7 +12,7 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 
 </div>
 
-<img src={require("./Lecroydso.jpg").default} width="256"/>
+<img src={require("./Lecroydso.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

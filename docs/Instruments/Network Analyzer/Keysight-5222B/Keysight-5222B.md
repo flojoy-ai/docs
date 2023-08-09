@@ -11,7 +11,7 @@ The Keysight N5222B PNA Microwave Network Analyzer 10 MHz to 26.5 GHz is an inte
 
 </div>
 
-<img src={require("./Keysight-5222B.jpg").default} width="256"/>
+<img src={require("./Keysight-5222B.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

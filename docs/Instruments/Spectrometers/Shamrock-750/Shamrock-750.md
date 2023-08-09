@@ -11,7 +11,7 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 
 </div>
 
-<img src={require("./Shamrock-750.jpg").default} width="256"/>
+<img src={require("./Shamrock-750.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

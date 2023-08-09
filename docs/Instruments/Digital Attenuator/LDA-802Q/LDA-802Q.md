@@ -11,7 +11,7 @@ The LDA-802Q Digital Attenuator is a 4-channel high dynamic range, bidirectional
 
 </div>
 
-<img src={require("./LDA-802Q.jpg").default} width="256"/>
+<img src={require("./LDA-802Q.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

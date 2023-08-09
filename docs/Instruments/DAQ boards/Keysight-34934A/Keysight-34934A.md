@@ -11,7 +11,7 @@ The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offe
 
 </div>
 
-<img src={require("./Keysight-34934A.jpg").default} width="256"/>
+<img src={require("./Keysight-34934A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 
