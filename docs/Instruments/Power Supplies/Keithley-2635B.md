@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The 2635B SourceMeter SMU instrument, is a new and improved one-channel SMU instrument with a tightly integrated four-quadrant design that allows it to simultaneously source and measure both voltage and current to boost productivity in applications ranging from R&D to automated production test. The wide range of 1.5A DC, 10A pulse, 200V output and 0.1fA measurement resolution makes it ideal to test a wide range of lower current devices and materials. In addition to retaining all the features of the Model 2635A, the Model 2635B has 6½-digit resolution, USB 2.0 connectivity, and software command emulation of the Model 2400 SourceMeter SMU Instrument to enable easy migration of legacy test code. The Model 2635B is equipped with Keithley's high speed TSP technology (over 190% faster than traditional PC-to-instrument communication techniques,) which dramatically improves the system-level speed to lower the cost of test.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/GRgyEqc4q5puWM2vVcQ22A/2zmI7I9qDxp5jjjS6sVGRqolyvh--ze9g7eSjd8gDtyXbbv19VvuvrchoJf844KG5KrrbVkyl0PgPOrog9drEl-XeBif1BGgirpL4ufM9GY/oMhf2tu9N0XFNi_hy4fGMGfUARZBVqCQ6HqHp0W0ZDk"/>
+
+</div>
+
+The 2635B SourceMeter SMU instrument, is a new and improved one-channel SMU instrument with a tightly integrated four-quadrant design that allows it to simultaneously source and measure both voltage and current to boost productivity in applications ranging from R&D to automated production test. The wide range of 1.5A DC, 10A pulse, 200V output and 0.1fA measurement resolution makes it ideal to test a wide range of lower current devices and materials. In addition to retaining all the features of the Model 2635A, the Model 2635B has 6½-digit resolution, USB 2.0 connectivity, and software command emulation of the Model 2400 SourceMeter SMU Instrument to enable easy migration of legacy test code. The Model 2635B is equipped with Keithley's high speed TSP technology (over 190% faster than traditional PC-to-instrument communication techniques,) which dramatically improves the system-level speed to lower the cost of test.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

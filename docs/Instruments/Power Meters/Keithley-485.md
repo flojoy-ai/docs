@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-digit resolution in a low-cost, highly sensitive, easy-to-use instrument. The 485 measures DC current on seven ranges covering 10 decades from 100fA to 2mA. The input can withstand overloads as high as 1000V (with 100kΩ limiting resistor) for flexibility in a wide range of applications in test, research, and student labs. An analog output linearly converts the incoming current to voltage for hard copy output or control loop applications.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/M7XX-aMdG3X45uX5UnrGvg/WOr1I6UoYSd2LvxBS8J_6gu_CORqKOakttRfe9tF6C_FuXzoHOj-2RR69EKKbCCnYuj1GaJuiIzPUbZYsL2_xpUWBmScyxvZA4wEe-paLTc/6pTUbOL2-KDrmu0G2MtjmfQvWVJEM_2JIvulmQ3ET_M"/>
+
+</div>
+
+The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-digit resolution in a low-cost, highly sensitive, easy-to-use instrument. The 485 measures DC current on seven ranges covering 10 decades from 100fA to 2mA. The input can withstand overloads as high as 1000V (with 100kΩ limiting resistor) for flexibility in a wide range of applications in test, research, and student labs. An analog output linearly converts the incoming current to voltage for hard copy output or control loop applications.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

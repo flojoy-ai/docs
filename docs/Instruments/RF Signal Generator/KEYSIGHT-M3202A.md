@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/oolCEWeNAJZJ-Fjg8dSqcA/vUzU3Rs7ZF8h_uOfnVcfCsHOPoubPHlTdu86qScCyX18KWKecVrTdhlRGFQTpbMcOF47WmnzqlgUdjmqlU0Hho4fDLuJuZ-aKsX3CKMvK50/0ZhaeVAsxZbWGwXgnxltbQ3W_dUDu3IAoum5yBlbzwQ"/>
+
+</div>
+
+Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,12 +3,29 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The RP100 is a two channel, sink-source power supply
 designed to drive the CS100 series strain cells and the FC100
 series stress cells. This power supply can be used in conjunction
 with the corresponding range of compatible Razorbill Instruments
 products to tune the electronic properties of materials by applying
 controlled strains and stresses to the material.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/_09joyMsldLuLJ8cN4M7tw/3ckmTkjwCmmPOCpFNMt0yq5lobjc0I60DNCoX15WvkFi-fqoBd9lJBIzL6z5pEBgwGmjh7nX2AM3XlnZij9xteziVuLfgmBC1AycL2o_NPI/yuejsp4VqcZYp_DFmE9hgqGKcTEpp5f7DwXD7b8UxoQ"/>
+
+</div>
+
+The RP100 is a two channel, sink-source power supply
+designed to drive the CS100 series strain cells and the FC100
+series stress cells. This power supply can be used in conjunction
+with the corresponding range of compatible Razorbill Instruments
+products to tune the electronic properties of materials by applying
+controlled strains and stresses to the material.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

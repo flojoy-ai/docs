@@ -3,6 +3,10 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Series 2600A System SourceMeter instruments are Keithley’s latest I-V source measurement unit
 (SMU) instruments for use as either bench-top I-V characterization tools or as building block components of multi-channel I-V test systems. For bench-top use, Series 2600A instruments feature an
 embedded TSP Express Software Tool that allows users to quickly and easily perform common I-V
@@ -10,6 +14,20 @@ tests without programming or installing software. For system level applications,
 Test Script Processor (TSP) architecture, along with other new capabilities such as parallel test execution and precision timing, provides the highest throughput in the industry, lowering the cost of test.
 To simplify the testing, verification, and analysis of semiconductor components, the optional ACS
 Basic Edition software is also available.
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+Series 2600A System SourceMeter instruments are Keithley’s latest I-V source measurement unit
+(SMU) instruments for use as either bench-top I-V characterization tools or as building block components of multi-channel I-V test systems. For bench-top use, Series 2600A instruments feature an
+embedded TSP Express Software Tool that allows users to quickly and easily perform common I-V
+tests without programming or installing software. For system level applications, the Series 2600A’s
+Test Script Processor (TSP) architecture, along with other new capabilities such as parallel test execution and precision timing, provides the highest throughput in the industry, lowering the cost of test.
+To simplify the testing, verification, and analysis of semiconductor components, the optional ACS
+Basic Edition software is also available.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

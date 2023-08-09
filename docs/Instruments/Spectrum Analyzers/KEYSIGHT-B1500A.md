@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/lmskR5GFyE9wYaVqy5FzQw/bYGydNFB81xwhFI4aQmSOlP6YMYMGVBBQmNNVIE2tr6JkuasTvDNfOrsiQMXqH6-JeVR-MSWwrAa8DUppYfa8Fk8UAjbf-LUDfbPvNnk5j6iEkhlUhS4AZmQ76hP_8jK/IrUDTmRe94FBvmh3mk_hoRwOwYKm6qRwnjz-MZPtHpU"/>
+
+</div>
+
+The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

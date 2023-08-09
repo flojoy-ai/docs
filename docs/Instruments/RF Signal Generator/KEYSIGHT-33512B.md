@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The 33512B provides Keysight’s exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements. The 33512B can be easily upgraded to 30 MHz as your needs change.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/j2TaDta4gzdmEGCyo9t6Zw/IeQtMJM56jwntOs6yfR_fzIC6MvKkqI1sZ7t2XnaBfD6cJy2VjfqzMO9qrSzTks6Ai5akRDyeuY6rLUKLRn4myJoF_Z37vf4OFUdEzmB5JQ/AxgTmk4RZaTLkNjhdW-Hf70wYA3R4doHKlwaJN1VPY8"/>
+
+</div>
+
+The 33512B provides Keysight’s exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements. The 33512B can be easily upgraded to 30 MHz as your needs change.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

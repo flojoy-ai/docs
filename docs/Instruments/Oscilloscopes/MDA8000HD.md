@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Motor Drive Analyzer is built on an 8 channel, 12-bit resolution oscilloscope platform. It acquires any signal and performs three-phase electrical and mechanical power calculations. It provides complete power section and embedded control test coverage.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/_QmdEStAhcfyO8Toh9UyHQ/jrclqjJlN3Pwn8KwUIVhoFimmG2D_V6N6E3poSD77HAOWR0wQ2HdVxYuOxT6EZaGpsit7yZeo6TqTp0tBzjaFe5wszyZpr0zhIja1vcqCp8/19TOuYREIP5Zk5lDGtmlGVAUV9rXcbTWPclE4iq82AI"/>
+
+</div>
+
+The Motor Drive Analyzer is built on an 8 channel, 12-bit resolution oscilloscope platform. It acquires any signal and performs three-phase electrical and mechanical power calculations. It provides complete power section and embedded control test coverage.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

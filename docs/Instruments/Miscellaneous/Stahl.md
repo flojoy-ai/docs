@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
 
+<div>
+
+
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

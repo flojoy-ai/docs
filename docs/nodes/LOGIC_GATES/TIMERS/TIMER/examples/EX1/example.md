@@ -1,1 +1,3 @@
-In this example the `TIMER` node sleeps for number of seconds passed to its parameter `sleep_time` which is 5 in this case before executing other nodes `CONSTANT` and `END`.
+<!--- Add SEO here --->
+
+In this example, the `TIMER` node sleeps for the number of seconds that is passed to its `sleep_time` parameter (which is 5 in this case), before executing the other `CONSTANT` and `END` nodes.

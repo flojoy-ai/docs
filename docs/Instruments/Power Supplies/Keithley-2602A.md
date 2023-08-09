@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keithley 2602A SourceMeter is used as either a bench-top I-V characterization tool or as a building block component of multi-channel I-V test systems. For bench-top use, the Keithley 2602A SourceMeter features an embedded TSP® Express Software Tool that allows users to quickly and easily perform common I-V tests without programming or installing software. For system level applications, the Keithley 2602A SourceMeter's Test Script Processor (TSP®) architecture along with new capabilities such as parallel test execution and precision timing provide the highest throughput in the industry to lower the cost of test.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/FHlw0xxuMmH8_BuatmB8DA/cua3wUGL_WvESIY1meiJ3iIIyIKvMzpzjKZfKsEJ2GMKiOMLe-n_hW5u0g79jXGdfwAveNzo8DlIwpJd1_AsrAQOnACO3_hdhCca6evPfSA/AeZIs7rbTVpLAkkAYFNhGbeerAGKtyBdB0fZQl4eqLg"/>
+
+</div>
+
+The Keithley 2602A SourceMeter is used as either a bench-top I-V characterization tool or as a building block component of multi-channel I-V test systems. For bench-top use, the Keithley 2602A SourceMeter features an embedded TSP® Express Software Tool that allows users to quickly and easily perform common I-V tests without programming or installing software. For system level applications, the Keithley 2602A SourceMeter's Test Script Processor (TSP®) architecture along with new capabilities such as parallel test execution and precision timing provide the highest throughput in the industry to lower the cost of test.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

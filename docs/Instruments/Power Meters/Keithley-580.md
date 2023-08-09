@@ -3,9 +3,23 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keithley 580 Micro-ohmmeter combines high accuracy, resolution, and sensitivity with three special capabilities that make micro-ohm measurements easier and more versatile than ever. When measuring contact and connector resistances, it is important not to puncture oxides and films that may have formed. The Model 580 ensures this dry-circuit condition by clamping the open-circuit test voltage to 20mV on the 200m, 2, and 20 ranges when the 20mV MAX button is pressed.
 
 The Keithley 580 can test more devices by enabling both test current polarity and waveform (DC or pulsed) to be selected. When using pulsed test current, the Model 580 automatically compensates for thermoelectric EMFs. Tests on inductive devices are best performed using DC test current, as this avoids the effects of time constants on pulsed current resistance measurements. For temperature-sensitive components, a single trigger mode of operation minimizes power delivered to the device.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/oWg1kP_vzHRZwO_tKkl6ag/OzXnTdkndLcsLxDUhL3osew4n7yNYdukK0MaPwfgNR7oBeuma4MNxKNyPcVw4GXvpK8TNV9cUMtu6V1kIsjtHQ/ASWqcelU_pkbUw4427w-Xy5ESZ_w8MKzUAEMtZjGuOs"/>
+
+</div>
+
+The Keithley 580 Micro-ohmmeter combines high accuracy, resolution, and sensitivity with three special capabilities that make micro-ohm measurements easier and more versatile than ever. When measuring contact and connector resistances, it is important not to puncture oxides and films that may have formed. The Model 580 ensures this dry-circuit condition by clamping the open-circuit test voltage to 20mV on the 200m, 2, and 20 ranges when the 20mV MAX button is pressed.
+
+The Keithley 580 can test more devices by enabling both test current polarity and waveform (DC or pulsed) to be selected. When using pulsed test current, the Model 580 automatically compensates for thermoelectric EMFs. Tests on inductive devices are best performed using DC test current, as this avoids the effects of time constants on pulsed current resistance measurements. For temperature-sensitive components, a single trigger mode of operation minimizes power delivered to the device.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The APT™ MST602 module is a dual-channel, high-resolution, rack-mounted stepper motor driver designed for use with the APT MMR601 Motion Control 19" Modular Rack System. It has been designed to drive 2-phase bi-polar stepper motors up to 50 W, with or without encoder feedback, and is compatible with the full range of stepper-motor-equipped nanopositioning actuators and stages offered by Thorlabs. Alternatively, it is also compatible with any generic two-phase bi-polar motor of varying powers and varying cardinal step sizes.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/PNjE9xLOnZLd2B7KJzvhaw/Itm8KUIMqnPQPNBCFoERHiwKn6LeThfh4MEezaQsCjI9o0vlh96TJbrzSuvDzzTph-GzCa35h_GBexv8ASr-Y0zYBG0G60bN5aP50bNR6rQ/7d8YFCt5sQoTMbGyOUNnfUwm8r26bp7iEO5MAZIccSA"/>
+
+</div>
+
+The APT™ MST602 module is a dual-channel, high-resolution, rack-mounted stepper motor driver designed for use with the APT MMR601 Motion Control 19" Modular Rack System. It has been designed to drive 2-phase bi-polar stepper motors up to 50 W, with or without encoder feedback, and is compatible with the full range of stepper-motor-equipped nanopositioning actuators and stages offered by Thorlabs. Alternatively, it is also compatible with any generic two-phase bi-polar motor of varying powers and varying cardinal step sizes.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

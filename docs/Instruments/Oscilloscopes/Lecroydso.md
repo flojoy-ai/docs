@@ -4,7 +4,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 This Class Allows The Acquisition Of A Waveform (The Description And The Data), From A Specific C...
+
+</div>
+
+<img width="256" src="nan"/>
+
+</div>
+
+This Class Allows The Acquisition Of A Waveform (The Description And The Data), From A Specific C...>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The R&S ZNB8 from Rohde & Schwarz is a Vector Network Analyzer with Frequency 9 kHz to 8.5 GHz, Measurement Speed 4 ms, Dynamic Range typ. 122 dB to 140 dB, Output Power typ. 12 dBm to 15 dBm, Power Sweep Range 98 dB. Tags: VNA with Screen. More details for R&S ZNB8 can be seen below.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/Q3IEj-Rn0rmsYakO-1lXlA/MbYPD6og2VAaZ_Y9US4Lo-BQDR7X6OJrxPlvlkhxfO-I_zaWIAyAxHGns5yaaptGRdjJrPGH56MUToQwSUSUsFj13TxkDoK3VJKUlGmyVTw/Eiubi73HdmK6jeH2E_zUh4L3DlKYFAYEWBpG-rygQGg"/>
+
+</div>
+
+The R&S ZNB8 from Rohde & Schwarz is a Vector Network Analyzer with Frequency 9 kHz to 8.5 GHz, Measurement Speed 4 ms, Dynamic Range typ. 122 dB to 140 dB, Output Power typ. 12 dBm to 15 dBm, Power Sweep Range 98 dB. Tags: VNA with Screen. More details for R&S ZNB8 can be seen below.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

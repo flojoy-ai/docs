@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-grade performance in a more economical package that excludes a number of advanced features
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/InDZyhcQxnlu9X9_i7Lurg/Mk2CI7uRrRflsxCh2lgma43ez7g7R5KEffwRl0uIcQKT74e7ORUxP6T0bugz_fTLHl_cB96ME3jmcBfdkKyBRx17YuQIFQb3Y1cvIUKndg4/hrurrxTFGrosC-Phh-gHZYjK_AySs4IUjfkZ2qgoSWg"/>
+
+</div>
+
+The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-grade performance in a more economical package that excludes a number of advanced features>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 8116A 50 MHZ PULSE/FUNCTION GENERATOR
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/g7ZPextTWNpyVcA_AxSKKA/ayVSLBQeUDvgmPAGYsF-JBdzKm1xDdPTFoOOxT8r7EL_Bp19N0CtgvhKkyqeBljO9RcMdw0JFZUhunusjljFXnc5Pn9i4HIgkNp7DTIdd3Q/3p_4aPT2C8JacQlnWkT610jdRD4gS6gmUX2ReM8WqKU"/>
+
+</div>
+
+8116A 50 MHZ PULSE/FUNCTION GENERATOR>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

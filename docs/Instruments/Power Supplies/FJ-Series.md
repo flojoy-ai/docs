@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0 - 1kVDC to 0 - 60kVDC
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/mDAemomJhUR6v1YGDC8NGw/iYZwuDeQKcAy6JbT_yrKjIvU8VfScoTMxQVFlZCczqt_ydfxq_FRTWspkvUwtiYV4ngG_MZRiK3NJokBvUpHyO6SnXo0vozxUl457fmo3tw/8Osv_EFFf45reEnrxxDkAERt1xyQNaygky4fWX4VMds"/>
+
+</div>
+
+FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0 - 1kVDC to 0 - 60kVDC>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

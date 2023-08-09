@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Zurich Instruments PQSC Programmable Quantum System Controller brings together the instrumentation required for quantum computers with up to 100 qubits. Its ZSync low-latency, real-time communication links are designed specifically for quantum computing: the PQSC overcomes the practical limitations of traditional control methods, making automated and rapid qubit calibration routines a reality. Programming access to the powerful Xilinx UltraScale+ FPGA is the basis for developing new and optimized processing solutions for rapid tune-up and error correction adapted to the specific algorithm and computer architecture in use.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/MjkPRCFB-nuenAjWIw8u6A/5mGeo_1fazgDX9bd8vyisiUNKvbe1Eeiie98hSEvAW1s96miiP0NJbNuxhNDGjI3S6M3XfgDuXVYm2yrioInlvqHkK8nJPjGIpfxqOfAdHWPiiy6bUGiPiwogNzghRyU/Al9dxJEaV8wcbY-QheME2GpxaokQozK9TUBHuoFRVQY"/>
+
+</div>
+
+The Zurich Instruments PQSC Programmable Quantum System Controller brings together the instrumentation required for quantum computers with up to 100 qubits. Its ZSync low-latency, real-time communication links are designed specifically for quantum computing: the PQSC overcomes the practical limitations of traditional control methods, making automated and rapid qubit calibration routines a reality. Programming access to the powerful Xilinx UltraScale+ FPGA is the basis for developing new and optimized processing solutions for rapid tune-up and error correction adapted to the specific algorithm and computer architecture in use.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

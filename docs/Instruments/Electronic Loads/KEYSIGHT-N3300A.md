@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts combinations of N330x user-installable load modules (150 W to 600 W) for easy system configuration and future reconfiguration. The N3300A holds up to six N3302A, N3303A, N3304A, N3307A load modules, or three N3305A, N3306A double-wide modules, allowing a total up to 1,800 watts of maximum power.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/INJuOT8JrTTmbYYbSk_pLQ/dydYjYcn6yW5QC8szVV-9QwrtEq7PbIYRHNXA7VwuEBu1KvVypFJ3uKLbJNXqUJRqcoaKwscLvXIYCfhpiJLUhrDl9qEieMOIQc26aJ1RXU/nzxZ1YAMh9LiY1geFEoDzkpV3iug_2mI6mNzWNLEttE"/>
+
+</div>
+
+The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts combinations of N330x user-installable load modules (150 W to 600 W) for easy system configuration and future reconfiguration. The N3300A holds up to six N3302A, N3303A, N3304A, N3307A load modules, or three N3305A, N3306A double-wide modules, allowing a total up to 1,800 watts of maximum power.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

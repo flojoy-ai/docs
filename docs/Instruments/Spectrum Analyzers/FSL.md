@@ -3,9 +3,23 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The R&S FSL series Spectrum Analyzer – are a lightweight and compact range of spectrum analyzer for cost-conscious users who want the functionality of high-end instruments.
 
 These analyzers are ideal for a large number of applications in development, service and production.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/LYe0D98jWu0a7W-3TKWS5g/T2PcRz6ay1dr0ddHjoKRWSFsPfRpD4sA_cqv_Ax-Lvhq43TG6ZW6dYOjRXOatE2VtP6tdyFyDTxRx6g7YZ1tLRBEpz66-n1HyHji14RgEFv-5wUh3Tc7lPePsdstlHunUsMJ8HgANHJNsCoer-gwx1mcpL56R_E1w3O34IrHnaM/oUjOdCYXCFWqAic2Bgzm1nG_X_F1BFKZx1VKJsFZv10"/>
+
+</div>
+
+The R&S FSL series Spectrum Analyzer – are a lightweight and compact range of spectrum analyzer for cost-conscious users who want the functionality of high-end instruments.
+
+These analyzers are ideal for a large number of applications in development, service and production.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

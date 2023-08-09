@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Deep-Well Compact Bath, –45 °C to 150 °C
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/VeliAy1u6JYATroBCpHtrw/6XuIIXg2zsbHfwMEHrRzhrfMVvcAdJ42zTYNziovl_Z9kl7yZpWc0QZaLXUroPvh7xT2wbeSjM8u1Njip2NRgKgYgRucwQm1gAmRdjtr698/boLI1NCffDKyE67Mhp_D1Db-IXD_YO_UtQwYCL-W2CQ"/>
+
+</div>
+
+Deep-Well Compact Bath, –45 °C to 150 °C>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

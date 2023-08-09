@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF and microwave frequencies from 0.1 Hz to 70 GHz in single coaxial output and up to 500 GHz or beyond, with external multipliers
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/bhRM3pIBWvfdzj-LM1ImeQ/Oa76S80R0gLZ_Pv9i_ZlolkZ8jM9-1r1quEGkThLRqrhbfMwZNGuGcQAnaYlf3eZvuwzlnwaQ57EOKdpd2uhgFXfa2a_lTLXca_CINSuPCY/O0cL8iCWEiLP2SEtMP4nZHER5U0QyXOA3NQS7Z5HMyE"/>
+
+</div>
+
+The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF and microwave frequencies from 0.1 Hz to 70 GHz in single coaxial output and up to 500 GHz or beyond, with external multipliers>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

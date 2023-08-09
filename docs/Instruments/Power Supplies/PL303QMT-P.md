@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6A, USB, RS232 & LAN Interfaces
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/iaUbGpnZXWh4caRmoLD_JA/BWVujAvOPj8sgX2WX9xuNhi5pjRipFDYPG4OtU9EBPqJuL1Mm8HnwEiaI2EfyaFTEXu96D4x5boiOAViatXZqx_OlQ634rIKHXiS3YcJcFc/HV9sfSdJE2gyRzMVuSFKkzloQXXOgIYbHprjpfMqcUc"/>
+
+</div>
+
+Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6A, USB, RS232 & LAN Interfaces>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

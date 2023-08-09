@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the frequency range from DC to 600 MHz. It offers a time constant of 30 ns for demodulation – resulting in a demodulation bandwidth that exceeds 5 MHz.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/ExD30lMcF03cOSR-dH8Vkw/qW4yePAhAK8j3UsfZKNQovThKnGmZ4nktU0LsKRBKEwG172lajVXHdqNHy9JU0hQhk2YSwjmbi0p57jcNQ5q64LLQI84k4J3ns78KsJWx0k/JXbZpz1f-c4TUf61UA4eJ-cgNECPFLoQRid7ArdM-Dg"/>
+
+</div>
+
+The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the frequency range from DC to 600 MHz. It offers a time constant of 30 ns for demodulation – resulting in a demodulation bandwidth that exceeds 5 MHz.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

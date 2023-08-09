@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed for reflectometry. The output power of the fundamental frequency ranges from -20 dBm to 14 dBm and can be controlled by both the front panel and via software. The RF output can be muted by an external source, which gives an on/off ratio of larger than 60 dB.
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/wrgQq9BB7igX5h3gDholmQ/w0QPRVkC3RNxVQChFQzeYUizjFkPX39lz6EtfxqvuvzXDNBnyzHCXhOs__rFt9z83BhJOI6jKp03OSxwfqQ3pXFzhpof6s-DOrOxy66k2ig/YY80fheVab8QGiDGIHX8eG-6kCfhT3A8RLCt1mmKWes"/>
+
+</div>
+
+The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed for reflectometry. The output power of the fundamental frequency ranges from -20 dBm to 14 dBm and can be controlled by both the front panel and via software. The RF output can be muted by an external source, which gives an on/off ratio of larger than 60 dB.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 4156C Precision Semiconductor Parameter Analyzer
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/nMWApC64dC6HpaiidPIYXw/9j-0wlz9gtsFcNrTDwwbp67qZZogU8vXkUibT91h5J6yKfHeXgtdoXsByHAcF_F87LPSf3ZeS5ZWz_kmrJSa_X-FGnA2EvGf4IH2Ivj52RE/FxmwBMtGfD9QkozbH2fByWwOJ-Mp6U2ydbDHfQ0vp3M"/>
+
+</div>
+
+4156C Precision Semiconductor Parameter Analyzer>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

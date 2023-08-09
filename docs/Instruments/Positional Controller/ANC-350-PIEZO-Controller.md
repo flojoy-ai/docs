@@ -3,7 +3,19 @@
 
 ## Instrument Card
 
+<div className="flex">
+
+<div>
+
 multi-functional piezo controller for closed loop positioners
+
+</div>
+
+<img width="256" src="https://v5.airtableusercontent.com/v1/19/19/1691539200000/igeLxzH-FeHyJ9y5oomHIg/Fz4RbVoEg57Q8KFRRAKVKqxVD5yMHyb6gJCz4rCsH-UIgt2U7fIwm58eFNcgjaOXNkLRcdrLQ3ncISC1P-O4oIDtHjIAMTJIh5plEK_fa_4/jrfi3cDNzoHz5Zz5MZZK8Kg2qF5cNyL6tZGxwAvPN_s"/>
+
+</div>
+
+multi-functional piezo controller for closed loop positioners>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
