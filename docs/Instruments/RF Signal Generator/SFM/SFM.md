@@ -13,7 +13,7 @@ RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
 
 </div>
 
-<img src={require("./SFM.jpg").default} width="256"/>
+<img src={require("./SFM.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

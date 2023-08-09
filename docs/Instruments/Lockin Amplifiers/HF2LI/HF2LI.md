@@ -11,7 +11,7 @@ The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequen
 
 </div>
 
-<img src={require("./HF2LI.jpg").default} width="256"/>
+<img src={require("./HF2LI.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

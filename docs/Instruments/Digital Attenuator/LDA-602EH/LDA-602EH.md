@@ -11,7 +11,7 @@ The LDA-602EH Lab Brick USB programmable 50 Ohm high resolution digital attenuat
 
 </div>
 
-<img src={require("./LDA-602EH.jpg").default} width="256"/>
+<img src={require("./LDA-602EH.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

@@ -17,7 +17,7 @@ Basic Edition software is also available.
 
 </div>
 
-<img src={require("./Keithley-2600.jpg").default} width="256"/>
+<img src={require("./Keithley-2600.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

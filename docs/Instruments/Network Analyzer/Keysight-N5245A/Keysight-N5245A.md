@@ -11,7 +11,7 @@ The Keysight N5245A Network Analyzer provides a wide range of measurement applic
 
 </div>
 
-<img src={require("./Keysight-N5245A.jpg").default} width="256"/>
+<img src={require("./Keysight-N5245A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

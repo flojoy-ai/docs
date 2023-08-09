@@ -11,7 +11,7 @@ The R&S®SGS100A is an RF source designed to meet the requirements of automated 
 
 </div>
 
-<img src={require("./R&S-SGS100A.jpg").default} width="256"/>
+<img src={require("./R&S-SGS100A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

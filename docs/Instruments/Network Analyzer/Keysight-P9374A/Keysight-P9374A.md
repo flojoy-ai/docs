@@ -11,7 +11,7 @@ P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceles
 
 </div>
 
-<img src={require("./Keysight-P9374A.jpg").default} width="256"/>
+<img src={require("./Keysight-P9374A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

@@ -11,7 +11,7 @@ The new Keysight N7776C top line tunable laser source is designed to reach best-
 
 </div>
 
-<img src={require("./Keysight-N7776C.jpg").default} width="256"/>
+<img src={require("./Keysight-N7776C.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

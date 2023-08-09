@@ -11,7 +11,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 </div>
 
-<img src={require("./Keysight-33521-A.jpg").default} width="256"/>
+<img src={require("./Keysight-33521-A.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

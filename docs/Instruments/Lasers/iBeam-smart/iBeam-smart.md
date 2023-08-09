@@ -11,7 +11,7 @@ The iBeam smart is the ultimate choice when looking for a high-performance, ultr
 
 </div>
 
-<img src={require("./iBeam-smart.jpg").default} width="256"/>
+<img src={require("./iBeam-smart.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

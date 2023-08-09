@@ -11,7 +11,7 @@ Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6
 
 </div>
 
-<img src={require("./PL303QMT-P.jpg").default} width="256"/>
+<img src={require("./PL303QMT-P.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

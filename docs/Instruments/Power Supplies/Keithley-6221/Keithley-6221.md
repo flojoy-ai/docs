@@ -11,7 +11,7 @@ The 6221 AC and DC Current Source combine ease of use with exceptionally low cur
 
 </div>
 
-<img src={require("./Keithley-6221.jpg").default} width="256"/>
+<img src={require("./Keithley-6221.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

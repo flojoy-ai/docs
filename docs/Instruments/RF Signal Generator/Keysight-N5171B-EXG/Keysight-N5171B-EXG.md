@@ -11,7 +11,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 </div>
 
-<img src={require("./Keysight-N5171B-EXG.jpg").default} width="256"/>
+<img src={require("./Keysight-N5171B-EXG.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

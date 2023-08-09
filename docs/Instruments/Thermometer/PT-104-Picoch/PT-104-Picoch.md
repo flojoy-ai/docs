@@ -11,7 +11,7 @@ The PT-104 is a four-channel temperature measuring data logger. It offers the ul
 
 </div>
 
-<img src={require("./PT-104-Picoch.jpg").default} width="256"/>
+<img src={require("./PT-104-Picoch.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

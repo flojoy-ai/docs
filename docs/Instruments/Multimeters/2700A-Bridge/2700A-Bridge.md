@@ -15,7 +15,7 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 
 </div>
 
-<img src={require("./2700A-Bridge.jpg").default} width="256"/>
+<img src={require("./2700A-Bridge.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 

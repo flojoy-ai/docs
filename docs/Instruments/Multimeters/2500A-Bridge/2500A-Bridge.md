@@ -11,7 +11,7 @@ The AH 2500A offers unparalleled stability, resolution and accuracy in a capacit
 
 </div>
 
-<img src={require("./2500A-Bridge.jpg").default} width="256"/>
+<img src={require("./2500A-Bridge.jpg").default} style={{width:"256px", height: "200px"}}/>
 
 </div>
 
