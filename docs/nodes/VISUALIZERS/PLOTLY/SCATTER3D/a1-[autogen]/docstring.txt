@@ -6,4 +6,4 @@ The SCATTER3D node creates a Plotly 3D Scatter visualization for a given input d
 
     Supported DC types:
     -------------------
-    `OrderedTriple`, `dataframe`
+    `OrderedTriple`, `DataFrame`

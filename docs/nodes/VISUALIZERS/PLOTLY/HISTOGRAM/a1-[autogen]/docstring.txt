@@ -7,5 +7,5 @@ The HISTOGRAM node creates a Plotly Histogram visualization for a given
 
     Supported DC types:
     ------------------
-    `OrderedPair`, `dataframe`, `matrix`, `vector`
+    `OrderedPair`, `DataFrame`, `Matrix`, `Vector`
 

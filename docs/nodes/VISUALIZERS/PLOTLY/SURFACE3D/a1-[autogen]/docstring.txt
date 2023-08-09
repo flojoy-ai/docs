@@ -6,4 +6,4 @@ The SURFACE3D node creates a Plotly 3D Surface visualization for a given input d
 
     Supported DC types:
     -------------------
-    `OrderedTriple`, `dataframe`, `surface`, `matrix`
+    `OrderedTriple`, `DataFrame`, `Surface`, `Matrix`

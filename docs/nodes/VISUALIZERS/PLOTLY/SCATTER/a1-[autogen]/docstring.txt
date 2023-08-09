@@ -6,4 +6,4 @@ The SCATTER Node creates a Plotly Scatter visualization for a given input data c
 
     Supported DC types:
     -------------------
-    `OrderedPair`, `dataframe`, `matrix`
+    `OrderedPair`, `DataFrame`, `Matrix`
