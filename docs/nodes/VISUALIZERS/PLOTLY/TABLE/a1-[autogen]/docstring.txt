@@ -6,4 +6,4 @@ The TABLE node creates a Plotly table visualization for a given input data conta
 
     Supported DC types:
     -------------------
-    `OrderedPair`, `dataframe`, `OrderedTriple`
+    `OrderedPair`, `DataFrame`, `OrderedTriple`
