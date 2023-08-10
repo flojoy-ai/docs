@@ -3,7 +3,7 @@ from scipy import integrate
 from sympy import parse_expr, lambdify
 
 
-@flojoy
+@flojoy(deps={"sympy": "1.12"})
 def DOUBLE_DEFINITE_INTEGRAL(
     function: str = "",
     upper_bound_x: float = 0.0,
@@ -11,6 +11,7 @@ def DOUBLE_DEFINITE_INTEGRAL(
     upper_bound_y: float = 0.0,
     lower_bound_y: float = 0.0,
 ) -> Scalar:
+    
     
     func = parse_expr(function)
     symbols = tuple(func.free_symbols)
