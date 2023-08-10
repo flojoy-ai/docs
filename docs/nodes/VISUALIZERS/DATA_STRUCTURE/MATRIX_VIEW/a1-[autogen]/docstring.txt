@@ -5,9 +5,8 @@ displays its visualization using a Plotly table in matrix format.
 Inputs
 -------
 default : OrderedPair | Matrix
-    DataContainer object to be visualized in matrix format with Plotly table
-
+    the DataContainer to be visualized in matrix format.
 Outputs
 -------
 Plotly
-    Plotly type of DataContainer object
+    the DataContainer containing visualization of the input in matrix format

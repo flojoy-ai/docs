@@ -4,10 +4,10 @@ The COMPOSITE node creates a combination of Plotly visualizations for a given in
 Inputs
 ------
 primary_trace : OrderedPair|DataFrame|Matrix|Vector
-    DataContainer object to be visualized as the first figure
+    the DataContainer to be visualized as the first figure
 
 secondary_trace : OrderedPair|DataFrame|Matrix|Vector
-    DataContainer object to be visualized as the second figure
+    the DataContainer to be visualized as the second figure
 
 Parameters
 ----------
@@ -19,4 +19,4 @@ second_figure : 'bar' | 'line' | 'histogram' | 'scatter'
 Outputs
 -------
 Plotly
-    Plotly type of DataContainer object
+    the DataContainer containing Plotly visualization of both figures

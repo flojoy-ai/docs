@@ -4,9 +4,9 @@ The TEXT_VIEW node creates a text visualization for a given TextBlob DataContain
 Inputs
 ------
 default : TextBlob
-    DataContainer object to be visualized in text format
+    the DataContainer to be visualized in text format
 
 Outputs
 -------
-Plotly
-    Plotly type of DataContainer object
+TextBlob
+    the DataContainer containing text data
