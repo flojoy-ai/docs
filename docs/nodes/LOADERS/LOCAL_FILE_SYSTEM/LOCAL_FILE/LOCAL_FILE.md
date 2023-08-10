@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LOCAL_FILE
+description: The LOCAL_FILE node loads a local file of different format and converts it to a DataContainer class.
+keyword: [Python, Extractor, Extract, Local file loading, Load data from local files, Data loading from file system, Flojoy Local File Loader, Python local file handling, Data import from local storage, Local data processing, Python file system loader, Efficient data access, Data loading with Flojoy]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

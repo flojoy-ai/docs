@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SURFACE3D
+description: The SURFACE3D node creates a Plotly 3D Surface visualization for a given input data container.
+keywords: [Python, Visualize, Plotly, 3D, Plotly Surface3D visualizer, Python 3D surface plot tool, Three-dimensional data visualization, Surface3D plot examples, Flojoy Plotly nodes, Interactive 3D surface charts, Python data visualization, 3D surface plot creation, Visualizing data with Plotly, Three-dimensional data analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SURFACE3D/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

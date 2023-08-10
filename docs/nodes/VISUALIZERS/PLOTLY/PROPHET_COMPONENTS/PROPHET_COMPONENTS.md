@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PROPHET_COMPONENTS
+description: Explore Python-powered Prophet components visualization in Flojoy. Master dynamic insights into time series forecasting components.
+keywords: [Python, Visualize, Plotly, Plotly Prophet Components visualizer, Python time series visualization, Dynamic Prophet components insight, Plotly time series plot examples, Flojoy Plotly nodes, Interactive time series visualization, Python data visualization tools, Time series components representation, Visualizing Prophet components with Plotly, Time series analysis using Prophet]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SKLEARNIMAGE
+description: Explore Python-powered image data generation with Flojoy's SklearnImage generator nodes designed to load example images from scikit-image.
+keywords: [Python, Generate, SklearnImage generator, Sample image data generation, Python image data simulation, Image dataset generation, Flojoy generator nodes, AI/ML image datasets, SklearnImage examples, Synthetic image data, Image data for training, Image data augmentation]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/SKLEARNIMAGE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: COMPOSITE
+description: The COMPOSITE node creates a combination of Plotly visualizations for a given input data container.
+keywords: [Python, Visualize, Plotly, Plotly Composite visualizer, Composite data visualization, Data fusion using Plotly, Composite plot examples, Flojoy Plotly nodes, Multi-dimensional data visualization, Python composite data representation, Visualizing complex data, Plotly for composite insights, Interactive composite visualization]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/COMPOSITE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
