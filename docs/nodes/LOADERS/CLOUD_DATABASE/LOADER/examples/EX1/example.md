@@ -1,6 +1,6 @@
 ---
 title: LOADER
-description: This node imports a credentials file  and measurement_uuid and sends input measurements to Frontier API on every run. It will throw an error if any of these two keys are not found.
+description: This node imports a credentials file and measurement_uuid and sends input measurements to a Frontier API on every run. It will throw an error if any of these two keys are not found.
 keyword: [Python, Load, Dataset loading in Python, Cloud database loader, Data loading from cloud, Flojoy Cloud Database Loader, Cloud data import, Python data retrieval, Cloud data processing, Efficient data loading, Streamline cloud data access, Cloud data integration, Data loading for analysis]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/LOADER/examples/EX1/output.jpeg
 ---  
