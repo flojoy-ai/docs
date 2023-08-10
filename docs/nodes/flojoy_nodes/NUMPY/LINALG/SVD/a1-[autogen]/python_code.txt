@@ -1,0 +1,45 @@
+from flojoy import flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import numpy.linalg
+
+
+@flojoy
+def SVD(
+    default: Matrix,
+    full_matrices: bool = True,
+    compute_uv: bool = True,
+    hermitian: bool = False,
+    select_return: Literal["u", "s", "vh"] = "u",
+) -> Matrix | Scalar:
+    
+
+    result = numpy.linalg.svd(
+        a=default.m,
+        full_matrices=full_matrices,
+        compute_uv=compute_uv,
+        hermitian=hermitian,
+    )
+
+    return_list = ["u", "s", "vh"]
+    if isinstance(result, tuple):
+        res_dict = {}
+        num = min(len(result), len(return_list))
+        for i in range(num):
+            res_dict[return_list[i]] = result[i]
+        result = res_dict[select_return]
+    else:
+        result = result._asdict()
+        result = result[select_return]
+
+    if isinstance(result, np.ndarray):
+        result = Matrix(m=result)
+    else:
+        assert isinstance(
+            result, np.number | float | int
+        ), f"Expected np.number, float or int for result, got {type(result)}"
+        result = Scalar(c=float(result))
+
+    return result

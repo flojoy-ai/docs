@@ -1,0 +1,50 @@
+from flojoy import flojoy, Image
+import cv2
+import numpy as np
+from typing import Literal
+
+
+@flojoy
+def IMAGE_SMOOTHING(
+    default: Image,
+    kernel: int = 5,
+    smoothing_type: Literal["average", "gaussian", "median", "bilateral"] = "average",
+) -> Image:
+    
+    r = default.r
+    g = default.g
+    b = default.b
+    a = default.a
+
+    if a is not None:
+        rgba_image = np.stack((r, g, b, a), axis=2)
+    else:
+        rgba_image = np.stack((r, g, b), axis=2)
+
+    try:
+        match smoothing_type:
+            case "average":
+                image = cv2.blur(rgba_image, (kernel, kernel))
+            case "gaussian":
+                assert kernel & 1, "Kernel must be odd for 'gaussian' smoothing."
+                image = cv2.GaussianBlur(rgba_image, (kernel, kernel), 0)
+            case "median":
+                assert kernel & 1, "Kernel must be odd for 'median' smoothing."
+                image = cv2.medianBlur(rgba_image, kernel)
+            case "bilateral":
+                rgba_image = cv2.cvtColor(rgba_image, cv2.COLOR_BGRA2BGR)
+                image = cv2.bilateralFilter(rgba_image, kernel, kernel * 5, kernel * 5)
+        try:
+            r, g, b, a = cv2.split(image)
+        except:
+            r, g, b = cv2.split(image)
+        if a is None:
+            a = None
+        return Image(
+            r=r,
+            g=g,
+            b=b,
+            a=a,
+        )
+    except Exception as e:
+        raise e

@@ -1,0 +1,29 @@
+from flojoy import flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import numpy.linalg
+
+
+@flojoy
+def TENSORINV(
+    default: Matrix,
+    ind: int = 2,
+) -> Matrix | Scalar:
+    
+
+    result = numpy.linalg.tensorinv(
+        a=default.m,
+        ind=ind,
+    )
+
+    if isinstance(result, np.ndarray):
+        result = Matrix(m=result)
+    else:
+        assert isinstance(
+            result, np.number | float | int
+        ), f"Expected np.number, float or int for result, got {type(result)}"
+        result = Scalar(c=float(result))
+
+    return result

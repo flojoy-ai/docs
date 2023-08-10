@@ -1,0 +1,8 @@
+from flojoy import flojoy, TextBlob
+
+
+@flojoy
+def TEXT_VIEW(default: TextBlob):
+    
+
+    return default

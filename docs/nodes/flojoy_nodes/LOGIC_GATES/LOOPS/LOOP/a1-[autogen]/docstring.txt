@@ -1,0 +1,6 @@
+The LOOP node is a specialized node that iterates through the body nodes for a given number of times.
+
+    Parameters
+    ----------
+    num_loops : int
+        number of times to iterate through body nodes default is `-1` meaning infinity.

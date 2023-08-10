@@ -1,0 +1,9 @@
+The BAR node creates a Plotly Bar visualization for a given input data container.
+
+    Parameters
+    ----------
+    None
+
+    Supported DC types:
+    ----------------
+    `OrderedPair`, `DataFrame` (including timeseries), `Matrix`, `Vector`

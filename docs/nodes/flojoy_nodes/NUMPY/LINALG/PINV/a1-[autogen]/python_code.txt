@@ -1,0 +1,31 @@
+from flojoy import flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import numpy.linalg
+
+
+@flojoy
+def PINV(
+    default: Matrix,
+    rcond: float = 1e-15,
+    hermitian: bool = False,
+) -> Matrix | Scalar:
+    
+
+    result = numpy.linalg.pinv(
+        a=default.m,
+        rcond=rcond,
+        hermitian=hermitian,
+    )
+
+    if isinstance(result, np.ndarray):
+        result = Matrix(m=result)
+    else:
+        assert isinstance(
+            result, np.number | float | int
+        ), f"Expected np.number, float or int for result, got {type(result)}"
+        result = Scalar(c=float(result))
+
+    return result

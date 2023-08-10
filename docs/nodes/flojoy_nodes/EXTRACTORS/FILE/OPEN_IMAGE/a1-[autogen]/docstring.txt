@@ -1,0 +1,13 @@
+
+The OPEN_IMAGE node loads an image file from disk and
+returns a image type Datacontainer object.
+
+Parameters
+----------
+file_path : str
+    path to the file to be loaded.
+
+Returns:
+--------
+DataContainer:
+    type 'Image', r, g, b, a

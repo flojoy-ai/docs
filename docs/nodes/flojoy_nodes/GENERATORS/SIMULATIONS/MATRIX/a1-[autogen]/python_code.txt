@@ -1,0 +1,12 @@
+import numpy as np
+from flojoy import flojoy, Matrix
+
+
+@flojoy(node_type="default")
+def MATRIX(row: int = 2, column: int = 2) -> Matrix:
+    
+
+    np.random.seed()
+    mat = np.random.randint(20, size=(row, column))
+
+    return Matrix(m=mat)

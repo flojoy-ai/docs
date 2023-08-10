@@ -1,0 +1,11 @@
+The COMPOSITE node creates a combination of Plotly visualizations for a given input data container.
+
+    Parameters
+    ----------
+    first_figure: 'bar' | 'line' | 'histogram' | 'scatter'
+    second_figure: 'bar' | 'line' | 'histogram' | 'scatter'
+
+    Supported DC types:
+    ----------------
+    `OrderedPair`, `DataFrame` (including timeseries), `Matrix`, `Vector`
+

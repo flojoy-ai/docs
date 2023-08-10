@@ -1,0 +1,8 @@
+The TIMESERIES node generates a random timeseries vector.
+
+    Parameters:
+    -----------
+    start_date : str
+        The start date of the timeseries in the format YYYY:MM:DD.
+    end_date : str
+        The end date of the timeseries in the format YYYY:MM:DD.

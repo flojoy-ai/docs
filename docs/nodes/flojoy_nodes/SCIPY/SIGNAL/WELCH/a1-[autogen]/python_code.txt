@@ -1,0 +1,59 @@
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import scipy.signal
+
+
+@flojoy(node_type="default")
+def WELCH(
+    default: OrderedPair | Matrix,
+    fs: float = 1.0,
+    window: str = "hann",
+    nperseg: int = 2,
+    noverlap: int = 1,
+    nfft: int = 2,
+    detrend: str = "constant",
+    return_onesided: bool = True,
+    scaling: str = "density",
+    axis: int = -1,
+    average: str = "mean",
+    select_return: Literal["f", "Pxx"] = "f",
+) -> OrderedPair | Matrix | Scalar:
+    
+
+    result = scipy.signal.welch(
+        x=default.y,
+        fs=fs,
+        window=window,
+        nperseg=nperseg,
+        noverlap=noverlap,
+        nfft=nfft,
+        detrend=detrend,
+        return_onesided=return_onesided,
+        scaling=scaling,
+        axis=axis,
+        average=average,
+    )
+
+    return_list = ["f", "Pxx"]
+    if isinstance(result, tuple):
+        res_dict = {}
+        num = min(len(result), len(return_list))
+        for i in range(num):
+            res_dict[return_list[i]] = result[i]
+        result = res_dict[select_return]
+    else:
+        result = result._asdict()
+        result = result[select_return]
+
+    if isinstance(result, np.ndarray):
+        result = OrderedPair(x=default.x, y=result)
+    else:
+        assert isinstance(
+            result, np.number | float | int
+        ), f"Expected np.number, float or int for result, got {type(result)}"
+        result = Scalar(c=float(result))
+
+    return result

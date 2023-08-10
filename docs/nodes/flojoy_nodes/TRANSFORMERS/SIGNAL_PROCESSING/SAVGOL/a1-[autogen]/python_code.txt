@@ -1,0 +1,25 @@
+import scipy
+from flojoy import flojoy, OrderedPair
+import warnings
+
+
+@flojoy
+def SAVGOL(
+    default: OrderedPair, window_length: int = 50, poly_order: int = 1
+) -> OrderedPair:
+    
+    signal = default.y
+    if window_length >= len(default.y):
+        warnings.warn(
+            "Polynomial order is greater than the window size. Using p=w-1..."
+        )
+        poly_order = len(default.y) - 1
+
+    if poly_order >= window_length:
+        warnings.warn(
+            "Polynomial order is greater than the window size. Using p=w-1..."
+        )
+        poly_order = window_length - 1
+
+    filtered = scipy.signal.savgol_filter(signal, window_length, poly_order)
+    return OrderedPair(x=default.x, y=filtered)

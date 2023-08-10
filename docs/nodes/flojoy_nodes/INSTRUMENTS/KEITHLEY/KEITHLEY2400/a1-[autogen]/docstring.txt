@@ -1,0 +1,10 @@
+
+IV curve measurement with a Keithley 2400 source meter, send voltages and measure currents.
+
+Parameters
+-----------
+comport: string
+     Comport defines the serial communication port for the Keithley2400 source meter.
+
+baudrate: float
+     baudrate Specifies baud rate for the serial communication between the Keithley2400 and the computer.

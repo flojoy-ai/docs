@@ -1,0 +1,24 @@
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import scipy.stats
+
+
+@flojoy
+def BAYES_MVS(
+    default: OrderedPair | Matrix,
+    alpha: float = 0.9,
+) -> OrderedPair | Matrix | Scalar:
+    
+
+    result = OrderedPair(
+        x=default.x,
+        y=scipy.stats.bayes_mvs(
+            data=default.y,
+            alpha=alpha,
+        ),
+    )
+
+    return result

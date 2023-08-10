@@ -1,0 +1,11 @@
+The HISTOGRAM node creates a Plotly Histogram visualization for a given
+    input data container.
+
+    Parameters:
+    -----------
+    None
+
+    Supported DC types:
+    ------------------
+    `OrderedPair`, `DataFrame`, `Matrix`, `Vector`
+

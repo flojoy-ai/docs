@@ -1,0 +1,25 @@
+from scipy import signal
+from flojoy import flojoy, OrderedPair
+from typing import Literal, Union
+
+
+@flojoy
+def BUTTER(
+    default: OrderedPair,
+    filter_order: int = 1,
+    critical_frequency: int = 1,
+    btype: Literal["lowpass", "highpass", "bandpass", "bandstop"] = "lowpass",
+    sample_rate: int = 10,
+) -> OrderedPair:
+    
+    sig = default.y
+    order: int = filter_order
+    wn: int = critical_frequency  # hz
+    btype: str = btype
+    fs: int = sample_rate  # hz
+
+    sos = signal.butter(N=order, Wn=wn, btype=btype, fs=fs, output="sos")
+    #    sos = signal.butter(10, 15, "hp", fs=1000, output="sos")
+    filtered = signal.sosfilt(sos, sig)
+
+    return OrderedPair(x=default.x, y=filtered)

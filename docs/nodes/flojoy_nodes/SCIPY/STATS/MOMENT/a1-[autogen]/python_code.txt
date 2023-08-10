@@ -1,0 +1,35 @@
+from flojoy import OrderedPair, flojoy, Matrix, Scalar
+import numpy as np
+from collections import namedtuple
+from typing import Literal
+
+import scipy.stats
+
+
+@flojoy
+def MOMENT(
+    default: OrderedPair | Matrix,
+    moment: int = 1,
+    axis: int = 0,
+    nan_policy: str = "propagate",
+    keepdims: bool = False,
+) -> OrderedPair | Matrix | Scalar:
+    
+
+    result = scipy.stats.moment(
+        a=default.y,
+        moment=moment,
+        axis=axis,
+        nan_policy=nan_policy,
+        keepdims=keepdims,
+    )
+
+    if isinstance(result, np.ndarray):
+        result = OrderedPair(x=default.x, y=result)
+    else:
+        assert isinstance(
+            result, np.number | float | int
+        ), f"Expected np.number, float or int for result, got {type(result)}"
+        result = Scalar(c=float(result))
+
+    return result
