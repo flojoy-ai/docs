@@ -1,5 +1,5 @@
 ---
-title: LOCAL_FILE
+title: OPEN_MATLAB
 description: The OPEN_MATLAB node loads a local file of the .mat file format. Note that if multiple tabs of data are used, the number of rows must match in order to stack the arrays.
 keyword: [Python, Extractor, Extract, MATLAB,  Open MATLAB file node, Load data from MATLAB files, MATLAB data loading, Flojoy Local File Loaders, Python MATLAB file handling, Data import from MATLAB, Local data processing with MATLAB, Python MATLAB loader, Efficient MATLAB data access, Data loading with Flojoy]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg
