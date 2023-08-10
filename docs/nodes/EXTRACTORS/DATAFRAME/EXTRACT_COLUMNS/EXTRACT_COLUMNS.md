@@ -1,6 +1,6 @@
 ---
 title: EXTRACT_COLUMNS
-description: Efficiently extract specific columns from DataFrames using Python with Flojoy's Extract Columns node. Streamline data manipulation and analysis.
+description: Efficiently extract specific columns from DataFrames using Python with Flojoy's EXTRACT_COLUMNS node. Streamline data manipulation and analysis.
 keywords: [Python, Extractor, Extract, Dataframe Dataframe column extraction, Python column selection, Efficient data manipulation, Extracting DataFframe columns, Flojoy Extract Columns node, Streamlining data analysis, Python data extraction, Data column filtering, Dataframe column manipulation, Extracting specific columns]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/examples/EX1/output.jpeg
 ---
