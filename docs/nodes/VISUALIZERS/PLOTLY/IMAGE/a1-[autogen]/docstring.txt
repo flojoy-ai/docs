@@ -1,10 +1,6 @@
-The IMAGE node creates a Plotly image visualization for a given
-    input data container type of image.
 
-    Parameters:
-    -----------
-    None
+The IMAGE node creates a Plotly Image visualization for a given input data container type of image.
 
-    Supported DC types:
-    ------------------
-    `image`
+Inputs
+------
+default : Image

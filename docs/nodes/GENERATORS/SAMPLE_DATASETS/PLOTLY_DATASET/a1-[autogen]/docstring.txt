@@ -1,8 +1,10 @@
-The PLOTLY_DATASET node retrieves a pandas DataFrame from Plotly built in dataset using the provided dataset_key parameter and returns it wrapped in a flojoy DataFrame class.
 
-    Parameters:
-    -----------
-    dataset_key: str
+The PLOTLY_DATASET node retrieves a pandas DataFrame from a Plotly built-in dataset using the provided dataset_key parameter and returns it wrapped in a Flojoy DataFrame class.
 
-    Returns:
-        DataFrame: A DataContainer object containing the retrieved pandas DataFrame.
+Parameters
+----------
+dataset_key : str
+
+Returns
+-------
+DataFrame

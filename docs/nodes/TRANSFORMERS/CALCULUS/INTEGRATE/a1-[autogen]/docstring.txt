@@ -1,11 +1,6 @@
 
-The INTEGRATE node takes two lists as input and integrates it using the composite
-trapezoidal rule.
-
-Parameters
-----------
-None
+The INTEGRATE node takes two lists as input and integrates it using the composite trapezoidal rule.
 
 Returns
 -------
-OrderedPair, x, y
+OrderedPair
