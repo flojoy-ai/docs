@@ -1,3 +1,9 @@
+---
+title: DS_LOAD
+description: Efficiently load datasets into Python using Flojoy's DS_LOAD node. It loads data directly from in-memory data storage.
+keyword: [Python, Load, Dataset loading in Python, Efficient data retrieval, Flojoy DS_LOAD node, Internal memory data loading, Python data analysis tools, Streamline data loading, Simplify data retrieval, Internal memory data access, Data processing with Flojoy, Dataset loading for analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOADERS/INTERNAL_MEMORY/DS_LOAD/examples/EX1/output.jpeg
+--- 
 
 [//]: # (Custom component imports)
 

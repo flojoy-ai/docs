@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: BAR
+description: Elevate your data visualization with Python using Flojoy's Plotly Bar visualizer. Create dynamic bar plots for insightful presentations and analyses.
+keywords: [Python, Visualize, Plotly, Plotly Bar visualizer, Python bar chart tool, Dynamic data visualization, Bar plot examples, Flojoy Plotly nodes, Interactive bar charts, Data presentation tools, Python data visualization, Bar chart creation, Visualizing data with Plotly]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/BAR/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

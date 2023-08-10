@@ -1,3 +1,10 @@
+---
+title: LOADER
+description: This node imports a credentials file  and measurement_uuid and sends input measurements to Frontier API on every run. It will throw an error if any of these two keys are not found.
+keyword: [Python, Load, Dataset loading in Python, Cloud database loader, Data loading from cloud, Flojoy Cloud Database Loader, Cloud data import, Python data retrieval, Cloud data processing, Efficient data loading, Streamline cloud data access, Cloud data integration, Data loading for analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/LOADER/examples/EX1/output.jpeg
+---  
+
 The workflow of this app is described below:
 
 `43`[CONSTANT](https://github.com/flojoy-io/nodes/blob/main/GENERATORS/SIMULATIONS/CONSTANT/CONSTANT.py) : This is a CONSTANT node with a value of 43. It passing a DataContainer class of an ordered pair (x, y pair) to the next node `LOOP`, where x is None and y is a NumPy array with a value of 43.

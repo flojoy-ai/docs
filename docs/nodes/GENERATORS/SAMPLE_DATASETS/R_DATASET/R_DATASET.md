@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: R_DATASET
+description: The R_DATASET node retrieves a pandas DataFrame from  R datasets using the provided dataset_key parameter and returns it wrapped in a DataContainer.
+keywords: [Python, Generate, R dataset generator, Sample datasets in R, Flojoy generator nodes, R data simulation, R dataset examples, Synthetic data generation, Data simulation using R, R data generation tools, R dataset for analysis, R data manipulation techniques]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

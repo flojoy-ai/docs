@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PROPHET_PLOT
+description: In this example, the TIMESERIES node generates random time series data. This dataframe is then passed to the PROPHET_PREDICT node, with the default parameters of run_forecast=True and periods=365. This node trains a Prophet model and runs a prediction forecast over a 365 day period. It returns a DataContainer.
+keywords: [Python, Visualize, Plotly, Plotly Prophet Plot visualizer, Python time series visualization, Dynamic Prophet model insights, Plotly time series plot examples, Flojoy Plotly nodes, Interactive time series visualization, Python data visualization tools, Visualizing Prophet predictions, Time series analysis using Plotly, Prophet model visualization]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_PLOT/examples/EX1/output.jpeg
+---
 
 In this example, the `TIMESERIES` node generates random time series data. 
 

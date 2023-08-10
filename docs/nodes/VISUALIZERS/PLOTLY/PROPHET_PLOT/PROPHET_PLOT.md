@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PROPHET_PLOT
+description: Enhance time series insights with Python using Flojoy's Prophet Plot visualizer. Master dynamic visualization of Prophet model predictions and trends. 
+keywords: [Python, Visualize, Plotly, Plotly Prophet Plot visualizer, Python time series visualization, Dynamic Prophet model insights, Plotly time series plot examples, Flojoy Plotly nodes, Interactive time series visualization, Python data visualization tools, Visualizing Prophet predictions, Time series analysis using Plotly, Prophet model visualization]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_PLOT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SCATTER
+description: Elevate data visualization with Python using Flojoy's Scatter visualizer. Create dynamic scatter plots for insightful analyses and presentations.
+keywords: [Python, Visualize, Plotly, Plotly Scatter visualizer, Python scatter plot tool, Data point visualization, Scatter plot examples, Flojoy Plotly nodes, Interactive scatter charts, Python data visualization, Scatter plot creation, Visualizing data with Plotly, Data point analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
