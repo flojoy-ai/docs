@@ -1,6 +1,6 @@
 ---
 title: PLOTLY_DATASET
-description: The PLOTLY_DATASET node retrieves a pandas DataFrame from Plotly built in dataset using the provided dataset_key parameter and returns it wrapped in a flojoy DataFrame class.
+description: The PLOTLY_DATASET node retrieves a pandas DataFrame from a Plotly built-in dataset using the provided dataset_key parameter and returns it wrapped in a Flojoy DataFrame class.
 keywords: [Python, Generate, Plotly, Plotly dataset generator, Sample datasets with Plotly, Flojoy generator nodes, Python Plotly data visualization, Plotly dataset examples, Interactive data plotting, Plotly data simulation, Python dataset generation, Plotly visualization tools, Data visualization using Plotly]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/examples/EX1/output.jpeg
 ---
