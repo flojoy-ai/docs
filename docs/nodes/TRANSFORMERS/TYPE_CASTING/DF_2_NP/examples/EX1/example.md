@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: DF_2_NP
+description: In this example, we generate a dataframe, then we use the `DF_2_NP` node to convert the input to a numpy array type. The output data is visualized showing the evolution of a column as it progresses through the rows.
+keyword: [Python, Transform, Type casting, Dataframe to NumPy conversion, Python type casting transformer, Data conversion with DF_2_NP, Python data manipulation, Streamline data processing, Data transformation techniques, NumPy array creation, Python data analysis, Accurate data insights, Data manipulation using DF_2_NP]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/examples/EX1/output.jpeg
+---
 
 In this example, we use the `R_DATASET` node to generate a dataframe with the `airquality` string as the node parameter.
 

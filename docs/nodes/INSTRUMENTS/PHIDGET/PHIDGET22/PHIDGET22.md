@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PHIDGET22
+description: Efficiently control Phidget22 instruments using Python. Declaration of the Event handler, print Voltage variation for a channel.
+keyword: [Python, Instrument, Phidget22 instrument control, Python integration with Phidget, Measurement and analysis, Python-based instrument control, Phidget22 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline Phidget usage, Accurate data analysis, Python control of Phidget22]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/PHIDGET/PHIDGET22/examples/EX1/output.jpeg
+--- 
 
 [//]: # (Custom component imports)
 

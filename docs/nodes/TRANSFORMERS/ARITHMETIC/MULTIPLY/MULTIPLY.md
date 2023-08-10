@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: MULTIPLY
+description: Effortlessly perform Python-based multiplication calculations with Flojoy's MULTIPLY transformer. Takes 2 input vectors, multiplies them, and returns the result.
+keyword: [Python, Transform, Arithmetic, Multiply, Multiplication transformer, Python multiplication calculations, Data processing with multiplication, Flojoy MULTIPLY transformer, Streamline data analysis, Arithmetic transformations, Multiplication calculation, Python data manipulation, Accurate data insights, MULTIPLY transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

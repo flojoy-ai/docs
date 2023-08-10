@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: IFFT
+description: In this example, the LINSPACE node generates an array of 600 samples, which is the step value. The sample rate in this case is 800, so the end parameter is samples/sample_rate = 0.75.
+keyword: [Python, Transform, Signal processing, IFFT transformer, Python Inverse Fast Fourier Transform, Signal processing with IFFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, IFFT calculation in Python, Python data manipulation, Accurate data insights, Inverse frequency analysis using IFFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg
+---
 
 In this example, the `LINSPACE` node generates an array of 600 samples, which is the `step` value.
 The sample rate in this case is 800, so the `end` parameter is samples/sample_rate = 0.75.

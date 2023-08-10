@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: KEITHLEY2400
+description: Efficiently control Keithley 2400 instruments using Python. IV curve measurement with a Keithley 2400 source meter, send voltages and measure currents.
+keyword: [Python, Instrument, Keithley 2400 control, Python instrument integration, Measurement and analysis, Python"-"based instrument control, Keithley instrument control, Enhance measurements with Python, Python"-"based measurement techniques, Streamline instrument usage, Accurate data analysis,Python integration with Keithley 2400]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/KEITHLEY/KEITHLEY2/examples/EX1/output.jpeg
+--- 
 
 [//]: # (Custom component imports)
 

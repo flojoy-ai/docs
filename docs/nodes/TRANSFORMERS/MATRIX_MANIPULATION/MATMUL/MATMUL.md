@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: MATMUL
+description: Efficiently perform Python"-"based matrix multiplication with Flojoy's MATMUL transformer. The node takes two input matrices, multiplies them, and returns the result.
+keyword: [Python, Transform, Matrix manipulation, Matrix multiplication transformer, Python matrix manipulation, Data processing with MATMUL, Python matrix calculations, Streamline data analysis, Matrix transformation techniques, Matrix multiplication algorithms, Python data manipulation,Accurate data insights, Matrix multiplication in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

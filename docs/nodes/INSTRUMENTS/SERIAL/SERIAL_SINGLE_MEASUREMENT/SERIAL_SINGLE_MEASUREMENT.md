@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SERIAL_SINGLE_MEASUREMENT
+description:  The SERIAL_SINGLE_MEASUREMENT node takes a single reading of data from an Ardunio, or a similar serial device.
+keyword: [Python, Instrument, Serial communication measurement, Python serial instrument integration, Data acquisition and analysis, Python"-"based serial measurement, Serial instrument integration techniques, Accurate measurement with Python, Enhance measurement with serial communication, Streamline data acquisition, Precise measurement using Python, Python control of serial single measurement]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

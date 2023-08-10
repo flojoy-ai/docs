@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: STEPPER_DRIVER_TIC_KNOB
+description:  The  STEPPER_DRIVER_TIC_KNOB controls a stepper motor movement with a TIC driver. The user controls the motor rotation with the knob position in the node's parameters.
+keyword: [Python, Instrument, Stepper motor control with knob, Python integration with stepper driver, Motion control and automation, Python"-"based stepper motor control, Stepper motor driver integration, Accurate motor movement with Python, Enhance motion control with knob, Streamline motor automation, Precise motor control using Python, Python control of stepper driver TIC with knob]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

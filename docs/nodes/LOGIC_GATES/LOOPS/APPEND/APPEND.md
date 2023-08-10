@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: APPEND
+description: The APPEND node appends a single data point to an array. The large array must be passed to the bottom array connection. For ordered pair, the single point must have a shape of 1 (or (1,)).
+keyword: [Python, Flow, Logic gates, Loop, Loop"-"based appending, Python loop operations, Data manipulation with appending, Streamline data processing, Loop"-"driven transformations, Appending in Python loops, Python data analysis, Accurate data insights, Data processing using loop"-"based append, Data manipulation using APPEND in loops]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/APPEND/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
