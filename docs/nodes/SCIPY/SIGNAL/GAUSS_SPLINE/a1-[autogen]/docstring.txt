@@ -1,16 +1,18 @@
+
 The GAUSS_SPLINE node is based on a numpy or scipy function.
-    The description of that function is as follows:
 
-            Gaussian approximation to B-spline basis function of order n.
+The description of that function is as follows:
 
-    Parameters
-    ----------
-    x : array_like
-            a knot vector
-    n : int
-            The order of the spline. Must be non-negative, i.e., n >= 0
+    Gaussian approximation to B-spline basis function of order n.
 
-    Returns
-    ----------
-    DataContainer:
-            type 'ordered pair', 'scalar', or 'matrix'
+Parameters
+----------
+x : array_like
+    A knot vector.
+n : int
+    The order of the spline. Must be non-negative, i.e. n >= 0.
+
+Returns
+-------
+DataContainer
+    type 'ordered pair', 'scalar', or 'matrix'

@@ -1,1 +1,2 @@
-Returns abolute value
+
+The ABS node returns an absolute value.
