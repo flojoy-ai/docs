@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: FIR
+description: The FIR node Apply a low-pass FIR filter to an input vector. The filter is designed with the window method.
+keyword: [Python, Transform, Signal processing, FIR filter transformer, Signal processing in Python, Data filtering with FIR, Python filter calculations, Streamline data analysis, Signal processing transformations, FIR filter design, Python data manipulation, Accurate data insights, FIR filtering in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

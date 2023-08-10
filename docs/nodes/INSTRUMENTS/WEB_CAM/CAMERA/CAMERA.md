@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: CAMERA
+description: Capture images and videos using Python with Flojoy's CAMERA instrument. Enhance your projects with Python"-"based webcam integration.
+keyword: [Python, Instrument, Web cam, Camera, Python webcam integration, Camera instrument in Python, Capture images and videos, Streamline webcam usage, Python-based camera control, Webcam integration techniques, Python image and video capture, Enhance projects with webcam, Accurate media processing, Webcam usage with Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg
+---  
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: NP_2_DF
+description: In this example, we generate a numpy array. We can also observe in the visualization for the same data. 
+keyword: [Python, Transform, Type casting, NumPy array to DataFrame conversion, Python type casting transformer, Data conversion with NP_2_DF, Python data manipulation, Streamline data processing, Data transformation techniques, DataFrame creation from NumPy array, Python data analysis, Accurate data insights, Data manipulation using NP_2_DF]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/NP_2_DF/examples/EX1/output.jpeg
+---
 
 In this example, we use the `BASIC_OSCILLATOR` node to generate a numpy array. The parameters of the node are set as follows:
 

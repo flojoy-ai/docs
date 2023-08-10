@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: FIR
+description: In this example, five BASIC_OSCILLATOR nodes generate an array of 400 samples with a sample rate of 100. Each has a different amplitude and a unique frequency between 10-35hz. They are then all summed together into one signal using the ADD node.
+keyword: [Python, Transform, Signal processing, FIR filter transformer, Signal processing in Python, Data filtering with FIR, Python filter calculations, Streamline data analysis, Signal processing transformations, FIR filter design, Python data manipulation, Accurate data insights, FIR filtering in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg
+---
 
 In this example, five `BASIC_OSCILLATOR` nodes generate an array of 400 samples with a sample rate of 100. 
 Each has a different amplitude and a unique frequency between 10-35hz. They are then all summed together into one signal using the `ADD` node.

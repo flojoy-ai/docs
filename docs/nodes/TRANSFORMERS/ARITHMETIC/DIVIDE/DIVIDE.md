@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: DIVIDE
+description: Divide 2 or more numeric arrays matrices, dataframes, or constants element-wise.    When a constant is divided to an array or matrix, each element in the array or matrix will be increased by the constant value.
+keyword: [Python, Transform, Arithmetic, Division transformer, Python division calculations, Data processing with division, Flojoy DIVIDE transformer, Streamline data analysis, Arithmetic transformations, Division calculation, Python data manipulation, Accurate data insights, DIVIDE transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

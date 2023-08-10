@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: ADD
+description: Add 2 or more numeric arrays, matrices, dataframes, or constants element-wise.    When a constant is added to an array or matrix, each element in the array or matrix will be increased by the constant value.
+keyword: [Python, Transform, Arithmetic, Addition transformer, Python addition calculations, Data processing with addition, Flojoy ADD transformer, Streamline data analysis, Arithmetic transformations, Addition calculation, Python data manipulation, Accurate data insights, ADD transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/ADD/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
