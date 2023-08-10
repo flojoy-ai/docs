@@ -4,6 +4,7 @@ The BIG_NUMBER node generates a Plotly figure, displaying a big number with an o
 Inputs
 ------
 default : OrderedPair|Scalar|Vector
+    DataContainer object to be visualized
 
 Parameters
 ----------

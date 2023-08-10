@@ -4,3 +4,5 @@ The SCATTER node creates a Plotly Scatter visualization for a given input data c
 Inputs
 ------
 default : OrderedPair|DataFrame|Matrix|Vector
+    DataContainer object to be visualized
+

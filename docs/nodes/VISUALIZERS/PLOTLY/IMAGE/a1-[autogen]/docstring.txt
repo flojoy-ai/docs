@@ -4,3 +4,5 @@ The IMAGE node creates a Plotly Image visualization for a given input data conta
 Inputs
 ------
 default : Image
+    DataContainer object to be visualized
+

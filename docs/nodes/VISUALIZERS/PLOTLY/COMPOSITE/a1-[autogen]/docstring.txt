@@ -3,7 +3,11 @@ The COMPOSITE node creates a combination of Plotly visualizations for a given in
 
 Inputs
 ------
-default : OrderedPair|DataFrame|Matrix|Vector
+primary_trace : OrderedPair|DataFrame|Matrix|Vector
+    DataContainer object to be visualized as the first figure
+
+secondary_trace : OrderedPair|DataFrame|Matrix|Vector
+    DataContainer object to be visualized as the second figure
 
 Parameters
 ----------

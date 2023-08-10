@@ -4,3 +4,5 @@ The SCATTER3D node creates a Plotly 3D Scatter visualization for a given input d
 Inputs
 ------
 default : OrderedTriple|DataFrame
+    DataContainer object to be visualized
+

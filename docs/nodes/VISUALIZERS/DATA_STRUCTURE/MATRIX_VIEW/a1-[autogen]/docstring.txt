@@ -5,6 +5,7 @@ displays its visualization using a Plotly table in matrix format.
 Inputs
 -------
 default : OrderedPair | Matrix
+    DataContainer object to be visualized in matrix format with Plotly table
 
 Returns
 -------

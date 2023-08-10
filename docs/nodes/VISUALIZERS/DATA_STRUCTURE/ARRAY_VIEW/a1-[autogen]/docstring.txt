@@ -5,6 +5,7 @@ and displays its visualization in an array format.
 Inputs
 -------
 default : OrderedPair | DataFrame | Matrix | Image
+    DataContainer object to be visualized as array
 
 Returns
 -------

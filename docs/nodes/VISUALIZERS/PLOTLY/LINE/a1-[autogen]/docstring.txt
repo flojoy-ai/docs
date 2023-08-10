@@ -4,3 +4,5 @@ The LINE node creates a Plotly Line visualization for a given input data contain
 Inputs
 ------
 default : OrderedPair|DataFrame|Matrix|Vector
+    DataContainer object to be visualized
+
