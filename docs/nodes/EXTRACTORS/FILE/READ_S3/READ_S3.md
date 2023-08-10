@@ -1,6 +1,6 @@
 ---
 title: READ_S3
-description: The READ_S3 node takes S3_key name, S3 bucket name, and file name as input, and extract the file from the specified bucket using the S3_key that they saved.
+description: The READ_S3 node takes a S3_key name, S3 bucket name, and file name as input, and extracts the file from the specified bucket using the S3_key that was saved.
 keywords: [Python, Extractor, Extract, AWS, S3 file reading, Read data from S3, File extraction from S3, Flojoy Read S3 node, Python S3 data retrieval, S3 file handling, Data extraction from cloud, Python data import from S3, Cloud data processing, Efficient data access from S3]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/output.jpeg
 ---
