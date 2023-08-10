@@ -6,3 +6,7 @@ Inputs
 default : Image
     DataContainer object to be visualized
 
+Outputs
+-------
+Plotly
+    Plotly type of DataContainer object

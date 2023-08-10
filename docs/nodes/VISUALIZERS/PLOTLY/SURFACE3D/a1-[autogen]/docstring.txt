@@ -6,3 +6,8 @@ Inputs
 default : OrderedTriple|DataFrame|Surface|Matrix
     DataContainer object to be visualized
 
+Outputs
+-------
+Plotly
+    Plotly type of DataContainer object
+

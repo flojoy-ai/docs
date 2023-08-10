@@ -25,6 +25,7 @@ periods : int
 
     Default = 365
 
-Returns
+Outputs
 -------
 Plotly
+    Plotly type of DataContainer object
