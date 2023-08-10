@@ -1,5 +1,5 @@
 
-# Keisight 8116A
+# Keysight 8116A
 
 ## Instrument Card
 
@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Keisight-8116A.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src={require("./Keysight-8116A.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -28,7 +28,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the Keisight 8116A in Python
+## Connect to the Keysight 8116A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
