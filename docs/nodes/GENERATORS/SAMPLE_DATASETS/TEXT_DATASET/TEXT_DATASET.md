@@ -1,7 +1,7 @@
 ---
 title: TEXT_DATASET
 description: The TEXT_DATASET node loads the 20 newsgroups dataset from scikit"-"learn. The data is returned as a dataframe with one column containing the text and the other containing the category.
-keywords: [Python, Generate, Text dataset generator,Sample text datasets, Flojoy generator nodes,Synthetic text data, Text dataset examples, Text data simulation, Text dataset generation, Data simulation for NLP, Text data analysis tools, Text dataset for training]
+keywords: [Python, Generate, Text dataset generator, Sample text datasets, Flojoy generator nodes, Synthetic text data, Text dataset examples, Text data simulation, Text dataset generation, Data simulation for NLP, Text data analysis tools, Text dataset for training]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/examples/EX1/output.jpeg
 ---
 
