@@ -1,6 +1,6 @@
 ---
 title: OPEN_IMAGE
-description: The OPEN_IMAGE node loads an image file from disk and returns a image type Datacontainer object.
+description: The OPEN_IMAGE node loads an image file from disk and returns an image type DataContainer object.
 keywords: [Python, Extractor, Extract, Open image file node, Image file extraction, File manipulation tools, Flojoy Extractors documentation, Python image data extraction, Image file handling, Data extraction from images, Image processing with Flojoy, Image file opening in Python, Extracting image data]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/OPEN_IMAGE/examples/EX1/output.jpeg
 ---
