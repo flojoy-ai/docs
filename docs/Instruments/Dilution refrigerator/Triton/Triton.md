@@ -7,7 +7,12 @@
 
 <div>
 
-
+The Triton family of cryogen free dilution refrigerators has led
+the way in ultra-low temperature experiment-readiness with its
+leading-edge superconducting magnet integration, sample loading
+mechanisms and sample wiring options.
+With over 300 systems installed worldwide, Triton is used in worldleading science across quantum technology, spintronics, optics and
+many other cutting-edge applications of condensed matter physics.
 
 </div>
 
@@ -15,7 +20,12 @@
 
 </div>
 
->
+The Triton family of cryogen free dilution refrigerators has led
+the way in ultra-low temperature experiment-readiness with its
+leading-edge superconducting magnet integration, sample loading
+mechanisms and sample wiring options.
+With over 300 systems installed worldwide, Triton is used in worldleading science across quantum technology, spintronics, optics and
+many other cutting-edge applications of condensed matter physics.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>

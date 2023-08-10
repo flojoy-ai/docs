@@ -1,5 +1,5 @@
 
-# Keisight 8753D
+# Keysight 8753D
 
 ## Instrument Card
 
@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Keisight-8753D.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src={require("./Keysight-8753D.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -28,7 +28,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
-## Connect to the Keisight 8753D in Python
+## Connect to the Keysight 8753D in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

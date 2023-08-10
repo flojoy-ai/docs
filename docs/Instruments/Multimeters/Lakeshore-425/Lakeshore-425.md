@@ -1,5 +1,5 @@
 
-# LKS 425 Gaussmeterctrl
+# Lakeshore 425
 
 ## Instrument Card
 
@@ -11,7 +11,7 @@ Class Connecting To The Lakeshore 425 Gaussmeter
 
 </div>
 
-<img src={require("./LKS-425-Gaussmeterctrl.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src={require("./Lakeshore-425.jpg").default} style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -28,7 +28,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 </ul>
 </details>
 
-## Connect to the LKS 425 Gaussmeterctrl in Python
+## Connect to the Lakeshore 425 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
