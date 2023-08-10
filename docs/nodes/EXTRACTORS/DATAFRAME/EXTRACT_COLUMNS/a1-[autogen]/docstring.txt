@@ -14,5 +14,4 @@ columns : list of str or list of int
 Returns
 -------
 DataFrame|Matrix
-    type 'dataframe' with only the specified columns if the input was dataframe
-    type 'matrix' with only the specified columns if the input was matrix
+    DataFrame or Matrix with only the specified columns

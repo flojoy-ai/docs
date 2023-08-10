@@ -13,4 +13,4 @@ file_path : str
 Returns
 -------
 DataFrame
-    type `dataframe` defined with .parquet file
+    DataFrame loaded from .parquet file
