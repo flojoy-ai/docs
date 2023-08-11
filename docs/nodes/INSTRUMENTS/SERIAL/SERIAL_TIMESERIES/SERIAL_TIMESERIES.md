@@ -1,6 +1,6 @@
 ---
 title: SERIAL_TIMESERIES
-description:  The SERIAL_TIMESERIES Node extract simple time dependent 1d data from an Ardunio, or a similar serial device.
+description:  The SERIAL_TIMESERIES node extracts simple time-dependent 1D data from an Ardunio, or a similar serial device.
 keyword: [Python, Instrument, Serial communication timeseries, Python serial data acquisition, Time"-"series data analysis, Python-based serial data collection, Serial data acquisition techniques, Accurate timeseries recording with Python, Enhance data analysis with serial communication, Streamline timeseries data acquisition, Precise data collection using Python, Python control of serial timeseries data]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/examples/EX1/output.jpeg
 ---
