@@ -1,7 +1,9 @@
-The CONDITIONAL node is a specialized node that compares two given DataContainer inputs
-    and enqueues nodes connected with `true` or `false` output based on the comparison result.
 
-    Parameters:
-    -----------
-    operator_type: str, optional
-        Specifies the type of comparison to be performed between the two inputs. The default value is `>=`.
+The CONDITIONAL node is a specialized node that compares two given DataContainer inputs.
+
+It then enqueues nodes connected with a "true" or "false" output based on the comparison result.
+
+Parameters
+----------
+operator_type : select
+    Specifies the type of comparison to be performed between the two inputs. The default value is ">=".

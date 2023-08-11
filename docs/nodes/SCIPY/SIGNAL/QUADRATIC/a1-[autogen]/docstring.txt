@@ -1,16 +1,18 @@
+
 The QUADRATIC node is based on a numpy or scipy function.
-    The description of that function is as follows:
 
-            A quadratic B-spline.
+The description of that function is as follows:
 
-            This is a special case of `bspline`, and equivalent to ``bspline(x, 2)``.
+    A quadratic B-spline.
 
-    Parameters
-    ----------
-    x : array_like
-            a knot vector
+    This is a special case of 'bspline', and equivalent to 'bspline(x, 2)'.
 
-    Returns
-    ----------
-    DataContainer:
-            type 'ordered pair', 'scalar', or 'matrix'
+Parameters
+----------
+x : array_like
+    a knot vector
+
+Returns
+-------
+DataContainer
+    type 'ordered pair', 'scalar', or 'matrix'
