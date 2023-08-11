@@ -4,3 +4,9 @@ The HISTOGRAM node creates a Plotly Histogram visualization for a given input da
 Inputs
 ------
 default : OrderedPair|DataFrame|Matrix|Vector
+    the DataContainer to be visualized
+
+Outputs
+-------
+Plotly
+    the DataContainer containing Plotly Histogram visualization

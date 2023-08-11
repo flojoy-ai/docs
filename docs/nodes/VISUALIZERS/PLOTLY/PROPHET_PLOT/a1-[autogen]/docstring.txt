@@ -1,9 +1,20 @@
 
-The PROPHET_PLOT node plots the forecasted trend of the time series data that was passed in. This is the output plotly graph from the "plot_plotly" function from "prophet.plot". It expects as input the trained Prophet model from the PROPHET_PREDICT node.
+The PROPHET_PLOT node plots the forecasted trend of the time series data that was passed in.
+This is the output plotly graph from the "plot_plotly" function from "prophet.plot".
+It expects as input the trained Prophet model from the PROPHET_PREDICT node.
 
-If "run_forecast" was True in that node, the forecasted dataframe will be available here as the "m" dc_input attribute. Otherwise, this will make the predictions on the raw dataframe (in which case it will be the "m" attribute).
+ If "run_forecast" was True in that node, the forecasted dataframe will be available in "m" attribute of default input.
+Otherwise, this will make the predictions on the raw dataframe (in which case it will be the "m" attribute of default input).
 
-You can tell if that forecasted dataframe is available via the "extra" field, "run_forecast", of the dc_input (dc_inputs[0].extra["run_forecast"]).
+You can tell if that forecasted dataframe is available via the "extra" field of data input - "run_forecast", (data.extra["run_forecast"]).
+
+Inputs
+------
+default : DataFrame
+    the DataContainer to be visualized
+
+data : DataContainer
+    the DataContainer that holds prophet model and forecast data in the `extra` field
 
 Parameters
 ----------
@@ -14,6 +25,7 @@ periods : int
 
     Default = 365
 
-Returns
+Outputs
 -------
 Plotly
+    the DataContainer containing Plotly visualization of the prophet model

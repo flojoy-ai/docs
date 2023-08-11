@@ -3,6 +3,11 @@ The IFFT node performs the Inverse Discrete Fourier Transform on the input signa
 
 With the IFFT algorith, the input signal will be transformed from the frequency domain back into the time domain.
 
+Inputs
+------
+default : OrderedPair
+    The data to apply inverse FFT to.
+
 Parameters
 ----------
 real_signal : boolean
