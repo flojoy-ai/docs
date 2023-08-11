@@ -1,9 +1,7 @@
 
-    Read a CSV file from disk or a URL, then return a dataframe.
+The READ_CSV node reads a .csv file from disk or a URL, and then returns a dataframe.
 
-    Parameters
-    ----------
-    file_path : str
-        File path to the CSV file or an URL of CSV file
-
-    
+Parameters
+----------
+file_path : str
+    File path to the .csv file or an URL of a .csv file.
