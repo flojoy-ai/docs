@@ -13,7 +13,7 @@ The R&S MXO 4 oscilloscopes offer the world's highest update rate of 4.5 million
 
 </div>
 
-<img src={require("./R&S-RTO1000.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -23,6 +23,8 @@ The R&S MXO 4 oscilloscopes offer the world's highest update rate of 4.5 million
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 

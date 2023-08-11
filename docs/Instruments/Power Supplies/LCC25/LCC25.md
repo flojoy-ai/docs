@@ -15,7 +15,7 @@ controls the retardance of the LC device.
 
 </div>
 
-<img src={require("./LCC25.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782574/Instruments/Power%20Supplies/LCC25/LCC25.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -27,6 +27,8 @@ controls the retardance of the LC device.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785700/Instruments/Vendor%20Logos/Thorlabs.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Thorlabs, Inc. is an American privately held optical equipment company headquartered in Newton, New Jersey. The company was founded in 1989 by Alex Cable, who serves as its current president and CEO. As of 2018, Thorlabs has annual sales of approximately $500 million. <a href="https://www.thorlabs.com/">Website</a>.
 

@@ -11,7 +11,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 </div>
 
-<img src={require("./Keysight-33521-A.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782702/Instruments/RF%20Signal%20Generator/Keysight-33521-A/Keysight-33521-A.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

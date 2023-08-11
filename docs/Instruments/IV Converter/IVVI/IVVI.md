@@ -11,7 +11,7 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 
 </div>
 
-<img src={require("./IVVI.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782619/Instruments/IV%20Converter/IVVI/IVVI.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QuTech.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
 

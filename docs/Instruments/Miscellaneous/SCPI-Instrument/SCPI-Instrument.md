@@ -11,7 +11,7 @@ All SCPI Instrument
 
 </div>
 
-<img src={require("./SCPI-Instrument.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +20,9 @@ All SCPI Instrument>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-Unable to find Vendor Description. <a href="https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">Website</a>.
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785912/Instruments/Vendor%20Logos/NoLogo.jpg.png" style={{ width:"200px", height: "150px"}} />
+
+. <a href="https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">Website</a>.
 
 <ul>
   <li>Headquarters: nan</li>

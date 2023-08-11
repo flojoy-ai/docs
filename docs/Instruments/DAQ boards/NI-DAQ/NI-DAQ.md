@@ -11,7 +11,7 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 
 </div>
 
-<img src={require("./NI-DAQ.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782582/Instruments/DAQ%20boards/NI-DAQ/NI-DAQ.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786494/Instruments/Vendor%20Logos/National_Instruments.jpg.webp" style={{ width:"200px", height: "150px"}} />
 
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
 

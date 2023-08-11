@@ -11,7 +11,7 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 
 </div>
 
-<img src={require("./Bristol-771.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782715/Instruments/Spectrum%20Analyzers/Bristol-771/Bristol-771.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785120/Instruments/Vendor%20Logos/Bristol_Instruments.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 **Bristol Instruments**' Wavelength Meters Are For Scientists And Engineers. Precise laser wavelength measurement and complete spectral analysis. Reliable accuracy. <a href="https://www.bristol-inst.com/">Website</a>.
 

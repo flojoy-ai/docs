@@ -12,7 +12,7 @@ With a modern and intuitive user interface, you gain direct control and overview
 
 </div>
 
-<img src={require("./Bluefors-temperature-controller.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782523/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/Bluefors-temperature-controller.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,6 +20,8 @@ With a modern and intuitive user interface, you gain direct control and overview
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785575/Instruments/Vendor%20Logos/Bluefors.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 **Bluefors** is the world's leading manufacturer of ultra-low temperature dilution refrigerator measurement systems. <a href="https://bluefors.com/">Website</a>.
 

@@ -11,7 +11,7 @@ The GS200 is a low voltage/current DC source with high accuracy, high stability,
 
 </div>
 
-<img src={require("./Yokogawa-GS-200.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782709/Instruments/Power%20Supplies/Yokogawa-GS-200/Yokogawa-GS-200.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The GS200 is a low voltage/current DC source with high accuracy, high stability,
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785530/Instruments/Vendor%20Logos/Yokogawa.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 Yokogawa is a leading provider of Industrial Automation and Test and Measurement solutions. Combining superior technology with engineering services, project management, and maintenance, Yokogawa delivers field proven operational efficiency, safety, quality, and reliability. <a href="https://www.yokogawa.com/">Website</a>.
 

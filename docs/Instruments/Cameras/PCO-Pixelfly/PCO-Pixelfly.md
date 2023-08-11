@@ -11,7 +11,7 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 
 </div>
 
-<img src={require("./PCO-Pixelfly.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782434/Instruments/Cameras/PCO-Pixelfly/PCO-Pixelfly.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785457/Instruments/Vendor%20Logos/PCO.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 **PCO** is one of the leading manufacturers of scientific **cameras**: sCMOS & Highspeed **camera** systems, developed and produced in Kelheim Bavaria Germany. <a href="https://www.pco-tech.com">Website</a>.
 

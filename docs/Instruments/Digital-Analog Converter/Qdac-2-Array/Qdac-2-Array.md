@@ -11,7 +11,7 @@ QDAC-II is the next generation of the successful QDAC from QDevil. It has all th
 
 </div>
 
-<img src={require("./Qdac-2-Array.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782564/Instruments/Digital-Analog%20Converter/Qdac-2-Array/Qdac-2-Array.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ QDAC-II is the next generation of the successful QDAC from QDevil. It has all th
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QDevils.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Founded in 2016, QDevil is an international quantum technology company focused on developing and manufacturing auxiliary electronics and specialized components, operating from mK to room temperature. The mission is to accelerate research and development in quantum electronics labs. To fulfill the mission QDevil helps customers around the world by supplying world-class auxiliary electronics. <a href="https://qdevil.com/">Website</a>.
 

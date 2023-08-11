@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./MC1.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/Qubitekk.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Qubitekk provides reliable products for generating, preparing, distributing, detecting, correlating and storing photonic qubits. The hardware that is needed to strengthen American leadership in quantum computing, communications, and sensing solutions is being developed and manufactured in San Diego County, CA. <a href="https://qubitekk.com/">Website</a>.
 

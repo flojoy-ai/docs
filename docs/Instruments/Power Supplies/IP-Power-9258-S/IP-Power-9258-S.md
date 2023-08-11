@@ -11,7 +11,7 @@ IP9258 is a web controller which can be easily used in the industry field
 
 </div>
 
-<img src={require("./IP-Power-9258-S.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782718/Instruments/Power%20Supplies/IP-Power-9258-S/IP-Power-9258-S.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ IP9258 is a web controller which can be easily used in the industry field>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785562/Instruments/Vendor%20Logos/Aviosys.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 **Aviosys** IP POWER is a remote power management device that allows you to control power on/off and monitor power status of connected devices. <a href="https://www.aviosys.com/">Website</a>.
 

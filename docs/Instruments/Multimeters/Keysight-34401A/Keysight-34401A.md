@@ -11,7 +11,7 @@ The Keysight Technologies, Inc. 34401A multimeter gives you the performance you 
 
 </div>
 
-<img src={require("./Keysight-34401A.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782730/Instruments/Multimeters/Keysight-34401A/Keysight-34401A.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The Keysight Technologies, Inc. 34401A multimeter gives you the performance you 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

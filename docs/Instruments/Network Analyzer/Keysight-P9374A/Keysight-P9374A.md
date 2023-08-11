@@ -11,7 +11,7 @@ P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceles
 
 </div>
 
-<img src={require("./Keysight-P9374A.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782637/Instruments/Network%20Analyzer/Keysight-P9374A/Keysight-P9374A.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceles
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

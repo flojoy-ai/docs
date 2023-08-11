@@ -11,7 +11,7 @@ The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideal
 
 </div>
 
-<img src={require("./IDUS-401-CCD.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782711/Instruments/Spectrometers/IDUS-401-CCD/IDUS-401-CCD.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideal
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785461/Instruments/Vendor%20Logos/Andor.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy Systems. <a href="https://andor.oxinst.com/">Website</a>.
 

@@ -11,7 +11,7 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 </div>
 
-<img src={require("./FJ-Series.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782626/Instruments/Power%20Supplies/FJ-Series/FJ-Series.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785928/Instruments/Vendor%20Logos/Glassman.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC converters, high voltage, RF & custom **power** products? Discover our extensive range. <a href="https://www.xppower.com">Website</a>.
 

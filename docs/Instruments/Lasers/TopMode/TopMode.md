@@ -11,7 +11,7 @@ TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher po
 
 </div>
 
-<img src={require("./TopMode.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782495/Instruments/Lasers/TopMode/TopMode.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher po
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785647/Instruments/Vendor%20Logos/Toptica.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/Laser) for quantum technologies, biophotonics and material inspection. <a href="https://www.toptica.com/">Website</a>.
 

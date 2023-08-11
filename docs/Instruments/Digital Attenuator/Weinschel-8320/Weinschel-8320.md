@@ -11,7 +11,7 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 
 </div>
 
-<img src={require("./Weinschel-8320.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782679/Instruments/Digital%20Attenuator/Weinschel-8320/Weinschel-8320.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785565/Instruments/Vendor%20Logos/Weinschel.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Weinschel Associates designs and manufactures high-quality Broadband RF and Microwave products for commercial and military markets domestically and internationally. Core technologies originated by founder Bruno Weinschel are leveraged using modern design, production, delivery, and service techniques to provide the best product at the best price to our customers. <a href="https://www.weinschelassociates.com/">Website</a>.
 
