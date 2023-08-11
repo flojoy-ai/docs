@@ -11,7 +11,7 @@ multi-functional piezo controller for closed loop positioners
 
 </div>
 
-<img src={require("./ANC-350-PIEZO-Controller.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782675/Instruments/Positional%20Controller/ANC-350-PIEZO-Controller/ANC-350-PIEZO-Controller.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ multi-functional piezo controller for closed loop positioners>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785512/Instruments/Vendor%20Logos/Attocube.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 **Attocube** is a leading pioneer for nanotechnology solutions in precision motion and nanopositioning applications, cryogenic microscopy,. <a href="https://www.attocube.com/en">Website</a>.
 

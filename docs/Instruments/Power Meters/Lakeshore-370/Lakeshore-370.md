@@ -11,7 +11,7 @@ The Model 370 AC resistance bridge is designed for precise, accurate, low noise,
 
 </div>
 
-<img src={require("./Lakeshore-370.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782502/Instruments/Power%20Meters/Lakeshore-370/Lakeshore-370.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The Model 370 AC resistance bridge is designed for precise, accurate, low noise,
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 

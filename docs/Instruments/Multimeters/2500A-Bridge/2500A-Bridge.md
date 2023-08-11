@@ -11,7 +11,7 @@ The AH 2500A offers unparalleled stability, resolution and accuracy in a capacit
 
 </div>
 
-<img src={require("./2500A-Bridge.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782748/Instruments/Multimeters/2500A-Bridge/2500A-Bridge.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The AH 2500A offers unparalleled stability, resolution and accuracy in a capacit
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785453/Instruments/Vendor%20Logos/Andeen_Hangerling.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 **Andeen**-**Hagerling**, Inc. - manufacturers of the world's most accurate capacitance bridges and standards. <a href="https://www.andeen-hagerling.com/">Website</a>.
 

@@ -11,7 +11,7 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 </div>
 
-<img src={require("./Thermostream-ATS-Series.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782446/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/Thermostream-ATS-Series.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785798/Instruments/Vendor%20Logos/Temptronic.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 **Temptronic** temperature forcing systems, are designed for testing and characterization of semiconductors, ICs, chips, electronics, and materials. <a href="https://www.intestthermal.com/temptronic">Website</a>.
 

@@ -11,7 +11,7 @@ The Model 331 cryogenic temperature controller combines the easy operation and u
 
 </div>
 
-<img src={require("./Lakeshore-331.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782504/Instruments/Temperature%20Controllers/Lakeshore-331/Lakeshore-331.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The Model 331 cryogenic temperature controller combines the easy operation and u
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 

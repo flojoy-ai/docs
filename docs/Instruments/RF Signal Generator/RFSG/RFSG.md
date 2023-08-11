@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./RFSG.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786494/Instruments/Vendor%20Logos/National_Instruments.jpg.webp" style={{ width:"200px", height: "150px"}} />
 
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
 

@@ -11,7 +11,7 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 
 </div>
 
-<img src={require("./USB-SA-124-B.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782769/Instruments/Spectrum%20Analyzers/USB-SA-124-B/USB-SA-124-B.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/Signalhound.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Signal Hound is a manufacturer of RF spectrum analyzers and signal generators. <a href="https://signalhound.com/">Website</a>.
 

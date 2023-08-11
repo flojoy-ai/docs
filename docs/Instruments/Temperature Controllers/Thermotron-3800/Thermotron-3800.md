@@ -11,7 +11,7 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 </div>
 
-<img src={require("./Thermotron-3800.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782623/Instruments/Temperature%20Controllers/Thermotron-3800/Thermotron-3800.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785726/Instruments/Vendor%20Logos/Thermotron.jpg.jpg" style={{ width:"200px", height: "150px"}} />
 
 **Thermotron** is a worldwide temperature chamber, humidity chamber, and vibration testing equipment manufacturer. View our testing equipment today!. <a href="https://thermotron.com/">Website</a>.
 

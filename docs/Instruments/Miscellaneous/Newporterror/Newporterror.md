@@ -11,7 +11,7 @@
 
 </div>
 
-<img src={require("./Newporterror.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 

@@ -11,7 +11,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 </div>
 
-<img src={require("./Keysight-N5171B-EXG.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782507/Instruments/RF%20Signal%20Generator/Keysight-N5171B-EXG/Keysight-N5171B-EXG.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -19,6 +19,8 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

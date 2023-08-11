@@ -13,7 +13,7 @@ Its stringent modular design approach makes it the perfect choice for all field 
 
 </div>
 
-<img src={require("./Smaract---MCS2.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="nan" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -23,6 +23,8 @@ Its stringent modular design approach makes it the perfect choice for all field 
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785258/Instruments/Vendor%20Logos/SmartAct.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 In our [Motion](https://www.smaract.com/en/motion) business unit, we develop and produce high-precision, compact products for nano-positioning that meet the highest demands while being easy to handle. <a href="https://www.smaract.com/en/">Website</a>.
 

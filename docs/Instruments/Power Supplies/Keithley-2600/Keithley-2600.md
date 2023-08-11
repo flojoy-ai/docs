@@ -17,7 +17,7 @@ Basic Edition software is also available.
 
 </div>
 
-<img src={require("./Keithley-2600.jpg").default} style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782732/Instruments/Power%20Supplies/Keithley-2600/Keithley-2600.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -31,6 +31,8 @@ Basic Edition software is also available.>
 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
+
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
