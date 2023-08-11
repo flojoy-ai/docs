@@ -1,9 +1,12 @@
+
 The LINE node creates a Plotly Line visualization for a given input data container.
 
-    Parameters:
-    -----------
-    None
+Inputs
+------
+default : OrderedPair|DataFrame|Matrix|Vector
+    the DataContainer to be visualized
 
-    Supported DC types:
-    -------------------
-    `OrderedPair`, `DataFrame` (including timeseries), `Matrix`, `Vector`
+Outputs
+-------
+Plotly
+    the DataContainer containing Plotly Line visualization of the input data

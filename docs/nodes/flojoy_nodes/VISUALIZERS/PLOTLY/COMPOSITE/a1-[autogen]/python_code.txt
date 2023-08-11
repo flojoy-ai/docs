@@ -11,9 +11,10 @@ def COMPOSITE(
     primary_trace: OrderedPair | DataFrame | Matrix | Vector,
     secondary_trace: OrderedPair | DataFrame | Matrix | Vector,
     first_figure: Literal["bar", "line", "histogram", "scatter"] = "scatter",
-    second_figure: Literal["bar", "line", "histogram", "scatter"] = "scatter",
+    second_figure: Literal["bar", "line", "histogram", "scatter"] = "line",
 ) -> Plotly:
     
+
     layout = plot_layout(title="COMPOSITE")
     fig = go.Figure(layout=layout)
     match_figure(fig, first_figure, primary_trace)
