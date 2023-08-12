@@ -1,26 +1,31 @@
+
 The FFT node performs a Discrete Fourier Transform on the input vector.
-    Through the FFT algorithm, the input vector will be transformed
-    from the time domain into the frequency domain which will be an ordered pair of arrays.
 
-    Parameters
-    ---------
-    window: Selection of window types
-        the node will apply a window to the signal to avoid spectral leakage
-    real_signal: boolean
-        whether the input signal is real or complex
-    sample_rate: int
-        the sample rate of the signal, defaults to 1
-    display: boolean
-        whether the output would be graphed, set to false for pure data, true for data that's more suitable to be graphed
+Through the FFT algorithm, the input vector will be transformed from a time domain into a frequency domain, which will be an ordered pair of arrays.
 
-    Returns
-    -------
-    Ordered_pair if display is true
-        x: frequency
-        y: spectrum of the signal
-    DataFrame if display is false
-        time: time domain
-        frequency: frequency domain
-        real: real section of the signal
-        imag: imaginary section of the signal
+Inputs
+------
+default : OrderedPair
+    The data to apply FFT to.
 
+Parameters
+----------
+window : select
+    the node will apply a window to the signal to avoid spectral leakage
+real_signal : boolean
+    whether the input signal is real or complex
+sample_rate : int
+    the sample rate of the signal, defaults to 1
+display : boolean
+    whether the output would be graphed, set to false for pure data and true for data that is more suitable to be graphed
+
+Returns
+-------
+OrderedPair if display is true
+    x: frequency
+    y: spectrum of the signal
+DataFrame if display is false
+    time: time domain
+    frequency: frequency domain
+    real: real section of the signal
+    imag: imaginary section of the signal
