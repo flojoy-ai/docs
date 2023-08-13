@@ -1,0 +1,16 @@
+
+Execute a torchscript classifier against an input image.
+
+Inputs
+----------
+input_image : Image
+    The image to classify.
+class_names : DataFrame
+    A dataframe containing the class names.
+model_path : str
+    The path to the torchscript model.
+
+Returns
+----------
+DataFrame
+    A dataframe containing the class name and confidence score.

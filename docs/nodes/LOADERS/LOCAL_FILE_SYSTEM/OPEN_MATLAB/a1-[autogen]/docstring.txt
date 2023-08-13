@@ -10,4 +10,5 @@ file_path : str
 
 Returns
 -------
-Dataframe
+DataFrame
+    DataFrame loaded from the .mat file
