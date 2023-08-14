@@ -1,7 +1,12 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
+import ReactFlow, {
+  Background,
+  Controls,
+  MiniMap,
+  ReactFlowProvider,
+} from 'reactflow';
 import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
@@ -116,13 +121,11 @@ export default function AppDisplay({
                 edges={edges}
                 minZoom={0.25}
                 fitView
-                fitViewOptions={{
-                  padding: 1,
-                }}
                 proOptions={{ hideAttribution: true }}
               >
                 <FlowMiniMap />
                 <Background />
+                <Controls />
               </ReactFlow>
             </div>
           </ReactFlowProvider>
