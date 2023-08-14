@@ -1,0 +1,10 @@
+from flojoy import flojoy, Scalar
+
+
+@flojoy
+def SCALAR(
+    value: float = 3.0,
+) -> Scalar:
+    
+
+    return Scalar(c=value)

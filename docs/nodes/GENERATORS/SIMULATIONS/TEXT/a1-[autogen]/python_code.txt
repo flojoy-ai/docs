@@ -1,0 +1,10 @@
+from flojoy import flojoy, TextBlob
+
+
+@flojoy
+def TEXT(
+    value: str = "Hello World!",
+) -> TextBlob:
+    
+
+    return TextBlob(text_blob=value)
