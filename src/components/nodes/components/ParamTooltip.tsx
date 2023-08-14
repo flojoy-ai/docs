@@ -94,8 +94,7 @@ export const ParamTooltip = ({
               </span>
             </div>
             {param.type.split("|").map((t) => (
-              <code key={t}>
-                {t}
+              <code key={t}> {t}
                 <br />
               </code>
             ))}
@@ -109,7 +108,7 @@ export const ParamTooltip = ({
               )) ?? "No description."}
             </div>
           </div>,
-          document.getElementById("tw-theme-root") ?? document.body,
+          document.getElementById("app-display") ?? document.body,
         )
         : null}
     </>

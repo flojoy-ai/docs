@@ -117,7 +117,7 @@ export default function AppDisplay({
   const styles = getReactFlowStyles();
 
   return (
-    <div>
+    <div id="app-display">
       <Tabs>
         <TabItem value="app" label="App" default>
           <ReactFlowProvider>
