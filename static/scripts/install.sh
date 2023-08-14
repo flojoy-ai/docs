@@ -21,7 +21,6 @@ python3 -m venv venv
 
 if [ $? -ne 0 ]; then
     python -m venv venv
-    # Additional error handling code can go here
 fi
 
 info_msg "Activating virtual environment..."
