@@ -5,3 +5,8 @@ Parameters
 ----------
 file_path : str
     File path to the .csv file or an URL of a .csv file.
+
+Returns
+-------
+DataFrame
+    DataFrame loaded from .csv file
