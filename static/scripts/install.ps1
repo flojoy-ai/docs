@@ -27,10 +27,6 @@ info_msg "Creating a python virtual environment..."
 
 & python -m venv venv
 
-info_msg "Activating virtual environment..."
-
-& .\venv\Scripts\Activate.ps1
-
 info_msg "Starting the project..."
 
 & .\flojoy.ps1 -v venv
