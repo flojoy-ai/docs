@@ -1,10 +1,14 @@
+The OBJECT_DETECTION node detects objects in the input image,
+    and returns an 'image' DataContainer with those objects highlighted.
 
-The OBJECT_DETECTION node detects objects in the input image, and returns an 'image' DataContainer with those objects highlighted.
+    Parameters:
+    ----------
+    None
 
-Inputs
-------
-default : Image
+    Supported DC types:
+    -------------------
+    Image
 
-Returns
--------
-Image
+    Returns:
+    ----------
+    Image (RGB(A)).

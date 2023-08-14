@@ -36,15 +36,15 @@ def PROPHET_PLOT(default: DataFrame, data: DataContainer, periods: int = 365) ->
     def _apply_macos_prophet_hotfix():
         This is a hotfix for MacOS. See https://github.com/facebook/prophet/issues/2250#issuecomment-1559516328 for more detail
 
-        if sys.platform != "darwin":
+        if not sys.platform == "darwin":
             return
 
         # Test if prophet works (i.e. if the hotfix had already been applied)
         try:
             _dummy_df = _make_dummy_dataframe_for_prophet()
             prophet.Prophet().fit(_dummy_df)
-        except RuntimeError:
-            print("Could not run prophet, applying hotfix...")
+        except RuntimeError as e:
+            print(f"Could not run prophet, applying hotfix...")
         else:
             return
 

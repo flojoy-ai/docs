@@ -1,7 +1,11 @@
 
-The NP_2_DF node converts numpy array data into dataframe type data.
+Node to convert numpy array data into dataframe type data
+
+Parameters
+----------
+None
 
 Returns
 -------
 dataframe
-    Converted numpy array value from the input.
+    Converted numpy array value from the input

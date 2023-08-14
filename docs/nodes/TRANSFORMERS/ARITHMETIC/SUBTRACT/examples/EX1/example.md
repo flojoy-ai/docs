@@ -1,5 +1,3 @@
-<!--- Add SEO here --->
+In this example, `SUBTRACT` node is used in the process of subtracting sine function.
 
-In this example, the `SUBTRACT` node is used to subtract different sine functions.
-
-As a result, a negative sine function is generated, which is visable through the `SCATTER` node.
+In the result, it generated a negative sine function which is visable through `SCATTER` node.

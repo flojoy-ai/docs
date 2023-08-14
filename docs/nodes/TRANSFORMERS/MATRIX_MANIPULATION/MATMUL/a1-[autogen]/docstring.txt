@@ -1,2 +1,1 @@
-
-The MATMUL node takes two input matrices, multiplies them, and returns the result.
+Takes 2 input matrices, multiplies them, and returns the result

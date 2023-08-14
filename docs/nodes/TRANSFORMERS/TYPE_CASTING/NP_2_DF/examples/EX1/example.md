@@ -1,23 +1,16 @@
-<!--- Add SEO here --->
-
-In this example, we use the `BASIC_OSCILLATOR` node to generate a numpy array. The parameters of the node are set as follows:
+In this example we use the `BASIC_OSCILLATOR` node to generate a numpy array.
+The parameters of the node are set at:
 
 sample_rate: 100
-
 time: 10
-
 waveform: sine
-
 amplitude: 1
-
 frequency: 1
-
 offset: 0
-
 phase: 0
 
-With the top `TABLE` node, we can see that the x values represent the time when the value was taken, and that y represents the values themselves. The top `LINE` node visualizes the data from time 0 to 10.
+With the top `TABLE` node we can see the x values representing the time when the value was taken and the y represent the values themselves. Then in the top `LINE` node we can see what the data looks like from time 0 to time 10.
 
-The `NP_2_DF` node then converts the input data from a `numpy array` type to a `dataframe` type. In the bottom `TABLE` node we can see that we now have only 1 column. This is expected since, with a `dataframe` data type, only the values are used because the time is represented by the number of the row at which the value is read in the column. 
+Then we use the `NP_2_DF` node to convert the input data from the numpy array type to the dataframe type.
 
-We can also observe this in the bottom `LINE` node, which visualizes the same data. However, instead of being from time 0 to 10 (as in the top `LINE` node), here it is from 0 to 1000. This is because we have a `sample_rate` of 100, meaning that for a single time measure, there are 100 values. Similarly then for 10 times, we have 1000 rows for the y columns.
+With the bottom `TABLE` node we can see that we now have only 1 column which is normal since with a dataframe type of data we only use the values since the time is represent by the number of the row at which the value is read in the column. We can observe this also in the bottom `LINE` node where we can seee the same data but here instead of being from time 0 to time 10 it's from 0 to 1000. This is due to the fact that we have a `sample_rate` of 100 meaning that in 1 time measure we take 100 values. Therefore having 10 times means that we have 1000 rows for the y columns.

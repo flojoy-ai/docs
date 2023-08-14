@@ -1,9 +1,11 @@
 
-The SERIAL_SINGLE_MEASUREMENT node takes a single reading of data from an Ardunio or a similar serial device.
+The SERIAL_SINGLE_MEASUREMENT Node takes a single reading of data from an Ardunio,
+or a similar serial device.
 
-Parameters
-----------
-baudrate : int
+Parameters :
+------------
+baudrate: int
     Baud rate for the serial communication.
-comport : string
-    Defines the comunication port on which the serial device is connected.
+
+comport: String
+    Defines the comunication port on which the Serial device is connected

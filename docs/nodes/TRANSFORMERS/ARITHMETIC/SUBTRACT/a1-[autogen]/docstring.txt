@@ -1,2 +1,1 @@
-
-The SUBTRACT node subtracts two input vectors and returns the result.
+Subtract 2 input vectors and return the result

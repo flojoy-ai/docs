@@ -17,7 +17,6 @@ def TWO_DIMENSIONAL_FFT(
     color: Literal["red", "green", "blue", "grayscale"] = "red",
 ) -> Matrix | DataFrame | Image:
     
-
     match default:
         case Grayscale() | Matrix():
             input = default.m
@@ -30,7 +29,7 @@ def TWO_DIMENSIONAL_FFT(
             fourier = fft.rfft2(input) if real_signal else fft.fft2(input)
             fourier = fourier.real
             result = pd.DataFrame(columns=fourier.columns, index=fourier.index)
-            return DataFrame(m=result)
+            return DataFrame(df=result)
         case Image():
             red = default.r
             green = default.g

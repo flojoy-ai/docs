@@ -2,15 +2,48 @@
     "rfInstance": {
         "nodes": [
             {
+                "width": 210,
+                "height": 130,
+                "id": "END-04176810-8104-4747-9a8f-df79d12c5298",
+                "type": "TERMINATORS",
+                "data": {
+                    "id": "END-04176810-8104-4747-9a8f-df79d12c5298",
+                    "label": "END",
+                    "func": "END",
+                    "type": "TERMINATORS",
+                    "ctrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Any",
+                            "multiple": false
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1289.1115606130968,
+                    "y": 7.591470303047913
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1289.1115606130968,
+                    "y": 7.591470303047913
+                },
+                "dragging": true
+            },
+            {
                 "width": 150,
                 "height": 150,
                 "id": "STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749eff",
-                "type": "INSTRUMENTS",
+                "type": "STEPPER_MOTOR",
                 "data": {
                     "id": "STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749eff",
                     "label": "STEPPER DRIVER TIC",
                     "func": "STEPPER_DRIVER_TIC",
-                    "type": "INSTRUMENTS",
+                    "type": "STEPPER_MOTOR",
                     "ctrls": {
                         "current_limit": {
                             "type": "int",
@@ -56,13 +89,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC.py",
-                    "selected": false
+                    "selected": true
                 },
                 "position": {
                     "x": 883.1245033729516,
                     "y": -2.309719518942927
                 },
-                "selected": false,
+                "selected": true,
                 "positionAbsolute": {
                     "x": 883.1245033729516,
                     "y": -2.309719518942927
@@ -70,7 +103,15 @@
                 "dragging": true
             }
         ],
-        "edges": [],
+        "edges": [
+            {
+                "source": "STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749eff",
+                "sourceHandle": "default",
+                "target": "END-04176810-8104-4747-9a8f-df79d12c5298",
+                "targetHandle": "default",
+                "id": "reactflow__edge-STEPPER_DRIVER_TIC-deb4fca7-fc18-443d-bd70-f1455a749effdefault-END-04176810-8104-4747-9a8f-df79d12c5298default"
+            }
+        ],
         "viewport": {
             "x": -358.59636577932724,
             "y": 99.85117439980638,

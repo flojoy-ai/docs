@@ -1,5 +1,3 @@
-<!--- Add SEO here --->
+In this example we started with `PLOTLY_DATASET` node to generate a DataFrame which we passed to a type casting node `DF_2_ORDEREDTRIPLE` to convert DataFrame into `ordered_triple` type of `DataContainer` class. 
 
-In this example, the `PLOTLY_DATASET` node generates a `dataframe`. This output is passed to the type casting `DF_2_ORDEREDTRIPLE` node, which converts the `dataframe` type into an `ordered_triple` type from the `DataContainer` class. 
-
-We then use the `ORDERED_TRIPLE_2_SURFACE` node to cast the `ordered_triple` to a `surface` `DataContainer` type. Finally we vizualize the output with the Plotly visualizer `SURFACE3D` node.
+Then we used `ORDERED_TRIPLE_2_SURFACE` node to cast `ordered_triple` to `surface` `DataContainer` type. Finally we vizualized output with Plotly visualizer node `SURFACE3D`.

@@ -1,4 +1,4 @@
-
-The INVERT node takes two inputs, one matrix and one rcond if not a square matrix, then inverts them (or pseudo invert) and returns the result.
-
-If the entered value is a scalar, it returns the multiplciative inverse 1/x.
+Takes 2 inputs, one matrix and one rcond if not square matrix.
+    Inverts them (or pseudo invert) and returns the result.
+    If the entered value is a scalar it returns the multiplciative
+    inverse 1/x

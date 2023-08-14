@@ -1,7 +1,10 @@
-
 The ONE_HOT_ENCODING node creates a one hot encoding from a dataframe and columns dataframe containing categorical features.
 
-Returns
--------
-DataFrame
-    The one hot encoding of the input features.
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    Dataframe
+        The one hot encoding of the input features.

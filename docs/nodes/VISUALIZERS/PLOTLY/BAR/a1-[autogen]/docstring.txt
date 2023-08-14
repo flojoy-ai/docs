@@ -1,12 +1,9 @@
-
 The BAR node creates a Plotly Bar visualization for a given input data container.
 
-Inputs
-------
-default : OrderedPair|DataFrame|Matrix|Vector
-    the DataContainer to be visualized in bar chart
+    Parameters
+    ----------
+    None
 
-Outputs
--------
-Plotly
-    the DataContainer containing Plotly Bar chart visualization
+    Supported DC types:
+    ----------------
+    `ordered_pair`, `dataframe` (including timeseries), `matrix`

@@ -1,9 +1,3 @@
----
-title: ACCURACY
-description: The ACCURACY node takes two dataframes with the true and predicted labels from a classification task, and indicates what proportion of the predictions were correct. These dataframes should both be single columns.
-keywords: [AI, Classification, Python, DataFrame, Accuracy, Prediction]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -22,6 +16,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='AI_ML/CLASSIFICATION/ACCURACY/ACCURACY.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
@@ -43,15 +39,19 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
+  
+    
 
 [//]: # (Appendix)
-
-## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
+## Appendix
+
 <AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/ACCURACY/appendix/'>{Media}</AppendixSection>
+
+

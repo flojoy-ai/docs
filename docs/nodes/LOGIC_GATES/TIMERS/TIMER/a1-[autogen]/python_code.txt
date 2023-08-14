@@ -40,7 +40,7 @@ def TIMER(
                     "NODE_RESULTS": {
                         "cmd": "TIMER",
                         "id": node_id,
-                        "result": {"plotly_fig": fig},
+                        "result": {"default_fig": fig, "data": result},
                     },
                     "proceed_to_next": False,
                     "jobsetId": jobset_id,

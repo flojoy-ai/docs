@@ -14,13 +14,12 @@ def get_file_path(file_path: str, default_path: str | None = None):
     return f_path
 
 
-@flojoy(deps={"xlrd": "2.0.1", "lxml": "4.9.2", "openpyxl": "3.0.10"})
+@flojoy(deps={"xlrd": "2.0.1", "lxml": "4.9.2"})
 def LOCAL_FILE(
     file_path: str,
     file_type: Literal["Image", "JSON", "CSV", "Excel", "XML"] = "Image",
 ) -> Image | DataFrame:
     
-
     match file_type:
         case "Image":
             default_image_path = path.join(

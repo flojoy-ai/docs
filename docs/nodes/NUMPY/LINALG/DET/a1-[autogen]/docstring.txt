@@ -1,16 +1,15 @@
-
 The DET node is based on a numpy or scipy function.
+    The description of that function is as follows:
 
-The description of that function is as follows:
 
-    Compute the determinant of an array.
+            Compute the determinant of an array.
 
-Parameters
-----------
-a : (..., M, M) array_like
-    Input array to compute determinants.
+    Parameters
+    ----------
+    a : (..., M, M) array_like
+            Input array to compute determinants for.
 
-Returns
--------
-DataContainer
-    type 'ordered pair', 'scalar', or 'matrix'
+    Returns
+    ----------
+    DataContainer:
+            type 'ordered pair', 'scalar', or 'matrix'

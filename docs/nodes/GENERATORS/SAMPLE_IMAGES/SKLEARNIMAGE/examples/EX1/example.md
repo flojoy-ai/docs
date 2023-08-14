@@ -1,3 +1,9 @@
-<!--- Add SEO here --->
+## The SKLEARNIMAGE app
 
-In this example, the `SKLEARNIMAGE` node takes one parameter, `img_key`, which is the name of the sample image, and loads it from the `scikit-image` package. In this case, `astronaut` is the default value of this parameter. It then passes an `image` type object (r,g,b,a), from the `DataContainer` class, to the `OBJECT_DETECTION` node using the `opencv` Python library. Finally, the current script is terminated with the `END` node, which is the same as its parent node.
+In this example, there are three nodes and the workflow of this app is described below:
+
+[SKLEARNIMAGE](https://github.com/flojoy-io/nodes/blob/main/GENERATORS/SAMPLE_IMAGES/SKLEARN_IMAGE/SKLEARNIMAGE.py) : This is a SK Learn Image node. It takes one parameter  `img_key`, the name of sample image to load from `scikit-image` package. In this case it is 'astronaut' which is default value of this parameter. It passing a DataContainer class of an image (r,g,b,a) to the next node `Object Detection`.
+
+[OBJECT_DETECTION](https://github.com/flojoy-io/nodes/blob/main/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION.py): This is Object detection node which detects objects from a given `DataContainer` class of `image` type using `opencv` python library.
+
+[END](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/TERMINATORS/END.py): This node terminating the current script run. The output of this node is same as its parent node.

@@ -1,16 +1,8 @@
 import numpy as np
-from flojoy import flojoy, Vector, OrderedPair
-from typing import Optional
+from flojoy import flojoy, Vector
 
 
 @flojoy(node_type="default")
-def LINSPACE(
-    default: Optional[OrderedPair | Vector] = None,
-    start: float = 10,
-    end: float = 0,
-    step: int = 1000,
-) -> Vector:
-    
-
+def LINSPACE(start: float = 10, end: float = 0, step: int = 1000) -> Vector:
     v = np.linspace(start, end, step)
     return Vector(v=v)

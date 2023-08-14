@@ -1,18 +1,18 @@
-
 The EIGVALS node is based on a numpy or scipy function.
+    The description of that function is as follows:
 
-The description of that function is as follows:
 
-    Compute the eigenvalues of a general matrix.
+            Compute the eigenvalues of a general matrix.
 
-Main difference between `eigvals` and `eig`: the eigenvectors are not returned.
+    Main difference between `eigvals` and `eig`: the eigenvectors aren't
+            returned.
 
-Parameters
-----------
-a : (..., M, M) array_like
-    A complex- or real-valued matrix whose eigenvalues will be computed.
+    Parameters
+    ----------
+    a : (..., M, M) array_like
+            A complex- or real-valued matrix whose eigenvalues will be computed.
 
-Returns
--------
-DataContainer
-    type 'ordered pair', 'scalar', or 'matrix'
+    Returns
+    ----------
+    DataContainer:
+            type 'ordered pair', 'scalar', or 'matrix'

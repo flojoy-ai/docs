@@ -1,11 +1,1 @@
-
-The PHIDGET22 node allows you to record pressures from Flexiforce sensors using a Phidget InterfaceKit.
-
-Parameters
-----------
-n_sensors : int
-    Defines the number of pressure sensors connected to the Phidget InterfaceKit.
-calibration1 : float
-    Calibration parameters to convert voltage into pressure.
-calibration2 : float
-    Calibration parameters to convert voltage into pressure.
+Declaration of the Event handler, print Voltage variation for a channel

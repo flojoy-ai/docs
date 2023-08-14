@@ -1,9 +1,3 @@
----
-title: SUPPORT_VECTOR_MACHINE
-description: Train a support vector machine model for classification tasks by taking two dataframes of label and feature from labelled training data and a dataframe of unlabelled input data.
-keywords: [AI, Classification, Python, DataFrame, Train, Vector, Machine Model]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
@@ -22,6 +16,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/SUPPORT_VECTOR_MACHINE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
@@ -43,15 +39,19 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
+  
+    
 
 [//]: # (Appendix)
-
-## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
+## Appendix
+
 <AppendixSection index={0} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Hardware}</AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/appendix/'>{Media}</AppendixSection>
+
+

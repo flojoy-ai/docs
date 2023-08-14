@@ -1,13 +1,9 @@
+The TABLE node creates a Plotly table visualization for a given input data container.
 
-The TABLE node creates a Plotly Table visualization for a given input data container.
+    Parameters:
+    -----------
+    None
 
-Inputs
-------
-default : OrderedTriple|OrderedPair|DataFrame|Vector
-    the DataContainer to be visualized
-
-Outputs
--------
-Plotly
-    the DataContainer containing Plotly Table visualization
-
+    Supported DC types:
+    -------------------
+    `ordered_pair`, `dataframe`, `ordered_triple`

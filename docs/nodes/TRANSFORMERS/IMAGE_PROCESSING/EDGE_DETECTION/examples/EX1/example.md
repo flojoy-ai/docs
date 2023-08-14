@@ -1,3 +1,1 @@
-<!--- Add SEO here --->
-
-In this example, an image is used from a local file and processed with the `EDGE_DETECTION` filter node. The result is visualized with the `IMAGE` node.
+It's an edge detection app which uses an edge detection filter node to detect edges on an image.

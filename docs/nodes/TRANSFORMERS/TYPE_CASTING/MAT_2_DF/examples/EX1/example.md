@@ -1,7 +1,7 @@
-<!--- Add SEO here --->
+In this example we use the `MATRIX` node to generate a matrix with 9 rows and 3 columns in the parameters.
 
-In this example, we use the `MATRIX` node to generate a matrix with 9 rows and 3 columns as the parameters.
+With the top `LINE` node we can see the matrix representation in which each of the 9 colored lines represent one of the row of the matrix and it's value at each column.
 
-In the top `LINE` node, the 9 colored lines each represents one of the rows of the matrix and their corresponding values within each column.
+Then we use the `MAT_2_DF` node to convert the input array from matrix type to a dataframe type.
 
-The `MAT_2_DF` node is used to convert the input array from a `matrix` type to a `dataframe` type, and the output is then visualized with the bottom `LINE` node. In this graph, we only see 3 lines of different colors since these lines show the evolution of the 3 columns as it progresses through the rows (which is as expected from a `dataframe` data type).
+With the bottom `LINE` node we can see the output array of `MAT_2_DF`. In this graph we can only see 3 lines of different colors since it's showing the evolution of the 3 columns as we go through their rows which is as expected from a dataframe type of data.
