@@ -1,12 +1,11 @@
-
 The LINE node creates a Plotly Line visualization for a given input data container.
 
-Inputs
-------
-default : OrderedPair|DataFrame|Matrix|Vector
-    the DataContainer to be visualized
+    Inputs
+    ------
+    default : OrderedPair|DataFrame|Matrix|Vector
+        the DataContainer to be visualized
 
-Outputs
--------
-Plotly
-    the DataContainer containing Plotly Line visualization of the input data
+    Returns
+    -------
+    Plotly
+        the DataContainer containing Plotly Line visualization of the input data
