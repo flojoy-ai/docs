@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 info_color='\033[0;34m'
 
