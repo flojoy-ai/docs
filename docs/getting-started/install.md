@@ -31,6 +31,13 @@ Node.js is required to run Flojoy's app interface. Open your Terminal and type `
 <TabItem value="unix" label="Mac & Linux">
 <div>
 
+### Install with CLI command
+
+Run the installation shell script
+```bash
+  curl -L https://docs.flojoy.ai/scripts/install.sh | sh
+```
+ 
 To install Flojoy on Mac & Linux:
 
 1. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
@@ -63,7 +70,16 @@ bash flojoy -v venv
 <TabItem value="windows" label="Windows">
 <div>
 
-To install Flojoy on Windows:
+### Install with CLI command
+
+Run the installation PowerShell script
+```bash
+  pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
+```
+If you encounter an error saying the `pwsh` command is not found, `powershell` can be used instead, though we recommend [installing the latest version of PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows).
+ 
+
+### Install Flojoy on Windows manually:
 
 1. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
 
