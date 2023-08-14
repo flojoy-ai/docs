@@ -1,7 +1,12 @@
 
 The NP_2_DF node converts numpy array data into dataframe type data.
 
+Inputs
+------
+default : DataContainer
+    The input numpy array to which we apply the conversion to.
+
 Returns
 -------
-dataframe
-    Converted numpy array value from the input.
+DataFrame
+    The DataFrame result from the conversion of the input.

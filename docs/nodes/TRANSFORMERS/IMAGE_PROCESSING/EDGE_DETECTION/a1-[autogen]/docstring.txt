@@ -8,7 +8,7 @@ Note that the image is converted to greyscale during this processing.
 Inputs
 ------
 default : Image
-    The input image in which we want to detect the edges.
+    The input image to apply edge detection to.
 
 Returns
 -------

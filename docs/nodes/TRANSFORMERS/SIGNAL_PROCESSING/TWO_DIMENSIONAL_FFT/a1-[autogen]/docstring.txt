@@ -5,6 +5,11 @@ With the FFT algorithm, the input matrix will undergo a change of basis from the
 
 grayscale, dataframe, image, or matrix
 
+Inputs
+------
+default : Grayscale|DataFrame|Image|Matrix
+    The 2D data to apply 2DFFT to.
+
 Parameters
 ----------
 real_input : boolean
@@ -17,6 +22,6 @@ Returns
 Matrix if input is Matrix
     m: the matrix after 2DFFT
 DataFrame if input is Dataframe
-    df: the dataframe after 2DFFT
+    m: the dataframe after 2DFFT
 Image
     the frequency spectrum of the color channel

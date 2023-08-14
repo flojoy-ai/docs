@@ -19,5 +19,5 @@ height : int
 
 Returns
 -------
-m: Matrix
-    Matrix that contains the volume up to that point in each cell.
+Matrix
+    m : matrix that contains the volume up to that point in each cell.
