@@ -14,6 +14,13 @@ import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
 import 'flojoy/styles/styles.css';
 
+const getReactFlowStyles = () => {
+  const { colorMode } = useColorMode();
+  return {
+    background: colorMode === 'light' ? '#fff' : 'rgba(18,18,18,1)',
+  };
+};
+
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();
   return (
@@ -109,6 +116,8 @@ export default function AppDisplay({
     });
   }, [colorMode.colorMode]);
 
+  const styles = getReactFlowStyles();
+
   return (
     <div>
       <Tabs>
@@ -116,6 +125,7 @@ export default function AppDisplay({
           <ReactFlowProvider>
             <div style={{ height: HEIGHT }}>
               <ReactFlow
+                style={styles}
                 nodes={nodes}
                 nodeTypes={nodeTypes}
                 edges={edges}
