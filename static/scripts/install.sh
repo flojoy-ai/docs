@@ -23,10 +23,6 @@ if [ $? -ne 0 ]; then
     python -m venv venv
 fi
 
-info_msg "Activating virtual environment..."
-
-source venv/bin/activate
-
 info_msg "Starting the project..."
 
 bash flojoy -v venv
