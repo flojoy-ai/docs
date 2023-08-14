@@ -12,7 +12,7 @@ import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
-import 'flojoy/styles/styles.css';
+import { nodeTypesMap } from './nodes/nodeTypesMap';
 
 const getReactFlowStyles = () => {
   const { colorMode } = useColorMode();
@@ -100,20 +100,18 @@ export default function AppDisplay({
   }, [appObject]);
 
   useEffect(() => {
-    import('flojoy/components').then(({ nodeTypesMap }) => {
-      setNodeTypes(
-        Object.fromEntries(
-          Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
-            return [
-              key,
-              props => (
-                <CustomNode nodeProps={props} theme={colorMode.colorMode} />
-              ),
-            ];
-          })
-        )
-      );
-    });
+    setNodeTypes(
+      Object.fromEntries(
+        Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
+          return [
+            key,
+            props => (
+              <CustomNode nodeProps={props} theme={colorMode.colorMode} />
+            ),
+          ];
+        })
+      )
+    );
   }, [colorMode.colorMode]);
 
   const styles = getReactFlowStyles();
