@@ -13,6 +13,7 @@ import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
 import { nodeTypesMap } from './nodes/nodeTypesMap';
+import { ViewFitter } from './ViewFitter';
 
 const getReactFlowStyles = () => {
   const { colorMode } = useColorMode();
@@ -99,6 +100,7 @@ export default function AppDisplay({
     URL.revokeObjectURL(url);
   }, [appObject]);
 
+
   useEffect(() => {
     setNodeTypes(
       Object.fromEntries(
@@ -114,6 +116,7 @@ export default function AppDisplay({
     );
   }, [colorMode.colorMode]);
 
+
   const styles = getReactFlowStyles();
 
   return (
@@ -122,6 +125,7 @@ export default function AppDisplay({
         <TabItem value="app" label="App" default>
           <ReactFlowProvider>
             <div style={{ height: HEIGHT }}>
+              <ViewFitter />
               <ReactFlow
                 style={styles}
                 nodes={nodes}
