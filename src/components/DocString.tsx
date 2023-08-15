@@ -71,9 +71,13 @@ export default function DocString({ children }: DocStringProps) {
   })
 
   return (
-    <BrowserOnly>      
-      <pre><code>{content}</code></pre>
+    <>
+      <BrowserOnly fallback={<div>Loading node function docstring...</div>}>      
+        {() => {
+          return <pre><code>{content}</code></pre>;
+        }}
+      </BrowserOnly>
       <br></br>
-    </BrowserOnly>
+    </>
   );
 }
