@@ -11,7 +11,7 @@ The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782436/Instruments/Power%20Supplies/Yokogawa-7651/Yokogawa-7651.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077755/Instruments/Power%20Supplies/Yokogawa-7651/Yokogawa-7651.jpg" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785530/Instruments/Vendor%20Logos/Yokogawa.jpg.jpg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785530/Instruments/Vendor%20Logos/Yokogawa.jpg.jpg" />
 
 Yokogawa is a leading provider of Industrial Automation and Test and Measurement solutions. Combining superior technology with engineering services, project management, and maintenance, Yokogawa delivers field proven operational efficiency, safety, quality, and reliability. <a href="https://www.yokogawa.com/">Website</a>.
 

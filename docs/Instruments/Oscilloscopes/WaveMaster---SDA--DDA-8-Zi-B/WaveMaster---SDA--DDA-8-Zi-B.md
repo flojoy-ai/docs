@@ -11,7 +11,7 @@ The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782751/Instruments/Oscilloscopes/WaveMaster---SDA--DDA-8-Zi-B/WaveMaster---SDA--DDA-8-Zi-B.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078131/Instruments/Oscilloscopes/WaveMaster---SDA--DDA-8-Zi-B/WaveMaster---SDA--DDA-8-Zi-B.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785852/Instruments/Vendor%20Logos/Teledyne_Lecroy.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785852/Instruments/Vendor%20Logos/Teledyne_Lecroy.jpg.png" />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 

@@ -11,7 +11,7 @@ The Model 2750 offers extended low ohms measurement capability and supports up t
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782676/Instruments/Multimeters/Keithley-2700/Keithley-2700.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078037/Instruments/Multimeters/Keithley-2700/Keithley-2700.webp" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Model 2750 offers extended low ohms measurement capability and supports up t
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 

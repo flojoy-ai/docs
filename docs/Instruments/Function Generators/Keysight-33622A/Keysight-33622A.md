@@ -11,7 +11,7 @@ The Keysight 33622A function/arbitrary waveform generators offer the standard si
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782694/Instruments/Function%20Generators/Keysight-33622A/Keysight-33622A.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078059/Instruments/Function%20Generators/Keysight-33622A/Keysight-33622A.jpg" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Keysight 33622A function/arbitrary waveform generators offer the standard si
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

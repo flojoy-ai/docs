@@ -11,7 +11,7 @@ The ESP301-3N 3 Axis Motion Controller and Driver is the successor of the popula
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782436/Instruments/Positional%20Controller/Newportesp-301/Newportesp-301.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077756/Instruments/Positional%20Controller/Newportesp-301/Newportesp-301.jpg" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The ESP301-3N 3 Axis Motion Controller and Driver is the successor of the popula
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 

@@ -11,7 +11,7 @@ The triple output, 160 W, E36313A provides small, compact size for bench use; lo
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782704/Instruments/Power%20Supplies/Keysight-E36313A/Keysight-E36313A.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078073/Instruments/Power%20Supplies/Keysight-E36313A/Keysight-E36313A.jpg" style={{ width: "400px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The triple output, 160 W, E36313A provides small, compact size for bench use; lo
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

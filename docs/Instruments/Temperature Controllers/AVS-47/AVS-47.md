@@ -11,7 +11,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782731/Instruments/Temperature%20Controllers/AVS-47/AVS-47.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078106/Instruments/Temperature%20Controllers/AVS-47/AVS-47.jpg" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786881/Instruments/Vendor%20Logos/Picowatt.jpg.gif" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786881/Instruments/Vendor%20Logos/Picowatt.jpg.gif" />
 
 RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for thermometry at ultralow temperatures. Founded in February 1978, we have gathered 45 years of experience in designing and manufacturing low-noise precision. <a href="https://www.picowatt.fi/index1.html">Website</a>.
 
