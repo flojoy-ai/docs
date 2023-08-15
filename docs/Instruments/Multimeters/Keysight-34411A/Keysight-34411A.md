@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34411A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight Technologies, Inc. 34411A multimeter gives you the performance you 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077223/Instruments/Multimeters/Keysight-34411A/Keysight-34411A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106984/Instruments/Multimeters/Keysight-34411A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight Technologies, Inc. 34411A multimeter gives you the performance you 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,27 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight 34411A Multimeter using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_344XXA import Keysight_344XXA
+
+# Create an instance of the Keysight_344XXA driver
+multimeter = Keysight_344XXA('multimeter', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the multimeter
+multimeter.connect()
+
+# Perform measurements or set parameters using the multimeter object
+
+# Disconnect from the multimeter
+multimeter.disconnect()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your Keysight 34411A Multimeter.
+
+</TabItem>
+</Tabs>

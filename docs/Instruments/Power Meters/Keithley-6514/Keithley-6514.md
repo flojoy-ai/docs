@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 6514
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078090/Instruments/Power%20Meters/Keithley-6514/Keithley-6514.webp" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107054/Instruments/Power%20Meters/Keithley-6514/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,28 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+To connect to a Keithley 6514 Power Meter using Instrumentkit, you can use the following code:
+
+```python
+import instrumentkit as ik
+
+# Connect to the power meter
+power_meter = ik.keithley.Keithley6514.open_gpibusb('/dev/ttyUSB0', 12)
+
+# Set the measurement mode to DC voltage
+power_meter.mode = power_meter.Mode.voltage_dc
+
+# Perform a measurement
+measurement = power_meter.measure()
+
+# Print the measurement result
+print(measurement)
+```
+
+This code imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Keithley6514` class to connect to the power meter. It then sets the measurement mode to DC voltage using the `mode` property and performs a measurement using the `measure` method. Finally, it prints the measurement result.
+
+</TabItem>
+</Tabs>

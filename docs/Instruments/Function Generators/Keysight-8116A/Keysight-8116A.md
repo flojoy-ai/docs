@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 8116A
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077835/Instruments/Function%20Generators/Keysight-8116A/Keysight-8116A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106828/Instruments/Function%20Generators/Keysight-8116A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786123/Instruments/Vendor%20Logos/HP.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,39 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+
+```python
+from pymeasure.adapters import GPIBAdapter
+from pymeasure.instruments.hp import HP8116A
+
+# Connect to the instrument
+adapter = GPIBAdapter(address=1)
+instrument = HP8116A(adapter)
+
+# Set the frequency to 1 kHz
+instrument.frequency = 1e3
+
+# Set the amplitude to 1 V
+instrument.amplitude = 1
+
+# Enable the output
+instrument.output_enabled = True
+
+# Wait for 5 seconds
+import time
+time.sleep(5)
+
+# Disable the output
+instrument.output_enabled = False
+
+# Disconnect from the instrument
+instrument.shutdown()
+```
+
+This script connects to the instrument using a GPIB adapter with address 1. It then sets the frequency to 1 kHz and the amplitude to 1 V. It enables the output, waits for 5 seconds, and then disables the output. Finally, it disconnects from the instrument.
+
+</TabItem>
+</Tabs>

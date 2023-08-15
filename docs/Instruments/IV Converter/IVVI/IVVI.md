@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # IVVI
 
 ## Instrument Card
@@ -11,7 +14,7 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077972/Instruments/IV%20Converter/IVVI/IVVI.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106953/Instruments/IV%20Converter/IVVI/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QuTech.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125978/Instruments/Vendor%20Logos/QuTech.png" style={{ width:"200px", height: "150px"}} />
 
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
 
@@ -35,7 +38,8 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 
 ```python
@@ -68,3 +72,5 @@ Finally, we disconnect from the instrument using the `disconnect()` method.
 
 Note: Make sure to replace `'ASRL1::INSTR'` with the actual address of your IVVI IV Converter.
 
+</TabItem>
+</Tabs>

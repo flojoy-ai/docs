@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # WavePro HD
 
 ## Instrument Card
@@ -11,7 +14,7 @@ WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 te
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077917/Instruments/Oscilloscopes/WavePro-HD/WavePro-HD.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106903/Instruments/Oscilloscopes/WavePro-HD/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 te
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785852/Instruments/Vendor%20Logos/Teledyne_Lecroy.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width:"200px", height: "150px"}} />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 
@@ -35,3 +38,39 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+To connect to a WavePro HD Oscilloscope using Instrumentkit, you can use the `teledyne.WaveProHD` class. Here's an example script:
+
+```python
+import instrumentkit as ik
+
+# Connect to the oscilloscope
+address = "TCPIP0::192.168.0.10::INSTR"
+oscilloscope = ik.teledyne.WaveProHD.open_visa(address)
+
+# Perform operations on the oscilloscope
+oscilloscope.run()
+print(oscilloscope.trigger_state)
+
+# Set time per division to 20 ns
+oscilloscope.time_div = 20 * ik.units.ns
+
+# Access the first channel
+channel = oscilloscope.channel[0]
+channel.trace = True
+channel.coupling = channel.Coupling.dc50
+channel.scale = 1 * ik.units.V
+
+# Read waveform from the channel
+xdat, ydat = channel.read_waveform()
+
+# Disconnect from the oscilloscope
+oscilloscope.close()
+```
+
+This script connects to the oscilloscope at the specified address, starts the trigger in automatic mode, sets the time per division to 20 ns, configures the first channel, reads a waveform from the channel, and finally disconnects from the oscilloscope.
+
+</TabItem>
+</Tabs>

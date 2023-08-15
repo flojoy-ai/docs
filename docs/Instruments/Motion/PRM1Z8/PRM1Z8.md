@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # PRM1Z8
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stag
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078009/Instruments/Motion/PRM1Z8/PRM1Z8.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106984/Instruments/Motion/PRM1Z8/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stag
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785700/Instruments/Vendor%20Logos/Thorlabs.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width:"200px", height: "150px"}} />
 
 Thorlabs, Inc. is an American privately held optical equipment company headquartered in Newton, New Jersey. The company was founded in 1989 by Alex Cable, who serves as its current president and CEO. As of 2018, Thorlabs has annual sales of approximately $500 million. <a href="https://www.thorlabs.com/">Website</a>.
 
@@ -35,7 +38,8 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 To connect to a PRM1Z8 Motion using Qcodes Community, you can use the following Python script:
 
@@ -70,5 +74,7 @@ We then create a Station object and add the PRM1Z8 instrument to it. Finally, we
 
 After connecting, we can use the instrument's methods and parameters. In this example, we retrieve the current position using the `position` parameter and print it. Then, we set the position to 45 degrees using the `position` parameter.
 
-Note: Make sure you have the necessary dependencies installed, including Qcodes and the Thorlabs APT Python package.
+Note: Make sure you have the necessary dependencies installed, including the Qcodes library and the Thorlabs APT Python package.
 
+</TabItem>
+</Tabs>

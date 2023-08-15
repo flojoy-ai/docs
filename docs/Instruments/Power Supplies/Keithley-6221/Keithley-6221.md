@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 6221
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 6221 AC and DC Current Source combine ease of use with exceptionally low cur
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077897/Instruments/Power%20Supplies/Keithley-6221/Keithley-6221.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106886/Instruments/Power%20Supplies/Keithley-6221/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 6221 AC and DC Current Source combine ease of use with exceptionally low cur
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,71 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+Here is an example Python script that uses Pymeasure to connect to a Keithley 6221 Power Supply:
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.keithley import Keithley6221
+
+# Create a VISA adapter for the instrument
+adapter = VISAAdapter("GPIB::1")
+
+# Connect to the Keithley 6221 Power Supply
+keithley = Keithley6221(adapter)
+
+# Enable the source
+keithley.enable_source()
+
+# Set the source current to 0.05 Amps
+keithley.source_current = 0.05
+
+# Set the source compliance to 10 Volts
+keithley.source_compliance = 10
+
+# Set the waveform function to square
+keithley.waveform_function = "square"
+
+# Set the waveform amplitude to 0.05 Amps
+keithley.waveform_amplitude = 0.05
+
+# Set the waveform offset to 0 Amps
+keithley.waveform_offset = 0
+
+# Set the waveform frequency to 347 Hz
+keithley.waveform_frequency = 347
+
+# Set the waveform duty cycle to 50%
+keithley.waveform_dutycycle = 50
+
+# Set the waveform ranging to "best"
+keithley.waveform_ranging = "best"
+
+# Set the waveform duration in cycles to 100
+keithley.waveform_duration_cycles = 100
+
+# Arm (load) the waveform
+keithley.waveform_arm()
+
+# Start the waveform
+keithley.waveform_start()
+
+# Wait for the waveform to finish
+keithley.adapter.wait_for_srq()
+
+# Disarm (unload) the waveform
+keithley.waveform_abort()
+
+# Disable the source
+keithley.disable_source()
+
+# Close the connection to the Keithley 6221 Power Supply
+keithley.shutdown()
+```
+
+This script connects to the Keithley 6221 Power Supply using a VISA adapter and sets various properties of the instrument, such as the source current, source compliance, waveform function, waveform amplitude, waveform offset, waveform frequency, waveform duty cycle, waveform ranging, and waveform duration. It then arms and starts the waveform, waits for it to finish, and finally disables the source and closes the connection to the instrument.
+
+</TabItem>
+</Tabs>

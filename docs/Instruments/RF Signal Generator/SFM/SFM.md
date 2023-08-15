@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SFM
 
 ## Instrument Card
@@ -13,7 +16,7 @@ RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077865/Instruments/RF%20Signal%20Generator/SFM/SFM.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106856/Instruments/RF%20Signal%20Generator/SFM/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -24,7 +27,7 @@ RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126002/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width:"200px", height: "150px"}} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -39,31 +42,34 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pymeasure
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
 
-To connect to a SFM RF Signal Generator using Pymeasure, you can use the following Python script:
 
 ```python
+from pymeasure.instruments.rohde_schwarz import SFM
 from pymeasure.adapters import VISAAdapter
-from pymeasure.instruments.rf import SFM
 
 # Create a VISA adapter for communication
-adapter = VISAAdapter("GPIB0::1::INSTR")
+adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
 
 # Connect to the SFM RF Signal Generator
 signal_generator = SFM(adapter)
 
-# Perform operations on the signal generator
-signal_generator.frequency = 100E6  # Set the frequency to 100 MHz
-signal_generator.level = -10  # Set the output level to -10 dBm
+# Set the frequency to 100 MHz
+signal_generator.frequency = 100E6
 
-# Disconnect from the signal generator
+# Set the output level to -10 dBm
+signal_generator.level = -10
+
+# Enable the RF output
+signal_generator.rf_out_enabled = True
+
+# Disconnect from the SFM RF Signal Generator
 signal_generator.disconnect()
 ```
 
-This script creates a `VISAAdapter` object to establish a connection with the SFM RF Signal Generator using the GPIB interface. Then, it creates an `SFM` object with the adapter to interact with the instrument.
+This script connects to the SFM RF Signal Generator using a VISA adapter and sets the frequency to 100 MHz and the output level to -10 dBm. It then enables the RF output and disconnects from the signal generator.
 
-You can perform various operations on the `signal_generator` object, such as setting the frequency and output level. Finally, you can disconnect from the signal generator using the `disconnect()` method.
-
-Note: Make sure to replace the GPIB address (`GPIB0::1::INSTR`) with the correct address of your SFM RF Signal Generator.
-
+</TabItem>
+</Tabs>

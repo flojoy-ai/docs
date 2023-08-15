@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34450A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077788/Instruments/Multimeters/Keysight-34450A/Keysight-34450A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106786/Instruments/Multimeters/Keysight-34450A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,37 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments import Agilent34450A
+
+# Create a VISA adapter for the instrument
+adapter = VISAAdapter("USB0::0x2A8D::0x0101::MY53200001::INSTR")
+
+# Create an instance of the Agilent34450A instrument
+dmm = Agilent34450A(adapter)
+
+# Reset the instrument
+dmm.reset()
+
+# Configure the instrument to measure DC voltage
+dmm.configure_voltage()
+
+# Read the voltage measurement
+voltage = dmm.voltage
+print("Voltage:", voltage)
+
+# Shutdown the instrument
+dmm.shutdown()
+```
+
+In this example, we first import the necessary modules from Pymeasure. We then create a VISA adapter using the appropriate address for your instrument. Next, we create an instance of the Agilent34450A instrument using the adapter. We can then use the instrument's methods and properties to interact with the multimeter. In this case, we reset the instrument, configure it to measure DC voltage, read the voltage measurement, and finally shutdown the instrument.
+
+Note: Make sure to replace the address "USB0::0x2A8D::0x0101::MY53200001::INSTR" with the actual address of your instrument.
+
+</TabItem>
+</Tabs>

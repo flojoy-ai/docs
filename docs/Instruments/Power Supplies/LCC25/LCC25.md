@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # LCC25
 
 ## Instrument Card
@@ -15,7 +18,7 @@ controls the retardance of the LC device.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077925/Instruments/Power%20Supplies/LCC25/LCC25.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106910/Instruments/Power%20Supplies/LCC25/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -28,7 +31,7 @@ controls the retardance of the LC device.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785700/Instruments/Vendor%20Logos/Thorlabs.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width:"200px", height: "150px"}} />
 
 Thorlabs, Inc. is an American privately held optical equipment company headquartered in Newton, New Jersey. The company was founded in 1989 by Alex Cable, who serves as its current president and CEO. As of 2018, Thorlabs has annual sales of approximately $500 million. <a href="https://www.thorlabs.com/">Website</a>.
 
@@ -43,50 +46,29 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
+Here is an example Python script that uses Instrumentkit to connect to a LCC25 Power Supply:
 
 ```python
-from instrumentkit import Instrument, ConnectionType
-from instrumentkit.contrib.thorlabs import LCC25
+from instrumentkit import ThorlabsPM100USB
 
-# Connect to the LCC25 Power Supply
-instrument = Instrument(
-    LCC25,
-    connection_type=ConnectionType.SERIAL,
-    port="COM1",  # Replace with the actual serial port
-    baudrate=9600,  # Replace with the actual baudrate
-)
+# Connect to the power meter
+power_meter = ThorlabsPM100USB()
 
-# Initialize the instrument
-instrument.initialize()
+# Read the measurement from the power meter
+measurement = power_meter.read()
 
-# Get the name and version number of the device
-name = instrument.name
-print(f"Device Name: {name}")
-
-# Set the frequency at which the LCC oscillates between the two voltages
-frequency = 10  # Hz
-instrument.frequency = frequency
-
-# Set the output mode of the LCC25
-mode = LCC25.Mode.voltage1
-instrument.mode = mode
-
-# Enable the output
-instrument.enable = True
-
-# Set the voltage values for output 1 and output 2
-voltage1 = 10  # Volts
-voltage2 = 20  # Volts
-instrument.voltage1 = voltage1
-instrument.voltage2 = voltage2
-
-# Perform other operations as needed
-
-# Close the connection to the instrument
-instrument.close()
+# Print the measurement
+print(f"Measurement: {measurement}")
 ```
 
-Note: Replace `"COM1"` with the actual serial port that the LCC25 Power Supply is connected to, and replace `9600` with the actual baudrate if it's different.
+In this script, we import the `ThorlabsPM100USB` class from the `instrumentkit` module. We then create an instance of the `ThorlabsPM100USB` class called `power_meter`. This will automatically connect to the power meter.
 
+We can then use the `read()` method of the `power_meter` object to read a measurement from the power meter. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units.
+
+Finally, we print the measurement to the console using f-string formatting.
+
+</TabItem>
+</Tabs>

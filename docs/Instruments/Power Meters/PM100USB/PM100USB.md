@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # PM100USB
 
 ## Instrument Card
@@ -13,7 +16,7 @@ This interface can be operated and powered by a PC via the mini-USB port. A read
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077740/Instruments/Power%20Meters/PM100USB/PM100USB.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106747/Instruments/Power%20Meters/PM100USB/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -24,7 +27,7 @@ This interface can be operated and powered by a PC via the mini-USB port. A read
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785700/Instruments/Vendor%20Logos/Thorlabs.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width:"200px", height: "150px"}} />
 
 Thorlabs, Inc. is an American privately held optical equipment company headquartered in Newton, New Jersey. The company was founded in 1989 by Alex Cable, who serves as its current president and CEO. As of 2018, Thorlabs has annual sales of approximately $500 million. <a href="https://www.thorlabs.com/">Website</a>.
 
@@ -39,7 +42,8 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
 
 ```python
@@ -64,17 +68,18 @@ measurement = power_meter.read()
 print("Measurement:", measurement)
 ```
 
-This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class to connect to the power meter.
+This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class, which represents the power meter.
 
-The script retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
+The script then retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
 
 Next, the script sets the measurement configuration of the power meter to "power" using the `measurement_configuration` property. This configures the power meter to measure power values.
 
-Finally, the script reads a measurement from the power meter using the `read` method. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units. The script prints out the measurement value.
+Finally, the script reads a measurement from the power meter using the `read` method. The measurement is printed out.
 
-Note that this script assumes that the Instrumentkit library is already installed and that the power meter is connected to the computer.
+Note that this script assumes that the power meter is connected and accessible. You may need to modify the script to specify the correct connection parameters, such as the serial port or IP address, depending on how the power meter is connected to your system.
 
-### Pymeasure
+</TabItem>
+<TabItem value="Pymeasure" label="Pymeasure">
 
 
 ```python
@@ -189,7 +194,7 @@ The class has various properties and methods to interact with the power meter. H
 
 - `wavelength_min` and `wavelength_max` are measurement properties that retrieve the minimum and maximum wavelength values supported by the power meter, respectively.
 
-- `wavelength` is a property that allows you to control the wavelength in nm. It retrieves the current wavelength value from the power meter and can be set to a new value.
+- `wavelength` is a property that allows you to control the wavelength in nm. It retrieves the current wavelength value from the power meter and can also be set to a new value.
 
 - `power` is a property that measures the power in W. It retrieves the power value from the power meter.
 
@@ -199,3 +204,5 @@ The class has various properties and methods to interact with the power meter. H
 
 To use this script, you would need to create an instance of the `ThorlabsPM100USB` class and provide the appropriate adapter for communication with the power meter.
 
+</TabItem>
+</Tabs>

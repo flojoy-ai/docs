@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Gentec EO Maestro
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077868/Instruments/Screen%20Display/Gentec-EO-Maestro/Gentec-EO-Maestro.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106859/Instruments/Screen%20Display/Gentec-EO-Maestro/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785921/Instruments/Vendor%20Logos/Gentec_Eo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125988/Instruments/Vendor%20Logos/Gentec_Eo.png" style={{ width:"200px", height: "150px"}} />
 
 Gentec-EO is a manufacturer of laser beam measurement technologies. <a href="https://www.gentec-eo.com/">Website</a>.
 
@@ -35,3 +38,108 @@ Gentec-EO is a manufacturer of laser beam measurement technologies. <a href="htt
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Gentec EO Maestro Screen Display using Qcodes Community, you can use the following Python script:
+
+```python
+from qcodes import VisaInstrument
+from qcodes.utils.helpers import create_on_off_val_mapping
+
+class Gentec_Maestro(VisaInstrument):
+    r"""
+    Instrument driver for the Gentec Maestro powermeter.
+    Args:
+        name (str): Instrument name.
+        address (str): ASRL address
+        baud_rate (int): Baud rate for the connection.
+    Attributes:
+        model (str): Model identification.
+        firmware_version (str): Firmware version.
+    """
+
+    def __init__(self, name, address, baud_rate=115200, **kwargs):
+        super().__init__(name, address, **kwargs)
+
+        # set baud rate
+        self.visa_handle.baud_rate = baud_rate
+
+        # get instrument information
+        self.model, _, self.firmware_version = self._query_versions()
+
+        # add parameters
+        self.add_parameter('power',
+                           get_cmd='*CVU',
+                           get_parser=float,
+                           label='Power',
+                           unit='W')
+
+        def wavelength_get_parser(ans):
+            return int(ans[4:])
+        self.add_parameter('wavelength',
+                           get_cmd='*GWL',
+                           set_cmd='*PWC{0:0>5}',
+                           get_parser=wavelength_get_parser,
+                           label='Wavelength',
+                           unit='nm')
+
+        def zero_offset_get_parser(ans):
+            return int(ans[5:])
+        self.add_parameter('zero_offset_enabled',
+                           get_cmd='*GZO',
+                           get_parser=zero_offset_get_parser,
+                           val_mapping=create_on_off_val_mapping(on_val=1, off_val=0),
+                           label='Zero offset enabled')
+
+        # print connect message
+        self.connect_message()
+
+    # get methods
+    def get_idn(self):
+        return {'vendor': 'Gentec', 'model': self.model, 'firmware': self.firmware_version}
+
+    # further methods
+    def clear_zero_offset(self):
+        self.write('*COU')
+
+    def set_zero_offset(self):
+        self.write('*SOU')
+
+    def _query_versions(self):
+        return self.ask('*VER').split()
+
+
+# Connect to the Gentec EO Maestro Screen Display
+maestro = Gentec_Maestro('maestro', 'ASRL1::INSTR', baud_rate=115200)
+
+# Get the power reading
+power = maestro.power()
+print(f"Power: {power} W")
+
+# Get the wavelength setting
+wavelength = maestro.wavelength()
+print(f"Wavelength: {wavelength} nm")
+
+# Check if zero offset is enabled
+zero_offset_enabled = maestro.zero_offset_enabled()
+print(f"Zero offset enabled: {zero_offset_enabled}")
+
+# Clear the zero offset
+maestro.clear_zero_offset()
+
+# Set the zero offset
+maestro.set_zero_offset()
+
+# Disconnect from the instrument
+maestro.close()
+```
+
+This script creates a `Gentec_Maestro` class that inherits from `VisaInstrument` in Qcodes. It initializes the instrument by setting the baud rate, querying the instrument information, and adding parameters for power, wavelength, and zero offset enabled.
+
+To connect to the Gentec EO Maestro Screen Display, you create an instance of the `Gentec_Maestro` class with the appropriate name, address, and baud rate. You can then use the defined parameters and methods to interact with the instrument.
+
+The script demonstrates how to get the power reading, get the wavelength setting, check if the zero offset is enabled, clear the zero offset, and set the zero offset. Finally, it closes the connection to the instrument.
+
+</TabItem>
+</Tabs>

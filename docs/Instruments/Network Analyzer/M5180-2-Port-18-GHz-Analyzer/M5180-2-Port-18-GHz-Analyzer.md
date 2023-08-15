@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # M5180 2-Port 18 GHz Analyzer
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077857/Instruments/Network%20Analyzer/M5180-2-Port-18-GHz-Analyzer/M5180-2-Port-18-GHz-Analyzer.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106849/Instruments/Network%20Analyzer/M5180-2-Port-18-GHz-Analyzer/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785589/Instruments/Vendor%20Logos/Coppermountain.jpg.webp" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125964/Instruments/Vendor%20Logos/Coppermountain.png" style={{ width:"200px", height: "150px"}} />
 
 **Copper Mountain Technologies** develops innovative RF test and measurement solutions for engineers worldwide that enable engineers to extend their reach. <a href="https://coppermountaintech.com/">Website</a>.
 
@@ -35,3 +38,45 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+```python
+from qcodes import Station
+from qcodes.instrument_drivers.copper_mountain.m5180 import M5180
+
+# Create a station to hold the instruments
+station = Station()
+
+# Connect to the M5180 instrument
+m5180 = M5180('m5180', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Add the M5180 instrument to the station
+station.add_component(m5180)
+
+# Print the available parameters of the M5180 instrument
+print(m5180.parameters)
+
+# Set the start frequency to 1 GHz
+m5180.start(1e9)
+
+# Set the stop frequency to 10 GHz
+m5180.stop(10e9)
+
+# Set the number of points to 1001
+m5180.npts(1001)
+
+# Perform a frequency sweep and get the S11 magnitude and phase
+s11_mag, s11_phase = m5180.s11()
+
+# Print the S11 magnitude and phase
+print("S11 Magnitude:", s11_mag)
+print("S11 Phase:", s11_phase)
+
+# Disconnect from the instruments
+m5180.close()
+```
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your M5180 instrument.
+
+</TabItem>
+</Tabs>

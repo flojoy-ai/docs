@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SMW 200 A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The R&S®SMW200A offers integrated channel emulation for up to 800 MHz of fading
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077834/Instruments/RF%20Signal%20Generator/SMW-200-A/SMW-200-A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106827/Instruments/RF%20Signal%20Generator/SMW-200-A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The R&S®SMW200A offers integrated channel emulation for up to 800 MHz of fading
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126002/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width:"200px", height: "150px"}} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -35,3 +38,29 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to the SMW 200 A RF Signal Generator using Qcodes, you can use the following code:
+
+```python
+from qcodes.instrument_drivers.rohde_schwarz.SMWSMU import SMWSMU
+
+# Create an instance of the SMWSMU driver
+smw = SMWSMU('smw', 'TCPIP0::192.168.0.1::inst0::INSTR')
+
+# Connect to the instrument
+smw.connect()
+
+# Now you can use the instrument to perform various operations
+# For example, you can set the output power
+smw.output_power(0)  # Set the output power to 0 dBm
+
+# Disconnect from the instrument
+smw.disconnect()
+```
+
+Note that you need to replace `'TCPIP0::192.168.0.1::inst0::INSTR'` with the actual VISA address of your SMW 200 A RF Signal Generator.
+
+</TabItem>
+</Tabs>

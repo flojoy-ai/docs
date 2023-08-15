@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # NI DAQ
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077932/Instruments/DAQ%20boards/NI-DAQ/NI-DAQ.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106916/Instruments/DAQ%20boards/NI-DAQ/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786494/Instruments/Vendor%20Logos/National_Instruments.jpg.webp" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125989/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
 
@@ -35,3 +38,31 @@ A producer of automated test equipment and virtual instrumentation software. Com
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a NI DAQ board using Qcodes Community, you can use the following Python script:
+
+```python
+import qcodes as qc
+from qcodes_contrib_drivers.drivers.NI_DAQ import DAQAnalogInputs, DAQAnalogOutputs, DAQDigitalOutputs
+
+# Create a connection to the NI DAQ board
+daq = qc.Instrument('daq', 'DAQAnalogInputs', dev_name='Dev1', rate=1000, channels={'ch1': 0})
+
+# Read analog input voltage
+voltage = daq.voltage.get()
+
+# Write analog output voltage
+daq_ao = qc.Instrument('daq_ao', 'DAQAnalogOutputs', dev_name='Dev1', channels={'ch1': 0})
+daq_ao.voltage_ch1.set(1.23)
+
+# Write digital output state
+daq_do = qc.Instrument('daq_do', 'DAQDigitalOutputs', dev_name='Dev1', lines=['port0/line0'])
+daq_do.state.set(True)
+```
+
+Note: Replace `'Dev1'` with the appropriate device name for your NI DAQ board, and adjust the channel and line configurations as needed.
+
+</TabItem>
+</Tabs>

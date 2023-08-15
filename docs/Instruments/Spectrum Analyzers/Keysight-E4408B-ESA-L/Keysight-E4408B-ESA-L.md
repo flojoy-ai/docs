@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight E4408B ESA-L
 
 ## Instrument Card
@@ -11,7 +14,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077771/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/Keysight-E4408B-ESA-L.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106773/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,46 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments import AgilentE4408B
+
+# Create a VISA adapter for the instrument
+adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
+
+# Connect to the instrument
+instrument = AgilentE4408B(adapter)
+
+# Set the start and stop frequencies
+instrument.start_frequency = 1e9  # 1 GHz
+instrument.stop_frequency = 2e9  # 2 GHz
+
+# Set the number of frequency points
+instrument.frequency_points = 1001
+
+# Set the frequency step
+instrument.frequency_step = 1e6  # 1 MHz
+
+# Set the center frequency
+instrument.center_frequency = 1.5e9  # 1.5 GHz
+
+# Set the sweep time
+instrument.sweep_time = 0.1  # 100 ms
+
+# Get the frequencies
+frequencies = instrument.frequencies
+
+# Get the trace data for trace 1
+trace_data = instrument.trace(1)
+
+# Get the trace data as a pandas DataFrame for trace 1
+trace_df = instrument.trace_df(1)
+```
+
+This script connects to a Keysight E4408B ESA-L Spectrum Analyzer using a VISA adapter. It sets the start and stop frequencies, number of frequency points, frequency step, center frequency, and sweep time. It then retrieves the frequencies, trace data for trace 1, and trace data as a pandas DataFrame for trace 1.
+
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34411A Submodules
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077974/Instruments/Multimeters/Keysight-34411A-Submodules/Keysight-34411A-Submodules.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106954/Instruments/Multimeters/Keysight-34411A-Submodules/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,33 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight 34411A Multimeter using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_34411A import Keysight_34411A
+
+# Create an instance of the Keysight_34411A driver
+multimeter = Keysight_34411A('multimeter', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the multimeter
+multimeter.connect()
+
+# Perform measurements or other operations with the multimeter
+
+# Disconnect from the multimeter
+multimeter.disconnect()
+```
+
+In this script, we import the `Keysight_34411A` driver from the `qcodes.instrument_drivers.Keysight` module. We then create an instance of the driver by providing a name for the instrument and the address of the multimeter (in this case, a TCP/IP address).
+
+After creating the instance, we can connect to the multimeter using the `connect()` method. This establishes the communication with the instrument.
+
+You can then perform measurements or other operations with the multimeter using the methods provided by the driver.
+
+Finally, when you are done, you can disconnect from the multimeter using the `disconnect()` method.
+
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # AG-UC2
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axe
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078021/Instruments/Motor%20Controller/AG-UC2/AG-UC2.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106995/Instruments/Motor%20Controller/AG-UC2/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axe
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 
@@ -35,3 +38,54 @@ Newport provides a wide range of photonics technology and products designed to e
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+
+```python
+from instrumentkit import SerialInstrument
+
+# Define the AG-UC2 Motor Controller class
+class AGUC2MotorController(SerialInstrument):
+    # Define the instrument-specific properties
+    baudrate = 9600
+    timeout = 1
+
+    # Define the instrument-specific commands
+    def move_forward(self, speed):
+        self.send_command(f"FORWARD {speed}")
+
+    def move_backward(self, speed):
+        self.send_command(f"BACKWARD {speed}")
+
+    def stop(self):
+        self.send_command("STOP")
+
+# Create an instance of the AGUC2MotorController class
+motor_controller = AGUC2MotorController("COM1")
+
+# Connect to the motor controller
+motor_controller.connect()
+
+# Move the motor forward at speed 50
+motor_controller.move_forward(50)
+
+# Stop the motor
+motor_controller.stop()
+
+# Disconnect from the motor controller
+motor_controller.disconnect()
+```
+
+In this example, we define a custom `AGUC2MotorController` class that inherits from `SerialInstrument` provided by Instrumentkit. We set the baudrate and timeout properties specific to the AG-UC2 Motor Controller.
+
+We also define three instrument-specific commands: `move_forward`, `move_backward`, and `stop`. These commands send the appropriate commands to the motor controller via the `send_command` method.
+
+We then create an instance of the `AGUC2MotorController` class, specifying the serial port to which the motor controller is connected. We connect to the motor controller using the `connect` method, and then use the `move_forward` and `stop` methods to control the motor.
+
+Finally, we disconnect from the motor controller using the `disconnect` method.
+
+Note: Replace `"COM1"` with the appropriate serial port name for your setup.
+
+</TabItem>
+</Tabs>

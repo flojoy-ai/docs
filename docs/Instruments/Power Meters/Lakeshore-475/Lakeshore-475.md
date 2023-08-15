@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Lakeshore 475
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Lake Shore combined the technical advantages of digital signal processing with
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078028/Instruments/Power%20Meters/Lakeshore-475/Lakeshore-475.png" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107001/Instruments/Power%20Meters/Lakeshore-475/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Lake Shore combined the technical advantages of digital signal processing with
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 
@@ -35,3 +38,12 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+```python
+Unfortunately, the provided documentation is for the Lakeshore 340 cryogenic temperature controller, not the Lakeshore 475 Power Meters. Therefore, I cannot provide you with the code to connect to a Lakeshore 475 Power Meters using Instrumentkit.
+```
+
+</TabItem>
+</Tabs>

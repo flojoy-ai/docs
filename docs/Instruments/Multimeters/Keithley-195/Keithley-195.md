@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 195
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keithley 195A Digital Multimeter is a fully programmable instrument with a 5
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077930/Instruments/Multimeters/Keithley-195/Keithley-195.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106915/Instruments/Multimeters/Keithley-195/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keithley 195A Digital Multimeter is a fully programmable instrument with a 5
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,28 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+To connect to a Keithley 195 Multimeter using Instrumentkit, you can use the following Python script:
+
+```python
+import instrumentkit as ik
+
+# Connect to the Keithley 195 Multimeter
+dmm = ik.keithley.Keithley195.open_gpibusb('/dev/ttyUSB0', 12)
+
+# Set the measurement mode to resistance
+dmm.mode = dmm.Mode.resistance
+
+# Perform a measurement
+measurement = dmm.measure()
+
+# Print the measurement result
+print(measurement)
+```
+
+This script imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley195` class to connect to the Keithley 195 Multimeter. It then sets the measurement mode to resistance using the `mode` property and performs a measurement using the `measure` method. Finally, it prints the measurement result.
+
+</TabItem>
+</Tabs>

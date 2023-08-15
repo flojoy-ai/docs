@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # WaveSurfer 4000HD
 
 ## Instrument Card
@@ -11,7 +14,7 @@ WaveSurfer 4000HD extends Teledyne LeCroy’s leadership in High Definition Osci
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077953/Instruments/Oscilloscopes/WaveSurfer-4000HD/WaveSurfer-4000HD.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106937/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ WaveSurfer 4000HD extends Teledyne LeCroy’s leadership in High Definition Osci
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785852/Instruments/Vendor%20Logos/Teledyne_Lecroy.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width:"200px", height: "150px"}} />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 
@@ -35,3 +38,37 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+To connect to a WaveSurfer 4000HD Oscilloscope using Instrumentkit, you can use the following code:
+
+```python
+import instrumentkit as ik
+
+# Connect to the oscilloscope
+oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
+
+# Perform operations on the oscilloscope
+# For example, you can set the time division
+oscilloscope.time_div = 200e-9
+
+# You can also access and control the channels
+channel = oscilloscope.channel[0]
+channel.trace = True
+channel.coupling = channel.Coupling.dc50
+channel.scale = 1.0
+
+# Read waveform data from the channel
+xdat, ydat = channel.read_waveform()
+
+# Perform other operations as needed
+
+# Close the connection to the oscilloscope
+oscilloscope.close()
+```
+
+This code connects to the oscilloscope using the specified VISA address (`"TCPIP0::192.168.0.10::INSTR"`). It then performs various operations on the oscilloscope, such as setting the time division, accessing and controlling the channels, and reading waveform data. Finally, it closes the connection to the oscilloscope.
+
+</TabItem>
+</Tabs>

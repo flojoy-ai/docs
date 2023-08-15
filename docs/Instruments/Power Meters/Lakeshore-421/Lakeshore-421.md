@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Lakeshore 421
 
 ## Instrument Card
@@ -14,7 +17,7 @@ Application-specific probe customization available.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077742/Instruments/Power%20Meters/Lakeshore-421/Lakeshore-421.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106749/Instruments/Power%20Meters/Lakeshore-421/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -26,7 +29,7 @@ Application-specific probe customization available.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 
@@ -41,3 +44,49 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+Here is a Python script that uses Pymeasure to connect to a Lakeshore 421 Power Meter:
+
+```python
+from pymeasure.adapters import SerialAdapter
+from pymeasure.instruments.lakeshore import LakeShore421
+
+# Create a serial adapter for the instrument
+adapter = SerialAdapter(port="COM1", baud_rate=9600)
+
+# Create an instance of the LakeShore421 instrument
+gaussmeter = LakeShore421(adapter)
+
+# Connect to the instrument
+gaussmeter.connect()
+
+# Set the unit to Tesla
+gaussmeter.unit = "T"
+
+# Turn on auto-range
+gaussmeter.auto_range = True
+
+# Turn on fast-mode
+gaussmeter.fast_mode = True
+
+# Read the magnetic field
+field = gaussmeter.field
+print("Magnetic Field:", field)
+
+# Set the field range to 300 Gauss
+gaussmeter.field_range = 300
+
+# Read the field range
+field_range = gaussmeter.field_range
+print("Field Range:", field_range)
+
+# Disconnect from the instrument
+gaussmeter.disconnect()
+```
+
+This script creates a `SerialAdapter` to connect to the instrument using the specified port and baud rate. Then, it creates an instance of the `LakeShore421` instrument using the adapter. The script connects to the instrument, sets the unit to Tesla, turns on auto-range and fast-mode, reads the magnetic field, sets the field range to 300 Gauss, reads the field range, and finally disconnects from the instrument.
+
+</TabItem>
+</Tabs>

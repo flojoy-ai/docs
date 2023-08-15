@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Pipekeithley
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Class For Getting Data From The Keihtley Of The Photon-Ion Spectrometer (Pipe).
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077856/Instruments/Miscellaneous/Pipekeithley/Pipekeithley.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106848/Instruments/Miscellaneous/Pipekeithley/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Class For Getting Data From The Keihtley Of The Photon-Ion Spectrometer (Pipe).>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,7 +38,8 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pytango
+<Tabs>
+<TabItem value="Pytango" label="Pytango">
 
 ```python
 import PyTango
@@ -55,3 +59,5 @@ device_proxy.command_inout("command_name")
 
 In the code above, replace "device_name" with the actual name of the Pipekeithley device you want to connect to. Replace "attribute_name" with the name of the attribute you want to read or write, and replace "command_name" with the name of the command you want to call on the device.
 
+</TabItem>
+</Tabs>

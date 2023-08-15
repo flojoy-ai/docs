@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight M3201A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077893/Instruments/RF%20Signal%20Generator/Keysight-M3201A/Keysight-M3201A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106882/Instruments/RF%20Signal%20Generator/Keysight-M3201A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,29 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Keysight M3201A RF Signal Generator using Qcodes Community, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_M3201A import Keysight_M3201A
+
+# Create an instance of the instrument
+awg = Keysight_M3201A('awg', chassis=1, slot=7)
+
+# Connect to the instrument
+awg.connect()
+
+# Now you can use the instrument for various operations
+# For example, you can set the output voltage of a channel
+awg.channels[1].amplitude(0.5)  # Set the amplitude of channel 1 to 0.5 V
+
+# Disconnect from the instrument
+awg.disconnect()
+```
+
+Note that you need to have the Qcodes and Keysight instrument drivers installed for this script to work.
+
+</TabItem>
+</Tabs>

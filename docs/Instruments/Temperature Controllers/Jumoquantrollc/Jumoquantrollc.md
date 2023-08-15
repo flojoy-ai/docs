@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Jumoquantrollc
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078144/Instruments/Temperature%20Controllers/Jumoquantrollc/Jumoquantrollc.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107102/Instruments/Temperature%20Controllers/Jumoquantrollc/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786180/Instruments/Vendor%20Logos/Jumo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126003/Instruments/Vendor%20Logos/Jumo.png" style={{ width:"200px", height: "150px"}} />
 
 **JUMO** is your expert partner and manufacturer for industrial sensor technology up to the automation solution for temperature, pressure, and liquids. <a href="https://jumo.ca/">Website</a>.
 
@@ -35,7 +38,8 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller>
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pytango
+<Tabs>
+<TabItem value="Pytango" label="Pytango">
 
 
 ```python
@@ -64,3 +68,5 @@ Finally, we print the current temperature using the `print()` function.
 
 Note: Make sure to replace the `device_name` variable with the actual Tango device name of your Jumoquantrollc Temperature Controller.
 
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight M960XA-Series
 
 ## Instrument Card
@@ -11,7 +14,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077831/Instruments/Power%20Supplies/Keysight-M960XA-Series/Keysight-M960XA-Series.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106825/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,42 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+Here is a Python script that uses Qcodes to connect to a Keysight M960XA-Series Power Meters:
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.KeysightM960x import KeysightM960x
+
+# Create an instance of the instrument
+power_meter = KeysightM960x("power_meter", address="TCPIP0::192.168.1.1::inst0::INSTR")
+
+# Connect to the instrument
+power_meter.connect()
+
+# Print the instrument ID
+print(power_meter.get_idn())
+
+# Set the output voltage level
+power_meter.voltage_level(1.0)
+
+# Enable the output
+power_meter.output(True)
+
+# Measure the current
+current = power_meter.measure_data()[1]
+print(f"Current: {current} A")
+
+# Disable the output
+power_meter.output(False)
+
+# Disconnect from the instrument
+power_meter.disconnect()
+```
+
+Note: Replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual address of your power meter.
+
+</TabItem>
+</Tabs>

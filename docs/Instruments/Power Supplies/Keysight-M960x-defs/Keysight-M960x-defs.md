@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight M960x defs
 
 ## Instrument Card
@@ -11,7 +14,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077884/Instruments/Power%20Supplies/Keysight-M960x-defs/Keysight-M960x-defs.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106874/Instruments/Power%20Supplies/Keysight-M960x-defs/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,38 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+Here is a Python script that uses Qcodes to connect to a Keysight M960x Power Meter:
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.Keysight_M960x import Keysight_M960x
+
+# Connect to the power meter
+power_meter = Keysight_M960x("power_meter", "TCPIP0::192.168.1.1::inst0::INSTR")
+
+# Print the power meter identification
+print(power_meter.idn())
+
+# Set the power meter to measure power
+power_meter.measurement_function("POWER")
+
+# Set the power meter range
+power_meter.range_auto(True)
+
+# Read the power measurement
+power = power_meter.power()
+
+# Print the power measurement
+print("Power: {} dBm".format(power))
+
+# Close the connection to the power meter
+power_meter.close()
+```
+
+This script connects to the power meter using the IP address "192.168.1.1" and sets up the measurement function to measure power. It then reads the power measurement and prints the result. Finally, it closes the connection to the power meter.
+
+</TabItem>
+</Tabs>

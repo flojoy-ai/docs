@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # TDS510A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile o
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077903/Instruments/Oscilloscopes/TDS510A/TDS510A.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106892/Instruments/Oscilloscopes/TDS510A/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile o
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785977/Instruments/Vendor%20Logos/Tektronix.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125954/Instruments/Vendor%20Logos/Tektronix.png" style={{ width:"200px", height: "150px"}} />
 
 Tektronix, Inc., historically widely known as Tek, is an American company best known for manufacturing test and measurement devices such as [oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope), [logic analyzers](https://en.wikipedia.org/wiki/Logic_analyzer), and video and mobile test protocol equipment. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,29 +38,30 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
 To connect to a TDS510A Oscilloscope using Instrumentkit, you can use the following Python script:
 
 ```python
-from instrumentkit import tektronix
+import instrumentkit as ik
 
-# Connect to the oscilloscope
-tek = tektronix.TekTDS5xx.open_tcpip('192.168.0.2', 8888)
+# Connect to the TDS510A Oscilloscope
+scope = ik.tektronix.TDS510A.open_gpibusb("/dev/ttyUSB0", 1)
 
-# Access the channels and read waveform data
-[x, y] = tek.channel[0].read_waveform()
+# Perform operations on the oscilloscope
+# For example, you can query the instrument's identification
+print(scope.identification)
 
-# Print the waveform data
-print(x)
-print(y)
+# Close the connection to the oscilloscope
+scope.close()
 ```
 
-This script imports the `tektronix` module from Instrumentkit and uses the `open_tcpip` method to connect to the TDS510A Oscilloscope at the specified IP address and port number.
+In this script, we import the `instrumentkit` module as `ik`. Then, we use the `open_gpibusb` method of the `ik.tektronix.TDS510A` class to connect to the TDS510A Oscilloscope. The first argument is the device path (`/dev/ttyUSB0` in this example) and the second argument is the GPIB address of the instrument.
 
-Then, it accesses the first channel of the oscilloscope using `tek.channel[0]` and calls the `read_waveform` method to read the waveform data from that channel. The waveform data is stored in the `x` and `y` variables.
+After connecting, you can perform various operations on the oscilloscope. In the example, we query the instrument's identification using the `identification` property and print the result.
 
-Finally, the script prints the `x` and `y` variables, which contain the waveform data.
+Finally, we close the connection to the oscilloscope using the `close` method.
 
-Note: Make sure to replace `'192.168.0.2'` with the actual IP address of your TDS510A Oscilloscope.
-
+</TabItem>
+</Tabs>

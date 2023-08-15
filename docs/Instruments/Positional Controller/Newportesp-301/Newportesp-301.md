@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Newportesp 301
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The ESP301-3N 3 Axis Motion Controller and Driver is the successor of the popula
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077756/Instruments/Positional%20Controller/Newportesp-301/Newportesp-301.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106761/Instruments/Positional%20Controller/Newportesp-301/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The ESP301-3N 3 Axis Motion Controller and Driver is the successor of the popula
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 
@@ -35,3 +38,12 @@ Newport provides a wide range of photonics technology and products designed to e
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+```python
+Unfortunately, the provided code is for the Newport Agilis Controller AG-UC2, not the Newportesp 301 Positional Controller. Therefore, I cannot provide a Python script using Instrumentkit to connect to the Newportesp 301 Positional Controller based on the provided code.
+```
+
+</TabItem>
+</Tabs>

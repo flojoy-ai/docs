@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 580
 
 ## Instrument Card
@@ -13,7 +16,7 @@ The Keithley 580 can test more devices by enabling both test current polarity an
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077810/Instruments/Power%20Meters/Keithley-580/Keithley-580.jpg" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106807/Instruments/Power%20Meters/Keithley-580/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -24,7 +27,7 @@ The Keithley 580 can test more devices by enabling both test current polarity an
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -39,3 +42,28 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+To connect to a Keithley 580 Power Meter using Instrumentkit, you can use the following Python script:
+
+```python
+import instrumentkit as ik
+
+# Connect to the Keithley 580 Power Meter
+power_meter = ik.keithley.Keithley580.open_gpibusb('/dev/ttyUSB0', 12)
+
+# Set the measurement mode to power
+power_meter.mode = power_meter.Mode.power
+
+# Measure the power
+power_measurement = power_meter.measure()
+
+# Print the power measurement
+print(power_measurement)
+```
+
+This script imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Keithley580` class to connect to the Keithley 580 Power Meter. It then sets the measurement mode to power using the `mode` property and measures the power using the `measure` method. Finally, it prints the power measurement.
+
+</TabItem>
+</Tabs>

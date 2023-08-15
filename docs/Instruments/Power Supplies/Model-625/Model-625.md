@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Model 625
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078145/Instruments/Power%20Supplies/Model-625/Model-625.png" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107104/Instruments/Power%20Supplies/Model-625/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 
@@ -35,3 +38,41 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Model 625 Power Supply using Qcodes Community, you can use the following Python script:
+
+```python
+from qcodes import Station, initialise_or_create_database_at
+from qcodes.instrument_drivers.Lakeshore.Model_625 import Lakeshore625
+
+# Create a station to hold the instrument
+station = Station()
+
+# Initialize or create a database for storing the instrument settings
+initialise_or_create_database_at('path_to_database')
+
+# Connect to the Model 625 Power Supply
+magnet = Lakeshore625('magnet', coil_constant=1.0, field_ramp_rate=0.1, address='GPIB0::1::INSTR')
+
+# Add the instrument to the station
+station.add_component(magnet)
+
+# Print the current field
+print('Current field:', magnet.field())
+
+# Set the field to 1 Tesla
+magnet.set_field(1.0)
+
+# Print the current field again
+print('Current field:', magnet.field())
+
+# Disconnect from the instrument
+magnet.close()
+```
+
+Note: Replace `'path_to_database'` with the actual path where you want to store the instrument settings.
+
+</TabItem>
+</Tabs>

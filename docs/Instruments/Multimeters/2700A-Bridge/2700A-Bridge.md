@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 2700A Bridge
 
 ## Instrument Card
@@ -15,7 +18,7 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078080/Instruments/Multimeters/2700A-Bridge/2700A-Bridge.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107047/Instruments/Multimeters/2700A-Bridge/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -28,7 +31,7 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785453/Instruments/Vendor%20Logos/Andeen_Hangerling.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126007/Instruments/Vendor%20Logos/Andeen_Hagerling.png" style={{ width:"200px", height: "150px"}} />
 
 **Andeen**-**Hagerling**, Inc. - manufacturers of the world's most accurate capacitance bridges and standards. <a href="https://www.andeen-hagerling.com/">Website</a>.
 
@@ -43,3 +46,52 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+To connect to a 2700A Bridge Multimeter using Pymeasure, you can use the following Python script:
+
+```python
+from pymeasure.instruments import Instrument
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.validators import strict_range
+from .ah2500a import AH2500A
+from .ah2700a import AH2700A
+
+# Create a VISA adapter for communication
+adapter = VISAAdapter("GPIB0::12::INSTR")
+
+# Create an instance of the AH2700A instrument
+bridge = AH2700A(adapter)
+
+# Connect to the instrument
+bridge.open()
+
+# Perform measurements or other operations
+idn = bridge.id
+print("Instrument ID:", idn)
+
+config = bridge.config
+print("Configuration:", config)
+
+frequency = bridge.frequency
+print("Frequency:", frequency)
+
+# Reset the instrument
+bridge.reset()
+
+# Trigger a new measurement
+bridge.trigger()
+
+# Close the connection to the instrument
+bridge.close()
+```
+
+This script creates a VISA adapter to establish communication with the instrument. Then, it creates an instance of the `AH2700A` class, which represents the Andeen Hagerling 2700A Precision Capacitance Bridge instrument. The `open()` method is used to connect to the instrument.
+
+After connecting, you can perform various operations on the instrument. The `id` attribute retrieves the instrument identification, the `config` attribute reads out the configuration, and the `frequency` attribute gets or sets the test frequency used for measurements.
+
+The `reset()` method resets the instrument, and the `trigger()` method triggers a new measurement without blocking. Finally, the `close()` method is used to close the connection to the instrument.
+
+</TabItem>
+</Tabs>

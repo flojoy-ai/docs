@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N3300A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts com
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077988/Instruments/Electronic%20Loads/Keysight-N3300A/Keysight-N3300A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106966/Instruments/Electronic%20Loads/Keysight-N3300A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts com
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,29 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Keysight N3300A Electronic Load using Qcodes Community, you can use the following code:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_N3300A import Keysight_N3300A
+
+# Create an instance of the instrument
+load = Keysight_N3300A('load', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+load.connect()
+
+# Now you can use the instrument to perform operations
+# For example, you can set the load current
+load.current.set(1)  # Set the load current to 1 Ampere
+
+# Disconnect from the instrument
+load.disconnect()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual VISA address of your Keysight N3300A Electronic Load.
+
+</TabItem>
+</Tabs>

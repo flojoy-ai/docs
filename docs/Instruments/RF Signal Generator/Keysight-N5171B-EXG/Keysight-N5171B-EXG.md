@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N5171B EXG
 
 ## Instrument Card
@@ -11,7 +14,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077847/Instruments/RF%20Signal%20Generator/Keysight-N5171B-EXG/Keysight-N5171B-EXG.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106839/Instruments/RF%20Signal%20Generator/Keysight-N5171B-EXG/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,36 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+from qcodes import Instrument
+
+# Create an instance of the N51x1 instrument
+n5171b = N51x1('n5171b', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+n5171b.connect()
+
+# Get the IDN information of the instrument
+idn = n5171b.get_idn()
+print(idn)
+
+# Set the power to -10 dBm
+n5171b.power.set(-10)
+
+# Set the frequency to 1 GHz
+n5171b.frequency.set(1e9)
+
+# Enable the RF output
+n5171b.rf_output.set(1)
+
+# Disconnect from the instrument
+n5171b.disconnect()
+```
+
+This script connects to a Keysight N5171B EXG RF Signal Generator using the Qcodes library. It retrieves the IDN information of the instrument, sets the power to -10 dBm, sets the frequency to 1 GHz, and enables the RF output. Finally, it disconnects from the instrument.
+
+</TabItem>
+</Tabs>

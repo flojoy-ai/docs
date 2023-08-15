@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 33521 A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078069/Instruments/RF%20Signal%20Generator/Keysight-33521-A/Keysight-33521-A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107037/Instruments/RF%20Signal%20Generator/Keysight-33521-A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,36 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+Here is a Python script that uses Pymeasure to connect to a Keysight 33521A RF Signal Generator:
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments import Agilent33500
+
+# Create a connection to the instrument
+adapter = VISAAdapter("GPIB::1")
+generator = Agilent33500(adapter)
+
+# Set the output waveform shape to sine
+generator.shape = 'SIN'
+
+# Set the frequency to 1 kHz
+generator.frequency = 1e3
+
+# Set the amplitude to 1 Vpp
+generator.amplitude = 1
+
+# Enable the output
+generator.output = True
+
+# Disconnect from the instrument
+generator.disconnect()
+```
+
+This script connects to the instrument using the VISAAdapter and creates an instance of the Agilent33500 class. It then sets the output waveform shape to sine, frequency to 1 kHz, amplitude to 1 Vpp, and enables the output. Finally, it disconnects from the instrument.
+
+</TabItem>
+</Tabs>

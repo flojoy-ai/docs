@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # HF2LI
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequen
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077995/Instruments/Lockin%20Amplifiers/HF2LI/HF2LI.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106973/Instruments/Lockin%20Amplifiers/HF2LI/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequen
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 
@@ -35,7 +38,8 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 To connect to a HF2LI Lockin Amplifier using Qcodes Community, you can use the following Python script:
 
@@ -70,3 +74,5 @@ hf2li.disconnect()
 
 Note: Make sure you have installed the necessary dependencies, including `qcodes` and `zhinst`.
 
+</TabItem>
+</Tabs>

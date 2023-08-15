@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # LDA-302P-HN
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The LDA-302P-HN Lab Brick USB programmable 50 Ohm digital attenuator has an inpu
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077862/Instruments/Digital%20Attenuator/LDA-302P-HN/LDA-302P-HN.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106853/Instruments/Digital%20Attenuator/LDA-302P-HN/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The LDA-302P-HN Lab Brick USB programmable 50 Ohm digital attenuator has an inpu
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785609/Instruments/Vendor%20Logos/Vaunix.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125985/Instruments/Vendor%20Logos/Vaunix.png" style={{ width:"200px", height: "150px"}} />
 
 Vaunix Technology Corp. designs, manufactures, and services RF and microwave test equipment and digital radio communications products. Utilizing our deep RF and software engineering expertise, rooted in microwave radio and wireless equipment repair and testing, Vaunix developed the Lab Brick® family of electronic test products, which set a new standard for cost, size, and simplicity of wireless testing devices. Powered by a USB connection and controlled by easy-to-use, graphical-user-interface (GUI) software, Lab Bricks have been designed to meet the needs of wireless engineers and technicians who want to create flexible, customized system solutions either in the lab or in the field. We 've expanded our Lab Brick® family of electronic test products to include Attenuator Matrix solutions that double as Wireless [Handover Test Systems](https://vaunix.com/handover-test-systems/) to give our test technicians and product engineers the advanced capability to solve unique wireless _handover _testing challenges and bring affordability, functionality, reliability and simplicity to the microwave test bench. <a href="https://vaunix.com/">Website</a>.
 
@@ -35,18 +38,19 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
-To connect to a LDA-302P-HN using Qcodes Community, you can use the following Python script:
+Here is a Python script that uses Qcodes Community to connect to a LDA-302P-HN Digital Attenuator:
 
 ```python
 from qcodes import Station
 from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 
-# Create a station to hold the instruments
+# Create a station to hold the instrument
 station = Station()
 
-# Connect to the LDA-302P-HN
+# Connect to the LDA-302P-HN Digital Attenuator
 lda = LDA('lda', serial_number=302, dll_path='path/to/dll')
 
 # Add the LDA to the station
@@ -55,12 +59,14 @@ station.add_component(lda)
 # Print the IDN of the LDA
 print(lda.get_idn())
 
-# Set the attenuation to 10 dB
-lda.attenuation(10)
+# Set the attenuation to 10 dB on channel 1
+lda.ch1.attenuation(10)
 
 # Close the connection to the LDA
 lda.close()
 ```
 
-Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-302P-HN.
+Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-302P-HN Digital Attenuator.
 
+</TabItem>
+</Tabs>

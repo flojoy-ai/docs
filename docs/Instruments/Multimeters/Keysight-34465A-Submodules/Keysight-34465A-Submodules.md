@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34465A Submodules
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078013/Instruments/Multimeters/Keysight-34465A-Submodules/Keysight-34465A-Submodules.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106987/Instruments/Multimeters/Keysight-34465A-Submodules/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,28 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight 34465A Multimeter using Qcodes, you can use the following Python script:
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.Keysight_344xxA import Keysight_34465A
+
+# Create an instance of the Keysight 34465A driver
+multimeter = Keysight_34465A('multimeter', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the multimeter
+multimeter.connect()
+
+# Perform measurements or other operations with the multimeter
+
+# Disconnect from the multimeter
+multimeter.disconnect()
+```
+
+This script imports the necessary modules and creates an instance of the `Keysight_34465A` driver, specifying a name for the instrument and the address of the multimeter. Then, it connects to the multimeter using the `connect()` method, performs any desired measurements or operations, and finally disconnects from the multimeter using the `disconnect()` method.
+
+</TabItem>
+</Tabs>

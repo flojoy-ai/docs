@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # PL303QMD-P
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS23
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077751/Instruments/Power%20Supplies/PL303QMD-P/PL303QMD-P.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106756/Instruments/Power%20Supplies/PL303QMD-P/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS23
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785144/Instruments/Vendor%20Logos/Aimtti.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125963/Instruments/Vendor%20Logos/Aimtti.png" style={{ width:"200px", height: "150px"}} />
 
 TTi (Thurlby Thandar Instruments) is a leading manufacturer of electronic test and measurement instruments. These products are sold throughout the world via carefully selected distributors and agents in each country. We are located in Huntingdon near to the famous university city of Cambridge, within one of the high technology areas of the United Kingdom. <a href="https://www.aimtti.com/">Website</a>.
 
@@ -35,7 +38,8 @@ TTi (Thurlby Thandar Instruments) is a leading manufacturer of electronic test a
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
 To connect to a PL303QMD-P Power Supply using Qcodes, you can use the following Python script:
 
@@ -48,12 +52,12 @@ aim_tti = AimTTi("aim_tti", "TCPIP0::192.168.1.1::inst0::INSTR")
 # Connect to the instrument
 aim_tti.connect()
 
-# Now you can use the instrument to perform various operations
-# For example, you can get the voltage value of channel 1
+# Now you can use the instrument to perform operations
+# For example, to get the voltage of channel 1:
 voltage = aim_tti.ch1.volt.get()
 print("Voltage:", voltage)
 
-# You can also set the voltage value of channel 1
+# You can also set the voltage of channel 1:
 aim_tti.ch1.volt.set(5.0)
 
 # Disconnect from the instrument
@@ -62,3 +66,5 @@ aim_tti.disconnect()
 
 Note: Replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual VISA resource address of your PL303QMD-P Power Supply.
 
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Stahl
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078066/Instruments/Miscellaneous/Stahl/Stahl.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107035/Instruments/Miscellaneous/Stahl/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785912/Instruments/Vendor%20Logos/NoLogo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/NoLogo.png" style={{ width:"200px", height: "150px"}} />
 
 Unable to find Vendor Description. <a href="https://r-stahl.com/en/global/home/">Website</a>.
 
@@ -35,7 +38,8 @@ Unable to find Vendor Description. <a href="https://r-stahl.com/en/global/home/"
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
 To connect to a Stahl power supply using Qcodes, you can use the following Python script:
 
@@ -64,7 +68,9 @@ stahl.disconnect()
 
 This script creates an instance of the `Stahl` instrument with the name "stahl" and the serial port address "COM1". It then connects to the instrument using the `connect()` method.
 
-You can access the parameters and functions of the instrument using dot notation. In the example, it retrieves the voltage, current, and lock status of channel 1 using the `voltage()`, `current()`, and `is_locked()` methods, respectively.
+You can access the parameters and functions of the instrument using the instance. In this example, it retrieves the voltage, current, and lock status of channel 1 using the `voltage()`, `current()`, and `is_locked()` methods, respectively.
 
 Finally, it prints the values and disconnects from the instrument using the `disconnect()` method.
 
+</TabItem>
+</Tabs>

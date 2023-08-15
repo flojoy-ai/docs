@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Rigol DS4000-Series
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078086/Instruments/Oscilloscopes/Rigol-DS4000-Series/Rigol-DS4000-Series.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107052/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786552/Instruments/Vendor%20Logos/Rigol.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125991/Instruments/Vendor%20Logos/Rigol.png" style={{ width:"200px", height: "150px"}} />
 
 RIGOL Technologies, Inc. specializes in development and production of test and measuring equipment and is one of the fastest growing Chinese companies in this sphere.
 RIGOL’s line of products includes [digital storage oscilloscopes](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=227), [function/arbitrary waveform generators](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=230), [digital multimeters](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=233), PC-based devices compatible with LXI standard etc. <a href="https://www.rigol.com/">Website</a>.
@@ -36,3 +39,51 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Rigol DS4000-Series Oscilloscope using Qcodes, you can use the following Python script:
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.rigol.DS4000 import RigolDS4000
+
+# Connect to the oscilloscope
+oscilloscope = RigolDS4000("oscilloscope", "USB0::0x1AB1::0x04CE::DS4A203400948::INSTR")
+
+# Print the IDN information of the oscilloscope
+print(oscilloscope.get_idn())
+
+# Set the time base to 1 ms/div
+oscilloscope.time_base(0.001)
+
+# Enable autoscale
+oscilloscope.enable_auto_scale(True)
+
+# Start the acquisition
+oscilloscope.run()
+
+# Wait for the acquisition to complete
+qc.WaitInterval(1).wait()
+
+# Stop the acquisition
+oscilloscope.stop()
+
+# Get the waveform data from channel 1
+waveform_data = oscilloscope.channels.ch1.curvedata()
+
+# Print the waveform data
+print(waveform_data)
+
+# Disconnect from the oscilloscope
+oscilloscope.close()
+```
+
+This script connects to the oscilloscope using the VISA address "USB0::0x1AB1::0x04CE::DS4A203400948::INSTR". You may need to modify this address to match the actual address of your oscilloscope.
+
+The script then performs various operations on the oscilloscope, such as setting the time base, enabling autoscale, starting and stopping the acquisition, and retrieving the waveform data from channel 1.
+
+Finally, the script closes the connection to the oscilloscope using the `close()` method.
+
+</TabItem>
+</Tabs>

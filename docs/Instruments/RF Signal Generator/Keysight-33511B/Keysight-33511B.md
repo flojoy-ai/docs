@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 33511B
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 33511B waveform generator provides Keysight's exclusive Trueform technology 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077743/Instruments/RF%20Signal%20Generator/Keysight-33511B/Keysight-33511B.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106750/Instruments/RF%20Signal%20Generator/Keysight-33511B/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 33511B waveform generator provides Keysight's exclusive Trueform technology 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,35 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight 33511B RF Signal Generator using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX
+
+# Create an instance of the instrument
+signal_generator = WaveformGenerator_33XXX('signal_generator', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the instrument
+signal_generator.connect_message()
+
+# Now you can use the instrument to control the signal generator
+# For example, to set the frequency of channel 1 to 1 MHz:
+signal_generator.ch1.frequency(1e6)
+
+# To turn on the output of channel 1:
+signal_generator.ch1.output('ON')
+
+# To turn off the output of channel 1:
+signal_generator.ch1.output('OFF')
+
+# Disconnect from the instrument
+signal_generator.close()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name of your Keysight 33511B RF Signal Generator.
+
+</TabItem>
+</Tabs>

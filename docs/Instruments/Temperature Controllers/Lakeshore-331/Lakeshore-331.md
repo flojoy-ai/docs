@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Lakeshore 331
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Model 331 cryogenic temperature controller combines the easy operation and u
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077843/Instruments/Temperature%20Controllers/Lakeshore-331/Lakeshore-331.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106835/Instruments/Temperature%20Controllers/Lakeshore-331/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Model 331 cryogenic temperature controller combines the easy operation and u
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width:"200px", height: "150px"}} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 
@@ -35,3 +38,37 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+
+```python
+from pymeasure.instruments.lakeshore import LakeShore331
+
+# Connect to the Lakeshore 331 Temperature Controller
+controller = LakeShore331("GPIB::1")
+
+# Print the current setpoint for output 1
+print(controller.output_1.setpoint)
+
+# Change the setpoint for output 1 to 50 K
+controller.output_1.setpoint = 50
+
+# Change the heater range for output 1 to 'low'
+controller.output_1.heater_range = 'low'
+
+# Wait for the temperature at input A to stabilize
+controller.input_A.wait_for_temperature()
+
+# Print the temperature at input A
+print(controller.input_A.temperature)
+```
+
+This script first imports the `LakeShore331` class from the `pymeasure.instruments.lakeshore` module. It then creates an instance of the `LakeShore331` class, passing the GPIB address of the temperature controller as the argument.
+
+The script then demonstrates some basic operations with the temperature controller. It prints the current setpoint for output 1, changes the setpoint to 50 K, changes the heater range to 'low' for output 1, waits for the temperature at input A to stabilize, and finally prints the temperature at input A.
+
+Note that you will need to have the `pymeasure` package installed in order to run this script.
+
+</TabItem>
+</Tabs>

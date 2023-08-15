@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SCPI Instrument
 
 ## Instrument Card
@@ -11,7 +14,7 @@ All SCPI Instrument
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078057/Instruments/Miscellaneous/SCPI-Instrument/SCPI-Instrument.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107027/Instruments/Miscellaneous/SCPI-Instrument/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ All SCPI Instrument>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785912/Instruments/Vendor%20Logos/NoLogo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/NoLogo.png" style={{ width:"200px", height: "150px"}} />
 
 . <a href="https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">Website</a>.
 
@@ -35,3 +38,82 @@ All SCPI Instrument>
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+Here is an example Python script that uses Instrumentkit to connect to a SCPI instrument:
+
+```python
+import instrumentkit as ik
+
+# Connect to the SCPI instrument
+inst = ik.generic_scpi.SCPIInstrument.open_tcpip('192.168.0.2', 8888)
+
+# Get the name of the connected instrument
+name = inst.name
+print(name)
+
+# Get the SCPI version supported by the instrument
+scpi_version = inst.scpi_version
+print(scpi_version)
+
+# Check if all operations sent to the instrument have been completed
+op_complete = inst.op_complete
+print(op_complete)
+
+# Get the power on status of the instrument
+power_on_status = inst.power_on_status
+print(power_on_status)
+
+# Set the power on status of the instrument
+inst.power_on_status = True
+
+# Get the results of the instrument's self test
+self_test_ok = inst.self_test_ok
+print(self_test_ok)
+
+# Reset the instrument
+inst.reset()
+
+# Clear the instrument
+inst.clear()
+
+# Send a software trigger event to the instrument
+inst.trigger()
+
+# Instruct the instrument to wait until it has completed all received commands before continuing
+inst.wait_to_continue()
+
+# Get the power line frequency setting for the instrument
+line_frequency = inst.line_frequency
+print(line_frequency)
+
+# Set the power line frequency setting for the instrument
+inst.line_frequency = 50
+
+# Check and clear the error queue for the instrument
+error_queue = inst.check_error_queue()
+print(error_queue)
+
+# Get the brightness of the display on the instrument
+display_brightness = inst.display_brightness
+print(display_brightness)
+
+# Set the brightness of the display on the instrument
+inst.display_brightness = 0.5
+
+# Get the contrast of the display on the instrument
+display_contrast = inst.display_contrast
+print(display_contrast)
+
+# Set the contrast of the display on the instrument
+inst.display_contrast = 0.8
+
+# Close the connection to the instrument
+inst.close()
+```
+
+This script demonstrates how to connect to a SCPI instrument using Instrumentkit and perform various operations such as getting the instrument name, checking the power on status, setting the power line frequency, checking and clearing the error queue, and adjusting the display brightness and contrast.
+
+</TabItem>
+</Tabs>

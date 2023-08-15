@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Buffer
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077767/Instruments/Miscellaneous/Buffer/Buffer.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106769/Instruments/Miscellaneous/Buffer/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,7 +38,8 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pymeasure
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keithley buffer:
 
@@ -139,7 +143,11 @@ class KeithleyBuffer:
         self.write(":TRAC:FEED:CONT NEV")
 ```
 
-This script defines a class `KeithleyBuffer` that implements the basic buffering capability found in many Keithley instruments. It provides methods to configure the buffer, check if the buffer is full, wait for the buffer to fill, retrieve the buffer data, start, reset, stop, and disable the buffer.
+This script defines a class `KeithleyBuffer` that implements the basic buffering capability found in many Keithley instruments. It uses Pymeasure's `Instrument` class to communicate with the instrument.
 
-Note: The script assumes that you have already installed the `pymeasure` package.
+The class has various methods to configure, control, and retrieve data from the buffer. For example, `config_buffer` is used to configure the buffer with a specified number of points and delay. `wait_for_buffer` blocks the program until the buffer is full or a timeout is reached. `buffer_data` returns a numpy array of values from the buffer.
 
+Note that this script only provides the code and explanations for the provided code.
+
+</TabItem>
+</Tabs>

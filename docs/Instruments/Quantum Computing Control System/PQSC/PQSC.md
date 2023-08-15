@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # PQSC
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Zurich Instruments PQSC Programmable Quantum System Controller brings togeth
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078031/Instruments/Quantum%20Computing%20Control%20System/PQSC/PQSC.webp" style={{ width: "325px", height: "150px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107004/Instruments/Quantum%20Computing%20Control%20System/PQSC/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Zurich Instruments PQSC Programmable Quantum System Controller brings togeth
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 
@@ -35,36 +38,44 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
-To connect to a PQSC using Qcodes, you can use the following Python script:
+To connect to a PQSC Quantum Computing Control System using Qcodes, you can use the following Python script:
 
 ```python
 import qcodes as qc
 from qcodes.instrument_drivers.zhinst import PQSC
 
-# Create a connection to the PQSC instrument
+# Connect to the PQSC instrument
 pqsc = PQSC("pqsc", "dev1234")
 
-# Connect to the instrument
-pqsc.connect()
+# Print the instrument ID
+print(pqsc.IDN())
 
-# Now you can use the instrument for measurements
-# For example, you can arm and run the PQSC
-pqsc.arm_and_run()
+# Arm the PQSC
+pqsc.arm()
+
+# Start sending out triggers
+pqsc.run()
+
+# Wait until trigger generation and feedback processing is done
+pqsc.wait_done()
 
 # Stop the trigger generation
 pqsc.stop()
 
-# Disconnect from the instrument
-pqsc.disconnect()
+# Close the connection to the instrument
+pqsc.close()
 ```
 
-In this script, we import the necessary modules and create an instance of the `PQSC` instrument driver. We provide a name for the instrument ("pqsc") and the device identifier ("dev1234") as arguments to the `PQSC` constructor.
+In this script, we import the necessary modules and create an instance of the `PQSC` instrument driver. We provide the instrument name ("pqsc") and the instrument address ("dev1234") as arguments to the `PQSC` constructor.
 
-Then, we connect to the instrument using the `connect()` method. After connecting, we can use the instrument for measurements. In this example, we arm and run the PQSC using the `arm_and_run()` method, and then stop the trigger generation using the `stop()` method.
+We then use various methods of the `PQSC` instrument to interact with the instrument. For example, we can use the `arm()` method to prepare the PQSC for triggering the instruments, the `run()` method to start sending out triggers, and the `wait_done()` method to wait until trigger generation and feedback processing is done.
 
-Finally, we disconnect from the instrument using the `disconnect()` method.
+Finally, we close the connection to the instrument using the `close()` method.
 
-Note: Make sure to replace "dev1234" with the actual device identifier of your PQSC instrument.
+Note: Replace "dev1234" with the actual address of your PQSC instrument.
 
+</TabItem>
+</Tabs>

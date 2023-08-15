@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # KtMAwg IVI-C
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078034/Instruments/RF%20Signal%20Generator/KtMAwg-IVI-C/KtMAwg-IVI-C.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107006/Instruments/RF%20Signal%20Generator/KtMAwg-IVI-C/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,47 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a KtMAwg IVI-C RF Signal Generator using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.KtMAwg import KtMAwg
+
+# Create an instance of the KtMAwg instrument
+awg = KtMAwg('awg', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+awg.connect()
+
+# Print the instrument IDN
+print(awg.get_idn())
+
+# Set the output terminal configuration of channel 1 to differential
+awg.ch1.output_term_config('differential')
+
+# Enable the output of channel 1
+awg.ch1.output(True)
+
+# Load a waveform file to channel 1
+awg.ch1.load_waveform('waveform.dat')
+
+# Play the waveform on channel 1
+awg.ch1.play_waveform()
+
+# Stop the waveform on channel 1
+awg.ch1.stop_waveform()
+
+# Disconnect from the instrument
+awg.disconnect()
+```
+
+This script creates an instance of the `KtMAwg` instrument with the name 'awg' and the specified address ('TCPIP0::192.168.1.1::inst0::INSTR'). It then connects to the instrument using the `connect()` method.
+
+The script demonstrates various operations on the instrument, such as getting the instrument IDN using the `get_idn()` method, setting the output terminal configuration and enabling the output of channel 1, loading a waveform file to channel 1, playing the waveform, and stopping the waveform.
+
+Finally, the script disconnects from the instrument using the `disconnect()` method.
+
+</TabItem>
+</Tabs>

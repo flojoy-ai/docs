@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # MFLI
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequ
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077878/Instruments/Lockin%20Amplifiers/MFLI/MFLI.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106868/Instruments/Lockin%20Amplifiers/MFLI/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequ
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 
@@ -35,7 +38,8 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
 The provided code is a stub for connecting to a Zurich Instruments MFLI Lock-in Amplifier using Qcodes. To establish a connection and interact with the lock-in amplifier, you need to install the `zhinst-qcodes` package.
 
@@ -61,17 +65,15 @@ print(mflilockin.parameters)
 mflilockin.frequency(1000)  # Set the frequency to 1000 Hz
 mflilockin.amplitude(0.1)  # Set the amplitude to 0.1 V
 
-# Close the connection to the lock-in amplifier
+# Close the connection to the MFLI Lock-in Amplifier
 mflilockin.close()
 ```
 
-Note: Replace `"dev1234"` with the actual device ID or name of your MFLI Lock-in Amplifier. The `"interface"` argument specifies the interface to use for communication with the instrument, which can be `"1GbE"` for Ethernet or `"USB"` for USB connection.
+Note: In the above script, replace `"dev1234"` with the actual device ID or name of your MFLI Lock-in Amplifier. The `"1GbE"` interface is used for connecting to the instrument over a 1 Gigabit Ethernet interface. Adjust the interface parameter according to your setup.
 
-This script creates a `Station` object to hold the instruments. It then connects to the MFLI Lock-in Amplifier using the `MFLI` class from the `zhinst-qcodes` package. The lock-in amplifier is added as a component to the station.
-
-You can access and manipulate the lock-in amplifier's parameters using the `parameters` attribute of the `MFLI` object. In the example, it prints the available parameters. You can set the frequency and amplitude using the `frequency()` and `amplitude()` methods, respectively.
-
-Finally, the script closes the connection to the lock-in amplifier using the `close()` method.
+This script establishes a connection to the MFLI Lock-in Amplifier, adds it to a Qcodes station, and performs some basic operations like setting the frequency and amplitude. Finally, it closes the connection to the lock-in amplifier.
 
 Remember to install the `zhinst-qcodes` package before running this script.
 
+</TabItem>
+</Tabs>

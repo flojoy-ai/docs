@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Qdac 1
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The original and popular QDAC from QDevil is a high-precision low-noise computer
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692079605/Instruments/Digital-Analog%20Converter/Qdac-1/Qdac-1.png" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106890/Instruments/Digital-Analog%20Converter/Qdac-1/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The original and popular QDAC from QDevil is a high-precision low-noise computer
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QDevils.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125970/Instruments/Vendor%20Logos/QDevils.png" style={{ width:"200px", height: "150px"}} />
 
 Founded in 2016, QDevil is an international quantum technology company focused on developing and manufacturing auxiliary electronics and specialized components, operating from mK to room temperature. The mission is to accelerate research and development in quantum electronics labs. To fulfill the mission QDevil helps customers around the world by supplying world-class auxiliary electronics. <a href="https://qdevil.com/">Website</a>.
 
@@ -35,3 +38,32 @@ Founded in 2016, QDevil is an international quantum technology company focused o
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Qdac 1 Power Supply using Qcodes Community, you can use the following code:
+
+```python
+from qcodes.instrument_drivers.QDevil.QDac import QDac
+
+# Create an instance of the QDac instrument
+qdac = QDac('qdac', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Print the IDN of the instrument
+print(qdac.IDN())
+
+# Set the voltage of channel 1 to 1V
+qdac.channels.ch01.v(1)
+
+# Get the voltage of channel 1
+voltage = qdac.channels.ch01.v()
+print(f"Voltage of channel 1: {voltage} V")
+
+# Close the connection to the instrument
+qdac.close()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual VISA address of your Qdac instrument.
+
+</TabItem>
+</Tabs>

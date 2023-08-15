@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34980A
 
 ## Instrument Card
@@ -14,7 +17,7 @@ are in need of a new, cost-effective alternative
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077900/Instruments/Multimeters/Keysight-34980A/Keysight-34980A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106888/Instruments/Multimeters/Keysight-34980A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -26,7 +29,7 @@ are in need of a new, cost-effective alternative>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -41,3 +44,33 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+Here is a Python script that uses Qcodes to connect to a Keysight 34980A DAQ board:
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.Keysight_34980A import Keysight34980A
+
+# Create an instance of the instrument
+daq = Keysight34980A('daq', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the instrument
+daq.connect()
+
+# Perform operations with the instrument
+daq.reset()
+status = daq.get_status()
+error = daq.get_error()
+
+# Disconnect from the instrument
+daq.disconnect()
+```
+
+This script imports the necessary modules and creates an instance of the `Keysight34980A` instrument with the name 'daq' and the specified address. It then connects to the instrument using the `connect()` method.
+
+After connecting, the script performs some operations with the instrument, such as resetting it, getting the status and error messages. Finally, it disconnects from the instrument using the `disconnect()` method.
+
+</TabItem>
+</Tabs>

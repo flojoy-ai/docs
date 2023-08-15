@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 81110A
 
 ## Instrument Card
@@ -12,7 +15,7 @@ Pulse Pattern Generator / 165/330 MHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077762/Instruments/Function%20Generators/Keysight-81110A/Keysight-81110A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106765/Instruments/Function%20Generators/Keysight-81110A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -22,7 +25,7 @@ Pulse Pattern Generator / 165/330 MHz>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -37,3 +40,33 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumental" label="Instrumental">
+
+To connect to a Keysight 81110A Function Generator using Instrumental, you can use the following Python script:
+
+```python
+from instrumental import instrument, list_resources
+
+# Find available resources
+resources = list_resources()
+
+# Connect to the Keysight 81110A Function Generator
+func_gen = instrument(resources[0])
+
+# Now you can use the function generator
+# For example, to set the frequency:
+func_gen.frequency = 1000  # Set frequency to 1 kHz
+
+# Close the connection
+func_gen.close()
+```
+
+This script first uses the `list_resources()` function from Instrumental to find all available resources. It then connects to the first resource found, assuming it is the Keysight 81110A Function Generator. You can modify the index `0` in `resources[0]` to connect to a different resource if needed.
+
+Once connected, you can use the `func_gen` object to control the function generator. In the example above, it sets the frequency to 1 kHz by assigning the desired frequency to the `frequency` attribute of the `func_gen` object.
+
+Finally, the `close()` method is called to close the connection to the function generator.
+
+</TabItem>
+</Tabs>

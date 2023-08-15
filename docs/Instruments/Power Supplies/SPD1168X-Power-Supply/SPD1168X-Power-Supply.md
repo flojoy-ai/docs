@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SPD1168X Power Supply
 
 ## Instrument Card
@@ -13,7 +16,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078140/Instruments/Power%20Supplies/SPD1168X-Power-Supply/SPD1168X-Power-Supply.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107098/Instruments/Power%20Supplies/SPD1168X-Power-Supply/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -24,7 +27,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/Siglent.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126014/Instruments/Vendor%20Logos/Siglent.png" style={{ width:"200px", height: "150px"}} />
 
 **iglent** is a China-based manufacturer specializing in electronic test & measurement instruments. Siglent founders began a preliminary study of digital oscilloscopes in 2002. It founded in 2007, and now Siglent has extended its product line to include digital oscilloscopes, function / arbitrary waveform generators, RF generators，digital multi-meters, DC power supplies, spectrum analyzers, spectrum & vector network analyzers, isolated handheld oscilloscopes, DC electronic loads and other general test instruments.Siglent also manufactured entry-level products for Lecroy. <a href="https://siglentna.com/">Website</a>.
 
@@ -39,3 +42,32 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.siglenttechnologies import SPD1168X
+
+# Create a VISA adapter for communication with the instrument
+adapter = VISAAdapter("USB0::0xF4EC::0xEE3A::SPD1168X-1000-1168X-0001::0::INSTR")
+
+# Create an instance of the SPD1168X power supply
+power_supply = SPD1168X(adapter)
+
+# Connect to the power supply
+power_supply.connect()
+
+# Perform operations with the power supply
+# For example, set the voltage and current limits
+power_supply.ch_1.voltage_limit = 5  # Set the voltage limit to 5V
+power_supply.ch_1.current_limit = 1  # Set the current limit to 1A
+
+# Disconnect from the power supply
+power_supply.disconnect()
+```
+
+Note: Replace the VISA address in the `VISAAdapter` constructor with the appropriate address for your instrument.
+
+</TabItem>
+</Tabs>

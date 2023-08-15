@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Singlequantum
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078129/Instruments/Photon%20Counting%20System/Singlequantum/Singlequantum.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107088/Instruments/Photon%20Counting%20System/Singlequantum/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/SingleQuantum.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126005/Instruments/Vendor%20Logos/SingleQuantum.png" style={{ width:"200px", height: "150px"}} />
 
 At Single Quantum, we confront every challenge with innovation, dedication, and passion. Founded in 2012, our team emerged as true pioneers of single photon detection technology: we were among the first to manufacture and commercialize superconducting nanowire single photon detectors. Since then, our multi-channel Single Quantum Eos photon detection system has been chosen by more than 100 academic and industrial labs all over the world to perform complex optical measurements. <a href="https://singlequantum.com/">Website</a>.
 
@@ -35,7 +38,8 @@ At Single Quantum, we confront every challenge with innovation, dedication, and 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 To connect to a Singlequantum Photon Counting System using Qcodes Community, you can use the provided `WebSQControlqcode` class. Here's an example script that demonstrates how to connect to the instrument and perform some basic operations:
 
@@ -72,3 +76,5 @@ instrument.close()
 
 In this script, we first create a `Station` object to hold the instrument. Then, we create an instance of the `WebSQControlqcode` class and add it to the station. We can then use the instrument's parameters to interact with the Singlequantum Photon Counting System. In this example, we set the bias current, enable the detectors, set the measurement period, and acquire counts for 5 points. Finally, we print the acquired counts and close the connection to the instrument.
 
+</TabItem>
+</Tabs>

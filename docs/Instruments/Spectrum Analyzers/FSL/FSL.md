@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # FSL
 
 ## Instrument Card
@@ -13,7 +16,7 @@ These analyzers are ideal for a large number of applications in development, ser
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077947/Instruments/Spectrum%20Analyzers/FSL/FSL.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106932/Instruments/Spectrum%20Analyzers/FSL/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -24,7 +27,7 @@ These analyzers are ideal for a large number of applications in development, ser
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126002/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width:"200px", height: "150px"}} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -39,7 +42,8 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pymeasure
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
 
 
 ```python
@@ -278,32 +282,30 @@ class FSL(Instrument):
             self.write(f"FUNC:ZOOM {value}; *WAI")
 ```
 
-This script defines a class `FSL` that represents a Rohde&Schwarz FSL spectrum analyzer. It provides methods and properties to control various settings of the spectrum analyzer, such as frequency settings, attenuation, bandwidth, sweeping, traces, and markers.
+This script defines a class `FSL` that represents a Rohde&Schwarz FSL spectrum analyzer. It provides methods and properties to control various settings and perform measurements on the spectrum analyzer.
 
-To use this script, you need to have Pymeasure installed. You can then create an instance of the `FSL` class and use its methods and properties to control the spectrum analyzer. For example:
+To use this script, you need to have Pymeasure installed. You can install it using pip:
+
+```
+pip install pymeasure
+```
+
+Once you have Pymeasure installed, you can create an instance of the `FSL` class and connect to the spectrum analyzer using an appropriate adapter. For example:
 
 ```python
 from pymeasure.adapters import VISAAdapter
 
-# Create a VISA adapter for communication with the instrument
-adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
-
-# Create an instance of the FSL class
+adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")  # Replace with the actual IP address of your spectrum analyzer
 fsl = FSL(adapter)
 
-# Set the frequency span to 1 GHz
-fsl.freq_span = "1 GHz"
-
-# Set the center frequency to 2 GHz
-fsl.freq_center = "2 GHz"
-
-# Perform a single sweep
-fsl.single_sweep()
-
-# Read the trace data from trace 1
-trace_data = fsl.read_trace(1)
+# Now you can use the methods and properties of the FSL class to control the spectrum analyzer
+fsl.freq_center = "1 GHz"  # Set the center frequency to 1 GHz
+fsl.attenuation = 10  # Set the attenuation to 10 dB
+trace_data = fsl.read_trace()  # Read the trace data from the spectrum analyzer
 print(trace_data)
 ```
 
-This script demonstrates how to connect to the FSL spectrum analyzer, set the frequency span and center frequency, perform a single sweep, and read the trace data from trace 1. You can modify the script to suit your specific needs and control other settings of the spectrum analyzer.
+This script provides a basic example of how to use Pymeasure to connect to a Rohde&Schwarz FSL spectrum analyzer and control its settings. You can extend it to suit your specific needs and perform more advanced measurements and analysis.
 
+</TabItem>
+</Tabs>

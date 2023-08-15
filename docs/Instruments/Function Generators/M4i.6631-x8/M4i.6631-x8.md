@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # M4i.6631-x8
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077855/Instruments/Function%20Generators/M4i.6631-x8/M4i.6631-x8.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106847/Instruments/Function%20Generators/M4i.6631-x8/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/Spectrum.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Spectrum.png" style={{ width:"200px", height: "150px"}} />
 
 Spectrum Instrumentation manufactures high-speed, high-resolution PC measurement equipment for the most demanding applications. 200+ products are available for your Perfect Fit Solution, combined with intuitive measurement software, support directly from the engineers and five years warranty. Spectrum products and solutions are used by leading companies and research institutes worldwide. <a href="https://spectrum-instrumentation.com/">Website</a>.
 
@@ -35,7 +38,8 @@ Spectrum Instrumentation manufactures high-speed, high-resolution PC measurement
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 To connect to a M4i.6631-x8 Function Generator using Qcodes Community, you can use the following code:
 
@@ -57,3 +61,5 @@ m4i.close()
 
 This code connects to the M4i.6631-x8 Function Generator using the `M4i` driver from the Qcodes Community. It sets the output voltage of channel 0 to 1V and enables the output of channel 0. Finally, it closes the connection to the function generator.
 
+</TabItem>
+</Tabs>

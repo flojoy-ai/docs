@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N9000A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077886/Instruments/Spectrum%20Analyzers/Keysight-N9000A/Keysight-N9000A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106876/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,36 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+To connect to a Keysight N9000A Spectrum Analyzer using Qcodes Community, you can use the following Python script:
+
+```python
+from qcodes import Station, Instrument
+from qcodes.instrument_drivers.Keysight.Keysight_N9000A import Keysight_N9000A
+
+# Create a station to hold the instrument
+station = Station()
+
+# Connect to the Keysight N9000A Spectrum Analyzer
+n9000a = Keysight_N9000A('n9000a', 'TCPIP0::192.168.1.1::inst0::INSTR')
+station.add_component(n9000a)
+
+# Print the RF center frequency
+print(n9000a.rf_center_frequency())
+
+# Set the video bandwidth to 10 MHz
+n9000a.video_bandwidth(10)
+
+# Print the power
+print(n9000a.power())
+
+# Close the connection
+n9000a.close()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual IP address or VISA resource string of your Keysight N9000A Spectrum Analyzer.
+
+</TabItem>
+</Tabs>

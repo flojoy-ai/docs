@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Agilis
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Agilis™ Piezo Motion Controllers provide convenient and compact fine positioni
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077871/Instruments/Positional%20Controller/Agilis/Agilis.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106862/Instruments/Positional%20Controller/Agilis/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Agilis™ Piezo Motion Controllers provide convenient and compact fine positioni
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 
@@ -35,7 +38,8 @@ Newport provides a wide range of photonics technology and products designed to e
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
 To connect to an Agilis Positional Controller using Instrumentkit, you can use the following code:
 
@@ -54,24 +58,23 @@ controller.reset_controller()
 print(controller.firmware_version)
 
 # Move the X axis relative by 1000 steps
-controller.axis["X"].move_relative = 1000
+controller.axis[newport.AGUC2.Axes.X].move_relative(1000)
 
-# Activate jogging in mode 3 for the Y axis
-controller.axis["Y"].jog = 3
+# Activate jogging in mode 3 for the X axis
+controller.axis[newport.AGUC2.Axes.X].jog = 3
 
-# Stop the Y axis jogging
-controller.axis["Y"].stop()
+# Stop the X axis
+controller.axis[newport.AGUC2.Axes.X].stop()
 
 # Query the step amplitude for the X axis
-step_amplitude = controller.axis["X"].step_amplitude
+step_amplitude = controller.axis[newport.AGUC2.Axes.X].step_amplitude
 print(step_amplitude)
 
-# Set the positive step amplitude for the X axis to +10 and the negative step amplitude to -20
-controller.axis["X"].step_amplitude = (10, -20)
-
-# Close the connection
-controller.close()
+# Set the positive step amplitude to +10 and the negative step amplitude to -20 for the X axis
+controller.axis[newport.AGUC2.Axes.X].step_amplitude = (10, -20)
 ```
 
-This code connects to the Agilis Positional Controller on COM5 with a baud rate of 921600. It then performs various operations such as resetting the controller, printing the firmware version, moving the X axis relative by 1000 steps, activating jogging in mode 3 for the Y axis, stopping the Y axis jogging, querying and setting the step amplitude for the X axis, and finally closing the connection.
+Note: This code assumes that you have already installed the Instrumentkit library.
 
+</TabItem>
+</Tabs>

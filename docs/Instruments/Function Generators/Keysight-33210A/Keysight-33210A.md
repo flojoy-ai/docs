@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 33210A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077787/Instruments/Function%20Generators/Keysight-33210A/Keysight-33210A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106786/Instruments/Function%20Generators/Keysight-33210A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,37 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight 33210A Function Generator using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX
+
+# Create an instance of the instrument
+instrument = WaveformGenerator_33XXX('my_instrument', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the instrument
+instrument.connect()
+
+# Now you can use the instrument to control the function generator
+# For example, you can set the frequency of channel 1 to 1 kHz
+instrument.ch1.frequency(1e3)
+
+# You can also read the current frequency setting
+frequency = instrument.ch1.frequency()
+print(f"The current frequency is {frequency} Hz")
+
+# Disconnect from the instrument
+instrument.disconnect()
+```
+
+This script creates an instance of the `WaveformGenerator_33XXX` class from the `qcodes.instrument_drivers.Keysight.Keysight_33XXX` module. It then connects to the instrument using the specified VISA resource address (`TCPIP0::192.168.1.1::INSTR` in this example).
+
+Once connected, you can use the instrument instance to control the function generator. In the example, it sets the frequency of channel 1 to 1 kHz using the `frequency` parameter of the `ch1` submodule. It then reads the current frequency setting and prints it.
+
+Finally, the script disconnects from the instrument using the `disconnect` method of the instrument instance.
+
+</TabItem>
+</Tabs>

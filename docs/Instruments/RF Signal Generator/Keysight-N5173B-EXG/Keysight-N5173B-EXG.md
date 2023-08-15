@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N5173B EXG
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight N5173B EXG microwave analog signal generator is the cost-effective 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077991/Instruments/RF%20Signal%20Generator/Keysight-N5173B-EXG/Keysight-N5173B-EXG.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106969/Instruments/RF%20Signal%20Generator/Keysight-N5173B-EXG/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight N5173B EXG microwave analog signal generator is the cost-effective 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,39 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+from qcodes import Station, Instrument
+from qcodes.instrument_drivers.Keysight.Keysight_N51x1 import N51x1
+
+# Create a station to hold the instrument
+station = Station()
+
+# Connect to the Keysight N5173B EXG RF Signal Generator
+n5173b = N51x1('n5173b', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Add the instrument to the station
+station.add_component(n5173b)
+
+# Print the IDN information of the instrument
+print(n5173b.get_idn())
+
+# Set the power to -10 dBm
+n5173b.power(-10)
+
+# Set the frequency to 1 GHz
+n5173b.frequency(1e9)
+
+# Enable the RF output
+n5173b.rf_output('on')
+
+# Disable the RF output
+n5173b.rf_output('off')
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual IP address or VISA resource string of your instrument.
+
+</TabItem>
+</Tabs>

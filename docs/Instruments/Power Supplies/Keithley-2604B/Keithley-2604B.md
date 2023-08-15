@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 2604B
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 2604B SourceMeter SMU instrument is a new dual channel SMU instrument with b
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077757/Instruments/Power%20Supplies/Keithley-2604B/Keithley-2604B.webp" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106762/Instruments/Power%20Supplies/Keithley-2604B/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 2604B SourceMeter SMU instrument is a new dual channel SMU instrument with b
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,33 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keithley 2604B Power Supply using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.tektronix.Keithley_2600 import Keithley2604B
+
+# Create an instance of the Keithley2604B instrument
+keithley = Keithley2604B('keithley', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+keithley.connect()
+
+# Perform operations with the instrument
+
+# Disconnect from the instrument
+keithley.disconnect()
+```
+
+In the above script, we import the `Keithley2604B` class from the `qcodes.instrument_drivers.tektronix.Keithley_2600` module. We then create an instance of the `Keithley2604B` instrument, providing a name for the instrument ('keithley') and the connection string ('TCPIP0::192.168.1.1::inst0::INSTR').
+
+Next, we connect to the instrument using the `connect()` method. You can perform various operations with the instrument, such as setting voltage or current, measuring voltage or current, etc.
+
+Finally, we disconnect from the instrument using the `disconnect()` method.
+
+Note: Make sure to replace the connection string ('TCPIP0::192.168.1.1::inst0::INSTR') with the appropriate IP address or other connection details for your specific setup.
+
+</TabItem>
+</Tabs>

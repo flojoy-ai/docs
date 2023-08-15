@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # MC1
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077926/Instruments/Positional%20Controller/MC1/MC1.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106911/Instruments/Positional%20Controller/MC1/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/Qubitekk.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width:"200px", height: "150px"}} />
 
 Qubitekk provides reliable products for generating, preparing, distributing, detecting, correlating and storing photonic qubits. The hardware that is needed to strengthen American leadership in quantum computing, communications, and sensing solutions is being developed and manufactured in San Diego County, CA. <a href="https://qubitekk.com/">Website</a>.
 
@@ -35,41 +38,27 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a MC1 Positional Controller using Instrumentkit, you can use the following Python script:
 
 ```python
-from instrumentkit import SerialConnection
-from instrumentkit import MC1
+from instrumentkit import qubitekk
 
-# Create a serial connection to the MC1 Positional Controller
-connection = SerialConnection(port='/dev/ttyUSB0', baudrate=9600)
-mc1 = MC1(connection)
+# Connect to the MC1 Positional Controller
+mc1 = qubitekk.MC1.open_serial('COM8', 19200, timeout=1)
 
-# Set the stepping increment value of the motor controller to 2 milliseconds
-mc1.increment = 2
+# Now you can use the MC1 object to control the positional controller
+# For example, you can move the controller to a specific position
+mc1.move_to_position(100)
 
-# Get the estimated motor position in millimeters
-position = mc1.metric_position
+# You can also read the current position of the controller
+position = mc1.get_position()
 print(f"Current position: {position}")
-
-# Move the motor to a specified location
-new_position = 500  # in milliseconds
-mc1.move(new_position)
-
-# Check if the motor is in its centering phase
-is_centering = mc1.is_centering()
-print(f"Is centering: {is_centering}")
-
-# Command the motor to go to the center of its travel range
-mc1.center()
-
-# Reset the motor to the limit of its travel range
-mc1.reset()
-
-# Close the connection to the MC1 Positional Controller
-connection.close()
 ```
 
-Note: Make sure to replace `/dev/ttyUSB0` with the appropriate serial port for your MC1 Positional Controller.
+Note: Make sure to replace `'COM8'` with the correct serial port of your MC1 Positional Controller.
 
+</TabItem>
+</Tabs>

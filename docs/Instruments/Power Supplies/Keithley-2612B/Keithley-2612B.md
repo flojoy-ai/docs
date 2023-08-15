@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 2612B
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 2612B from Keithley is a 2600B series dual channel system SourceMeter® (SMU
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078002/Instruments/Power%20Supplies/Keithley-2612B/Keithley-2612B.webp" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106979/Instruments/Power%20Supplies/Keithley-2612B/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 2612B from Keithley is a 2600B series dual channel system SourceMeter® (SMU
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,35 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keithley 2612B Power Supply using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.tektronix.Keithley_2600 import Keithley2600
+from qcodes.instrument_drivers.tektronix.Keithley_2612B import Keithley2612B
+
+# Create an instance of the Keithley2612B driver
+keithley = Keithley2612B('keithley', 'TCPIP::192.168.1.1::INSTR')
+
+# Connect to the instrument
+keithley.connect()
+
+# Now you can use the Keithley2612B instrument for various operations
+# For example, you can set the voltage and current limits
+keithley.voltage_limit(10)  # Set the voltage limit to 10V
+keithley.current_limit(0.1)  # Set the current limit to 0.1A
+
+# You can also perform measurements
+voltage = keithley.voltage()  # Measure the voltage
+current = keithley.current()  # Measure the current
+
+# Disconnect from the instrument
+keithley.disconnect()
+```
+
+Note that you need to replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA resource string of your Keithley 2612B Power Supply.
+
+</TabItem>
+</Tabs>

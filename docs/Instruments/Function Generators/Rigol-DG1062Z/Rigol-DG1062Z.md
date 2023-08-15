@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Rigol DG1062Z
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077352/Instruments/Function%20Generators/Rigol-DG1062Z/Rigol-DG1062Z.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107046/Instruments/Function%20Generators/Rigol-DG1062Z/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786552/Instruments/Vendor%20Logos/Rigol.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125991/Instruments/Vendor%20Logos/Rigol.png" style={{ width:"200px", height: "150px"}} />
 
 RIGOL Technologies, Inc. specializes in development and production of test and measuring equipment and is one of the fastest growing Chinese companies in this sphere.
 RIGOL’s line of products includes [digital storage oscilloscopes](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=227), [function/arbitrary waveform generators](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=230), [digital multimeters](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=233), PC-based devices compatible with LXI standard etc. <a href="https://www.rigol.com/">Website</a>.
@@ -36,3 +39,37 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+Here is a Python script that uses Qcodes to connect to a Rigol DG1062Z Function Generator:
+
+```python
+from qcodes.instrument_drivers.rigol.DG1062 import RigolDG1062
+
+# Connect to the instrument
+dg = RigolDG1062("dg", "TCPIP0::169.254.187.99::inst0::INSTR")
+
+# Set the frequency, amplitude, and offset of channel 1
+dg.channels[0].freq(1E3)  # Set frequency to 1 kHz
+dg.channels[0].ampl(1.0)  # Set amplitude to 1 V
+dg.channels[0].offset(0)  # Set offset to 0 V
+
+# Enable the output of channel 1
+dg.channels[0].state("ON")
+
+# Trigger a burst on channel 1
+dg.channels[0].burst.on("ON")  # Enable burst mode
+dg.channels[0].burst.ncycles(10)  # Set number of cycles to 10
+dg.channels[0].burst.trigger()  # Trigger the burst
+
+# Disconnect from the instrument
+dg.close()
+```
+
+This script connects to a Rigol DG1062Z Function Generator using the specified address. It then sets the frequency, amplitude, and offset of channel 1 using the `freq`, `ampl`, and `offset` parameters of the `RigolDG1062Channel` class. The output of channel 1 is enabled using the `state` parameter. Finally, a burst is triggered on channel 1 using the `on`, `ncycles`, and `trigger` parameters of the `RigolDG1062Burst` class.
+
+Note: Make sure to replace the instrument address (`"TCPIP0::169.254.187.99::inst0::INSTR"`) with the actual address of your Rigol DG1062Z Function Generator.
+
+</TabItem>
+</Tabs>

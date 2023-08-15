@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # UHFLI
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the freq
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077967/Instruments/Lockin%20Amplifiers/UHFLI/UHFLI.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106948/Instruments/Lockin%20Amplifiers/UHFLI/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the freq
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 
@@ -35,7 +38,8 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
 Here is an example Python script that uses Qcodes to connect to a UHFLI Lockin Amplifier:
 
@@ -80,3 +84,5 @@ uhfli.close()
 
 Note: Replace `"dev1234"` with the actual device ID or address of your UHFLI Lockin Amplifier.
 
+</TabItem>
+</Tabs>

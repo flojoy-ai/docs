@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # TDS5XX
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077121/Instruments/Oscilloscopes/TDS5XX/TDS5XX.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106933/Instruments/Oscilloscopes/TDS5XX/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785977/Instruments/Vendor%20Logos/Tektronix.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125954/Instruments/Vendor%20Logos/Tektronix.png" style={{ width:"200px", height: "150px"}} />
 
 Tektronix, Inc., historically widely known as Tek, is an American company best known for manufacturing test and measurement devices such as [oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope), [logic analyzers](https://en.wikipedia.org/wiki/Logic_analyzer), and video and mobile test protocol equipment. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,7 +38,8 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
 
 ```python
@@ -68,3 +72,5 @@ Finally, we print the waveform data and disconnect from the oscilloscope using t
 
 Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address or VISA resource string of your TDS5XX Oscilloscope.
 
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # AG UC 8
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077781/Instruments/Positional%20Controller/AG-UC-8/AG-UC-8.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106781/Instruments/Positional%20Controller/AG-UC-8/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agi
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 
@@ -35,3 +38,41 @@ Newport provides a wide range of photonics technology and products designed to e
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
+
+```python
+from qcodes.instrument_drivers.newport.ag_uc8 import Newport_AG_UC8
+
+# Create an instance of the Newport_AG_UC8 driver
+controller = Newport_AG_UC8('controller', 'ASRL3')
+
+# Connect to the instrument
+controller.connect()
+
+# Get the identification information of the instrument
+idn = controller.get_idn()
+print(idn)
+
+# Reset the controller
+controller.reset()
+
+# Select channel 1
+channel1 = controller.channels.channel_1
+
+# Move the axis 1 of channel 1 to absolute position 500
+channel1.axis1.move_abs(500)
+
+# Move the axis 2 of channel 1 to relative position -100
+channel1.axis2.move_rel(-100)
+
+# Stop the movement of axis 1 of channel 1
+channel1.axis1.stop()
+
+# Disconnect from the instrument
+controller.disconnect()
+```
+Note: Replace `'ASRL3'` with the appropriate VISA address for your instrument.
+
+</TabItem>
+</Tabs>

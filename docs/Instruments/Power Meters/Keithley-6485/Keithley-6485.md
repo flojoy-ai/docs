@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 6485
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitiv
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077878/Instruments/Power%20Meters/Keithley-6485/Keithley-6485.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106869/Instruments/Power%20Meters/Keithley-6485/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitiv
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,29 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pytango" label="Pytango">
+
+```python
+import PyTango
+
+# Create a DeviceProxy for the Keithley 6485 Power Meter
+device_proxy = PyTango.DeviceProxy("device_name")
+
+# Connect to the device
+device_proxy.connect()
+
+# Read the power measurement
+power_measurement = device_proxy.read_attribute("attribute_name").value
+
+# Print the power measurement
+print(power_measurement)
+
+# Disconnect from the device
+device_proxy.disconnect()
+```
+
+Replace `"device_name"` with the actual name of the Keithley 6485 Power Meter device in your Tango database, and `"attribute_name"` with the name of the attribute you want to read from the device.
+
+</TabItem>
+</Tabs>

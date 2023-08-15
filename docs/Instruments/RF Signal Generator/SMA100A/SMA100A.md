@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SMA100A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is:
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077863/Instruments/RF%20Signal%20Generator/SMA100A/SMA100A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106854/Instruments/RF%20Signal%20Generator/SMA100A/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is:
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126002/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width:"200px", height: "150px"}} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -35,9 +38,10 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pytango
+<Tabs>
+<TabItem value="Pytango" label="Pytango">
 
-Here is a Python script that uses Pytango to connect to a SMA100A RF Signal Generator:
+Here's a Python script that uses Pytango to connect to a SMA100A RF Signal Generator:
 
 ```python
 import time
@@ -87,5 +91,7 @@ smab.events.on_read_handler = None
 smab = None
 ```
 
-Please note that you need to have PyTango installed in order to run this script.
+Note: Make sure to replace `'sma100a/inst1'` with the correct Tango device name for your SMA100A RF Signal Generator.
 
+</TabItem>
+</Tabs>

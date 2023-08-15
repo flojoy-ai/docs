@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SHFQC
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The SHFQC Qubit Controller can control, read out and provide fast feedback on up
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077768/Instruments/Qubit%20Controller/SHFQC/SHFQC.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106770/Instruments/Qubit%20Controller/SHFQC/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The SHFQC Qubit Controller can control, read out and provide fast feedback on up
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 
@@ -35,47 +38,32 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a SHFQC Qubit Controller using Qcodes, you can use the following code:
 
 ```python
 import qcodes as qc
 from qcodes.instrument_drivers.zhinst import SHFQC
 
-# Connect to the SHFQC
+# Connect to the SHFQC Qubit Controller
 shfqc = SHFQC("shfqc", "dev1234")
 
-# Print the available SG channels
+# Print the available SGChannels
 print(shfqc.sgchannels())
 
-# Configure the first SG channel
-shfqc.sgchannels[0].configure_channel(
-    enable=True,
-    output_range=0,
-    center_frequency=5e9,
-    rf_path=True
-)
+# Print the available QAChannels
+print(shfqc.qachannels())
 
-# Enable the sequencer on the first SG channel
-shfqc.sgchannels[0].awg.enable_sequencer(single=False)
+# Print the available Scopes
+print(shfqc.scopes())
 
-# Upload a sequencer program to the first SG channel
-sequencer_program = """
-    const AWG_CHANNEL = 0
-    const WAIT_TIME = 1000
-    while (true) {
-        playWave(AWG_CHANNEL, "waveform1")
-        waitWave(AWG_CHANNEL)
-        playWave(AWG_CHANNEL, "waveform2")
-        waitWave(AWG_CHANNEL)
-        wait(WAIT_TIME)
-    }
-"""
-shfqc.sgchannels[0].awg.load_sequencer_program(sequencer_program)
-
-# Start the sequencer on the first SG channel
-shfqc.sgchannels[0].awg.enable_sequencer(single=False)
-
-# Disconnect from the SHFQC
+# Close the connection
 shfqc.close()
 ```
 
+This code imports the necessary modules and creates an instance of the `SHFQC` instrument driver. You can then use the `sgchannels()`, `qachannels()`, and `scopes()` methods to print the available SGChannels, QAChannels, and Scopes, respectively. Finally, the connection is closed using the `close()` method.
+
+</TabItem>
+</Tabs>

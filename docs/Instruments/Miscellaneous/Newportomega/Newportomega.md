@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Newportomega
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Device Server To Show The Omega Strain Gage From Newport, In A Tango System.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077918/Instruments/Miscellaneous/Newportomega/Newportomega.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106905/Instruments/Miscellaneous/Newportomega/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Device Server To Show The Omega Strain Gage From Newport, In A Tango System.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786525/Instruments/Vendor%20Logos/Newport.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width:"200px", height: "150px"}} />
 
 Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
 
@@ -35,7 +38,8 @@ Newport provides a wide range of photonics technology and products designed to e
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Pytango
+<Tabs>
+<TabItem value="Pytango" label="Pytango">
 
 ```python
 import PyTango
@@ -55,3 +59,5 @@ device_proxy.command_inout("command_name")
 
 In the code above, replace "device_name" with the actual name of the Newportomega device you want to connect to. Replace "attribute_name" with the name of the attribute you want to read or write, and replace "command_name" with the name of the command you want to call.
 
+</TabItem>
+</Tabs>

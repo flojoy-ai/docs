@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Rigol DP8xx-Series
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The DP800 Series Power Supplies combine the ability to source, analyze, and coor
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078134/Instruments/Power%20Supplies/Rigol-DP8xx-Series/Rigol-DP8xx-Series.jpg" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107093/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The DP800 Series Power Supplies combine the ability to source, analyze, and coor
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786552/Instruments/Vendor%20Logos/Rigol.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125991/Instruments/Vendor%20Logos/Rigol.png" style={{ width:"200px", height: "150px"}} />
 
 RIGOL Technologies, Inc. specializes in development and production of test and measuring equipment and is one of the fastest growing Chinese companies in this sphere.
 RIGOL’s line of products includes [digital storage oscilloscopes](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=227), [function/arbitrary waveform generators](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=230), [digital multimeters](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=233), PC-based devices compatible with LXI standard etc. <a href="https://www.rigol.com/">Website</a>.
@@ -36,3 +39,42 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+Here's an example Python script that uses Qcodes to connect to a Rigol DP8xx-Series Power Supply:
+
+```python
+from qcodes.instrument.visa import VisaInstrument
+from qcodes.instrument_drivers.rigol.DP8xx import RigolDP8xx
+
+# Create an instance of the RigolDP8xx instrument
+rigol = RigolDP8xx("rigol", "USB0::0x1AB1::0x0E11::DP8xxxxxxxxx::INSTR")
+
+# Connect to the instrument
+rigol.connect()
+
+# Print the installed options
+print(rigol.installed_options())
+
+# Set the voltage and current for channel 1
+rigol.ch1.set_voltage(3.0)  # Set the voltage to 3.0V
+rigol.ch1.set_current(0.5)  # Set the current to 0.5A
+
+# Enable the output for channel 1
+rigol.ch1.state(True)
+
+# Read the measured voltage and current for channel 1
+voltage = rigol.ch1.voltage()
+current = rigol.ch1.current()
+print(f"Measured voltage: {voltage}V")
+print(f"Measured current: {current}A")
+
+# Disconnect from the instrument
+rigol.disconnect()
+```
+
+Note: Replace `"USB0::0x1AB1::0x0E11::DP8xxxxxxxxx::INSTR"` with the actual VISA address of your Rigol DP8xx-Series Power Supply.
+
+</TabItem>
+</Tabs>

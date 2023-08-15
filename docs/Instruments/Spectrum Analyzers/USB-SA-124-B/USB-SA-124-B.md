@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # USB SA 124 B
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078150/Instruments/Spectrum%20Analyzers/USB-SA-124-B/USB-SA-124-B.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107110/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/Signalhound.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126008/Instruments/Vendor%20Logos/Signalhound.png" style={{ width:"200px", height: "150px"}} />
 
 Signal Hound is a manufacturer of RF spectrum analyzers and signal generators. <a href="https://signalhound.com/">Website</a>.
 
@@ -35,3 +38,41 @@ Signal Hound is a manufacturer of RF spectrum analyzers and signal generators. <
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.signal_hound.USB_SA124B import SignalHoundUSBSA124B
+
+# Create an instance of the SignalHoundUSBSA124B instrument
+sa = SignalHoundUSBSA124B("sa", dll_path="C:\\Program Files\\Signal Hound\\Spike\\sa_api.dll")
+
+# Connect to the instrument
+sa.connect()
+
+# Print the instrument IDN
+print(sa.get_idn())
+
+# Configure the instrument parameters
+sa.frequency(1e9)
+sa.span(1e6)
+sa.rbw(1e3)
+sa.vbw(1e3)
+sa.ref_lvl(0)
+sa.external_reference(False)
+sa.scale("log-scale")
+
+# Perform a frequency sweep and get the data
+data = sa.freq_sweep()
+
+# Print the data
+print(data)
+
+# Disconnect from the instrument
+sa.disconnect()
+```
+Note: Make sure to replace the `dll_path` argument with the correct path to the `sa_api.dll` file on your system.
+
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N5232B
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight N5232B PNA-L series network analyzer is designed for S-parameter an
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077805/Instruments/Network%20Analyzer/Keysight-N5232B/Keysight-N5232B.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106802/Instruments/Network%20Analyzer/Keysight-N5232B/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight N5232B PNA-L series network analyzer is designed for S-parameter an
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,65 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+from qcodes import Station
+from qcodes.instrument_drivers.Keysight.Keysight_P9372A import Keysight_P9372A
+
+# Create a station to hold the instruments
+station = Station()
+
+# Connect to the Keysight N5232B Network Analyzer
+na = Keysight_P9372A('na', 'TCPIP0::192.168.1.1::inst0::INSTR')
+station.add_component(na)
+
+# Print the available options on the Network Analyzer
+print(na.get_options())
+
+# Set the frequency range
+na.start(1e9)
+na.stop(10e9)
+
+# Set the power range
+na._set_power_limits(-30, 10)
+
+# Enable trace averaging
+na.averages_on()
+
+# Set the number of averages
+na.averages(10)
+
+# Set the IF bandwidth
+na.if_bandwidth(1e3)
+
+# Set the number of points in a sweep
+na.points(1001)
+
+# Set the electrical delay
+na.electrical_delay(0)
+
+# Set the sweep mode to continuous
+na.sweep_mode('CONT')
+
+# Set the trigger source to external
+na.trigger_source('EXT')
+
+# Select the active trace
+na.active_trace(1)
+
+# Run a sweep on the Network Analyzer
+na.run_sweep()
+
+# Get the data from the active trace
+data = na.traces[0].get()
+
+# Print the data
+print(data)
+```
+
+Note: The above code assumes that the IP address of the Keysight N5232B Network Analyzer is `192.168.1.1`. Please replace it with the correct IP address of your instrument.
+
+</TabItem>
+</Tabs>

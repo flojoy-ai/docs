@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keithley 2400
 
 ## Instrument Card
@@ -11,7 +14,7 @@ Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer fo
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077828/Instruments/Power%20Supplies/Keithley-2400/Keithley-2400.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106823/Instruments/Power%20Supplies/Keithley-2400/file.webp" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer fo
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width:"200px", height: "150px"}} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 
@@ -35,3 +38,69 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Pymeasure" label="Pymeasure">
+
+
+```python
+from pymeasure.instruments.keithley import Keithley2400
+
+# Connect to the Keithley 2400
+keithley = Keithley2400("GPIB::1")
+
+# Configure the measurement settings
+keithley.measure_voltage()
+keithley.voltage_range = 10
+keithley.voltage_nplc = 1
+
+# Enable the source and set the voltage
+keithley.enable_source()
+keithley.source_voltage = 5
+
+# Perform a measurement
+voltage = keithley.voltage
+print("Measured voltage:", voltage)
+
+# Disable the source and disconnect from the instrument
+keithley.disable_source()
+keithley.disconnect()
+```
+
+This script connects to a Keithley 2400 Power Supply using the GPIB interface (replace "GPIB::1" with the appropriate address for your setup). It configures the instrument to measure voltage, sets the voltage range and integration time, enables the source, sets the desired voltage, performs a measurement, and then disables the source and disconnects from the instrument.
+
+Note: Make sure you have the `pymeasure` package installed before running this script.
+
+</TabItem>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keithley 2400 Power Supply using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument.visa import VisaInstrument
+from qcodes.instrument_drivers.tektronix.Keithley_2400 import Keithley2400
+
+# Create an instance of the Keithley2400 instrument
+keithley = Keithley2400("keithley", "TCPIP0::192.168.1.1::INSTR")
+
+# Connect to the instrument
+keithley.connect()
+
+# Now you can use the instrument to perform measurements and control the power supply
+# For example, you can set the voltage range
+keithley.rangev(10)  # Set the voltage range to 10V
+
+# You can also read the current value
+current = keithley.curr()  # Read the current value
+
+# Finally, disconnect from the instrument
+keithley.disconnect()
+```
+
+In this script, we first import the necessary modules and classes from Qcodes. Then, we create an instance of the `Keithley2400` instrument by providing a name and the instrument's address (in this case, a TCP/IP address). Next, we connect to the instrument using the `connect()` method.
+
+Once connected, we can use the instrument's parameters and methods to control and read measurements from the power supply. In the example, we set the voltage range using the `rangev` parameter and read the current value using the `curr` parameter.
+
+Finally, we disconnect from the instrument using the `disconnect()` method.
+
+</TabItem>
+</Tabs>

@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # RFSG
 
 ## Instrument Card
@@ -11,7 +14,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077858/Instruments/RF%20Signal%20Generator/RFSG/RFSG.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106850/Instruments/RF%20Signal%20Generator/RFSG/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786494/Instruments/Vendor%20Logos/National_Instruments.jpg.webp" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125989/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
 
@@ -35,7 +38,8 @@ A producer of automated test equipment and virtual instrumentation software. Com
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 Here is an example Python script that uses Qcodes Community to connect to a RFSG RF Signal Generator:
 
@@ -62,3 +66,5 @@ rfsg.close()
 
 Note: Make sure you have installed the `qcodes` package and the necessary dependencies before running this script.
 
+</TabItem>
+</Tabs>

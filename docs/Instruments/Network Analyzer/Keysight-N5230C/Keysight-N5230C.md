@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight N5230C
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight N5230C PNA-L is a microwave network analyzer made to test amplifier
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078112/Instruments/Network%20Analyzer/Keysight-N5230C/Keysight-N5230C.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107074/Instruments/Network%20Analyzer/Keysight-N5230C/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight N5230C PNA-L is a microwave network analyzer made to test amplifier
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,26 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.Keysight_N5230C import Keysight_N5230C
+
+# Create an instance of the N5230C instrument
+n5230c = Keysight_N5230C('n5230c', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the instrument
+n5230c.connect()
+
+# Perform operations with the instrument
+
+# Disconnect from the instrument
+n5230c.disconnect()
+```
+
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual IP address or VISA resource string of your N5230C Network Analyzer.
+
+</TabItem>
+</Tabs>

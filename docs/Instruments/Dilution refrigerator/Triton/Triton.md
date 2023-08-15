@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Triton
 
 ## Instrument Card
@@ -16,7 +19,7 @@ many other cutting-edge applications of condensed matter physics.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078014/Instruments/Dilution%20Refrigerator/Triton/Triton.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106988/Instruments/Dilution%20Refrigerator/Triton/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -30,7 +33,7 @@ many other cutting-edge applications of condensed matter physics.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786566/Instruments/Vendor%20Logos/Oxford_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125988/Instruments/Vendor%20Logos/Oxford_Instruments.png" style={{ width:"200px", height: "150px"}} />
 
 Oxford Instruments plc is a United Kingdom manufacturing and research company that designs and manufactures tools and systems for industry and research. The company is headquartered in Abingdon, Oxfordshire, England, with sites in the United Kingdom, United States, Europe, and Asia.[2] It is listed on the London Stock Exchange and is a constituent of the FTSE 250 Index.[3]. <a href="https://www.oxinst.com/">Website</a>.
 
@@ -45,28 +48,36 @@ Oxford Instruments plc is a United Kingdom manufacturing and research company th
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
 
 
 ```python
 import qcodes as qc
-from qcodes.instrument_drivers.QuantumDesign.Triton import Triton
+from qcodes.instrument_drivers.oxford.triton import Triton
 
-# Connect to the Triton cryogenic system
-triton = Triton("triton", "TCPIP0::192.168.1.100::33576::SOCKET")
+# Connect to the Triton Dilution Refrigerator
+triton = Triton("triton", "TCPIP0::192.168.1.100::5000::SOCKET")
 
-# Print the identification string of the Triton
-print(triton.IDN())
+# Initialize the instrument
+triton.init()
 
-# Close the connection to the Triton
+# Set the temperature of the mixing chamber to 100 mK
+triton.mixing_chamber.temperature(0.1)
+
+# Close the connection to the Triton Dilution Refrigerator
 triton.close()
 ```
 
-In this script, we import the necessary modules from Qcodes and specifically import the `Triton` class from the `QuantumDesign.Triton` module. We then create an instance of the `Triton` class, passing the instrument name and the connection string as arguments. The connection string specifies the IP address and port number of the Triton cryogenic system.
+In this example, we import the necessary modules and classes from Qcodes. We then create an instance of the `Triton` class, passing the IP address and port number of the Triton Dilution Refrigerator as arguments. 
 
-We can then use the `IDN()` method of the `Triton` instance to retrieve the identification string of the Triton, which contains information about the instrument.
+Next, we initialize the instrument using the `init()` method. This step is important to establish communication with the instrument and ensure that it is ready for use.
 
-Finally, we close the connection to the Triton using the `close()` method of the `Triton` instance.
+We can then use various methods provided by the `Triton` class to control the instrument. In this example, we set the temperature of the mixing chamber to 100 mK using the `temperature()` method of the `mixing_chamber` attribute.
 
-Note: Make sure to replace the IP address and port number in the connection string with the actual values for your Triton cryogenic system.
+Finally, we close the connection to the Triton Dilution Refrigerator using the `close()` method.
 
+Note that you may need to modify the IP address and port number in the `Triton` constructor to match the actual address and port of your Triton Dilution Refrigerator.
+
+</TabItem>
+</Tabs>

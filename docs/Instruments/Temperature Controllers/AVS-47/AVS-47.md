@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # AVS 47
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078106/Instruments/Temperature%20Controllers/AVS-47/AVS-47.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107068/Instruments/Temperature%20Controllers/AVS-47/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786881/Instruments/Vendor%20Logos/Picowatt.jpg.gif" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125957/Instruments/Vendor%20Logos/Picowatt.png" style={{ width:"200px", height: "150px"}} />
 
 RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for thermometry at ultralow temperatures. Founded in February 1978, we have gathered 45 years of experience in designing and manufacturing low-noise precision. <a href="https://www.picowatt.fi/index1.html">Website</a>.
 
@@ -35,3 +38,27 @@ RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for the
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
+
+Here is a Python script that uses Instrumentkit to connect to a AVS 47 Temperature Controllers:
+
+```python
+import instrumentkit as ik
+
+# Connect to the AVS 47 Temperature Controller
+bridge = ik.picowatt.PicowattAVS47.open_gpibusb('/dev/ttyUSB0', 1)
+
+# Get the resistance of the first sensor
+resistance = bridge.sensor[0].resistance
+
+# Print the resistance
+print(resistance)
+```
+
+This script imports the `instrumentkit` module as `ik`. It then uses the `open_gpibusb` method of the `PicowattAVS47` class to connect to the AVS 47 Temperature Controller. The method takes the device path (`'/dev/ttyUSB0'`) and the GPIB address (`1`) as arguments.
+
+After connecting to the controller, the script retrieves the resistance of the first sensor by accessing the `resistance` property of the `Sensor` object. Finally, it prints the resistance value.
+
+</TabItem>
+</Tabs>

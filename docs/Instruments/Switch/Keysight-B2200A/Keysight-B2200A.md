@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight B2200A
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enab
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077933/Instruments/Switch/Keysight-B2200A/Keysight-B2200A.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106917/Instruments/Switch/Keysight-B2200A/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enab
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,32 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to a Keysight B2200A Switch using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument.visa import VisaInstrument
+from qcodes.instrument_drivers.Keysight.KeysightB2200 import KeysightB2200
+
+# Create an instance of the KeysightB2200 instrument
+switch = KeysightB2200('switch', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+switch.connect_message()
+
+# Perform operations on the switch
+switch.connect(1, 2)  # Connect input channel 1 to output channel 2
+switch.disconnect(1, 2)  # Disconnect input channel 1 from output channel 2
+
+# Close the connection to the instrument
+switch.close()
+```
+
+This script creates an instance of the `KeysightB2200` instrument, specifying the instrument name and address. It then connects to the instrument using the `connect_message()` method. You can perform various operations on the switch, such as connecting and disconnecting input/output pairs using the `connect()` and `disconnect()` methods. Finally, the script closes the connection to the instrument using the `close()` method.
+
+Note: Make sure to replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your Keysight B2200A Switch.
+
+</TabItem>
+</Tabs>

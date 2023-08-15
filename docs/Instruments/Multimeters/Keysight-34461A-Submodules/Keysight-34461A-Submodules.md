@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Keysight 34461A Submodules
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078125/Instruments/Multimeters/Keysight-34461A-Submodules/Keysight-34461A-Submodules.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107084/Instruments/Multimeters/Keysight-34461A-Submodules/file.jpg" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -35,3 +38,26 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+```python
+import qcodes as qc
+from qcodes.instrument_drivers.Keysight.Keysight_344xxA import Keysight34461A
+
+# Create an instance of the Keysight34461A driver
+dmm = Keysight34461A('dmm', 'TCPIP0::192.168.1.1::INSTR')
+
+# Connect to the instrument
+dmm.connect()
+
+# Perform measurements or other operations with the instrument
+
+# Disconnect from the instrument
+dmm.disconnect()
+```
+
+This code imports the necessary modules and creates an instance of the `Keysight34461A` driver. It then connects to the instrument using the specified address (`TCPIP0::192.168.1.1::INSTR`). After performing any desired measurements or operations, it disconnects from the instrument.
+
+</TabItem>
+</Tabs>

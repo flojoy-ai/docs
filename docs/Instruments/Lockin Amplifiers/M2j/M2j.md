@@ -1,4 +1,7 @@
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # M2j
 
 ## Instrument Card
@@ -11,7 +14,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077837/Instruments/Lockin%20Amplifiers/M2j/M2j.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106830/Instruments/Lockin%20Amplifiers/M2j/file.png" style={{width:"256px", height: "200px"}} />
 
 </div>
 
@@ -20,7 +23,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QuTech.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125978/Instruments/Vendor%20Logos/QuTech.png" style={{ width:"200px", height: "150px"}} />
 
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
 
@@ -35,7 +38,8 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
 To connect to an M2j Lockin Amplifier using Qcodes Community, you can use the following Python script:
 
@@ -61,17 +65,21 @@ spi_rack = SPI_rack()
 m2j_module = M2j('m2j', spi_rack, module=1)
 
 # Set the gain of the amplifier
-m2j_module.gain(50)
+m2j_module.gain(50)  # Set the gain to 50 dB
 
 # Get the RF level after amplification
 rf_level = m2j_module.RF_level()
+print(f"RF level: {rf_level} dBm")
 
 # Clear RF clip
 m2j_module.clear_rf_clip()
 
 # Check if RF is clipped
 is_rf_clipped = m2j_module.is_rf_clipped()
+print(f"RF clipped: {is_rf_clipped}")
 ```
 
-This script creates an instance of the `SPI_rack` class and connects to the M2j Lockin Amplifier module using the `M2j` class. It then sets the gain of the amplifier to 50 dB, gets the RF level after amplification, clears RF clip, and checks if RF is clipped.
+This script creates an instance of the `SPI_rack` class and then connects to the M2j Lockin Amplifier module using the `M2j` class. It sets the gain of the amplifier to 50 dB, measures the RF level after amplification, clears RF clip, and checks if RF is clipped.
 
+</TabItem>
+</Tabs>
