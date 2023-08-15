@@ -72,7 +72,7 @@ def get_type_map(dir_path: str, cur_type: Optional[str] = None):
 def browse_directories(dir_path: str):
     if contains_directory(dir_path, "examples"):
         print("updating ", Path.basename(dir_path))
-        app_path = Path.join(dir_path, "examples", "EX1", "app.txt")
+        app_path = Path.join(dir_path, "examples", "EX1", "app.json")
         update_app(app_path)
 
         return
