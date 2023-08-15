@@ -1,6 +1,8 @@
 import React from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
 import highlight from 'custom-syntax-highlighter';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
 
 type DocStringProps = {
   children: string;
@@ -69,9 +71,9 @@ export default function DocString({ children }: DocStringProps) {
   })
 
   return (
-    <> 
+    <BrowserOnly>      
       <pre><code>{content}</code></pre>
       <br></br>
-    </>
+    </BrowserOnly>
   );
 }
