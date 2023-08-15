@@ -11,7 +11,7 @@ The Advantest R3765CG/R3767CG network analyzers are vector network analyzers tha
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782521/Instruments/Network%20Analyzer/Advantest-R3767CG/Advantest-R3767CG.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077863/Instruments/Network%20Analyzer/Advantest-R3767CG/Advantest-R3767CG.jpg" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Advantest R3765CG/R3767CG network analyzers are vector network analyzers tha
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785035/Instruments/Vendor%20Logos/Advantest.jpg.gif" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785035/Instruments/Vendor%20Logos/Advantest.jpg.gif" />
 
 Advantest manufactures and sells semiconductor and component test system products and mechatronics-related products. <a href="https://www.advantest.com/">Website</a>.
 

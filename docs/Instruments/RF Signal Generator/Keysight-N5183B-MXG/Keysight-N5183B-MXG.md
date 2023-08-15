@@ -11,7 +11,7 @@ N5183B MXG X-Series microwave analog signal generator offers 9 kHz to 40 GHz fre
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782749/Instruments/RF%20Signal%20Generator/Keysight-N5183B-MXG/Keysight-N5183B-MXG.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078128/Instruments/RF%20Signal%20Generator/Keysight-N5183B-MXG/Keysight-N5183B-MXG.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ N5183B MXG X-Series microwave analog signal generator offers 9 kHz to 40 GHz fre
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

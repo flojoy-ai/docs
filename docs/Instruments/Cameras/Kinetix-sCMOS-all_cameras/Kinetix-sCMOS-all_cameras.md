@@ -11,7 +11,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782620/Instruments/Cameras/Kinetix-sCMOS-all_cameras/Kinetix-sCMOS-all_cameras.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077973/Instruments/Cameras/Kinetix-sCMOS-all_cameras/Kinetix-sCMOS-all_cameras.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785382/Instruments/Vendor%20Logos/Teledyne_logo.svg.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785382/Instruments/Vendor%20Logos/Teledyne_logo.svg.jpg.png" />
 
 **Teledyne** provides enabling technologies to sense, transmit and analyze information for industrial growth markets. <a href="https://www.teledyne.com">Website</a>.
 

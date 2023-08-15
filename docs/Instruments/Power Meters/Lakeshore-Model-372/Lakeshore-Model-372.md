@@ -11,7 +11,7 @@ The Model 372 AC resistance bridge and temperature controller builds on the soli
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782428/Instruments/Temperature%20Controllers/Lakeshore-Model-372/Lakeshore-Model-372.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077747/Instruments/Power%20Meters/Lakeshore-Model-372/Lakeshore-Model-372.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Model 372 AC resistance bridge and temperature controller builds on the soli
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 

@@ -11,7 +11,7 @@ Class Connecting To The Lakeshore 425 Gaussmeter
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782518/Instruments/Multimeters/Lakeshore-425/Lakeshore-425.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077859/Instruments/Multimeters/Lakeshore-425/Lakeshore-425.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Class Connecting To The Lakeshore 425 Gaussmeter>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786326/Instruments/Vendor%20Logos/Lakeshore.jpg.svg" />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 

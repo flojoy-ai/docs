@@ -11,7 +11,7 @@ The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile o
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782554/Instruments/Oscilloscopes/TDS510A/TDS510A.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077903/Instruments/Oscilloscopes/TDS510A/TDS510A.webp" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile o
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785977/Instruments/Vendor%20Logos/Tektronix.jpg.jpg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785977/Instruments/Vendor%20Logos/Tektronix.jpg.jpg" />
 
 Tektronix, Inc., historically widely known as Tek, is an American company best known for manufacturing test and measurement devices such as [oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope), [logic analyzers](https://en.wikipedia.org/wiki/Logic_analyzer), and video and mobile test protocol equipment. <a href="https://www.tek.com/en">Website</a>.
 

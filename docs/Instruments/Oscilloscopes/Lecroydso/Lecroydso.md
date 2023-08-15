@@ -12,7 +12,7 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782648/Instruments/Oscilloscopes/Lecroydso/Lecroydso.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078006/Instruments/Oscilloscopes/Lecroydso/Lecroydso.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -21,7 +21,7 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786393/Instruments/Vendor%20Logos/Lecroy.jpg.jpg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786393/Instruments/Vendor%20Logos/Lecroy.jpg.jpg" />
 
 Teledyne LeCroy, Inc. manufactures and distributes electronic measuring instruments. The Company produces analyzers, measurement, and testing solutions including oscilloscopes, production test digitizers, and electronic components. Teledyne LeCroy serves customers worldwide. <a href="https://www.teledynelecroy.com/">Website</a>.
 

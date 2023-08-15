@@ -11,7 +11,7 @@ The E8267D PSG Vector Signal Generator is the highest performance, fully-integra
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782618/Instruments/RF%20Signal%20Generator/Keysight-E8267D-PSG/Keysight-E8267D-PSG.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077971/Instruments/RF%20Signal%20Generator/Keysight-E8267D-PSG/Keysight-E8267D-PSG.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The E8267D PSG Vector Signal Generator is the highest performance, fully-integra
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

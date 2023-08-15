@@ -11,7 +11,7 @@ The new Keysight N7776C top line tunable laser source is designed to reach best-
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782473/Instruments/Lasers/Keysight-N7776C/Keysight-N7776C.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077802/Instruments/Lasers/Keysight-N7776C/Keysight-N7776C.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The new Keysight N7776C top line tunable laser source is designed to reach best-
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
