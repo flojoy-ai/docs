@@ -1,14 +1,13 @@
+The DF_2_ORDERED_TRIPLE node converts a dataframe type data into an OrderedTriple type data.
 
-The DF_2_ORDEREDTRIPLE node converts a dataframe type data into an OrderedTriple type data.
+    It takes one dataframe type data and selects 3 different columns to generate the OrderedTriple type.
 
-It takes one dataframe type data and selects 3 different columns to generate the OrderedTriple type.
+    Parameters
+    ----------
+    x : the index of the column that represents the x axis
+    y : the index of the column that represents the y axis
+    z : the index of the column that represents the z axis
 
-Parameters
-----------
-x : the index of the column that represents the x axis
-y : the index of the column that represents the y axis
-z : the index of the column that represents the z axis
-
-Returns
--------
-OrderedTriple
+    Returns
+    -------
+    OrderedTriple
