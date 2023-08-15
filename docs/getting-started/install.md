@@ -35,12 +35,13 @@ Node.js is required to run Flojoy's app interface. Open your Terminal and type `
 
 Run the installation shell script
 ```bash
-  curl -L https://docs.flojoy.ai/scripts/install.sh | sh
+curl -L https://docs.flojoy.ai/scripts/install.sh | sh
 ```
  
-To install Flojoy on Mac & Linux:
+<details>
+<summary>Advanced: install from source manually</summary>
 
-1. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
+1. <a href="https://github.com/flojoy-io/studio">Clone the repo</a> with the <code>--recursive</code> flag as follows:
 
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
@@ -63,6 +64,7 @@ python3.10 -m venv venv
 ```bash
 bash flojoy -v venv
 ```
+</details>
 
 </div>
 </TabItem>
@@ -74,17 +76,16 @@ bash flojoy -v venv
 
 Run the installation PowerShell script
 ```bash
-  pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
+pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
 ```
 If you encounter an error saying the `pwsh` command is not found, `powershell` can be used instead, though we recommend [installing the latest version of PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows).
  
+<details>
+<summary>Advanced: install from source manually</summary>
 
-### Install Flojoy on Windows manually:
-
-1. [Update your PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) to at least >=v7.0.0
+1. <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows">Update your PowerShell</a> to at least >=v7.0.0
 
 2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
-
 ```bash
 git clone --recursive https://github.com/flojoy-io/studio.git
 ```
@@ -98,14 +99,15 @@ cd studio
 4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
 
 ```bash
-python3.10 -m venv env
+python3.10 -m venv venv
 ```
 
 5. Finally, run:
 
 ```bash
-.\flojoy -v env
+.\flojoy -v venv
 ```
+</details>
 
 </div>
 </TabItem>
