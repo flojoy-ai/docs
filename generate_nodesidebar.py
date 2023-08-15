@@ -48,16 +48,14 @@ def write_nodesidebar():
     for root, _, files in walk(NODES_DIR):
         if any((dir in root) for dir in __ignore_dirs):
             continue
-
-        count = 0
+        file_proccessed = []
         for file in files:
             if file.endswith(".md"):
-                if count >= 1:
-                    raise Exception(
-                        f"Error: multiple md file found in {root}, there should only be one!"
+                if file in file_proccessed:
+                    raise FileExistsError(
+                        f"Error: multiple md file found in {root} for {file}, there should only be one!"
                     )
-                count += 1
-
+                file_proccessed.append(file)
                 path_index = root.index("nodes")
                 path_from_second_dir = root[path_index:]
                 file_path = path.join(path_from_second_dir, file)
