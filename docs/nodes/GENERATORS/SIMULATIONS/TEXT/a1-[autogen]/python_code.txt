@@ -1,0 +1,12 @@
+from flojoy import TextBlob, flojoy, DataContainer
+from typing import Optional
+
+
+@flojoy
+def TEXT(
+    _: Optional[DataContainer] = None,
+    value: str = "Hello World!",
+) -> TextBlob:
+    
+
+    return TextBlob(text_blob=value)
