@@ -1,7 +1,7 @@
 import React from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
 import highlight from 'custom-syntax-highlighter';
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 
 
 type DocStringProps = {
@@ -28,55 +28,53 @@ export default function DocString({ children }: DocStringProps) {
   }
   const content = children;
 
-  highlight({
+  const patterns = [
+    {
+      name: 'string',
+      match: /^(\'[^\'\n]*\')/
+    },
+    {
+      name: 'fn-call',
+      match: [/^([A-z_]+)\(/, '', '(']
+    },
+    {
+      name: 'dashes',
+      match: /^([-]{4,})/
+    },
+    {
+      name: 'before-colon',
+      match: /^(\n[a-zA-Z]+)(?=\s*:\s*)/
+    },
+    {
+      name: 'snake-case',
+      match: /^([a-z]+(_[a-z]+))/
+    },      
+    {
+      name: 'sections',
+      match: /^(Returns|Parameters|Inputs)/
+    },
+    {
+      name: 'node-names',
+      match: /^([A-Z]+(_[A-Z]+))/
+    },
+    {
+      name: 'all-caps',
+      match: /^([A-Z]{3,})/
+    },
+    {
+      name: 'data-container-type',
+      match: /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer)/
+    }
+  ];
 
-    patterns: [
-      {
-        name: 'string',
-        match: /^(\'[^\'\n]*\')/
-      },
-      {
-        name: 'fn-call',
-        match: [/^([A-z_]+)\(/, '', '(']
-      },
-      {
-        name: 'dashes',
-        match: /^([-]{4,})/
-      },
-      {
-        name: 'before-colon',
-        match: /^(\n[a-zA-Z]+)(?=\s*:\s*)/
-      },
-      {
-        name: 'snake-case',
-        match: /^([a-z]+(_[a-z]+))/
-      },      
-      {
-        name: 'sections',
-        match: /^(Returns|Parameters|Inputs)/
-      },
-      {
-        name: 'node-names',
-        match: /^([A-Z]+(_[A-Z]+))/
-      },
-      {
-        name: 'all-caps',
-        match: /^([A-Z]{3,})/
-      },
-      {
-        name: 'data-container-type',
-        match: /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer)/
-      }
-    ]
-  })
+  const isBrowser = useIsBrowser();
+  if (isBrowser) {
+    highlight({patterns: patterns});
+  }
 
   return (
-    <>
-      <BrowserOnly fallback={<div>Loading node function docstring...</div>}>      
-        {() => {
-          return <pre><code>{content}</code></pre>;
-        }}
-      </BrowserOnly>
+    <> 
+      <pre><code>{content}</code></pre>
       <br></br>
     </>
   );

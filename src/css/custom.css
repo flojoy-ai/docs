@@ -52,8 +52,6 @@
   color: black;
 }
 
-[data-theme='dark']:root {
-   .sections {
-      color: white;
-   }
+[data-theme='dark']:root .sections {
+  color: white !important;
 }
