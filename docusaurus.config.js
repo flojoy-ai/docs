@@ -76,8 +76,8 @@ const config = {
     },
     {
       async: true,
-      src: 'https://www.feedbackrocket.io/sdk/v1.0.0.js',
-      'data-fr-id': 'qrrGqJ92uPlGPDmv_ZmZh',
+      src: 'https://www.feedbackrocket.io/sdk/v1.1.js',
+      'data-fr-id': 'Miu2_YZZhyNubTim6WBdV',
     },
   ],
   plugins: [
@@ -168,7 +168,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: `<a href=# class="navbar__link feedback" data-fr-widget>
+            value: `<a href=# class="navbar__link feedback" data-fr-widget data-fr-theme="dynamic" data-fr-reply-required="">
                Feedback
           </a>`,
           },
