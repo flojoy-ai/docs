@@ -119,11 +119,6 @@ const config = {
 
         items: [
           {
-            to: '/explore-nodes',
-            label: 'Explore Nodes',
-            position: 'right',
-          },
-          {
             type: 'dropdown',
             label: 'Resources',
             position: 'right',
@@ -134,11 +129,11 @@ const config = {
               },
               {
                 href: '/explore-nodes',
-                label: 'Nodes',
+                label: 'Explore nodes',
               },
               {
                 href: '/Instruments/introduction',
-                label: 'Instruments',
+                label: 'Instruments Wiki',
               },
               {
                 href: '/cloud/documentation',

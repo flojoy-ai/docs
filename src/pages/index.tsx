@@ -60,6 +60,7 @@ function HomepageHeader() {
           </div>
         </div>
       </header>
+
       <section
         className={clsx('mb-4', styles.backgroundSection)}
         style={{
@@ -69,10 +70,13 @@ function HomepageHeader() {
           backgroundPosition: 'center'
         }}
       >
+      </section>
+
+      <section className={clsx('mb-4', styles.backgroundSection)}>
         <div className="container text-center">
           <QuickStart />
         </div>
-      </section>
+      </section>      
     </>
   );
 }

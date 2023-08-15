@@ -1,55 +1,145 @@
-import React from 'react';
-import styles from '../pages/index.module.scss';
-import clsx from 'clsx';
+import React, { useState } from 'react';
+import ReactSimplyCarousel from 'react-simply-carousel';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-const QuickStart = () => {
+
+function Quickstart() {
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+
   return (
-    <div className={clsx(styles.quickstart)}>
-      <div className="container quickstart__container text-left">
-        <h3 className="hero__subtitle">QuickStart</h3>
-        <br></br>
-        <ul className={styles.list}>
-          <li>
-            <a
-              href="nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/"
-              className={styles.link}
-            >
-              <span>Robotics</span>
-            </a>
-            <p className={styles.paragraph}>Control a stepper motor</p>
-          </li>
-          <li>
-            <a href="nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/" className={styles.link}>
-              <span>AI</span>
-            </a>
-            <p className={styles.paragraph}>
-              Identify objects in web cam capture
-            </p>
-          </li>
-          <li>
-            <a
-              href="nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/"
-              className={styles.link}
-            >
-              <span>Arduino</span>
-            </a>
-            <p className={styles.paragraph}>Read temperature from an Arduino</p>
-          </li>
-          <li>
-            <a
-              href="nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/"
-              className={styles.link}
-            >
-              <span> MATLAB</span>
-            </a>
-            <p className={styles.paragraph}>
-              Convert a .mat file to a Python dataframe
-            </p>
-          </li>
-        </ul>
-      </div>
+    <div>
+      <ReactSimplyCarousel
+        activeSlideIndex={activeSlideIndex}
+        onRequestChange={setActiveSlideIndex}
+        itemsToShow={1}
+        itemsToScroll={1}
+        forwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`>`}</span>,
+        }}
+        backwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`<`}</span>,
+        }}
+        responsiveProps={[
+          {
+            itemsToShow: 1,
+            itemsToScroll: 1,
+            minWidth: 768,
+          },
+        ]}
+        speed={400}
+        easing="linear"
+      >
+        {/* data viz */}
+        <div style={{ width: 730, height: 330}}>
+          <a href='/nodes/VISUALIZERS/PLOTLY/SURFACE3D/'>
+            <h2 style={{position: 'absolute'}}>3d data visualization</h2>
+            <ThemedImage
+              alt="3d data visualization"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_lite_swvvzg.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_dark_mm8igp.jpg',
+              }}
+            />
+          </a>
+        </div>
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='=/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/'>
+            <h2 style={{position: 'absolute'}}>One-hot encoding</h2>
+            <ThemedImage
+              alt="One-hot encoding"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/hot_encoding_lite_pgrbfp.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/hot_encoding_dark_kjlfls.jpg',
+              }}
+            />
+          </a>
+        </div>
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='/nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/'>
+            <h2 style={{position: 'absolute'}}>GPT image captioning</h2>
+            <ThemedImage
+              alt="GPT image captioning"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/hot_encoding_lite_pgrbfp.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/hot_encoding_dark_kjlfls.jpg',
+              }}
+            />
+          </a>
+        </div>
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/'>
+            <h2 style={{position: 'absolute'}}>Prophet time series forecasting</h2>
+            <ThemedImage
+              alt="Prophet time series forecasting"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/hot_encoding_lite_pgrbfp.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/hot_encoding_dark_kjlfls.jpg',
+              }}
+            />
+          </a>          
+        </div>  
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/'>
+            <h2 style={{position: 'absolute'}}>Low-pass FIR filter</h2>
+            <ThemedImage
+              alt="Low-pass FIR filter"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_lite_qad7px.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_dark_rbfg8g.jpg',
+              }}
+            />
+          </a>          
+        </div>    
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='/nodes/AI_ML/REGRESSION/LEAST_SQUARES/'>
+            <h2 style={{position: 'absolute'}}>Least squares</h2>
+            <ThemedImage
+              alt="Least squares"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/regressions_lite_hydm25.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/regressions_dark_bo4cvx.jpg',
+              }}
+            />
+          </a>          
+        </div>                   
+
+      </ReactSimplyCarousel>
     </div>
   );
-};
+}
 
-export default QuickStart;
+export default Quickstart;

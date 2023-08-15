@@ -21,3 +21,39 @@
     --color-accent4: 240 95 168;
   }
 }
+
+/* docstring regex syntax highlighter */
+
+.string {
+  color: #7B61FF;
+}
+
+.before-colon, .snake-case {
+  color: #E14092;
+}
+
+.dashes {
+  color: #7B61FF;
+}
+
+.node-names, .all-caps {
+  color: #7B61FF;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.data-container-type {
+  cursor: pointer;
+  color: #2E83FF;
+}
+
+.sections {
+  color: black;
+}
+
+[data-theme='dark']:root {
+   .sections {
+      color: white;
+   }
+}
