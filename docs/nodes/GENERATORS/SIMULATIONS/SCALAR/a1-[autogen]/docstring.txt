@@ -1,0 +1,11 @@
+The SCALAR node returns a single Scalar value.
+
+    Parameters
+    ----------
+    value: float
+        The value set in Parameters
+
+    Returns
+    -------
+    Scalar
+        c: return the value being set in Parameters

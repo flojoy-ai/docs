@@ -4,7 +4,7 @@ from scipy import signal
 from typing import Literal
 
 
-@flojoy(node_type="default")
+@flojoy
 def BASIC_OSCILLATOR(
     sample_rate: int = 100,
     time: int = 10,
@@ -15,6 +15,7 @@ def BASIC_OSCILLATOR(
     phase: float = 0,
 ) -> OrderedPair:
     
+
     samples = sample_rate * time
     x = np.linspace(0, time, samples)
 
