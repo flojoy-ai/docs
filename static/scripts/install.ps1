@@ -19,7 +19,7 @@ function cloneRepo {
     Set-Location $location
 }
 
-info_msg "Clonning flojoy-ai/studio repo..."
+info_msg "Cloning flojoy-ai/studio repo..."
 
 cloneRepo "flojoy-ai/studio" "studio" "main"
 
