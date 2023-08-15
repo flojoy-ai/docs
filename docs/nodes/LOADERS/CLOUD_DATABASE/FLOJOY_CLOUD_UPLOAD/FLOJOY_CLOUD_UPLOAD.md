@@ -1,4 +1,3 @@
-<!--- Add SEO here --->
 
 [//]: # (Custom component imports)
 
@@ -14,9 +13,11 @@ import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/DF_2_ORDEREDTRIPLE.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/FLOJOY_CLOUD_UPLOAD.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
@@ -24,13 +25,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.txt';
-import appImg from './examples/EX1/app.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
+
+
 
 <AppDisplay 
-    nodeLabel='DF_2_ORDEREDTRIPLE'
-    appImg={appImg}
-    outputImg={outputImg}
+    nodeLabel='FLOJOY_CLOUD_UPLOAD'
+    appImg={''}
+    outputImg={''}
     >
     {App1}
 </AppDisplay>
@@ -38,15 +39,19 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
+  
+    
 
 [//]: # (Appendix)
-
-## Appendix
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
 import Media from '!!raw-loader!./appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/appendix/'>{Media}</AppendixSection>
+## Appendix
+
+<AppendixSection index={0} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'>{Notes}</AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'>{Media}</AppendixSection>
+
+

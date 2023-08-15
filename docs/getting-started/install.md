@@ -28,16 +28,71 @@ Node.js is required to run Flojoy's app interface. Open your Terminal and type `
   
 <Tabs groupId="platform" queryString="platform">
   
+<TabItem value="windows" label="Windows">
+<div>
+
+### Direct Download
+
+Coming soon!
+
+### Install with CLI command
+
+Run the installation PowerShell script
+
+```bash
+pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
+```
+
+If you encounter an error saying the `pwsh` command is not found, `powershell` can be used instead, though we recommend [installing the latest version of PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows).
+
+<details>
+<summary>Advanced: install from source manually</summary>
+
+1. <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows">Update your PowerShell</a> to at least >=v7.0.0
+
+2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
+
+```bash
+git clone --recursive https://github.com/flojoy-io/studio.git
+```
+
+3. Navigate into the project root:
+
+```bash
+cd studio
+```
+
+4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
+
+```bash
+python3.10 -m venv venv
+```
+
+5. Finally, run:
+
+```bash
+.\flojoy -v venv
+```
+
+</details>
+
+</div>
+</TabItem>
 <TabItem value="unix" label="Mac & Linux">
 <div>
+
+### Direct Download
+
+Coming soon!
 
 ### Install with CLI command
 
 Run the installation shell script
+
 ```bash
 curl -L https://docs.flojoy.ai/scripts/install.sh | sh
 ```
- 
+
 <details>
 <summary>Advanced: install from source manually</summary>
 
@@ -64,53 +119,12 @@ python3.10 -m venv venv
 ```bash
 bash flojoy -v venv
 ```
+
 </details>
 
 </div>
 </TabItem>
 
-<TabItem value="windows" label="Windows">
-<div>
-
-### Install with CLI command
-
-Run the installation PowerShell script
-```bash
-pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
-```
-If you encounter an error saying the `pwsh` command is not found, `powershell` can be used instead, though we recommend [installing the latest version of PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows).
- 
-<details>
-<summary>Advanced: install from source manually</summary>
-
-1. <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows">Update your PowerShell</a> to at least >=v7.0.0
-
-2. [Clone the repo](https://github.com/flojoy-io/studio) with `--recursive` argument as follows:
-```bash
-git clone --recursive https://github.com/flojoy-io/studio.git
-```
-
-3. Navigate into the project root:
-
-```bash
-cd studio
-```
-
-4. We highly recommend creating a Python virtual environment inside the `studio` folder by running the command:
-
-```bash
-python3.10 -m venv venv
-```
-
-5. Finally, run:
-
-```bash
-.\flojoy -v venv
-```
-</details>
-
-</div>
-</TabItem>
 </Tabs>
 
 <details>
