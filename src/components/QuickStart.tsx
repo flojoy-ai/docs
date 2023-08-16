@@ -60,10 +60,49 @@ function Quickstart() {
       >
 
         <div style={{ width: 730, height: 330}}>
-          <a href='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/'>
-            <h2 style={{position: 'absolute'}}>Low-pass FIR filter</h2>
+          <a href='nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/'>
+            <h2 style={{position: 'absolute'}}>Predictive maintenance</h2>
             <ThemedImage
-              alt="Low-pass FIR filter"
+              alt="Predictive maintenance"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_lite_htglx4.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_dark_jppt52.jpg',
+              }}
+            />
+          </a>          
+        </div>    
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/'>
+            <h2 style={{position: 'absolute'}}>GPT image labeling</h2>
+            <ThemedImage
+              alt="GPT image captioning"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_lite_l1ynxu.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_dark_bvr0kk.jpg',
+              }}
+            />
+          </a>
+        </div>  
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='nodes/VISUALIZERS/PLOTLY/SURFACE3D/'>
+            <h2 style={{position: 'absolute'}}>Data visualization</h2>
+            <ThemedImage
+              alt="Data visualization"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_lite_swvvzg.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_dark_mm8igp.jpg',
+              }}
+            />
+          </a>
+        </div>
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/'>
+            <h2 style={{position: 'absolute'}}>Signal processing</h2>
+            <ThemedImage
+              alt="Signal processing"
               sources={{
                 light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_lite_qad7px.jpg',
                 dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_dark_rbfg8g.jpg',
@@ -96,46 +135,7 @@ function Quickstart() {
               }}
             />
           </a>
-        </div>
-
-        <div style={{ width: 730, height: 330}}>
-          <a href='nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/'>
-            <h2 style={{position: 'absolute'}}>GPT image captioning</h2>
-            <ThemedImage
-              alt="GPT image captioning"
-              sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_lite_l1ynxu.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_dark_bvr0kk.jpg',
-              }}
-            />
-          </a>
-        </div>
-
-        <div style={{ width: 730, height: 330}}>
-          <a href='nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/'>
-            <h2 style={{position: 'absolute'}}>Prophet time series forecasting</h2>
-            <ThemedImage
-              alt="Prophet time series forecasting"
-              sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_lite_htglx4.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_dark_jppt52.jpg',
-              }}
-            />
-          </a>          
-        </div>    
-
-        <div style={{ width: 730, height: 330}}>
-          <a href='nodes/VISUALIZERS/PLOTLY/SURFACE3D/'>
-            <h2 style={{position: 'absolute'}}>3d data visualization</h2>
-            <ThemedImage
-              alt="3d data visualization"
-              sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_lite_swvvzg.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_dark_mm8igp.jpg',
-              }}
-            />
-          </a>
-        </div>                  
+        </div>                
 
       </ReactSimplyCarousel>
     </div>
