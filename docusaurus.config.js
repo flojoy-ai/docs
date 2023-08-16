@@ -143,6 +143,9 @@ const config = {
                 href: '/nodes/introduction/',
                 label: 'Tutorial',
               },
+              {
+                href: '/custom-nodes/creating-custom-node/',
+                label: 'Contributing nodes',
             ],
           },
           {
