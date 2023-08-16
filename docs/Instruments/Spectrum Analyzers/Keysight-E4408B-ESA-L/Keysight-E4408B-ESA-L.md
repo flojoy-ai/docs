@@ -11,7 +11,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077771/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/Keysight-E4408B-ESA-L.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118356/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/Keysight-E4408B-ESA-L.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

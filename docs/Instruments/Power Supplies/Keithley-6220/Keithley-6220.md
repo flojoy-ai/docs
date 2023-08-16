@@ -11,7 +11,7 @@ The Model 6220 DC Current Source and Model 6221 AC and DC Current Source combine
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078039/Instruments/Power%20Supplies/Keithley-6220/Keithley-6220.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118764/Instruments/Power%20Supplies/Keithley-6220/Keithley-6220.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Model 6220 DC Current Source and Model 6221 AC and DC Current Source combine
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 

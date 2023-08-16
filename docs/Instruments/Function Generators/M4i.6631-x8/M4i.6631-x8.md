@@ -11,7 +11,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077855/Instruments/Function%20Generators/M4i.6631-x8/M4i.6631-x8.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077855/Instruments/Function%20Generators/M4i.6631-x8/M4i.6631-x8.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/Spectrum.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125992/Instruments/Vendor%20Logos/Spectrum.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Spectrum Instrumentation manufactures high-speed, high-resolution PC measurement equipment for the most demanding applications. 200+ products are available for your Perfect Fit Solution, combined with intuitive measurement software, support directly from the engineers and five years warranty. Spectrum products and solutions are used by leading companies and research institutes worldwide. <a href="https://spectrum-instrumentation.com/">Website</a>.
 

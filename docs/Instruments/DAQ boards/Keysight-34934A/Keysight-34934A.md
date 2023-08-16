@@ -11,7 +11,7 @@ The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offe
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077953/Instruments/DAQ%20boards/Keysight-34934A/Keysight-34934A.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118632/Instruments/DAQ%20boards/Keysight-34934A/Keysight-34934A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offe
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

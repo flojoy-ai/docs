@@ -11,7 +11,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078129/Instruments/Photon%20Counting%20System/Singlequantum/Singlequantum.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120104/Instruments/Photon%20Counting%20System/Singlequantum/Singlequantum.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786339/Instruments/Vendor%20Logos/SingleQuantum.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126005/Instruments/Vendor%20Logos/SingleQuantum.png" style={{ width: "100%", objectFit: "cover" }} />
 
 At Single Quantum, we confront every challenge with innovation, dedication, and passion. Founded in 2012, our team emerged as true pioneers of single photon detection technology: we were among the first to manufacture and commercialize superconducting nanowire single photon detectors. Since then, our multi-channel Single Quantum Eos photon detection system has been chosen by more than 100 academic and industrial labs all over the world to perform complex optical measurements. <a href="https://singlequantum.com/">Website</a>.
 

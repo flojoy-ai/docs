@@ -11,7 +11,7 @@ PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077794/Instruments/RF%20Signal%20Generator/NI-PXIe-5654/NI-PXIe-5654.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118392/Instruments/RF%20Signal%20Generator/NI-PXIe-5654/NI-PXIe-5654.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786494/Instruments/Vendor%20Logos/National_Instruments.jpg.webp" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125989/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
 

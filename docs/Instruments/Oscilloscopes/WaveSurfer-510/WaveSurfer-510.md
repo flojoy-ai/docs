@@ -11,7 +11,7 @@ The WaveSurfer 510 combines the MAUI with OneTouch user interface with powerful 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077923/Instruments/Oscilloscopes/WaveSurfer-510/WaveSurfer-510.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118583/Instruments/Oscilloscopes/WaveSurfer-510/WaveSurfer-510.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The WaveSurfer 510 combines the MAUI with OneTouch user interface with powerful 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785852/Instruments/Vendor%20Logos/Teledyne_Lecroy.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 

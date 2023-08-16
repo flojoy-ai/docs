@@ -11,7 +11,7 @@ The Zurich Instruments PQSC Programmable Quantum System Controller brings togeth
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078031/Instruments/Quantum%20Computing%20Control%20System/PQSC/PQSC.webp" style={{ width: "325px", height: "150px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118746/Instruments/Quantum%20Computing%20Control%20System/PQSC/PQSC.png" style={{ width: "325px", height: "150px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Zurich Instruments PQSC Programmable Quantum System Controller brings togeth
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 

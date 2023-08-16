@@ -11,7 +11,7 @@ The 2635B SourceMeter SMU instrument, is a new and improved one-channel SMU inst
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077807/Instruments/Power%20Supplies/Keithley-2635B/Keithley-2635B.webp" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118409/Instruments/Power%20Supplies/Keithley-2635B/Keithley-2635B.png" style={{ width: "325px", height: "200px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The 2635B SourceMeter SMU instrument, is a new and improved one-channel SMU inst
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 

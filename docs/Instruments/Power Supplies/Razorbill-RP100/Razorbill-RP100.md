@@ -16,7 +16,7 @@ controlled strains and stresses to the material.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077846/Instruments/Power%20Supplies/Razorbill-RP100/Razorbill-RP100.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118469/Instruments/Power%20Supplies/Razorbill-RP100/Razorbill-RP100.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -30,7 +30,7 @@ controlled strains and stresses to the material.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786577/Instruments/Vendor%20Logos/Razorbill_Instruments.jpg.avif" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125964/Instruments/Vendor%20Logos/Razorbill_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Manufacturer of precision instruments intended for use in fundamental physics and space applications. The company manufactures electromechanical mechanisms to apply tunable uniaxial strains at low temperatures and high magnetic fields and provides expertise in the field of design for cryogenic environments, compliant mechanisms and compact systems for applying and measuring strain, enabling clients to incorporate a number of unique key technologies that allow them to have such high performance and repeatability. <a href="https://razorbillinstruments.com/">Website</a>.
 

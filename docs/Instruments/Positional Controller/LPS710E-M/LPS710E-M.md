@@ -11,7 +11,7 @@ The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis tra
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078107/Instruments/Positional%20Controller/LPS710E-M/LPS710E-M.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120067/Instruments/Positional%20Controller/LPS710E-M/LPS710E-M.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis tra
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785700/Instruments/Vendor%20Logos/Thorlabs.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Thorlabs, Inc. is an American privately held optical equipment company headquartered in Newton, New Jersey. The company was founded in 1989 by Alex Cable, who serves as its current president and CEO. As of 2018, Thorlabs has annual sales of approximately $500 million. <a href="https://www.thorlabs.com/">Website</a>.
 

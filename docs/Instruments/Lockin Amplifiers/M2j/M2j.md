@@ -11,7 +11,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077837/Instruments/Lockin%20Amplifiers/M2j/M2j.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077837/Instruments/Lockin%20Amplifiers/M2j/M2j.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QuTech.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125978/Instruments/Vendor%20Logos/QuTech.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
 

@@ -11,7 +11,7 @@ Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078008/Instruments/Power%20Supplies/PL303QMT-P/PL303QMT-P.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118707/Instruments/Power%20Supplies/PL303QMT-P/PL303QMT-P.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785144/Instruments/Vendor%20Logos/Aimtti.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125963/Instruments/Vendor%20Logos/Aimtti.png" style={{ width: "100%", height: "200px",objectFit: "cover" }} />
 
 TTi (Thurlby Thandar Instruments) is a leading manufacturer of electronic test and measurement instruments. These products are sold throughout the world via carefully selected distributors and agents in each country. We are located in Huntingdon near to the famous university city of Cambridge, within one of the high technology areas of the United Kingdom. <a href="https://www.aimtti.com/">Website</a>.
 
