@@ -58,22 +58,35 @@ function Quickstart() {
         speed={400}
         easing="linear"
       >
-        {/* data viz */}
+
         <div style={{ width: 730, height: 330}}>
-          <a href='/nodes/VISUALIZERS/PLOTLY/SURFACE3D/'>
-            <h2 style={{position: 'absolute'}}>3d data visualization</h2>
+          <a href='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/'>
+            <h2 style={{position: 'absolute'}}>Low-pass FIR filter</h2>
             <ThemedImage
-              alt="3d data visualization"
+              alt="Low-pass FIR filter"
               sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_lite_swvvzg.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_dark_mm8igp.jpg',
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_lite_qad7px.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_dark_rbfg8g.jpg',
               }}
             />
-          </a>
+          </a>          
         </div>
 
         <div style={{ width: 730, height: 330}}>
-          <a href='=/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/'>
+          <a href='nodes/AI_ML/REGRESSION/LEAST_SQUARES/'>
+            <h2 style={{position: 'absolute'}}>Least squares</h2>
+            <ThemedImage
+              alt="Least squares"
+              sources={{
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/regressions_lite_hydm25.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/regressions_dark_bo4cvx.jpg',
+              }}
+            />
+          </a>          
+        </div> 
+
+        <div style={{ width: 730, height: 330}}>
+          <a href='=nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/'>
             <h2 style={{position: 'absolute'}}>One-hot encoding</h2>
             <ThemedImage
               alt="One-hot encoding"
@@ -86,56 +99,43 @@ function Quickstart() {
         </div>
 
         <div style={{ width: 730, height: 330}}>
-          <a href='/nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/'>
+          <a href='nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/'>
             <h2 style={{position: 'absolute'}}>GPT image captioning</h2>
             <ThemedImage
               alt="GPT image captioning"
               sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/hot_encoding_lite_pgrbfp.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/hot_encoding_dark_kjlfls.jpg',
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_lite_l1ynxu.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/nlp_gpt_dark_bvr0kk.jpg',
               }}
             />
           </a>
         </div>
 
         <div style={{ width: 730, height: 330}}>
-          <a href='/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/'>
+          <a href='nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/'>
             <h2 style={{position: 'absolute'}}>Prophet time series forecasting</h2>
             <ThemedImage
               alt="Prophet time series forecasting"
               sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/hot_encoding_lite_pgrbfp.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/hot_encoding_dark_kjlfls.jpg',
-              }}
-            />
-          </a>          
-        </div>  
-
-        <div style={{ width: 730, height: 330}}>
-          <a href='/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/'>
-            <h2 style={{position: 'absolute'}}>Low-pass FIR filter</h2>
-            <ThemedImage
-              alt="Low-pass FIR filter"
-              sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_lite_qad7px.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/fir_dark_rbfg8g.jpg',
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_lite_htglx4.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/prophet_dark_jppt52.jpg',
               }}
             />
           </a>          
         </div>    
 
         <div style={{ width: 730, height: 330}}>
-          <a href='/nodes/AI_ML/REGRESSION/LEAST_SQUARES/'>
-            <h2 style={{position: 'absolute'}}>Least squares</h2>
+          <a href='nodes/VISUALIZERS/PLOTLY/SURFACE3D/'>
+            <h2 style={{position: 'absolute'}}>3d data visualization</h2>
             <ThemedImage
-              alt="Least squares"
+              alt="3d data visualization"
               sources={{
-                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133019/carousel/regressions_lite_hydm25.jpg',
-                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692133018/carousel/regressions_dark_bo4cvx.jpg',
+                light: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_lite_swvvzg.jpg',
+                dark: 'https://res.cloudinary.com/dhopxs1y3/image/upload/v1692132113/carousel/3d_surf_dark_mm8igp.jpg',
               }}
             />
-          </a>          
-        </div>                   
+          </a>
+        </div>                  
 
       </ReactSimplyCarousel>
     </div>

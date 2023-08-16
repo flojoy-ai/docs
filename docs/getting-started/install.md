@@ -31,10 +31,6 @@ Node.js is required to run Flojoy's app interface. Open your Terminal and type `
 <TabItem value="windows" label="Windows">
 <div>
 
-### Direct Download
-
-Coming soon!
-
 ### Install with CLI command
 
 Run the installation PowerShell script
@@ -74,16 +70,24 @@ python3.10 -m venv venv
 .\flojoy -v venv
 ```
 
+Optional flags:
+<ul>
+  <li><code>-v</code> provides the path to the Python virtual environment</li>
+  <li><code>-n</code> skips installing the Node packages in package.json</li>
+  <li><code>-p</code> skips installing the Python packages in requirements.txt</li>
+  <li><code>-P</code> runs the backend server on a specific port</li>
+  <li><code>-s</code> To **NOT** update submodules</li>
+  <li><code>-S</code> To **NOT** enable Sentry</li>
+  <li><code>-T</code> To enable Telemetry</li>
+  <li><code>-d</code> To enable debug mode for backend</li>
+</ul>
+
 </details>
 
 </div>
 </TabItem>
 <TabItem value="unix" label="Mac & Linux">
 <div>
-
-### Direct Download
-
-Coming soon!
 
 ### Install with CLI command
 
@@ -120,23 +124,21 @@ python3.10 -m venv venv
 bash flojoy -v venv
 ```
 
+Optional flags:
+<ul>
+  <li><code>-v</code> provides the path to the Python virtual environment</li>
+  <li><code>-n</code> skips installing the Node packages in package.json</li>
+  <li><code>-p</code> skips installing the Python packages in requirements.txt</li>
+  <li><code>-P</code> runs the backend server on a specific port</li>
+  <li><code>-s</code> To **NOT** update submodules</li>
+  <li><code>-S</code> To **NOT** enable Sentry</li>
+  <li><code>-T</code> To enable Telemetry</li>
+  <li><code>-d</code> To enable debug mode for backend</li>
+</ul>
+
 </details>
 
 </div>
 </TabItem>
 
 </Tabs>
-
-<details>
-<summary>Optional flags</summary>
-  <ul>
-    <li><code>-v</code> provides the path to the Python virtual environment</li>
-    <li><code>-n</code> skips installing the Node packages in package.json</li>
-    <li><code>-p</code> skips installing the Python packages in requirements.txt</li>
-    <li><code>-P</code> runs the backend server on a specific port</li>
-    <li><code>-s</code> To **NOT** update submodules</li>
-    <li><code>-S</code> To **NOT** enable Sentry</li>
-    <li><code>-T</code> To enable Telemetry</li>
-    <li><code>-d</code> To enable debug mode for backend</li>
-  </ul>
-</details>
