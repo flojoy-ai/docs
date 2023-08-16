@@ -23,7 +23,7 @@ Wide range of PWM frequencies for linear motor support
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107043/Instruments/Servo%20Drive_Controllers/Gemini-GV6/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119459/Instruments/Servo%20Drive_Controllers/Gemini-GV6/Gemini-GV6.png" style={{ width: "325px", height: "200px" }} />
 
 </div>
 
@@ -41,7 +41,7 @@ Wide range of PWM frequencies for linear motor support>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Parker Hannifin Corporation, originally Parker Appliance Company, usually referred to as just Parker, is an American corporation specializing in motion and control technologies. <a href="https://www.parker.com/us/en/home.html">Website</a>.
 

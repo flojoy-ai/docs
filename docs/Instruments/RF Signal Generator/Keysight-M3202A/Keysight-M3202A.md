@@ -14,7 +14,7 @@ Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106896/Instruments/RF%20Signal%20Generator/Keysight-M3202A/file.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077909/Instruments/RF%20Signal%20Generator/Keysight-M3202A/Keysight-M3202A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

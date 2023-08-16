@@ -14,7 +14,7 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106859/Instruments/Screen%20Display/Gentec-EO-Maestro/file.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077868/Instruments/Screen%20Display/Gentec-EO-Maestro/Gentec-EO-Maestro.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125988/Instruments/Vendor%20Logos/Gentec_Eo.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125988/Instruments/Vendor%20Logos/Gentec_Eo.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Gentec-EO is a manufacturer of laser beam measurement technologies. <a href="https://www.gentec-eo.com/">Website</a>.
 

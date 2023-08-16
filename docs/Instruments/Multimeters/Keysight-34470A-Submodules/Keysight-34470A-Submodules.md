@@ -14,7 +14,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107107/Instruments/Multimeters/Keysight-34470A-Submodules/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120129/Instruments/Multimeters/Keysight-34470A-Submodules/Keysight-34470A-Submodules.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

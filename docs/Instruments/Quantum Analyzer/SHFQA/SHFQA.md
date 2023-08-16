@@ -14,7 +14,7 @@ The Zurich Instruments SHFQA Quantum Analyzer integrates in a single instrument 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106964/Instruments/Quantum%20Analyzer/SHFQA/file.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118675/Instruments/Quantum%20Analyzer/SHFQA/SHFQA.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The Zurich Instruments SHFQA Quantum Analyzer integrates in a single instrument 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 

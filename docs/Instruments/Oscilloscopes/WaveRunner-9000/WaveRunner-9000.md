@@ -14,7 +14,7 @@ WaveRunner 9000 oscilloscopes have the industry's widest and deepest collection 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106844/Instruments/Oscilloscopes/WaveRunner-9000/file.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118481/Instruments/Oscilloscopes/WaveRunner-9000/WaveRunner-9000.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ WaveRunner 9000 oscilloscopes have the industry's widest and deepest collection 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 

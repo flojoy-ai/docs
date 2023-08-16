@@ -14,7 +14,7 @@ The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channel
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106815/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118436/Instruments/Oscilloscopes/Keysight-DSOX1102G/Keysight-DSOX1102G.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channel
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

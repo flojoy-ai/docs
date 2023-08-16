@@ -16,7 +16,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106893/Instruments/Power%20Supplies/SPD1305X-Power-Supply/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118557/Instruments/Power%20Supplies/SPD1305X-Power-Supply/SPD1305X-Power-Supply.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -27,7 +27,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126014/Instruments/Vendor%20Logos/Siglent.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126014/Instruments/Vendor%20Logos/Siglent.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 **iglent** is a China-based manufacturer specializing in electronic test & measurement instruments. Siglent founders began a preliminary study of digital oscilloscopes in 2002. It founded in 2007, and now Siglent has extended its product line to include digital oscilloscopes, function / arbitrary waveform generators, RF generators，digital multi-meters, DC power supplies, spectrum analyzers, spectrum & vector network analyzers, isolated handheld oscilloscopes, DC electronic loads and other general test instruments.Siglent also manufactured entry-level products for Lecroy. <a href="https://siglentna.com/">Website</a>.
 

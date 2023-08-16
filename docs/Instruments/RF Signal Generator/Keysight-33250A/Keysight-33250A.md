@@ -14,7 +14,7 @@ The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synt
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106898/Instruments/RF%20Signal%20Generator/Keysight-33250A/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118565/Instruments/RF%20Signal%20Generator/Keysight-33250A/Keysight-33250A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synt
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

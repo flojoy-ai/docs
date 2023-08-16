@@ -14,7 +14,7 @@ All SCPI Multimeters
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107011/Instruments/Multimeters/SCPI-multimeter/file.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692078041/Instruments/Multimeters/SCPI-multimeter/SCPI-multimeter.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ All SCPI Multimeters>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692142672/Instruments/Vendor%20Logos/FLOJOY_TEXT.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692142672/Instruments/Vendor%20Logos/FLOJOY_TEXT.png" style={{ width: "100%", objectFit: "cover" }} />
 
 . <a href="https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">Website</a>.
 

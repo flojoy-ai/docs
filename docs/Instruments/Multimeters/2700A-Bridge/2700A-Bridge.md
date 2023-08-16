@@ -18,7 +18,7 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107047/Instruments/Multimeters/2700A-Bridge/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119464/Instruments/Multimeters/2700A-Bridge/2700A-Bridge.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -31,7 +31,7 @@ The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridg
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126007/Instruments/Vendor%20Logos/Andeen_Hagerling.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126007/Instruments/Vendor%20Logos/Andeen_Hagerling.png" style={{ width: "100%", objectFit: "cover" }} />
 
 **Andeen**-**Hagerling**, Inc. - manufacturers of the world's most accurate capacitance bridges and standards. <a href="https://www.andeen-hagerling.com/">Website</a>.
 

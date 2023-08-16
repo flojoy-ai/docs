@@ -14,7 +14,7 @@ Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic me
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106791/Instruments/Power%20Meters/PPMS-Dynacool/file.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077793/Instruments/Power%20Meters/PPMS-Dynacool/PPMS-Dynacool.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic me
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126008/Instruments/Vendor%20Logos/QuantumDesign.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126008/Instruments/Vendor%20Logos/QuantumDesign.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Quantum Design manufactures automated temperature and magnetic field testing platforms. <a href="https://www.qdusa.com/">Website</a>.
 

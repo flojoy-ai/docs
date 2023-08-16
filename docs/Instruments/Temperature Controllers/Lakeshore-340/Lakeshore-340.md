@@ -14,7 +14,7 @@ The Model 340 cryogenic temperature controller is our most advanced temperature 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106962/Instruments/Temperature%20Controllers/Lakeshore-340/file.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077983/Instruments/Temperature%20Controllers/Lakeshore-340/Lakeshore-340.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The Model 340 cryogenic temperature controller is our most advanced temperature 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
 

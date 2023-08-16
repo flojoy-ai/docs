@@ -14,7 +14,7 @@ The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, L
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692107013/Instruments/Power%20Supplies/Keysight-N5767A/file.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118773/Instruments/Power%20Supplies/Keysight-N5767A/Keysight-N5767A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, L
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

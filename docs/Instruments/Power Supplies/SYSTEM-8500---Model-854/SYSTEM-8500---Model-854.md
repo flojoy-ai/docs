@@ -14,7 +14,7 @@ The System 8500 Power Supply program offers the ultrastable Model 854 specially 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106801/Instruments/Power%20Supplies/SYSTEM-8500---Model-854/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118404/Instruments/Power%20Supplies/SYSTEM-8500---Model-854/SYSTEM-8500---Model-854.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The System 8500 Power Supply program offers the ultrastable Model 854 specially 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125953/Instruments/Vendor%20Logos/Danfysik.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125953/Instruments/Vendor%20Logos/Danfysik.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Danfysik accelerator system and accelerator components are in service at most particle accelerator facilities worldwide. <a href="https://www.danfysik.com/en">Website</a>.
 

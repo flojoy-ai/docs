@@ -14,7 +14,7 @@ Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106928/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118618/Instruments/Lockin%20Amplifiers/Standa-10MWA168/Standa-10MWA168.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125984/Instruments/Vendor%20Logos/Standa.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125984/Instruments/Vendor%20Logos/Standa.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Standa has it's own industrial base that includes CNC turning, milling, grinding machines. Standa's design department, while developing standard products presented in Standa's catalogue (such as motorized and manual translation and rotation stages, motion controllers, optical tables, vibration isolation systems, optical mounts and holders, optics, dpss lasers and etc.) also develops the equipment for OEM customers. Some examples of it, after the agreement with OEM customers, are shown on this website. Standa currently has several laser product development laboratories. <a href="https://www.standa.lt/">Website</a>.
 

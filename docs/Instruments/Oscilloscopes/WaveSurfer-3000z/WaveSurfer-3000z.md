@@ -14,7 +14,7 @@ The WaveSurfer 3000z has a 10.1" capacitive touch display, the longest memory, a
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106934/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118627/Instruments/Oscilloscopes/WaveSurfer-3000z/WaveSurfer-3000z.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -23,7 +23,7 @@ The WaveSurfer 3000z has a 10.1" capacitive touch display, the longest memory, a
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers and other test equipment. LeCroy is now a subsidiary of Teledyne Technologies. <a href="https://www.teledynelecroy.com/">Website</a>.
 

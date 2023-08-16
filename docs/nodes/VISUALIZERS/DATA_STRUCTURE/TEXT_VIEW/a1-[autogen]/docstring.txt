@@ -1,12 +1,11 @@
-
 The TEXT_VIEW node creates a text visualization for a given TextBlob DataContainer type.
 
-Inputs
-------
-default : TextBlob
-    the DataContainer to be visualized in text format
+    Inputs
+    ------
+    default : TextBlob
+        the DataContainer to be visualized in text format
 
-Outputs
--------
-TextBlob
-    the DataContainer containing text data
+    Returns
+    -------
+    TextBlob
+        the DataContainer containing text data
