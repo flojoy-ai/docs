@@ -146,6 +146,7 @@ const config = {
               {
                 href: '/custom-nodes/creating-custom-node/',
                 label: 'Contributing nodes',
+              }
             ],
           },
           {
