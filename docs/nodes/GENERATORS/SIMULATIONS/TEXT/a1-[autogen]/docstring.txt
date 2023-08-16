@@ -1,0 +1,11 @@
+The TEXT node returns a TextBlob DataContainer.
+
+    Parameters
+    ----------
+    value: str
+        The value set in Parameters
+
+    Returns
+    -------
+    TextBlob
+        text_blob: return the value being set in Parameters

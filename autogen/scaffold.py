@@ -70,7 +70,7 @@ def scaffold_node_directories():
 
     js = json.loads(s)
 
-    saved_directory = os.getcwd()
+    # saved_directory = os.getcwd()
 
     f2 = open("TEMPLATE.md")
     TEMPLATE = f2.read()
@@ -88,7 +88,7 @@ def scaffold_node_directories():
                     if item.split(".")[1] == "md":
                         NODE_NAME = item.split(".")[0]
                         new_node_folder = os.path.join(head, NODE_NAME)
-                        if os.path.isdir(new_node_folder) == False:
+                        if not os.path.isdir(new_node_folder):
                             #
                             # 1. Create a new folder for the node if it does not already exist
                             #
@@ -126,7 +126,7 @@ def scaffold_node_directories():
                             NODE_NAME,
                             head,
                             "EX1",
-                            ("app.txt", "output.txt", "example.md"),
+                            ("app.json", "output.txt", "example.md"),
                         )
 
 
