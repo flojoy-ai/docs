@@ -16,7 +16,7 @@ many other cutting-edge applications of condensed matter physics.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078014/Instruments/Dilution%20Refrigerator/Triton/Triton.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118717/Instruments/Dilution%20Refrigerator/Triton/Triton.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -30,7 +30,7 @@ many other cutting-edge applications of condensed matter physics.>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786566/Instruments/Vendor%20Logos/Oxford_Instruments.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125988/Instruments/Vendor%20Logos/Oxford_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Oxford Instruments plc is a United Kingdom manufacturing and research company that designs and manufactures tools and systems for industry and research. The company is headquartered in Abingdon, Oxfordshire, England, with sites in the United Kingdom, United States, Europe, and Asia.[2] It is listed on the London Stock Exchange and is a constituent of the FTSE 250 Index.[3]. <a href="https://www.oxinst.com/">Website</a>.
 

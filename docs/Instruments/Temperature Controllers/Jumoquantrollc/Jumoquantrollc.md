@@ -11,7 +11,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078144/Instruments/Temperature%20Controllers/Jumoquantrollc/Jumoquantrollc.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120125/Instruments/Temperature%20Controllers/Jumoquantrollc/Jumoquantrollc.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786180/Instruments/Vendor%20Logos/Jumo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126003/Instruments/Vendor%20Logos/Jumo.png" style={{ width: "100%", objectFit: "cover" }} />
 
 **JUMO** is your expert partner and manufacturer for industrial sensor technology up to the automation solution for temperature, pressure, and liquids. <a href="https://jumo.ca/">Website</a>.
 

@@ -11,7 +11,7 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078120/Instruments/Spectrometers/Shamrock-750/Shamrock-750.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692078120/Instruments/Spectrometers/Shamrock-750/Shamrock-750.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785461/Instruments/Vendor%20Logos/Andor.jpg.jpg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125995/Instruments/Vendor%20Logos/Andor.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy Systems. <a href="https://andor.oxinst.com/">Website</a>.
 

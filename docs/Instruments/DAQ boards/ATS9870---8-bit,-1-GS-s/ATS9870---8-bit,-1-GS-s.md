@@ -11,7 +11,7 @@ ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077952/Instruments/DAQ%20boards/ATS9870---8-bit%2C-1-GS-s/ATS9870---8-bit_-1-GS-s.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118630/Instruments/DAQ%20boards/ATS9870---8-bit%2C-1-GS-s/ATS9870---8-bit_-1-GS-s.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785173/Instruments/Vendor%20Logos/Alazartech.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125979/Instruments/Vendor%20Logos/Alazartech.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of serving the test and measurement market, in general, and the embedded waveform digitizer (OEM) market segment, in particular, by providing highly differentiated, high performance instrumentation products at affordable prices. <a href="https://www.alazartech.com/">Website</a>.
 

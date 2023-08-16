@@ -11,7 +11,7 @@ The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078100/Instruments/RF%20Signal%20Generator/SMR-40/SMR-40.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120052/Instruments/RF%20Signal%20Generator/SMR-40/SMR-40.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786524/Instruments/Vendor%20Logos/Rohde_Schwarz.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 

@@ -11,7 +11,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078122/Instruments/Temperature%20Controllers/Fluke-7341/Fluke-7341.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120092/Instruments/Temperature%20Controllers/Fluke-7341/Fluke-7341.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785769/Instruments/Vendor%20Logos/Fluke.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125987/Instruments/Vendor%20Logos/Fluke.png" style={{ width: "100%", objectFit: "cover" }} />
 
 **Fluke** Corporation is the world leader in professional electronic test tools and software for measuring and condition monitoring. <a href="https://us.flukecal.com/">Website</a>.
 

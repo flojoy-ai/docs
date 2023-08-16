@@ -11,7 +11,7 @@ The Keysight N5173B EXG microwave analog signal generator is the cost-effective 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077991/Instruments/RF%20Signal%20Generator/Keysight-N5173B-EXG/Keysight-N5173B-EXG.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077991/Instruments/RF%20Signal%20Generator/Keysight-N5173B-EXG/Keysight-N5173B-EXG.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Keysight N5173B EXG microwave analog signal generator is the cost-effective 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

@@ -11,7 +11,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078066/Instruments/Miscellaneous/Stahl/Stahl.webp" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118805/Instruments/Miscellaneous/Stahl/Stahl.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785912/Instruments/Vendor%20Logos/NoLogo.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692142672/Instruments/Vendor%20Logos/FLOJOY_TEXT.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Unable to find Vendor Description. <a href="https://r-stahl.com/en/global/home/">Website</a>.
 

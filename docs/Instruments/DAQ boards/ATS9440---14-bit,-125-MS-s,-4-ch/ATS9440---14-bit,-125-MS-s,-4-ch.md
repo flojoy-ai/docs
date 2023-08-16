@@ -11,7 +11,7 @@ ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078010/Instruments/DAQ%20boards/ATS9440---14-bit%2C-125-MS-s%2C-4-ch/ATS9440---14-bit_-125-MS-s_-4-ch.jpg" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118712/Instruments/DAQ%20boards/ATS9440---14-bit%2C-125-MS-s%2C-4-ch/ATS9440---14-bit_-125-MS-s_-4-ch.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785173/Instruments/Vendor%20Logos/Alazartech.jpg.png" />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125979/Instruments/Vendor%20Logos/Alazartech.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of serving the test and measurement market, in general, and the embedded waveform digitizer (OEM) market segment, in particular, by providing highly differentiated, high performance instrumentation products at affordable prices. <a href="https://www.alazartech.com/">Website</a>.
 
