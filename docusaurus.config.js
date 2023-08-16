@@ -128,6 +128,10 @@ const config = {
                 label: 'Installation',
               },
               {
+                href: '/nodes/introduction/',
+                label: 'Tutorial',
+              },
+              {
                 href: '/explore-nodes',
                 label: 'Explore nodes',
               },
@@ -138,10 +142,6 @@ const config = {
               {
                 href: '/cloud/documentation',
                 label: 'Cloud',
-              },
-              {
-                href: '/nodes/introduction/',
-                label: 'Tutorial',
               },
               {
                 href: '/custom-nodes/creating-custom-node/',
