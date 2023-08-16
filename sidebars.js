@@ -68,7 +68,6 @@ const sidebars = {
             'custom-nodes/data-container',
             'custom-nodes/creating-custom-node',
             'custom-nodes/custom-category',
-            'custom-nodes/contributing-nodes',
             'custom-nodes/testing-nodes',
             'custom-nodes/node-api-reference',
           ],
