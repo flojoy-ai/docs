@@ -11,7 +11,7 @@ QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782644/Instruments/Digital-Analog%20Converter/QDAC/QDAC.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692079697/Instruments/Digital-Analog%20Converter/QDAC/QDAC.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QDevils.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125970/Instruments/Vendor%20Logos/QDevils.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Founded in 2016, QDevil is an international quantum technology company focused on developing and manufacturing auxiliary electronics and specialized components, operating from mK to room temperature. The mission is to accelerate research and development in quantum electronics labs. To fulfill the mission QDevil helps customers around the world by supplying world-class auxiliary electronics. <a href="https://qdevil.com/">Website</a>.
 

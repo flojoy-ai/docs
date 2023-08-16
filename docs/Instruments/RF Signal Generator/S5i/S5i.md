@@ -11,7 +11,7 @@ The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed f
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782708/Instruments/RF%20Signal%20Generator/S5i/S5i.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692078078/Instruments/RF%20Signal%20Generator/S5i/S5i.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed f
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/QuTech.jpg.jpg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125978/Instruments/Vendor%20Logos/QuTech.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 At QuTech, we work on a radically new technology with world-changing potential. Our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics. <a href="https://qutech.nl/">Website</a>.
 

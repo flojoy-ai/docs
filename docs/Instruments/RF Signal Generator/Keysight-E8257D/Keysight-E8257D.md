@@ -11,7 +11,7 @@ Metrology-grade analog signal generator offering industry-leading output power, 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782469/Instruments/RF%20Signal%20Generator/Keysight-E8257D/Keysight-E8257D.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077798/Instruments/RF%20Signal%20Generator/Keysight-E8257D/Keysight-E8257D.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Metrology-grade analog signal generator offering industry-leading output power, 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

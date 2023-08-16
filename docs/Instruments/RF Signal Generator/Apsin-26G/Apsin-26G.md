@@ -11,7 +11,7 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782482/Instruments/RF%20Signal%20Generator/Apsin-26G/Apsin-26G.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118429/Instruments/RF%20Signal%20Generator/Apsin-26G/Apsin-26G.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785426/Instruments/Vendor%20Logos/Anapico.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125957/Instruments/Vendor%20Logos/Anapico.png" style={{ width: "100%", objectFit: "cover" }} />
 
 **AnaPico** is an ISO 9001:2015 certified technology leader, developing, manufacturing and supplying RF and MW test & measurement instruments. <a href="https://www.anapico.com/">Website</a>.
 

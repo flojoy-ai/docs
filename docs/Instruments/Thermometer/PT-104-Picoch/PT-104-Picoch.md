@@ -11,7 +11,7 @@ The PT-104 is a four-channel temperature measuring data logger. It offers the ul
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782684/Instruments/Thermometer/PT-104-Picoch/PT-104-Picoch.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118781/Instruments/Thermometer/PT-104-Picoch/PT-104-Picoch.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The PT-104 is a four-channel temperature measuring data logger. It offers the ul
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786882/Instruments/Vendor%20Logos/PicoTechnology.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125986/Instruments/Vendor%20Logos/PicoTechnology.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Pico Technology was established in 1991 and soon became a leader in the field of [PC Oscilloscopes](https://www.picotech.com/products/oscilloscope) and [data loggers](https://www.picotech.com/products/data-logger).
 Pico has always been recognized for providing innovative, cost-effective alternatives to traditional test equipment and data acquisition products. In doing so, we have made high-quality instrumentation affordable. <a href="https://www.picotech.com/">Website</a>.

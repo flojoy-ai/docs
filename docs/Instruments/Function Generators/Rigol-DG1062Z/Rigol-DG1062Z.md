@@ -11,7 +11,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782710/Instruments/Function%20Generators/Rigol-DG1062Z/Rigol-DG1062Z.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119463/Instruments/Function%20Generators/Rigol-DG1062Z/Rigol-DG1062Z.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786552/Instruments/Vendor%20Logos/Rigol.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125991/Instruments/Vendor%20Logos/Rigol.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 RIGOL Technologies, Inc. specializes in development and production of test and measuring equipment and is one of the fastest growing Chinese companies in this sphere.
 RIGOL’s line of products includes [digital storage oscilloscopes](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=227), [function/arbitrary waveform generators](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=230), [digital multimeters](https://www.tmatlantic.com/e-store/index.php?SECTION_ID=233), PC-based devices compatible with LXI standard etc. <a href="https://www.rigol.com/">Website</a>.

@@ -11,7 +11,7 @@ The Zurich Instruments SHFSG Signal Generator produces qubit control signals in 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782679/Instruments/RF%20Signal%20Generator/SHFSG/SHFSG.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118768/Instruments/RF%20Signal%20Generator/SHFSG/SHFSG.png" style={{ width: "325px", height: "150px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Zurich Instruments SHFSG Signal Generator produces qubit control signals in 
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785489/Instruments/Vendor%20Logos/Zurich_Instruments.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126012/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Zurich Instruments Ltd. is a privately owned company developing and selling advanced test and measurement instruments equipped with software for dynamic signal analysis. <a href="https://www.zhinst.com/americas/en">Website</a>.
 

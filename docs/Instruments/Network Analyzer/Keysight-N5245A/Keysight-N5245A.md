@@ -11,7 +11,7 @@ The Keysight N5245A Network Analyzer provides a wide range of measurement applic
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782682/Instruments/Network%20Analyzer/Keysight-N5245A/Keysight-N5245A.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118776/Instruments/Network%20Analyzer/Keysight-N5245A/Keysight-N5245A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Keysight N5245A Network Analyzer provides a wide range of measurement applic
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

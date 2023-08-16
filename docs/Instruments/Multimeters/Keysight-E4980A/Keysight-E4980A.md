@@ -11,7 +11,7 @@ The E4980A precision LCR meter provides the best combination of accuracy, speed,
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782484/Instruments/Multimeters/Keysight-E4980A/Keysight-E4980A.png" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077816/Instruments/Multimeters/Keysight-E4980A/Keysight-E4980A.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The E4980A precision LCR meter provides the best combination of accuracy, speed,
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786299/Instruments/Vendor%20Logos/Keysight.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

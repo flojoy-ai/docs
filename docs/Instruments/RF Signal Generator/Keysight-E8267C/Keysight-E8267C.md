@@ -11,7 +11,7 @@ E8267C PSG Vector Signal Generator, up to 20 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782522/Instruments/RF%20Signal%20Generator/Keysight-E8267C/Keysight-E8267C.webp" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118498/Instruments/RF%20Signal%20Generator/Keysight-E8267C/Keysight-E8267C.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ E8267C PSG Vector Signal Generator, up to 20 GHz>
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785075/Instruments/Vendor%20Logos/Agilent.jpg.svg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 

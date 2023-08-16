@@ -11,7 +11,7 @@ The iBeam smart is the ultimate choice when looking for a high-performance, ultr
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782611/Instruments/Lasers/iBeam-smart/iBeam-smart.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118646/Instruments/Lasers/iBeam-smart/iBeam-smart.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The iBeam smart is the ultimate choice when looking for a high-performance, ultr
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691785647/Instruments/Vendor%20Logos/Toptica.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125974/Instruments/Vendor%20Logos/Toptica.png" style={{ width: "100%", objectFit: "cover" }} />
 
 TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/Laser) for quantum technologies, biophotonics and material inspection. <a href="https://www.toptica.com/">Website</a>.
 

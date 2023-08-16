@@ -11,7 +11,7 @@ The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-d
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691782442/Instruments/Power%20Meters/Keithley-485/Keithley-485.jpg" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118347/Instruments/Power%20Meters/Keithley-485/Keithley-485.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-d
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786276/Instruments/Vendor%20Logos/Keithley.jpg.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126010/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", objectFit: "cover" }} />
 
 Keithley Instruments is a measurement and instrument company headquartered in Solon, Ohio, that develops, manufactures, markets, and sells data acquisition products, as well as complete systems for high-volume production and assembly testing. <a href="https://www.tek.com/en">Website</a>.
 

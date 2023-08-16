@@ -11,7 +11,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 
 </div>
 
-<img src="nan" style={{width:"256px", height: "200px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118741/Instruments/Miscellaneous/MT-Standard-Interface-Communication-Software/MT-Standard-Interface-Communication-Software.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -20,7 +20,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1691786400/Instruments/Vendor%20Logos/Mettler_Toledo.jpg.jpg" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125974/Instruments/Vendor%20Logos/Mettler_Toledo.png" style={{ width: "100%", height: "150px",objectFit: "cover" }} />
 
 Mettler Toledo (NYSE: MTD) is a multinational manufacturer of scales and analytical instruments. It is the largest provider of weighing instruments for use in laboratory, industrial, and food retailing applications. The company also provides various analytical instruments, process analytics instruments, and end-of-line inspection systems. The company operates worldwide with 70% of net sales, derived in equal parts, from Europe and from the Americas. Asian business is included in the remaining 30%.[2] Mettler Toledo is headquartered in Switzerland and incorporated in the United States.[4]. <a href="https://www.mt.com/ca/en/home.html">Website</a>.
 
