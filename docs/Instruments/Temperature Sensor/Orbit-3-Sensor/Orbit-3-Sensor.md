@@ -23,7 +23,7 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 <details open>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/NoLogo.png" style={{ width:"200px", height: "150px"}} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692142672/Instruments/Vendor%20Logos/FLOJOY_TEXT.png" style={{ width:"200px", height: "150px"}} />
 
 Unable to find Vendor Description. <a href="https://www.solartronmetrology.com/">Website</a>.
 
