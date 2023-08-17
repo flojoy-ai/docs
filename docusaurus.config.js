@@ -104,8 +104,6 @@ const config = {
           '⭐ If you like Flojoy, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">GitHub</a> ⭐',
         backgroundColor: '#000',
         textColor: '#FFF',
-        padding: '5px 0',
-        fontSize: '90%',
         isCloseable: true,
       },
       colorMode: {
