@@ -41,6 +41,10 @@ pwsh -Command "iwr https://docs.flojoy.ai/scripts/install.ps1 -useb | iex"
 
 If you encounter an error saying the `pwsh` command is not found, `powershell` can be used instead, though we recommend [installing the latest version of PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows).
 
+Flojoy Studio will open automatically after installation.
+
+The next time that you wish to run Studio, simply navigate to the `studio` folder and run `.\flojoy -v venv`
+
 <details>
 <summary>Advanced: install from source manually</summary>
 
@@ -96,6 +100,10 @@ Run the installation shell script
 ```bash
 curl -L https://docs.flojoy.ai/scripts/install.sh | sh
 ```
+
+Flojoy Studio will open automatically after installation.
+
+The next time that you wish to run Studio, simply navigate to the `studio` folder and run `bash flojoy -v venv`
 
 <details>
 <summary>Advanced: install from source manually</summary>
