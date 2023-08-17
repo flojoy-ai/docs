@@ -3,7 +3,7 @@ title: Connecting to Gentec EO Maestro by Gentec Eo in Python
 sidebar_label: Gentec EO Maestro
 description: Touchscreen display device for power & energy measurement. Single-channel, multiple outputs (USB, Ethernet, analog).
 keywords: [screen display, Gentec Eo, Qcodes Community]
-slug: /instruments-wiki/screen-display/gentec eo/gentec-EO-maestro
+slug: /instruments-wiki/screen-display/gentec-eo/gentec-EO-maestro
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106859/Instruments/Screen%20Display/Gentec-EO-Maestro/file.png
 ---
 

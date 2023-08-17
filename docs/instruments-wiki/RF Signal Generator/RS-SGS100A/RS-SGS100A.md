@@ -3,7 +3,7 @@ title: Connecting to R&S SGS100A by Rohde Schwarz in Python
 sidebar_label: R&S SGS100A
 description: The R&S®SGS100A is an RF source designed to meet the requirements of automated test systems. It is available as a CW source or as a vector signal generator with an integrated I/Q modulator. With its frequency range of up to 12.75 GHz, the vector signal generation version covers the essential digital signals. The CW version can be used as a flexible local oscillator and for interference testing against mobile radio standards.
 keywords: [rf signal generator, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/rf-signal-generator/rohde schwarz/r&s-sgs100a
+slug: /instruments-wiki/rf-signal-generator/rohde-schwarz/r&s-sgs100a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201263/Instruments/RF%20Signal%20Generator/RS-SGS100A/file.png
 ---
 

@@ -3,7 +3,7 @@ title: Connecting to MT Standard Interface Communication Software by Mettler Tol
 sidebar_label: MT Standard Interface Communication Software
 description: Instrument class to communicate with Mettler Toledo balances using the MT-SICS Standared Interface Command Set.
 keywords: [miscellaneous, Mettler Toledo, Instrumentkit]
-slug: /instruments-wiki/miscellaneous/mettler toledo/mt-standard-interface-communication-software
+slug: /instruments-wiki/miscellaneous/mettler-toledo/mt-standard-interface-communication-software
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201157/Instruments/Miscellaneous/MT-Standard-Interface-Communication-Software/file.png
 ---
 

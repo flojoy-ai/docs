@@ -3,7 +3,7 @@ title: Connecting to R&S RTO1000 by Rohde Schwarz in Python
 sidebar_label: R&S RTO1000
 description: With an acquisition memory of 400 Mpts per channel simultaneously for all four channels, the oscilloscope offers up to 100 times the memory depth of comparable devices as standard.The R&S MXO 4 oscilloscopes offer the world's highest update rate of 4.5 million waveforms per second.
 keywords: [oscilloscopes, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/oscilloscopes/rohde schwarz/r&s-rto1000
+slug: /instruments-wiki/oscilloscopes/rohde-schwarz/r&s-rto1000
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200774/Instruments/Oscilloscopes/RS-RTO1000/file.png
 ---
 

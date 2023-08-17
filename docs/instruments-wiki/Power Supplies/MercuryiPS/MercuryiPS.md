@@ -3,7 +3,7 @@ title: Connecting to MercuryiPS by Oxford Instruments in Python
 sidebar_label: MercuryiPS
 description: Based on ±60 A modules with ±10 V compliance.Can be configured in parallel, series and matrix modes from the basic ±60 A with ±10 V output up to ±600 A with ±10 V or ±300 A with ±20 V output configurations.Communications support a full range of interface options (Ethernet, USB, RS232, and optional GPIB) with downloadable Mercury function library for LabVIEW.Quench protection and auto-rundown. The MercuryiPS can be programmed to run the magnet down safely in the event of magnet temperature rise, low cryogen levels or if triggered by an external TTL signal.The MercuryiPS has an on-board temperature sensor for diagnostic monitoring of the magnet temperature.
 keywords: [power supplies, Oxford Instruments, Qcodes]
-slug: /instruments-wiki/power-supplies/oxford instruments/mercuryips
+slug: /instruments-wiki/power-supplies/oxford-instruments/mercuryips
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106906/Instruments/Power%20Supplies/MercuryiPS/file.png
 ---
 

@@ -3,7 +3,7 @@ title: Connecting to SPD1168X Power Supply by Siglent Technologies in Python
 sidebar_label: SPD1168X Power Supply
 description: Siglent’s SPD1168X Series Programmable Linear DC Power Supply has a 2.8 inch TFT-LCD (240 * 320) color display. The SPD1168X outputs up to 128 Watts of power and has a Voltage range of 0-16 V and Current range of 0-8 A. The Voltage resolution is 1 uV while the Current resolution is 1 mA.Because higher currents supplied through smaller gauge wire or longer distances can cause a drop in voltage to the supplied load, the SPD1168X incorporates Remote Sensing in order to measure the actual supplied voltage at the load. The remote sensed voltage is fed back to the power supply and output voltage is adjusted almost instantaneously.
 keywords: [power supplies, Siglent Technologies, Pymeasure]
-slug: /instruments-wiki/power-supplies/siglent technologies/spd1168x-power-supply
+slug: /instruments-wiki/power-supplies/siglent-technologies/spd1168x-power-supply
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201351/Instruments/Power%20Supplies/SPD1168X-Power-Supply/file.png
 ---
 

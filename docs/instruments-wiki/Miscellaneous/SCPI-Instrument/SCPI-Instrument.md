@@ -3,7 +3,7 @@ title: Connecting to SCPI Instrument by Generic SCPI in Python
 sidebar_label: SCPI Instrument
 description: All SCPI Instrument
 keywords: [miscellaneous, Generic SCPI, Instrumentkit]
-slug: /instruments-wiki/miscellaneous/generic scpi/SCPI-instrument
+slug: /instruments-wiki/miscellaneous/generic-scpi/SCPI-instrument
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107027/Instruments/Miscellaneous/SCPI-Instrument/file.png
 ---
 

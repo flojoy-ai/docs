@@ -3,7 +3,7 @@ title: Connecting to Triton by Oxford Instruments in Python
 sidebar_label: Triton
 description: The Triton family of cryogen free dilution refrigerators has ledthe way in ultra-low temperature experiment-readiness with itsleading-edge superconducting magnet integration, sample loadingmechanisms and sample wiring options.With over 300 systems installed worldwide, Triton is used in worldleading science across quantum technology, spintronics, optics andmany other cutting-edge applications of condensed matter physics.
 keywords: [dilution refrigerator, Oxford Instruments, Qcodes]
-slug: /instruments-wiki/dilution-refrigerator/oxford instruments/triton
+slug: /instruments-wiki/dilution-refrigerator/oxford-instruments/triton
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201132/Instruments/Dilution%20Refrigerator/Triton/file.png
 ---
 

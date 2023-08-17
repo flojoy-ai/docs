@@ -3,7 +3,7 @@ title: Connecting to Kelvinox IGH by Oxford Instruments in Python
 sidebar_label: Kelvinox IGH
 description: Currently no description
 keywords: [dilution refrigerator, Oxford Instruments, Qcodes Community]
-slug: /instruments-wiki/dilution-refrigerator/oxford instruments/kelvinox-igh
+slug: /instruments-wiki/dilution-refrigerator/oxford-instruments/kelvinox-igh
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107094/Instruments/Dilution%20Refrigerator/Kelvinox-IGH/file.png
 ---
 

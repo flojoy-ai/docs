@@ -3,7 +3,7 @@ title: Connecting to RFSG by National Instruments in Python
 sidebar_label: RFSG
 description: Currently no description
 keywords: [rf signal generator, National Instruments, Qcodes Community]
-slug: /instruments-wiki/rf-signal-generator/national instruments/rfsg
+slug: /instruments-wiki/rf-signal-generator/national-instruments/rfsg
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106850/Instruments/RF%20Signal%20Generator/RFSG/file.png
 ---
 

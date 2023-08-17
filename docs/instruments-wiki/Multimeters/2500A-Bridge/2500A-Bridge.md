@@ -3,7 +3,7 @@ title: Connecting to 2500A Bridge by Andeen Hagerling in Python
 sidebar_label: 2500A Bridge
 description: The AH 2500A offers unparalleled stability, resolution and accuracy in a capacitance/loss1 bridge (whether manual or automatic)
 keywords: [multimeters, Andeen Hagerling, Pymeasure]
-slug: /instruments-wiki/multimeters/andeen hagerling/2500a-bridge
+slug: /instruments-wiki/multimeters/andeen-hagerling/2500a-bridge
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201331/Instruments/Multimeters/2500A-Bridge/file.png
 ---
 
