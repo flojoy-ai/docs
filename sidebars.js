@@ -17,6 +17,16 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'General Tutorials',
+      items: ['nodes/introduction', 'nodes/ctrls', 'nodes/dc_types', 'nodes/numpyscipy'],
+    },
+    {
+      type: 'category',
+      label: 'Node Examples',
+      items: unflatten(nodesObj, { object: false, delimiter: '>' }),
+    },
+    {
+      type: 'category',
       label: 'Instruments Wiki',
       items: [
         {
@@ -27,11 +37,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Node Examples',
-      items: unflatten(nodesObj, { object: false, delimiter: '>' }),
-    },
-    {
-      type: 'category',
       label: 'Flojoy Cloud',
       items: [
         {
@@ -39,11 +44,6 @@ const sidebars = {
           dirName: 'cloud',
         },
       ],
-    },
-    {
-      type: 'category',
-      label: 'General Tutorials',
-      items: ['nodes/introduction', 'nodes/ctrls', 'nodes/numpyscipy'],
     },
     {
       type: 'category',
@@ -68,7 +68,6 @@ const sidebars = {
             'custom-nodes/data-container',
             'custom-nodes/creating-custom-node',
             'custom-nodes/custom-category',
-            'custom-nodes/contributing-nodes',
             'custom-nodes/testing-nodes',
             'custom-nodes/node-api-reference',
           ],
