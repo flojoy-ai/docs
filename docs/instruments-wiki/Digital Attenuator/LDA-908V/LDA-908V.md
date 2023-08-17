@@ -1,3 +1,13 @@
+---
+title: LDA-908V
+description: The LDA-908V Digital Attenuator is a highly accurate, bidirectional, 50 Ohm step attenuator. The LDA-908V provides calibrated attenuation from 200 to 8000 MHz with an amazing step size of 0.1 dB and typical accuracy <0.25 dB over 90 dB of control range. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
+keywords: [digital attenuator, Vaunix, Qcodes Community]
+slug: /instruments-wiki/digital-attenuator/vaunix/lda-908v
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106970/Instruments/Digital%20Attenuator/LDA-908V/file.png
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # LDA-908V
 
@@ -11,13 +21,11 @@ The LDA-908V Digital Attenuator is a highly accurate, bidirectional, 50 Ohm step
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077993/Instruments/Digital%20Attenuator/LDA-908V/LDA-908V.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106970/Instruments/Digital%20Attenuator/LDA-908V/file.png" style={{ width: "325px" }} />
 
 </div>
 
-The LDA-908V Digital Attenuator is a highly accurate, bidirectional, 50 Ohm step attenuator. The LDA-908V provides calibrated attenuation from 200 to 8000 MHz with an amazing step size of 0.1 dB and typical accuracy <0.25 dB over 90 dB of control range. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.>
-
-<details open>
+<details>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125985/Instruments/Vendor%20Logos/Vaunix.png" style={{ width: "100%", objectFit: "cover" }} />
@@ -35,18 +43,19 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
-To connect to a LDA-908V using Qcodes Community, you can use the following Python script:
+To connect to a LDA-908V Digital Attenuator using Qcodes Community, you can use the following Python script:
 
 ```python
 from qcodes import Station
 from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 
-# Create a station to hold the instruments
+# Create a station to hold the instrument
 station = Station()
 
-# Connect to the LDA-908V
+# Connect to the LDA-908V Digital Attenuator
 lda = LDA('lda', serial_number=908, dll_path='path/to/dll')
 
 # Add the LDA to the station
@@ -62,5 +71,7 @@ lda.attenuation(10)
 lda.close()
 ```
 
-Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-908V.
+Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-908V Digital Attenuator.
 
+</TabItem>
+</Tabs>

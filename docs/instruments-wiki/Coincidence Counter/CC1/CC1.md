@@ -1,3 +1,13 @@
+---
+title: CC1
+description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
+keywords: [coincidence counter, Qubitekk, Instrumentkit]
+slug: /instruments-wiki/coincidence-counter/qubitekk/cc1
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200785/Instruments/Coincidence%20Counter/CC1/file.png
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # CC1
 
@@ -11,13 +21,11 @@ Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118374/Instruments/Coincidence%20Counter/CC1/CC1.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200785/Instruments/Coincidence%20Counter/CC1/file.png" style={{ width: "325px" }} />
 
 </div>
 
-Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.>
-
-<details open>
+<details>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width: "100%", objectFit: "cover" }} />
@@ -35,47 +43,34 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a CC1 Coincidence Counter using Instrumentkit, you can use the following Python script:
 
 ```python
-import instrumentkit as ik
+from instrumentkit import qubitekk
 
 # Connect to the CC1 Coincidence Counter
-cc1 = ik.qubitekk.CC1.open_serial('COM8', 19200, timeout=1)
+cc1 = qubitekk.CC1.open_serial('COM8', 19200, timeout=1)
 
-# Get the firmware version
-firmware_version = cc1.firmware
-print(f"Firmware version: {firmware_version}")
+# Access the properties and methods of the CC1 Coincidence Counter
+print(cc1.firmware)
+print(cc1.dwell_time)
 
-# Set the dwell time to 1 second
-cc1.dwell_time = 1
+cc1.dwell_time = 0.5  # Set the dwell time to 0.5 seconds
 
-# Get the counts of the first channel
-channel_1_count = cc1.channel[0].count
-print(f"Channel 1 count: {channel_1_count}")
+cc1.clear_counts()  # Clear the current total counts on the counters
 
-# Enable the gate
-cc1.gate = True
-
-# Enable the subtract feature
-cc1.subtract = True
-
-# Set the trigger mode to continuous
-cc1.trigger_mode = "continuous"
-
-# Set the coincidence window to 5 ns
-cc1.window = 5
-
-# Set the delay on Channel 1 to 4 ns
-cc1.delay = 4
-
-# Clear the current total counts on the counters
-cc1.clear_counts()
+# Access the counts of each channel
+for channel in cc1.channel:
+    print(channel.count)
 
 # Disconnect from the CC1 Coincidence Counter
 cc1.close()
 ```
 
-This script demonstrates how to connect to the CC1 Coincidence Counter, retrieve the firmware version, set various properties such as dwell time, gate, subtract, trigger mode, coincidence window, and delay, as well as clear the counts and disconnect from the instrument.
+This script imports the `qubitekk` module from Instrumentkit and uses the `open_serial` method to connect to the CC1 Coincidence Counter using the specified serial port and baud rate. It then demonstrates accessing the properties and methods of the CC1 Coincidence Counter, such as getting the firmware version, getting and setting the dwell time, clearing the counts, and accessing the counts of each channel. Finally, it closes the connection to the CC1 Coincidence Counter using the `close` method.
 
+</TabItem>
+</Tabs>
