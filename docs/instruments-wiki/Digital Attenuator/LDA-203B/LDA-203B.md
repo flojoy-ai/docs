@@ -1,3 +1,14 @@
+---
+title: Connecting to LDA-203B by Vaunix in Python
+sidebar_label: LDA-203B
+description: The LDA-203B Digital Attenuator is a bidirectional, 50 Ohm step attenuator. The LDA-203B provides 63 dB of attenuation control over the frequency range of 1 to 20 GHz with a step size of 0.5 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
+keywords: [digital attenuator, Vaunix, Qcodes Community]
+slug: /instruments-wiki/digital-attenuator/vaunix/lda-203b
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106979/Instruments/Digital%20Attenuator/LDA-203B/file.png
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # LDA-203B
 
@@ -11,13 +22,11 @@ The LDA-203B Digital Attenuator is a bidirectional, 50 Ohm step attenuator. The 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692078003/Instruments/Digital%20Attenuator/LDA-203B/LDA-203B.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106979/Instruments/Digital%20Attenuator/LDA-203B/file.png" style={{ width: "325px" }} />
 
 </div>
 
-The LDA-203B Digital Attenuator is a bidirectional, 50 Ohm step attenuator. The LDA-203B provides 63 dB of attenuation control over the frequency range of 1 to 20 GHz with a step size of 0.5 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.>
-
-<details open>
+<details>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125985/Instruments/Vendor%20Logos/Vaunix.png" style={{ width: "100%", objectFit: "cover" }} />
@@ -35,9 +44,10 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
-To connect to a LDA-203B using Qcodes Community, you can use the following Python script:
+To connect to a LDA-203B Digital Attenuator using Qcodes Community, you can use the following Python script:
 
 ```python
 from qcodes import Station
@@ -46,7 +56,7 @@ from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 # Create a station to hold the instruments
 station = Station()
 
-# Connect to the LDA-203B
+# Connect to the LDA-203B Digital Attenuator
 lda = LDA('lda', serial_number=203, dll_path='path/to/dll')
 
 # Add the LDA to the station
@@ -62,5 +72,7 @@ lda.attenuation(10)
 lda.close()
 ```
 
-Make sure to replace `'path/to/dll'` with the actual path to the DLL files for the LDA-203B.
+Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-203B Digital Attenuator.
 
+</TabItem>
+</Tabs>

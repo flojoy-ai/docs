@@ -136,7 +136,7 @@ const config = {
                 label: 'Explore nodes',
               },
               {
-                href: '/instruments/introduction',
+                href: '/instruments-wiki/wiki-page',
                 label: 'Instruments Wiki',
               },
               {

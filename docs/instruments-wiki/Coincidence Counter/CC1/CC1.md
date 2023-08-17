@@ -1,3 +1,14 @@
+---
+title: Connecting to CC1 by Qubitekk in Python
+sidebar_label: CC1
+description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
+keywords: [coincidence counter, Qubitekk, Instrumentkit]
+slug: /instruments-wiki/coincidence-counter/qubitekk/cc1
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200785/Instruments/Coincidence%20Counter/CC1/file.png
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # CC1
 
@@ -11,13 +22,11 @@ Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118374/Instruments/Coincidence%20Counter/CC1/CC1.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200785/Instruments/Coincidence%20Counter/CC1/file.png" style={{ width: "325px" }} />
 
 </div>
 
-Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.>
-
-<details open>
+<details>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width: "100%", objectFit: "cover" }} />
@@ -35,7 +44,8 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Instrumentkit
+<Tabs>
+<TabItem value="Instrumentkit" label="Instrumentkit">
 
 
 ```python
@@ -79,3 +89,5 @@ cc1.close()
 
 This script demonstrates how to connect to the CC1 Coincidence Counter, retrieve the firmware version, set various properties such as dwell time, gate, subtract, trigger mode, coincidence window, and delay, as well as clear the counts and disconnect from the instrument.
 
+</TabItem>
+</Tabs>

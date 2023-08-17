@@ -1,3 +1,14 @@
+---
+title: Connecting to LDA-302P-2N by Vaunix in Python
+sidebar_label: LDA-302P-2N
+description: The LDA-302P-2N Lab Brick USB programmable 50 Ohm digital attenuator has an input power of up to +33 dBm, and offers frequency coverage of 10 to 3,000 MHz. It has an attenuation range of 90 dB and a step size of 2.0 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.
+keywords: [digital attenuator, Vaunix, Qcodes Community]
+slug: /instruments-wiki/digital-attenuator/vaunix/lda-302p-2n
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106870/Instruments/Digital%20Attenuator/LDA-302P-2N/file.png
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # LDA-302P-2N
 
@@ -11,13 +22,11 @@ The LDA-302P-2N Lab Brick USB programmable 50 Ohm digital attenuator has an inpu
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692077879/Instruments/Digital%20Attenuator/LDA-302P-2N/LDA-302P-2N.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692106870/Instruments/Digital%20Attenuator/LDA-302P-2N/file.png" style={{ width: "325px" }} />
 
 </div>
 
-The LDA-302P-2N Lab Brick USB programmable 50 Ohm digital attenuator has an input power of up to +33 dBm, and offers frequency coverage of 10 to 3,000 MHz. It has an attenuation range of 90 dB and a step size of 2.0 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.>
-
-<details open>
+<details>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125985/Instruments/Vendor%20Logos/Vaunix.png" style={{ width: "100%", objectFit: "cover" }} />
@@ -35,19 +44,20 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
-### Qcodes Community
+<Tabs>
+<TabItem value="Qcodes Community" label="Qcodes Community">
 
-To connect to a LDA-302P-2N using Qcodes Community, you can use the following Python script:
+Here is a Python script that uses Qcodes Community to connect to a LDA-302P-2N Digital Attenuator:
 
 ```python
 from qcodes import Station
 from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 
-# Create a station to hold the instruments
+# Create a station to hold the instrument
 station = Station()
 
-# Connect to the LDA-302P-2N
-lda = LDA('lda', serial_number=302, dll_path='path/to/dll')
+# Connect to the LDA-302P-2N Digital Attenuator
+lda = LDA('lda', serial_number=12345678)
 
 # Add the LDA to the station
 station.add_component(lda)
@@ -55,12 +65,14 @@ station.add_component(lda)
 # Print the IDN of the LDA
 print(lda.get_idn())
 
-# Set the attenuation to 10 dB
-lda.attenuation(10)
+# Set the attenuation to 10 dB on channel 1
+lda.ch1.attenuation(10)
 
 # Close the connection to the LDA
 lda.close()
 ```
 
-Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-302P-2N.
+Note: Replace `12345678` with the actual serial number of your LDA-302P-2N Digital Attenuator.
 
+</TabItem>
+</Tabs>
