@@ -1,7 +1,7 @@
 ---
 title: Newmark-NSC-A1
 description: The NSC-A1 Series motion controller is a powerful single axis stepper motor control system which combines a microstepping driver with a programmable controller into a compact envelope
-keywords: [motion, Newmark]
+keywords: [motion, Newmark, Instrumental]
 slug: /instruments-wiki/motion/newmark/newmark-nsc-a1
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692231676/Instruments/Motion/Newmark-NSC-A1/file.png
 ---
@@ -43,3 +43,35 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumental" label="Instrumental">
+
+Here is a Python script that uses Instrumental to connect to a Newmark - NSC-A1 Motion:
+
+```python
+from instrumental import instrument, list_instruments
+
+# List available instruments
+print(list_instruments())
+
+# Connect to the Newmark - NSC-A1 Motion
+motion = instrument('NSCA1', serial='COM1')
+
+# Get the current angle of the stage
+angle = motion.angle
+print(f"Current angle: {angle}")
+
+# Rotate the stage clockwise by 90 degrees
+motion.cw(90)
+
+# Set the velocity of the stage to 10 degrees per second
+motion.velocity = 10
+
+# Disconnect from the motion controller
+motion.close()
+```
+
+Note: The `serial` parameter in the `instrument` function should be replaced with the actual serial port of the Newmark - NSC-A1 Motion controller.
+
+</TabItem>
+</Tabs>

@@ -1,7 +1,7 @@
 ---
 title: Smaract-MCS2
 description: The MCS2 is SmarAct’s most versatile and modular control system.Its stringent modular design approach makes it the perfect choice for all field of applications
-keywords: [motion, Smaract]
+keywords: [motion, Smaract, Instrumental]
 slug: /instruments-wiki/motion/smaract/smaract-mcs2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692210210/Instruments/Motion/Smaract-MCS2/file.png
 ---
@@ -45,3 +45,32 @@ In our [Motion](https://www.smaract.com/en/motion) business unit, we develop a
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Instrumental" label="Instrumental">
+
+Here is a Python script that uses Instrumental to connect to a Smaract - MCS2 Motion controller:
+
+```python
+from instrumental import instrument
+
+# Get the list of available instruments
+paramsets = list_instruments()
+
+# Connect to the first instrument in the list
+dev = instrument(paramsets[0])
+
+# Move the device to the home position
+dev.move_home()
+
+# Check the current position of the device
+pos = dev.check_position()
+print("Current position:", pos)
+
+# Close the connection to the device
+dev.close()
+```
+
+This script imports the `instrument` function from the `instrumental` module and uses it to connect to the first available instrument in the list obtained from the `list_instruments` function. It then moves the device to the home position using the `move_home` method and checks the current position using the `check_position` method. Finally, it closes the connection to the device using the `close` method.
+
+</TabItem>
+</Tabs>

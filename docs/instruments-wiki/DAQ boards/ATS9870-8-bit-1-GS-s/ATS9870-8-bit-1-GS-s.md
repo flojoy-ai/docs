@@ -1,7 +1,7 @@
 ---
 title: ATS9870-8 bit 1 GS-s
 description: ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane PCI Express interface
-keywords: [daq boards, Alazartech]
+keywords: [daq boards, Alazartech, Qcodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9870-8-bit-1-gs-s
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201046/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png
 ---
@@ -43,3 +43,29 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
 
+<Tabs>
+<TabItem value="Qcodes" label="Qcodes">
+
+To connect to an ATS9870 board using Qcodes, you can use the following Python script:
+
+```python
+from qcodes.instrument_drivers.AlazarTech.ATS9870 import AlazarTechATS9870
+
+# Create an instance of the AlazarTechATS9870 driver
+ats9870 = AlazarTechATS9870('ats9870', dll_path='C:\\WINDOWS\\System32\\ATSApi.dll')
+
+# Connect to the board
+ats9870.connect()
+
+# Perform operations with the board
+
+# Disconnect from the board
+ats9870.disconnect()
+```
+
+This script creates an instance of the `AlazarTechATS9870` driver, specifying the name of the instrument as `'ats9870'` and the path to the ATSApi.dll file. Then, it connects to the board using the `connect()` method and performs any desired operations. Finally, it disconnects from the board using the `disconnect()` method.
+
+Note: Make sure to replace `'C:\\WINDOWS\\System32\\ATSApi.dll'` with the actual path to the ATSApi.dll file on your system.
+
+</TabItem>
+</Tabs>

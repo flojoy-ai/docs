@@ -3,7 +3,7 @@ title: Keysight 81110A
 description: Keysight 81110APulse Pattern Generator / 165/330 MHz
 keywords: [function generators, Agilent, Instrumental]
 slug: /instruments-wiki/function-generators/agilent/keysight-81110a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692231943/Instruments/Function%20Generators/Keysight-81110A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692233752/Instruments/Function%20Generators/Keysight-81110A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Pulse Pattern Generator / 165/330 MHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692231943/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692233752/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "325px" }} />
 
 </div>
 
