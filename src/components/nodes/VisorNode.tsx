@@ -17,6 +17,8 @@ import Scatter from "./assets/nodes/Scatter";
 import Table from "./assets/nodes/Table";
 import HandleComponent from "./components/HandleComponent";
 import NodeWrapper from "./components/NodeWrapper";
+import PeakFinder from "./assets/nodes/PeakFinder";
+import RegionInspector from "./assets/nodes/RegionInspector";
 
 const chartElemMap: { [func: string]: React.JSX.Element } = {
   SCATTER: <Scatter />,
@@ -35,6 +37,8 @@ const chartElemMap: { [func: string]: React.JSX.Element } = {
   PROPHET_COMPONENTS: <ProphetComponents />,
   COMPOSITE: <CompositePlot />,
   TEXT_VIEW: <Table />,
+  EXTREMA_DETERMINATION: <PeakFinder />,
+  REGION_PROPERTIES: <RegionInspector />
 };
 
 const VisorNode = (props: CustomNodeProps) => {
