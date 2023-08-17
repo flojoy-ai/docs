@@ -17,7 +17,7 @@ There are a few data types that Flojoy uses. However, not every node can input o
 The UI could look slightly different in your version of Flojoy. We're constantly improving the UI.
 :::
 
-If you try to connect nodes with incompatible inputs and outputs an warning will pop up:
+If you try to connect nodes with incompatible inputs and outputs, a warning will pop up:
 
 ![image](/img/introduction/dtypes_warning.png)
 *<br/>The warning appears in the bottom right of Flojoy.*
