@@ -1,5 +1,7 @@
 ---
-title: Bluefors temperature controller
+title: Connecting to Bluefors temperature controller
+ by Bluefors in Python
+sidebar_label: Bluefors temperature controller
 
 description: With a modern and intuitive user interface, you gain direct control and overview of the dilution refrigerator system’s temperature status.
 keywords: [temperature controllers, Bluefors, Qcodes Community]

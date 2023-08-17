@@ -1,5 +1,6 @@
 ---
-title: Keysight M3202A
+title: Connecting to Keysight M3202A by Keysight in Python
+sidebar_label: Keysight M3202A
 description: Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.
 keywords: [rf signal generator, Keysight, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-m3202a

@@ -1,5 +1,6 @@
 ---
-title: LDA-802Q
+title: Connecting to LDA-802Q by Vaunix in Python
+sidebar_label: LDA-802Q
 description: The LDA-802Q Digital Attenuator is a 4-channel high dynamic range, bidirectional, 50 Ohm step attenuator. The LDA-802Q provides 120 dB of attenuation control range from 200 to 8000 MHz with a step size of 0.1 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
 keywords: [digital attenuator, Vaunix, Qcodes Community]
 slug: /instruments-wiki/digital-attenuator/vaunix/lda-802q

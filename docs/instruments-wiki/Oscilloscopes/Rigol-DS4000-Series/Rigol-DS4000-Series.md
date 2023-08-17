@@ -1,5 +1,6 @@
 ---
-title: Rigol DS4000-Series
+title: Connecting to Rigol DS4000-Series by Rigol in Python
+sidebar_label: Rigol DS4000-Series
 description: The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional operation, which come off very well compared to higher prices models of other brands.
 keywords: [oscilloscopes, Rigol, Qcodes]
 slug: /instruments-wiki/oscilloscopes/rigol/rigol-ds4000-series

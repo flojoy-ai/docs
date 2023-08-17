@@ -1,5 +1,6 @@
 ---
-title: Thermostream ATS Series
+title: Connecting to Thermostream ATS Series by Temptronic in Python
+sidebar_label: Thermostream ATS Series
 description: Temptronic ThermoStreams are portable systems that deliver clean dry air for precision temperature testing or conditioning of electronics (ICs, MEMS, transceivers, or circuits) and materials. No other systems can bring your test subjects to temperature faster with precise control
 keywords: [temperature controllers, Temptronic, Pymeasure]
 slug: /instruments-wiki/temperature-controllers/temptronic/thermostream-ats-series

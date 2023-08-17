@@ -1,5 +1,6 @@
 ---
-title: Keysight 8657B
+title: Connecting to Keysight 8657B by HP in Python
+sidebar_label: Keysight 8657B
 description: The Agilent Technologies 8657A and 8657B signal generators are designed to test AM, FM, and pulsed receivers as well as components.
 keywords: [rf signal generator, HP, Pymeasure]
 slug: /instruments-wiki/rf-signal-generator/hp/keysight-8657b

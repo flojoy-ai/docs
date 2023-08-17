@@ -1,5 +1,6 @@
 ---
-title: Keysight E8267C
+title: Connecting to Keysight E8267C by Agilent in Python
+sidebar_label: Keysight E8267C
 description: E8267C PSG Vector Signal Generator, up to 20 GHz
 keywords: [rf signal generator, Agilent, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/agilent/keysight-e8267c

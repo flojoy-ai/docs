@@ -1,5 +1,6 @@
 ---
-title: Rigol DP821
+title: Connecting to Rigol DP821 by Rigol in Python
+sidebar_label: Rigol DP821
 description: The Rigol DP821 is a dual channel, remote sense programmable DC Power Supply. It has excellent performance, including various analysis functions and has USB Host and Device with LXI option. All of this makes it suitable to meet a wide range of testing requirements.
 keywords: [power supplies, Rigol, Qcodes]
 slug: /instruments-wiki/power-supplies/rigol/rigol-dp821

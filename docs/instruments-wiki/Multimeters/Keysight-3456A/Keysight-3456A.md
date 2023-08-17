@@ -1,5 +1,6 @@
 ---
-title: Keysight 3456A
+title: Connecting to Keysight 3456A by HP in Python
+sidebar_label: Keysight 3456A
 description: 3456A 6 1/2 Digit Digital Multimeter
 keywords: [multimeters, HP, Instrumentkit]
 slug: /instruments-wiki/multimeters/hp/keysight-3456a

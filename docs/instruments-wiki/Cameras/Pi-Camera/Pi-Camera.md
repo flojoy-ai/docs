@@ -1,5 +1,6 @@
 ---
-title: Pi Camera
+title: Connecting to Pi Camera by Picam in Python
+sidebar_label: Pi Camera
 description: The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-megapixel OmniVision OV5647 sensor of the original camera).
 keywords: [cameras, Picam, Instrumental]
 slug: /instruments-wiki/cameras/picam/pi-camera

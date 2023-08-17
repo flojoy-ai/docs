@@ -1,5 +1,6 @@
 ---
-title: Keysight 34461A Submodules
+title: Connecting to Keysight 34461A Submodules by Keysight in Python
+sidebar_label: Keysight 34461A Submodules
 description: The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.
 keywords: [multimeters, Keysight, Qcodes]
 slug: /instruments-wiki/multimeters/keysight/keysight-34461a-submodules

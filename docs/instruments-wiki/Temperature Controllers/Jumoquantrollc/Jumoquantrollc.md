@@ -1,5 +1,6 @@
 ---
-title: Jumoquantrollc
+title: Connecting to Jumoquantrollc by Jumo in Python
+sidebar_label: Jumoquantrollc
 description: Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 keywords: [temperature controllers, Jumo, Pytango]
 slug: /instruments-wiki/temperature-controllers/jumo/jumoquantrollc

@@ -1,5 +1,6 @@
 ---
-title: DMM6500 Keithley
+title: Connecting to DMM6500 Keithley by Keithley in Python
+sidebar_label: DMM6500 Keithley
 description: 6½ digit bench/system digital multimeter with large 5" (12.7cm) multi touch capacitive touchscreen and graphical display. It supports SCPI, TSP® scripting, Keithley 2000 SCPI emulation and Keysight 34401A SCPI emulation language modes.
 keywords: [multimeters, Keithley, Qcodes]
 slug: /instruments-wiki/multimeters/keithley/DMM6500-keithley

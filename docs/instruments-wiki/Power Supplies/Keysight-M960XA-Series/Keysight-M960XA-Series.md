@@ -1,5 +1,6 @@
 ---
-title: Keysight M960XA-Series
+title: Connecting to Keysight M960XA-Series by Keysight in Python
+sidebar_label: Keysight M960XA-Series
 description: PXI source/measure units are the source and measurement resources of voltage and current for test applications requiring high accuracy, high resolution, and measurement flexibility
 keywords: [power supplies, Keysight, Qcodes]
 slug: /instruments-wiki/power-supplies/keysight/keysight-m960xa-series

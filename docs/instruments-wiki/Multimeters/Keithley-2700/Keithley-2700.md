@@ -1,5 +1,6 @@
 ---
-title: Keithley 2700
+title: Connecting to Keithley 2700 by Keithley in Python
+sidebar_label: Keithley 2700
 description: The Model 2750 offers extended low ohms measurement capability and supports up to 5 7700 Switch cards for a maximum 200, 2-pole multiplexed channels. It also contains a built-in 20mV clamp that helps protect sensitive devices from damage and prevents self-heating errors during dry circuit testing.
 keywords: [multimeters, Keithley, Pymeasure]
 slug: /instruments-wiki/multimeters/keithley/keithley-2700

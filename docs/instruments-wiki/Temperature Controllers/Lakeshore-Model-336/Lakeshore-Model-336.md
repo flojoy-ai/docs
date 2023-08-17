@@ -1,5 +1,6 @@
 ---
-title: Lakeshore Model 336
+title: Connecting to Lakeshore Model 336 by Lakeshore in Python
+sidebar_label: Lakeshore Model 336
 description: The Model 336 supports the industry’s most advanced line of cryogenic temperature sensors as manufactured by Lake Shore, including diodes, resistance temperature detectors (RTDs), and thermocouples. The controller’s zone tuning feature allows you to measure and control temperatures seamlessly from 300 mK to over 1,500 K by automatically switching temperature sensor inputs when your temperature range goes beyond the usable range of a given sensor.
 keywords: [temperature controllers, Lakeshore, Qcodes]
 slug: /instruments-wiki/temperature-controllers/lakeshore/lakeshore-model-336

@@ -1,5 +1,6 @@
 ---
-title: Keysight 33220A
+title: Connecting to Keysight 33220A by Agilent in Python
+sidebar_label: Keysight 33220A
 description: The Keysight 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
 keywords: [rf signal generator, Agilent, Instrumentkit]
 slug: /instruments-wiki/rf-signal-generator/agilent/keysight-33220a

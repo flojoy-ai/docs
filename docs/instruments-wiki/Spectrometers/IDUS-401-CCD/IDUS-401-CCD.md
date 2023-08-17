@@ -1,5 +1,6 @@
 ---
-title: IDUS 401 CCD
+title: Connecting to IDUS 401 CCD by Andor in Python
+sidebar_label: IDUS 401 CCD
 description: The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideally suited to rapid analysis, multi-channel and low-light applications including fluorescence and Raman spectroscopy.
 keywords: [spectrometers, Andor, Qcodes Community]
 slug: /instruments-wiki/spectrometers/andor/idus-401-ccd

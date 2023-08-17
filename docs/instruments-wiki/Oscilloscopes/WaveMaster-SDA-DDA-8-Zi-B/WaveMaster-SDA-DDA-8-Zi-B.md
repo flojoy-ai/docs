@@ -1,5 +1,6 @@
 ---
-title: WaveMaster-SDA-DDA 8 Zi-B
+title: Connecting to WaveMaster-SDA-DDA 8 Zi-B by Teledyne in Python
+sidebar_label: WaveMaster-SDA-DDA 8 Zi-B
 description: The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set needed for today’s high-speed measurements with the ease of use of a standard benchtop oscilloscope. Featuring the highest-speed serial data triggers, the only complete multi-lane serial data analysis and eye diagram solution, and the most comprehensive set of compliance packages, the WaveMaster 8 Zi-B simplifies the most complex testing.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b

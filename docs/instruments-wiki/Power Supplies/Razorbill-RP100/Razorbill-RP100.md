@@ -1,5 +1,6 @@
 ---
-title: Razorbill RP100
+title: Connecting to Razorbill RP100 by Razorbill in Python
+sidebar_label: Razorbill RP100
 description: The RP100 is a two channel, sink-source power supplydesigned to drive the CS100 series strain cells and the FC100series stress cells. This power supply can be used in conjunctionwith the corresponding range of compatible Razorbill Instrumentsproducts to tune the electronic properties of materials by applyingcontrolled strains and stresses to the material.
 keywords: [power supplies, Razorbill, Pymeasure]
 slug: /instruments-wiki/power-supplies/razorbill/razorbill-rp100

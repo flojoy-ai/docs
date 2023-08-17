@@ -1,5 +1,6 @@
 ---
-title: Fluke 7341
+title: Connecting to Fluke 7341 by Fluke in Python
+sidebar_label: Fluke 7341
 description: Deep-Well Compact Bath, –45 °C to 150 °C
 keywords: [temperature controllers, Fluke, Pymeasure]
 slug: /instruments-wiki/temperature-controllers/fluke/fluke-7341

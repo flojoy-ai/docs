@@ -1,5 +1,6 @@
 ---
-title: WavePro HD
+title: Connecting to WavePro HD by Teledyne in Python
+sidebar_label: WavePro HD
 description: WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 technology to achieve 12-bit resolution at up to 8 GHz bandwidth, for the lowest noise and unmatched signal fidelity. Up to 5 Gpt of highly responsive acquisition memory gives more visibility into system behavior, and the exceptional analysis toolbox enables deep insight.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavepro-hd

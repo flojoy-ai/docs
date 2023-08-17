@@ -1,5 +1,6 @@
 ---
-title: LabMaster 10 Zi-A
+title: Connecting to LabMaster 10 Zi-A by Teledyne in Python
+sidebar_label: LabMaster 10 Zi-A
 description: The LabMaster 10 Zi is the world's highest-performance modular oscilloscope - it breaks channel count barriers and provides more "bandwidth density". The modular design provides the simplest upgrade path in bandwidth and channel count, with one acquisition module providing four channels at 36 GHz or two channels at 65 GHz, with capability for up to 20 acquisition modules
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/labmaster-10-zi-a

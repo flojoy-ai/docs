@@ -1,5 +1,6 @@
 ---
-title: Buffer
+title: Connecting to Buffer by Keithley in Python
+sidebar_label: Buffer
 description: Currently no description
 keywords: [miscellaneous, Keithley, Pymeasure]
 slug: /instruments-wiki/miscellaneous/keithley/buffer

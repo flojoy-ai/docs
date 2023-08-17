@@ -1,5 +1,6 @@
 ---
-title: Keithley 6517B
+title: Connecting to Keithley 6517B by Keithley in Python
+sidebar_label: Keithley 6517B
 description: 6517B Electrometer/High Resistance Meter is capable of measuring the largest voltage range—up to 200 V—with an input impedance exceeding 200 TΩ. All this performance is built into an instrument that operates as simply as a digital multimeter.
 keywords: [power meters, Keithley, Pymeasure]
 slug: /instruments-wiki/power-meters/keithley/keithley-6517b

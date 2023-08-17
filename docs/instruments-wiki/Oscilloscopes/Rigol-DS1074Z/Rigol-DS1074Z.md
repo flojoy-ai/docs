@@ -1,5 +1,6 @@
 ---
-title: Rigol DS1074Z
+title: Connecting to Rigol DS1074Z by Rigol in Python
+sidebar_label: Rigol DS1074Z
 description: 4 analog channels, Upgradable to 16 digital channels (requires optional RPL1116 logic probe to operate)Built in 2 channel 25MHz waveform generator
 keywords: [oscilloscopes, Rigol, Qcodes]
 slug: /instruments-wiki/oscilloscopes/rigol/rigol-ds1074z

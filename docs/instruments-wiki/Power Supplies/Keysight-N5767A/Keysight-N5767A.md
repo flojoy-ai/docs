@@ -1,5 +1,6 @@
 ---
-title: Keysight N5767A
+title: Connecting to Keysight N5767A by Keysight in Python
+sidebar_label: Keysight N5767A
 description: The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, LXI compliance, and analog/resistance control of output voltage and current. It delivers reliable performance and enhanced capabilities in a compact 1U package.
 keywords: [power supplies, Keysight, Pymeasure]
 slug: /instruments-wiki/power-supplies/keysight/keysight-n5767a

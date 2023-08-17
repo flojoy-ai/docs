@@ -1,5 +1,6 @@
 ---
-title: PCO Pixelfly
+title: Connecting to PCO Pixelfly by PCO in Python
+sidebar_label: PCO Pixelfly
 description: The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to its special InGaAs image sensor which is sensitive in the shortwave infrared, near infrared and visible range of the electromagnetic spectrum.
 keywords: [cameras, PCO, Instrumental]
 slug: /instruments-wiki/cameras/pco/PCO-pixelfly

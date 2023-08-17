@@ -1,5 +1,6 @@
 ---
-title: TDS5XX
+title: Connecting to TDS5XX by Tektronix in Python
+sidebar_label: TDS5XX
 description: Currently no description
 keywords: [oscilloscopes, Tektronix, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/tektronix/tds5xx

@@ -1,5 +1,6 @@
 ---
-title: AVS 47
+title: Connecting to AVS 47 by Picowatt in Python
+sidebar_label: AVS 47
 description: The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low-temperature sensors.
 keywords: [temperature controllers, Picowatt, Instrumentkit]
 slug: /instruments-wiki/temperature-controllers/picowatt/avs-47

@@ -1,5 +1,6 @@
 ---
-title: Keithley 485
+title: Connecting to Keithley 485 by Keithley in Python
+sidebar_label: Keithley 485
 description: The Keithley 485 Autoranging Picoammeter provides 100fA sensitivity with 4 1/2-digit resolution in a low-cost, highly sensitive, easy-to-use instrument. The 485 measures DC current on seven ranges covering 10 decades from 100fA to 2mA. The input can withstand overloads as high as 1000V (with 100kΩ limiting resistor) for flexibility in a wide range of applications in test, research, and student labs. An analog output linearly converts the incoming current to voltage for hard copy output or control loop applications.
 keywords: [power meters, Keithley, Instrumentkit]
 slug: /instruments-wiki/power-meters/keithley/keithley-485

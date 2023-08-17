@@ -1,5 +1,6 @@
 ---
-title: MT Standard Interface Communication Software
+title: Connecting to MT Standard Interface Communication Software by Mettler Toledo in Python
+sidebar_label: MT Standard Interface Communication Software
 description: Instrument class to communicate with Mettler Toledo balances using the MT-SICS Standared Interface Command Set.
 keywords: [miscellaneous, Mettler Toledo, Instrumentkit]
 slug: /instruments-wiki/miscellaneous/mettler toledo/mt-standard-interface-communication-software

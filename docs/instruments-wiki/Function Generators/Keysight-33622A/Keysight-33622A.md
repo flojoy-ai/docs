@@ -1,5 +1,6 @@
 ---
-title: Keysight 33622A
+title: Connecting to Keysight 33622A by Keysight in Python
+sidebar_label: Keysight 33622A
 description: The Keysight 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
 keywords: [function generators, Keysight, Qcodes]
 slug: /instruments-wiki/function-generators/keysight/keysight-33622a

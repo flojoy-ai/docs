@@ -1,5 +1,6 @@
 ---
-title: Lakeshore 421
+title: Connecting to Lakeshore 421 by Lakeshore in Python
+sidebar_label: Lakeshore 421
 description: Flexible probe configurations to suit your application.Several sensor types available with different performance characteristics.Most suited for field levels from earth field to very large electromagnets.Application-specific probe customization available.
 keywords: [power meters, Lakeshore, Pymeasure]
 slug: /instruments-wiki/power-meters/lakeshore/lakeshore-421

@@ -1,5 +1,6 @@
 ---
-title: Keysight E8257D
+title: Connecting to Keysight E8257D by Agilent in Python
+sidebar_label: Keysight E8257D
 description: Metrology-grade analog signal generator offering industry-leading output power, level accuracy, and phase noise, with frequency coverage from 100 kHz to 67 GHz (extendable to 500 GHz) for testing advanced RF and microwave radar
 keywords: [rf signal generator, Agilent, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/agilent/keysight-e8257d

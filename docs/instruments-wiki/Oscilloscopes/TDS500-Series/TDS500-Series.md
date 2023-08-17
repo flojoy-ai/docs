@@ -1,5 +1,6 @@
 ---
-title: TDS500 Series
+title: Connecting to TDS500 Series by Tektronix in Python
+sidebar_label: TDS500 Series
 description: Currently no description
 keywords: [oscilloscopes, Tektronix, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/tektronix/tds500-series

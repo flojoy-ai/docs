@@ -1,5 +1,6 @@
 ---
-title: M5180 2-Port 18 GHz Analyzer
+title: Connecting to M5180 2-Port 18 GHz Analyzer by Coppermountain in Python
+sidebar_label: M5180 2-Port 18 GHz Analyzer
 description: The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-grade performance in a more economical package that excludes a number of advanced features
 keywords: [network analyzer, Coppermountain, Qcodes Community]
 slug: /instruments-wiki/network-analyzer/coppermountain/m5180-2-port-18-ghz-analyzer

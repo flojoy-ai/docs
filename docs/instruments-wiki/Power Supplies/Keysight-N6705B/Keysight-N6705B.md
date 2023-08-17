@@ -1,5 +1,6 @@
 ---
-title: Keysight N6705B
+title: Connecting to Keysight N6705B by Keysight in Python
+sidebar_label: Keysight N6705B
 description: The N6705B is a 4-slot mainframe that accepts up to 4 DC Power Modules, and up to 600 W total DC Power Module output power. The modules are ordered separately. N6705B accepts the same modules as N6700 Modular Power System, with over 30 modules to choose from
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-n6705b

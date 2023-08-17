@@ -1,5 +1,6 @@
 ---
-title: UHFQA
+title: Connecting to UHFQA by Zurich Instruments in Python
+sidebar_label: UHFQA
 description: The Zurich Instruments UHFQA Quantum Analyzer is a unique instrument for parallel readout of up to 10 superconducting or spin qubits with highest speed and fidelity. The UHFQA operates on a frequency span of up to ±600 MHz with nanosecond timing resolution, and it features 2 signal inputs and outputs for IQ base-band operation. Thanks to its low-latency signal processing chain of matched filters, real-time matrix operations, and state discrimination, the UHFQA supports the development of ambitious quantum computing projects for 100 qubits and more.
 keywords: [quantum analyzer, Zurich Instruments, Qcodes]
 slug: /instruments-wiki/quantum-analyzer/zurich instruments/uhfqa

@@ -1,5 +1,6 @@
 ---
-title: Yokogawa GS 200
+title: Connecting to Yokogawa GS 200 by Yokogawa in Python
+sidebar_label: Yokogawa GS 200
 description: The GS200 is a low voltage/current DC source with high accuracy, high stability, and high resolution. With its excellent traceability, stability, and 5 1/2-digit resolution, the GS200 generates extremely low-noise DC voltage and current signals that are required for many applications. Additionally, the optional monitoring feature turns the GS200 into a voltage and current measuring instrument.
 keywords: [power supplies, Yokogawa, Pymeasure, Qcodes]
 slug: /instruments-wiki/power-supplies/yokogawa/yokogawa-gs-200

@@ -1,5 +1,6 @@
 ---
-title: Keysight N3300A
+title: Connecting to Keysight N3300A by Keysight in Python
+sidebar_label: Keysight N3300A
 description: The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts combinations of N330x user-installable load modules (150 W to 600 W) for easy system configuration and future reconfiguration. The N3300A holds up to six N3302A, N3303A, N3304A, N3307A load modules, or three N3305A, N3306A double-wide modules, allowing a total up to 1,800 watts of maximum power.
 keywords: [electronic loads, Keysight, Qcodes Community]
 slug: /instruments-wiki/electronic-loads/keysight/keysight-n3300a

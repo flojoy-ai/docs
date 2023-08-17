@@ -1,5 +1,6 @@
 ---
-title: Apsin 26G
+title: Connecting to Apsin 26G by Anapico in Python
+sidebar_label: Apsin 26G
 description: The APSINXXG is an analog signal generator (analog signal source) series covering RF and microwave frequency ranges from 9 kHz to 12, 20 and 26.5 GHz
 keywords: [rf signal generator, Anapico, Pymeasure]
 slug: /instruments-wiki/rf-signal-generator/anapico/apsin-26g

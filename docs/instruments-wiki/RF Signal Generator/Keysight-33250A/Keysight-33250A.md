@@ -1,5 +1,6 @@
 ---
-title: Keysight 33250A
+title: Connecting to Keysight 33250A by Keysight in Python
+sidebar_label: Keysight 33250A
 description: The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synthesis techniques to create a stable, accurate output on all waveforms, down to 1 µHz frequency resolution. The benefits are apparent in every signal you produce, from the sine wave frequency accuracy to the fast rise/fall times of square waves, to the ramp linearity.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-33250a

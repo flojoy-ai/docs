@@ -1,5 +1,6 @@
 ---
-title: Keithley 2306
+title: Connecting to Keithley 2306 by Keithley in Python
+sidebar_label: Keithley 2306
 description: The dual channel Battery/Charger Simulator was designed specifically for development and test applications of portable, battery-operated products, such as cellular and cordless telephones, mobile radios, and pagers. This precision DC power supply product has ultrafast transient response so it can have output characteristics identical to actual batteries. This supply employs a unique variable output resistance so the voltage output can emulate a battery's response. It provides stable voltage outputs, even when a device-under-test (DUT) makes the rapid transition from the standby (low current) state to the RF transmission (high current) state. In addition, they can monitor DUT power consumption by measuring both DC currents and pulse load currents. The battery-simulator channel can be programmed to operate like a discharged rechargeable battery, sinking current from a separate charger.
 keywords: [power supplies, Keithley, Pymeasure]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2306

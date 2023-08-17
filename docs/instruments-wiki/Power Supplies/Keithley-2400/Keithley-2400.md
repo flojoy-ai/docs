@@ -1,5 +1,6 @@
 ---
-title: Keithley 2400
+title: Connecting to Keithley 2400 by Keithley in Python
+sidebar_label: Keithley 2400
 description: Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer four-quadrant precision voltage and current source/load coupled with measurement. Each SMU instrument is both a highly stable DC power source and a true instrument-grade 6½-digit multimeter. The power source characteristics include low noise, precision, and readback. The multimeter capabilities include high repeatability and low noise.
 keywords: [power supplies, Keithley, Pymeasure, Qcodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2400

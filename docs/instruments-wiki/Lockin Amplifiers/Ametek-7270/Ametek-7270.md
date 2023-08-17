@@ -1,5 +1,6 @@
 ---
-title: Ametek 7270
+title: Connecting to Ametek 7270 by Ametek in Python
+sidebar_label: Ametek 7270
 description: The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 keywords: [lockin amplifiers, Ametek, Pymeasure]
 slug: /instruments-wiki/lockin-amplifiers/ametek/ametek-7270

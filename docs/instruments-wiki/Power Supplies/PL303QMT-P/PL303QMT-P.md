@@ -1,5 +1,6 @@
 ---
-title: PL303QMT-P
+title: Connecting to PL303QMT-P by Aimtti in Python
+sidebar_label: PL303QMT-P
 description: Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6A, USB, RS232 & LAN Interfaces
 keywords: [power supplies, Aimtti, Qcodes]
 slug: /instruments-wiki/power-supplies/aimtti/pl303qmt-p

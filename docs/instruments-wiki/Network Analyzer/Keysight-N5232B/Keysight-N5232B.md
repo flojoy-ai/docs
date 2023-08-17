@@ -1,5 +1,6 @@
 ---
-title: Keysight N5232B
+title: Connecting to Keysight N5232B by Keysight in Python
+sidebar_label: Keysight N5232B
 description: The Keysight N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
 keywords: [network analyzer, Keysight, Qcodes]
 slug: /instruments-wiki/network-analyzer/keysight/keysight-n5232b

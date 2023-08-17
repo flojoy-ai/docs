@@ -1,5 +1,6 @@
 ---
-title: Keysight 4156C
+title: Connecting to Keysight 4156C by Agilent in Python
+sidebar_label: Keysight 4156C
 description: 4156C Precision Semiconductor Parameter Analyzer
 keywords: [spectrum analyzers, Agilent, Pymeasure]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-4156c

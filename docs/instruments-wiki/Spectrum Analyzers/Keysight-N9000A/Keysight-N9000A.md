@@ -1,5 +1,6 @@
 ---
-title: Keysight N9000A
+title: Connecting to Keysight N9000A by Agilent in Python
+sidebar_label: Keysight N9000A
 description: N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, Qcodes Community]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-n9000a

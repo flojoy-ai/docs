@@ -1,5 +1,6 @@
 ---
-title: Rigol DP832
+title: Connecting to Rigol DP832 by Rigol in Python
+sidebar_label: Rigol DP832
 description: 3 Outputs; total power up to 195WLow Ripple Noise <350 uVrms/2mVppFast transient response time-> <50 usChannel isolation-> CH1 || CH2,CH3OVP/OCP/OTP protection functionsBuilt in V, A, W measurements and waveform display
 keywords: [power supplies, Rigol, Qcodes]
 slug: /instruments-wiki/power-supplies/rigol/rigol-dp832

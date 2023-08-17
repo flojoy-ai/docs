@@ -1,5 +1,6 @@
 ---
-title: Thermotron 3800
+title: Connecting to Thermotron 3800 by Thermotron in Python
+sidebar_label: Thermotron 3800
 description: The 3800 is a microprocessor-based programmer and controller. The programmer function allows you to program temperature, temperature/humidity, or other types of tests and store them in program memory
 keywords: [temperature controllers, Thermotron, Pymeasure]
 slug: /instruments-wiki/temperature-controllers/thermotron/thermotron-3800

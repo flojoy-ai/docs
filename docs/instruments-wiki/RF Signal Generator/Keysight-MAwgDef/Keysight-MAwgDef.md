@@ -1,5 +1,6 @@
 ---
-title: Keysight MAwgDef
+title: Connecting to Keysight MAwgDef by Keysight in Python
+sidebar_label: Keysight MAwgDef
 description: Currently no description
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-mawgdef

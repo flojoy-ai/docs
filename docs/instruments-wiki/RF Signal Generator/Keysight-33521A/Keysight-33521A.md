@@ -1,5 +1,6 @@
 ---
-title: Keysight 33521A
+title: Connecting to Keysight 33521A by Agilent in Python
+sidebar_label: Keysight 33521A
 description: Keysight 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
 keywords: [rf signal generator, Agilent, Pymeasure]
 slug: /instruments-wiki/rf-signal-generator/agilent/keysight-33521a

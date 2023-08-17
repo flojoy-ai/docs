@@ -1,5 +1,6 @@
 ---
-title: ATS9440-14 bit 125 MS-s 4 ch
+title: Connecting to ATS9440-14 bit 125 MS-s 4 ch by Alazartech in Python
+sidebar_label: ATS9440-14 bit 125 MS-s 4 ch
 description: ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane PCI Express interface
 keywords: [daq boards, Alazartech, Qcodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch

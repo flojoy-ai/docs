@@ -1,5 +1,6 @@
 ---
-title: CC126Mu
+title: Connecting to CC126Mu by Thorlabs in Python
+sidebar_label: CC126Mu
 description: Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled Package, USB 3.0 Interface, 1/4"-20 Taps
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-wiki/cameras/thorlabs/cc126mu

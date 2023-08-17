@@ -1,5 +1,6 @@
 ---
-title: WaveSurfer 4000HD
+title: Connecting to WaveSurfer 4000HD by Teledyne in Python
+sidebar_label: WaveSurfer 4000HD
 description: WaveSurfer 4000HD extends Teledyne LeCroy’s leadership in High Definition Oscilloscopes with a bright, 12.1” touch screen display, performance without compromise, and price points that fit your budget.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavesurfer-4000hd

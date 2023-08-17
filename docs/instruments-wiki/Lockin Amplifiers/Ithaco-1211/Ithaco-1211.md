@@ -1,5 +1,6 @@
 ---
-title: Ithaco 1211
+title: Connecting to Ithaco 1211 by Ithaco in Python
+sidebar_label: Ithaco 1211
 description: The Ithaco 1211 Current Preamplifier measures current with full scale sensitivity ranging from 10-2 to 10-12 amperes
 keywords: [lockin amplifiers, Ithaco, Qcodes]
 slug: /instruments-wiki/lockin-amplifiers/ithaco/ithaco-1211

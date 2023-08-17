@@ -1,5 +1,6 @@
 ---
-title: iBeam smart
+title: Connecting to iBeam smart by Toptica in Python
+sidebar_label: iBeam smart
 description: The iBeam smart is the ultimate choice when looking for a high-performance, ultra-reliable OEM single mode diode laser system. Record values at output power, combined with excellent power and beam pointing stability are setting the standard in the class of compact diode lasers. Its flexible, µ-processor based electronics will make system integration a snap. Features as FINE, SKILL and AUTOPULSE are capable to solve common problems of your application.
 keywords: [lasers, Toptica, Pymeasure]
 slug: /instruments-wiki/lasers/toptica/ibeam-smart

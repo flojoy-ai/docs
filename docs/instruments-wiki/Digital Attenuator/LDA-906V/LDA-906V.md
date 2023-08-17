@@ -1,5 +1,6 @@
 ---
-title: LDA-906V
+title: Connecting to LDA-906V by Vaunix in Python
+sidebar_label: LDA-906V
 description: The LDA-906V Digital Attenuator is a highly accurate, bidirectional, 50 Ohm step attenuator. The LDA-906V provides calibrated attenuation from 200 to 6000 MHz with an amazing step size of 0.1 dB and typical accuracy <0.25 dB over 90 dB of control range. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
 keywords: [digital attenuator, Vaunix, Qcodes Community]
 slug: /instruments-wiki/digital-attenuator/vaunix/lda-906v

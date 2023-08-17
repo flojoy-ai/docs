@@ -1,5 +1,6 @@
 ---
-title: WaveRunner 9000
+title: Connecting to WaveRunner 9000 by Teledyne in Python
+sidebar_label: WaveRunner 9000
 description: WaveRunner 9000 oscilloscopes have the industry's widest and deepest collection of tools, making it unbelievably powerful and MAUI with OneTouch makes measurement setup insanely easy, providing faster time to insight.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/waverunner-9000

@@ -1,5 +1,6 @@
 ---
-title: Advantest R3767CG
+title: Connecting to Advantest R3767CG by Advantest in Python
+sidebar_label: Advantest R3767CG
 description: The Advantest R3765CG/R3767CG network analyzers are vector network analyzers that incorporate a new RF circuit analysis technique.
 keywords: [network analyzer, Advantest, Pymeasure]
 slug: /instruments-wiki/network-analyzer/advantest/advantest-r3767cg

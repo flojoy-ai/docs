@@ -1,5 +1,6 @@
 ---
-title: Keysight 33510B
+title: Connecting to Keysight 33510B by Keysight in Python
+sidebar_label: Keysight 33510B
 description: The 33510B waveform generator provides Keysight's exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-33510b

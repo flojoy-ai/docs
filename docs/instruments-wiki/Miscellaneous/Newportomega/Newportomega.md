@@ -1,5 +1,6 @@
 ---
-title: Newportomega
+title: Connecting to Newportomega by Newport in Python
+sidebar_label: Newportomega
 description: Device Server To Show The Omega Strain Gage From Newport, In A Tango System.
 keywords: [miscellaneous, Newport, Pytango]
 slug: /instruments-wiki/miscellaneous/newport/newportomega

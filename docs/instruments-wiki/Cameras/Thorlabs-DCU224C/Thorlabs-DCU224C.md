@@ -1,5 +1,6 @@
 ---
-title: Thorlabs-DCU224C
+title: Connecting to Thorlabs-DCU224C by Thorlabs in Python
+sidebar_label: Thorlabs-DCU224C
 description: DCU224C - CCD Camera, 1280 x 1024 Resolution, Color, USB 2.0
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-wiki/cameras/thorlabs/thorlabs-dcu224c

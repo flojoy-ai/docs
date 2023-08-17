@@ -1,5 +1,6 @@
 ---
-title: IP Power 9258 S
+title: Connecting to IP Power 9258 S by Aviosys in Python
+sidebar_label: IP Power 9258 S
 description: IP9258 is a web controller which can be easily used in the industry field
 keywords: [power supplies, Aviosys, Qcodes Community]
 slug: /instruments-wiki/power-supplies/aviosys/ip-power-9258-s

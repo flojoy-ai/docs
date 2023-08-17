@@ -1,5 +1,6 @@
 ---
-title: NI PXIe-5654
+title: Connecting to NI PXIe-5654 by National Instruments in Python
+sidebar_label: NI PXIe-5654
 description: PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features a combination of exceptional phase noise and frequency tuning time. These features address applications such as blocker test/receiver desensitization, high-performance intermodulation distortion measurements, and various electronic warfare applications. The PXIe-5654 is designed to meet the challenging requirements of RFIC characterization, satellite test, and radar applications. Some PXIe-5654 options include a PXIe-5696 Amplitude Extender Module. The PXIe-5696 supports a frequency range of 250 kHz to 20 GHz and an extended amplitude range up to 27 dBm.
 keywords: [rf signal generator, National Instruments, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generator/national instruments/ni-pxie-5654

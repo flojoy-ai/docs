@@ -1,5 +1,6 @@
 ---
-title: LCC25
+title: Connecting to LCC25 by Thorlabs in Python
+sidebar_label: LCC25
 description: The LCC25 is a liquid crystal controller compatible with all Thorlabs LC VariableRetarders. The LCC25 will drive most nematic liquid crystal devices. The liquid crystaldevice is connected to the BNC voltage output port. The amplitude of the output voltage,adjusted by the front panel knob, and external signal, and a computer via a USB interface,controls the retardance of the LC device.
 keywords: [power supplies, Thorlabs, Instrumentkit]
 slug: /instruments-wiki/power-supplies/thorlabs/lcc25

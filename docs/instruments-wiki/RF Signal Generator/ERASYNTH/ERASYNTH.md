@@ -1,5 +1,7 @@
 ---
-title: ERASYNTH
+title: Connecting to ERASYNTH
+ by Erainstruments in Python
+sidebar_label: ERASYNTH
 
 description: ERASynth removes the cost barriers and makes quality RF signal synthesis accessible to everyone, especially budget-conscious makers.
 keywords: [rf signal generator, Erainstruments, Qcodes Community]

@@ -1,5 +1,6 @@
 ---
-title: Keithley 2182
+title: Connecting to Keithley 2182 by Keithley in Python
+sidebar_label: Keithley 2182
 description: The two-channel Model 2182A Nanovoltmeter is optimized for making stable, low noise voltage measurements and for characterizing low resistance materials and devices reliably and repeatably. It provides higher measurement speed and significantly better noise performance than alternative low voltage measurement solutions. It offers a simplified delta mode for making resistance measurements in combination with a reversing current source, such as the Model 6220 or 6221.
 keywords: [power meters, Keithley, Instrumentkit]
 slug: /instruments-wiki/power-meters/keithley/keithley-2182

@@ -1,5 +1,6 @@
 ---
-title: ZVL 13
+title: Connecting to ZVL 13 by Rohdeschwarz in Python
+sidebar_label: ZVL 13
 description: The ZVL is a compact, cost-efficient, powerful and portable network analyzer. It is ideal for use in development, production, and service. It is the only instrument to combine the functions of a network analyzer, spectrum analyzer, and power meter in a single box, making you much more efficient.
 keywords: [spectrum analyzers, Rohdeschwarz, Qcodes Community]
 slug: /instruments-wiki/spectrum-analyzers/rohdeschwarz/zvl-13

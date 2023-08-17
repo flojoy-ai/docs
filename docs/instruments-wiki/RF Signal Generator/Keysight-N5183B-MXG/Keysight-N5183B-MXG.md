@@ -1,5 +1,6 @@
 ---
-title: Keysight N5183B MXG
+title: Connecting to Keysight N5183B MXG by Keysight in Python
+sidebar_label: Keysight N5183B MXG
 description: N5183B MXG X-Series microwave analog signal generator offers 9 kHz to 40 GHz frequency coverage and near PSG levels of phase noise performance.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-n5183b-mxg

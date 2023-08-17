@@ -1,5 +1,6 @@
 ---
-title: Keithley 6221
+title: Connecting to Keithley 6221 by Keithley in Python
+sidebar_label: Keithley 6221
 description: The 6221 AC and DC Current Source combine ease of use with exceptionally low current noise. Low current sourcing is critical to applications in test environments ranging from R&D to production, especially in the semiconductor, nanotechnology, and superconductor industries. High sourcing accuracy and built-in control functions make the 6221 ideal for applications like Hall measurements, resistance measurements using delta mode, pulsed measurements, and differential conductance measurements.
 keywords: [power supplies, Keithley, Pymeasure]
 slug: /instruments-wiki/power-supplies/keithley/keithley-6221

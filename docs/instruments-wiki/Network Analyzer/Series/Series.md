@@ -1,5 +1,6 @@
 ---
-title: Series
+title: Connecting to Series by Rohde Schwarz in Python
+sidebar_label: Series
 description: Currently no description
 keywords: [network analyzer, Rohde Schwarz, Qcodes]
 slug: /instruments-wiki/network-analyzer/rohde schwarz/series

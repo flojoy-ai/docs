@@ -1,5 +1,6 @@
 ---
-title: PicoHarp 300
+title: Connecting to PicoHarp 300 by Picoquant in Python
+sidebar_label: PicoHarp 300
 description: The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Single Photon Counting (TCSPC) system. It is connected to a PC through a USB 2.0 interface. The high quality and reliability of the PicoHarp 300 is expressed by a unique 5-year limited warranty.
 keywords: [photon counting system, Picoquant, Pytango]
 slug: /instruments-wiki/photon-counting-system/picoquant/picoharp-300

@@ -1,5 +1,6 @@
 ---
-title: LDA-203B
+title: Connecting to LDA-203B by Vaunix in Python
+sidebar_label: LDA-203B
 description: The LDA-203B Digital Attenuator is a bidirectional, 50 Ohm step attenuator. The LDA-203B provides 63 dB of attenuation control over the frequency range of 1 to 20 GHz with a step size of 0.5 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
 keywords: [digital attenuator, Vaunix, Qcodes Community]
 slug: /instruments-wiki/digital-attenuator/vaunix/lda-203b

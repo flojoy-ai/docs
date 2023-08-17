@@ -1,5 +1,6 @@
 ---
-title: USB SA 124 B
+title: Connecting to USB SA 124 B by Signal Hound in Python
+sidebar_label: USB SA 124 B
 description: The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a narrow-band real-time RF spectrum analyzer. It is a compact, simple to use, effective troubleshooting tool for the general lab user, engineering students, and ham radio enthusiast.
 keywords: [spectrum analyzers, Signal Hound, Qcodes]
 slug: /instruments-wiki/spectrum-analyzers/signal hound/usb-sa-124-b

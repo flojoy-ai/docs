@@ -1,5 +1,6 @@
 ---
-title: SHFSG
+title: Connecting to SHFSG by Zurich Instruments in Python
+sidebar_label: SHFSG
 description: The Zurich Instruments SHFSG Signal Generator produces qubit control signals in the frequency range from DC to 8.5 GHz with a spurious-free modulation bandwidth of 1 GHz. The SHFSG uses a double superheterodyne technique for frequency up-conversion, which eliminates the need for mixer calibration and saves time on system tune-up. Each SHFSG comes with 4 or 8 analog output channels with 14-bit vertical resolution. Controlled by LabOne, its APIs or the LabOne Q Software, the SHFSG supports quantum computing projects with sizes ranging from a few to several hundred qubits.
 keywords: [rf signal generator, Zurich Instruments, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/zurich instruments/shfsg

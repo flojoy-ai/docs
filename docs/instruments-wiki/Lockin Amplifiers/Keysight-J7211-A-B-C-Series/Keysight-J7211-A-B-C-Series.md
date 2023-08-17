@@ -1,5 +1,6 @@
 ---
-title: Keysight J7211-A-B-C-Series
+title: Connecting to Keysight J7211-A-B-C-Series by Keysight in Python
+sidebar_label: Keysight J7211-A-B-C-Series
 description: Currently no description
 keywords: [lockin amplifiers, Keysight, Qcodes Community]
 slug: /instruments-wiki/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series

@@ -1,5 +1,6 @@
 ---
-title: AG-UC2
+title: Connecting to AG-UC2 by Newport in Python
+sidebar_label: AG-UC2
 description: The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axes. The AG-UC2 controller features two sets of push buttons for each Agilis axis; one set for step size settings, and the other set for precise low speed adjustments and fast coarse motion. Power is supplied through the USB port and if not available, the USB-CH power supply can independently power the Agilis controller. USB hubs may also be used for power and communication, but must provide the required 5 V supply, e.g. must feature an external power supply.
 keywords: [motor controller, Newport, Instrumentkit]
 slug: /instruments-wiki/motor-controller/newport/ag-uc2

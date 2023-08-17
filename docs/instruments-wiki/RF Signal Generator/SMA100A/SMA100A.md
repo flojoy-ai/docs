@@ -1,5 +1,6 @@
 ---
-title: SMA100A
+title: Connecting to SMA100A by Rohdes And Schwarz in Python
+sidebar_label: SMA100A
 description: This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is-> -Sma100A. Signal quality, speed and flexibility these are the criteria by which signal generators are measured today. The R&S SMA100A perfectly meets these criteria, and thus is a premium-class analog generator that sets standards due to its outstanding characteristics.
 keywords: [rf signal generator, Rohdes And Schwarz, Pytango]
 slug: /instruments-wiki/rf-signal-generator/rohdes and schwarz/sma100a

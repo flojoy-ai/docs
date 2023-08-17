@@ -1,5 +1,6 @@
 ---
-title: Pipekeithley
+title: Connecting to Pipekeithley by Keithley in Python
+sidebar_label: Pipekeithley
 description: Class For Getting Data From The Keihtley Of The Photon-Ion Spectrometer (Pipe).
 keywords: [miscellaneous, Keithley, Pytango]
 slug: /instruments-wiki/miscellaneous/keithley/pipekeithley

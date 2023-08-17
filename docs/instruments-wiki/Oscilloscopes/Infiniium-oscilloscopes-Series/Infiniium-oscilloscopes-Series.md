@@ -1,5 +1,6 @@
 ---
-title: Infiniium oscilloscopes Series
+title: Connecting to Infiniium oscilloscopes Series by Keysight in Python
+sidebar_label: Infiniium oscilloscopes Series
 description: Infiniium series oscilloscopes feature application-specific software that allows you to gain valuable insight into your design. Whether you are solving tough jitter or noise problems, removing loss due to cables or probes, or simply looking at protocol, this series has the software tools to help you realize your best design.
 keywords: [oscilloscopes, Keysight, Qcodes]
 slug: /instruments-wiki/oscilloscopes/keysight/infiniium-oscilloscopes-series

@@ -1,5 +1,6 @@
 ---
-title: TopMode
+title: Connecting to TopMode by Toptica in Python
+sidebar_label: TopMode
 description: TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher power and the choice of wavelength. The TopMode series sets records in terms of power, coherence and wavelength stability. The proprietary CoHerence-Advanced Regulation Method (CHARM) provides an active stabilization of the lasers’ coherence and ensures continuous single-frequency operation. TopMode and CHARM means nothing less than reliable 24/7 operation.
 keywords: [lasers, Toptica, Instrumentkit]
 slug: /instruments-wiki/lasers/toptica/topmode

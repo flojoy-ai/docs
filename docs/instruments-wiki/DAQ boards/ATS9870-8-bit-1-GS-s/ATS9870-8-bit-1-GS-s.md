@@ -1,5 +1,6 @@
 ---
-title: ATS9870-8 bit 1 GS-s
+title: Connecting to ATS9870-8 bit 1 GS-s by Alazartech in Python
+sidebar_label: ATS9870-8 bit 1 GS-s
 description: ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane PCI Express interface
 keywords: [daq boards, Alazartech, Qcodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9870-8-bit-1-gs-s

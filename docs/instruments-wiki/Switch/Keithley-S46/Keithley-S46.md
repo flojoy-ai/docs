@@ -1,5 +1,6 @@
 ---
-title: Keithley S46
+title: Connecting to Keithley S46 by Keithley in Python
+sidebar_label: Keithley S46
 description: S46 Microwave Switch Systems are designed to simplify the automated switching needed to test a wide range of RF and telecommunication products and devices. The S46 can control 32 relay contacts in a package as small as a 2U high (3.5 in) full-rack enclosure.
 keywords: [switch, Keithley, Qcodes]
 slug: /instruments-wiki/switch/keithley/keithley-s46

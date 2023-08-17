@@ -1,5 +1,6 @@
 ---
-title: HF2LI
+title: Connecting to HF2LI by Zurich Instruments in Python
+sidebar_label: HF2LI
 description: The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequency range between DC and 50 MHz. It is the instrument of choice for the characterization of MEMS devices such as gyroscopes and for measurements in the area of microfluidics.
 keywords: [lockin amplifiers, Zurich Instruments, Qcodes Community]
 slug: /instruments-wiki/lockin-amplifiers/zurich instruments/hf2li

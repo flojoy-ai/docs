@@ -1,5 +1,6 @@
 ---
-title: F.W. Bell 5280
+title: Connecting to F.W. Bell 5280 by F.W. Bell in Python
+sidebar_label: F.W. Bell 5280
 description: Handheld single-axis digital magnetometer gauss / tesla meter for measuring magnets, magnetism of steel, and other manufacturing and scientific applications.
 keywords: [multimeters, F.W. Bell, Pymeasure]
 slug: /instruments-wiki/multimeters/f.w. bell/fw-bell-5280

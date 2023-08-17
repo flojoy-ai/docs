@@ -1,5 +1,6 @@
 ---
-title: Orbit 3 Sensor
+title: Connecting to Orbit 3 Sensor by Orbit3 in Python
+sidebar_label: Orbit 3 Sensor
 description: Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. Install Orbit 3 at a suitable location, and it will wirelessly transmit temperature and humidity readings continuously. It can be used in precast factories, concrete laboratories, on-site – or wherever ambient climate creates value for you.
 keywords: [humidity sensor, Orbit3, Pytango]
 slug: /instruments-wiki/humidity-sensor/orbit3/orbit-3-sensor

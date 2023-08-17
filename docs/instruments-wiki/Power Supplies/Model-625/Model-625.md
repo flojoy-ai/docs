@@ -1,5 +1,6 @@
 ---
-title: Model 625
+title: Connecting to Model 625 by Lakeshore in Python
+sidebar_label: Model 625
 description: The Model 625 superconducting magnet power supply is the ideal supply for small to medium sized superconducting magnets used in high sensitivity materials research applications. The Model 625 is a practical alternative to both the larger, one size fits all, superconducting magnet supplies and the endless adaptations of generic power supplies. By limiting output power, Lake Shore was able to concentrate on the performance requirements of the most demanding magnet users. The resulting Model 625 provides high precision, low noise, safety, and convenience.
 keywords: [power supplies, Lakeshore, Qcodes Community]
 slug: /instruments-wiki/power-supplies/lakeshore/model-625

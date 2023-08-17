@@ -1,5 +1,6 @@
 ---
-title: Bristol 771 
+title: Connecting to Bristol 771  by Bristol in Python
+sidebar_label: Bristol 771 
 description: The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer technology with fast Fourier transform analysis resulting in a unique instrument that operates as both a high-resolution spectrum analyzer and a high-accuracy wavelength meter.
 keywords: [spectrum analyzers, Bristol, Instrumental]
 slug: /instruments-wiki/spectrum-analyzers/bristol/bristol-771

@@ -1,5 +1,6 @@
 ---
-title: Keysight E4980A
+title: Connecting to Keysight E4980A by Keysight in Python
+sidebar_label: Keysight E4980A
 description: The E4980A precision LCR meter provides the best combination of accuracy, speed, and versatility for a wide range of component measurements.
 keywords: [multimeters, Keysight, Pymeasure, Qcodes]
 slug: /instruments-wiki/multimeters/keysight/keysight-e4980a

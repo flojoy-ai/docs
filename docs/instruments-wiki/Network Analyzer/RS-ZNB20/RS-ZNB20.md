@@ -1,5 +1,6 @@
 ---
-title: R&S ZNB20
+title: Connecting to R&S ZNB20 by Rohde Schwarz in Python
+sidebar_label: R&S ZNB20
 description: The R&S ZNB20 from R&S is a mid range vector network analyzer with two or four test ports for the frequency range from 100 kHz to 20 GHz. It has a dynamic range of 135 dB which makes it possible to perform precise measurements on wideband DUTs or components whose behavior at low frequencies is especially important. The analyzer has a large 12.1 inches touch screen interface which makes it easy to control and review test results. The ports on the R&S 20 have 2.92 mm Male connectors.
 keywords: [network analyzer, Rohde Schwarz, Qcodes]
 slug: /instruments-wiki/network-analyzer/rohde schwarz/r&s-znb20

@@ -1,5 +1,6 @@
 ---
-title: Keysight 8116A
+title: Connecting to Keysight 8116A by HP in Python
+sidebar_label: Keysight 8116A
 description: 8116A 50 MHZ PULSE/FUNCTION GENERATOR
 keywords: [function generators, HP, Pymeasure]
 slug: /instruments-wiki/function-generators/hp/keysight-8116a

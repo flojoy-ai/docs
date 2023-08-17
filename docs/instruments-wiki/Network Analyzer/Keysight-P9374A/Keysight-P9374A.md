@@ -1,5 +1,6 @@
 ---
-title: Keysight P9374A
+title: Connecting to Keysight P9374A by Keysight in Python
+sidebar_label: Keysight P9374A
 description: P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
 keywords: [network analyzer, Keysight, Qcodes]
 slug: /instruments-wiki/network-analyzer/keysight/keysight-p9374a

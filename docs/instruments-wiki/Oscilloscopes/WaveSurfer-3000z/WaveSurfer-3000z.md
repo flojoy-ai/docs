@@ -1,5 +1,6 @@
 ---
-title: WaveSurfer 3000z
+title: Connecting to WaveSurfer 3000z by Teledyne in Python
+sidebar_label: WaveSurfer 3000z
 description: The WaveSurfer 3000z has a 10.1" capacitive touch display, the longest memory, and the deepest toolbox – all at an affordable price.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavesurfer-3000z

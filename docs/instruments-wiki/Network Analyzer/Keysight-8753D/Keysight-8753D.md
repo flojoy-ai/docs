@@ -1,5 +1,6 @@
 ---
-title: Keysight 8753D
+title: Connecting to Keysight 8753D by HP in Python
+sidebar_label: Keysight 8753D
 description: 8753D Network Analyzer, 30 kHz to 3 GHz
 keywords: [network analyzer, HP, Qcodes]
 slug: /instruments-wiki/network-analyzer/hp/keysight-8753d

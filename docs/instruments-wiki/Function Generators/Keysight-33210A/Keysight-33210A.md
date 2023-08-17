@@ -1,5 +1,6 @@
 ---
-title: Keysight 33210A
+title: Connecting to Keysight 33210A by Keysight in Python
+sidebar_label: Keysight 33210A
 description: The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
 keywords: [function generators, Keysight, Qcodes]
 slug: /instruments-wiki/function-generators/keysight/keysight-33210a

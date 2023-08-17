@@ -1,5 +1,6 @@
 ---
-title: Singlequantum
+title: Connecting to Singlequantum by Singlequantum in Python
+sidebar_label: Singlequantum
 description: Currently no description
 keywords: [photon counting system, Singlequantum, Qcodes Community]
 slug: /instruments-wiki/photon-counting-system/singlequantum/singlequantum

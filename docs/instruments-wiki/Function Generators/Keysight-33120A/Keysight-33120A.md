@@ -1,5 +1,6 @@
 ---
-title: Keysight 33120A
+title: Connecting to Keysight 33120A by HP in Python
+sidebar_label: Keysight 33120A
 description: 33120A Function / Arbitrary Waveform Generator, 15 MHz
 keywords: [function generators, HP, Pymeasure]
 slug: /instruments-wiki/function-generators/hp/keysight-33120a

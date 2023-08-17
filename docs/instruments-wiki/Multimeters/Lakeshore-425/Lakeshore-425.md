@@ -1,5 +1,6 @@
 ---
-title: Lakeshore 425
+title: Connecting to Lakeshore 425 by Lakeshore in Python
+sidebar_label: Lakeshore 425
 description: Class Connecting To The Lakeshore 425 Gaussmeter
 keywords: [multimeters, Lakeshore, Pymeasure, Pytango]
 slug: /instruments-wiki/multimeters/lakeshore/lakeshore-425

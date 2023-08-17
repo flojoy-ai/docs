@@ -1,5 +1,6 @@
 ---
-title: Keysight 34410A
+title: Connecting to Keysight 34410A by Agilent in Python
+sidebar_label: Keysight 34410A
 description: The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB.
 keywords: [multimeters, Agilent, Qcodes]
 slug: /instruments-wiki/multimeters/agilent/keysight-34410a

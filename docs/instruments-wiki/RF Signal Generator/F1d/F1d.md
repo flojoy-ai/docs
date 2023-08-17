@@ -1,5 +1,6 @@
 ---
-title: F1d	
+title: Connecting to F1d	 by Qutech in Python
+sidebar_label: F1d	
 description: The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz. It was initially designed for reflectometry and to be used in conjuction with the S5i RF source and the M2j low noise amplifier.
 keywords: [rf signal generator, Qutech, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generator/qutech/f1d

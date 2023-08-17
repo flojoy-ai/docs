@@ -1,5 +1,6 @@
 ---
-title: Keithley 6517A
+title: Connecting to Keithley 6517A by Keithley in Python
+sidebar_label: Keithley 6517A
 description: The Keithley 6517A 5 1/2 digit Electrometer / High Resistance Meter offers extreme accuracy and sensitivity specifications. It also offers a variety of features that simplify measuring high resistances and the resistivity of insulating materials. With reading rates of up to 125 readings/ second, the Keithley 6517A is also significantly faster than competitive electrometers, so it offers a quick, easy way to measure low-level curs.The half-rack-sized Keithley 6517A has a special low cur input amplifier with an input bias cur ofThe Keithley 6517A offers full autoranging over the full span of ranges on cur, resistance, voltage, and charge measurements
 keywords: [power meters, Keithley, Pymeasure]
 slug: /instruments-wiki/power-meters/keithley/keithley-6517a

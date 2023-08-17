@@ -1,5 +1,6 @@
 ---
-title: Keysight DSOX1102G
+title: Connecting to Keysight DSOX1102G by Keysight in Python
+sidebar_label: Keysight DSOX1102G
 description: The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channels, and waveform generator
 keywords: [oscilloscopes, Keysight, Pymeasure]
 slug: /instruments-wiki/oscilloscopes/keysight/keysight-dsox1102g

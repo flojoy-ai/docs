@@ -1,5 +1,6 @@
 ---
-title: SMR 40
+title: Connecting to SMR 40 by Rohdeschwarz in Python
+sidebar_label: SMR 40
 description: The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation capability with frequency coverage from 1 GHz up to 40 GHz. The lower limit can be expanded to 10 MHz by the optional Frequency Extension 0.01 GHz to 1 GHz  (option B11).
 keywords: [rf signal generator, Rohdeschwarz, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generator/rohdeschwarz/smr-40

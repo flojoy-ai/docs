@@ -1,5 +1,6 @@
 ---
-title: Keysight E4408B ESA-L
+title: Connecting to Keysight E4408B ESA-L by Agilent in Python
+sidebar_label: Keysight E4408B ESA-L
 description: E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, Pymeasure]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-e4408b-esa-l

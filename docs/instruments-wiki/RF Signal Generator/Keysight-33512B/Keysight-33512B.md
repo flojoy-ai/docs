@@ -1,5 +1,6 @@
 ---
-title: Keysight 33512B
+title: Connecting to Keysight 33512B by Keysight in Python
+sidebar_label: Keysight 33512B
 description: The 33512B provides Keysight’s exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements. The 33512B can be easily upgraded to 30 MHz as your needs change.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-33512b

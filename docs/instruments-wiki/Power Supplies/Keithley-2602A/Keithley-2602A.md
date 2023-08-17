@@ -1,5 +1,6 @@
 ---
-title: Keithley 2602A
+title: Connecting to Keithley 2602A by Keithley in Python
+sidebar_label: Keithley 2602A
 description: The Keithley 2602A SourceMeter is used as either a bench-top I-V characterization tool or as a building block component of multi-channel I-V test systems. For bench-top use, the Keithley 2602A SourceMeter features an embedded TSP® Express Software Tool that allows users to quickly and easily perform common I-V tests without programming or installing software. For system level applications, the Keithley 2602A SourceMeter's Test Script Processor (TSP®) architecture along with new capabilities such as parallel test execution and precision timing provide the highest throughput in the industry to lower the cost of test.
 keywords: [power supplies, Keithley, Qcodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2602a

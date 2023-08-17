@@ -1,5 +1,6 @@
 ---
-title: Keysight 34401A
+title: Connecting to Keysight 34401A by Agilent in Python
+sidebar_label: Keysight 34401A
 description: The Keysight Technologies, Inc. 34401A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34401A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
 keywords: [multimeters, Agilent, Qcodes]
 slug: /instruments-wiki/multimeters/agilent/keysight-34401a

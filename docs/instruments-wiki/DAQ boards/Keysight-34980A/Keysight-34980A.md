@@ -1,5 +1,6 @@
 ---
-title: Keysight 34980A
+title: Connecting to Keysight 34980A by Keysight in Python
+sidebar_label: Keysight 34980A
 description: The Keysight 34980A Multifunction Switch/Measure unit is designed for R&D andmanufacturing test engineers who are working in design verification, automatedtest or data acquisition and are either looking to upgrade their existing systems orare in need of a new, cost-effective alternative
 keywords: [multimeters, Keysight, Qcodes]
 slug: /instruments-wiki/multimeters/keysight/keysight-34980a

@@ -1,5 +1,6 @@
 ---
-title: KtMAwg IVI-C
+title: Connecting to KtMAwg IVI-C by Keysight in Python
+sidebar_label: KtMAwg IVI-C
 description: Currently no description
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/ktmawg-ivi-c

@@ -1,5 +1,6 @@
 ---
-title: From MG3690C Series
+title: Connecting to From MG3690C Series by Anritsu in Python
+sidebar_label: From MG3690C Series
 description: The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF and microwave frequencies from 0.1 Hz to 70 GHz in single coaxial output and up to 500 GHz or beyond, with external multipliers
 keywords: [rf signal generator, Anritsu, Pymeasure]
 slug: /instruments-wiki/rf-signal-generator/anritsu/from-mg3690c-series

@@ -1,5 +1,6 @@
 ---
-title: S5i
+title: Connecting to S5i by Qutech in Python
+sidebar_label: S5i
 description: The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed for reflectometry. The output power of the fundamental frequency ranges from -20 dBm to 14 dBm and can be controlled by both the front panel and via software. The RF output can be muted by an external source, which gives an on/off ratio of larger than 60 dB.
 keywords: [rf signal generator, Qutech, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generator/qutech/s5i

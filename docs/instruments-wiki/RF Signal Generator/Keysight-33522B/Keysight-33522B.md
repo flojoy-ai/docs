@@ -1,5 +1,6 @@
 ---
-title: Keysight 33522B
+title: Connecting to Keysight 33522B by Keysight in Python
+sidebar_label: Keysight 33522B
 description: Keysight 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-33522b

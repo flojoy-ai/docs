@@ -1,5 +1,6 @@
 ---
-title: UHFLI
+title: Connecting to UHFLI by Zurich Instruments in Python
+sidebar_label: UHFLI
 description: The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the frequency range from DC to 600 MHz. It offers a time constant of 30 ns for demodulation – resulting in a demodulation bandwidth that exceeds 5 MHz.
 keywords: [lockin amplifiers, Zurich Instruments, Qcodes]
 slug: /instruments-wiki/lockin-amplifiers/zurich instruments/uhfli

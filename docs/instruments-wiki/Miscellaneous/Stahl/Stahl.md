@@ -1,5 +1,6 @@
 ---
-title: Stahl
+title: Connecting to Stahl by Stahl in Python
+sidebar_label: Stahl
 description: Currently no description
 keywords: [miscellaneous, Stahl, Qcodes]
 slug: /instruments-wiki/miscellaneous/stahl/stahl

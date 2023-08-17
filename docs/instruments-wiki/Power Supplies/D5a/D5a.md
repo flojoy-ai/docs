@@ -1,5 +1,6 @@
 ---
-title: D5a
+title: Connecting to D5a by Qutech in Python
+sidebar_label: D5a
 description: The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially created for setting gate-voltages on samples. In contrast to most commercial units, there are no processor or clock circuits present in this module. This to prevent interference. The only time any digital signals are present is when the DAC values are being changed. Afterwards the module goes back to being static. The DAC values are set via the controller module. As this module is generally used for gate voltage control, the use of an isolated controller module (C1b/C2 combination) is recommended.
 keywords: [power supplies, Qutech, Qcodes Community]
 slug: /instruments-wiki/power-supplies/qutech/d5a

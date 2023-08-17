@@ -1,5 +1,6 @@
 ---
-title: ATS9373-12 bit 4 GS-s
+title: Connecting to ATS9373-12 bit 4 GS-s by Alazartech in Python
+sidebar_label: ATS9373-12 bit 4 GS-s
 description: ATS9373 is a 12-bit waveform digitizer board that can sample one analog input at rates up to 4 GS/s or two inputs at 2 GS/s.
 keywords: [daq boards, Alazartech, Qcodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9373-12-bit-4-gs-s

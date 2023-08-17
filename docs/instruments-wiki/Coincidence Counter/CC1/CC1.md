@@ -1,5 +1,6 @@
 ---
-title: CC1
+title: Connecting to CC1 by Qubitekk in Python
+sidebar_label: CC1
 description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
 keywords: [coincidence counter, Qubitekk, Instrumentkit]
 slug: /instruments-wiki/coincidence-counter/qubitekk/cc1

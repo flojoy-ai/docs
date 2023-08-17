@@ -1,5 +1,6 @@
 ---
-title: Keysight B2200A
+title: Connecting to Keysight B2200A by Keysight in Python
+sidebar_label: Keysight B2200A
 description: The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
 keywords: [switch, Keysight, Qcodes]
 slug: /instruments-wiki/switch/keysight/keysight-b2200a

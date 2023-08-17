@@ -1,5 +1,6 @@
 ---
-title: Keysight N5173B EXG
+title: Connecting to Keysight N5173B EXG by Keysight in Python
+sidebar_label: Keysight N5173B EXG
 description: The Keysight N5173B EXG microwave analog signal generator is the cost-effective choice when you need to balance budget and performance. It provides the essential signals that address parametric testing of broadband filters, amplifiers, receivers, and more. Perform basic LO upconversion or CW blocking with low-cost coverage to 13, 20, 31.8, or 40 GHz. Characterize broadband microwave components such as filters and amplifiers with the best combination of output power (+20 dBm at 20 GHz), low harmonics (≤ –55 dBc), and full step attenuation. Use as a high-stability system reference with standard high-performance OCXO at an aging rate of less than ± 5 parts per billion per day.
 keywords: [rf signal generator, Keysight, Qcodes]
 slug: /instruments-wiki/rf-signal-generator/keysight/keysight-n5173b-exg

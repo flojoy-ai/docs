@@ -1,5 +1,6 @@
 ---
-title: SCPI multimeter
+title: Connecting to SCPI multimeter by Generic SCPI in Python
+sidebar_label: SCPI multimeter
 description: All SCPI Multimeters
 keywords: [multimeters, Generic SCPI, Instrumentkit]
 slug: /instruments-wiki/multimeters/generic scpi/SCPI-multimeter

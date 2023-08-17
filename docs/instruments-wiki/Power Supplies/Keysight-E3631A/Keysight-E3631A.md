@@ -1,5 +1,6 @@
 ---
-title: Keysight E3631A
+title: Connecting to Keysight E3631A by HP in Python
+sidebar_label: Keysight E3631A
 description: E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 keywords: [power supplies, HP, Instrumentkit]
 slug: /instruments-wiki/power-supplies/hp/keysight-e3631a

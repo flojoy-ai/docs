@@ -1,5 +1,6 @@
 ---
-title: Keysight 3478A
+title: Connecting to Keysight 3478A by HP in Python
+sidebar_label: Keysight 3478A
 description: The HP 3478A 5.5 digit DMM with HP-IB interface
 keywords: [multimeters, HP, Pymeasure]
 slug: /instruments-wiki/multimeters/hp/keysight-3478a

@@ -1,5 +1,6 @@
 ---
-title: PM100USB
+title: Connecting to PM100USB by Thorlabs in Python
+sidebar_label: PM100USB
 description: The PM100USB Power and Energy Meter Interface is compatible with all our C-Series photodiode, thermal, and pyroelectric sensors except for the ES408C Fast Pyroelectric Sensor. Our C-Type standard photodiode, slim photodiode, integrating sphere, and fiber sensors can collectively measure optical powers from 100 pW to 20 W. Our thermal power sensors measure optical powers from 10 µW to 200 W. Compatible C-Series pyroelectric energy sensors can measure energies from 10 µJ to 15 J and repetition rates up to 2 kHz. Note that the ES408C sensor for repetition rates up to 10 kHz, also available below, is not recommended for use with the PM100USB interface, which supports a maximum repetition rate of 3 kHz. Alternatively, other unamplified anode- or cathode-grounded photodiodes with up to 5 mA photocurrent, thermal elements with a maximum output voltage of 1 V, or energy sensors with voltage outputs from 100 mV to 100 V may be used.This interface can be operated and powered by a PC via the mini-USB port. A readout rate of 300 samples per second allows active signal monitoring while the interface is in use.
 keywords: [power meters, Thorlabs, Instrumentkit, Pymeasure]
 slug: /instruments-wiki/power-meters/thorlabs/PM100USB

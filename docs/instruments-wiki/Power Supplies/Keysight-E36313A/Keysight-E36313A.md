@@ -1,5 +1,6 @@
 ---
-title: Keysight E36313A
+title: Connecting to Keysight E36313A by Keysight in Python
+sidebar_label: Keysight E36313A
 description: The triple output, 160 W, E36313A provides small, compact size for bench use; low output ripple and noise; built-in measurements and basic programmable features with USB and LAN, and optional GPIB interfaces.
 keywords: [power supplies, Keysight, Qcodes Community]
 slug: /instruments-wiki/power-supplies/keysight/keysight-e36313a

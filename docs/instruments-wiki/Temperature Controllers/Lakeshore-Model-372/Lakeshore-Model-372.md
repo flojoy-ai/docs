@@ -1,5 +1,6 @@
 ---
-title: Lakeshore Model 372
+title: Connecting to Lakeshore Model 372 by Lakeshore in Python
+sidebar_label: Lakeshore Model 372
 description: The Model 372 AC resistance bridge and temperature controller builds on the solid foundation provided by the original Lake Shore AC resistance bridge. The Model 372 provides the best possible temperature measurement and control capabilities for dilution refrigerators (DRs) that are intended to be operated below 100 mK. The Model 372 makes it easy to perform multiple tasks that were once very difficult to perform reliably at ultra-low temperatures->
 keywords: [power meters, Lakeshore, Qcodes]
 slug: /instruments-wiki/power-meters/lakeshore/lakeshore-model-372

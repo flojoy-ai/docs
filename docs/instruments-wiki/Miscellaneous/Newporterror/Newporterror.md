@@ -1,5 +1,6 @@
 ---
-title: Newporterror
+title: Connecting to Newporterror by Newport in Python
+sidebar_label: Newporterror
 description: Currently no description
 keywords: [miscellaneous, Newport, Instrumentkit]
 slug: /instruments-wiki/miscellaneous/newport/newporterror

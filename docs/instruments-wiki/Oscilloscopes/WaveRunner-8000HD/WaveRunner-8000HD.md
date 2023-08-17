@@ -1,5 +1,6 @@
 ---
-title: WaveRunner 8000HD
+title: Connecting to WaveRunner 8000HD by Teledyne in Python
+sidebar_label: WaveRunner 8000HD
 description: Providing 12 bits all the time, more channels than any other oscilloscope, and long memory without tradeoffs – the WaveRunner 8000HD 8 channel oscilloscope captures every detail.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
 slug: /instruments-wiki/oscilloscopes/teledyne/waverunner-8000hd

@@ -1,5 +1,7 @@
 ---
-title: Lecroydso
+title: Connecting to Lecroydso
+ by Lecroy in Python
+sidebar_label: Lecroydso
 
 description: This Class Allows The Acquisition Of A Waveform (The Description And The Data), From A Specific C...
 keywords: [oscilloscopes, Lecroy, Pytango]

@@ -1,5 +1,6 @@
 ---
-title: Keysight N5245A
+title: Connecting to Keysight N5245A by Keysight in Python
+sidebar_label: Keysight N5245A
 description: The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
 keywords: [network analyzer, Keysight, Qcodes]
 slug: /instruments-wiki/network-analyzer/keysight/keysight-n5245a

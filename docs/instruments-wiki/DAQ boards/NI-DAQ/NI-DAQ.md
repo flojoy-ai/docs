@@ -1,5 +1,6 @@
 ---
-title: NI DAQ
+title: Connecting to NI DAQ by National Instruments in Python
+sidebar_label: NI DAQ
 description: Data acquisition (DAQ) is the process of measuring an electrical or physical phenomenon, such as voltage, current, temperature, pressure, or sound. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software such as LabVIEW.
 keywords: [daq boards, National Instruments, Qcodes Community]
 slug: /instruments-wiki/daq-boards/national instruments/ni-daq

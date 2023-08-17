@@ -1,5 +1,6 @@
 ---
-title: FJ Series
+title: Connecting to FJ Series by Glassman in Python
+sidebar_label: FJ Series
 description: FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0 - 1kVDC to 0 - 60kVDC
 keywords: [power supplies, Glassman, Instrumentkit]
 slug: /instruments-wiki/power-supplies/glassman/fj-series

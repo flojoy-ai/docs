@@ -1,5 +1,6 @@
 ---
-title: Keithley 2000
+title: Connecting to Keithley 2000 by Keithley in Python
+sidebar_label: Keithley 2000
 description: The Model 2000 6_-Digit Multimeter is part of Keithleys family of high performance DMMs. Based on the same high speed, low noise A/D converter technology as the Model 2001 and 2002, the 2000 is a fast, accurate, and highly stable instrument thats as easy to operate as it is to afford. It combines broad measurement ranges with superior accuracy specifications DC voltage from 100nV to 1kV (with 0.002% 90-day basic accuracy) and DC resistance from 100 to 100M (with 0.008% 90-day basic accuracy). Optional switch cards enable multiplexing up to 20 different input signals for multipoint measurement applications.
 keywords: [multimeters, Keithley, Pymeasure, Qcodes]
 slug: /instruments-wiki/multimeters/keithley/keithley-2000

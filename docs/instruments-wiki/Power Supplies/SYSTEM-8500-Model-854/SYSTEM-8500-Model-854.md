@@ -1,5 +1,6 @@
 ---
-title: SYSTEM 8500-Model 854
+title: Connecting to SYSTEM 8500-Model 854 by Danfysik in Python
+sidebar_label: SYSTEM 8500-Model 854
 description: The System 8500 Power Supply program offers the ultrastable Model 854 specially designed for powering magnets in MRI applications
 keywords: [power supplies, Danfysik, Pymeasure]
 slug: /instruments-wiki/power-supplies/danfysik/system-8500-model-854
