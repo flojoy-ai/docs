@@ -4,20 +4,19 @@ The PID node acts like a PID function.
 
     Inputs
     ------
-    default : OrderedPair
+    default : Scalar
         The data to apply the PID function to.
 
     Parameters
     ----------
-    Kp: float
+    Kp : float
         The proprotional PID parameter.
-    Ki: float
+    Ki : float
         The integral PID parameter.
-    Kd: float
+    Kd : float
         The derivative PID parameter.
 
     Returns
     -------
-    OrderedPair
-        x: The x axis equal to the input y axis.
-        y: The y axis which is the PID output.
+    Scalar
+        c: The PID function output.

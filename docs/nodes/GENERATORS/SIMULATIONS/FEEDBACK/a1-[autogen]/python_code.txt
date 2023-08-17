@@ -1,9 +1,14 @@
+from typing import Optional
 from flojoy import flojoy, DataContainer, get_job_result, NodeReference
 
 
 @flojoy
-def FEEDBACK(default: DataContainer, referred_node: NodeReference) -> DataContainer:
+def FEEDBACK(
+    referred_node: NodeReference,
+    default: Optional[DataContainer] = None,
+) -> Optional[DataContainer]:
     
+
     result = get_job_result(referred_node.ref)
     if result:
         return result

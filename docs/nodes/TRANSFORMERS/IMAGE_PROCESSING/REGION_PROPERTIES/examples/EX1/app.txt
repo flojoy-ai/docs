@@ -1,0 +1,74 @@
+{
+    "rfInstance": {
+        "nodes": [
+            {
+                "width": 160,
+                "height": 160,
+                "id": "REGION_PROPERTIES-546889d4-12c5-4469-b56d-b4d72ca84486",
+                "type": "TRANSFORMERS",
+                "data": {
+                    "id": "REGION_PROPERTIES-546889d4-12c5-4469-b56d-b4d72ca84486",
+                    "label": "REGION PROPERTIES",
+                    "func": "REGION_PROPERTIES",
+                    "type": "TRANSFORMERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Grayscale",
+                            "desc": null
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/REGION_PROPERTIES.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 57.98636519255564,
+                    "y": -37.84293365370277
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 57.98636519255564,
+                    "y": -37.84293365370277
+                },
+                "dragging": true
+            }
+        ],
+        "edges": [],
+        "viewport": {
+            "x": 784.8071744337306,
+            "y": 312.46572680974896,
+            "zoom": 1.2233771386554473
+        }
+    },
+    "ctrlsManifest": [
+        {
+            "type": "input",
+            "name": "Slider",
+            "id": "INPUT_PLACEHOLDER",
+            "hidden": false,
+            "minHeight": 1,
+            "minWidth": 2,
+            "layout": {
+                "x": 0,
+                "y": 0,
+                "h": 2,
+                "w": 2,
+                "minH": 1,
+                "minW": 2,
+                "i": "INPUT_PLACEHOLDER"
+            }
+        }
+    ]
+}
