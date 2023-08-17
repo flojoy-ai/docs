@@ -11,7 +11,7 @@ This is a simple introduction to the data types that are used by the Nodes in Fl
 There are a few data types that Flojoy uses. However, not every node can input or output every data type. For example, the `LINSPACE` node outputs one 1-dimensional dataset (aka a Vector), while the `BASIC_OSCILLATOR` node outputs two 1-dimensional datasets (x and y axes, aka an OrderedPair).
 
 ![image](/img/introduction/dtypes1.png)
-*Both can be plotted with the SCATTER and LINE nodes.*
+*Both can be plotted with the `SCATTER` and `LINE` nodes.*
 
 :::info
 The UI could look slightly different in your version of Flojoy. We're constantly improving the UI.
