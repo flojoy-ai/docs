@@ -49,20 +49,21 @@ Newport provides a wide range of photonics technology and products designed to e
 ```python
 import PyTango
 
-# Create a DeviceProxy object to connect to the Newportomega device
+# Create a DeviceProxy object to connect to the Newportomega Miscellaneous device
 device_proxy = PyTango.DeviceProxy("device_name")
 
-# Read a device attribute
+# Use the device_proxy object to interact with the device
+# For example, you can read a device attribute
 attribute_value = device_proxy.read_attribute("attribute_name").value
 
-# Write a device attribute
+# Or you can write a value to a device attribute
 device_proxy.write_attribute("attribute_name", attribute_value)
 
-# Call a device command
-device_proxy.command_inout("command_name")
+# You can also call device commands
+device_proxy.command_inout("command_name", command_argument)
 ```
 
-In the code above, replace "device_name" with the actual name of the Newportomega device you want to connect to. Replace "attribute_name" with the name of the attribute you want to read or write, and replace "command_name" with the name of the command you want to call.
+Replace "device_name" with the actual name of the Newportomega Miscellaneous device you want to connect to. Replace "attribute_name" with the name of the attribute you want to read or write, and replace "command_name" with the name of the command you want to call.
 
 </TabItem>
 </Tabs>

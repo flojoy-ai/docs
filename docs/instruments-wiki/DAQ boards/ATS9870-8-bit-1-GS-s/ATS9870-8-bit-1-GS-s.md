@@ -46,26 +46,30 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 <Tabs>
 <TabItem value="Qcodes" label="Qcodes">
 
-To connect to an ATS9870 board using Qcodes, you can use the following Python script:
+To connect to an ATS9870-8 bit, 1 GS/s DAQ board using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.AlazarTech.ATS9870 import AlazarTechATS9870
 
 # Create an instance of the AlazarTechATS9870 driver
-ats9870 = AlazarTechATS9870('ats9870', dll_path='C:\\WINDOWS\\System32\\ATSApi.dll')
+daq = AlazarTechATS9870('daq', dll_path='C:\\WINDOWS\\System32\\ATSApi.dll')
 
-# Connect to the board
-ats9870.connect()
+# Connect to the DAQ board
+daq.connect('ATS9870')
 
-# Perform operations with the board
+# Print the IDN information of the DAQ board
+print(daq.get_idn())
 
-# Disconnect from the board
-ats9870.disconnect()
+# Set the sample rate to 1 GS/s
+daq.sample_rate(1e9)
+
+# Set other parameters as needed
+
+# Disconnect from the DAQ board
+daq.disconnect()
 ```
 
-This script creates an instance of the `AlazarTechATS9870` driver, specifying the name of the instrument as `'ats9870'` and the path to the ATSApi.dll file. Then, it connects to the board using the `connect()` method and performs any desired operations. Finally, it disconnects from the board using the `disconnect()` method.
-
-Note: Make sure to replace `'C:\\WINDOWS\\System32\\ATSApi.dll'` with the actual path to the ATSApi.dll file on your system.
+This script creates an instance of the `AlazarTechATS9870` driver, connects to the ATS9870-8 bit, 1 GS/s DAQ board, and sets the sample rate to 1 GS/s. You can modify the script to set other parameters or perform data acquisition as required.
 
 </TabItem>
 </Tabs>

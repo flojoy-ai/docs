@@ -155,7 +155,7 @@ is_open = submodule.is_open(1, 1)
 print(f"Channel is open: {is_open}")
 ```
 
-Note: Replace `"main_instrument_name"` with the actual name or address of your Keysight 34980A main instrument.
+Note: Replace `"main_instrument_name"` with the actual name or address of the Keysight 34980A main instrument.
 
 </TabItem>
 </Tabs>

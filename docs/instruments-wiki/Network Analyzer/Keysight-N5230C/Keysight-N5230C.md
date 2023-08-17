@@ -50,8 +50,8 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 import qcodes as qc
 from qcodes.instrument_drivers.Keysight.Keysight_N5230C import Keysight_N5230C
 
-# Create an instance of the N5230C instrument
-n5230c = Keysight_N5230C('n5230c', 'TCPIP0::192.168.1.1::INSTR')
+# Create an instance of the Keysight_N5230C instrument
+n5230c = Keysight_N5230C('n5230c', 'TCPIP0::192.168.1.1::inst0::INSTR')
 
 # Connect to the instrument
 n5230c.connect()
@@ -62,7 +62,7 @@ n5230c.connect()
 n5230c.disconnect()
 ```
 
-Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual IP address or VISA resource string of your N5230C Network Analyzer.
+Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual IP address or VISA resource string of your N5230C Network Analyzer.
 
 </TabItem>
 </Tabs>

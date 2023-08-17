@@ -52,7 +52,7 @@ To connect to a Keithley 2604B Power Supply using Qcodes, you can use the follow
 from qcodes.instrument_drivers.tektronix.Keithley_2600 import Keithley2604B
 
 # Create an instance of the Keithley2604B instrument
-keithley = Keithley2604B('keithley', 'TCPIP0::192.168.1.1::inst0::INSTR')
+keithley = Keithley2604B('keithley', 'TCPIP::192.168.1.1::INSTR')
 
 # Connect to the instrument
 keithley.connect()
@@ -63,7 +63,7 @@ keithley.connect()
 keithley.disconnect()
 ```
 
-In the above script, we import the `Keithley2604B` class from the `qcodes.instrument_drivers.tektronix.Keithley_2600` module. We then create an instance of the `Keithley2604B` instrument, providing a name for the instrument ('keithley') and the connection string ('TCPIP0::192.168.1.1::inst0::INSTR').
+In this script, we import the `Keithley2604B` class from the `qcodes.instrument_drivers.tektronix.Keithley_2600` module. We then create an instance of the `Keithley2604B` instrument, providing a name for the instrument ('keithley') and the connection string ('TCPIP::192.168.1.1::INSTR').
 
 Next, we connect to the instrument using the `connect()` method. You can perform various operations with the instrument, such as setting voltage or current, measuring voltage or current, etc.
 

@@ -77,11 +77,17 @@ instrument.set_temperature(25)
 # Wait for the instrument to settle
 instrument.wait_for_settling()
 
-# Shutdown the instrument
+# Check if the instrument is at temperature
+if instrument.at_temperature():
+    print("The instrument is at temperature")
+else:
+    print("The instrument is not at temperature")
+
+# Stop the instrument
 instrument.shutdown()
 ```
 
-Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual VISA address of the instrument, which can be found using the appropriate VISA resource manager for your system.
+Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual VISA address of the instrument, which can be found using the appropriate VISA resource manager software.
 
 </TabItem>
 </Tabs>

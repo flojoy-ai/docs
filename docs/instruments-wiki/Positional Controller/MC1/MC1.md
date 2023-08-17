@@ -46,24 +46,38 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a MC1 Positional Controller using Instrumentkit, you can use the following Python script:
 
 ```python
-from instrumentkit import qubitekk
+from instrumentkit import SerialConnection
+from instrumentkit import MC1
 
-# Connect to the MC1 Positional Controller
-mc1 = qubitekk.MC1.open_serial('COM8', 19200, timeout=1)
+# Create a serial connection to the MC1 controller
+connection = SerialConnection(port='/dev/ttyUSB0', baudrate=9600)
+mc1 = MC1(connection)
 
-# Now you can use the MC1 object to control the positional controller
-# For example, you can move the controller to a specific position
-mc1.move_to_position(100)
+# Set the stepping increment value
+mc1.increment = 2  # milliseconds
 
-# You can also read the current position of the controller
-position = mc1.get_position()
+# Get the current motor position
+position = mc1.internal_position
 print(f"Current position: {position}")
+
+# Move the motor to a new position
+new_position = 500  # milliseconds
+mc1.move(new_position)
+
+# Check if the motor is centering
+is_centering = mc1.is_centering()
+print(f"Is centering: {is_centering}")
+
+# Reset the motor to its limit
+mc1.reset()
+
+# Close the connection
+connection.close()
 ```
 
-Note: Make sure to replace `'COM8'` with the correct serial port of your MC1 Positional Controller.
+This script demonstrates how to connect to the MC1 controller, set the stepping increment value, get the current motor position, move the motor to a new position, check if the motor is centering, and reset the motor to its limit.
 
 </TabItem>
 </Tabs>

@@ -82,7 +82,7 @@ z_axis.target_position(10)
 anc350.close()
 ```
 
-Note: Make sure to install the necessary dependencies (`qcodes` and `pyanc350`) before running the script.
+Note: Make sure to install the required dependencies (`qcodes` and `pyanc350`) before running the script.
 
 </TabItem>
 </Tabs>

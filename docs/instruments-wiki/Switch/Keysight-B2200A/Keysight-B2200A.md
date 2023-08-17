@@ -66,7 +66,7 @@ switch.disconnect(1, 2)  # Disconnect input channel 1 from output channel 2
 switch.close()
 ```
 
-This script creates an instance of the `KeysightB2200` instrument, specifying the instrument name and address. It then connects to the instrument using the `connect_message()` method. You can perform various operations on the switch, such as connecting and disconnecting input/output pairs using the `connect()` and `disconnect()` methods. Finally, the script closes the connection to the instrument using the `close()` method.
+This script creates an instance of the `KeysightB2200` instrument, specifying the instrument name and address. Then, it connects to the instrument using the `connect_message()` method. After that, you can perform operations on the switch, such as connecting and disconnecting input/output pairs using the `connect()` and `disconnect()` methods. Finally, the connection to the instrument is closed using the `close()` method.
 
 Note: Make sure to replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your Keysight B2200A Switch.
 

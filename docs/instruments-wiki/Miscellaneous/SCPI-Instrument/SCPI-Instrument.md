@@ -46,7 +46,7 @@ All SCPI Instrument
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a SCPI instrument:
+Here is an example Python script that uses Instrumentkit to connect to a SCPI Instrument Miscellaneous:
 
 ```python
 import instrumentkit as ik
@@ -118,7 +118,7 @@ inst.display_contrast = 0.8
 inst.close()
 ```
 
-This script demonstrates how to connect to a SCPI instrument using Instrumentkit and perform various operations such as getting the instrument name, checking the power on status, setting the power line frequency, checking and clearing the error queue, and adjusting the display brightness and contrast.
+This script demonstrates how to connect to a SCPI instrument using Instrumentkit and perform various operations such as getting the instrument name, checking the power on status, setting the power on status, resetting the instrument, getting and setting the display brightness and contrast, and more.
 
 </TabItem>
 </Tabs>

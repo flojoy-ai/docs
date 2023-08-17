@@ -46,9 +46,38 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
+
 ```python
-Unfortunately, the provided documentation is for the Lakeshore 340 cryogenic temperature controller, not the Lakeshore 475 Power Meters. Therefore, I cannot provide you with the code to connect to a Lakeshore 475 Power Meters using Instrumentkit.
+import instrumentkit as ik
+import instrumentkit.devices as ikd
+import instrumentkit.io as iki
+
+# Connect to the Lakeshore 475 Gaussmeter
+device = ikd.Lakeshore475()
+connection = iki.GPIBConnection(device_address=1)
+gaussmeter = ik.Instrument(connection, device)
+
+# Read the field value
+field = gaussmeter.field
+print(f"Field: {field}")
+
+# Set the field units to Tesla
+gaussmeter.field_units = ik.units.tesla
+
+# Set the field setpoint to 0.05 Tesla
+gaussmeter.field_setpoint = 0.05 * ik.units.tesla
+
+# Change the measurement mode
+gaussmeter.change_measurement_mode(
+    mode=gaussmeter.Mode.dc,
+    resolution=4,
+    filter_type=gaussmeter.Filter.wide,
+    peak_mode=gaussmeter.PeakMode.periodic,
+    peak_disp=gaussmeter.PeakDisplay.positive
+)
 ```
+
+Note: This code assumes that you have already installed the Instrumentkit library.
 
 </TabItem>
 </Tabs>

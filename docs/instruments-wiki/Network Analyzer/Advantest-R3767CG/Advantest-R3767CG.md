@@ -107,12 +107,18 @@ This code defines a class `AdvantestR3767CG` that represents the Advantest R3767
 The class has several attributes and methods:
 
 - `id`: This is a measurement attribute that reads the instrument identification using the SCPI command `*IDN?`.
+
 - `center_frequency`: This is a control attribute that allows you to get or set the center frequency of the VNA using the SCPI commands `:FREQ:CENT?` and `:FREQ:CENT %d` respectively. It has a validator `strict_range` that ensures the frequency is within the range of 300,000 Hz to 8,000,000,000 Hz.
+
 - `span_frequency`: This is a control attribute that allows you to get or set the span frequency of the VNA using the SCPI commands `:FREQ:SPAN?` and `:FREQ:SPAN %d` respectively. It has a validator `strict_range` that ensures the frequency is within the range of 1 Hz to 8,000,000,000 Hz.
+
 - `start_frequency`: This is a control attribute that allows you to get or set the starting frequency of the VNA using the SCPI commands `:FREQ:STAR?` and `:FREQ:STAR %d` respectively. It has a validator `strict_range` that ensures the frequency is within the range of 1 Hz to 8,000,000,000 Hz.
+
 - `stop_frequency`: This is a control attribute that allows you to get or set the stopping frequency of the VNA using the SCPI commands `:FREQ:STOP?` and `:FREQ:STOP %d` respectively. It has a validator `strict_range` that ensures the frequency is within the range of 1 Hz to 8,000,000,000 Hz.
+
 - `trace_1`: This is a measurement attribute that reads the data array from trace 1 after formatting using the SCPI command `TRAC:DATA? FDAT1`.
-- `__init__`: This is the constructor method that initializes the AdvantestR3767CG object. It takes an `adapter` argument and an optional `name` argument. It also calls the constructor of the `Instrument` class with the provided arguments. Additionally, it sends the SCPI command `OLDC OFF` to the VNA to set it to operate in IEEE488.2-1987 command mode.
+
+- `__init__`: This is the constructor method of the class. It initializes the `AdvantestR3767CG` object by calling the constructor of the `Instrument` class and passing the adapter and name. It also sends the SCPI command `OLDC OFF` to the VNA to operate in IEEE488.2-1987 command mode.
 
 </TabItem>
 </Tabs>

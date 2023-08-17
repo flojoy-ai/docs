@@ -52,7 +52,8 @@ To connect to a LabMaster 10 Zi-A Oscilloscope using Instrumentkit, you can use 
 import instrumentkit as ik
 
 # Connect to the oscilloscope
-oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
+address = "TCPIP0::192.168.0.1::INSTR"
+oscilloscope = ik.teledyne.LabMaster10ZiA.open_visa(address)
 
 # Perform operations on the oscilloscope
 # For example, you can read the waveform from a channel
@@ -63,7 +64,11 @@ xdat, ydat = channel.read_waveform()
 oscilloscope.close()
 ```
 
-This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then performs operations on the oscilloscope, such as reading the waveform from a channel. Finally, it closes the connection to the oscilloscope.
+This code connects to the oscilloscope using the `open_visa` method from the `ik.teledyne.LabMaster10ZiA` class. You need to provide the appropriate VISA address for your oscilloscope.
+
+Once connected, you can perform various operations on the oscilloscope. In the example code, it reads the waveform from the first channel using the `read_waveform` method of the channel object.
+
+Finally, don't forget to close the connection to the oscilloscope using the `close` method to release any resources.
 
 </TabItem>
 </Tabs>

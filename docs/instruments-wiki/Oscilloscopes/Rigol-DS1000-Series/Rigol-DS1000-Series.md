@@ -47,31 +47,26 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a Rigol DS1000-Series Oscilloscope using Instrumentkit, you can use the following Python script:
 
 ```python
 from instrumentkit import RigolDS1000Series
 
 # Connect to the oscilloscope
-oscilloscope = RigolDS1000Series.connect()
+oscilloscope = RigolDS1000Series("192.168.1.1")  # Replace with the IP address of your oscilloscope
 
-# Access the channels
-channel1 = oscilloscope.channel[0]
-channel2 = oscilloscope.channel[1]
-
-# Set the acquisition type
+# Set the acquisition type to normal
 oscilloscope.acquire_type = RigolDS1000Series.AcquisitionType.normal
 
-# Set the number of averages
+# Set the number of averages to 8
 oscilloscope.acquire_averages = 8
 
-# Force a trigger
+# Trigger the oscilloscope
 oscilloscope.force_trigger()
 
 # Start running the oscilloscope trigger
 oscilloscope.run()
 
-# Stop running the oscilloscope trigger
+# Stop the oscilloscope trigger
 oscilloscope.stop()
 
 # Release any lockout of the local control panel
@@ -81,7 +76,7 @@ oscilloscope.release_panel()
 oscilloscope.disconnect()
 ```
 
-This script connects to the oscilloscope, accesses the channels, sets the acquisition type and number of averages, forces a trigger, starts and stops the oscilloscope trigger, releases any lockout of the local control panel, and finally disconnects from the oscilloscope.
+Note: Replace `"192.168.1.1"` with the actual IP address of your Rigol DS1000-Series Oscilloscope.
 
 </TabItem>
 </Tabs>

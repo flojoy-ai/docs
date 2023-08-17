@@ -94,18 +94,41 @@ keithley.connect()
 # For example, you can set the voltage range
 keithley.rangev(10)  # Set the voltage range to 10V
 
-# You can also read the current value
-current = keithley.curr()  # Read the current value
+# You can also set the current range
+keithley.rangei(1)  # Set the current range to 1A
 
-# Finally, disconnect from the instrument
+# Set the voltage compliance
+keithley.compliancev(5)  # Set the voltage compliance to 5V
+
+# Set the current compliance
+keithley.compliancei(0.1)  # Set the current compliance to 0.1A
+
+# Set the output mode to voltage
+keithley.mode("VOLT")  # Set the mode to voltage
+
+# Set the sense mode to voltage
+keithley.sense("VOLT")  # Set the sense mode to voltage
+
+# Enable the output
+keithley.output("on")  # Turn on the output
+
+# Set the voltage level
+keithley.volt(2)  # Set the voltage level to 2V
+
+# Read the current
+current = keithley.curr()  # Read the current
+
+# Read the resistance
+resistance = keithley.resistance()  # Read the resistance
+
+# Disable the output
+keithley.output("off")  # Turn off the output
+
+# Disconnect from the instrument
 keithley.disconnect()
 ```
 
-In this script, we first import the necessary modules and classes from Qcodes. Then, we create an instance of the `Keithley2400` instrument by providing a name and the instrument's address (in this case, a TCP/IP address). Next, we connect to the instrument using the `connect()` method.
-
-Once connected, we can use the instrument's parameters and methods to control and read measurements from the power supply. In the example, we set the voltage range using the `rangev` parameter and read the current value using the `curr` parameter.
-
-Finally, we disconnect from the instrument using the `disconnect()` method.
+This script creates an instance of the `Keithley2400` instrument and connects to it using the specified address. It then uses the instrument's parameters and methods to control the power supply, set voltage and current ranges, set compliance values, set the output mode and sense mode, enable/disable the output, and read voltage, current, and resistance values. Finally, it disconnects from the instrument.
 
 </TabItem>
 </Tabs>

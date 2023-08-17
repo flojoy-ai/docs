@@ -46,42 +46,39 @@ Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy
 <Tabs>
 <TabItem value="Qcodes Community" label="Qcodes Community">
 
-To connect to a Shamrock 750 spectrometer using Qcodes Community, you can use the following Python script:
+Here is a Python script that uses Qcodes Community to connect to a Shamrock 750 Spectrometer:
 
 ```python
-from qcodes import Station
-from qcodes.instrument_drivers.shamrock.shamrock import Shamrock_SR750
+from qcodes import Station, Instrument
+from qcodes.utils.validators import Ints, Numbers
+from qcodes.instrument_drivers.Andor.Shamrock import Shamrock_SR750
 
-# Create a station to hold the instrument
+# Create a station to hold the instruments
 station = Station()
 
 # Create an instance of the Shamrock_SR750 instrument
 shamrock = Shamrock_SR750('shamrock', dll_path='C:\\Program Files\\Andor SDK\\Shamrock64\\ShamrockCIF.dll', device_id=0)
 
-# Add the instrument to the station
+# Add the Shamrock instrument to the station
 station.add_component(shamrock)
 
-# Connect to the instrument
+# Connect to the Shamrock instrument
 shamrock.connect()
 
-# Now you can use the instrument methods to control the spectrometer
-# For example, to get the current grating:
-grating = shamrock.grating()
+# Print the instrument ID
+print(shamrock.get_idn())
 
-# To set the grating to a specific value:
-shamrock.grating(2)
+# Set the grating to 1
+shamrock.grating(1)
 
-# To get the wavelength:
-wavelength = shamrock.wavelength()
-
-# To set the wavelength:
+# Set the wavelength to 500 nm
 shamrock.wavelength(500)
 
-# Disconnect from the instrument
-shamrock.disconnect()
+# Close the connection to the Shamrock instrument
+shamrock.close()
 ```
 
-Note that you need to provide the correct `dll_path` for the ShamrockCIF.dll file. Also, make sure you have the necessary dependencies installed, such as `qcodes` and `pywin32`.
+Note: Make sure to replace the `dll_path` argument with the correct path to the `ShamrockCIF.dll` file on your system.
 
 </TabItem>
 </Tabs>

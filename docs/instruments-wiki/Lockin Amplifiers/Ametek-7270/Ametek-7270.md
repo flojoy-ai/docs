@@ -78,7 +78,7 @@ lockin.shutdown()
 
 This script connects to the Ametek 7270 Lockin Amplifier using a VISA adapter and sets the instrument to voltage control mode. It then sets the sensitivity to 100 nV and the filter slope to 12 dB/octave. The script reads the X and Y values from the lockin amplifier and prints them. Finally, it shuts down the instrument and closes the connection.
 
-Note: Make sure to install the necessary dependencies (`pymeasure`, `pyvisa`, etc.) before running the script.
+Note: Make sure to install the necessary dependencies (`pymeasure`, `pyvisa`, and `pyvisa-py`) before running the script.
 
 </TabItem>
 </Tabs>

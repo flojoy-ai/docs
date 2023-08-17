@@ -53,15 +53,15 @@ from qcodes.instrument_drivers.tektronix.Keithley_2600 import Keithley2600
 from qcodes.instrument_drivers.tektronix.Keithley_2612B import Keithley2612B
 
 # Create an instance of the Keithley2612B driver
-keithley = Keithley2612B('keithley', 'TCPIP::192.168.1.1::INSTR')
+keithley = Keithley2612B('keithley', 'TCPIP::1.2.3.4::INSTR')
 
 # Connect to the instrument
 keithley.connect()
 
 # Now you can use the Keithley2612B instrument for various operations
 # For example, you can set the voltage and current limits
-keithley.voltage_limit(10)  # Set the voltage limit to 10V
-keithley.current_limit(0.1)  # Set the current limit to 0.1A
+keithley.voltage_limit(10)  # Set the voltage limit to 10 V
+keithley.current_limit(0.1)  # Set the current limit to 0.1 A
 
 # You can also perform measurements
 voltage = keithley.voltage()  # Measure the voltage
@@ -71,7 +71,7 @@ current = keithley.current()  # Measure the current
 keithley.disconnect()
 ```
 
-Note that you need to replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA resource string of your Keithley 2612B Power Supply.
+Note that you need to replace `'TCPIP::1.2.3.4::INSTR'` with the actual address of your Keithley 2612B Power Supply.
 
 </TabItem>
 </Tabs>

@@ -64,11 +64,11 @@ print(shfqc.qachannels())
 # Print the available Scopes
 print(shfqc.scopes())
 
-# Close the connection
+# Close the connection to the SHFQC Qubit Controller
 shfqc.close()
 ```
 
-This code imports the necessary modules and creates an instance of the `SHFQC` instrument driver. You can then use the `sgchannels()`, `qachannels()`, and `scopes()` methods to print the available SGChannels, QAChannels, and Scopes, respectively. Finally, the connection is closed using the `close()` method.
+This code imports the necessary modules and creates an instance of the `SHFQC` instrument driver. You can then use the `sgchannels()`, `qachannels()`, and `scopes()` methods to print the available SGChannels, QAChannels, and Scopes, respectively. Finally, the `close()` method is called to close the connection to the SHFQC Qubit Controller.
 
 </TabItem>
 </Tabs>

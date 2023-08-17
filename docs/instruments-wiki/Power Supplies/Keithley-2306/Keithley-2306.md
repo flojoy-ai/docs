@@ -52,7 +52,7 @@ from pymeasure.adapters import VISAAdapter
 from pymeasure.instruments.keithley import Keithley2306
 
 # Create a VISA adapter for communication
-adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
+adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")  # Replace with your instrument's IP address
 
 # Connect to the Keithley 2306 Power Supply
 power_supply = Keithley2306(adapter)
@@ -61,34 +61,24 @@ power_supply = Keithley2306(adapter)
 power_supply.both_channels_enabled = True
 
 # Set the voltage and current limits for channel 1
-power_supply.ch(1).source_voltage = 5.0
-power_supply.ch(1).source_current_limit = 1.0
+power_supply.ch(1).source_voltage = 5.0  # Set the voltage to 5V
+power_supply.ch(1).source_current_limit = 1.0  # Set the current limit to 1A
 
-# Set the voltage and current limits for channel 2
-power_supply.ch(2).source_voltage = 3.3
-power_supply.ch(2).source_current_limit = 0.5
-
-# Enable the output for both channels
+# Enable channel 1
 power_supply.ch(1).enabled = True
-power_supply.ch(2).enabled = True
 
-# Measure the voltage and current for channel 1
+# Measure the voltage and current on channel 1
 voltage = power_supply.ch(1).measured_voltage
 current = power_supply.ch(1).measured_current
 
-print(f"Channel 1: Voltage = {voltage} V, Current = {current} A")
-
-# Measure the voltage and current for channel 2
-voltage = power_supply.ch(2).measured_voltage
-current = power_supply.ch(2).measured_current
-
-print(f"Channel 2: Voltage = {voltage} V, Current = {current} A")
+print(f"Voltage: {voltage} V")
+print(f"Current: {current} A")
 
 # Disconnect from the power supply
 power_supply.disconnect()
 ```
 
-This script connects to a Keithley 2306 Power Supply using a VISA adapter and sets the voltage and current limits for both channels. It then enables the output for both channels and measures the voltage and current for each channel. Finally, it disconnects from the power supply.
+Make sure to replace `"TCPIP::192.168.1.1::INSTR"` with the appropriate VISA address for your Keithley 2306 Power Supply.
 
 </TabItem>
 </Tabs>

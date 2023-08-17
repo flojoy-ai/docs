@@ -52,7 +52,7 @@ To connect to a Keysight 34411A Multimeter using Qcodes, you can use the followi
 from qcodes.instrument_drivers.Keysight.Keysight_34411A import Keysight_34411A
 
 # Create an instance of the Keysight_34411A driver
-multimeter = Keysight_34411A('multimeter', 'TCPIP0::192.168.1.1::INSTR')
+multimeter = Keysight_34411A(name='multimeter', address='your_device_address')
 
 # Connect to the multimeter
 multimeter.connect()
@@ -63,13 +63,13 @@ multimeter.connect()
 multimeter.disconnect()
 ```
 
-In this script, we import the `Keysight_34411A` driver from the `qcodes.instrument_drivers.Keysight` module. We then create an instance of the driver by providing a name for the instrument and the address of the multimeter (in this case, a TCP/IP address).
+This script imports the `Keysight_34411A` driver from the `qcodes.instrument_drivers.Keysight` module. It then creates an instance of the `Keysight_34411A` driver, specifying a name for the instrument and the address of the device.
 
-After creating the instance, we can connect to the multimeter using the `connect()` method. This establishes the communication with the instrument.
+After creating the instance, you can connect to the multimeter using the `connect()` method. Once connected, you can perform measurements or other operations with the multimeter.
 
-You can then perform measurements or other operations with the multimeter using the methods provided by the driver.
+Finally, you can disconnect from the multimeter using the `disconnect()` method.
 
-Finally, when you are done, you can disconnect from the multimeter using the `disconnect()` method.
+Note: Make sure you replace `'your_device_address'` with the actual address of your Keysight 34411A Multimeter.
 
 </TabItem>
 </Tabs>

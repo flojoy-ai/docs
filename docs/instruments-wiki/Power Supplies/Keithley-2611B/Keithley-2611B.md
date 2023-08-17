@@ -66,8 +66,8 @@ keithley.smua.limiti(0.1)  # Set current limit to 0.1A
 keithley.smua.output(1)  # Turn on the output
 
 # Set the voltage and current levels
-keithley.smua.volt(5)  # Set the voltage to 5V
-keithley.smua.curr(0.05)  # Set the current to 0.05A
+keithley.smua.volt(5)  # Set voltage to 5V
+keithley.smua.curr(0.05)  # Set current to 0.05A
 
 # Measure the voltage and current
 voltage = keithley.smua.volt()

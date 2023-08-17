@@ -46,27 +46,29 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a LPS710E/M Positional Controller:
+To connect to a LPS710E/M Positional Controller using Instrumentkit, you can use the following code:
 
 ```python
-from instrumentkit import Instrument, usb
-
-# Define the USB vendor and product IDs for the LPS710E/M Positional Controller
-vendor_id = 0x04B4
-product_id = 0x00F1
+import instrumentkit as ik
 
 # Connect to the LPS710E/M Positional Controller
-controller = Instrument(usb.USBInstrumentDriver(vendor_id, product_id))
+controller = ik.thorlabs.LPS710EM.open_serial("/dev/ttyUSB0", baud=115200)
 
-# Perform operations on the controller
-# For example, move the controller to position 1000
-controller.send_command("MOV 1000")
+# Get the channel object for channel 1
+channel = controller.channel[0]
 
-# Close the connection to the controller
-controller.close()
+# Enable the channel
+channel.enabled = True
+
+# Move the channel to a specific position
+channel.move(100)  # Move to position 100 (encoder counts)
+
+# Get the current position of the channel
+position = channel.position
+print(f"Current position: {position}")
 ```
 
-Note: This code assumes that you have installed the `instrumentkit` package and imported the necessary modules.
+This code connects to the LPS710E/M Positional Controller using the `open_serial` method, specifying the serial port and baud rate. It then retrieves the channel object for channel 1 and enables it. The channel is then moved to a specific position using the `move` method, and the current position is printed.
 
 </TabItem>
 </Tabs>

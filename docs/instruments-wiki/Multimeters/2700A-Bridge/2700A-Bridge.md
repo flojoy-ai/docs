@@ -83,7 +83,6 @@ bridge.reset()
 
 # Trigger a new measurement
 bridge.trigger()
-
 # Close the connection to the instrument
 bridge.close()
 ```

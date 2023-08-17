@@ -65,7 +65,7 @@ awg.channels[1].amplitude(0.5)  # Set the amplitude of channel 1 to 0.5 V
 awg.disconnect()
 ```
 
-Note that you need to have the Qcodes and Keysight instrument drivers installed for this script to work.
+Note: Make sure you have the necessary dependencies installed, including Qcodes and the Keysight instrument drivers.
 
 </TabItem>
 </Tabs>

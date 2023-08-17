@@ -57,13 +57,13 @@ signal_generator = WaveformGenerator_33XXX('signal_generator', 'TCPIP0::192.168.
 # Connect to the instrument
 signal_generator.connect()
 
-# Now you can use the instrument to control the signal generator
-# For example, you can set the frequency of channel 1 to 1 MHz
-signal_generator.ch1.frequency(1e6)
+# Now you can use the instrument to control the RF Signal Generator
+# For example, you can set the frequency and amplitude of the output channel
+signal_generator.ch1.frequency(1e6)  # Set the frequency to 1 MHz
+signal_generator.ch1.amplitude(0.5)  # Set the amplitude to 0.5 V
 
-# You can also read the current frequency setting
-frequency = signal_generator.ch1.frequency()
-print(f"The current frequency is: {frequency} Hz")
+# You can also enable the output channel
+signal_generator.ch1.output('ON')
 
 # Disconnect from the instrument
 signal_generator.disconnect()

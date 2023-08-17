@@ -50,7 +50,7 @@ Here is a Python script that uses Qcodes Community to connect to a LDA-302P-HN D
 
 ```python
 from qcodes import Station
-from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
+from qcodes.instrument_drivers.vaunix.LDA import LDA
 
 # Create a station to hold the instrument
 station = Station()
@@ -58,20 +58,20 @@ station = Station()
 # Connect to the LDA-302P-HN Digital Attenuator
 lda = LDA('lda', serial_number=302, dll_path='path/to/dll')
 
-# Add the LDA to the station
+# Add the LDA instrument to the station
 station.add_component(lda)
 
-# Print the IDN of the LDA
+# Print the instrument's IDN information
 print(lda.get_idn())
 
-# Set the attenuation to 10 dB on channel 1
-lda.ch1.attenuation(10)
+# Set the attenuation to 10 dB
+lda.attenuation(10)
 
-# Close the connection to the LDA
+# Close the connection to the instrument
 lda.close()
 ```
 
-Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA-302P-HN Digital Attenuator.
+Make sure to replace `'path/to/dll'` with the actual path to the DLL file for the LDA instrument.
 
 </TabItem>
 </Tabs>

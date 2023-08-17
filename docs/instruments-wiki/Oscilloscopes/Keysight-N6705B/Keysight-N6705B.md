@@ -56,19 +56,24 @@ from qcodes.instrument_drivers.Keysight.Keysight_N6705B import Keysight_N6705B
 # Create an instance of the N6705B instrument
 n6705b = Keysight_N6705B('n6705b', 'TCPIP0::192.168.1.1::inst0::INSTR')
 
-# Print the instrument's IDN information
-print(n6705b.get_idn())
+# Connect to the instrument
+n6705b.connect()
+
+# Get the instrument identification
+idn = n6705b.get_idn()
+print(f"Instrument ID: {idn}")
 
 # Set the voltage and current for channel 1
-n6705b.ch1.source_voltage(3.0)
-n6705b.ch1.source_current(0.5)
+n6705b.ch1.source_voltage.set(3.0)
+n6705b.ch1.source_current.set(0.5)
 
 # Enable channel 1
-n6705b.ch1.enable('on')
+n6705b.ch1.enable.set('on')
 
 # Read the voltage and current from channel 1
-voltage = n6705b.ch1.voltage()
-current = n6705b.ch1.current()
+voltage = n6705b.ch1.voltage.get()
+current = n6705b.ch1.current.get()
+print(f"Channel 1 - Voltage: {voltage} V, Current: {current} A")
 
 print(f"Voltage: {voltage} V")
 print(f"Current: {current} A")
@@ -77,14 +82,10 @@ print(f"Current: {current} A")
 n6705b.ch1.enable('off')
 
 # Close the connection to the instrument
-n6705b.close()
+n6705b.disconnect()
 ```
 
-This script creates an instance of the `Keysight_N6705B` instrument, connects to the instrument at the specified address (`TCPIP0::192.168.1.1::inst0::INSTR`), and prints the instrument's IDN information.
-
-It then sets the voltage and current for channel 1, enables channel 1, reads the voltage and current from channel 1, and finally disables channel 1.
-
-Note: Make sure to replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your N6705B Power Supply.
+This script creates an instance of the `Keysight_N6705B` instrument, connects to it using the specified address (replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your instrument), gets the instrument identification, sets the voltage and current for channel 1, enables channel 1, reads the voltage and current from channel 1, and finally disconnects from the instrument.
 
 </TabItem>
 </Tabs>

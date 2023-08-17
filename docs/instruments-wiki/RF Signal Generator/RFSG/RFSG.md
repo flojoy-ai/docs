@@ -50,10 +50,10 @@ Here is an example Python script that uses Qcodes Community to connect to a RFSG
 
 ```python
 import qcodes as qc
-from qcodes.instrument_drivers.ni.NIRFSG import NI_RFSG
+from qcodes_contrib_drivers.drivers.NationalInstruments.NIRFSG import NI_RFSG
 
 # Connect to the RF Signal Generator
-rfsg = NI_RFSG('rfsg', 'PXI1Slot2')
+rfsg = NI_RFSG("rfsg", "PXI1Slot2")
 
 # Print the IDN information
 print(rfsg.get_idn())
@@ -69,7 +69,7 @@ rfsg.output_enabled(True)
 rfsg.close()
 ```
 
-Note: Make sure you have installed the `qcodes` package and the necessary dependencies before running this script.
+Note: Make sure you have installed the `qcodes_contrib_drivers` package before running this script.
 
 </TabItem>
 </Tabs>

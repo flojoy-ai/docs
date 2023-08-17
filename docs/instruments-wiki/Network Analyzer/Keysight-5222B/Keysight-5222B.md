@@ -59,26 +59,18 @@ station = Station()
 na = Keysight_5222B('na', 'TCPIP0::192.168.1.1::inst0::INSTR')
 station.add_component(na)
 
-# Print the available options on the Network Analyzer
-print(na.get_options())
+# Now you can use the `na` object to control the network analyzer
+# For example, you can set the start and stop frequencies
+na.start(1e6)  # Set the start frequency to 1 MHz
+na.stop(1e9)  # Set the stop frequency to 1 GHz
 
-# Set the frequency range
-na.start(1e6)
-na.stop(1e9)
+# You can also read measurements from the network analyzer
+data = na.traces[0].magnitude()  # Read the magnitude of the first trace
 
-# Set the power range
-na._set_power_limits(-30, 10)
+# Print the data
+print(data)
 
-# Enable trace averaging
-na.averages_on()
-
-# Perform a sweep and get the magnitude data
-magnitude_data = na.traces[0].magnitude()
-
-# Print the magnitude data
-print(magnitude_data)
-
-# Disconnect from the Network Analyzer
+# Close the connection to the network analyzer
 na.close()
 ```
 

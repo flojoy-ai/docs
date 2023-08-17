@@ -69,13 +69,13 @@ print(f"Voltage of DAC 1: {voltage} mV")
 ivvi.disconnect()
 ```
 
-In this example, we first import the `IVVI` class from the `qcodes.instrument_drivers.ivvi` module. We then create an instance of the `IVVI` instrument, passing the name of the instrument and the address (ASRL address in this case) as arguments.
+In this example, we first import the `IVVI` class from the `qcodes.instrument_drivers.ivvi` module. We then create an instance of the `IVVI` instrument with a name and the address of the instrument (in this case, 'ASRL1::INSTR').
 
-Next, we connect to the instrument using the `connect()` method. We can then use the instrument's parameters and functions to interact with the IVVI IV Converter. In this example, we set the voltage of DAC 1 to 1000 mV using the `dac1()` parameter and get the voltage of DAC 1 using the same parameter.
+Next, we connect to the instrument using the `connect()` method. We can then use the `dac1()` method to set the voltage of DAC 1 to 1000 mV. We can also use the `dac1()` method without any arguments to get the voltage of DAC 1.
 
 Finally, we disconnect from the instrument using the `disconnect()` method.
 
-Note: Make sure to replace `'ASRL1::INSTR'` with the actual address of your IVVI IV Converter.
+Note: Make sure to replace 'ASRL1::INSTR' with the actual address of your IVVI IV Converter.
 
 </TabItem>
 </Tabs>

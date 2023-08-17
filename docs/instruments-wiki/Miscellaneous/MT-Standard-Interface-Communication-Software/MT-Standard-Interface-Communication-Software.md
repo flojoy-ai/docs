@@ -46,7 +46,7 @@ Mettler Toledo (NYSE: MTD) is a multinational manufacturer of scales and analyti
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a Mettler Toledo balance using the MT Standard Interface Communication Software:
+Here is an example Python script that uses Instrumentkit to connect to a Mettler Toledo balance using the MT Standard Interface Communication Software (MT-SICS):
 
 ```python
 import instrumentkit as ik
@@ -73,7 +73,7 @@ weight_mode = inst.weight_mode
 inst.close()
 ```
 
-Note: This script assumes that you have installed the `instrumentkit` package and imported it as `ik`.
+Note: The code provided assumes that you have installed the `instrumentkit` package and imported it as `ik`.
 
 </TabItem>
 </Tabs>

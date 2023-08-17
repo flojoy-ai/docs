@@ -46,7 +46,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a WavePro HD Oscilloscope using Instrumentkit, you can use the `teledyne.WaveProHD` class. Here's an example script:
+To connect to a WavePro HD Oscilloscope using Instrumentkit, you can use the following code:
 
 ```python
 import instrumentkit as ik
@@ -71,11 +71,13 @@ channel.scale = 1 * ik.units.V
 # Read waveform from the channel
 xdat, ydat = channel.read_waveform()
 
-# Disconnect from the oscilloscope
+# Close the connection to the oscilloscope
 oscilloscope.close()
 ```
 
-This script connects to the oscilloscope at the specified address, starts the trigger in automatic mode, sets the time per division to 20 ns, configures the first channel, reads a waveform from the channel, and finally disconnects from the oscilloscope.
+This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then performs operations on the oscilloscope, such as reading the waveform from a channel. Finally, it closes the connection to the oscilloscope.
+
+Note: Make sure to replace "TCPIP0::192.168.0.10::INSTR" with the actual IP address of your WavePro HD Oscilloscope.
 
 </TabItem>
 </Tabs>

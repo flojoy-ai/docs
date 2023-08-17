@@ -46,32 +46,45 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 <Tabs>
 <TabItem value="Instrumental" label="Instrumental">
 
-Here is a Python script that uses Instrumental to connect to a Newmark - NSC-A1 Motion:
+To connect to a Newmark-NSC-A1 Motion using Instrumental, you can use the following Python script:
 
 ```python
 from instrumental import instrument, list_instruments
 
-# List available instruments
-print(list_instruments())
+# Find the Newmark-NSC-A1 Motion instrument
+instruments = list_instruments()
+newmark_instrument = None
+for instrument in instruments:
+    if 'Newmark-NSC-A1' in instrument:
+        newmark_instrument = instrument
+        break
 
-# Connect to the Newmark - NSC-A1 Motion
-motion = instrument('NSCA1', serial='COM1')
+# Connect to the Newmark-NSC-A1 Motion instrument
+if newmark_instrument:
+    motion = instrument(newmark_instrument)
+    print("Connected to Newmark-NSC-A1 Motion")
+    
+    # Get the current angle of the stage
+    angle = motion.angle
+    print(f"Current angle: {angle}")
 
-# Get the current angle of the stage
-angle = motion.angle
-print(f"Current angle: {angle}")
+    # Rotate the stage clockwise by 90 degrees
+    motion.cw(90)
 
-# Rotate the stage clockwise by 90 degrees
-motion.cw(90)
+    # Set the velocity of the stage to 10 degrees per second
+    motion.velocity = 10
 
-# Set the velocity of the stage to 10 degrees per second
-motion.velocity = 10
-
-# Disconnect from the motion controller
-motion.close()
+    # Disconnect from the motion controller
+    motion.close()
+else:
+    print("Newmark-NSC-A1 Motion not found")
 ```
 
-Note: The `serial` parameter in the `instrument` function should be replaced with the actual serial port of the Newmark - NSC-A1 Motion controller.
+This script first imports the necessary functions from the `instrumental` module. It then uses the `list_instruments()` function to get a list of available instruments. It searches for an instrument with the name containing "Newmark-NSC-A1" and assigns it to the `newmark_instrument` variable.
+
+If a Newmark-NSC-A1 Motion instrument is found, it uses the `instrument()` function to connect to the instrument and assigns it to the `motion` variable. Finally, it prints a message indicating whether the connection was successful or not.
+
+Note: The script assumes that you have already installed the `instrumental` package.
 
 </TabItem>
 </Tabs>

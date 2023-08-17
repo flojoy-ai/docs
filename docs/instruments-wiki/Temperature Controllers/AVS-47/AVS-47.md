@@ -46,24 +46,36 @@ RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for the
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is a Python script that uses Instrumentkit to connect to a AVS 47 Temperature Controllers:
+Here is an example Python script that uses Instrumentkit to connect to a Picowatt AVS 47 resistance bridge:
 
 ```python
 import instrumentkit as ik
 
-# Connect to the AVS 47 Temperature Controller
+# Connect to the AVS 47 resistance bridge
 bridge = ik.picowatt.PicowattAVS47.open_gpibusb('/dev/ttyUSB0', 1)
 
-# Get the resistance of the first sensor
+# Set the input source to actual
+bridge.input_source = bridge.InputSource.actual
+
+# Set the multiplexer channel to 0
+bridge.mux_channel = 0
+
+# Get the resistance of the sensor at channel 0
 resistance = bridge.sensor[0].resistance
 
 # Print the resistance
 print(resistance)
 ```
 
-This script imports the `instrumentkit` module as `ik`. It then uses the `open_gpibusb` method of the `PicowattAVS47` class to connect to the AVS 47 Temperature Controller. The method takes the device path (`'/dev/ttyUSB0'`) and the GPIB address (`1`) as arguments.
+In this script, we first import the `instrumentkit` module as `ik`. Then, we use the `open_gpibusb` method of the `PicowattAVS47` class to connect to the AVS 47 resistance bridge. We pass the serial port path (`/dev/ttyUSB0`) and the GPIB address (1) as arguments to the `open_gpibusb` method.
 
-After connecting to the controller, the script retrieves the resistance of the first sensor by accessing the `resistance` property of the `Sensor` object. Finally, it prints the resistance value.
+Next, we set the input source to actual by assigning the `InputSource.actual` value to the `input_source` property of the `bridge` object.
+
+Then, we set the multiplexer channel to 0 by assigning the value 0 to the `mux_channel` property of the `bridge` object.
+
+Finally, we get the resistance of the sensor at channel 0 by accessing the `resistance` property of the `sensor` object at index 0. We store the resistance in the `resistance` variable and print it.
+
+Note: This script assumes that you have installed the `instrumentkit` library and have the necessary hardware and drivers set up to communicate with the AVS 47 resistance bridge.
 
 </TabItem>
 </Tabs>

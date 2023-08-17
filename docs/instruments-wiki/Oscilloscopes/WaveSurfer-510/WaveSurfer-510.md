@@ -55,16 +55,25 @@ import instrumentkit as ik
 oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
 
 # Perform operations on the oscilloscope
-oscilloscope.run()
-print(oscilloscope.trigger_state)
+# For example, you can set the time division
+oscilloscope.time_div = 200e-9
 
-# Close the connection
+# You can also access and control the channels
+channel = oscilloscope.channel[0]
+channel.trace = True
+channel.coupling = channel.Coupling.dc50
+channel.scale = 1.0
+
+# Read a waveform from the channel
+xdat, ydat = channel.read_waveform()
+
+# Perform other operations as needed
+
+# Close the connection to the oscilloscope
 oscilloscope.close()
 ```
 
-This code imports the `instrumentkit` library and uses the `open_visa` method from the `ik.teledyne.MAUI` module to connect to the oscilloscope. The IP address "192.168.0.10" is used as an example, and you should replace it with the actual IP address of your oscilloscope.
-
-Once connected, you can perform operations on the oscilloscope, such as starting the trigger in automatic mode and printing the trigger state. Finally, you can close the connection to the oscilloscope using the `close` method.
+This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then performs various operations on the oscilloscope, such as setting the time division, accessing and controlling the channels, and reading a waveform from a channel. Finally, it closes the connection to the oscilloscope.
 
 </TabItem>
 </Tabs>

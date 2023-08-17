@@ -49,18 +49,18 @@ TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/
 To connect to a TopMode laser using Instrumentkit, you can use the following Python script:
 
 ```python
-import instrumentkit as ik
+from instrumentkit import toptica
 
 # Connect to the TopMode laser
-tm = ik.toptica.TopMode.open_serial('/dev/ttyUSB0', 115200)
+tm = toptica.TopMode.open_serial('/dev/ttyUSB0', 115200)
 
 # Access laser properties
 print(tm.laser[0].wavelength)
 ```
 
-This script imports the `instrumentkit` module as `ik` and then uses the `open_serial` method of the `TopMode` class to connect to the TopMode laser. The `open_serial` method takes two arguments: the serial port name (`'/dev/ttyUSB0'` in this example) and the baud rate (`115200` in this example).
+This script imports the `toptica` module from Instrumentkit and uses the `TopMode.open_serial()` method to connect to the TopMode laser using the specified serial port and baud rate. The `open_serial()` method returns a `TopMode` object, which can be used to access the properties and methods of the laser.
 
-Once connected, you can access the properties of the laser using the `tm.laser[0]` syntax. In this example, it prints the wavelength of the laser using the `wavelength` property.
+In this example, the script accesses the `wavelength` property of the first laser (`tm.laser[0].wavelength`) and prints its value.
 
 </TabItem>
 </Tabs>

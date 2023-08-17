@@ -57,18 +57,18 @@ lakeshore = Model336("lakeshore", "TCPIP::192.168.1.1::7777::SOCKET")
 # Connect to the instrument
 lakeshore.connect()
 
-# Now you can use the instrument to perform various operations
+# Now you can use the instrument to perform operations
 # For example, you can read the temperature from a sensor
 temperature = lakeshore.temperature()
 
-# You can also set the temperature setpoint
-lakeshore.temperature_setpoint(300)
+# Print the temperature
+print(f"Temperature: {temperature} K")
 
-# Disconnect from the instrument when you're done
+# Disconnect from the instrument
 lakeshore.disconnect()
 ```
 
-Note that you need to replace `"TCPIP::192.168.1.1::7777::SOCKET"` with the actual IP address and port of your Lakeshore Model 336 Temperature Controller.
+Make sure to replace `"TCPIP::192.168.1.1::7777::SOCKET"` with the actual IP address and port of your Lakeshore Model 336 Temperature Controller.
 
 </TabItem>
 </Tabs>

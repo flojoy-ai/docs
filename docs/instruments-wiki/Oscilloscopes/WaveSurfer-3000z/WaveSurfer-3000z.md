@@ -52,21 +52,23 @@ To connect to a WaveSurfer 3000z Oscilloscope using Instrumentkit, you can use t
 import instrumentkit as ik
 
 # Connect to the oscilloscope
-oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
+oscilloscope = ik.teledyne.WaveSurfer3000z.open_visa("TCPIP0::192.168.0.10::INSTR")
 
 # Perform operations on the oscilloscope
-# For example, you can read the waveform from a channel
-channel = oscilloscope.channel[0]
-xdat, ydat = channel.read_waveform()
+oscilloscope.run()
+print(oscilloscope.trigger_state)
 
-# Print the waveform data
-print("X Data:", xdat)
-print("Y Data:", ydat)
+# Close the connection
+oscilloscope.close()
 ```
 
-This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then reads the waveform data from the first channel and prints the X and Y data.
+This code imports the `instrumentkit` library and uses the `open_visa` method of the `WaveSurfer3000z` class to connect to the oscilloscope. You need to replace `"TCPIP0::192.168.0.10::INSTR"` with the actual VISA address of your oscilloscope.
 
-Note: Make sure to replace "TCPIP0::192.168.0.10::INSTR" with the actual IP address of your WaveSurfer 3000z Oscilloscope.
+Once connected, you can perform operations on the oscilloscope. In this example, the `run` method is called to start the oscilloscope's trigger, and then the `trigger_state` property is printed to display the current trigger state.
+
+Finally, the `close` method is called to close the connection to the oscilloscope.
+
+Note: This code assumes that you have already installed the `instrumentkit` library and its dependencies.
 
 </TabItem>
 </Tabs>

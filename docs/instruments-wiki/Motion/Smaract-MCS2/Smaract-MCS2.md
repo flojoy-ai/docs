@@ -48,7 +48,7 @@ In our [Motion](https://www.smaract.com/en/motion) business unit, we develop a
 <Tabs>
 <TabItem value="Instrumental" label="Instrumental">
 
-Here is a Python script that uses Instrumental to connect to a Smaract - MCS2 Motion controller:
+To connect to a Smaract-MCS2 Motion using Instrumental, you can use the following Python script:
 
 ```python
 from instrumental import instrument
@@ -59,18 +59,16 @@ paramsets = list_instruments()
 # Connect to the first instrument in the list
 dev = instrument(paramsets[0])
 
-# Move the device to the home position
+# Perform operations on the connected device
 dev.move_home()
-
 # Check the current position of the device
 pos = dev.check_position()
 print("Current position:", pos)
-
 # Close the connection to the device
 dev.close()
 ```
 
-This script imports the `instrument` function from the `instrumental` module and uses it to connect to the first available instrument in the list obtained from the `list_instruments` function. It then moves the device to the home position using the `move_home` method and checks the current position using the `check_position` method. Finally, it closes the connection to the device using the `close` method.
+This script imports the `instrument` function from the `instrumental` module and uses it to connect to the first instrument in the list returned by the `list_instruments` function. It then performs some operations on the connected device, such as moving the device to its home position and checking its current position. Finally, it closes the connection to the device using the `close` method.
 
 </TabItem>
 </Tabs>

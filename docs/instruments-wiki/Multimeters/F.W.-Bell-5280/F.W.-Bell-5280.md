@@ -54,7 +54,7 @@ from pymeasure.adapters import SerialAdapter
 # Create a SerialAdapter for the instrument
 adapter = SerialAdapter(port='/dev/ttyUSB0', baudrate=2400, timeout=500)
 
-# Create a SerialInstrument for the F.W. Bell 5080 Handheld Gaussmeter
+# Create a SerialInstrument object for the F.W. Bell 5080 Handheld Gaussmeter
 meter = SerialInstrument(adapter, name="F.W. Bell 5080 Handheld Gaussmeter")
 
 # Connect to the instrument
@@ -79,7 +79,7 @@ print(fields.mean(), fields.std())
 meter.close()
 ```
 
-This script connects to the F.W. Bell 5080 Handheld Gaussmeter using a SerialAdapter and creates a SerialInstrument for it. It then sets the measurement units to Gauss and the range to 1 (3 kG). It reads and prints a field measurement in G, samples 100 field measurements, and prints the mean and standard deviation of the samples. Finally, it closes the connection to the instrument.
+This script connects to the F.W. Bell 5080 Handheld Gaussmeter using a SerialAdapter and creates a SerialInstrument object for it. It then sets the measurement units to Gauss and the range to 1 (3 kG). It reads and prints a field measurement in G, samples 100 field measurements, and prints the mean and standard deviation of the samples. Finally, it closes the connection to the instrument.
 
 </TabItem>
 </Tabs>

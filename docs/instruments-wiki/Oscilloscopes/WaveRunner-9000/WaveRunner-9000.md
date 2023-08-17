@@ -55,18 +55,18 @@ import instrumentkit as ik
 oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
 
 # Perform operations on the oscilloscope
-# For example, you can read the waveform from a channel
-channel = oscilloscope.channel[0]
-xdat, ydat = channel.read_waveform()
+oscilloscope.run()
+print(oscilloscope.trigger_state)
 
-# Print the waveform data
-print("X Data:", xdat)
-print("Y Data:", ydat)
+# Close the connection
+oscilloscope.close()
 ```
 
-This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then reads the waveform data from the first channel and prints the X and Y data.
+This code imports the `instrumentkit` module and uses the `open_visa` function from the `ik.teledyne.MAUI` module to connect to the oscilloscope. The IP address "192.168.0.10" is used as an example, and you should replace it with the actual IP address of your oscilloscope.
 
-Note: The IP address used in the code is just an example. You need to replace it with the actual IP address of your WaveRunner 9000 Oscilloscope.
+Once connected, you can perform operations on the oscilloscope, such as starting the trigger in automatic mode and printing the trigger state. Finally, you can close the connection to the oscilloscope using the `close` method.
+
+Note: This code assumes that you have installed the necessary dependencies and have the correct VISA backend configured.
 
 </TabItem>
 </Tabs>

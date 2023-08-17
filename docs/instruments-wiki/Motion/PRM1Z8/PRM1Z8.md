@@ -50,9 +50,10 @@ To connect to a PRM1Z8 Motion using Qcodes Community, you can use the following 
 
 ```python
 from qcodes import Station
-from qcodes.instrument_drivers.Thorlabs import Thorlabs_APT, Thorlabs_PRM1Z8
+from qcodes_contrib_drivers.drivers.Thorlabs.PRM1Z8 import Thorlabs_PRM1Z8
+from qcodes_contrib_drivers.drivers.Thorlabs.APT import Thorlabs_APT
 
-# Create a Thorlabs APT server
+# Create an instance of the Thorlabs APT server
 apt = Thorlabs_APT()
 
 # Connect to the PRM1Z8 polarizer wheel
@@ -73,13 +74,8 @@ print(f"Current position: {position} degrees")
 prm1z8.position(45)
 ```
 
-In this script, we first import the necessary modules from Qcodes. Then, we create a Thorlabs_APT object to serve as the APT server. Next, we create an instance of the Thorlabs_PRM1Z8 instrument, providing the instrument name, device ID, and the APT server object.
+Note that you need to have the `qcodes_contrib_drivers` package installed to use the `Thorlabs_PRM1Z8` and `Thorlabs_APT` classes.
 
-We then create a Station object and add the PRM1Z8 instrument to it. Finally, we connect to the instrument using the `connect` method of the Station object.
-
-After connecting, we can use the instrument's methods and parameters. In this example, we retrieve the current position using the `position` parameter and print it. Then, we set the position to 45 degrees using the `position` parameter.
-
-Note: Make sure you have the necessary dependencies installed, including the Qcodes library and the Thorlabs APT Python package.
 
 </TabItem>
 </Tabs>

@@ -46,26 +46,26 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a Keithley 6220 Power Meter using Instrumentkit, you can use the following Python script:
+To connect to a Keithley 6220 Power Supply using Instrumentkit, you can use the following Python script:
 
 ```python
 import instrumentkit as ik
 
-# Connect to the Keithley 6220 Power Meter
-power_meter = ik.keithley.Keithley6220.open_gpibusb('/dev/ttyUSB0', 12)
+# Connect to the Keithley 6220 Power Supply
+ccs = ik.keithley.Keithley6220.open_gpibusb("/dev/ttyUSB0", 10)
 
-# Perform a measurement
-measurement = power_meter.measure()
+# Set the current to 10mA
+ccs.current = 10 * ik.units.milliamp
 
-# Print the measurement result
-print(measurement)
+# Disable the output and set the current to 0A
+ccs.disable()
 ```
 
-This script imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley6220` class to connect to the Keithley 6220 Power Meter. The `open_gpibusb` method takes the device path (`/dev/ttyUSB0`) and the GPIB address (12) as arguments.
+This script imports the `instrumentkit` module as `ik` and uses the `open_gpibusb` method from the `ik.keithley.Keithley6220` class to connect to the Keithley 6220 Power Supply. The first argument to `open_gpibusb` is the device path (`/dev/ttyUSB0` in this example) and the second argument is the GPIB address (10 in this example).
 
-After connecting to the power meter, the script calls the `measure` method to perform a measurement. The measurement result is stored in the `measurement` variable.
+Once connected, you can use the `current` property to set the output current of the power supply. In this example, it sets the current to 10mA.
 
-Finally, the script prints the measurement result using the `print` function.
+Finally, the `disable` method is called to set the output current to 0A and disable the output.
 
 </TabItem>
 </Tabs>

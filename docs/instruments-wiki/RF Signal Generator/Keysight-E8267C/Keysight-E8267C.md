@@ -73,17 +73,15 @@ signal_generator = KeysightE8267C("signal_generator", "TCPIP0::192.168.1.1::INST
 # Connect to the signal generator
 signal_generator.connect()
 
-# Example usage: Set the frequency to 1 GHz
-signal_generator.frequency(1e9)
-
-# Example usage: Get the current frequency
-current_frequency = signal_generator.frequency()
+# Use the parameters and commands of the signal generator
+frequency = signal_generator.frequency()
+print(f"Current frequency: {frequency} Hz")
 
 # Disconnect from the signal generator
 signal_generator.disconnect()
 ```
 
-Note: Replace `"TCPIP0::192.168.1.1::INSTR"` with the actual address of your Keysight E8267C RF Signal Generator.
+This script creates a custom class `KeysightE8267C` that inherits from `VisaInstrument` provided by Qcodes. It adds parameters and commands specific to the Keysight E8267C RF Signal Generator, such as `frequency`. The script then creates an instance of the `KeysightE8267C` class, connects to the signal generator, retrieves the current frequency, and finally disconnects from the signal generator.
 
 </TabItem>
 </Tabs>

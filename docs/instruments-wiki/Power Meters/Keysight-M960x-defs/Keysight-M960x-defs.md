@@ -68,7 +68,7 @@ power_meter.range_auto(True)
 power = power_meter.power()
 
 # Print the power measurement
-print("Power: {} dBm".format(power))
+print(f"Power: {power} dBm")
 
 # Close the connection to the power meter
 power_meter.close()

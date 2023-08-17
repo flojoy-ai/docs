@@ -46,7 +46,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 <Tabs>
 <TabItem value="Qcodes" label="Qcodes">
 
-Here is a Python script that uses Qcodes to connect to a Keysight 34401A Multimeter:
+To connect to a Keysight 34401A Multimeter using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_344XXA import Keysight_344XXA
@@ -63,7 +63,7 @@ multimeter.connect()
 multimeter.disconnect()
 ```
 
-Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name of your Keysight 34401A Multimeter.
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your multimeter.
 
 </TabItem>
 </Tabs>

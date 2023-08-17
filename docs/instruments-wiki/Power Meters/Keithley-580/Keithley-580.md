@@ -54,19 +54,32 @@ To connect to a Keithley 580 Power Meter using Instrumentkit, you can use the fo
 import instrumentkit as ik
 
 # Connect to the Keithley 580 Power Meter
-power_meter = ik.keithley.Keithley580.open_gpibusb('/dev/ttyUSB0', 12)
+keithley = ik.keithley.Keithley580.open_gpibusb('/dev/ttyUSB0', 1)
 
-# Set the measurement mode to power
-power_meter.mode = power_meter.Mode.power
+# Set the polarity to positive
+keithley.polarity = keithley.Polarity.positive
 
-# Measure the power
-power_measurement = power_meter.measure()
+# Set the drive mode to pulsed
+keithley.drive = keithley.Drive.pulsed
 
-# Print the power measurement
-print(power_measurement)
+# Enable the dry circuit test mode
+keithley.dry_circuit_test = True
+
+# Enable the operate mode
+keithley.operate = True
+
+# Set the input range to auto
+keithley.input_range = "auto"
+
+# Perform a measurement
+measurement = keithley.measure()
+print(f"Resistance: {measurement}")
+
+# Close the connection
+keithley.close()
 ```
 
-This script imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Keithley580` class to connect to the Keithley 580 Power Meter. It then sets the measurement mode to power using the `mode` property and measures the power using the `measure` method. Finally, it prints the power measurement.
+This script connects to the Keithley 580 Power Meter using the `open_gpibusb` method, sets various properties of the instrument such as polarity, drive mode, dry circuit test mode, operate mode, and input range, performs a measurement using the `measure` method, and then closes the connection using the `close` method. The measured resistance is printed to the console.
 
 </TabItem>
 </Tabs>

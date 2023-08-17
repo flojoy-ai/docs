@@ -65,7 +65,7 @@ print("Current temperature: {} °C".format(temperature))
 
 In this script, we first import the `PyTango` module. Then, we define the Tango device name for the Jumoquantrollc Temperature Controller. This device name is in the format `tango://<host>:<port>/<device>`, where `<host>` is the hostname or IP address of the Tango server, `<port>` is the port number of the Tango server, and `<device>` is the device name.
 
-Next, we create a Tango device proxy using the `PyTango.DeviceProxy()` function and pass in the device name. This creates a connection to the Jumoquantrollc Temperature Controller.
+Next, we create a Tango device proxy using the `PyTango.DeviceProxy()` function and pass in the device name. This proxy allows us to interact with the Jumoquantrollc Temperature Controller.
 
 We then use the `read_attribute()` method of the device proxy to read the current temperature attribute of the device. The attribute name is specified as a string, in this case, "Temperature". The `read_attribute()` method returns a `PyTango.AttributeValue` object, from which we extract the value using the `value` attribute.
 

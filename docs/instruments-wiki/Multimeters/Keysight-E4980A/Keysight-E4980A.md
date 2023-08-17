@@ -118,30 +118,34 @@ Select trigger source; accept the values:
 adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")  # Replace with the actual IP address of the instrument
 meter = AgilentE4980(adapter)
 
-# Set the AC voltage level
+# Set the AC voltage level to 10V
 meter.ac_voltage = 10
 
-# Set the AC current level
+# Set the AC current level to 0.05A
 meter.ac_current = 0.05
 
-# Set the frequency
+# Set the frequency to 1kHz
 meter.frequency = 1000
 
-# Set the measurement mode
+# Set the measurement mode to CPD
 meter.mode = "CPD"
 
-# Set the trigger source
+# Set the trigger source to internal
 meter.trigger_source = "INT"
 
-# Perform a frequency sweep
-freq_list = [100, 1000, 10000]
+# Perform a frequency sweep from 1kHz to 10kHz
+freq_list = [1000, 2000, 5000, 10000]
 a_data, b_data = meter.freq_sweep(freq_list)
 
-# Get the impedance measurement
-impedance = meter.impedance
+# Print the measured impedance values
+for freq, a, b in zip(freq_list, a_data, b_data):
+    print(f"Frequency: {freq} Hz, Impedance A: {a}, Impedance B: {b}")
 
-# Set the aperture
-meter.aperture(time="SHORT", averages=10)
+# Set the aperture to medium with 10 averages
+meter.aperture("MED", 10)
+
+# Disconnect from the instrument
+meter.disconnect()
 ```
 
 Please note that you need to replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address of your instrument.
@@ -170,7 +174,7 @@ meter.disconnect()
 
 In this script, we import the `KeysightE4980A` class from the `qcodes.instrument_drivers.Keysight.Keysight_E4980A` module. We then create an instance of the instrument by providing a name and the instrument's address (in this case, a TCP/IP address). We connect to the instrument using the `connect()` method.
 
-We can then perform measurements using the instrument's parameters. In this example, we use the `measure_impedance` parameter to get the impedance measurement. Finally, we disconnect from the instrument using the `disconnect()` method.
+We can then perform measurements using the instrument's parameters and methods. In this example, we use the `measure_impedance` parameter to get the impedance measurement. Finally, we disconnect from the instrument using the `disconnect()` method.
 
 </TabItem>
 </Tabs>

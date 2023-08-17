@@ -46,7 +46,7 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 <Tabs>
 <TabItem value="Qcodes" label="Qcodes">
 
-Here is a Python script that uses Qcodes to connect to an ATS9373 - 12 bit, 4 GS/s DAQ board:
+Here is a Python script that uses Qcodes to connect to an ATS9373-12 bit, 4 GS/s DAQ board:
 
 ```python
 from qcodes.instrument_drivers.AlazarTech.ATS import AlazarTech_ATS
@@ -66,11 +66,16 @@ ats.sample_rate(4_000_000_000)
 
 # Set other parameters as needed
 
-# Close the connection to the board
+# Perform data acquisition
+data = ats.acquire()
+
+# Process the acquired data as needed
+
+# Disconnect from the board
 ats.close()
 ```
 
-This script connects to the ATS9373 board using the `AlazarTechATS9373` driver. It sets the clock source to `INTERNAL_CLOCK` and the sample rate to 4 GS/s. You can set other parameters as needed by calling the corresponding methods on the `ats` object. Finally, the connection to the board is closed using the `close()` method.
+Note that you need to have the `ATSApi.dll` file in the specified path for the script to work.
 
 </TabItem>
 </Tabs>

@@ -88,24 +88,31 @@ class Keysight_J7211(VisaInstrument):
                            initial_value=attenuation)
 
         self.connect_message()
-
-
-# Example usage
-address = "TCPIP::192.168.1.1::INSTR"  # Replace with the actual instrument address
-attenuation_level = 50  # Replace with the desired attenuation level
-
-instrument = Keysight_J7211(name="my_instrument", address=address, attenuation=attenuation_level)
-
-# Now you can use the instrument object to control the Lockin Amplifier
-# For example, to get the current attenuation level:
-current_attenuation = instrument.attenuation()
-
-# To set a new attenuation level:
-new_attenuation = 75
-instrument.attenuation(new_attenuation)
 ```
 
-Make sure to replace the `address` variable with the actual instrument address (e.g., `"TCPIP::192.168.1.1::INSTR"`) and the `attenuation_level` variable with the desired attenuation level.
+This script defines a class `Keysight_J7211` that inherits from `VisaInstrument` in the `qcodes.instrument.visa` module. The class represents the Keysight J7211 Attenuation Control Unit.
+
+To connect to the instrument, you can create an instance of the `Keysight_J7211` class by providing the necessary arguments:
+
+```python
+instrument = Keysight_J7211(name='my_instrument', address='GPIB0::1::INSTR', attenuation=50)
+```
+
+Here, `name` is the name of the instrument, `address` is the address or VISA alias of the instrument, and `attenuation` is an optional parameter to set the attenuation level in dB on startup.
+
+Once the instrument is created, you can access and control its parameters. For example, to get the current attenuation level, you can use:
+
+```python
+attenuation = instrument.attenuation()
+```
+
+To set a new attenuation level, you can use:
+
+```python
+instrument.attenuation(60)
+```
+
+Remember to replace `'GPIB0::1::INSTR'` with the actual address of your instrument.
 
 </TabItem>
 </Tabs>

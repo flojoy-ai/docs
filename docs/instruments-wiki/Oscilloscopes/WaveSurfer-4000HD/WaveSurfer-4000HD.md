@@ -67,13 +67,17 @@ channel.scale = 1.0
 # Read waveform data from the channel
 xdat, ydat = channel.read_waveform()
 
-# Perform other operations as needed
+# Print the waveform data
+print("X Data:", xdat)
+print("Y Data:", ydat)
 
 # Close the connection to the oscilloscope
 oscilloscope.close()
 ```
 
-This code connects to the oscilloscope using the specified VISA address (`"TCPIP0::192.168.0.10::INSTR"`). It then performs various operations on the oscilloscope, such as setting the time division, accessing and controlling the channels, and reading waveform data. Finally, it closes the connection to the oscilloscope.
+This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA protocol. It then reads the waveform data from the first channel and prints the X and Y data.
+
+Note: Make sure to replace "TCPIP0::192.168.0.10::INSTR" with the actual IP address of your WaveSurfer 4000HD Oscilloscope.
 
 </TabItem>
 </Tabs>

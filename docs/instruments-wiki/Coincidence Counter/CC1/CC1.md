@@ -46,31 +46,47 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a CC1 Coincidence Counter using Instrumentkit, you can use the following Python script:
 
 ```python
-from instrumentkit import qubitekk
+import instrumentkit as ik
 
 # Connect to the CC1 Coincidence Counter
-cc1 = qubitekk.CC1.open_serial('COM8', 19200, timeout=1)
+cc1 = ik.qubitekk.CC1.open_serial('COM8', 19200, timeout=1)
 
-# Access the properties and methods of the CC1 Coincidence Counter
-print(cc1.firmware)
-print(cc1.dwell_time)
+# Get the firmware version
+firmware_version = cc1.firmware
+print(f"Firmware version: {firmware_version}")
 
-cc1.dwell_time = 0.5  # Set the dwell time to 0.5 seconds
+# Set the dwell time to 1 second
+cc1.dwell_time = 1
 
-cc1.clear_counts()  # Clear the current total counts on the counters
+# Get the counts of the first channel
+channel_1_count = cc1.channel[0].count
+print(f"Channel 1 count: {channel_1_count}")
 
-# Access the counts of each channel
-for channel in cc1.channel:
-    print(channel.count)
+# Enable the gate
+cc1.gate = True
+
+# Enable the subtract feature
+cc1.subtract = True
+
+# Set the trigger mode to continuous
+cc1.trigger_mode = "continuous"
+
+# Set the coincidence window to 5 ns
+cc1.window = 5
+
+# Set the delay on Channel 1 to 4 ns
+cc1.delay = 4
+
+# Clear the current total counts on the counters
+cc1.clear_counts()
 
 # Disconnect from the CC1 Coincidence Counter
 cc1.close()
 ```
 
-This script imports the `qubitekk` module from Instrumentkit and uses the `open_serial` method to connect to the CC1 Coincidence Counter using the specified serial port and baud rate. It then demonstrates accessing the properties and methods of the CC1 Coincidence Counter, such as getting the firmware version, getting and setting the dwell time, clearing the counts, and accessing the counts of each channel. Finally, it closes the connection to the CC1 Coincidence Counter using the `close` method.
+This script demonstrates how to connect to the CC1 Coincidence Counter, retrieve the firmware version, set various properties such as dwell time, gate, subtract, trigger mode, coincidence window, and delay, as well as clear the counts and disconnect from the instrument.
 
 </TabItem>
 </Tabs>

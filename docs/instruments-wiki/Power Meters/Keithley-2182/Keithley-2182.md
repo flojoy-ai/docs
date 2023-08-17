@@ -52,20 +52,20 @@ To connect to a Keithley 2182 Power Meter using Instrumentkit, you can use the f
 import instrumentkit as ik
 
 # Connect to the Keithley 2182 Power Meter
-power_meter = ik.keithley.Keithley2182.open_gpibusb('/dev/ttyUSB0', 12)
+meter = ik.keithley.Keithley2182.open_gpibusb("/dev/ttyUSB0", 10)
 
 # Perform a measurement
-measurement = power_meter.measure()
+measurement = meter.measure(meter.Mode.voltage_dc)
 
-# Print the measurement result
+# Print the measurement value
 print(measurement)
 ```
 
-This script imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley2182` class to connect to the Keithley 2182 Power Meter. The `open_gpibusb` method takes the device path (`/dev/ttyUSB0`) and the GPIB address (12) as arguments.
+This script imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Keithley2182` class to connect to the Keithley 2182 Power Meter. The first argument of `open_gpibusb` is the device path (`/dev/ttyUSB0` in this example) and the second argument is the GPIB address (10 in this example).
 
-After connecting to the power meter, the script calls the `measure` method to perform a measurement. The measurement result is stored in the `measurement` variable.
+After connecting to the power meter, the script performs a measurement using the `measure` method of the `Keithley2182` class. The measurement mode is specified as `meter.Mode.voltage_dc`, which represents the DC voltage measurement mode.
 
-Finally, the script prints the measurement result using the `print` function.
+Finally, the script prints the measurement value.
 
 </TabItem>
 </Tabs>

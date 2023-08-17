@@ -54,30 +54,30 @@ from pymeasure.instruments import AH2500A
 # Create a VISA adapter for communication
 adapter = VISAAdapter("GPIB0::1::INSTR")
 
-# Connect to the 2500A Bridge Multimeter
+# Connect to the AH2500A instrument
 multimeter = AH2500A(adapter)
 
 # Perform a single capacitance and loss measurement
 capacitance, loss, voltage = multimeter.caplossvolt
 
-# Print the measurement results
+# Print the measurement values
 print(f"Capacitance: {capacitance} pF")
 print(f"Loss: {loss} nS")
 print(f"Voltage: {voltage} V")
 
-# Disconnect from the multimeter
+# Disconnect from the instrument
 multimeter.disconnect()
 ```
 
 Explanation:
-1. Import the necessary modules from Pymeasure.
-2. Create a VISA adapter using the appropriate address for your instrument.
-3. Create an instance of the AH2500A class, passing the adapter as an argument.
-4. Use the `caplossvolt` property of the multimeter object to perform a single capacitance and loss measurement. This property returns a tuple containing the capacitance, loss, and voltage values.
-5. Print the measurement results.
-6. Disconnect from the multimeter using the `disconnect()` method.
+1. We import the necessary modules from Pymeasure: `VISAAdapter` for communication and `AH2500A` for the 2500A Bridge Multimeter instrument.
+2. We create a `VISAAdapter` object, specifying the appropriate address for the instrument. In this example, we assume the instrument is connected via GPIB at address 1.
+3. We create an `AH2500A` object, passing the adapter as an argument to establish the connection.
+4. We use the `caplossvolt` measurement property of the `AH2500A` object to perform a single capacitance and loss measurement. This property returns a tuple of capacitance, loss, and voltage values.
+5. We print the measurement values using f-strings.
+6. We disconnect from the instrument using the `disconnect()` method of the `AH2500A` object.
 
-Note: Make sure to replace `"GPIB0::1::INSTR"` with the correct address for your instrument.
+Note: Make sure you have the necessary dependencies installed, such as `pymeasure`, `pyvisa`, and the appropriate VISA library for your instrument.
 
 </TabItem>
 </Tabs>

@@ -69,7 +69,7 @@ controller.input_A.wait_for_temperature()
 print(controller.input_A.temperature)
 ```
 
-This script first imports the `LakeShore331` class from the `pymeasure.instruments.lakeshore` module. It then creates an instance of the `LakeShore331` class, passing the GPIB address of the temperature controller as the argument.
+This script first imports the `LakeShore331` class from `pymeasure.instruments.lakeshore`. It then creates an instance of the `LakeShore331` class, passing the GPIB address of the temperature controller as the argument.
 
 The script then demonstrates some basic operations with the temperature controller. It prints the current setpoint for output 1, changes the setpoint to 50 K, changes the heater range to 'low' for output 1, waits for the temperature at input A to stabilize, and finally prints the temperature at input A.
 

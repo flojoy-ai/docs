@@ -52,24 +52,32 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 <Tabs>
 <TabItem value="Qcodes" label="Qcodes">
 
+To connect to a Rigol DP832 Power Supply using Qcodes, you can use the following Python script:
+
 ```python
-import qcodes as qc
 from qcodes.instrument_drivers.rigol.DP8xx import RigolDP832
 
 # Create an instance of the RigolDP832 driver
-dp832 = RigolDP832('dp832', 'TCPIP0::192.168.1.10::INSTR')
+power_supply = RigolDP832('power_supply', 'TCPIP0::192.168.1.1::INSTR')
 
-# Connect to the instrument
-dp832.connect()
+# Connect to the power supply
+power_supply.connect()
 
-# Perform operations using the instrument
-# ...
+# Now you can use the power supply to perform various operations
+# For example, to set the voltage of channel 1 to 5V:
+power_supply.ch1.voltage.set(5)
 
-# Disconnect from the instrument
-dp832.disconnect()
+# To turn on channel 2:
+power_supply.ch2.output.set(True)
+
+# To read the current of channel 3:
+current = power_supply.ch3.current.get()
+
+# Disconnect from the power supply
+power_supply.disconnect()
 ```
 
-This code imports the necessary modules and creates an instance of the `RigolDP832` driver. It then connects to the instrument using the specified IP address. You can perform various operations using the `dp832` object, and finally disconnect from the instrument.
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual IP address or VISA resource string of your Rigol DP832 Power Supply.
 
 </TabItem>
 </Tabs>

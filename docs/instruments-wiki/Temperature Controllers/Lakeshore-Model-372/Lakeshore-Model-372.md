@@ -68,7 +68,13 @@ lakeshore.sample_heater.setpoint(300)
 lakeshore.disconnect()
 ```
 
-In this script, we import the necessary modules and create an instance of the `LakeshoreModel372` driver. We then connect to the instrument using the `connect()` method. After that, we can interact with the instrument by calling its methods and parameters. In this example, we print the identification string of the instrument using the `IDN()` method and set the setpoint temperature of the sample heater to 300 K using the `setpoint()` method. Finally, we disconnect from the instrument using the `disconnect()` method.
+In this script, we import the necessary modules and create an instance of the `LakeshoreModel372` driver. We provide the name of the instrument and the address (IP address and port number) of the instrument as arguments to the constructor.
+
+We then connect to the instrument using the `connect()` method. After connecting, we can use the various methods and parameters provided by the driver to interact with the instrument. In this example, we print the identification string of the instrument using the `IDN()` method and set the setpoint temperature of the sample heater to 300 K using the `setpoint()` method.
+
+Finally, we disconnect from the instrument using the `disconnect()` method.
+
+Note: Replace `"TCPIP::192.168.1.1::7777::SOCKET"` with the actual IP address and port number of your Lakeshore Model 372 Temperature Controller.
 
 </TabItem>
 </Tabs>

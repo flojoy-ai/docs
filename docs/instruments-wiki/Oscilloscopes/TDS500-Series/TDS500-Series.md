@@ -46,32 +46,27 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a TDS500 Series Oscilloscope using Instrumentkit, you can use the `tds500.TDS500` class. Here's an example Python script that connects to the oscilloscope and performs a simple measurement:
+To connect to a TDS500 Series Oscilloscope using Instrumentkit, you can use the following Python script:
 
 ```python
-import instrumentkit as ik
+from instrumentkit import tektronix
 
-# Connect to the TDS500 Oscilloscope
-oscilloscope = ik.tektronix.tds500.TDS500.open_gpibusb("/dev/ttyUSB0", 1)
+# Connect to the oscilloscope
+tek = tektronix.TekTDS5xx.open_tcpip('192.168.0.2', 8888)
 
-# Set the timebase and voltage scale
-oscilloscope.timebase = 1e-6  # 1 microsecond per division
-oscilloscope.channel[1].voltage_scale = 0.1  # 0.1 volts per division
+# Access the channels and read waveform data
+channel1 = tek.channel[0]
+x, y = channel1.read_waveform()
 
-# Trigger the oscilloscope
-oscilloscope.trigger()
+# Print the waveform data
+print("X values:", x)
+print("Y values:", y)
 
-# Wait for the acquisition to complete
-oscilloscope.wait_for_acquisition()
-
-# Read the waveform data from channel 1
-waveform = oscilloscope.channel[1].get_waveform()
-
-# Print the first 10 samples of the waveform
-print(waveform[:10])
+# Disconnect from the oscilloscope
+tek.close()
 ```
 
-Note: This code assumes that you have already installed the `instrumentkit` package and its dependencies.
+This script connects to the oscilloscope at IP address '192.168.0.2' and port 8888 using the `open_tcpip` method of the `TekTDS5xx` class. It then accesses the first channel of the oscilloscope using `tek.channel[0]` and reads the waveform data using the `read_waveform` method. Finally, it prints the X and Y values of the waveform and closes the connection to the oscilloscope using the `close` method.
 
 </TabItem>
 </Tabs>

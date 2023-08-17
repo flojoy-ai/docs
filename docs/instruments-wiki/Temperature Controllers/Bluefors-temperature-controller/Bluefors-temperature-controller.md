@@ -72,23 +72,23 @@ bluefors = BlueFors(name='bluefors',
 # Connect to the BlueFors instrument
 bluefors.connect_message()
 
-# Get the temperature and pressure readings
+# Get the temperature of the 50K plate
 temperature_50k_plate = bluefors.temperature_50k_plate()
-temperature_4k_plate = bluefors.temperature_4k_plate()
-pressure_vacuum_can = bluefors.pressure_vacuum_can()
-pressure_pumping_line = bluefors.pressure_pumping_line()
 
-# Print the readings
-print(f"Temperature of 50K plate: {temperature_50k_plate} K")
-print(f"Temperature of 4K plate: {temperature_4k_plate} K")
-print(f"Pressure of vacuum can: {pressure_vacuum_can} mBar")
-print(f"Pressure of pumping line: {pressure_pumping_line} mBar")
+# Get the pressure of the vacuum can
+pressure_vacuum_can = bluefors.pressure_vacuum_can()
+
+# Print the temperature and pressure values
+print(f"Temperature of the 50K plate: {temperature_50k_plate} K")
+print(f"Pressure of the vacuum can: {pressure_vacuum_can} mBar")
 
 # Disconnect from the BlueFors instrument
 bluefors.disconnect()
 ```
 
 Make sure to replace `/path/to/log/folder` with the actual path to the BlueFors log folder on your system. Also, adjust the channel numbers according to your specific setup.
+
+Note: This script assumes that you have already installed the Qcodes Community package and its dependencies.
 
 </TabItem>
 </Tabs>

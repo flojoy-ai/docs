@@ -52,14 +52,14 @@ import PyTango
 # Create a DeviceProxy object to connect to the Orbit 3 Sensor Temperature Sensor
 device_proxy = PyTango.DeviceProxy("device_name")
 
-# Read the temperature value from the sensor
-temperature = device_proxy.read_attribute("attribute_name").value
+# Read the temperature attribute
+temperature = device_proxy.read_attribute("temperature").value
 
 # Print the temperature value
 print("Temperature:", temperature)
 ```
 
-In the code above, replace "device_name" with the actual name of the Orbit 3 Sensor Temperature Sensor device, and replace "attribute_name" with the actual name of the temperature attribute you want to read from the sensor.
+In the code above, replace `"device_name"` with the actual name of the Orbit 3 Sensor Temperature Sensor device. This code connects to the device using PyTango's `DeviceProxy` class, reads the `temperature` attribute, and prints the temperature value.
 
 </TabItem>
 </Tabs>

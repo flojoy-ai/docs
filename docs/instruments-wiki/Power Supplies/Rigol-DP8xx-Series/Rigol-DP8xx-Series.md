@@ -50,36 +50,43 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 Here's an example Python script that uses Qcodes to connect to a Rigol DP8xx-Series Power Supply:
 
 ```python
-from qcodes.instrument.visa import VisaInstrument
-from qcodes.instrument_drivers.rigol.DP8xx import RigolDP8xx
+from qcodes.instrument_drivers.rigol.DP8xx import DP832
 
-# Create an instance of the RigolDP8xx instrument
-rigol = RigolDP8xx("rigol", "USB0::0x1AB1::0x0E11::DP8xxxxxxxxx::INSTR")
+# Create an instance of the DP832 power supply
+power_supply = DP832("power_supply", "USB0::0x1AB1::0x0E11::DP8C203600050::INSTR")
 
-# Connect to the instrument
-rigol.connect()
+# Connect to the power supply
+power_supply.connect()
 
 # Print the installed options
-print(rigol.installed_options())
+print(power_supply.installed_options())
 
 # Set the voltage and current for channel 1
-rigol.ch1.set_voltage(3.0)  # Set the voltage to 3.0V
-rigol.ch1.set_current(0.5)  # Set the current to 0.5A
+power_supply.ch1.set_voltage(3.0)
+power_supply.ch1.set_current(1.0)
 
 # Enable the output for channel 1
-rigol.ch1.state(True)
+power_supply.ch1.state(True)
 
 # Read the measured voltage and current for channel 1
-voltage = rigol.ch1.voltage()
-current = rigol.ch1.current()
-print(f"Measured voltage: {voltage}V")
-print(f"Measured current: {current}A")
+voltage = power_supply.ch1.voltage()
+current = power_supply.ch1.current()
 
-# Disconnect from the instrument
-rigol.disconnect()
+# Print the measured voltage and current
+print(f"Measured Voltage: {voltage} V")
+print(f"Measured Current: {current} A")
+
+# Disconnect from the power supply
+power_supply.disconnect()
 ```
 
-Note: Replace `"USB0::0x1AB1::0x0E11::DP8xxxxxxxxx::INSTR"` with the actual VISA address of your Rigol DP8xx-Series Power Supply.
+This script creates an instance of the `DP832` class from the `qcodes.instrument_drivers.rigol.DP8xx` module. It then connects to the power supply using the specified address (in this case, a USB connection). The installed options are printed using the `installed_options()` method.
+
+The voltage and current for channel 1 are set using the `set_voltage()` and `set_current()` methods. The output for channel 1 is enabled using the `state()` method.
+
+The measured voltage and current for channel 1 are read using the `voltage()` and `current()` methods. The values are then printed.
+
+Finally, the script disconnects from the power supply using the `disconnect()` method.
 
 </TabItem>
 </Tabs>

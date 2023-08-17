@@ -103,23 +103,23 @@ class Fluke7341(Instrument):
                                 )
 ```
 
-The code defines a class `Fluke7341` that represents the compact constant temperature bath from Fluke. It inherits from the `Instrument` class provided by the `pymeasure.instruments` module.
+The provided code defines a class `Fluke7341` that represents a compact constant temperature bath from Fluke. It is a subclass of `Instrument` from the `pymeasure.instruments` module.
 
-The `Fluke7341` class has several methods and properties:
+The class has the following methods:
 
-- `__init__(self, adapter, name="Fluke 7341", **kwargs)`: Initializes the `Fluke7341` object. It sets default values for the timeout and write termination, and calls the parent `Instrument` class constructor.
+1. `__init__(self, adapter, name="Fluke 7341", **kwargs)`: Initializes the `Fluke7341` object. It sets default values for the timeout and write termination, and calls the superclass `Instrument` constructor.
 
-- `read(self)`: Reads the response from the instrument and extracts the value from the response string. The response is expected to be in the format "`type`: `value` `optional information`".
+2. `read(self)`: Reads the response from the instrument and extracts the value from the response string. It splits the response string by ":" and returns the last element.
 
-- `set_point`: Represents the temperature setpoint of the bath. It is an `Instrument.control` property that allows setting and getting the setpoint value. It has a validator to ensure the value is within the range of -40 to 150 °C.
+3. `set_point`: Represents the temperature setpoint control. It is an `Instrument.control` object that allows setting the temperature setpoint. It takes a float value between -40 and 150 as an argument. It also has a validator `strict_range` that ensures the value is within the specified range. The `preprocess_reply` function splits the reply string and returns the first element.
 
-- `unit`: Represents the temperature unit of the bath. It is an `Instrument.control` property that allows setting and getting the unit value. It has a validator to ensure the value is either 'c' for Celsius or 'f' for Fahrenheit.
+4. `unit`: Represents the temperature unit control. It is an `Instrument.control` object that allows setting the temperature unit. It takes a string value 'c' for Celsius or 'f' for Fahrenheit as an argument. It has a validator `strict_discrete_set` that ensures the value is one of the specified options.
 
-- `temperature`: Represents the current temperature of the bath. It is an `Instrument.measurement` property that allows getting the temperature value. It has a preprocess_reply function to extract the temperature value from the response string.
+5. `temperature`: Represents the measurement of the current bath temperature. It is an `Instrument.measurement` object that retrieves the temperature value from the instrument. The `preprocess_reply` function splits the reply string and returns the first element.
 
-- `id`: Represents the instrument model. It is an `Instrument.measurement` property that allows getting the instrument model. It has a cast function to convert the response to a string and a get_process function to format the response string.
+6. `id`: Represents the instrument model identification. It is an `Instrument.measurement` object that retrieves the instrument model from the instrument. The `cast` argument specifies the type of the returned value, and the `get_process` function formats the response string to the desired format.
 
-This code provides a convenient interface to interact with the Fluke 7341 Temperature Controller using the PyMeasure library.
+To use this code, you would need to create an instance of the `Fluke7341` class and provide the appropriate adapter for communication with the instrument. Then, you can use the defined methods to control and measure the temperature bath.
 
 </TabItem>
 </Tabs>

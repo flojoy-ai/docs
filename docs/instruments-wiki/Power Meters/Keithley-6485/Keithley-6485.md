@@ -65,7 +65,7 @@ print(power_measurement)
 device_proxy.disconnect()
 ```
 
-Replace `"device_name"` with the actual name of the Keithley 6485 Power Meter device in your Tango database, and `"attribute_name"` with the name of the attribute you want to read from the device.
+In the code above, replace "device_name" with the actual name of the Keithley 6485 Power Meter device in your Tango database. Replace "attribute_name" with the name of the attribute you want to read from the device, such as "Power" or "Voltage".
 
 </TabItem>
 </Tabs>

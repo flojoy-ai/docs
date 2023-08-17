@@ -54,32 +54,42 @@ import pytango as pt
 pt104 = pt.DeviceProxy("pt104/01")
 
 # Get unit information
-driver_version = pt104.read_attribute("DriverVersion").value
-usb_version = pt104.read_attribute("USBVersion").value
-hardware_version = pt104.read_attribute("HardwareVersion").value
-variant = pt104.read_attribute("Variant").value
-batch_serial = pt104.read_attribute("BatchSerial").value
-cal_date = pt104.read_attribute("CalDate").value
-kernel_driver_version = pt104.read_attribute("KernelDriverVersion").value
+driver_version = pt104.driver_version
+usb_version = pt104.usb_version
+hardware_version = pt104.hardware_version
+variant = pt104.variant
+batch_serial = pt104.batch_serial
+cal_date = pt104.cal_date
+kernel_driver_version = pt104.kernel_driver_version
 
 # Set mains rejection to 50 Hz
-pt104.write_attribute("MainsRejection", 0)
+pt104.set_mains(0)
 
 # Set channel 1 for a PT-100 sensor
-pt104.write_attribute("Channel", 1)
-pt104.write_attribute("DataType", "PT100")
-pt104.write_attribute("NoOfWires", 4)
+pt104.set_channel(1, "PT100", 4)
 
 # Collect data
 num_samples = 30
 data_values = []
 
 for _ in range(num_samples):
-    data_values.append(pt104.read_attribute("Value").value)
+    value = pt104.get_value(1)
+    data_values.append(value / 1000)  # Convert to °C
     pt.sleep(1)
 
+# Plot the data
+import matplotlib.pyplot as plt
+
+plt.plot(range(1, num_samples+1), data_values)
+plt.title("Plot of Temperature vs. Sample")
+plt.xlabel("Sample")
+plt.ylabel("Temperature (°C)")
+plt.legend(["Channel 1"])
+plt.grid(True)
+plt.show()
+
 # Close connection to device
-pt104.command_inout("CloseUnit")
+pt104.close_unit()
 ```
 
 </TabItem>

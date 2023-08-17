@@ -212,7 +212,7 @@ if __name__ == "__main__":
     motor.close()
 ```
 
-This script creates a class `ParkerGV6` that inherits from `SerialInstrument` and represents the Parker Gemini GV6 Servo Motor Controller. It provides methods and properties to interact with the instrument, such as enabling/disabling the motor, setting the angle, moving the motor, and reading the status.
+This script creates a class `ParkerGV6` that inherits from `SerialInstrument` and represents the Parker Gemini GV6 Servo Motor Controller. It provides methods and properties to interact with the instrument, such as enabling/disabling the motor, setting the angle, moving the motor, and reading the motor status.
 
 In the example usage section, it creates an instance of `ParkerGV6` with the serial port specified (replace "COM1" with the actual serial port). It enables the motor, sets the angle to 90 degrees, moves the motor, waits for 5 seconds, stops the motor, disables the motor, and closes the connection.
 

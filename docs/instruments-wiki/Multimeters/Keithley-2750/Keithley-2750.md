@@ -69,7 +69,7 @@ closed_channels = multimeter.closed_channels
 multimeter.close()
 ```
 
-Note: Make sure to replace `"GPIB0::22::INSTR"` with the appropriate address for your instrument.
+Note: Make sure to replace `"GPIB0::22::INSTR"` with the appropriate address of your Keithley 2750 Multimeter.
 
 </TabItem>
 </Tabs>

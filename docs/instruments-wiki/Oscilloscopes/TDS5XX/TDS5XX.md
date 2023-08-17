@@ -67,15 +67,13 @@ print(waveform.data)
 scope.disconnect()
 ```
 
-In this script, we first import the `Scope` class from the `instrumentkit` module. Then, we create an instance of the `Scope` class by passing the instrument's address as a string to the constructor.
+In this example, we first import the `Scope` class from the `instrumentkit` module. Then, we create an instance of the `Scope` class by passing the instrument's address as a string to the constructor.
 
 Next, we set the timebase and voltage scale of the oscilloscope using the `timebase` and `voltage_scale` properties of the `Scope` and `Channel` classes, respectively.
 
-We then acquire a waveform from the oscilloscope using the `acquire_waveform` method of the `Scope` class. This method returns a `Waveform` object that contains the waveform data.
+We then acquire a waveform from the oscilloscope using the `acquire_waveform` method of the `Scope` class. This method returns a `Waveform` object that contains the acquired waveform data.
 
-Finally, we print the waveform data and disconnect from the oscilloscope using the `disconnect` method of the `Scope` class.
-
-Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address or VISA resource string of your TDS5XX Oscilloscope.
+Finally, we print the waveform data using the `data` property of the `Waveform` class, and disconnect from the oscilloscope using the `disconnect` method of the `Scope` class.
 
 </TabItem>
 </Tabs>

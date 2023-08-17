@@ -46,23 +46,50 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Pytango" label="Pytango">
 
+Here's an example of a Python script that uses Pytango to connect to a Pipekeithley Miscellaneous device:
+
 ```python
 import PyTango
 
-# Create a DeviceProxy object to connect to the Pipekeithley device
-device_proxy = PyTango.DeviceProxy("device_name")
+# Define the device name
+device_name = "pipe/keithley/miscellaneous/1"
+
+# Create a PyTango DeviceProxy object
+device_proxy = PyTango.DeviceProxy(device_name)
+
+# Check if the device is online
+if device_proxy.ping():
+    print("Device is online")
+else:
+    print("Device is offline")
 
 # Read a scalar attribute from the device
-attribute_value = device_proxy.read_attribute("attribute_name").value
+attribute_name = "SomeScalarAttribute"
+attribute_value = device_proxy.read_attribute(attribute_name).value
+print(f"{attribute_name}: {attribute_value}")
 
-# Write a value to a scalar attribute of the device
-device_proxy.write_attribute("attribute_name", attribute_value)
+# Write a value to a scalar attribute
+new_value = 42
+device_proxy.write_attribute(attribute_name, new_value)
 
-# Call a command on the device
-device_proxy.command_inout("command_name")
+# Read the attribute again to verify the new value
+attribute_value = device_proxy.read_attribute(attribute_name).value
+print(f"{attribute_name}: {attribute_value}")
 ```
 
-In the code above, replace "device_name" with the actual name of the Pipekeithley device you want to connect to. Replace "attribute_name" with the name of the attribute you want to read or write, and replace "command_name" with the name of the command you want to call on the device.
+In this script, we first import the `PyTango` module. Then, we define the `device_name` variable with the name of the Pipekeithley Miscellaneous device we want to connect to.
+
+Next, we create a `DeviceProxy` object using the `device_name`. This object allows us to interact with the device.
+
+We use the `ping()` method of the `DeviceProxy` object to check if the device is online. If it returns `True`, we print "Device is online", otherwise we print "Device is offline".
+
+We then read a scalar attribute from the device using the `read_attribute()` method of the `DeviceProxy` object. The attribute name is specified in the `attribute_name` variable. The value of the attribute is accessed using the `value` attribute of the returned `AttributeProxy` object.
+
+After that, we write a new value to the scalar attribute using the `write_attribute()` method of the `DeviceProxy` object. The new value is specified in the `new_value` variable.
+
+Finally, we read the attribute again to verify the new value and print it.
+
+Note: Replace `"pipe/keithley/miscellaneous/1"` with the actual device name you want to connect to, and `"SomeScalarAttribute"` with the name of the scalar attribute you want to read/write.
 
 </TabItem>
 </Tabs>

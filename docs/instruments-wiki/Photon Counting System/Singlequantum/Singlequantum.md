@@ -59,18 +59,18 @@ station = Station()
 instrument = WebSQControlqcode('singlequantum', address='localhost', port=12000)
 station.add_component(instrument)
 
-# Set the bias current to 100 uA
-instrument.bias_current.set(100)
+# Set the bias current to 10 uA
+instrument.bias_current(10)
 
 # Enable the detectors
-instrument.detectors.set(True)
+instrument.detectors(True)
 
-# Set the measurement period to 10 ms
-instrument.measurement_periode.set(10)
+# Set the measurement period to 100 ms
+instrument.measurement_periode(100)
 
 # Acquire 5 points
-instrument.npts.set(5)
-counts = instrument.counters.get()
+instrument.npts(5)
+counts = instrument.counters()
 
 # Print the acquired counts
 print(counts)
@@ -79,7 +79,7 @@ print(counts)
 instrument.close()
 ```
 
-In this script, we first create a `Station` object to hold the instrument. Then, we create an instance of the `WebSQControlqcode` class and add it to the station. We can then use the instrument's parameters to interact with the Singlequantum Photon Counting System. In this example, we set the bias current, enable the detectors, set the measurement period, and acquire counts for 5 points. Finally, we print the acquired counts and close the connection to the instrument.
+In this script, we first create a `Station` object to hold the instrument. Then, we create an instance of the `WebSQControlqcode` class and add it to the station. We can then use the instrument's parameters and methods to interact with the Singlequantum Photon Counting System. In this example, we set the bias current, enable the detectors, set the measurement period, and acquire counts for 5 points. Finally, we print the acquired counts and close the connection to the instrument.
 
 </TabItem>
 </Tabs>

@@ -3,7 +3,7 @@ title: Keysight 81110A
 description: Keysight 81110APulse Pattern Generator / 165/330 MHz
 keywords: [function generators, Agilent, Instrumental]
 slug: /instruments-wiki/function-generators/agilent/keysight-81110a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692233752/Instruments/Function%20Generators/Keysight-81110A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250453/Instruments/Function%20Generators/Keysight-81110A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Pulse Pattern Generator / 165/330 MHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692233752/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250453/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -66,9 +66,9 @@ func_gen.frequency = 1000  # Set frequency to 1 kHz
 func_gen.close()
 ```
 
-This script first uses the `list_resources()` function from Instrumental to find all available resources. It then connects to the first resource found, assuming it is the Keysight 81110A Function Generator. You can modify the index `0` in `resources[0]` to connect to a different resource if needed.
+This script first uses the `list_resources()` function from Instrumental to find all available resources. It then connects to the first resource found using the `instrument()` function. You can modify the index `0` in `resources[0]` to connect to a different resource if multiple function generators are available.
 
-Once connected, you can use the `func_gen` object to control the function generator. In the example above, it sets the frequency to 1 kHz by assigning the desired frequency to the `frequency` attribute of the `func_gen` object.
+Once connected, you can use the `func_gen` object to control the function generator. In the example, it sets the frequency to 1 kHz by assigning the desired frequency to the `frequency` attribute of the `func_gen` object.
 
 Finally, the `close()` method is called to close the connection to the function generator.
 

@@ -63,47 +63,48 @@ class QDac2(VisaInstrument):
     def __init__(self, name, address):
         super().__init__(name, address)
 
-        self.channels = ChannelList(self, "Channels", QDac2Channel)
-
-        self.add_parameter(
-            "firmware_version",
-            label="Firmware Version",
-            get_cmd="FIRMWARE?",
-            get_parser=str
-        )
-
-        self.connect_message()
+        # Add channels to the instrument
+        self.channels = ChannelList(self, "Channels", QDac2Channel, snapshotable=False)
+        for i in range(1, 9):
+            channel = QDac2Channel(self, f"ch{i}", i)
+            self.channels.append(channel)
+            self.add_submodule(f"ch{i}", channel)
 ```
 
 3. Create a class for the Qdac 2 Power Supply channel:
 
 ```python
 class QDac2Channel(Parameter):
-    def __init__(self, name, instrument, channel):
-        super().__init__(name, instrument=instrument)
-        self.channel = channel
+    def __init__(self, parent, name, channum):
+        super().__init__(name, label=f"Channel {channum}", unit="V", parent=parent)
+        self.channum = channum
 
     def get_raw(self):
-        return self.instrument.ask(f"GET {self.channel}")
+        return self.instrument.ask(f"get_voltage {self.channum}")
+
+    def set_raw(self, value):
+        self.instrument.write(f"set_voltage {self.channum} {value}")
 ```
 
-4. Create an instance of the Qdac 2 Power Supply and connect to it:
+4. Connect to the Qdac 2 Power Supply:
 
 ```python
 qdac = QDac2("qdac", "TCPIP::192.168.1.1::INSTR")
 qdac.connect()
 ```
 
-5. Access the channels and read their values:
+5. Access and control the channels of the Qdac 2 Power Supply:
 
 ```python
-for channel in qdac.channels:
-    print(f"Channel {channel.channel}: {channel()}")
+channel1 = qdac.channels[0]
+channel1.set(1.0)
+voltage = channel1.get()
+print(voltage)
 ```
 
-Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual address of your Qdac 2 Power Supply.
+Note: Replace "TCPIP::192.168.1.1::INSTR" with the actual IP address of your Qdac 2 Power Supply.
 
-This code provides a basic example of how to connect to a Qdac 2 Power Supply using Qcodes Community. You can extend it to include more functionality and customize it according to your specific requirements.
+This code provides a basic example of how to connect to and control a Qdac 2 Power Supply using Qcodes Community. You can modify and expand upon this code to suit your specific needs.
 
 </TabItem>
 </Tabs>

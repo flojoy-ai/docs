@@ -61,7 +61,7 @@ lda = LDA('lda', serial_number=906, dll_path='path/to/dll')
 # Add the LDA instrument to the station
 station.add_component(lda)
 
-# Print the instrument's IDN
+# Print the IDN of the instrument
 print(lda.get_idn())
 
 # Set the attenuation to 10 dB

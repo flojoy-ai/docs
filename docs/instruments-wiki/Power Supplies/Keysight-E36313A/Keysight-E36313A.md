@@ -62,8 +62,8 @@ idn = power_supply.get_idn()
 print('Instrument ID:', idn)
 
 # Set the voltage and current for channel 1
-power_supply.ch1.source_voltage(5)  # Set voltage to 5V
-power_supply.ch1.source_current(0.5)  # Set current to 0.5A
+power_supply.ch1.source_voltage(5)  # Set the voltage to 5V
+power_supply.ch1.source_current(0.5)  # Set the current to 0.5A
 
 # Enable channel 1
 power_supply.ch1.enable('on')

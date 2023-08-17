@@ -46,10 +46,10 @@ Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC conver
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a FJ Series Power Supply using Instrumentkit, you can use the `GlassmanFR` class from the `instruments.glassman.glassmanfr` module. Here's an example script:
+To connect to a FJ Series Power Supply using Instrumentkit, you can use the `GlassmanFR` class from the provided code. Here's an example script:
 
 ```python
-import instruments as ik
+import instrumentkit as ik
 
 # Connect to the power supply
 psu = ik.glassman.GlassmanFR.open_serial('/dev/ttyUSB0', 9600)
@@ -65,15 +65,15 @@ voltage = psu.voltage
 print(voltage)
 ```
 
-This script first imports the `instruments` module from Instrumentkit. Then, it creates an instance of the `GlassmanFR` class by calling the `open_serial` method and passing the serial port and baud rate as arguments.
+This script first imports the `instrumentkit` module as `ik`. Then, it creates an instance of the `GlassmanFR` class by calling the `open_serial` method and passing the serial port name and baud rate as arguments.
 
-Next, it sets the output voltage of the power supply to 100V by assigning a value to the `voltage` property of the `psu` object.
+Next, it sets the output voltage of the power supply to 100V by assigning the desired voltage value to the `voltage` property of the `psu` object.
 
 After that, it turns on the power supply by assigning `True` to the `output` property of the `psu` object.
 
 Finally, it reads the output voltage by accessing the `voltage` property of the `psu` object and prints the result.
 
-Note that you may need to modify the serial port and baud rate values according to your specific setup.
+Note that you may need to modify the serial port name and baud rate to match your specific setup.
 
 </TabItem>
 </Tabs>

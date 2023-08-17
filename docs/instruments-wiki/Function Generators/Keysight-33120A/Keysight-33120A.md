@@ -51,32 +51,44 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 from pymeasure.adapters import VISAAdapter
 from pymeasure.instruments import HP33120A
 
-# Create a VISA adapter for the instrument
+# Create a VISA adapter for communication
 adapter = VISAAdapter("GPIB0::10::INSTR")
 
-# Connect to the instrument
-instrument = HP33120A(adapter)
+# Connect to the Keysight 33120A Function Generator
+generator = HP33120A(adapter)
 
 # Set the waveform shape to sinusoid
-instrument.shape = 'sinusoid'
+generator.shape = 'sinusoid'
 
 # Set the frequency to 1 kHz
-instrument.frequency = 1000
+generator.frequency = 1000
 
 # Set the amplitude to 1 Vpp
-instrument.amplitude = 1
+generator.amplitude = 1
 
 # Enable the output
-instrument.output = True
+generator.output = True
 
-# Generate a beep
-instrument.beep()
+# Generate a system beep
+generator.beep()
 
 # Disconnect from the instrument
-instrument.disconnect()
+generator.disconnect()
 ```
 
-This script first creates a VISA adapter using the GPIB address of the instrument. Then, it creates an instance of the `HP33120A` class, passing the adapter as an argument. It sets the waveform shape to sinusoid, frequency to 1 kHz, and amplitude to 1 Vpp. It enables the output and generates a beep. Finally, it disconnects from the instrument.
+This script first creates a VISA adapter using the `VISAAdapter` class from Pymeasure. The adapter is initialized with the VISA address of the instrument, which in this case is "GPIB0::10::INSTR".
+
+Then, an instance of the `HP33120A` class is created, passing the adapter as an argument. This represents the Keysight 33120A Function Generator.
+
+The script then sets the waveform shape to sinusoid, frequency to 1 kHz, and amplitude to 1 Vpp using the properties provided by the `HP33120A` class.
+
+Next, the output of the function generator is enabled by setting the `output` property to `True`.
+
+A system beep is generated using the `beep()` method of the function generator.
+
+Finally, the script disconnects from the instrument using the `disconnect()` method.
+
+Note: Make sure to install the necessary dependencies (`pymeasure`, `pyvisa`, etc.) before running the script.
 
 </TabItem>
 </Tabs>

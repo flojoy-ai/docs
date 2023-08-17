@@ -47,32 +47,38 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 <TabItem value="Qcodes" label="Qcodes">
 
 ```python
-from qcodes import Instrument
+from qcodes import Station, Instrument
+from qcodes.instrument_drivers.Keysight.N51x1 import N51x1
 
-# Create an instance of the N51x1 instrument
+# Create a station to hold the instrument
+station = Station()
+
+# Connect to the Keysight N5171B EXG RF Signal Generator
 n5171b = N51x1('n5171b', 'TCPIP0::192.168.1.1::inst0::INSTR')
 
-# Connect to the instrument
-n5171b.connect()
+# Add the instrument to the station
+station.add_component(n5171b)
 
-# Get the IDN information of the instrument
-idn = n5171b.get_idn()
-print(idn)
-
-# Set the power to -10 dBm
-n5171b.power.set(-10)
+# Print the IDN information of the instrument
+print(n5171b.get_idn())
 
 # Set the frequency to 1 GHz
-n5171b.frequency.set(1e9)
+n5171b.frequency(1e9)
+
+# Set the power to -10 dBm
+n5171b.power(-10)
 
 # Enable the RF output
-n5171b.rf_output.set(1)
+n5171b.rf_output(1)
+
+# Disable the pulse modulation
+n5171b.pulse_modulation(0)
 
 # Disconnect from the instrument
-n5171b.disconnect()
+n5171b.close()
 ```
 
-This script connects to a Keysight N5171B EXG RF Signal Generator using the Qcodes library. It retrieves the IDN information of the instrument, sets the power to -10 dBm, sets the frequency to 1 GHz, and enables the RF output. Finally, it disconnects from the instrument.
+This script connects to a Keysight N5171B EXG RF Signal Generator using the Qcodes driver `N51x1`. It creates a station to hold the instrument, connects to the instrument using the instrument's IP address, adds the instrument to the station, and then performs various operations on the instrument such as setting the frequency, power, enabling RF output, and disabling pulse modulation. Finally, it closes the connection to the instrument.
 
 </TabItem>
 </Tabs>

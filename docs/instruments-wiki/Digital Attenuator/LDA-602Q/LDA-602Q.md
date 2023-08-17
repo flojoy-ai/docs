@@ -52,7 +52,7 @@ To connect to a LDA-602Q Digital Attenuator using Qcodes Community, you can use 
 from qcodes import Station
 from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 
-# Create a station to hold the instrument
+# Create a station to hold the instruments
 station = Station()
 
 # Connect to the LDA-602Q Digital Attenuator

@@ -1,15 +1,15 @@
 ---
-title: WaveMaster - SDA -DDA 8 Zi-B
+title: WaveMaster-SDA-DDA 8 Zi-B
 description: The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set needed for today’s high-speed measurements with the ease of use of a standard benchtop oscilloscope. Featuring the highest-speed serial data triggers, the only complete multi-lane serial data analysis and eye diagram solution, and the most comprehensive set of compliance packages, the WaveMaster 8 Zi-B simplifies the most complex testing.
 keywords: [oscilloscopes, Teledyne, Instrumentkit]
-slug: /instruments-wiki/oscilloscopes/teledyne/wavemaster---sda--dda-8-zi-b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107089/Instruments/Oscilloscopes/WaveMaster---SDA--DDA-8-Zi-B/file.png
+slug: /instruments-wiki/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250898/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# WaveMaster - SDA -DDA 8 Zi-B
+# WaveMaster-SDA-DDA 8 Zi-B
 
 ## Instrument Card
 
@@ -21,7 +21,7 @@ The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107089/Instruments/Oscilloscopes/WaveMaster---SDA--DDA-8-Zi-B/file.png" style={{ width: "325px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250898/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png" style={{ width: "325px" }} />
 
 </div>
 
@@ -38,7 +38,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 </ul>
 </details>
 
-## Connect to the WaveMaster - SDA -DDA 8 Zi-B in Python
+## Connect to the WaveMaster-SDA-DDA 8 Zi-B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -46,7 +46,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a WaveMaster / SDA / DDA 8 Zi-B Oscilloscope using Instrumentkit, you can use the following code:
+To connect to a WaveMaster/SDA/DDA 8 Zi-B Oscilloscope using Instrumentkit, you can use the following code:
 
 ```python
 import instrumentkit as ik
@@ -63,9 +63,13 @@ print(oscilloscope.trigger_state)
 oscilloscope.close()
 ```
 
-This code connects to the oscilloscope at the specified address using the `open_visa` method from the `ik.teledyne.MAUI` module. It then performs some operations on the oscilloscope, such as starting the trigger and printing the trigger state. Finally, it closes the connection to the oscilloscope using the `close` method.
+In this code, we first import the `instrumentkit` module as `ik`. Then, we specify the address of the oscilloscope we want to connect to. Next, we use the `open_visa` function from the `ik.teledyne.MAUI` module to establish a connection to the oscilloscope.
 
-Note: Replace `"TCPIP0::192.168.0.10::INSTR"` with the actual IP address or VISA resource string of your oscilloscope.
+Once the connection is established, we can perform operations on the oscilloscope. In this example, we start the oscilloscope by calling the `run` method and then print the current trigger state using the `trigger_state` property.
+
+Finally, we close the connection to the oscilloscope by calling the `close` method.
+
+Note: Make sure to replace the `address` variable with the actual IP address or VISA resource string of your oscilloscope.
 
 </TabItem>
 </Tabs>

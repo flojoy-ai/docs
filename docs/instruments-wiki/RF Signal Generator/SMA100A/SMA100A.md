@@ -46,7 +46,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 <Tabs>
 <TabItem value="Pytango" label="Pytango">
 
-Here's a Python script that uses Pytango to connect to a SMA100A RF Signal Generator:
+Here is a Python script that uses Pytango to connect to a SMA100A RF Signal Generator:
 
 ```python
 import time
@@ -96,7 +96,7 @@ smab.events.on_read_handler = None
 smab = None
 ```
 
-Note: Make sure to replace `'sma100a/inst1'` with the correct Tango device name for your SMA100A RF Signal Generator.
+Please note that you need to have PyTango installed in order to run this script.
 
 </TabItem>
 </Tabs>

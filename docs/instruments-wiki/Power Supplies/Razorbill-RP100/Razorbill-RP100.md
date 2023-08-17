@@ -145,20 +145,20 @@ class razorbillRP100(Instrument):
 
 This code defines a class `razorbillRP100` that represents a Razorbill RP100 strain cell controller. It inherits from the `Instrument` class provided by the `pymeasure.instruments` module.
 
-The class provides various control and measurement properties for interacting with the Razorbill RP100 power supply. Here's a summary of the properties:
+The class provides various control and measurement properties for interacting with the Razorbill RP100 power supply. Here's a breakdown of the properties:
 
-- `output_1`: Controls the output of channel 1. Can be set to `True` or `False` to turn the output on or off.
-- `output_2`: Controls the output of channel 2. Can be set to `True` or `False` to turn the output on or off.
-- `voltage_1`: Sets or queries the output voltage of channel 1. The value should be within the range of -230 to 230.
-- `voltage_2`: Sets or queries the output voltage of channel 2. The value should be within the range of -230 to 230.
-- `slew_rate_1`: Sets or queries the source slew rate in volts/sec of channel 1. The value should be within the range of 0.1 * 10e-3 to 100 * 10e3.
-- `slew_rate_2`: Sets or queries the source slew rate in volts/sec of channel 2. The value should be within the range of 0.1 * 10e-3 to 100 * 10e3.
-- `instant_voltage_1`: Returns the instantaneous output voltage of source one in volts.
-- `instant_voltage_2`: Returns the instantaneous output voltage of source two in volts.
-- `contact_voltage_1`: Returns the voltage present at the front panel output of channel 1 in volts.
-- `contact_voltage_2`: Returns the voltage present at the front panel output of channel 2 in volts.
-- `contact_current_1`: Returns the current present at the front panel output of channel 1 in amps.
-- `contact_current_2`: Returns the current present at the front panel output of channel 2 in amps.
+- `output_1`: A control property that turns the output of channel 1 on or off. It accepts a boolean value and maps it to 1 or 0 in the command string.
+- `output_2`: Similar to `output_1`, but for channel 2.
+- `voltage_1`: A control property that sets or queries the output voltage of channel 1. It accepts a float value within the range [-230, 230].
+- `voltage_2`: Similar to `voltage_1`, but for channel 2.
+- `slew_rate_1`: A control property that sets or queries the source slew rate in volts/sec of channel 1. It accepts a float value within the range [0.1 * 10e-3, 100 * 10e3].
+- `slew_rate_2`: Similar to `slew_rate_1`, but for channel 2.
+- `instant_voltage_1`: A measurement property that returns the instantaneous output of source one in volts.
+- `instant_voltage_2`: Similar to `instant_voltage_1`, but for source two.
+- `contact_voltage_1`: A measurement property that returns the voltage in volts present at the front panel output of channel 1.
+- `contact_voltage_2`: Similar to `contact_voltage_1`, but for channel 2.
+- `contact_current_1`: A measurement property that returns the current in amps present at the front panel output of channel 1.
+- `contact_current_2`: Similar to `contact_current_1`, but for channel 2.
 
 The `razorbillRP100` class also has an `__init__` method that initializes the instrument with the provided adapter and sets a timeout of 20 seconds.
 

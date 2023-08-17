@@ -46,9 +46,26 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a Lakeshore 370 AC resistance bridge using Instrumentkit, you can use the following Python script:
+
 ```python
-Unfortunately, the provided documentation is for the Lakeshore 340 cryogenic temperature controller, not the Lakeshore 370 Power Meters. Therefore, I cannot provide you with the code to connect to a Lakeshore 370 Power Meters using Instrumentkit.
+import instrumentkit as ik
+
+# Connect to the Lakeshore 370 AC resistance bridge
+bridge = ik.lakeshore.Lakeshore370.open_gpibusb('/dev/ttyUSB0', 1)
+
+# Query the resistance of the first channel
+resistance = bridge.channel[0].resistance
+
+# Print the resistance value
+print(resistance)
 ```
+
+This script imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Lakeshore370` class to connect to the Lakeshore 370 AC resistance bridge. The `open_gpibusb` method takes the device path (`'/dev/ttyUSB0'`) and the GPIB address (`1`) as arguments.
+
+After connecting to the bridge, the script queries the resistance of the first channel using the `resistance` property of the `Channel` class. Finally, it prints the resistance value.
+
+Note: Make sure to install the `instrumentkit` package before running this script.
 
 </TabItem>
 </Tabs>

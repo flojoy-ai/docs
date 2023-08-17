@@ -46,11 +46,11 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 <Tabs>
 <TabItem value="Qcodes Community" label="Qcodes Community">
 
-Here is an example Python script that uses Qcodes Community to connect to a LDA-602N Digital Attenuator:
+To connect to a LDA-602N Digital Attenuator using Qcodes Community, you can use the following Python script:
 
 ```python
 from qcodes import Station
-from qcodes.instrument_drivers.vaunix.LDA import LDA
+from qcodes_contrib_drivers.drivers.Vaunix_LDA import LDA
 
 # Create a station to hold the instruments
 station = Station()
@@ -58,16 +58,16 @@ station = Station()
 # Connect to the LDA-602N Digital Attenuator
 lda = LDA('lda', serial_number=602, dll_path='path/to/dll')
 
-# Add the LDA instrument to the station
+# Add the LDA to the station
 station.add_component(lda)
 
-# Print the instrument's IDN information
+# Print the IDN of the LDA
 print(lda.get_idn())
 
 # Set the attenuation to 10 dB
 lda.attenuation(10)
 
-# Close the connection to the instrument
+# Close the connection to the LDA
 lda.close()
 ```
 

@@ -46,9 +46,34 @@ Yokogawa is a leading provider of Industrial Automation and Test and Measurement
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a Yokogawa 7651 Power Supply using Instrumentkit, you can use the following Python script:
+
 ```python
-Unfortunately, the provided code is for a Yokogawa 6370 Optical Spectrum Analyzer, not a Yokogawa 7651 Power Supply. Therefore, I cannot provide you with a Python script using Instrumentkit to connect to a Yokogawa 7651 Power Supply based on the given code.
+import instrumentkit as ik
+
+# Connect to the Yokogawa 7651 Power Supply
+yokogawa = ik.yokogawa.Yokogawa7651.open_gpibusb('/dev/ttyUSB0', 1)
+
+# Set the voltage to 10V
+yokogawa.voltage = 10 * ik.units.V
+
+# Set the current to 50mA
+yokogawa.current = 50 * ik.units.mA
+
+# Enable the output
+yokogawa.channel[0].output = True
+
+# Disable the output
+yokogawa.channel[0].output = False
 ```
+
+This script imports the `instrumentkit` module as `ik` and uses the `open_gpibusb` method of the `Yokogawa7651` class to connect to the power supply. The first argument is the device path (`/dev/ttyUSB0`) and the second argument is the GPIB address (1).
+
+Once connected, you can set the voltage and current using the `voltage` and `current` properties of the `Yokogawa7651` object. The values are specified using the `ik.units` module to provide the units (e.g., `10 * ik.units.V` for 10 volts).
+
+You can also enable or disable the output using the `output` property of the power supply channel. Set it to `True` to enable the output and `False` to disable it.
+
+Note that the script assumes you have already installed the `instrumentkit` package and its dependencies.
 
 </TabItem>
 <TabItem value="Pymeasure" label="Pymeasure">
@@ -63,17 +88,17 @@ yoko = Yokogawa7651("GPIB::1")
 # Apply a current of 1 mA with a compliance voltage of 1 V
 yoko.apply_current(max_current=1e-3, compliance_voltage=1)
 
-# Enable the current output
+# Enable the source
 yoko.enable_source()
 
 # Ramp the current to 5 mA over 0.5 seconds
 yoko.ramp_to_current(5e-3, steps=25, duration=0.5)
 
-# Ramp the current back to 0 mA and disable the output
+# Shutdown the instrument
 yoko.shutdown()
 ```
 
-This script connects to the Yokogawa 7651 Power Supply using the GPIB address "GPIB::1". It applies a current of 1 mA with a compliance voltage of 1 V using the `apply_current()` method. Then, it enables the current output using the `enable_source()` method. Next, it ramps the current to 5 mA over 0.5 seconds using the `ramp_to_current()` method. Finally, it ramps the current back to 0 mA and disables the output using the `shutdown()` method.
+This script connects to the Yokogawa 7651 Power Supply using the GPIB address "GPIB::1". It applies a current of 1 mA with a compliance voltage of 1 V using the `apply_current` method. Then, it enables the source using the `enable_source` method. Next, it ramps the current to 5 mA over 0.5 seconds using the `ramp_to_current` method. Finally, it shuts down the instrument using the `shutdown` method.
 
 Note: Make sure you have the necessary dependencies installed, such as `pymeasure` and the appropriate GPIB driver for your system.
 

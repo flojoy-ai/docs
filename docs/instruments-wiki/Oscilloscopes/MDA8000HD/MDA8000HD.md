@@ -62,11 +62,11 @@ print(oscilloscope.trigger_state)
 oscilloscope.close()
 ```
 
-This code imports the `instrumentkit` module and uses the `open_visa` function from the `ik.teledyne.MAUI` module to connect to the oscilloscope. The IP address "192.168.0.10" is used as an example, and you should replace it with the actual IP address of your oscilloscope.
+This code imports the `instrumentkit` library and uses the `open_visa` function from the `ik.teledyne.MAUI` module to connect to the oscilloscope. The IP address "192.168.0.10" is used as an example, and you should replace it with the actual IP address of your oscilloscope.
 
 Once connected, you can perform operations on the oscilloscope, such as starting the trigger in automatic mode and printing the trigger state. Finally, you can close the connection to the oscilloscope using the `close` method.
 
-Note: This code assumes that you have already installed the necessary dependencies for Instrumentkit and have the correct VISA backend installed.
+Note: This code assumes that you have already installed the necessary dependencies and have the correct VISA backend configured.
 
 </TabItem>
 </Tabs>

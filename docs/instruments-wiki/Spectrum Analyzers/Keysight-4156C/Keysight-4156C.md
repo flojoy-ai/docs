@@ -74,9 +74,9 @@ print(data)
 
 In this example, you would need to replace `"GPIB0::25"` with the appropriate address of your Keysight 4156C Spectrum Analyzer. You would also need to provide a valid JSON configuration file for the `configure` method.
 
-The script connects to the instrument, resets it, configures it using the JSON file, saves the desired data variables, performs a measurement, and then retrieves the measured data as a pandas DataFrame.
+The script connects to the instrument, resets it, configures it using the JSON file, saves the desired data variables, performs a measurement, and retrieves the measured data as a pandas DataFrame. Finally, it prints the data.
 
-Note: This script assumes that you have already installed the `pymeasure` package and its dependencies.
+Note that you may need to install the `pandas` library if it's not already installed. You can do this by running `pip install pandas` in your terminal.
 
 </TabItem>
 </Tabs>

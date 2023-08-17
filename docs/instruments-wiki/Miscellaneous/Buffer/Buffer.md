@@ -46,7 +46,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Pymeasure" label="Pymeasure">
 
-Here is a Python script that uses Pymeasure to connect to a Keithley buffer:
+Here is a Python script that uses Pymeasure to connect to a KeithleyBuffer instrument:
 
 ```python
 import logging
@@ -148,11 +148,9 @@ class KeithleyBuffer:
         self.write(":TRAC:FEED:CONT NEV")
 ```
 
-This script defines a class `KeithleyBuffer` that implements the basic buffering capability found in many Keithley instruments. It uses Pymeasure's `Instrument` class to communicate with the instrument.
+This script defines a class `KeithleyBuffer` that implements the basic buffering capability found in many Keithley instruments. It provides methods to configure the buffer, check if the buffer is full, wait for the buffer to fill, retrieve the buffer data, start, reset, stop, and disable the buffer.
 
-The class has various methods to configure, control, and retrieve data from the buffer. For example, `config_buffer` is used to configure the buffer with a specified number of points and delay. `wait_for_buffer` blocks the program until the buffer is full or a timeout is reached. `buffer_data` returns a numpy array of values from the buffer.
-
-Note that this script only provides the code and explanations for the provided code.
+Note: The script assumes that you have already installed the `pymeasure` package.
 
 </TabItem>
 </Tabs>

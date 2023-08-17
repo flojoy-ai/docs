@@ -127,7 +127,7 @@ The script then creates a VISA adapter using `VISAAdapter("GPIB0::22::INSTR")`, 
 
 An instance of the `KeysightN5767A` class is created using the adapter, and the power supply is opened with `power_supply.open()`.
 
-The script demonstrates some example usage by printing the current range, voltage range, enabling and disabling the power supply, and checking if it is enabled.
+You can then use the properties and methods of the `KeysightN5767A` class to interact with the power supply. In the example usage section, it prints the current range, voltage range, enables and disables the power supply, and checks if it is enabled.
 
 Finally, the connection is closed with `power_supply.close()`.
 

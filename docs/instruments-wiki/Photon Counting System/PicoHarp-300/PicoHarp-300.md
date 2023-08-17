@@ -82,8 +82,8 @@ dev.SetOffset(offset)
 # Get count rates
 countRate0 = dev.GetCountRate(0)
 countRate1 = dev.GetCountRate(1)
-print(f"Count Rate 0: {countRate0} counts/s")
-print(f"Count Rate 1: {countRate1} counts/s")
+print("Count Rate 0: %d/s" % countRate0)
+print("Count Rate 1: %d/s" % countRate1)
 
 # Set stop overflow
 dev.SetStopOverflow(1, 65535)
@@ -100,9 +100,9 @@ dev.StopMeas()
 # Get histogram data
 counts = dev.GetHistogram(0)
 
-# Print total count
-total_count = np.sum(counts)
-print(f"Total Count: {total_count}")
+# Process histogram data
+integralCount = np.sum(counts)
+print("Total Count: %d" % integralCount)
 
 # Close the device
 dev.CloseDevice()

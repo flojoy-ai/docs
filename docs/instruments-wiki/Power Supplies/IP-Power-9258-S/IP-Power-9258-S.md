@@ -70,12 +70,15 @@ station.add_component(power_supply)
 # Connect to the instrument
 power_supply.connect()
 
-# Now you can use the instrument to control the power channels
-# For example, to turn on channel A:
-power_supply.channels.A.power_enabled('on')
+# Access the power channels
+channel_A = power_supply.channels.ChanA
+channel_B = power_supply.channels.ChanB
 
-# To turn off channel B:
-power_supply.channels.B.power_enabled('off')
+# Turn on channel A
+channel_A.power_enabled.set(1)
+
+# Turn off channel B
+channel_B.power_enabled.set(0)
 
 # Disconnect from the instrument
 power_supply.disconnect()

@@ -46,9 +46,28 @@ Newport provides a wide range of photonics technology and products designed to e
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a Newport ESP-301 Positional Controller using Instrumentkit, you can use the following code:
+
 ```python
-Unfortunately, the provided code is for the Newport Agilis Controller AG-UC2, not the Newportesp 301 Positional Controller. Therefore, I cannot provide a Python script using Instrumentkit to connect to the Newportesp 301 Positional Controller based on the provided code.
+from instrumentkit import NewportESP301
+
+# Connect to the controller
+controller = NewportESP301.open_serial("COM3")
+
+# Move the axis to a specific position
+controller.axis[0].move(0.001, absolute=False)
+
+# Close the connection
+controller.close()
 ```
+
+In this code, we first import the `NewportESP301` class from the `instrumentkit` module. Then, we use the `open_serial` method to connect to the controller using the specified serial port (in this case, "COM3").
+
+Next, we can use the `controller.axis` property to access the individual axes of the controller. In this example, we move the first axis (`controller.axis[0]`) by 0.001 units relative to its current position.
+
+Finally, we close the connection to the controller using the `close` method.
+
+Note: Make sure to replace "COM3" with the correct serial port for your setup.
 
 </TabItem>
 </Tabs>

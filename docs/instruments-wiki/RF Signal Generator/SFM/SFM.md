@@ -48,31 +48,31 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 <Tabs>
 <TabItem value="Pymeasure" label="Pymeasure">
 
+To connect to a SFM RF Signal Generator using Pymeasure, you can use the following Python script:
 
 ```python
-from pymeasure.instruments.rohde_schwarz import SFM
 from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.rf import SFM
 
 # Create a VISA adapter for communication
-adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
+adapter = VISAAdapter("GPIB::1::INSTR")
 
 # Connect to the SFM RF Signal Generator
 signal_generator = SFM(adapter)
 
-# Set the frequency to 100 MHz
-signal_generator.frequency = 100E6
+# Perform operations on the signal generator
+signal_generator.frequency = 100E6  # Set the frequency to 100 MHz
+signal_generator.level = -10  # Set the output level to -10 dBm
 
-# Set the output level to -10 dBm
-signal_generator.level = -10
-
-# Enable the RF output
-signal_generator.rf_out_enabled = True
-
-# Disconnect from the SFM RF Signal Generator
+# Disconnect from the signal generator
 signal_generator.disconnect()
 ```
 
-This script connects to the SFM RF Signal Generator using a VISA adapter and sets the frequency to 100 MHz and the output level to -10 dBm. It then enables the RF output and disconnects from the signal generator.
+This script creates a `VISAAdapter` object to establish a connection with the SFM RF Signal Generator using the GPIB interface. Then, it creates an `SFM` object with the adapter to interact with the instrument.
+
+You can perform various operations on the `signal_generator` object, such as setting the frequency and output level. Finally, you can disconnect from the signal generator using the `disconnect()` method.
+
+Note: Make sure to replace the GPIB address in the `VISAAdapter` constructor with the correct address for your instrument.
 
 </TabItem>
 </Tabs>

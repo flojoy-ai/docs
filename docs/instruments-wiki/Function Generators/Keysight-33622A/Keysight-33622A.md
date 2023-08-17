@@ -58,18 +58,17 @@ instrument = WaveformGenerator_33XXX('my_instrument', 'TCPIP0::192.168.1.1::INST
 instrument.connect()
 
 # Now you can use the instrument to control the function generator
-# For example, you can set the frequency of channel 1 to 1 MHz
+# For example, to set the frequency of channel 1 to 1 MHz:
 instrument.ch1.frequency(1e6)
 
-# You can also read the current frequency setting
-frequency = instrument.ch1.frequency()
-print(f"The current frequency is: {frequency} Hz")
+# To turn on the output of channel 1:
+instrument.ch1.output('ON')
 
-# Disconnect from the instrument
+# To disconnect from the instrument:
 instrument.disconnect()
 ```
 
-Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name of your Keysight 33622A Function Generator.
+Note that you need to replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name of your instrument.
 
 </TabItem>
 </Tabs>

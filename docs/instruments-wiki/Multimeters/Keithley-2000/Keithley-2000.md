@@ -114,9 +114,7 @@ print("Measured value:", value)
 keithley.disconnect()
 ```
 
-This script creates an instance of the `Keithley_2000` driver and connects to the instrument using the specified address (`TCPIP0::192.168.1.1::INSTR`). It then sets various parameters such as mode, range, auto range, and NPLC, triggers a measurement, and reads the measured value.
-
-Note: Make sure to replace `"TCPIP0::192.168.1.1::INSTR"` with the actual address of your Keithley 2000 Multimeter.
+This script creates an instance of the `Keithley_2000` driver and connects to the instrument using the specified address. It then sets various parameters such as mode, range, auto range, and NPLC. It triggers a measurement and reads the measured value using the `amplitude` parameter. Finally, it disconnects from the instrument.
 
 </TabItem>
 </Tabs>

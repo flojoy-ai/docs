@@ -56,15 +56,18 @@ from pymeasure.instruments.keithley import Keithley2450
 adapter = VISAAdapter("GPIB::1")
 keithley = Keithley2450(adapter)
 
-# Configure the instrument
-keithley.apply_current()
+# Enable the source and set the current range
+keithley.enable_source()
 keithley.source_current_range = 10e-3
+
+# Set the compliance voltage and source current
 keithley.compliance_voltage = 10
 keithley.source_current = 0
-keithley.enable_source()
 
-# Perform measurements
+# Measure voltage
 keithley.measure_voltage()
+
+# Ramp the current to 5 mA and print the voltage
 keithley.ramp_to_current(5e-3)
 print(keithley.voltage)
 
@@ -72,7 +75,7 @@ print(keithley.voltage)
 keithley.shutdown()
 ```
 
-This script connects to the Keithley 2450 Power Supply using a VISA adapter with the GPIB address "GPIB::1". It then configures the instrument to apply a current, sets the current range, compliance voltage, and source current. It enables the source output and performs voltage measurements. It ramps the current to 5 mA and prints the measured voltage. Finally, it shuts down the instrument by ramping the current to 0 mA and disabling the output.
+This script connects to the Keithley 2450 Power Supply using a VISA adapter with the address "GPIB::1". It enables the source, sets the current range to 10 mA, sets the compliance voltage to 10 V, and sets the source current to 0 mA. It then measures the voltage, ramps the current to 5 mA, and prints the voltage. Finally, it shuts down the instrument.
 
 </TabItem>
 <TabItem value="Qcodes" label="Qcodes">
@@ -84,7 +87,7 @@ import qcodes as qc
 from qcodes.instrument_drivers.tektronix.Keithley_2450 import Keithley_2450
 
 # Connect to the Keithley 2450 Power Supply
-keithley = Keithley_2450("keithley", "TCPIP0::192.168.1.1::INSTR")
+keithley = Keithley_2450("keithley", "TCPIP::192.168.1.1::INSTR")
 
 # Print the instrument ID
 print(keithley.IDN())
@@ -92,24 +95,29 @@ print(keithley.IDN())
 # Set the source function to voltage
 keithley.source_function("voltage")
 
-# Set the voltage to 1V
-keithley.source_voltage(1)
+# Set the voltage range to 10V
+keithley.source.voltage.range(10)
+
+# Set the voltage to 5V
+keithley.source.voltage(5)
 
 # Enable the output
 keithley.output_enabled(True)
 
 # Measure the current
-current = keithley.sense_current()
-print(f"Current: {current} A")
+current = keithley.sense.current()
+
+# Print the measured current
+print(f"Measured current: {current} A")
 
 # Disable the output
 keithley.output_enabled(False)
 
-# Close the connection
+# Close the connection to the instrument
 keithley.close()
 ```
 
-Make sure to replace `"TCPIP0::192.168.1.1::INSTR"` with the actual IP address or VISA resource string of your Keithley 2450 Power Supply.
+Make sure to replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address or VISA resource string of your Keithley 2450 Power Supply.
 
 </TabItem>
 </Tabs>

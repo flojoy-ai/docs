@@ -59,29 +59,24 @@ station = Station()
 zvl13 = ZVL13('zvl13', 'TCPIP0::192.168.1.1::inst0::INSTR')
 station.add_component(zvl13)
 
-# Print the available parameters of the ZVL 13 Network Analyzer
+# Print the available parameters and functions of the ZVL 13
 print(zvl13.parameters)
+print(zvl13.functions)
 
-# Set the start frequency to 1 GHz
-zvl13.start(1e9)
+# Set the start frequency, stop frequency, and number of points
+zvl13.start(1e6)
+zvl13.stop(1e9)
+zvl13.npts(101)
 
-# Set the stop frequency to 10 GHz
-zvl13.stop(10e9)
+# Perform a frequency sweep and get the magnitude and phase data
+mag, phase = zvl13.trace_mag_phase()
 
-# Set the number of points to 1001
-zvl13.npts(1001)
+# Print the magnitude and phase data
+print(mag)
+print(phase)
 
-# Set the power to -10 dBm
-zvl13.power(-10)
-
-# Set the measurement format to magnitude
-zvl13.format('magnitude')
-
-# Perform a frequency sweep and get the data
-data = zvl13.trace()
-
-# Print the acquired data
-print(data)
+# Disconnect from the instruments
+zvl13.close()
 ```
 
 Note: Replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your ZVL 13 Network Analyzer.

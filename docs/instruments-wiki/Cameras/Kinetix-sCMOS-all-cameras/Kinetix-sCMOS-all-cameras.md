@@ -42,13 +42,10 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
-
 <Tabs>
 <TabItem value="Instrumental" label="Instrumental">
 
-Unfortunately, the given code does not provide any implementation for connecting to a Kinetix sCMOS-all_cameras camera using Instrumental. The code is specific to Photometrics cameras and the PVCam driver.
-
-To connect to a Kinetix sCMOS-all_cameras camera using Instrumental, you would need to find or develop a specific driver for that camera model. The driver should provide the necessary functions and methods to communicate with the camera and retrieve image data.
+To connect to a Kinetix sCMOS camera using Instrumental, you would need to find or develop a separate driver specifically for that camera model. The driver would need to implement the necessary functions and communication protocols to interact with the camera.
 
 Once you have the driver, you can use Instrumental's `Instrument` class to connect to the camera and interact with it. Here's an example of how you can connect to a Kinetix sCMOS-all_cameras camera using Instrumental:
 

@@ -59,24 +59,23 @@ keithley = Keithley2600("keithley", "TCPIP::192.168.1.1::INSTR")
 print(keithley.get_idn())
 
 # Set the voltage and current limits
-keithley.smua.limitv.set(10)  # Set voltage limit to 10V
-keithley.smua.limiti.set(0.1)  # Set current limit to 0.1A
+keithley.smua.limitv(10)  # Set voltage limit to 10V
+keithley.smua.limiti(0.1)  # Set current limit to 0.1A
 
 # Enable the output
-keithley.smua.output.set(1)  # Turn on the output
+keithley.smua.output(1)  # Turn on the output
 
 # Set the voltage and current levels
-keithley.smua.volt.set(5)  # Set voltage to 5V
-keithley.smua.curr.set(0.05)  # Set current to 50mA
+keithley.smua.volt(5)  # Set the voltage to 5V
+keithley.smua.curr(0.05)  # Set the current to 0.05A
 
 # Measure the voltage and current
-voltage = keithley.smua.volt.get()
-current = keithley.smua.curr.get()
-print(f"Measured voltage: {voltage}V")
-print(f"Measured current: {current}A")
+voltage = keithley.smua.volt()
+current = keithley.smua.curr()
+print(f"Voltage: {voltage}V, Current: {current}A")
 
 # Disable the output
-keithley.smua.output.set(0)  # Turn off the output
+keithley.smua.output(0)  # Turn off the output
 
 # Close the connection
 keithley.close()

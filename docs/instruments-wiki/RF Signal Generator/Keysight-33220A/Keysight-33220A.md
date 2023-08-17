@@ -46,30 +46,48 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a Keysight 33220A RF Signal Generator:
 
 ```python
-import instrumentkit as ik
-import instrumentkit.keysight as keysight
+from instrumentkit import Instrument, SCPIInstrument
 
-# Connect to the instrument
-inst = keysight.Keysight33220A.open_gpibusb('/dev/ttyUSB0', 1)
+# Define the SCPI commands for the Keysight 33220A RF Signal Generator
+class Keysight33220A(SCPIInstrument):
+    def __init__(self, resource_name):
+        super().__init__(resource_name)
+    
+    def set_frequency(self, frequency):
+        self.send_command(f"FREQ {frequency}")
+    
+    def set_amplitude(self, amplitude):
+        self.send_command(f"VOLT {amplitude}")
+    
+    def enable_output(self):
+        self.send_command("OUTP ON")
+    
+    def disable_output(self):
+        self.send_command("OUTP OFF")
 
-# Set the output function to sinusoid
-inst.function = keysight.Keysight33220A.Function.sinusoid
+# Connect to the Keysight 33220A RF Signal Generator
+signal_generator = Keysight33220A("TCPIP0::192.168.1.1::INSTR")
 
-# Set the frequency to 1 kHz
-inst.frequency = 1 * ik.units.kHz
+# Set the frequency to 1 MHz
+signal_generator.set_frequency(1e6)
+
+# Set the amplitude to 1 Vpp
+signal_generator.set_amplitude(1)
 
 # Enable the output
-inst.output = True
+signal_generator.enable_output()
+
+# Disable the output after 5 seconds
+time.sleep(5)
+signal_generator.disable_output()
+
+# Disconnect from the signal generator
+signal_generator.disconnect()
 ```
 
-This script imports the necessary modules from Instrumentkit and specifically from the `instrumentkit.keysight` module for the Keysight 33220A RF Signal Generator. It then connects to the instrument using the `open_gpibusb` method, specifying the device path and GPIB address.
-
-The script sets the output function to sinusoid using the `function` property of the instrument object. It sets the frequency to 1 kHz using the `frequency` property, and enables the output using the `output` property.
-
-Note that you may need to modify the device path and GPIB address to match your specific setup.
+Make sure to replace `"TCPIP0::192.168.1.1::INSTR"` with the actual resource name or address of your Keysight 33220A RF Signal Generator.
 
 </TabItem>
 </Tabs>

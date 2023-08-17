@@ -46,37 +46,34 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a Keysight E3631A Power Supply:
+To connect to a Keysight E3631A Power Supply using Instrumentkit, you can use the following Python script:
 
 ```python
-from instrumentkit import gpib
-from instrumentkit import power
+import instrumentkit as ik
 
 # Connect to the power supply
-power_supply = power.KeysightE3631A(gpib.GPIBConnection(0, 10))
+psu = ik.hp.HPe3631a.open_gpibusb("/dev/ttyUSB0", 10)
 
-# Set the output voltage and current limit
-power_supply.set_voltage(5)  # Set the output voltage to 5V
-power_supply.set_current_limit(1)  # Set the current limit to 1A
+# Set the channel to P25V
+psu.channel[2]
 
-# Enable the output
-power_supply.enable_output()
+# Set the output voltage to 12.5V
+psu.voltage = 12.5
 
-# Measure the output voltage and current
-voltage = power_supply.measure_voltage()
-current = power_supply.measure_current()
+# Read back the set voltage
+print(psu.voltage)
 
-print(f"Output Voltage: {voltage} V")
-print(f"Output Current: {current} A")
-
-# Disable the output
-power_supply.disable_output()
-
-# Disconnect from the power supply
-power_supply.disconnect()
+# Read back the sensed voltage
+print(psu.voltage_sense)
 ```
 
-Note: Make sure to replace the GPIB address (0, 10) with the actual address of your Keysight E3631A Power Supply.
+This script first imports the `instrumentkit` module as `ik`. Then, it connects to the power supply using the `open_gpibusb` method of the `HPe3631a` class, specifying the device path (`/dev/ttyUSB0`) and the GPIB address (`10`).
+
+Next, it sets the channel to `P25V` by accessing the `channel` property of the power supply object and indexing it with `2`.
+
+Then, it sets the output voltage to `12.5V` by assigning the desired voltage to the `voltage` property of the power supply object.
+
+Finally, it reads back the set voltage by accessing the `voltage` property and prints it. It also reads back the sensed voltage by accessing the `voltage_sense` property and prints it.
 
 </TabItem>
 </Tabs>

@@ -64,20 +64,23 @@ print(ithaco.get_idn())
 # Set the sensitivity of the amplifier
 ithaco.sens(1e-8)
 
-# Set the output to be inverted
+# Set the output inversion
 ithaco.invert(True)
 
-# Read the current value from the instrument
-current = ithaco.curr()
+# Set the sensitivity factor
+ithaco.sens_factor(1)
 
-# Print the current value
-print(f"Current: {current} A")
+# Set the suppression
+ithaco.suppression(1e-7)
+
+# Set the rise time
+ithaco.risetime(0.3)
 
 # Disconnect from the instrument
 ithaco.disconnect()
 ```
 
-Note: Replace `'COM1'` with the appropriate address for your Ithaco 1211 Lockin Amplifier.
+This script creates an instance of the `Ithaco_1211` instrument, connects to it, and then performs various operations such as setting the sensitivity, inversion, sensitivity factor, suppression, and rise time. Finally, it disconnects from the instrument.
 
 </TabItem>
 </Tabs>

@@ -65,7 +65,9 @@ smw.output_power(0)  # Set the output power to 0 dBm
 smw.disconnect()
 ```
 
-Note that you need to replace `'TCPIP0::192.168.0.1::inst0::INSTR'` with the actual VISA address of your SMW 200 A RF Signal Generator.
+This code creates an instance of the `SMWSMU` driver and connects to the SMW 200 A RF Signal Generator using the specified VISA address. You can then use the various methods provided by the driver to control the instrument, such as setting the output power.
+
+Note that you need to replace `'TCPIP0::192.168.0.1::inst0::INSTR'` with the actual VISA address of your instrument.
 
 </TabItem>
 </Tabs>

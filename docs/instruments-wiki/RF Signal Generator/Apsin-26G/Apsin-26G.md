@@ -105,19 +105,19 @@ class APSIN26G(Instrument):
 
 This code defines a new class `APSIN26G` that represents the Anapico APSIN26G Signal Generator. It inherits from the `Instrument` class provided by PyMeasure.
 
-The class defines several properties such as `power`, `frequency`, `blanking`, and `reference_output`, which are used to control various settings of the signal generator. These properties are defined using the `Instrument.control` decorator, which specifies the SCPI commands to get and set the corresponding values.
+The class defines several properties such as `power`, `frequency`, `blanking`, and `reference_output` that can be controlled and queried using the `Instrument.control` method. Each property has a corresponding SCPI command for querying and setting its value.
 
-The `power` property represents the output power in dBm, and it is validated using the `strict_range` validator with the limits specified in `POW_LIMIT`.
+The `power` property represents the output power in dBm and is validated using the `strict_range` validator with the limits defined in `POW_LIMIT`.
 
-The `frequency` property represents the output frequency in Hz, and it is validated using the `strict_range` validator with the limits specified in `FREQ_LIMIT`.
+The `frequency` property represents the output frequency in Hz and is validated using the `strict_range` validator with the limits defined in `FREQ_LIMIT`.
 
-The `blanking` property represents the blanking of output power when the frequency is changed. It is validated using the `strict_discrete_set` validator with the allowed values of 'ON' and 'OFF'.
+The `blanking` property represents the blanking of output power when the frequency is changed. It can be set to either 'ON' or 'OFF' and is validated using the `strict_discrete_set` validator.
 
-The `reference_output` property represents the 10MHz reference output from the signal generator. It is also validated using the `strict_discrete_set` validator with the allowed values of 'ON' and 'OFF'.
+The `reference_output` property represents the 10MHz reference output from the synth. It can be set to either 'ON' or 'OFF' and is also validated using the `strict_discrete_set` validator.
 
-The `enable_rf` method enables the RF output of the signal generator by sending the corresponding SCPI command.
+The `enable_rf` method enables the RF output by sending the corresponding SCPI command.
 
-The `disable_rf` method disables the RF output of the signal generator by sending the corresponding SCPI command.
+The `disable_rf` method disables the RF output by sending the corresponding SCPI command.
 
 The `APSIN26G` class can be used to connect to and control an Anapico APSIN26G Signal Generator using PyMeasure.
 

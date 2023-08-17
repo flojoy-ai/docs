@@ -46,25 +46,37 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a Keithley 485 Power Meter using Instrumentkit, you can use the following Python script:
 
 ```python
 import instrumentkit as ik
 
-# Connect to the Keithley 485 Power Meter
-power_meter = ik.keithley.Keithley485.open_gpibusb('/dev/ttyUSB0', 12)
+# Connect to the Keithley 485 picoammeter
+inst = ik.keithley.Keithley485.open_gpibusb("/dev/ttyUSB0", 22)
 
-# Set the measurement mode to power
-power_meter.mode = power_meter.Mode.power
+# Set the input range to 2e-9 A
+inst.input_range = "2e-9"
 
-# Measure the power
-power_measurement = power_meter.measure()
+# Enable zero check mode
+inst.zero_check = True
 
-# Print the power measurement
-print(power_measurement)
+# Enable log mode
+inst.log = True
+
+# Enable relative mode
+inst.relative = True
+
+# Perform a current measurement
+measurement = inst.measure()
+print(measurement)
 ```
 
-This script imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley485` class to connect to the Keithley 485 Power Meter. It then sets the measurement mode to power using the `mode` property and measures the power using the `measure` method. Finally, it prints the power measurement.
+This script first imports the `instrumentkit` module and then uses the `open_gpibusb` method of the `Keithley485` class to connect to the Keithley 485 picoammeter. The method takes the device path (`/dev/ttyUSB0`) and the GPIB address (22) as arguments.
+
+Next, the script sets the input range to 2e-9 A using the `input_range` property of the instrument. It then enables zero check mode, log mode, and relative mode using the corresponding properties.
+
+Finally, the script performs a current measurement using the `measure` method of the instrument and prints the result.
+
+Note: This script assumes that you have already installed the Instrumentkit library and have the necessary permissions to access the GPIB device.
 
 </TabItem>
 </Tabs>

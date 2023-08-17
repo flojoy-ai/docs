@@ -63,28 +63,29 @@ except ImportError:
 class M2j(Instrument):
     # The code for the M2j class is provided in the question
 
+
 # Create an instance of the SPI_rack class
 spi_rack = SPI_rack()
 
-# Connect to the M2j Lockin Amplifier module
-m2j_module = M2j('m2j', spi_rack, module=1)
+# Connect to the M2j Lockin Amplifier
+m2j = M2j('m2j', spi_rack, module=1)
 
 # Set the gain of the amplifier
-m2j_module.gain(50)  # Set the gain to 50 dB
+m2j.gain(50)
 
 # Get the RF level after amplification
-rf_level = m2j_module.RF_level()
+rf_level = m2j.RF_level()
 print(f"RF level: {rf_level} dBm")
 
 # Clear RF clip
-m2j_module.clear_rf_clip()
+m2j.clear_rf_clip()
 
 # Check if RF is clipped
-is_rf_clipped = m2j_module.is_rf_clipped()
+is_rf_clipped = m2j.is_rf_clipped()
 print(f"RF clipped: {is_rf_clipped}")
 ```
 
-This script creates an instance of the `SPI_rack` class and then connects to the M2j Lockin Amplifier module using the `M2j` class. It sets the gain of the amplifier to 50 dB, measures the RF level after amplification, clears RF clip, and checks if RF is clipped.
+This script creates an instance of the `SPI_rack` class and then connects to the M2j Lockin Amplifier using the `M2j` class. It sets the gain of the amplifier to 50 dB, measures the RF level after amplification, clears the RF clip, and checks if the RF is clipped.
 
 </TabItem>
 </Tabs>

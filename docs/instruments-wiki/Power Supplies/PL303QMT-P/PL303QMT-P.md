@@ -83,17 +83,16 @@ class AimTTi(VisaInstrument):
         self.add_submodule("channels", channels.to_channel_tuple())
         self.connect_message()
 
-aim_tti = AimTTi("aim_tti", "TCPIP::192.168.1.1::INSTR")
-print(aim_tti.get_idn())
-print(aim_tti.channels.ch1.volt())
-print(aim_tti.channels.ch2.curr())
+aim_tti = AimTTi("aim_tti", "TCPIP0::192.168.1.1::inst0::INSTR")
 ```
 
 This script defines two classes: `AimTTiChannel` and `AimTTi`. `AimTTiChannel` represents a single channel of the Aim TTi power supply and `AimTTi` represents the entire power supply instrument.
 
-In the script, we create an instance of `AimTTi` called `aim_tti` and connect to the power supply using the specified address ("TCPIP::192.168.1.1::INSTR"). We then print the identification information of the power supply using `aim_tti.get_idn()`. Finally, we retrieve the voltage and current values of channel 1 and channel 2 using `aim_tti.channels.ch1.volt()` and `aim_tti.channels.ch2.curr()` respectively.
+In the `AimTTiChannel` class, two parameters are defined: `volt` and `curr`. These parameters allow you to get and set the voltage and current values of the channel.
 
-Note: Replace "TCPIP::192.168.1.1::INSTR" with the actual IP address or VISA resource address of your PL303QMT-P Power Supply.
+In the `AimTTi` class, a `ChannelList` is created to hold the channels of the power supply. The number of channels is set to 3. Each channel is represented by an instance of `AimTTiChannel` and added as a submodule to the `AimTTi` instrument.
+
+Finally, an instance of `AimTTi` is created with the name "aim_tti" and the VISA address of the power supply.
 
 </TabItem>
 </Tabs>

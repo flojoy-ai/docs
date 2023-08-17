@@ -71,9 +71,9 @@ print("Voltage:", voltage)
 dmm.shutdown()
 ```
 
-In this example, we first import the necessary modules from Pymeasure. We then create a VISA adapter using the appropriate address for your instrument. Next, we create an instance of the Agilent34450A instrument using the adapter. We can then use the instrument's methods and properties to interact with the multimeter. In this case, we reset the instrument, configure it to measure DC voltage, read the voltage measurement, and finally shutdown the instrument.
+In this example, we first import the necessary modules from Pymeasure. We then create a VISA adapter using the appropriate address for your instrument. Next, we create an instance of the Agilent34450A instrument using the adapter. We can then perform various operations on the instrument, such as resetting it, configuring it to measure DC voltage, and reading the voltage measurement. Finally, we shutdown the instrument to release any resources it may be using.
 
-Note: Make sure to replace the address "USB0::0x2A8D::0x0101::MY53200001::INSTR" with the actual address of your instrument.
+Note: Make sure to replace the address in the `VISAAdapter` constructor with the correct address for your instrument.
 
 </TabItem>
 </Tabs>

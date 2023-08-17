@@ -166,9 +166,9 @@ print("Mean: ", mean)
 print("Standard Deviation: ", std)
 ```
 
-This script creates a class `LakeShore425` that represents the LakeShore 425 Gaussmeter. It provides methods and properties to interact with the instrument, such as setting the unit, range, and measurement mode, as well as performing measurements and retrieving the field value.
+This script creates a class `LakeShore425` that represents the LakeShore 425 Gaussmeter. It provides high-level methods for interacting with the instrument, such as setting the unit, range, and measurement mode. The `measure` method allows you to perform a measurement of a given number of points and returns the mean and standard deviation of the measured field values.
 
-In the example usage section, it demonstrates how to connect to the instrument using a serial adapter, set the unit and range, and perform a measurement of 10 points. The mean and standard deviation of the measurements are then printed.
+In the example usage section, a serial adapter is created to connect to the instrument. Then, an instance of the `LakeShore425` class is created using the adapter. The unit and range are set, and a measurement of 10 points is performed. The mean and standard deviation are then printed to the console.
 
 </TabItem>
 <TabItem value="Pytango" label="Pytango">

@@ -52,7 +52,7 @@ from pymeasure.adapters import VISAAdapter
 from pymeasure.instruments.anritsu import AnritsuMG3692C
 
 # Create a VISA adapter for the instrument
-adapter = VISAAdapter("GPIB0::10::INSTR")
+adapter = VISAAdapter("GPIB0::9::INSTR")
 
 # Connect to the Anritsu MG3692C Signal Generator
 signal_generator = AnritsuMG3692C(adapter)
@@ -75,7 +75,7 @@ signal_generator.shutdown()
 
 Explanation of the code:
 - First, we import the necessary modules from Pymeasure.
-- We create a `VISAAdapter` object, specifying the VISA address of the instrument. In this example, the address is "GPIB0::10::INSTR".
+- We create a `VISAAdapter` object, specifying the VISA address of the instrument. In this case, the address is "GPIB0::9::INSTR".
 - We create an `AnritsuMG3692C` object, passing the adapter as an argument.
 - We can then use the properties and methods of the `AnritsuMG3692C` object to control the signal generator. For example, we set the output power to -10 dBm using the `power` property, and the output frequency to 1 GHz using the `frequency` property.
 - We can enable or disable the signal output using the `enable()` and `disable()` methods.

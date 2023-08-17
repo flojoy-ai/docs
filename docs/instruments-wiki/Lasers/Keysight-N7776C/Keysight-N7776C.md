@@ -266,7 +266,7 @@ This script defines a class `KeysightN7776C` that represents the interface to th
 
 The class defines various properties and controls to interact with the laser source, such as `locked`, `output_enabled`, `wavelength`, `sweep_wl_start`, `sweep_wl_stop`, `sweep_speed`, `sweep_mode`, etc. These properties and controls allow you to set and get various parameters of the laser source, such as lock state, output power, wavelength, sweep parameters, etc.
 
-The class also provides methods like `valid_sweep_params`, `next_step`, `previous_step`, `get_wl_data`, and `close` for performing additional operations on the laser source.
+The class also provides methods like `valid_sweep_params`, `next_step`, `previous_step`, `get_wl_data`, and `close` for performing additional operations with the laser source.
 
 To use this class, you can create an instance of `KeysightN7776C` and then use its properties and methods to control and interact with the laser source. For example:
 

@@ -88,7 +88,7 @@ print("Field Range:", field_range)
 gaussmeter.disconnect()
 ```
 
-This script creates a `SerialAdapter` to connect to the instrument using the specified port and baud rate. Then, it creates an instance of the `LakeShore421` instrument using the adapter. The script connects to the instrument, sets the unit to Tesla, turns on auto-range and fast-mode, reads the magnetic field, sets the field range to 300 Gauss, reads the field range, and finally disconnects from the instrument.
+Note: Make sure to replace `"COM1"` with the appropriate serial port for your instrument.
 
 </TabItem>
 </Tabs>

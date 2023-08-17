@@ -52,20 +52,21 @@ To connect to a WaveRunner 8000HD Oscilloscope using Instrumentkit, you can use 
 import instrumentkit as ik
 
 # Connect to the oscilloscope
-oscilloscope = ik.teledyne.WaveRunner8000HD.open_visa("TCPIP0::192.168.0.10::INSTR")
+oscilloscope = ik.teledyne.MAUI.open_visa("TCPIP0::192.168.0.10::INSTR")
 
 # Perform operations on the oscilloscope
-# For example, you can read the waveform from a channel
-channel = oscilloscope.channel[0]
-xdat, ydat = channel.read_waveform()
+oscilloscope.run()
+print(oscilloscope.trigger_state)
 
-# Close the connection to the oscilloscope
+# Close the connection
 oscilloscope.close()
 ```
 
-This code connects to the oscilloscope at the specified IP address ("TCPIP0::192.168.0.10::INSTR") using the VISA backend. It then performs operations on the oscilloscope, such as reading the waveform from a channel. Finally, it closes the connection to the oscilloscope.
+This code imports the `instrumentkit` module and uses the `open_visa` function from the `ik.teledyne.MAUI` module to connect to the oscilloscope. The IP address "192.168.0.10" is used as an example, and you should replace it with the actual IP address of your oscilloscope.
 
-Note: The code assumes that you have already installed Instrumentkit and its dependencies.
+Once connected, you can perform operations on the oscilloscope, such as starting the trigger in automatic mode and printing the trigger state. Finally, you can close the connection to the oscilloscope using the `close` method.
+
+Note: This code assumes that you have already installed the necessary dependencies for Instrumentkit and have the correct VISA backend installed.
 
 </TabItem>
 </Tabs>

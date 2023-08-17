@@ -69,11 +69,11 @@ print(s46.A1.is_closed())
 # Open all channels
 s46.open_all_channels()
 
-# Close channel 'R1'
-s46.R1.set("close")
+# Close channel 'R2'
+s46.R2.set("close")
 
-# Check if channel 'R1' is closed
-print(s46.R1.is_closed())
+# Check if channel 'R2' is closed
+print(s46.R2.is_closed())
 
 # Close the connection to the instrument
 s46.disconnect()

@@ -68,10 +68,10 @@ oscilloscope.single()
 
 # Read the waveform data from channel 1
 channel1 = oscilloscope.channels[0]
-waveform = channel1.trace()
+waveform_data = channel1.trace()
 
 # Print the waveform data
-print(waveform)
+print(waveform_data)
 
 # Disconnect from the oscilloscope
 oscilloscope.close()

@@ -46,29 +46,29 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to an APT Stepper Motor Control Module Positional Controller:
+To connect to an APT Stepper Motor Control Module Positional Controller using Instrumentkit, you can use the following code:
 
 ```python
-from instrumentkit import APTMotor
+import instrumentkit as ik
 
 # Connect to the APT Stepper Motor Control Module Positional Controller
-controller = APTMotor("COM1")
+controller = ik.thorlabs.APTMotorController.open_serial("/dev/ttyUSB0", baud=115200)
 
-# Initialize the controller
-controller.initialize()
+# Get the first channel of the controller
+channel = controller.channel[0]
 
-# Set the velocity and acceleration parameters
-controller.velocity = 100  # in steps per second
-controller.acceleration = 1000  # in steps per second squared
+# Set the motor model for the channel
+channel.motor_model = "PRM1-Z8"
 
 # Move the motor to a specific position
-controller.move_to_position(5000)  # in steps
+channel.move(1000)  # Move to position 1000 (encoder counts)
 
-# Close the connection to the controller
-controller.close()
+# Get the current position of the motor
+position = channel.position
+print(f"Current position: {position}")
 ```
 
-Note: Replace `"COM1"` with the appropriate serial port or connection identifier for your specific setup.
+This code connects to the APT Stepper Motor Control Module Positional Controller using the `open_serial` method, specifying the serial port and baud rate. It then gets the first channel of the controller and sets the motor model to "PRM1-Z8". Finally, it moves the motor to position 1000 and retrieves the current position of the motor.
 
 </TabItem>
 </Tabs>

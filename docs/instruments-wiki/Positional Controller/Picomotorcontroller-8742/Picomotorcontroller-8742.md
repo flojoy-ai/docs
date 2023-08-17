@@ -46,9 +46,32 @@ Newport provides a wide range of photonics technology and products designed to e
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
+To connect to a Picomotorcontroller 8742 Positional Controller using Instrumentkit, you can use the following code:
+
 ```python
-Unfortunately, the provided code is for the Newport Agilis Controller AG-UC2, not for the Picomotorcontroller 8742 Positional Controller. Therefore, I cannot provide you with the code to connect to the Picomotorcontroller using Instrumentkit.
+import instrumentkit as ik
+
+# Define the IP address and port of the controller
+ip = "192.168.1.2"
+port = 23
+
+# Open a TCP/IP connection to the controller
+controller = ik.newport.PicoMotorController8742.open_tcpip(ip, port)
+
+# Set the controller address (if using multiple controllers)
+controller.controller_address = 1
+
+# Get the first axis of the controller
+axis = controller.axis[0]
+
+# Move the motor relative to its current position
+axis.move_relative = 100
+
+# Close the connection to the controller
+controller.close()
 ```
+
+This code establishes a TCP/IP connection to the Picomotorcontroller 8742 at the specified IP address and port. It then sets the controller address (if using multiple controllers) and gets the first axis of the controller. Finally, it moves the motor relative to its current position by 100 steps and closes the connection to the controller.
 
 </TabItem>
 </Tabs>

@@ -50,38 +50,40 @@ Here's an example Python script that uses Qcodes to connect to a Keithley 2634B 
 
 ```python
 import qcodes as qc
-from qcodes.instrument_drivers.tektronix.Keithley_2600 import Keithley2600
+from qcodes.instrument_drivers.tektronix.Keithley_2600_channels import Keithley2600
 
-# Connect to the Keithley 2634B Power Supply
-keithley = Keithley2600("keithley", "TCPIP::192.168.1.1::INSTR")
+# Create an instance of the Keithley 2634B instrument
+keithley = Keithley2600('keithley', 'TCPIP::192.168.1.1::INSTR')
+
+# Connect to the instrument
+keithley.connect()
 
 # Print the instrument ID
 print(keithley.get_idn())
 
-# Set the voltage and current limits
-keithley.smua.limitv(10)  # Set voltage limit to 10V
-keithley.smua.limiti(0.1)  # Set current limit to 0.1A
+# Set the voltage source range to 1V
+keithley.smuA.sourcerange_v(1)
+
+# Set the current limit to 100mA
+keithley.smuA.limiti(0.1)
 
 # Enable the output
-keithley.smua.output(1)  # Turn on the output
+keithley.smuA.output(1)
 
-# Set the voltage and current levels
-keithley.smua.volt(5)  # Set the voltage to 5V
-keithley.smua.curr(0.05)  # Set the current to 0.05A
+# Set the voltage to 0.5V
+keithley.smuA.volt(0.5)
 
-# Measure the voltage and current
-voltage = keithley.smua.volt()
-current = keithley.smua.curr()
-print(f"Voltage: {voltage}V, Current: {current}A")
+# Set the current to 50mA
+keithley.smuA.curr(0.05)
 
 # Disable the output
-keithley.smua.output(0)  # Turn off the output
+keithley.smuA.output(0)
 
-# Close the connection
-keithley.close()
+# Disconnect from the instrument
+keithley.disconnect()
 ```
 
-Note: Replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address or VISA resource address of your Keithley 2634B Power Supply.
+Note: Replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA resource address of your Keithley 2634B Power Supply.
 
 </TabItem>
 </Tabs>

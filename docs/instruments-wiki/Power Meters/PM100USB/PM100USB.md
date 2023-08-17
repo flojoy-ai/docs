@@ -71,15 +71,15 @@ measurement = power_meter.read()
 print("Measurement:", measurement)
 ```
 
-This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class, which represents the power meter.
+This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class to connect to the power meter.
 
-The script then retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
+The script retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
 
 Next, the script sets the measurement configuration of the power meter to "power" using the `measurement_configuration` property. This configures the power meter to measure power values.
 
-Finally, the script reads a measurement from the power meter using the `read` method. The measurement is printed out.
+Finally, the script reads a measurement from the power meter using the `read` method. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units. The script prints out the measurement value.
 
-Note that this script assumes that the power meter is connected and accessible. You may need to modify the script to specify the correct connection parameters, such as the serial port or IP address, depending on how the power meter is connected to your system.
+Note that this script assumes that the Instrumentkit library is already installed and that the power meter is connected to the computer.
 
 </TabItem>
 <TabItem value="Pymeasure" label="Pymeasure">

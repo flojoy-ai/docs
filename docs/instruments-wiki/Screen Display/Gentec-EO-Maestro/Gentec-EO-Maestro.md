@@ -115,7 +115,7 @@ class Gentec_Maestro(VisaInstrument):
         return self.ask('*VER').split()
 
 
-# Connect to the Gentec EO Maestro Screen Display
+# Connect to the Gentec EO Maestro powermeter
 maestro = Gentec_Maestro('maestro', 'ASRL1::INSTR', baud_rate=115200)
 
 # Get the power reading
@@ -136,15 +136,19 @@ maestro.clear_zero_offset()
 # Set the zero offset
 maestro.set_zero_offset()
 
-# Disconnect from the instrument
+# Disconnect from the powermeter
 maestro.close()
 ```
 
-This script creates a `Gentec_Maestro` class that inherits from `VisaInstrument` in Qcodes. It initializes the instrument by setting the baud rate, querying the instrument information, and adding parameters for power, wavelength, and zero offset enabled.
+This script creates a `Gentec_Maestro` class that inherits from `VisaInstrument` provided by Qcodes. It initializes the instrument by setting the baud rate, querying the instrument information, and adding parameters for power, wavelength, and zero offset enabled.
 
-To connect to the Gentec EO Maestro Screen Display, you create an instance of the `Gentec_Maestro` class with the appropriate name, address, and baud rate. You can then use the defined parameters and methods to interact with the instrument.
+To connect to the Gentec EO Maestro powermeter, you can create an instance of the `Gentec_Maestro` class with the appropriate name, address, and baud rate. In the example above, it connects to the instrument with the name `'maestro'`, address `'ASRL1::INSTR'`, and baud rate `115200`.
 
-The script demonstrates how to get the power reading, get the wavelength setting, check if the zero offset is enabled, clear the zero offset, and set the zero offset. Finally, it closes the connection to the instrument.
+You can then use the added parameters to retrieve the power reading, wavelength setting, and check if the zero offset is enabled. The `clear_zero_offset` and `set_zero_offset` methods can be used to clear or set the zero offset, respectively.
+
+Finally, the script closes the connection to the powermeter using the `close` method.
+
+Note: Make sure to replace `'ASRL1::INSTR'` with the correct address of your Gentec EO Maestro powermeter.
 
 </TabItem>
 </Tabs>

@@ -69,8 +69,7 @@ hdawg.start_awg(1)
 hdawg.close()
 ```
 
-In this script, we first import the necessary modules and classes from Qcodes. Then, we create a `Station` object to hold the instrument. Next, we create an instance of the `ZIHDAWG8` class, passing the name of the instrument ('hdawg') and the device ID ('dev1234') as arguments. We add the instrument to the station using the `add_component` method. Finally, we can use the instrument to perform operations such as enabling a channel and starting the AWG. To disconnect from the instrument, we call the `close` method.
-
+In this script, we first import the necessary modules and classes from Qcodes. Then, we create a `Station` object to hold the instrument. Next, we create an instance of the `ZIHDAWG8` class, passing the name of the instrument ('hdawg') and the device ID ('dev1234') as arguments. We add the instrument to the station using the `add_component` method. Finally, we can use the instrument to perform operations such as enabling a channel and starting the AWG.
 Note: Replace `'dev1234'` with the actual device ID of your HDAWG RF Signal Generator.
 
 </TabItem>
@@ -98,7 +97,7 @@ sequencer_program = """
 hdawg.awgs[0].load_sequencer_program(sequencer_program)
 
 # Enable the sequencer on AWG channel 0
-hdawg.awgs[0].enable_sequencer(single=False)
+hdawg.awgs[0].enable_sequencer(single=True)
 
 # Wait for the AWG to finish
 hdawg.awgs[0].wait_done()

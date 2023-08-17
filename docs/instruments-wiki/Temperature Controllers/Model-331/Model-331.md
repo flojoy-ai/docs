@@ -65,6 +65,12 @@ print(model_331.heater_output())
 # Set the heater range to 5W
 model_331.heater_range('5W')
 
+# Print the temperature of channel A
+print(model_331.channels.ChanA.temperature())
+
+# Set the setpoint temperature to 300 K
+model_331.setpoint(300)
+
 # Print the setpoint temperature
 print(model_331.setpoint())
 
@@ -72,11 +78,11 @@ print(model_331.setpoint())
 station.close_all_registered_instruments()
 ```
 
-This script creates a `Station` object to hold the instruments. It then connects to the Model 331 Temperature Controller using the `Model_331` class and adds it to the station. You can access the instrument's parameters and functions using the `model_331` object.
+This script creates a `Station` object to hold the instruments. It then connects to the Model 331 Temperature Controller using the `Model_331` class from the `qcodes.instrument_drivers.Lakeshore` module. The instrument is added to the station using the `add_component` method.
 
-In the provided example, it prints the heater output, sets the heater range to 5W, and prints the setpoint temperature. Finally, it closes the connection to the instrument.
+The script then demonstrates some basic operations with the instrument. It prints the heater output using the `heater_output` parameter, sets the heater range to 5W using the `heater_range` parameter, prints the temperature of channel A using the `temperature` parameter of the `SensorChannel` class, sets the setpoint temperature to 300 K using the `setpoint` parameter, and finally prints the setpoint temperature.
 
-Note: Make sure you have the necessary dependencies installed and the correct GPIB address for your Model 331 Temperature Controller.
+Note that you may need to adjust the GPIB address (`'GPIB0::1::INSTR'`) to match the actual address of your instrument.
 
 </TabItem>
 </Tabs>

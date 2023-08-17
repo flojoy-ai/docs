@@ -3,7 +3,7 @@ title: Keithley 2600
 description: Series 2600A System SourceMeter instruments are Keithley’s latest I-V source measurement unit(SMU) instruments for use as either bench-top I-V characterization tools or as building block components of multi-channel I-V test systems. For bench-top use, Series 2600A instruments feature anembedded TSP Express Software Tool that allows users to quickly and easily perform common I-Vtests without programming or installing software. For system level applications, the Series 2600A’sTest Script Processor (TSP) architecture, along with other new capabilities such as parallel test execution and precision timing, provides the highest throughput in the industry, lowering the cost of test.To simplify the testing, verification, and analysis of semiconductor components, the optional ACSBasic Edition software is also available.
 keywords: [power supplies, Keithley, Pymeasure, Qcodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2600
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692234183/Instruments/Power%20Supplies/Keithley-2600/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250869/Instruments/Power%20Supplies/Keithley-2600/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -27,7 +27,7 @@ Basic Edition software is also available.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692234183/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250869/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px" }} />
 
 </div>
 
@@ -64,9 +64,12 @@ adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
 # Connect to the Keithley 2600 Power Supply
 keithley = Keithley2600(adapter)
 
-# Set the source mode to voltage and apply a voltage of 1V
+# Set the source mode to voltage and apply a voltage of 5V
 keithley.ChA.source_mode = 'voltage'
-keithley.ChA.source_voltage = 1.0
+keithley.ChA.source_voltage = 5.0
+
+# Enable the output
+keithley.ChA.source_output = 'ON'
 
 # Measure the voltage and current
 voltage = keithley.ChA.voltage
@@ -76,14 +79,13 @@ current = keithley.ChA.current
 print("Voltage: %.3f V" % voltage)
 print("Current: %.3f A" % current)
 
-# Shutdown the channel
-keithley.ChA.shutdown()
-
+# Disable the output and close the connection
+keithley.ChA.source_output = 'OFF'
 # Disconnect from the Keithley 2600 Power Supply
 keithley.disconnect()
 ```
 
-This script connects to a Keithley 2600 Power Supply using a VISA adapter. It sets the source mode to voltage and applies a voltage of 1V to Channel A. It then measures the voltage and current on Channel A and prints the values. Finally, it shuts down Channel A and disconnects from the power supply.
+This script connects to a Keithley 2600 Power Supply using a VISA adapter. It sets the source mode to voltage and applies a voltage of 5V to channel A. Then, it enables the output and measures the voltage and current. Finally, it disables the output and closes the connection.
 
 </TabItem>
 <TabItem value="Qcodes" label="Qcodes">
@@ -107,8 +109,8 @@ keithley.smua.limiti(0.1)  # Set current limit to 0.1A
 keithley.smua.output(1)  # Turn on the output
 
 # Set the voltage and current levels
-keithley.smua.volt(5)  # Set voltage to 5V
-keithley.smua.curr(0.05)  # Set current to 0.05A
+keithley.smua.volt(5)  # Set the voltage to 5V
+keithley.smua.curr(0.05)  # Set the current to 0.05A
 
 # Measure the voltage and current
 voltage = keithley.smua.volt()
@@ -122,7 +124,11 @@ keithley.smua.output(0)  # Turn off the output
 keithley.close()
 ```
 
-Make sure to replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA resource address of your Keithley 2600 Power Supply.
+Note: Replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA resource address of your Keithley 2600 Power Supply.
+
+This script connects to the Keithley 2600 Power Supply, sets the voltage and current limits, enables the output, sets the voltage and current levels, measures the voltage and current, disables the output, and then closes the connection.
+
+Make sure you have Qcodes and the necessary dependencies installed before running this script.
 
 </TabItem>
 </Tabs>

@@ -46,31 +46,30 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is a Python script that uses Instrumentkit to connect to a Keysight 3456A Multimeter:
 
 ```python
-from instrumentkit import hp
+import instrumentkit as ik
 
 # Connect to the multimeter
-dmm = hp.HP3456a.open_gpibusb("/dev/ttyUSB0", 22)
+multimeter = ik.keysight.Keysight3456A.open_gpibusb("/dev/ttyUSB0", 22)
 
 # Set the measurement mode to DC voltage
-dmm.mode = dmm.Mode.dcv
+multimeter.mode = multimeter.Mode.dcv
 
 # Perform a measurement
-measurement = dmm.measure()
+measurement = multimeter.measure()
 
 # Print the measurement result
 print("Measurement: {}".format(measurement))
 ```
 
-This script first imports the `hp` module from Instrumentkit. It then connects to the multimeter using the `open_gpibusb` function, specifying the device path and GPIB address of the multimeter.
+This script first imports the `instrumentkit` module and then uses the `open_gpibusb` method of the `ik.keysight.Keysight3456A` class to connect to the multimeter. You'll need to replace `"/dev/ttyUSB0"` with the appropriate device path for your system.
 
-Next, it sets the measurement mode to DC voltage using the `mode` property of the multimeter object. In this case, we are using the `Mode.dcv` option.
+Next, it sets the measurement mode to DC voltage using the `mode` property of the multimeter object. In this example, we're using the `Mode.dcv` enum value.
 
-Finally, it performs a measurement using the `measure` method of the multimeter object and stores the result in the `measurement` variable. The measurement result is then printed to the console.
+Finally, it performs a measurement using the `measure` method of the multimeter object and prints the result.
 
-Note: Make sure to replace `"/dev/ttyUSB0"` with the correct device path for your system, and `22` with the correct GPIB address of your multimeter.
+Note that this script assumes you have already installed the `instrumentkit` library. If not, you can install it using `pip install instrumentkit`.
 
 </TabItem>
 </Tabs>

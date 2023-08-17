@@ -74,7 +74,7 @@ print("Serial Number:", serial_number)
 connection.disconnect()
 ```
 
-Make sure to replace `"your_oscilloscope_address"` with the actual address of your oscilloscope.
+Note: Replace "your_oscilloscope_address" with the actual address of your oscilloscope.
 
 </TabItem>
 </Tabs>

@@ -75,6 +75,9 @@ motor_controller.connect()
 # Move the motor forward at speed 50
 motor_controller.move_forward(50)
 
+# Wait for 2 seconds
+time.sleep(2)
+
 # Stop the motor
 motor_controller.stop()
 
@@ -86,11 +89,11 @@ In this example, we define a custom `AGUC2MotorController` class that inherits f
 
 We also define three instrument-specific commands: `move_forward`, `move_backward`, and `stop`. These commands send the appropriate commands to the motor controller via the `send_command` method.
 
-We then create an instance of the `AGUC2MotorController` class, specifying the serial port to which the motor controller is connected. We connect to the motor controller using the `connect` method, and then use the `move_forward` and `stop` methods to control the motor.
+We then create an instance of the `AGUC2MotorController` class, specifying the serial port to which the motor controller is connected. We connect to the motor controller using the `connect` method.
+
+We can then use the defined commands to control the motor. In this example, we move the motor forward at speed 50 for 2 seconds, and then stop the motor.
 
 Finally, we disconnect from the motor controller using the `disconnect` method.
-
-Note: Replace `"COM1"` with the appropriate serial port name for your setup.
 
 </TabItem>
 </Tabs>

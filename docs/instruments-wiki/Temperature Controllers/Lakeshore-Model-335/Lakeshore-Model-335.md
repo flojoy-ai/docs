@@ -61,12 +61,53 @@ lakeshore.connect()
 # Print the instrument ID
 print("Instrument ID:", lakeshore.IDN())
 
-# Set the temperature setpoint of channel A to 300 K
-lakeshore.channels["A"].setpoint(300)
+# Set the sensor type for channel A to platinum RTD
+lakeshore.channel_A.sensor_type("platinum_rtd")
 
-# Get the temperature reading of channel A
-temperature = lakeshore.channels["A"].temperature()
-print("Temperature:", temperature, "K")
+# Enable autoranging for channel A
+lakeshore.channel_A.auto_range_enabled(True)
+
+# Set the range for channel A to 1
+lakeshore.channel_A.range(1)
+
+# Enable compensation for channel A
+lakeshore.channel_A.compensation_enabled(True)
+
+# Set the preferred units for channel A to celsius
+lakeshore.channel_A.units("celsius")
+
+# Get the sensor type for channel A
+print("Sensor type for channel A:", lakeshore.channel_A.sensor_type())
+
+# Get the autoranging status for channel A
+print("Autoranging enabled for channel A:", lakeshore.channel_A.auto_range_enabled())
+
+# Get the range for channel A
+print("Range for channel A:", lakeshore.channel_A.range())
+
+# Get the compensation status for channel A
+print("Compensation enabled for channel A:", lakeshore.channel_A.compensation_enabled())
+
+# Get the preferred units for channel A
+print("Preferred units for channel A:", lakeshore.channel_A.units())
+
+# Set the output voltage for output 1 to 1 V
+lakeshore.output_1.V(1)
+
+# Set the output current for output 1 to 0.1 A
+lakeshore.output_1.I(0.1)
+
+# Set the output mode for output 1 to closed loop
+lakeshore.output_1.mode("closed_loop")
+
+# Get the output voltage for output 1
+print("Output voltage for output 1:", lakeshore.output_1.V())
+
+# Get the output current for output 1
+print("Output current for output 1:", lakeshore.output_1.I())
+
+# Get the output mode for output 1
+print("Output mode for output 1:", lakeshore.output_1.mode())
 
 # Disconnect from the instrument
 lakeshore.disconnect()

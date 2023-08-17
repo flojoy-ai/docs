@@ -54,7 +54,7 @@ import qcodes as qc
 from qcodes.instrument_drivers.rigol.DS4000 import RigolDS4000
 
 # Connect to the oscilloscope
-oscilloscope = RigolDS4000("oscilloscope", "USB0::0x1AB1::0x04CE::DS4A203400948::INSTR")
+oscilloscope = RigolDS4000("oscilloscope", "USB0::0x1AB1::0x04CE::DS4A203100839::INSTR")
 
 # Print the IDN information of the oscilloscope
 print(oscilloscope.get_idn())
@@ -65,13 +65,13 @@ oscilloscope.time_base(0.001)
 # Enable autoscale
 oscilloscope.enable_auto_scale(True)
 
-# Start the acquisition
+# Start acquisition
 oscilloscope.run()
 
 # Wait for the acquisition to complete
 qc.WaitInterval(1).wait()
 
-# Stop the acquisition
+# Stop acquisition
 oscilloscope.stop()
 
 # Get the waveform data from channel 1
@@ -84,11 +84,13 @@ print(waveform_data)
 oscilloscope.close()
 ```
 
-This script connects to the oscilloscope using the VISA address "USB0::0x1AB1::0x04CE::DS4A203400948::INSTR". You may need to modify this address to match the actual address of your oscilloscope.
+This script connects to the oscilloscope using the VISA address "USB0::0x1AB1::0x04CE::DS4A203100839::INSTR". You may need to modify this address to match the actual address of your oscilloscope.
 
 The script then performs various operations on the oscilloscope, such as setting the time base, enabling autoscale, starting and stopping the acquisition, and retrieving the waveform data from channel 1.
 
 Finally, the script closes the connection to the oscilloscope using the `close()` method.
+
+Note: This script assumes that you have already installed the necessary dependencies, including Qcodes and the Rigol DS4000 driver.
 
 </TabItem>
 </Tabs>

@@ -46,7 +46,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 <Tabs>
 <TabItem value="Instrumental" label="Instrumental">
 
-To connect to a Thorlabs DCU224C camera using Instrumental, you can use the following Python script:
+To connect to a Thorlabs-DCU224C camera using Instrumental, you can use the following Python script:
 
 ```python
 from instrumental import instrument, list_instruments
@@ -54,13 +54,12 @@ from instrumental import instrument, list_instruments
 # List all available instruments
 print(list_instruments())
 
-# Connect to the Thorlabs DCU224C camera
-cam = instrument('Thorlabs - DCU224C')
+# Connect to the Thorlabs-DCU224C camera
+cam = instrument('Thorlabs-DCU224C')
 
 # Set camera parameters
 cam.exposure = 10  # Set exposure time to 10 ms
 cam.gain = 1.5  # Set gain to 1.5
-
 # Capture an image
 image = cam.grab_image()
 
@@ -73,7 +72,7 @@ plt.show()
 cam.close()
 ```
 
-This script first lists all available instruments using the `list_instruments()` function. Then, it connects to the Thorlabs DCU224C camera using the `instrument()` function. You can set camera parameters such as exposure time and gain using the appropriate attributes of the camera object (`cam.exposure` and `cam.gain` in this example). Finally, it captures an image using the `grab_image()` method and displays it using matplotlib. The camera is then closed using the `close()` method.
+This script first lists all available instruments using the `list_instruments()` function. Then, it connects to the Thorlabs-DCU224C camera using the `instrument()` function. It captures an image using the `grab_image()` method and displays it using matplotlib. Finally, it closes the connection to the camera using the `close()` method.
 
 </TabItem>
 </Tabs>

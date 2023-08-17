@@ -46,33 +46,39 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 <Tabs>
 <TabItem value="Qcodes" label="Qcodes">
 
-Here is a Python script that uses Qcodes to connect to an ATS9440 - 14 bit, 125 MS/s, 4 ch DAQ board:
+Here is a Python script that uses Qcodes to connect to an ATS9440-14 bit, 125 MS/s, 4 ch DAQ board:
 
 ```python
-from qcodes import Station
-from qcodes.instrument_drivers.AlazarTech.ATS9440 import AlazarTech_ATS9440
+from qcodes.instrument_drivers.AlazarTech.ATS9440 import AlazarTechATS9440
 
-# Create a station to hold the instruments
-station = Station()
+# Connect to the ATS9440 board
+daq = AlazarTechATS9440('daq', dll_path='C:\\WINDOWS\\System32\\ATSApi.dll')
 
-# Create an instance of the ATS9440 instrument
-ats9440 = AlazarTech_ATS9440('ats9440', dll_path='C:\\WINDOWS\\System32\\ATSApi.dll')
+# Print the available parameters
+print(daq.parameters)
 
-# Add the instrument to the station
-station.add_component(ats9440)
+# Set the clock source to INTERNAL_CLOCK
+daq.clock_source('INTERNAL_CLOCK')
 
-# Connect to the instrument
-ats9440.connect()
+# Set the sample rate to 125 MS/s
+daq.sample_rate(125_000_000)
 
-# Now you can use the instrument to perform measurements
-# For example, you can set the clock source:
-ats9440.clock_source('INTERNAL_CLOCK')
+# Set the channel range for channel 1 to 0.1V
+daq.channel_range1(0.1)
 
-# You can also read the current clock source:
-clock_source = ats9440.clock_source()
+# Set the channel range for channel 2 to 0.1V
+daq.channel_range2(0.1)
 
-# Disconnect from the instrument
-ats9440.disconnect()
+# Set the channel range for channel 3 to 0.1V
+daq.channel_range3(0.1)
+
+# Set the channel range for channel 4 to 0.1V
+daq.channel_range4(0.1)
+
+# Set other parameters as needed
+
+# Close the connection to the board
+daq.close()
 ```
 
 Note: Make sure to replace `'C:\\WINDOWS\\System32\\ATSApi.dll'` with the correct path to the ATSApi.dll file on your system.

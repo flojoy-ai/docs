@@ -50,26 +50,40 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-Here is an example Python script that uses Instrumentkit to connect to a LCC25 Power Supply:
 
 ```python
-from instrumentkit import ThorlabsPM100USB
+from instrumentkit import Instrument, ConnectionType
+from instrumentkit.contrib.thorlabs import LCC25
 
-# Connect to the power meter
-power_meter = ThorlabsPM100USB()
+# Connect to the LCC25 Power Supply
+instrument = Instrument.from_uri("tcp://<ip_address>:<port>", LCC25, connection_type=ConnectionType.TCP_IP)
 
-# Read the measurement from the power meter
-measurement = power_meter.read()
+# Print the name and version number of the device
+print(instrument.name)
 
-# Print the measurement
-print(f"Measurement: {measurement}")
+# Set the frequency at which the LCC oscillates between the two voltages
+instrument.frequency = 10  # 10 Hz
+
+# Set the output mode of the LCC25
+instrument.mode = LCC25.Mode.voltage1
+
+# Enable the output
+instrument.enable = True
+
+# Set the voltage value for output 1
+instrument.voltage1 = 5  # 5 Volts
+
+# Set the voltage value for output 2
+instrument.voltage2 = 10  # 10 Volts
+
+# Save the current settings to memory
+instrument.save()
+
+# Disconnect from the LCC25 Power Supply
+instrument.disconnect()
 ```
 
-In this script, we import the `ThorlabsPM100USB` class from the `instrumentkit` module. We then create an instance of the `ThorlabsPM100USB` class called `power_meter`. This will automatically connect to the power meter.
-
-We can then use the `read()` method of the `power_meter` object to read a measurement from the power meter. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units.
-
-Finally, we print the measurement to the console using f-string formatting.
+Note: Replace `<ip_address>` and `<port>` with the actual IP address and port number of the LCC25 Power Supply.
 
 </TabItem>
 </Tabs>

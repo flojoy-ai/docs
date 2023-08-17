@@ -70,9 +70,11 @@ lo.power(10)  # Set the amplitude to 10 dBm
 lo.on()  # Turn on the output
 ```
 
-This script connects to the ERASynth signal generator using the specified address (`ASRL/dev/cu.usbmodem14101::INSTR`). It then turns off the RF output, prints the updated snapshot of the instrument's parameters, configures the local oscillator to use the internal reference, sets the frequency to 4.7 GHz, sets the power to 10 dBm, and finally turns on the output.
+This script connects to the ERASynth signal generator using the specified address (`ASRL/dev/cu.usbmodem14101::INSTR`). It then turns off the RF output, prints the updated snapshot of the instrument's parameters, configures the local oscillator with the desired frequency and power, and finally turns on the RF output.
 
 Note: Make sure to replace `'ASRL/dev/cu.usbmodem14101::INSTR'` with the actual address of your ERASynth signal generator.
+
+Let me know if you need any further assistance!
 
 </TabItem>
 </Tabs>

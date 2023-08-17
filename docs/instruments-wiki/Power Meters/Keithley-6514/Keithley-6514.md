@@ -46,25 +46,38 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a Keithley 6514 Power Meter using Instrumentkit, you can use the following code:
+Here is an example Python script that uses Instrumentkit to connect to a Keithley 6514 electrometer:
 
 ```python
 import instrumentkit as ik
 
-# Connect to the power meter
-power_meter = ik.keithley.Keithley6514.open_gpibusb('/dev/ttyUSB0', 12)
+# Connect to the Keithley 6514 electrometer
+dmm = ik.keithley.Keithley6514.open_gpibusb('/dev/ttyUSB0', 12)
 
-# Set the measurement mode to DC voltage
-power_meter.mode = power_meter.Mode.voltage_dc
+# Set the measurement mode to voltage
+dmm.mode = ik.keithley.Keithley6514.Mode.voltage
 
-# Perform a measurement
-measurement = power_meter.measure()
+# Set the input range to 10 V
+dmm.input_range = 10 * ik.units.volt
 
-# Print the measurement result
-print(measurement)
+# Enable auto range
+dmm.auto_range = True
+
+# Perform an auto configuration for the current mode
+dmm.auto_config(ik.keithley.Keithley6514.Mode.voltage)
+
+# Fetch the latest reading
+reading, timestamp = dmm.fetch()
+
+# Print the reading and timestamp
+print(f"Reading: {reading}")
+print(f"Timestamp: {timestamp}")
+
+# Close the connection to the Keithley 6514 electrometer
+dmm.close()
 ```
 
-This code imports the `instrumentkit` module and uses the `open_gpibusb` method of the `Keithley6514` class to connect to the power meter. It then sets the measurement mode to DC voltage using the `mode` property and performs a measurement using the `measure` method. Finally, it prints the measurement result.
+This script demonstrates how to connect to the Keithley 6514 electrometer, set the measurement mode to voltage, set the input range, enable auto range, perform an auto configuration, fetch the latest reading, and print the reading and timestamp. Finally, it closes the connection to the electrometer.
 
 </TabItem>
 </Tabs>

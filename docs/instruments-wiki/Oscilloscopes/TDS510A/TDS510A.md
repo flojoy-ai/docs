@@ -46,27 +46,39 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a TDS510A Oscilloscope using Instrumentkit, you can use the following Python script:
-
 ```python
-import instrumentkit as ik
+from instrumentkit import tektronix
 
-# Connect to the TDS510A Oscilloscope
-scope = ik.tektronix.TDS510A.open_gpibusb("/dev/ttyUSB0", 1)
+# Connect to the oscilloscope
+tek = tektronix.TekTDS5xx.open_tcpip('192.168.0.2', 8888)
 
-# Perform operations on the oscilloscope
-# For example, you can query the instrument's identification
-print(scope.identification)
+# Access the channels
+channel1 = tek.channel[0]
+channel2 = tek.channel[1]
 
-# Close the connection to the oscilloscope
-scope.close()
+# Set the scale of channel 1 to 1V
+channel1.scale = 1.0
+
+# Set the scale of channel 2 to 500mV
+channel2.scale = 0.5
+
+# Read the waveform from channel 1
+x1, y1 = channel1.read_waveform()
+
+# Read the waveform from channel 2
+x2, y2 = channel2.read_waveform()
+
+# Print the first 10 points of the waveform from channel 1
+print(x1[:10])
+print(y1[:10])
+
+# Print the first 10 points of the waveform from channel 2
+print(x2[:10])
+print(y2[:10])
+
+# Disconnect from the oscilloscope
+tek.close()
 ```
-
-In this script, we import the `instrumentkit` module as `ik`. Then, we use the `open_gpibusb` method of the `ik.tektronix.TDS510A` class to connect to the TDS510A Oscilloscope. The first argument is the device path (`/dev/ttyUSB0` in this example) and the second argument is the GPIB address of the instrument.
-
-After connecting, you can perform various operations on the oscilloscope. In the example, we query the instrument's identification using the `identification` property and print the result.
-
-Finally, we close the connection to the oscilloscope using the `close` method.
 
 </TabItem>
 </Tabs>

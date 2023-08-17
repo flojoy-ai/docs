@@ -82,7 +82,9 @@ keithley.display_closed_channels()
 keithley.disconnect()
 ```
 
-Note: This script assumes that you have already installed the `pymeasure` package and have the necessary GPIB connection set up for the Keithley 2700.
+This script connects to the Keithley 2700 using the GPIB address "GPIB::1". It then performs some operations with the instrument, such as getting the state of channels 1 and 2, closing all channels, and finally disconnecting from the instrument.
+
+Note that you may need to install the `pymeasure` package before running this script. You can install it using `pip install pymeasure`.
 
 </TabItem>
 </Tabs>

@@ -78,11 +78,13 @@ signal_generator.output_enabled(False)
 signal_generator.disconnect()
 ```
 
-This script imports the necessary modules and creates an instance of the `Keysight_E8257D` instrument class from the `qcodes.instrument_drivers.Keysight.Keysight_E8257D` module. It then connects to the instrument using the specified address (replace `"TCPIP0::192.168.1.1::INSTR"` with the actual address of your instrument).
+This script creates an instance of the `Keysight_E8257D` instrument class from the Qcodes driver. It then connects to the instrument using the specified address (`TCPIP0::192.168.1.1::INSTR`). The instrument ID is printed using the `IDN()` method.
 
-After connecting, you can use the instrument's methods and parameters to control the signal generator. In the example script, it sets the frequency to 1 GHz, power to -10 dBm, and enables the output. After 1 second, it disables the output and then disconnects from the instrument.
+The frequency is set to 1 GHz using the `frequency()` method, and the power is set to -10 dBm using the `power()` method. The output is enabled using the `output_enabled()` method.
 
-Note: Make sure you have QCoDeS and the necessary dependencies installed before running this script.
+After a delay of 1 second, the output is disabled by setting `output_enabled` to `False`.
+
+Finally, the script disconnects from the instrument using the `disconnect()` method.
 
 </TabItem>
 </Tabs>

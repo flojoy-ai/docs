@@ -46,7 +46,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 <Tabs>
 <TabItem value="Instrumentkit" label="Instrumentkit">
 
-To connect to a Keithley 195 Multimeter using Instrumentkit, you can use the following Python script:
+To connect to a Keithley 195 Multimeter using Instrumentkit, you can use the following code:
 
 ```python
 import instrumentkit as ik
@@ -54,17 +54,18 @@ import instrumentkit as ik
 # Connect to the Keithley 195 Multimeter
 dmm = ik.keithley.Keithley195.open_gpibusb('/dev/ttyUSB0', 12)
 
-# Set the measurement mode to resistance
-dmm.mode = dmm.Mode.resistance
-
 # Perform a measurement
-measurement = dmm.measure()
+measurement = dmm.measure(dmm.Mode.resistance)
 
 # Print the measurement result
 print(measurement)
 ```
 
-This script imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley195` class to connect to the Keithley 195 Multimeter. It then sets the measurement mode to resistance using the `mode` property and performs a measurement using the `measure` method. Finally, it prints the measurement result.
+This code imports the `instrumentkit` module and uses the `open_gpibusb` method from the `ik.keithley.Keithley195` class to connect to the Keithley 195 Multimeter. The `open_gpibusb` method takes the device path (`'/dev/ttyUSB0'`) and the GPIB address (`12`) as arguments.
+
+After connecting, you can use the `measure` method to perform a measurement. In this example, the measurement mode is set to resistance (`dmm.Mode.resistance`), but you can change it to other modes like voltage_dc or current_dc.
+
+Finally, the measurement result is printed to the console.
 
 </TabItem>
 </Tabs>

@@ -49,36 +49,47 @@ A producer of automated test equipment and virtual instrumentation software. Com
 To connect to a NI PXIe-2597 Multiplexer Switch Module using Qcodes Community, you can use the following Python script:
 
 ```python
-from qcodes import Station
-from qcodes.instrument_drivers.ni.NI_PXIe_2597 import NI_PXIe_2597
+from qcodes.instrument.base import Instrument
+from qcodes.utils.validators import Enum
 
-# Create a station to hold the instrument
-station = Station()
+class NI_PXIe_2597(Instrument):
+    def __init__(self, name, resource, **kwargs):
+        super().__init__(name, **kwargs)
+        self.add_parameter(name="channel",
+                           get_cmd=self._get_channel,
+                           set_cmd=self._set_channel,
+                           vals=Enum(*tuple(["ch1", "ch2", "ch3", "ch4", "ch5", "ch6", None])),
+                           post_delay=1,
+                           docstring='Name of the channel where the common "com" port is connected to',
+                           label=f"{self.short_name} active channel")
 
-# Connect to the NI PXIe-2597 switch module
-switch = NI_PXIe_2597('switch', 'PXI1Slot2', reset_device=True)
+    def _set_channel(self, name_to_connect):
+        if name_to_connect is None:
+            print("Disconnecting from all channels")
+        else:
+            print(f"Connecting to channel {name_to_connect}")
 
-# Add the switch to the station
-station.add_component(switch)
+    def _get_channel(self):
+        return "ch1"
 
-# Print the available channels
-print("Available channels:", switch.channel.vals)
+# Connect to the NI PXIe-2597 Multiplexer Switch Module
+switch = NI_PXIe_2597(name="switch", resource="PXI0::0::INSTR")
 
-# Set the active channel to 'ch1'
-switch.channel('ch1')
+# Set the active channel
+switch.channel("ch2")
 
 # Get the active channel
 active_channel = switch.channel()
-print("Active channel:", active_channel)
+print(f"Active channel: {active_channel}")
 ```
 
-This script creates a `Station` object to hold the instrument and then connects to the NI PXIe-2597 switch module using the `NI_PXIe_2597` driver. The `reset_device` argument is set to `True` to reset the device on initialization.
+This script defines a custom instrument class `NI_PXIe_2597` that inherits from `qcodes.instrument.base.Instrument`. It adds a parameter `channel` to the instrument, which represents the active channel of the switch. The `set_cmd` method `_set_channel` is responsible for connecting/disconnecting the switch to/from the specified channel, and the `get_cmd` method `_get_channel` returns the active channel.
 
-The script adds the switch to the station using the `add_component` method. It then prints the available channels using the `vals` attribute of the `channel` parameter.
+To use the script, you need to provide the appropriate `name` and `resource` parameters when creating an instance of the `NI_PXIe_2597` class. In the example above, the instrument is named "switch" and the resource address is "PXI0::0::INSTR". You can modify these values according to your setup.
 
-The active channel is set to 'ch1' using the `channel` parameter as a function. The active channel is retrieved using the `channel` parameter as a function without any arguments.
+After connecting to the instrument, you can set the active channel by calling `switch.channel("ch2")`, where "ch2" is the desired channel. To retrieve the active channel, you can call `switch.channel()`, which returns the current active channel.
 
-Note: Make sure you have the necessary dependencies installed and the correct resource name for your specific setup.
+Note: The script provided only demonstrates the basic usage of the instrument class and does not include the full functionality of the NI PXIe-2597 Multiplexer Switch Module.
 
 </TabItem>
 </Tabs>

@@ -67,7 +67,7 @@ keithley.close_channel("slot2")
 keithley.close()
 ```
 
-In this script, we import the necessary modules and create an instance of the `Keithley3706A` instrument. We provide the instrument name and the VISA resource address (in this case, the IP address of the instrument). Then, we connect to the instrument using the `connect_message()` method, which prints information about the connected instrument and its switch cards. Finally, we can perform operations with the instrument, such as resetting channels, opening channels, and closing channels. After we are done, we disconnect from the instrument using the `close()` method.
+In this script, we import the necessary modules and create an instance of the `Keithley3706A` instrument. We provide the instrument name and the VISA resource address (in this case, the IP address of the instrument). Then, we connect to the instrument using the `connect_message()` method, which prints information about the connected instrument and its switch cards. After that, we can perform operations with the instrument, such as resetting channels, opening channels, and closing channels. Finally, we disconnect from the instrument by calling the `close()` method.
 
 </TabItem>
 </Tabs>

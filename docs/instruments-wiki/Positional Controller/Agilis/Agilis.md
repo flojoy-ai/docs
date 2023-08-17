@@ -63,23 +63,26 @@ controller.reset_controller()
 print(controller.firmware_version)
 
 # Move the X axis relative by 1000 steps
-controller.axis[newport.AGUC2.Axes.X].move_relative(1000)
+controller.axis["X"].move_relative(1000)
 
 # Activate jogging in mode 3 for the X axis
-controller.axis[newport.AGUC2.Axes.X].jog = 3
+controller.axis["X"].jog = 3
 
 # Stop the X axis
-controller.axis[newport.AGUC2.Axes.X].stop()
+controller.axis["X"].stop()
 
 # Query the step amplitude for the X axis
-step_amplitude = controller.axis[newport.AGUC2.Axes.X].step_amplitude
+step_amplitude = controller.axis["X"].step_amplitude
 print(step_amplitude)
 
 # Set the positive step amplitude to +10 and the negative step amplitude to -20 for the X axis
-controller.axis[newport.AGUC2.Axes.X].step_amplitude = (10, -20)
+controller.axis["X"].step_amplitude = (10, -20)
+
+# Close the connection
+controller.close()
 ```
 
-Note: This code assumes that you have already installed the Instrumentkit library.
+This code connects to the Agilis Positional Controller on COM5 with a baud rate of 921600. It then performs various operations such as resetting the controller, printing the firmware version, moving the X axis relative by 1000 steps, activating jogging in mode 3 for the X axis, stopping the X axis, querying and setting the step amplitude for the X axis. Finally, it closes the connection to the controller.
 
 </TabItem>
 </Tabs>

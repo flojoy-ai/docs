@@ -308,7 +308,7 @@ trace_data = fsl.read_trace()  # Read the trace data from the spectrum analyzer
 print(trace_data)
 ```
 
-This script provides a basic example of how to use Pymeasure to connect to a Rohde&Schwarz FSL spectrum analyzer and control its settings. You can extend it to suit your specific needs and perform more advanced measurements and analysis.
+This script provides a basic example of how to use Pymeasure to connect to and control a Rohde&Schwarz FSL spectrum analyzer. You can extend it to suit your specific needs and perform more advanced measurements and analysis.
 
 </TabItem>
 </Tabs>
