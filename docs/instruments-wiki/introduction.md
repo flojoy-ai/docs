@@ -331,9 +331,9 @@ An attenuator is effectively the opposite of an amplifier, though the two work b
 
  <details> 
  <summary>Category Description</summary> 
- A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region.[1][2] The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
+ A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region. The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
 
-The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University.[3] The field of dilution refrigeration is reviewed by Zu et al. 
+The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -388,7 +388,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
  <details> 
  <summary>Category Description</summary> 
- A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source).[1] Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
+ A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -430,7 +430,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252094/Instruments/Function%20Generators/Keysight-81110A/Keysight-81110A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287852/Instruments/Function%20Generators/Keysight-81110A/Keysight-81110A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 81110A</figcaption>
 </figure>
 </a>
@@ -578,7 +578,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252129/Instruments/Lockin%20Amplifiers/SR-830/SR-830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287884/Instruments/Lockin%20Amplifiers/SR-830/SR-830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 830</figcaption>
 </figure>
 </a>
@@ -590,37 +590,31 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252143/Instruments/Lockin%20Amplifiers/SR-860/SR-860.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287899/Instruments/Lockin%20Amplifiers/SR-860/SR-860.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 860</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252148/Instruments/Lockin%20Amplifiers/SR830/SR830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287904/Instruments/Lockin%20Amplifiers/SR830/SR830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR830</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252154/Instruments/Lockin%20Amplifiers/SR860/SR860.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287909/Instruments/Lockin%20Amplifiers/SR860/SR860.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR860</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252159/Instruments/Lockin%20Amplifiers/SR865A/SR865A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287914/Instruments/Lockin%20Amplifiers/SR865A/SR865A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR865A</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252164/Instruments/Lockin%20Amplifiers/SR865A/SR865A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR865A</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252170/Instruments/Lockin%20Amplifiers/SRS-830/SRS-830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287925/Instruments/Lockin%20Amplifiers/SRS-830/SRS-830.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SRS 830</figcaption>
 </figure>
 </a>
@@ -648,31 +642,31 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242144/Instruments/Miscellaneous/Buffer/Buffer.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287012/Instruments/Miscellaneous/Buffer/Buffer.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Buffer</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242520/Instruments/Miscellaneous/MT-Standard-Interface-Communication-Software/MT-Standard-Interface-Communication-Software.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287300/Instruments/Miscellaneous/MT-Standard-Interface-Communication-Software/MT-Standard-Interface-Communication-Software.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>MT Standard Interface Communication Software</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242171/Instruments/Miscellaneous/Newporterror/Newporterror.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287308/Instruments/Miscellaneous/Newporterror/Newporterror.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Newporterror</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242365/Instruments/Miscellaneous/Newportomega/Newportomega.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287311/Instruments/Miscellaneous/Newportomega/Newportomega.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Newportomega</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242280/Instruments/Miscellaneous/Pipekeithley/Pipekeithley.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287339/Instruments/Miscellaneous/Pipekeithley/Pipekeithley.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Pipekeithley</figcaption>
 </figure>
 </a>
@@ -684,54 +678,8 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242578/Instruments/Miscellaneous/Stahl/Stahl.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287487/Instruments/Miscellaneous/Stahl/Stahl.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Stahl</figcaption>
-</figure>
-</a>
-</div> 
-
- ## Motion 
-
- <details> 
- <summary>Category Description</summary> 
- Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
- </details> 
-
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118547/Instruments/Motion/Attocube-ECC-100/Attocube-ECC-100.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Attocube ECC 100</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118535/Instruments/Motion/K10CR1/K10CR1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>K10CR1</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118448/Instruments/Motion/MMF101-MMF102/MMF101-MMF102.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MMF101/MMF102</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692241758/Instruments/Motion/Newmark-NSC-A1/Newmark-NSC-A1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Newmark-NSC-A1</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118710/Instruments/Motion/PRM1Z8/PRM1Z8.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PRM1Z8</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692199774/Instruments/Motion/Smaract-MCS2/Smaract-MCS2.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Smaract-MCS2</figcaption>
 </figure>
 </a>
 </div> 
@@ -740,10 +688,16 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
  <details> 
  <summary>Category Description</summary> 
- Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. 
+ Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692286972/Instruments/Motor%20Controller/AG-UC-8/AG-UC-8.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>AG UC 8</figcaption>
+</figure>
+</a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118729/Instruments/Motor%20Controller/AG-UC2/AG-UC2.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
@@ -752,8 +706,116 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692286975/Instruments/Motor%20Controller/ANC-350-PIEZO-Controller/ANC-350-PIEZO-Controller.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>ANC 350 PIEZO Controller</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692286976/Instruments/Motor%20Controller/ANC300/ANC300.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>ANC300</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692286977/Instruments/Motor%20Controller/APT-Stepper-Motor-Control-Module/APT-Stepper-Motor-Control-Module.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>APT Stepper Motor Control Module</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287005/Instruments/Motor%20Controller/Agilis/Agilis.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Agilis</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287009/Instruments/Motor%20Controller/Attocube-ECC-100/Attocube-ECC-100.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Attocube ECC 100</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077960/Instruments/Motor%20Controller/DP-Series-Motor-Controller/DP-Series-Motor-Controller.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DP Series Motor Controller</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287044/Instruments/Motor%20Controller/ESP-300/ESP-300.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>ESP 300</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287056/Instruments/Motor%20Controller/Gemini-GV6/Gemini-GV6.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Gemini GV6</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287093/Instruments/Motor%20Controller/K10CR1/K10CR1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>K10CR1</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287094/Instruments/Motor%20Controller/KIM001/KIM001.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>KIM001</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287095/Instruments/Motor%20Controller/KIM101/KIM101.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>KIM101</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287274/Instruments/Motor%20Controller/LPS710E-M/LPS710E-M.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>LPS710E/M</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287290/Instruments/Motor%20Controller/MC1/MC1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>MC1</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287294/Instruments/Motor%20Controller/MMF101-MMF102/MMF101-MMF102.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>MMF101/MMF102</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287307/Instruments/Motor%20Controller/Newmark-NSC-A1/Newmark-NSC-A1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Newmark-NSC-A1</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287310/Instruments/Motor%20Controller/Newportesp-301/Newportesp-301.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Newportesp 301</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287334/Instruments/Motor%20Controller/PRM1Z8/PRM1Z8.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>PRM1Z8</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287339/Instruments/Motor%20Controller/Picomotorcontroller-8742/Picomotorcontroller-8742.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Picomotorcontroller 8742</figcaption>
+</figure>
+</a>
+<a href="https://www.google.com">
+<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287486/Instruments/Motor%20Controller/Smaract-MCS2/Smaract-MCS2.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Smaract-MCS2</figcaption>
 </figure>
 </a>
 </div> 
@@ -812,18 +874,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118601/Instruments/Multimeters/Keithley-195/Keithley-195.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 195</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118371/Instruments/Multimeters/Keithley-2000/Keithley-2000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2000</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118371/Instruments/Multimeters/Keithley-2000/Keithley-2000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2000</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -920,12 +970,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118503/Instruments/Multimeters/Keysight-3478A/Keysight-3478A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 3478A</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077816/Instruments/Multimeters/Keysight-E4980A/Keysight-E4980A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4980A</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1052,7 +1096,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242672/Instruments/Network%20Analyzer/Series/Series.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287480/Instruments/Network%20Analyzer/Series/Series.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Series</figcaption>
 </figure>
 </a>
@@ -1068,7 +1112,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
  <details> 
  <summary>Category Description</summary> 
- An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument.[1] Modern digital instruments may calculate and display these properties directly. 
+ An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -1086,20 +1130,8 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242618/Instruments/Oscilloscopes/DPO7000/DPO7000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287035/Instruments/Oscilloscopes/DPO7000/DPO7000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DPO7000</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242618/Instruments/Oscilloscopes/DPO7000/DPO7000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO7000</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118463/Instruments/Oscilloscopes/DPO70000/DPO70000.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO70000</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1128,7 +1160,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252261/Instruments/Oscilloscopes/Keysight-86100A/Keysight-86100A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692288023/Instruments/Oscilloscopes/Keysight-86100A/Keysight-86100A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 86100A</figcaption>
 </figure>
 </a>
@@ -1201,20 +1233,8 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242276/Instruments/Oscilloscopes/TDS224/TDS224.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287494/Instruments/Oscilloscopes/TDS224/TDS224.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TDS224</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242276/Instruments/Oscilloscopes/TDS224/TDS224.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS224</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120116/Instruments/Oscilloscopes/TDS500-Series/TDS500-Series.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS500 Series</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1313,94 +1333,11 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 </div> 
 
- ## Positional Controller 
-
- <details> 
- <summary>Category Description</summary> 
- Motion control is a sub-field of automation, encompassing the systems or sub-systems involved in moving parts of machines in a controlled manner. Motion control systems are extensively used in a variety of fields for automation purposes, including precision engineering, micromanufacturing, biotechnology, and nanotechnology.[1] The main components involved typically include a motion controller, an energy amplifier, and one or more prime movers or actuators. Motion control may be open loop or closed loop. In open loop systems, the controller sends a command through the amplifier to the prime mover or actuator, and does not know if the desired motion was actually achieved. Typical systems include stepper motor or fan control. For tighter control with more precision, a measuring device may be added to the system (usually near the end motion). When the measurement is converted to a signal that is sent back to the controller, and the controller compensates for any error, it becomes a Closed loop System. 
- </details> 
-
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118373/Instruments/Positional%20Controller/AG-UC-8/AG-UC-8.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AG UC 8</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118762/Instruments/Positional%20Controller/ANC-350-PIEZO-Controller/ANC-350-PIEZO-Controller.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ANC 350 PIEZO Controller</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118784/Instruments/Positional%20Controller/ANC300/ANC300.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ANC300</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120040/Instruments/Positional%20Controller/APT-Stepper-Motor-Control-Module/APT-Stepper-Motor-Control-Module.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>APT Stepper Motor Control Module</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118506/Instruments/Positional%20Controller/Agilis/Agilis.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Agilis</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118376/Instruments/Positional%20Controller/ESP-300/ESP-300.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ESP 300</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118721/Instruments/Positional%20Controller/KIM001/KIM001.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>KIM001</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118602/Instruments/Positional%20Controller/KIM101/KIM101.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>KIM101</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120067/Instruments/Positional%20Controller/LPS710E-M/LPS710E-M.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LPS710E/M</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242380/Instruments/Positional%20Controller/MC1/MC1.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MC1</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118329/Instruments/Positional%20Controller/Newportesp-301/Newportesp-301.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Newportesp 301</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118305/Instruments/Positional%20Controller/Picomotorcontroller-8742/Picomotorcontroller-8742.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Picomotorcontroller 8742</figcaption>
-</figure>
-</a>
-</div> 
-
  ## Power Meters 
 
  <details> 
  <summary>Category Description</summary> 
- An optical power meter (OPM) is a device used to measure the power in an optical signal
- 
+ A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -1449,7 +1386,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242312/Instruments/Power%20Meters/Keithley-6485/Keithley-6485.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287133/Instruments/Power%20Meters/Keithley-6485/Keithley-6485.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 6485</figcaption>
 </figure>
 </a>
@@ -1505,12 +1442,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118695/Instruments/Power%20Meters/PM100D/PM100D.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PM100D</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118304/Instruments/Power%20Meters/PM100USB/PM100USB.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PM100USB</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1598,13 +1529,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242579/Instruments/Power%20Supplies/HMP-4040/HMP-4040.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMP 4040</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242579/Instruments/Power%20Supplies/HMP-4040/HMP-4040.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287074/Instruments/Power%20Supplies/HMP-4040/HMP-4040.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4040</figcaption>
 </figure>
 </a>
@@ -1646,37 +1571,13 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118449/Instruments/Power%20Supplies/Keithley-2400/Keithley-2400.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2400</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077870/Instruments/Power%20Supplies/Keithley-2450/Keithley-2450.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2450</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077870/Instruments/Power%20Supplies/Keithley-2450/Keithley-2450.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2450</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077870/Instruments/Power%20Supplies/Keithley-2450/Keithley-2450.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2450</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242640/Instruments/Power%20Supplies/Keithley-2600/Keithley-2600.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2600</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242640/Instruments/Power%20Supplies/Keithley-2600/Keithley-2600.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287110/Instruments/Power%20Supplies/Keithley-2600/Keithley-2600.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2600</figcaption>
 </figure>
 </a>
@@ -1744,12 +1645,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118764/Instruments/Power%20Supplies/Keithley-6220/Keithley-6220.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 6220</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118548/Instruments/Power%20Supplies/Keithley-6221/Keithley-6221.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6221</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1910,26 +1805,8 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118327/Instruments/Power%20Supplies/Yokogawa-7651/Yokogawa-7651.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Yokogawa 7651</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119461/Instruments/Power%20Supplies/Yokogawa-GS-200/Yokogawa-GS-200.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Yokogawa GS 200</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119461/Instruments/Power%20Supplies/Yokogawa-GS-200/Yokogawa-GS-200.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Yokogawa GS 200</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692079696/Instruments/Power%20Supplies/QDAC/QDAC.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>QDAC</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
@@ -1994,12 +1871,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120087/Instruments/Pulse%20Generator/DG645/DG645.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DG645</figcaption>
-</figure>
-</a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120087/Instruments/Pulse%20Generator/DG645/DG645.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
@@ -2165,12 +2036,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118493/Instruments/RF%20Signal%20Generator/HDAWG/HDAWG.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDAWG</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118802/Instruments/RF%20Signal%20Generator/Keysight-33220A/Keysight-33220A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33220A</figcaption>
 </figure>
@@ -2303,7 +2168,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242282/Instruments/RF%20Signal%20Generator/RFSG/RFSG.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287361/Instruments/RF%20Signal%20Generator/RFSG/RFSG.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>RFSG</figcaption>
 </figure>
 </a>
@@ -2357,9 +2222,8 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118731/Instruments/RF%20Signal%20Generator/SMW-200A---B140/SMW-200A---B140.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SMW 200A - B140
-</figcaption>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287407/Instruments/RF%20Signal%20Generator/SMW-200A-B140/SMW-200A-B140.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SMW 200A-B140</figcaption>
 </figure>
 </a>
 </div> 
@@ -2377,22 +2241,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692077868/Instruments/Screen%20Display/Gentec-EO-Maestro/Gentec-EO-Maestro.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Gentec EO Maestro</figcaption>
-</figure>
-</a>
-</div> 
-
- ## Servo Drive_Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- A motor controller is a device or group of devices that can coordinate in a predetermined manner the performance of an electric motor. A motor controller might include a manual or automatic means for starting and stopping the motor, selecting forward or reverse rotation, selecting and regulating the speed, regulating or limiting the torque, and protecting against overloads and electrical faults. Motor controllers may use electromechanical switching, or may use power electronics devices to regulate the speed and direction of a motor. 
- </details> 
-
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692119459/Instruments/Servo%20Drive_Controllers/Gemini-GV6/Gemini-GV6.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Gemini GV6</figcaption>
 </figure>
 </a>
 </div> 
@@ -2475,13 +2323,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242619/Instruments/Spectrum%20Analyzers/Keysight-B1500A/Keysight-B1500A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B1500A</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692242619/Instruments/Spectrum%20Analyzers/Keysight-B1500A/Keysight-B1500A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692287198/Instruments/Spectrum%20Analyzers/Keysight-B1500A/Keysight-B1500A.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight B1500A</figcaption>
 </figure>
 </a>
@@ -2574,7 +2416,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="https://www.google.com">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692252554/Instruments/Temperature%20Controllers/CTC100/CTC100.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692288297/Instruments/Temperature%20Controllers/CTC100/CTC100.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CTC100</figcaption>
 </figure>
 </a>
@@ -2588,12 +2430,6 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692120092/Instruments/Temperature%20Controllers/Fluke-7341/Fluke-7341.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Fluke 7341</figcaption>
-</figure>
-</a>
-<a href="https://www.google.com">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692118369/Instruments/Temperature%20Controllers/ITC-503/ITC-503.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ITC 503</figcaption>
 </figure>
 </a>
 <a href="https://www.google.com">
