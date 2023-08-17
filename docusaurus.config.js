@@ -105,7 +105,7 @@ const config = {
         backgroundColor: '#000',
         textColor: '#FFF',
         padding: '5px 0',
-        fontSize: 90%,
+        fontSize: '90%',
         isCloseable: true,
       },
       colorMode: {
@@ -143,7 +143,7 @@ const config = {
               },
               {
                 href: '/nodes/introduction/',
-                label: 'Tutorial',
+                label: 'Flojoy Studio UI',
               },
               {
                 href: '/custom-nodes/creating-custom-node/',
