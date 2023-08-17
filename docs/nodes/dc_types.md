@@ -27,4 +27,4 @@ To see what types a node can input/output, hover over the connection for a node.
 ![image](/img/introduction/dtypes2.png)
 *The pop up appears showing this node outputs an x/y pair dataset.*
 
-There are other types such as Image and Matrix for handling images and matricies (both are 2-dimensional datasets). For more in depth information on the backend system used for data types see [`here`](/custom-nodes/data-container/). If you think a node should have an additional data type or there's an error please contact us.
+There are other types such as `Image` and `Matrix` for handling images and matrices (both are 2-dimensional datasets). For more in-depth information on the backend system used for data types, see [`here`](/custom-nodes/data-container/). If you think a node should have an additional data type or come across an error, please contact us.
