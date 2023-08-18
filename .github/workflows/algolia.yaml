@@ -1,0 +1,24 @@
+name: Algolia Index
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight (UTC time)
+  workflow_dispatch:
+
+jobs:
+  cron_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set environment variables
+        env:
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+
+      - name: Run cron job
+        run: |
+          # Add your cron job commands here
+          docker run -it -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
