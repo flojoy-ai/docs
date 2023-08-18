@@ -18,6 +18,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run cron job
-        run: |
-          # Add your cron job commands here
-          docker run -it -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
+        run: docker run -it -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
