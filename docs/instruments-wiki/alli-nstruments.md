@@ -1,8 +1,7 @@
---- 
+---
 hide_table_of_contents: true
 sidebar_label: All Instruments
-sidebar_position: 1
-slug: /instruments-wiki/
+sidebar_position: 0
 ---
 
 # Instruments Wiki
@@ -11,13 +10,12 @@ Welcome to the Instruments Wiki! Here you can find information about the instrum
 
 You can find all the available instruments from the sidebar.
 
-
-## Cameras 
+## Cameras
 
  <details> 
  <summary>Category Description</summary> 
  A camera module is an image sensor integrated with a lens, control electronics, and an interface like CSI, Ethernet or plain raw low-voltage differential signaling. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/cameras/thorlabs/cc126mu">
@@ -50,14 +48,14 @@ You can find all the available instruments from the sidebar.
 <figcaption>Thorlabs-DCU224C</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Coincidence Counters 
+## Coincidence Counters
 
  <details> 
  <summary>Category Description</summary> 
  In quantum physics, coincidence counting is used in experiments testing particle non-locality and quantum entanglement. In these experiments two or more particles are created from the same initial packet of energy, inexorably linking/entangling their physical properties. Separate particle detectors measure the quantum states of each particle and send the resulting signal to a coincidence counter. In any experiment studying entanglement, the entangled particles are vastly outnumbered by non-entangled particles which are also detected; patternless noise that drowns out the entangled signal. In a two detector system, a coincidence counter alleviates this problem by only recording detection signals that strike both detectors simultaneously (or more accurately, recording only signals that arrive at both detectors and correlate to the same emission time). This ensures that the data represents only entangled particles. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/coincidence-counter/qubitekk/cc1">
@@ -66,14 +64,14 @@ You can find all the available instruments from the sidebar.
 <figcaption>CC1</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## DAQ boards 
+## DAQ boards
 
  <details> 
  <summary>Category Description</summary> 
  In electronics, an analog-to-digital converter (ADC, A/D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/daq-boards/alazartech/ats9360-12bit-18gs-s">
@@ -130,16 +128,17 @@ You can find all the available instruments from the sidebar.
 <figcaption>Keysight 34980A Submodules</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Digital Attenuators 
+## Digital Attenuators
 
  <details> 
  <summary>Category Description</summary> 
  An attenuator is an electronic device that reduces the power of a signal without appreciably distorting its waveform.
 
-An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1. 
- </details> 
+An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1.
+
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/digital-attenuator/vaunix/lda-102">
@@ -328,16 +327,17 @@ An attenuator is effectively the opposite of an amplifier, though the two work b
 <figcaption>Weinschel 8320</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Dilution Refrigerators 
+## Dilution Refrigerators
 
  <details> 
  <summary>Category Description</summary> 
  A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region. The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
 
-The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al. 
- </details> 
+The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al.
+
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/dilution-refrigerator/oxford-instruments/kelvinox-igh">
@@ -352,15 +352,15 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Triton</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Electronic Loads 
+## Electronic Loads
 
  <details> 
  <summary>Category Description</summary> 
  An electronic load is a test instrument designed to sink current and absorb power out of a power source. If a power supply is used to power a device, an electronic load is used to test the power supply by emulating the device under test (DUT). Power supplies and electronic loads are complementary test equipment. The power supply tests electronic circuits under specific sourcing conditions. The electronic load tests the energy sources or energy conversion blocks under specific loading constraints. An electronic load is a programmable instrument that offers the user various modes of control such as constant voltage (CV), constant current (CC), constant power (CP) or constant resistance (CR).
  
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/electronic-loads/keysight/keysight-n3300a">
@@ -369,14 +369,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight N3300A</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Frequency synthesizers 
+## Frequency synthesizers
 
  <details> 
  <summary>Category Description</summary> 
  A frequency synthesizer is an electronic circuit that generates a range of frequencies from a single reference frequency. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/frequency-synthesizer/holzworth/hs-9008b">
@@ -385,14 +385,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>HS 9008B</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Function Generators 
+## Function Generators
 
  <details> 
  <summary>Category Description</summary> 
  A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/function-generators/tektronix/afg3000">
@@ -461,14 +461,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Rigol DG1062Z</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## IV Converters 
+## IV Converters
 
  <details> 
  <summary>Category Description</summary> 
  An I/V-convertor is intended to convert the current from a DAC (Digital Analog Convertor) into an analog voltage and to filter this signal to keep out the alias frequencies 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/iv-converter/qutech/ivvi">
@@ -483,14 +483,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>SP983c</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Laser Diode Controllers 
+## Laser Diode Controllers
 
  <details> 
  <summary>Category Description</summary> 
  Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/laser-diode-controllers/thorlabs/pro8000">
@@ -499,14 +499,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>PRO8000</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Lasers 
+## Lasers
 
  <details> 
  <summary>Category Description</summary> 
  A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/lasers/keysight/keysight-n7776c">
@@ -527,14 +527,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>iBeam smart</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Lockin Amplifiers 
+## Lockin Amplifiers
 
  <details> 
  <summary>Category Description</summary> 
  A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/lockin-amplifiers/ametek/ametek-7270">
@@ -633,14 +633,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>UHFLI</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Miscellaneous 
+## Miscellaneous
 
  <details> 
  <summary>Category Description</summary> 
  Miscellaneous 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/miscellaneous/keithley/buffer">
@@ -685,14 +685,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Stahl</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Motor Controllers 
+## Motor Controllers
 
  <details> 
  <summary>Category Description</summary> 
  Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/motor-controller/newport/ag-uc-8">
@@ -821,14 +821,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Smaract-MCS2</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Multimeters 
+## Multimeters
 
  <details> 
  <summary>Category Description</summary> 
  A multimeter (also known as a volt-ohm-milliammeter, volt-ohmmeter or VOM) is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current, in which case can be used as a voltmeter, ammeter, and ohmmeter. Some feature the measurement of additional properties such as temperature and capacitance. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/multimeters/andeen hagerling/2500a-bridge">
@@ -999,14 +999,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keithley 6430</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Multiplexer Switch Modules 
+## Multiplexer Switch Modules
 
  <details> 
  <summary>Category Description</summary> 
  PXI Multiplexer Switch Modules are ideal for high-channel-count applications that need to connect measurement or signal generation instruments to various test points on devices or units under test (DUTs or UUTs). PXI Multiplexer Switch Modules use a variety of relay types, including electromechanical armature relays, reed relays,  field-effect transistor (FET) relays, and solid-state relays, each with their own benefits, allowing you to choose a multiplexer that fits your requirements. To program the switches, you can use the IVI-compliant NI-SWITCH driver software, complete with help documentation, example programs, and a soft front panel application for interactive control of switches. For intelligent management of complex switch systems, NI Switch Executive provides additional software tools to help you design, build, and deploy your switching system. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/multiplexer-switch-modules/national-instruments/ni-pxie-2597">
@@ -1015,14 +1015,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>NI PXIe-2597</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Network Analyzers 
+## Network Analyzers
 
  <details> 
  <summary>Category Description</summary> 
  Vector network analyzers are crucial for the characterization of the devices and components used in radio frequency and microwave systems. This includes network testing for wifi, computer networks, cell phone coverage, and much more. These powerful devices are used in various stages of product development and can be used to verify the performance of various components such as antennas, amplifiers, cables, and many other active or passive devices. We use network analyzers to test these components to verify specifications of building blocks for more complex RF systems. Testing these systems ensures distortion-free transmission of communication signals and ensures a good match when absorbing power. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/network-analyzer/advantest/advantest-r3767cg">
@@ -1109,14 +1109,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>ZVL 13</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Oscilloscopes 
+## Oscilloscopes
 
  <details> 
  <summary>Category Description</summary> 
  An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo4104">
@@ -1312,14 +1312,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>WaveSurfer 510</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Photon Counting System 
+## Photon Counting System
 
  <details> 
  <summary>Category Description</summary> 
  Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/photon-counting-system/picoquant/picoharp-300">
@@ -1334,14 +1334,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Singlequantum</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Power Meters 
+## Power Meters
 
  <details> 
  <summary>Category Description</summary> 
  A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/power-meters/newport/1830-c">
@@ -1465,15 +1465,15 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight M960x defs</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Power Supplies 
+## Power Supplies
 
  <details> 
  <summary>Category Description</summary> 
  A power supply is an electrical device that supplies electric power to an electrical load. 
  
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/power-supplies/american-magnetics/ami-430">
@@ -1842,14 +1842,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight N6705B</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Preamplifiers 
+## Preamplifiers
 
  <details> 
  <summary>Category Description</summary> 
  A preamplifier, also known as a preamp, is an electronic amplifier that converts a weak electrical signal into an output signal strong enough to be noise-tolerant and strong enough for further processing, or for sending to a power amplifier and a loudspeaker. Without this, the final signal would be noisy or distorted. They are typically used to amplify signals from analog sensors such as microphones and pickups. Because of this, the preamplifier is often placed close to the sensor to reduce the effects of noise and interference. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/preamplifier/srs/sr-570">
@@ -1864,14 +1864,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>SR560</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Pulse Generators 
+## Pulse Generators
 
  <details> 
  <summary>Category Description</summary> 
  A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/pulse-generator/srs/dg645">
@@ -1880,14 +1880,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>DG645</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Quantum Analyzers 
+## Quantum Analyzers
 
  <details> 
  <summary>Category Description</summary> 
  The SHFQA enables multi-state discrimination with optimal signal-to-noise ratio and minimal latency thanks to its advanced sequencer and its low-latency signal processing chain with matched filters and result correlation. The data are transmitted in real-time to other instruments for active qubit reset or global error correction protocols. Controlled through the LabOne software suite comprising the user interface, several APIs and LabOne Q, the SHFQA supports quantum computing projects with sizes ranging from a few to several hundreds of qubits. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/quantum-analyzer/zurich-instruments/shfqa">
@@ -1902,14 +1902,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>UHFQA</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Quantum Computing Control System 
+## Quantum Computing Control System
 
  <details> 
  <summary>Category Description</summary> 
  A Quantum Computing Control System (QCCS) is designed to control more than 100 superconducting and spin qubits. Each component of the QCCS is conceived to play a specific role in qubit control, readout and feedback, and operates in a fully synchronized manner with the other parts of the system. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/quantum-computing-control-system/zurich-instruments/pqsc">
@@ -1918,16 +1918,15 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>PQSC</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Qubit Controllers 
+## Qubit Controllers
 
  <details> 
  <summary>Category Description</summary> 
  Each control channel of the SHFQC has its own powerful sequencer for creating phase- and timing-programmable waveforms, so that a single SHFQC can control or couple qubits with pulses from DC to 8.5 GHz, and react at any time on measurements from the readout channel. With the SHFQC-16W upgrade option, the readout channel's freely configurable integration weights and readout-pulse memories are doubled from 8 to 16. This provides more flexibility in configuring the readout, e.g. by enabling full real-time control and readout of 6 qutrits.
 
- 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/qubit-controller/zurich-instruments/shfqc">
@@ -1936,14 +1935,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>SHFQC</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## RF Signal Generators 
+## RF Signal Generators
 
  <details> 
  <summary>Category Description</summary> 
  A signal generator is one of a class of electronic devices that generates electrical signals with set properties of amplitude, frequency, and wave shape. These generated signals are used as a stimulus for electronic measurements, typically used in designing, testing, troubleshooting, and repairing electronic or electroacoustic devices, though it often has artistic uses as well 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/rf-signal-generator/signalcore/5521a">
@@ -2229,15 +2228,15 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>SMW 200A-B140</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Screen Display 
+## Screen Display
 
  <details> 
  <summary>Category Description</summary> 
  Touchscreen Display device
  
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/screen-display/gentec eo/gentec-EO-maestro">
@@ -2246,14 +2245,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Gentec EO Maestro</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Shutter Controllers 
+## Shutter Controllers
 
  <details> 
  <summary>Category Description</summary> 
  Optical Shutters utilize a rotary, electro-mechanical actuator to provide millisecond shutter operation. During operation, these shutters remain in a closed position and then open when a pulse control signal is applied by an external controller. As long as the control voltage to the optical shutter remains high, the shutter stays open, but as soon as the voltage goes low, the shutter closes, providing inherent "fail-safe" operation. The frequency at which the device is opened and closed can be controlled. An optical sensor, which detects the shutter blade position in the housing, provides information that confirms the state of the optical shutter position. This makes it ideal in applications where a laser safety lockout is required. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/shutter-controller/thorlabs/sc10">
@@ -2262,14 +2261,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>SC10</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Spectrometers 
+## Spectrometers
 
  <details> 
  <summary>Category Description</summary> 
  A spectrometer is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/spectrometers/andor/idus-401-ccd">
@@ -2290,14 +2289,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>PPMS Dynacool</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Spectrum Analyzers 
+## Spectrum Analyzers
 
  <details> 
  <summary>Category Description</summary> 
  A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/spectrum-analyzers/yokogawa/aq6370">
@@ -2360,14 +2359,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>USB SA 124 B</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Switch 
+## Switch
 
  <details> 
  <summary>Category Description</summary> 
  An RF switch or microwave switch is a device to route high frequency signals through transmission paths. RF (radio frequency) and microwave switches are used extensively in microwave test systems for signal routing between instruments and devices under test (DUT). Incorporating a switch into a switch matrix system enables you to route signals from multiple instruments to single or multiple DUTs. This allows multiple tests to be performed with the same setup, eliminating the need for frequent connects and disconnects. The entire testing process can be automated, increasing the throughput in high-volume production environments. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/switch/keithley/keithley-s46">
@@ -2382,14 +2381,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight B2200A</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Temperature Controllers 
+## Temperature Controllers
 
  <details> 
  <summary>Category Description</summary> 
  Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/temperature-controllers/temptronic/ats-525">
@@ -2513,14 +2512,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Lakeshore Model 372</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Temperature Sensor 
+## Temperature Sensor
 
  <details> 
  <summary>Category Description</summary> 
  A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/humidity-sensor/orbit3/orbit-3-sensor">
@@ -2529,14 +2528,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Orbit 3 Sensor</figcaption>
 </figure>
 </a>
-</div> 
+</div>
 
- ## Thermometers 
+## Thermometers
 
  <details> 
  <summary>Category Description</summary> 
  A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object). A thermometer has two important elements: (1) a temperature sensor (e.g. the bulb of a mercury-in-glass thermometer or the pyrometric sensor in an infrared thermometer) in which some change occurs with a change in temperature; and (2) some means of converting this change into a numerical value (e.g. the visible scale that is marked on a mercury-in-glass thermometer or the digital readout on an infrared model). Thermometers are widely used in technology and industry to monitor processes, in meteorology, in medicine, and in scientific research. 
- </details> 
+ </details>
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/thermometer/pico-technology/pt-104-picoch">
