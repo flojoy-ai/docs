@@ -1,15 +1,15 @@
 ---
 sidebar-position: 4
 id: flojoy-python-library
-title: flojoy Python Library
+title: Flojoy Python Library
 ---
 
-If you would like to contribute to the `flojoy` Python library, first clone the repository with `git`:
+If you would like to contribute to the `flojoy` Python library, first clone the `python` repository with `git`:
 
 - `git clone git@github.com:flojoy-io/python.git` (SSH)
 - `git clone https://github.com/flojoy-io/python.git` (HTTPS)
 
-Then clone the `studio` repository as well, for testing:
+Then clone the `studio` repository as well for testing:
 
 - `git clone git@github.com:flojoy-io/studio.git` (SSH)
 - `git clone https://github.com/flojoy-io/studio.git` (HTTPS)
@@ -26,10 +26,10 @@ Activate the virtual environment with:
 source venv/bin/activate
 ```
 
-With the `studio` virtual environment active, navigate to the `python` flojoy repository that was cloned and run:
+With the `studio` virtual environment active, navigate to the `python` repository that was cloned and run:
 
 ```
 pip install -e .
 ```
 
-This installs the `flojoy` package in editable mode, which creates a symlink to the local package code, allowing you to edit the package source code and have the changes reflected in `flojoy` nodes without having to reinstall each time.
+This installs the `flojoy` package in editable mode, which creates a symlink to the local package code, allowing you to edit the package source code and have the changes reflected in the Flojoy nodes, without having to reinstall it each time.
