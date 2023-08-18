@@ -138,16 +138,16 @@ const config = {
                 label: 'Flojoy Studio UI',
               },
               {
+                href: '/cloud/documentation',
+                label: 'Flojoy Cloud',
+              },              
+              {
                 href: '/explore-nodes',
                 label: 'Explore nodes',
               },
               {
                 href: '/instruments-wiki/all-instruments',
                 label: 'Instruments Wiki',
-              },
-              {
-                href: '/cloud/documentation',
-                label: 'Cloud',
               },
               {
                 href: '/custom-nodes/creating-custom-node/',
