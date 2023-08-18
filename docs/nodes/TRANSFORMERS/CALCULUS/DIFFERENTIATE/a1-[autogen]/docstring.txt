@@ -1,9 +1,14 @@
-
 The DIFFERENTIATE node takes two lists, x and y, as input.
 
-It then computes the derivative of the array, y, with respect to x.
+    It then computes the derivative of the array, y, with respect to x.
 
-Returns
--------
-numpy array
-    Derivative of the array.
+    Inputs
+    ------
+    default : OrderedPair|Vector
+        Input from which we get the x and y lists use in the derivative.
+
+    Returns
+    -------
+    OrderedPair
+        x: the x-axis of the input.
+        y: the result of the derivative.

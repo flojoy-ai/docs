@@ -1,7 +1,11 @@
-
 The MAT_2_DF node takes one matrix type data and converts it to a dataframe type data.
 
-Returns
--------
-DataFrame
-    Converted matrix value from the input.
+    Inputs
+    ------
+    default : Matrix
+        The input matrix to which we apply the conversion to.
+
+    Returns
+    -------
+    DataFrame
+        The dataframe result from the conversion of the input.
