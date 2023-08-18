@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 id: creating-custom-node
-title: Creating a custom node
+title: Creating a Custom Node
 description: Learn how to create a custom node in Flojoy by writing a Python function.
 ---
 
@@ -26,9 +26,9 @@ def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
     return OrderedPair(x=x, y=result)
 ```
 
-Note: The type hints are important! This is how Flojoy differentiates between node inputs (that you connect edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (e.g. `OrderedPair`, `Matrix`, etc.) is an input, and everything else is a parameter.
+**Note:** The type hints are important! This is how Flojoy differentiates between node inputs (that you connect the edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (e.g. `OrderedPair`, `Matrix`, etc.) is an _input_, and everything else is a _parameter_.
 
-The `node_type` argument to the `flojoy` decorator specifies what kind of node this should be displayed as in the frontend.
+The `node_type` argument to the `flojoy` decorator specifies what kind of node this should be displayed as in the Front-End.
 
 ## A more advanced example
 
@@ -59,17 +59,17 @@ def TRAIN_TEST_SPLIT(
     return TrainTestSplitOutput(train=DataFrame(df=train), test=DataFrame(df=test))
 ```
 
-In this example, the node needs to import `sklearn` which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
+In this example, the node needs to import `sklearn`, which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
 
-This node needs to return two `DataContainers`. We do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
+This node needs to return two `DataContainers`. We do this by creating a data class with the names of the outputs as fields. Then, we return an instance of this data class.
 
-Looking at the parameters, we have one `DataContainer` input, called `default`. When we only have one input and we do not want to label it in the frontend, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter that has a default value of 0.2.
+Looking at the parameters, we have one `DataContainer` input, called `default`. When we only have one input and we do not want to label it in the Front-End, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter that has a default value of 0.2.
 
-### Creating custom components (Frontend)
+### Creating custom components (Front-End)
 
 In Flojoy, you can create custom components for newly created nodes (i.e. shape and node connections). The custom components are located in the [`/src/feature/flow_chart_panel/components/`](https://github.com/flojoy-ai/studio/tree/main/src/feature/flow_chart_panel/components) `studio` folder. 
 
-Create a custom component for the newly created nodes and register the design in [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, it is an `ARITHMETIC` type node, so you will register the custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`. If you do not register the newly created node type, it will render the `DefaultNode` component.
+Create a custom component for the newly created nodes and register the design in the [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, it is an `ARITHMETIC` type node, so you will register the custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`. If you do not register the newly created node type, it will render the `DefaultNode` component.
 
 ```typescript {title='NodeConfigs.ts'}
 import MyCustomComponent from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
@@ -89,11 +89,11 @@ This is now performed at startup of Flojoy. So simply rerunning the startup scri
 To update the databases with the functionalities of the nodes (including your new custom node), run the following commands in the root directory:
 
 ```bash
-python3 generate_manifest.py  # generates node manifest for Frontend
+python3 generate_manifest.py  # generates node manifest for Front-End
 ```
 
 ```bash
-python3 write_python_metadata.py  # writes node metatdata to Frontend
+python3 write_python_metadata.py  # writes node metatdata to Front-End
 ```
 
 ### Almost done! Housekeeping time
@@ -124,9 +124,7 @@ All your Python files will now be properly formatted!
 It is always a good idea to set up formatting on save in the editor of your choice!
 :::
 
-### Congratulations! You have created your first custom node.
-
-When creating custom nodes, make sure to go through the following checklist:
+When creating custom nodes, make sure that you go through the following checklist:
 
 - [x] Did I create my new function correctly?
   - [x] Did I add the `flojoy` decorator to my function?
@@ -140,7 +138,9 @@ When creating custom nodes, make sure to go through the following checklist:
 
 This likely means you have to run `python3 generate_manifest.py` in the root Flojoy directory.
 
-## Contributing to the Nodes submodule
+**Congratulations! You have created your first custom node!**
+
+## How to contribute to the Nodes submodule
 
 Currently there are only one submodule in the Flojoy `studio` repository, called the `nodes` submodule, that includes all the node definitions.
 
