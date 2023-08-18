@@ -19,6 +19,7 @@
   "dependencies": {
     "@docsearch/js": "^3.5.0",
     "@docusaurus/core": "^2.4.0",
+    "@docusaurus/plugin-sitemap": "^2.4.1",
     "@docusaurus/preset-classic": "^2.4.0",
     "@docusaurus/theme-search-algolia": "^2.4.1",
     "@markprompt/css": "^0.10.0",
