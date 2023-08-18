@@ -21,7 +21,7 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/screen-display/gentec eo/gentec-EO-maestro">
+<a href="/instruments-wiki/screen-display/gentec-eo/gentec-EO-maestro">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106859/Instruments/Screen%20Display/Gentec-EO-Maestro/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Gentec EO Maestro</figcaption>

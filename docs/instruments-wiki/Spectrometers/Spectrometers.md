@@ -32,7 +32,7 @@ You can find all the available instruments from the sidebar
 <figcaption>Shamrock 750</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/power-meters/quantum design/ppms-dynacool">
+<a href="/instruments-wiki/power-meters/quantum-design/ppms-dynacool">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106790/Instruments/Spectrometers/PPMS-Dynacool/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>

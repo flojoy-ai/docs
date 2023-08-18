@@ -1,10 +1,10 @@
 ---
-title: Connecting to Keysight B1500A by Agilent in Python
+title: Connecting to Keysight B1500A by Keysight in Python
 sidebar_label: Keysight B1500A
 description: It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
-keywords: [spectrum analyzers, Agilent, Pymeasure, Qcodes]
-slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-b1500a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310090/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
+keywords: [spectrum analyzers, Keysight, Pymeasure, Qcodes]
+slug: /instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327991/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ It provides a wide range of measurement capabilities to cover the electrical cha
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310090/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327991/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

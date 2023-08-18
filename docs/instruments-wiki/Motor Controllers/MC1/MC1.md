@@ -4,7 +4,7 @@ sidebar_label: MC1
 description: Currently no description
 keywords: [motor controllers, Qubitekk, Instrumentkit]
 slug: /instruments-wiki/motor-controllers/qubitekk/mc1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310178/Instruments/Motor%20Controllers/MC1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328090/Instruments/Motor%20Controllers/MC1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310178/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328090/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

@@ -20,13 +20,13 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/quantum-analyzer/zurich-instruments/shfqa">
+<a href="/instruments-wiki/quantum-analyzers/zurich-instruments/shfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310281/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQA</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/quantum-analyzer/zurich-instruments/uhfqa">
+<a href="/instruments-wiki/quantum-analyzers/zurich-instruments/uhfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310395/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>UHFQA</figcaption>

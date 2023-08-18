@@ -22,13 +22,13 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/dilution-refrigerator/oxford-instruments/kelvinox-igh">
+<a href="/instruments-wiki/dilution-refrigerators/oxford-instruments/kelvinox-igh">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310029/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Kelvinox IGH</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/dilution-refrigerator/oxford-instruments/triton">
+<a href="/instruments-wiki/dilution-refrigerators/oxford-instruments/triton">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310392/Instruments/Dilution%20Refrigerators/Triton/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Triton</figcaption>

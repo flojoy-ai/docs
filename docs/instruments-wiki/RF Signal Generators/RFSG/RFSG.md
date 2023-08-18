@@ -4,7 +4,7 @@ sidebar_label: RFSG
 description: Currently no description
 keywords: [rf signal generators, National Instruments, Qcodes Community]
 slug: /instruments-wiki/rf-signal-generators/national-instruments/rfsg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310247/Instruments/RF%20Signal%20Generators/RFSG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328159/Instruments/RF%20Signal%20Generators/RFSG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310247/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328159/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

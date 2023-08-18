@@ -20,7 +20,7 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/coincidence-counter/qubitekk/cc1">
+<a href="/instruments-wiki/coincidence-counters/qubitekk/cc1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309906/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CC1</figcaption>

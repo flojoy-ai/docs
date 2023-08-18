@@ -62,13 +62,13 @@ You can find all the available instruments from the sidebar
 <figcaption>PCIE 1751</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/keysight/keysight-34980a/instruments-wiki/multimeters/keysight/keysight-34980a">
+<a href="/instruments-wiki/multimeters/keysight/keysight-34980a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106887/Instruments/DAQ%20boards/Keysight-34980A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 34980A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/keysight/">
+<a href="/instruments-wiki/multimeters/keysight/keysight-34980a-submodules">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107071/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 34980A Submodules</figcaption>

@@ -47,7 +47,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/temperature-controllers/srs/ctc100">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692314092/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328902/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CTC100</figcaption>
 </figure>
 </a>

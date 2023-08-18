@@ -4,7 +4,7 @@ sidebar_label: Series
 description: Currently no description
 keywords: [network analyzers, Rohde Schwarz, Qcodes]
 slug: /instruments-wiki/network-analyzers/rohde-schwarz/series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310367/Instruments/Network%20Analyzers/Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328289/Instruments/Network%20Analyzers/Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310367/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328289/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

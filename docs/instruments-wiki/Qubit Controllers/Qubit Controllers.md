@@ -22,7 +22,7 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/qubit-controller/zurich-instruments/shfqc">
+<a href="/instruments-wiki/qubit-controllers/zurich-instruments/shfqc">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310282/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQC</figcaption>

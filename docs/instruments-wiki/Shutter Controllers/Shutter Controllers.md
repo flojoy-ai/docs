@@ -20,7 +20,7 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/shutter-controller/thorlabs/sc10">
+<a href="/instruments-wiki/shutter-controllers/thorlabs/sc10">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310264/Instruments/Shutter%20Controllers/SC10/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SC10</figcaption>

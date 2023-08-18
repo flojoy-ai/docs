@@ -58,7 +58,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/function-generators/agilent/keysight-81110a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313674/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328433/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 81110A</figcaption>
 </figure>
 </a>

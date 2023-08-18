@@ -34,7 +34,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo7000">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313829/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328606/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DPO7000</figcaption>
 </figure>
 </a>
@@ -64,7 +64,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/oscilloscopes/agilent/keysight-86100a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313838/Instruments/Oscilloscopes/Keysight-86100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328617/Instruments/Oscilloscopes/Keysight-86100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 86100A</figcaption>
 </figure>
 </a>
@@ -105,7 +105,7 @@ You can find all the available instruments from the sidebar
 <figcaption>MSO70000</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/oscilloscopes/rohde schwarz/r&s-rto1000">
+<a href="/instruments-wiki/oscilloscopes/rohde-schwarz/r&s-rto1000">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200774/Instruments/Oscilloscopes/RS-RTO1000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S RTO1000</figcaption>
@@ -137,7 +137,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/oscilloscopes/tektronix/tds224">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313863/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328644/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TDS224</figcaption>
 </figure>
 </a>

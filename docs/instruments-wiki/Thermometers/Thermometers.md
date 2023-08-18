@@ -1,18 +1,18 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Humidity Sensor
+sidebar_label: All Thermometers
 sidebar_position: 1
-slug: /instruments-wiki/humidity-sensor/
+slug: /instruments-wiki/thermometers/
 ---
 
-# Controlling Humidity Sensor in Python
+# Controlling Thermometers in Python
 
-Welcome to the Humidity Sensor page! Here you can find information about the Humidity Sensor instruments available in Flojoy.
+Welcome to the Thermometers page! Here you can find information about the Thermometers instruments available in Flojoy.
 
 You can find all the available instruments from the sidebar
 
 
-## Humidity Sensor 
+## Thermometers 
 
  <details> 
  <summary>Category Description</summary> 
@@ -20,10 +20,10 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/thermometer/pico-technology/pt-104-picoch">
+<a href="/instruments-wiki/thermometers/pico-technology/pt-104-picoch">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310224/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Orbit 3 Sensor</figcaption>
+<figcaption>PT 104 Picoch</figcaption>
 </figure>
 </a>
 </div>

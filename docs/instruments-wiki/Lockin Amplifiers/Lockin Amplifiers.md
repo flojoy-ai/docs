@@ -64,11 +64,11 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/sr-830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313706/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328470/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 830</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/lockin-amplifiers/sr 850/sr-850">
+<a href="/instruments-wiki/lockin-amplifiers/sr-850/sr-850">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201164/Instruments/Lockin%20Amplifiers/SR-850/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 850</figcaption>
@@ -76,31 +76,31 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/sr-860">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313719/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328484/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 860</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313724/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328489/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR830</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr860">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313730/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328496/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR860</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr865a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313735/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328501/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR865A</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/srs-830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313745/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328512/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SRS 830</figcaption>
 </figure>
 </a>

@@ -32,7 +32,7 @@ You can find all the available instruments from the sidebar
 <figcaption>Bristol 771 </figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/spectrum-analyzers/rohdes and schwarz/fsl">
+<a href="/instruments-wiki/spectrum-analyzers/rohdes-and-schwarz/fsl">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201039/Instruments/Spectrum%20Analyzers/FSL/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>FSL</figcaption>
@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 </a>
 <a href="/instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692314076/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328884/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight B1500A</figcaption>
 </figure>
 </a>

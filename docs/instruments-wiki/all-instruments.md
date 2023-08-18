@@ -1,4 +1,4 @@
----
+--- 
 hide_table_of_contents: true
 sidebar_label: All Instruments
 sidebar_position: 0
@@ -10,12 +10,13 @@ Welcome to the Instruments Wiki! Here you can find information about the instrum
 
 You can find all the available instruments from the sidebar.
 
-## Cameras
+
+## Cameras 
 
  <details> 
  <summary>Category Description</summary> 
  A camera module is an image sensor integrated with a lens, control electronics, and an interface like CSI, Ethernet or plain raw low-voltage differential signaling. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/cameras/thorlabs/cc126mu">
@@ -48,30 +49,30 @@ You can find all the available instruments from the sidebar.
 <figcaption>Thorlabs-DCU224C</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Coincidence Counters
+ ## Coincidence Counters 
 
  <details> 
  <summary>Category Description</summary> 
  In quantum physics, coincidence counting is used in experiments testing particle non-locality and quantum entanglement. In these experiments two or more particles are created from the same initial packet of energy, inexorably linking/entangling their physical properties. Separate particle detectors measure the quantum states of each particle and send the resulting signal to a coincidence counter. In any experiment studying entanglement, the entangled particles are vastly outnumbered by non-entangled particles which are also detected; patternless noise that drowns out the entangled signal. In a two detector system, a coincidence counter alleviates this problem by only recording detection signals that strike both detectors simultaneously (or more accurately, recording only signals that arrive at both detectors and correlate to the same emission time). This ensures that the data represents only entangled particles. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/coincidence-counter/qubitekk/cc1">
+<a href="/instruments-wiki/coincidence-counters/qubitekk/cc1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309906/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CC1</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## DAQ boards
+ ## DAQ boards 
 
  <details> 
  <summary>Category Description</summary> 
  In electronics, an analog-to-digital converter (ADC, A/D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/daq-boards/alazartech/ats9360-12bit-18gs-s">
@@ -116,251 +117,249 @@ You can find all the available instruments from the sidebar.
 <figcaption>PCIE 1751</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/keysight/keysight-34980a/instruments-wiki/multimeters/keysight/keysight-34980a">
+<a href="/instruments-wiki/multimeters/keysight/keysight-34980a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106887/Instruments/DAQ%20boards/Keysight-34980A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 34980A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/keysight/">
+<a href="/instruments-wiki/multimeters/keysight/keysight-34980a-submodules">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107071/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 34980A Submodules</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Digital Attenuators
+ ## Digital Attenuators 
 
  <details> 
  <summary>Category Description</summary> 
  An attenuator is an electronic device that reduces the power of a signal without appreciably distorting its waveform.
 
-An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1.
-
- </details>
+An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1. 
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-102">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-102">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310134/Instruments/Digital%20Attenuators/LDA-102/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-102</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-102-75f">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-102-75f">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310135/Instruments/Digital%20Attenuators/LDA-102-75F/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-102-75F</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-102n">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-102n">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310136/Instruments/Digital%20Attenuators/LDA-102N/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-102N</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-133">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-133">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310137/Instruments/Digital%20Attenuators/LDA-133/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-133</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-203b">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-203b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310138/Instruments/Digital%20Attenuators/LDA-203B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-203B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-1">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310138/Instruments/Digital%20Attenuators/LDA-302P-1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-1</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-1n">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-1n">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310139/Instruments/Digital%20Attenuators/LDA-302P-1N/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-1N</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-2">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-2">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310140/Instruments/Digital%20Attenuators/LDA-302P-2/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-2</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-2n">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-2n">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310141/Instruments/Digital%20Attenuators/LDA-302P-2N/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-2N</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-h">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-h">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310142/Instruments/Digital%20Attenuators/LDA-302P-H/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-H</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-302p-hn">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-302p-hn">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310143/Instruments/Digital%20Attenuators/LDA-302P-HN/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-302P-HN</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-403">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-403">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310144/Instruments/Digital%20Attenuators/LDA-403/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-403</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-5018v">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-5018v">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310145/Instruments/Digital%20Attenuators/LDA-5018V/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-5018V</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-602">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-602">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310145/Instruments/Digital%20Attenuators/LDA-602/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-602</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-602e">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-602e">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310146/Instruments/Digital%20Attenuators/LDA-602E/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-602E</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-602eh">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-602eh">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310147/Instruments/Digital%20Attenuators/LDA-602EH/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-602EH</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-602n">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-602n">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310148/Instruments/Digital%20Attenuators/LDA-602N/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-602N</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-602q">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-602q">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310149/Instruments/Digital%20Attenuators/LDA-602Q/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-602Q</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-608v-4">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-608v-4">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310150/Instruments/Digital%20Attenuators/LDA-608V-4/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-608V-4</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802-12">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802-12">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310151/Instruments/Digital%20Attenuators/LDA-802-12/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802-12</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802-16">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802-16">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310152/Instruments/Digital%20Attenuators/LDA-802-16/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802-16</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802-32">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802-32">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310153/Instruments/Digital%20Attenuators/LDA-802-32/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802-32</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802-8">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802-8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310154/Instruments/Digital%20Attenuators/LDA-802-8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802-8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802eh">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802eh">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310155/Instruments/Digital%20Attenuators/LDA-802EH/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802EH</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-802q">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-802q">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310156/Instruments/Digital%20Attenuators/LDA-802Q/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-802Q</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-906v">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-906v">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310157/Instruments/Digital%20Attenuators/LDA-906V/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-906V</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-906v-8">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-906v-8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310157/Instruments/Digital%20Attenuators/LDA-906V-8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-906V-8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-908v">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-908v">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310158/Instruments/Digital%20Attenuators/LDA-908V/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-908V</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-908v-4">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-908v-4">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310159/Instruments/Digital%20Attenuators/LDA-908V-4/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-908V-4</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/vaunix/lda-908v-8">
+<a href="/instruments-wiki/digital-attenuators/vaunix/lda-908v-8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310160/Instruments/Digital%20Attenuators/LDA-908V-8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LDA-908V-8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-attenuator/weinschel/weinschel-8320">
+<a href="/instruments-wiki/digital-attenuators/weinschel/weinschel-8320">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310406/Instruments/Digital%20Attenuators/Weinschel-8320/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Weinschel 8320</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Dilution Refrigerators
+ ## Dilution Refrigerators 
 
  <details> 
  <summary>Category Description</summary> 
  A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region. The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
 
-The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al.
-
- </details>
+The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al. 
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/dilution-refrigerator/oxford-instruments/kelvinox-igh">
+<a href="/instruments-wiki/dilution-refrigerators/oxford-instruments/kelvinox-igh">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310029/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Kelvinox IGH</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/dilution-refrigerator/oxford-instruments/triton">
+<a href="/instruments-wiki/dilution-refrigerators/oxford-instruments/triton">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310392/Instruments/Dilution%20Refrigerators/Triton/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Triton</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Electronic Loads
+ ## Electronic Loads 
 
  <details> 
  <summary>Category Description</summary> 
  An electronic load is a test instrument designed to sink current and absorb power out of a power source. If a power supply is used to power a device, an electronic load is used to test the power supply by emulating the device under test (DUT). Power supplies and electronic loads are complementary test equipment. The power supply tests electronic circuits under specific sourcing conditions. The electronic load tests the energy sources or energy conversion blocks under specific loading constraints. An electronic load is a programmable instrument that offers the user various modes of control such as constant voltage (CV), constant current (CC), constant power (CP) or constant resistance (CR).
  
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/electronic-loads/keysight/keysight-n3300a">
@@ -369,30 +368,30 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight N3300A</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Frequency synthesizers
+ ## Frequency synthesizers 
 
  <details> 
  <summary>Category Description</summary> 
  A frequency synthesizer is an electronic circuit that generates a range of frequencies from a single reference frequency. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/frequency-synthesizer/holzworth/hs-9008b">
+<a href="/instruments-wiki/frequency-synthesizers/holzworth/hs-9008b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309972/Instruments/Frequency%20synthesizers/HS-9008B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HS 9008B</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Function Generators
+ ## Function Generators 
 
  <details> 
  <summary>Category Description</summary> 
  A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/function-generators/tektronix/afg3000">
@@ -433,7 +432,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/function-generators/agilent/keysight-81110a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313674/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328433/Instruments/Function%20Generators/Keysight-81110A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 81110A</figcaption>
 </figure>
 </a>
@@ -461,36 +460,36 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Rigol DG1062Z</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## IV Converters
+ ## IV Converters 
 
  <details> 
  <summary>Category Description</summary> 
  An I/V-convertor is intended to convert the current from a DAC (Digital Analog Convertor) into an analog voltage and to filter this signal to keep out the alias frequencies 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/iv-converter/qutech/ivvi">
+<a href="/instruments-wiki/iv-converters/qutech/ivvi">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692309983/Instruments/IV%20Converters/IVVI/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>IVVI</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/iv-converter/basel/sp983c">
+<a href="/instruments-wiki/iv-converters/basel/sp983c">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310295/Instruments/IV%20Converters/SP983c/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SP983c</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Laser Diode Controllers
+ ## Laser Diode Controllers 
 
  <details> 
  <summary>Category Description</summary> 
  Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/laser-diode-controllers/thorlabs/pro8000">
@@ -499,14 +498,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>PRO8000</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Lasers
+ ## Lasers 
 
  <details> 
  <summary>Category Description</summary> 
  A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/lasers/keysight/keysight-n7776c">
@@ -527,14 +526,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>iBeam smart</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Lockin Amplifiers
+ ## Lockin Amplifiers 
 
  <details> 
  <summary>Category Description</summary> 
  A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/lockin-amplifiers/ametek/ametek-7270">
@@ -581,11 +580,11 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/sr-830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313706/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328470/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 830</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/lockin-amplifiers/sr 850/sr-850">
+<a href="/instruments-wiki/lockin-amplifiers/sr-850/sr-850">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201164/Instruments/Lockin%20Amplifiers/SR-850/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 850</figcaption>
@@ -593,31 +592,31 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/sr-860">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313719/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328484/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 860</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313724/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328489/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR830</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr860">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313730/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328496/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR860</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research/sr865a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313735/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328501/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR865A</figcaption>
 </figure>
 </a>
 <a href="/instruments-wiki/lockin-amplifiers/srs/srs-830">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313745/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328512/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SRS 830</figcaption>
 </figure>
 </a>
@@ -633,14 +632,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>UHFLI</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Miscellaneous
+ ## Miscellaneous 
 
  <details> 
  <summary>Category Description</summary> 
  Miscellaneous 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/miscellaneous/keithley/buffer">
@@ -685,159 +684,159 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Stahl</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Motor Controllers
+ ## Motor Controllers 
 
  <details> 
  <summary>Category Description</summary> 
  Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/motor-controller/newport/ag-uc-8">
+<a href="/instruments-wiki/motor-controllers/newport/ag-uc-8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309863/Instruments/Motor%20Controllers/AG-UC-8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AG UC 8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newport/ag-uc2">
+<a href="/instruments-wiki/motor-controllers/newport/ag-uc2">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309864/Instruments/Motor%20Controllers/AG-UC2/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AG-UC2</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/attocube/anc-350-piezo-controller">
+<a href="/instruments-wiki/motor-controllers/attocube/anc-350-piezo-controller">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309867/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ANC 350 PIEZO Controller</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/attocube/anc300">
+<a href="/instruments-wiki/motor-controllers/attocube/anc300">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309868/Instruments/Motor%20Controllers/ANC300/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ANC300</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/apt-stepper-motor-control-module">
+<a href="/instruments-wiki/motor-controllers/thorlabs/apt-stepper-motor-control-module">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309869/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>APT Stepper Motor Control Module</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newport/agilis">
+<a href="/instruments-wiki/motor-controllers/newport/agilis">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Motor%20Controllers/Agilis/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Agilis</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/attocube/attocube-ecc-100">
+<a href="/instruments-wiki/motor-controllers/attocube/attocube-ecc-100">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309903/Instruments/Motor%20Controllers/Attocube-ECC-100/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Attocube ECC 100</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/anaheim-automation/dp-series-motor-controller">
+<a href="/instruments-wiki/motor-controllers/anaheim-automation/dp-series-motor-controller">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309927/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DP Series Motor Controller</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newport/esp-300">
+<a href="/instruments-wiki/motor-controllers/newport/esp-300">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309941/Instruments/Motor%20Controllers/ESP-300/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ESP 300</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/parker/gemini-gv6">
+<a href="/instruments-wiki/motor-controllers/parker/gemini-gv6">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309952/Instruments/Motor%20Controllers/Gemini-GV6/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Gemini GV6</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/k10cr1">
+<a href="/instruments-wiki/motor-controllers/thorlabs/k10cr1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309987/Instruments/Motor%20Controllers/K10CR1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>K10CR1</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/kim001">
+<a href="/instruments-wiki/motor-controllers/thorlabs/kim001">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309988/Instruments/Motor%20Controllers/KIM001/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>KIM001</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/kim101">
+<a href="/instruments-wiki/motor-controllers/thorlabs/kim101">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309989/Instruments/Motor%20Controllers/KIM101/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>KIM101</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/lps710e-m">
+<a href="/instruments-wiki/motor-controllers/thorlabs/lps710e-m">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310162/Instruments/Motor%20Controllers/LPS710E-M/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LPS710E/M</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/qubitekk/mc1">
+<a href="/instruments-wiki/motor-controllers/qubitekk/mc1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310600/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328542/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>MC1</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/mmf101-mmf102">
+<a href="/instruments-wiki/motor-controllers/thorlabs/mmf101-mmf102">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310182/Instruments/Motor%20Controllers/MMF101-MMF102/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>MMF101/MMF102</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newmark/newmark-nsc-a1">
+<a href="/instruments-wiki/motor-controllers/newmark/newmark-nsc-a1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310194/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Newmark-NSC-A1</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newport/newportesp-301">
+<a href="/instruments-wiki/motor-controllers/newport/newportesp-301">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310197/Instruments/Motor%20Controllers/Newportesp-301/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Newportesp 301</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/thorlabs/prm1z8">
+<a href="/instruments-wiki/motor-controllers/thorlabs/prm1z8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310222/Instruments/Motor%20Controllers/PRM1Z8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PRM1Z8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/newport/picomotorcontroller-8742">
+<a href="/instruments-wiki/motor-controllers/newport/picomotorcontroller-8742">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310228/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Picomotorcontroller 8742</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/motor-controller/smaract/smaract-mcs2">
+<a href="/instruments-wiki/motor-controllers/smaract/smaract-mcs2">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310373/Instruments/Motor%20Controllers/Smaract-MCS2/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Smaract-MCS2</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Multimeters
+ ## Multimeters 
 
  <details> 
  <summary>Category Description</summary> 
  A multimeter (also known as a volt-ohm-milliammeter, volt-ohmmeter or VOM) is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current, in which case can be used as a voltmeter, ammeter, and ohmmeter. Some feature the measurement of additional properties such as temperature and capacitance. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/multimeters/andeen hagerling/2500a-bridge">
+<a href="/instruments-wiki/multimeters/andeen-hagerling/2500a-bridge">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201331/Instruments/Multimeters/2500A-Bridge/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>2500A Bridge</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/andeen hagerling/2700a-bridge">
+<a href="/instruments-wiki/multimeters/andeen-hagerling/2700a-bridge">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201250/Instruments/Multimeters/2700A-Bridge/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>2700A Bridge</figcaption>
@@ -987,7 +986,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Lakeshore 425</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/multimeters/generic scpi/SCPI-multimeter">
+<a href="/instruments-wiki/multimeters/generic-scpi/SCPI-multimeter">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107011/Instruments/Multimeters/SCPI-multimeter/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI multimeter</figcaption>
@@ -999,14 +998,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keithley 6430</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Multiplexer Switch Modules
+ ## Multiplexer Switch Modules 
 
  <details> 
  <summary>Category Description</summary> 
  PXI Multiplexer Switch Modules are ideal for high-channel-count applications that need to connect measurement or signal generation instruments to various test points on devices or units under test (DUTs or UUTs). PXI Multiplexer Switch Modules use a variety of relay types, including electromechanical armature relays, reed relays,  field-effect transistor (FET) relays, and solid-state relays, each with their own benefits, allowing you to choose a multiplexer that fits your requirements. To program the switches, you can use the IVI-compliant NI-SWITCH driver software, complete with help documentation, example programs, and a soft front panel application for interactive control of switches. For intelligent management of complex switch systems, NI Switch Executive provides additional software tools to help you design, build, and deploy your switching system. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/multiplexer-switch-modules/national-instruments/ni-pxie-2597">
@@ -1015,91 +1014,91 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>NI PXIe-2597</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Network Analyzers
+ ## Network Analyzers 
 
  <details> 
  <summary>Category Description</summary> 
  Vector network analyzers are crucial for the characterization of the devices and components used in radio frequency and microwave systems. This includes network testing for wifi, computer networks, cell phone coverage, and much more. These powerful devices are used in various stages of product development and can be used to verify the performance of various components such as antennas, amplifiers, cables, and many other active or passive devices. We use network analyzers to test these components to verify specifications of building blocks for more complex RF systems. Testing these systems ensures distortion-free transmission of communication signals and ensures a good match when absorbing power. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/network-analyzer/advantest/advantest-r3767cg">
+<a href="/instruments-wiki/network-analyzers/advantest/advantest-r3767cg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Network%20Analyzers/Advantest-R3767CG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Advantest R3767CG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/keysight/keysight-5222b">
+<a href="/instruments-wiki/network-analyzers/keysight/keysight-5222b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310067/Instruments/Network%20Analyzers/Keysight-5222B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 5222B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/agilent/keysight-8722es">
+<a href="/instruments-wiki/network-analyzers/agilent/keysight-8722es">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310086/Instruments/Network%20Analyzers/Keysight-8722ES/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 8722ES </figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/hp/keysight-8753">
+<a href="/instruments-wiki/network-analyzers/hp/keysight-8753d">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310087/Instruments/Network%20Analyzers/Keysight-8753D/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 8753D</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/keysight/keysight-n5230c">
+<a href="/instruments-wiki/network-analyzers/keysight/keysight-n5230c">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310117/Instruments/Network%20Analyzers/Keysight-N5230C/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5230C</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/keysight/keysight-n5232b">
+<a href="/instruments-wiki/network-analyzers/keysight/keysight-n5232b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310118/Instruments/Network%20Analyzers/Keysight-N5232B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5232B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/keysight/keysight-n5245a">
+<a href="/instruments-wiki/network-analyzers/keysight/keysight-n5245a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310120/Instruments/Network%20Analyzers/Keysight-N5245A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5245A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/keysight/keysight-p9374a">
+<a href="/instruments-wiki/network-analyzers/keysight/keysight-p9374a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310129/Instruments/Network%20Analyzers/Keysight-P9374A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight P9374A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/coppermountain/m5180-2-port-18-ghz-analyzer">
+<a href="/instruments-wiki/network-analyzers/coppermountain/m5180-2-port-18-ghz-analyzer">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310177/Instruments/Network%20Analyzers/M5180-2-Port-18-GHz-Analyzer/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>M5180 2-Port 18 GHz Analyzer</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/rohde-schwarz/r&s-znb20">
+<a href="/instruments-wiki/network-analyzers/rohde-schwarz/r&s-znb20">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310245/Instruments/Network%20Analyzers/RS-ZNB20/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S ZNB20</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/rohde-schwarz/r&s-znb8">
+<a href="/instruments-wiki/network-analyzers/rohde-schwarz/r&s-znb8">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310246/Instruments/Network%20Analyzers/RS-ZNB8/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S ZNB8</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/coppermountain/s5048-2-port-48-ghz-analyzer">
+<a href="/instruments-wiki/network-analyzers/coppermountain/s5048-2-port-48-ghz-analyzer">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310262/Instruments/Network%20Analyzers/S5048-2-Port-4.8-GHz-Analyzer/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>S5048 2-Port 4.8 GHz Analyzer</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/network-analyzer/rohde-schwarz/series">
+<a href="/instruments-wiki/network-analyzers/rohde-schwarz/series">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310656/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328601/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Series</figcaption>
 </figure>
 </a>
@@ -1109,14 +1108,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>ZVL 13</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Oscilloscopes
+ ## Oscilloscopes 
 
  <details> 
  <summary>Category Description</summary> 
  An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo4104">
@@ -1133,7 +1132,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo7000">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313829/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328606/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DPO7000</figcaption>
 </figure>
 </a>
@@ -1163,7 +1162,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/oscilloscopes/agilent/keysight-86100a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313838/Instruments/Oscilloscopes/Keysight-86100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328617/Instruments/Oscilloscopes/Keysight-86100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 86100A</figcaption>
 </figure>
 </a>
@@ -1204,7 +1203,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>MSO70000</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/oscilloscopes/rohde schwarz/r&s-rto1000">
+<a href="/instruments-wiki/oscilloscopes/rohde-schwarz/r&s-rto1000">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200774/Instruments/Oscilloscopes/RS-RTO1000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S RTO1000</figcaption>
@@ -1236,7 +1235,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/oscilloscopes/tektronix/tds224">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313863/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328644/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TDS224</figcaption>
 </figure>
 </a>
@@ -1312,14 +1311,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>WaveSurfer 510</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Photon Counting System
+ ## Photon Counting System 
 
  <details> 
  <summary>Category Description</summary> 
  Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/photon-counting-system/picoquant/picoharp-300">
@@ -1334,14 +1333,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Singlequantum</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Power Meters
+ ## Power Meters 
 
  <details> 
  <summary>Category Description</summary> 
  A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/power-meters/newport/1830-c">
@@ -1357,7 +1356,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>D4</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/power-meters/oxford instruments/ilm-200">
+<a href="/instruments-wiki/power-meters/oxford-instruments/ilm-200">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201066/Instruments/Power%20Meters/ILM-200/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ILM 200</figcaption>
@@ -1389,7 +1388,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/power-meters/keithley/keithley-6485">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692311084/Instruments/Power%20Meters/Keithley-6485/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328674/Instruments/Power%20Meters/Keithley-6485/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 6485</figcaption>
 </figure>
 </a>
@@ -1465,15 +1464,15 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight M960x defs</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Power Supplies
+ ## Power Supplies 
 
  <details> 
  <summary>Category Description</summary> 
  A power supply is an electrical device that supplies electric power to an electrical load. 
  
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/power-supplies/american-magnetics/ami-430">
@@ -1532,7 +1531,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/power-supplies/rohdes-and-schwarz/hmp-4040">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313912/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328701/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4040</figcaption>
 </figure>
 </a>
@@ -1542,7 +1541,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>IP Power 9258 S</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/power-supplies/oxford instruments/ips-120">
+<a href="/instruments-wiki/power-supplies/oxford-instruments/ips-120">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201282/Instruments/Power%20Supplies/IPS-120/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>IPS 120</figcaption>
@@ -1580,7 +1579,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/power-supplies/keithley/keithley-2600">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692313922/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328714/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2600</figcaption>
 </figure>
 </a>
@@ -1812,104 +1811,104 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Yokogawa GS 200</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-analog-converter/qdev/qdac">
+<a href="/instruments-wiki/digital-analog-converters/qdev/qdac">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106976/Instruments/Power%20Supplies/QDAC/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>QDAC</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-analog-converter/qdevil/qdac-1">
+<a href="/instruments-wiki/digital-analog-converters/qdevil/qdac-1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106889/Instruments/Power%20Supplies/Qdac-1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Qdac 1</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-analog-converter/qdevil/qdac-2-array">
+<a href="/instruments-wiki/digital-analog-converters/qdevil/qdac-2-array">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106818/Instruments/Power%20Supplies/Qdac-2/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Qdac 2</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/digital-analog-converter/qdevil/qdac-2">
+<a href="/instruments-wiki/digital-analog-converters/qdevil/qdac-2">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106899/Instruments/Power%20Supplies/Qdac-2-Array/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Qdac 2 Array</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-n6705b">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-n6705b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107023/Instruments/Power%20Supplies/Keysight-N6705B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N6705B</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Preamplifiers
+ ## Preamplifiers 
 
  <details> 
  <summary>Category Description</summary> 
  A preamplifier, also known as a preamp, is an electronic amplifier that converts a weak electrical signal into an output signal strong enough to be noise-tolerant and strong enough for further processing, or for sending to a power amplifier and a loudspeaker. Without this, the final signal would be noisy or distorted. They are typically used to amplify signals from analog sensors such as microphones and pickups. Because of this, the preamplifier is often placed close to the sensor to reduce the effects of noise and interference. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/preamplifier/srs/sr-570">
+<a href="/instruments-wiki/preamplifiers/srs/sr-570">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310309/Instruments/Preamplifiers/SR-570/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 570</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/preamplifier/stanford-research/sr560">
+<a href="/instruments-wiki/preamplifiers/stanford-research/sr560">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310332/Instruments/Preamplifiers/SR560/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR560</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Pulse Generators
+ ## Pulse Generators 
 
  <details> 
  <summary>Category Description</summary> 
  A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/pulse-generator/srs/dg645">
+<a href="/instruments-wiki/pulse-generators/stanford-research/dg645">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309917/Instruments/Pulse%20Generators/DG645/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DG645</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Quantum Analyzers
+ ## Quantum Analyzers 
 
  <details> 
  <summary>Category Description</summary> 
  The SHFQA enables multi-state discrimination with optimal signal-to-noise ratio and minimal latency thanks to its advanced sequencer and its low-latency signal processing chain with matched filters and result correlation. The data are transmitted in real-time to other instruments for active qubit reset or global error correction protocols. Controlled through the LabOne software suite comprising the user interface, several APIs and LabOne Q, the SHFQA supports quantum computing projects with sizes ranging from a few to several hundreds of qubits. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/quantum-analyzer/zurich-instruments/shfqa">
+<a href="/instruments-wiki/quantum-analyzers/zurich-instruments/shfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310281/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQA</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/quantum-analyzer/zurich-instruments/uhfqa">
+<a href="/instruments-wiki/quantum-analyzers/zurich-instruments/uhfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310395/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>UHFQA</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Quantum Computing Control System
+ ## Quantum Computing Control System 
 
  <details> 
  <summary>Category Description</summary> 
  A Quantum Computing Control System (QCCS) is designed to control more than 100 superconducting and spin qubits. Each component of the QCCS is conceived to play a specific role in qubit control, readout and feedback, and operates in a fully synchronized manner with the other parts of the system. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/quantum-computing-control-system/zurich-instruments/pqsc">
@@ -1918,357 +1917,358 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>PQSC</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Qubit Controllers
+ ## Qubit Controllers 
 
  <details> 
  <summary>Category Description</summary> 
  Each control channel of the SHFQC has its own powerful sequencer for creating phase- and timing-programmable waveforms, so that a single SHFQC can control or couple qubits with pulses from DC to 8.5 GHz, and react at any time on measurements from the readout channel. With the SHFQC-16W upgrade option, the readout channel's freely configurable integration weights and readout-pulse memories are doubled from 8 to 16. This provides more flexibility in configuring the readout, e.g. by enabling full real-time control and readout of 6 qutrits.
 
- </details>
+ 
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/qubit-controller/zurich-instruments/shfqc">
+<a href="/instruments-wiki/qubit-controllers/zurich-instruments/shfqc">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310282/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQC</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## RF Signal Generators
+ ## RF Signal Generators 
 
  <details> 
  <summary>Category Description</summary> 
  A signal generator is one of a class of electronic devices that generates electrical signals with set properties of amplitude, frequency, and wave shape. These generated signals are used as a stimulus for electronic measurements, typically used in designing, testing, troubleshooting, and repairing electronic or electroacoustic devices, though it often has artistic uses as well 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/rf-signal-generator/signalcore/5521a">
+<a href="/instruments-wiki/rf-signal-generators/signalcore/5521a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309859/Instruments/RF%20Signal%20Generators/5521A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>5521A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg2005">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg2005">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309886/Instruments/RF%20Signal%20Generators/AWG2005/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG2005</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg5014">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg5014">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309888/Instruments/RF%20Signal%20Generators/AWG5014/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG5014</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg520">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg520">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309890/Instruments/RF%20Signal%20Generators/AWG520/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG520</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg5208">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg5208">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309891/Instruments/RF%20Signal%20Generators/AWG5208/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG5208</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg70000a">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg70000a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309892/Instruments/RF%20Signal%20Generators/AWG70000A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG70000A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg70001a">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg70001a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309893/Instruments/RF%20Signal%20Generators/AWG70001A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG70001A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg70001b">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg70001b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309894/Instruments/RF%20Signal%20Generators/AWG70001B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG70001B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg70002a">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg70002a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309896/Instruments/RF%20Signal%20Generators/AWG70002A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG70002A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/tektronix/awg70002b">
+<a href="/instruments-wiki/rf-signal-generators/tektronix/awg70002b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309897/Instruments/RF%20Signal%20Generators/AWG70002B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>AWG70002B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/anapico/apsin-26g">
+<a href="/instruments-wiki/rf-signal-generators/anapico/apsin-26g">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309900/Instruments/RF%20Signal%20Generators/Apsin-26G/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Apsin 26G</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/erainstruments/erasynth">
+<a href="/instruments-wiki/rf-signal-generators/erainstruments/erasynth">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309940/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ERASYNTH
 </figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/qutech/f1d">
+<a href="/instruments-wiki/rf-signal-generators/qutech/f1d">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309943/Instruments/RF%20Signal%20Generators/F1d/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>F1d	</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/anritsu/from-mg3690c-series">
+<a href="/instruments-wiki/rf-signal-generators/anritsu/from-mg3690c-series">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309951/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>From MG3690C Series</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/zurich-instruments/hdawg">
+<a href="/instruments-wiki/rf-signal-generators/zurich-instruments/hdawg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309955/Instruments/RF%20Signal%20Generators/HDAWG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HDAWG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/agilent/keysight-33220a">
+<a href="/instruments-wiki/rf-signal-generators/agilent/keysight-33220a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310034/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33220A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-33250a">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-33250a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310035/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33250A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-33510b">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-33510b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310036/Instruments/RF%20Signal%20Generators/Keysight-33510B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33510B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-33511b">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-33511b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310038/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33511B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-33512b">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-33512b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310039/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33512B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/agilent/keysight-33521a">
+<a href="/instruments-wiki/rf-signal-generators/agilent/keysight-33521a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310041/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33521A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-33522b">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-33522b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310042/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 33522B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/hp/keysight-8657b">
+<a href="/instruments-wiki/rf-signal-generators/hp/keysight-8657b">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310085/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight 8657B</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/agilent/keysight-e8257d">
+<a href="/instruments-wiki/rf-signal-generators/agilent/keysight-e8257d">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310101/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight E8257D</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/agilent/keysight-e8267c">
+<a href="/instruments-wiki/rf-signal-generators/agilent/keysight-e8267c">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310102/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight E8267C</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/agilent/keysight-e8267d">
+<a href="/instruments-wiki/rf-signal-generators/agilent/keysight-e8267d">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310103/Instruments/RF%20Signal%20Generators/Keysight-E8267D/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight E8267D</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-e8267d-psg">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-e8267d-psg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310104/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight E8267D PSG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-m3201a">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-m3201a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310106/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight M3201A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-m3202a">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-m3202a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310108/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight M3202A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-mawgdef">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-mawgdef">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310113/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight MAwgDef</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-n5171b-exg">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-n5171b-exg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310114/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5171B EXG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-n5173b-exg">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-n5173b-exg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310115/Instruments/RF%20Signal%20Generators/Keysight-N5173B-EXG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5173B EXG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-n5183b-mxg">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-n5183b-mxg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310116/Instruments/RF%20Signal%20Generators/Keysight-N5183B-MXG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N5183B MXG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/keysight-n9030b-pxa">
+<a href="/instruments-wiki/rf-signal-generators/keysight/keysight-n9030b-pxa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310128/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N9030B PXA</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/keysight/ktmawg-ivi-c">
+<a href="/instruments-wiki/rf-signal-generators/keysight/ktmawg-ivi-c">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310131/Instruments/RF%20Signal%20Generators/KtMAwg-IVI-C/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>KtMAwg IVI-C</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/national-instruments/ni-pxie-5654">
+<a href="/instruments-wiki/rf-signal-generators/national-instruments/ni-pxie-5654">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310193/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>NI PXIe-5654</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohde-schwarz/r&s-sgs100a">
+<a href="/instruments-wiki/rf-signal-generators/rohde-schwarz/r&s-sgs100a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310242/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S SGS100A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/national-instruments/rfsg">
+<a href="/instruments-wiki/rf-signal-generators/national-instruments/rfsg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692311243/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328849/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>RFSG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/qutech/s5i">
+<a href="/instruments-wiki/rf-signal-generators/qutech/s5i">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310263/Instruments/RF%20Signal%20Generators/S5i/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>S5i</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohdes-and-schwarz/sfm">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-and-schwarz/sfm">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310267/Instruments/RF%20Signal%20Generators/SFM/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SFM</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/srs/sg-380">
+<a href="/instruments-wiki/rf-signal-generators/srs/sg-380">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310268/Instruments/RF%20Signal%20Generators/SG-380/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SG 380</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/stanford-research/sg384">
+<a href="/instruments-wiki/rf-signal-generators/stanford-research/sg384">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310274/Instruments/RF%20Signal%20Generators/SG384/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SG384</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/zurich-instruments/shfsg">
+<a href="/instruments-wiki/rf-signal-generators/zurich-instruments/shfsg">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310284/Instruments/RF%20Signal%20Generators/SHFSG/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFSG</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohdes-and-schwarz/sma100a">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-and-schwarz/sma100a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310289/Instruments/RF%20Signal%20Generators/SMA100A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMA100A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohdeschwarz/smr-40">
+<a href="/instruments-wiki/rf-signal-generators/rohdeschwarz/smr-40">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310290/Instruments/RF%20Signal%20Generators/SMR-40/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMR 40</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohdeschwarz/smw-200-a">
+<a href="/instruments-wiki/rf-signal-generators/rohdeschwarz/smw-200-a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310292/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMW 200 A</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/rf-signal-generator/rohdeschwarz/smw-200a-b140">
+<a href="/instruments-wiki/rf-signal-generators/rohdeschwarz/smw-200a-b140">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310293/Instruments/RF%20Signal%20Generators/SMW-200A-B140/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMW 200A-B140</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Screen Display
+ ## Screen Display 
 
  <details> 
  <summary>Category Description</summary> 
  Touchscreen Display device
  
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/screen-display/gentec eo/gentec-EO-maestro">
+<a href="/instruments-wiki/screen-display/gentec-eo/gentec-EO-maestro">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106859/Instruments/Screen%20Display/Gentec-EO-Maestro/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Gentec EO Maestro</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Shutter Controllers
+ ## Shutter Controllers 
 
  <details> 
  <summary>Category Description</summary> 
  Optical Shutters utilize a rotary, electro-mechanical actuator to provide millisecond shutter operation. During operation, these shutters remain in a closed position and then open when a pulse control signal is applied by an external controller. As long as the control voltage to the optical shutter remains high, the shutter stays open, but as soon as the voltage goes low, the shutter closes, providing inherent "fail-safe" operation. The frequency at which the device is opened and closed can be controlled. An optical sensor, which detects the shutter blade position in the housing, provides information that confirms the state of the optical shutter position. This makes it ideal in applications where a laser safety lockout is required. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/shutter-controller/thorlabs/sc10">
+<a href="/instruments-wiki/shutter-controllers/thorlabs/sc10">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310264/Instruments/Shutter%20Controllers/SC10/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SC10</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Spectrometers
+ ## Spectrometers 
 
  <details> 
  <summary>Category Description</summary> 
  A spectrometer is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/spectrometers/andor/idus-401-ccd">
@@ -2283,20 +2283,20 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Shamrock 750</figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/power-meters/quantum design/ppms-dynacool">
+<a href="/instruments-wiki/power-meters/quantum-design/ppms-dynacool">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106790/Instruments/Spectrometers/PPMS-Dynacool/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Spectrum Analyzers
+ ## Spectrum Analyzers 
 
  <details> 
  <summary>Category Description</summary> 
  A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/spectrum-analyzers/yokogawa/aq6370">
@@ -2311,7 +2311,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Bristol 771 </figcaption>
 </figure>
 </a>
-<a href="/instruments-wiki/spectrum-analyzers/rohdes and schwarz/fsl">
+<a href="/instruments-wiki/spectrum-analyzers/rohdes-and-schwarz/fsl">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201039/Instruments/Spectrum%20Analyzers/FSL/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>FSL</figcaption>
@@ -2325,7 +2325,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692314076/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328884/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight B1500A</figcaption>
 </figure>
 </a>
@@ -2359,14 +2359,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>USB SA 124 B</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Switch
+ ## Switch 
 
  <details> 
  <summary>Category Description</summary> 
  An RF switch or microwave switch is a device to route high frequency signals through transmission paths. RF (radio frequency) and microwave switches are used extensively in microwave test systems for signal routing between instruments and devices under test (DUT). Incorporating a switch into a switch matrix system enables you to route signals from multiple instruments to single or multiple DUTs. This allows multiple tests to be performed with the same setup, eliminating the need for frequent connects and disconnects. The entire testing process can be automated, increasing the throughput in high-volume production environments. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/switch/keithley/keithley-s46">
@@ -2381,14 +2381,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Keysight B2200A</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Temperature Controllers
+ ## Temperature Controllers 
 
  <details> 
  <summary>Category Description</summary> 
  Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/temperature-controllers/temptronic/ats-525">
@@ -2418,7 +2418,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 </a>
 <a href="/instruments-wiki/temperature-controllers/srs/ctc100">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692314092/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328902/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CTC100</figcaption>
 </figure>
 </a>
@@ -2512,14 +2512,14 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Lakeshore Model 372</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Temperature Sensor
+ ## Temperature Sensor 
 
  <details> 
  <summary>Category Description</summary> 
  A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
 <a href="/instruments-wiki/humidity-sensor/orbit3/orbit-3-sensor">
@@ -2528,17 +2528,17 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 <figcaption>Orbit 3 Sensor</figcaption>
 </figure>
 </a>
-</div>
+</div> 
 
-## Thermometers
+ ## Thermometers 
 
  <details> 
  <summary>Category Description</summary> 
  A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object). A thermometer has two important elements: (1) a temperature sensor (e.g. the bulb of a mercury-in-glass thermometer or the pyrometric sensor in an infrared thermometer) in which some change occurs with a change in temperature; and (2) some means of converting this change into a numerical value (e.g. the visible scale that is marked on a mercury-in-glass thermometer or the digital readout on an infrared model). Thermometers are widely used in technology and industry to monitor processes, in meteorology, in medicine, and in scientific research. 
- </details>
+ </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
-<a href="/instruments-wiki/thermometer/pico-technology/pt-104-picoch">
+<a href="/instruments-wiki/thermometers/pico-technology/pt-104-picoch">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310224/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PT 104 Picoch</figcaption>
