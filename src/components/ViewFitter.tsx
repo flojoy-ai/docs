@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { useNodesInitialized, useReactFlow } from "reactflow";
+import React, { useEffect } from 'react';
+import { useNodesInitialized, useReactFlow } from 'reactflow';
 
 export const ViewFitter = () => {
   const rfInstance = useReactFlow();
@@ -13,4 +13,4 @@ export const ViewFitter = () => {
   }, [nodesInitialized]);
 
   return <div />;
-}
+};

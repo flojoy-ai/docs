@@ -1,12 +1,12 @@
-import { CustomNodeProps } from "@site/src/types/node";
-import React, { memo } from "react";
-import LogicNode from "./LogicNode";
+import { CustomNodeProps } from '@site/src/types/node';
+import React, { memo } from 'react';
+import LogicNode from './LogicNode';
 
 export const ConditionalNode = (props: CustomNodeProps) => {
   const {
     nodeProps: { data },
   } = props;
-  const operator = data.ctrls["operator_type"].value as string;
+  const operator = data.ctrls['operator_type'].value as string;
 
   return (
     <LogicNode {...props}>

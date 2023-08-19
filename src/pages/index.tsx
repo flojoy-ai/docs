@@ -28,11 +28,11 @@ function HomepageHeader() {
     <>
       <header className={clsx('hero text-left', styles.heroBanner)}>
         <div className="container text-center">
-          <div className={styles.heroTop}>            
+          <div className={styles.heroTop}>
             <h1 className="hero__title hero__font__family">
               <span>FLO</span>
               <span>JOY</span>
-            </h1>            
+            </h1>
             <br></br>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
             <br></br>
@@ -67,16 +67,15 @@ function HomepageHeader() {
           backgroundImage: `url(${bgImage?.light})`,
           backgroundRepeat: 'no-repeat',
           backgroundRepeat: 'space',
-          backgroundPosition: 'center'
+          backgroundPosition: 'center',
         }}
-      >
-      </section>
+      ></section>
 
       <section className={clsx('mb-4', styles.backgroundSection)}>
         <div className="container text-center">
           <QuickStart />
         </div>
-      </section>      
+      </section>
     </>
   );
 }

@@ -25,19 +25,21 @@
 /* docstring regex syntax highlighter */
 
 .string {
-  color: #7B61FF;
+  color: #7b61ff;
 }
 
-.before-colon, .snake-case {
-  color: #E14092;
+.before-colon,
+.snake-case {
+  color: #e14092;
 }
 
 .dashes {
-  color: #7B61FF;
+  color: #7b61ff;
 }
 
-.node-names, .all-caps {
-  color: #7B61FF;
+.node-names,
+.all-caps {
+  color: #7b61ff;
   cursor: pointer;
   font-family: monospace;
   font-size: 1.2rem;
@@ -45,7 +47,7 @@
 
 .data-container-type {
   cursor: pointer;
-  color: #2E83FF;
+  color: #2e83ff;
 }
 
 .sections {

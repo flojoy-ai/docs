@@ -3,7 +3,6 @@ import { useColorMode } from '@docusaurus/theme-common';
 import highlight from 'custom-syntax-highlighter';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 
-
 type DocStringProps = {
   children: string;
 };
@@ -31,50 +30,53 @@ export default function DocString({ children }: DocStringProps) {
   const patterns = [
     {
       name: 'string',
-      match: /^(\'[^\'\n]*\')/
+      match: /^(\'[^\'\n]*\')/,
     },
     {
       name: 'fn-call',
-      match: [/^([A-z_]+)\(/, '', '(']
+      match: [/^([A-z_]+)\(/, '', '('],
     },
     {
       name: 'dashes',
-      match: /^([-]{4,})/
+      match: /^([-]{4,})/,
     },
     {
       name: 'before-colon',
-      match: /^(\n[a-zA-Z]+)(?=\s*:\s*)/
+      match: /^(\n[a-zA-Z]+)(?=\s*:\s*)/,
     },
     {
       name: 'snake-case',
-      match: /^([a-z]+(_[a-z]+))/
-    },      
+      match: /^([a-z]+(_[a-z]+))/,
+    },
     {
       name: 'sections',
-      match: /^(Returns|Parameters|Inputs)/
+      match: /^(Returns|Parameters|Inputs)/,
     },
     {
       name: 'node-names',
-      match: /^([A-Z]+(_[A-Z]+))/
+      match: /^([A-Z]+(_[A-Z]+))/,
     },
     {
       name: 'all-caps',
-      match: /^([A-Z]{3,})/
+      match: /^([A-Z]{3,})/,
     },
     {
       name: 'data-container-type',
-      match: /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer)/
-    }
+      match:
+        /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer)/,
+    },
   ];
 
   const isBrowser = useIsBrowser();
   if (isBrowser) {
-    highlight({patterns: patterns});
+    highlight({ patterns: patterns });
   }
 
   return (
-    <> 
-      <pre><code>{content}</code></pre>
+    <>
+      <pre>
+        <code>{content}</code>
+      </pre>
       <br></br>
     </>
   );

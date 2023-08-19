@@ -29,7 +29,7 @@ const CancelIconSvg = ({ fill }: CancelIconSvgProps) => {
         fontWeight="none"
         fontSize="none"
         textAnchor="none"
-        style={{ mixBlendMode: "normal" }}
+        style={{ mixBlendMode: 'normal' }}
       >
         <g transform="scale(10.66667,10.66667)">
           <path d="M12,2c-5.53,0 -10,4.47 -10,10c0,5.53 4.47,10 10,10c5.53,0 10,-4.47 10,-10c0,-5.53 -4.47,-10 -10,-10zM17,15.59l-1.41,1.41l-3.59,-3.59l-3.59,3.59l-1.41,-1.41l3.59,-3.59l-3.59,-3.59l1.41,-1.41l3.59,3.59l3.59,-3.59l1.41,1.41l-3.59,3.59z"></path>

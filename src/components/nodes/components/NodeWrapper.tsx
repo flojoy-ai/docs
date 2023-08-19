@@ -1,5 +1,5 @@
-import { CustomNodeProps } from "@site/src/types/node";
-import React from "react";
+import { CustomNodeProps } from '@site/src/types/node';
+import React from 'react';
 
 const NodeWrapper = ({
   children,
@@ -8,10 +8,7 @@ const NodeWrapper = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div
-      className="relative"
-      data-testid="node-wrapper"
-    >
+    <div className="relative" data-testid="node-wrapper">
       {children}
     </div>
   );

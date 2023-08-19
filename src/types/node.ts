@@ -1,4 +1,4 @@
-import { NodeProps } from "reactflow";
+import { NodeProps } from 'reactflow';
 
 type NodeElement = {
   name: string;
@@ -26,22 +26,22 @@ type NodeElement = {
       desc: string | null;
     }
   >;
-  init_parameters?: NodeElement["parameters"];
+  init_parameters?: NodeElement['parameters'];
   pip_dependencies: Array<{ name: string; v: string }>;
   ui_component_id: string;
   children: null;
 };
 type CtrlData = Record<
   string,
-  NodeElement["parameters"] extends infer T
-  ? T extends Record<string, infer U>
-  ? U & {
-    functionName: string;
-    param: string;
-    value: string | boolean | number | undefined | null;
-  }
-  : never
-  : never
+  NodeElement['parameters'] extends infer T
+    ? T extends Record<string, infer U>
+      ? U & {
+          functionName: string;
+          param: string;
+          value: string | boolean | number | undefined | null;
+        }
+      : never
+    : never
 >;
 
 export type ElementsData = {
@@ -52,7 +52,7 @@ export type ElementsData = {
   path: string;
   ctrls: CtrlData;
   initCtrls?: CtrlData;
-  inputs?: NodeElement["inputs"];
+  inputs?: NodeElement['inputs'];
   outputs?: Array<{
     name: string;
     id: string;
@@ -66,5 +66,5 @@ export interface CustomNodeProps {
   height?: number | string;
   width?: number | string;
   children?: React.ReactNode;
-  theme?: "light" | "dark";
+  theme?: 'light' | 'dark';
 }

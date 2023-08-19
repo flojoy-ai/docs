@@ -1,13 +1,13 @@
-import { CustomNodeProps } from "@site/src/types/node";
+import { CustomNodeProps } from '@site/src/types/node';
 import React from 'react';
-import { Position } from "reactflow";
-import { CustomHandle, HandleVariantProps } from "./CustomHandle";
+import { Position } from 'reactflow';
+import { CustomHandle, HandleVariantProps } from './CustomHandle';
 
 const HandleComponent = ({
   data,
   variant,
 }: {
-  data: CustomNodeProps["nodeProps"]["data"];
+  data: CustomNodeProps['nodeProps']['data'];
 } & HandleVariantProps) => {
   const outputs = data.outputs ?? [];
   const inputs = data.inputs ?? [];
@@ -15,7 +15,7 @@ const HandleComponent = ({
   return (
     <>
       <div className="absolute -left-0.5 top-0 flex h-full flex-col justify-evenly">
-        {inputs.map((param) => (
+        {inputs.map(param => (
           <div
             className="relative flex items-center"
             key={`input-${data.id}-${param.name}`}
@@ -32,7 +32,7 @@ const HandleComponent = ({
       </div>
 
       <div className="absolute -right-0.5 top-0 flex h-full flex-col justify-evenly">
-        {outputs.map((param) => (
+        {outputs.map(param => (
           <div
             className="relative flex items-center"
             key={`input-${data.id}-${param.name}`}
