@@ -1,8 +1,8 @@
-import React, { memo } from "react";
-import { CustomNodeProps } from "@site/src/types/node";
-import NodeWrapper from "./components/NodeWrapper";
-import HandleComponent from "./components/HandleComponent";
-import { textWrap } from "@site/src/utils/textWrap";
+import React, { memo } from 'react';
+import { CustomNodeProps } from '@site/src/types/node';
+import NodeWrapper from './components/NodeWrapper';
+import HandleComponent from './components/HandleComponent';
+import { textWrap } from '@site/src/utils/textWrap';
 
 const DefaultNode = (props: CustomNodeProps) => {
   const {

@@ -1,8 +1,8 @@
-import { CustomNodeProps } from "@site/src/types/node";
-import { textWrap } from "@site/src/utils/textWrap";
-import React, { memo } from "react";
-import HandleComponent from "./components/HandleComponent";
-import NodeWrapper from "./components/NodeWrapper";
+import { CustomNodeProps } from '@site/src/types/node';
+import { textWrap } from '@site/src/utils/textWrap';
+import React, { memo } from 'react';
+import HandleComponent from './components/HandleComponent';
+import NodeWrapper from './components/NodeWrapper';
 
 const DataNode = (props: CustomNodeProps) => {
   const {

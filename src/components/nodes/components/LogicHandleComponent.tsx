@@ -1,10 +1,10 @@
-import { CustomNodeProps } from "@site/src/types/node";
+import { CustomNodeProps } from '@site/src/types/node';
 import React from 'react';
-import { Position } from "reactflow";
-import { CustomHandle, HandleVariantProps } from "./CustomHandle";
+import { Position } from 'reactflow';
+import { CustomHandle, HandleVariantProps } from './CustomHandle';
 
 type LogicHandleComponentProps = {
-  data: CustomNodeProps["nodeProps"]["data"];
+  data: CustomNodeProps['nodeProps']['data'];
 } & HandleVariantProps;
 
 export const LogicHandleComponent = ({

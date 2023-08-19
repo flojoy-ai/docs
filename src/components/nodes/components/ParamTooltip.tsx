@@ -1,10 +1,12 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 import React, {
   Children,
   cloneElement,
-  isValidElement, useRef, useState
+  isValidElement,
+  useRef,
+  useState,
 } from 'react';
-import { createPortal } from "react-dom";
+import { createPortal } from 'react-dom';
 
 type ParamTooltipProps = {
   children: React.ReactNode;
@@ -21,7 +23,7 @@ type ParamTooltipProps = {
 const getTooltipStyle = (
   element: HTMLDivElement,
   offsetX: number,
-  offsetY: number,
+  offsetY: number
 ) => {
   const TOOLTIP_WIDTH = 264; // average tooltip width
   const { top, left, right } = element.getBoundingClientRect();
@@ -62,13 +64,13 @@ export const ParamTooltip = ({
   };
 
   if (!children) {
-    throw new Error("ParamTooltip must have a child element");
+    throw new Error('ParamTooltip must have a child element');
   }
 
   const child = Children.only(children);
 
   if (!isValidElement(child)) {
-    throw new Error("Child must be a valid JSX element");
+    throw new Error('Child must be a valid JSX element');
   }
 
   return (
@@ -80,36 +82,38 @@ export const ParamTooltip = ({
       })}
       {elemRef.current
         ? createPortal(
-          <div
-            className={clsx(
-              "pointer-events-none absolute z-50 h-fit w-64 rounded-lg border bg-modal p-4 text-left font-sans text-sm font-normal text-foreground opacity-0 shadow-md transition-opacity duration-150 hover:pointer-events-auto hover:opacity-100",
-              { "!pointer-events-auto opacity-100": tooltipOpen },
-            )}
-            style={getTooltipStyle(elemRef.current, offsetX, offsetY)}
-          >
-            <div className="whitespace-nowrap text-lg font-medium">
-              {param.name}{" "}
-              <span className="text-sm font-normal text-foreground/60">
-                {annotation}
-              </span>
-            </div>
-            {param.type.split("|").map((t) => (
-              <code key={t}> {t}
-                <br />
-              </code>
-            ))}
-            <div className="py-2" />
-            <div>
-              {param.desc?.split("\n").map((line) => (
-                <span key={line}>
-                  {line}
-                  <br />
+            <div
+              className={clsx(
+                'text-foreground pointer-events-none absolute z-50 h-fit w-64 rounded-lg border bg-modal p-4 text-left font-sans text-sm font-normal opacity-0 shadow-md transition-opacity duration-150 hover:pointer-events-auto hover:opacity-100',
+                { '!pointer-events-auto opacity-100': tooltipOpen }
+              )}
+              style={getTooltipStyle(elemRef.current, offsetX, offsetY)}
+            >
+              <div className="whitespace-nowrap text-lg font-medium">
+                {param.name}{' '}
+                <span className="text-foreground/60 text-sm font-normal">
+                  {annotation}
                 </span>
-              )) ?? "No description."}
-            </div>
-          </div>,
-          document.getElementById("app-display") ?? document.body,
-        )
+              </div>
+              {param.type.split('|').map(t => (
+                <code key={t}>
+                  {' '}
+                  {t}
+                  <br />
+                </code>
+              ))}
+              <div className="py-2" />
+              <div>
+                {param.desc?.split('\n').map(line => (
+                  <span key={line}>
+                    {line}
+                    <br />
+                  </span>
+                )) ?? 'No description.'}
+              </div>
+            </div>,
+            document.getElementById('app-display') ?? document.body
+          )
         : null}
     </>
   );

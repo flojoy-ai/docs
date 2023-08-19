@@ -1,17 +1,17 @@
-import { cva, VariantProps } from "class-variance-authority";
-import clsx from "clsx";
+import { cva, VariantProps } from 'class-variance-authority';
+import clsx from 'clsx';
 import React, { forwardRef, HTMLAttributes } from 'react';
-import { Handle, HandleProps } from "reactflow";
-import { ParamTooltip } from "./ParamTooltip";
+import { Handle, HandleProps } from 'reactflow';
+import { ParamTooltip } from './ParamTooltip';
 
 const handle = cva(undefined, {
   variants: {
     variant: {
-      blue: "!border-blue-500",
-      accent1: "!border-accent1",
-      accent2: "!border-accent2",
-      accent3: "!border-accent3",
-      accent4: "!border-accent4",
+      blue: '!border-blue-500',
+      accent1: '!border-accent1',
+      accent2: '!border-accent2',
+      accent3: '!border-accent3',
+      accent4: '!border-accent4',
     },
   },
 });
@@ -19,7 +19,7 @@ const handle = cva(undefined, {
 export type HandleVariantProps = VariantProps<typeof handle>;
 
 type CustomHandleProps = HandleProps &
-  Omit<HTMLAttributes<HTMLDivElement>, "id"> & {
+  Omit<HTMLAttributes<HTMLDivElement>, 'id'> & {
     param: {
       name: string;
       type: string;
@@ -33,9 +33,9 @@ const HandleWrapper = forwardRef<HTMLDivElement, CustomHandleProps>(
     return (
       <Handle
         className={clsx(
-          "!h-3 !w-3 !border-2 !bg-white transition-colors duration-150 dark:!bg-black",
+          '!h-3 !w-3 !border-2 !bg-white transition-colors duration-150 dark:!bg-black',
           handle({ variant }),
-          className,
+          className
         )}
         type={type}
         id={param?.id}
@@ -43,16 +43,16 @@ const HandleWrapper = forwardRef<HTMLDivElement, CustomHandleProps>(
         {...props}
       />
     );
-  },
+  }
 );
 
-HandleWrapper.displayName = "HandleWrapper";
+HandleWrapper.displayName = 'HandleWrapper';
 
 export const CustomHandle = ({ type, param, ...props }: CustomHandleProps) => {
   return (
     <ParamTooltip
       param={param}
-      annotation={`(${type === "target" ? "input" : "output"})`}
+      annotation={`(${type === 'target' ? 'input' : 'output'})`}
       offsetX={32}
       offsetY={-128}
     >

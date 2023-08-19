@@ -1,13 +1,13 @@
-import { CustomNodeProps } from "@site/src/types/node";
-import React, { memo } from "react";
-import DefaultNode from "./DefaultNode";
+import { CustomNodeProps } from '@site/src/types/node';
+import React, { memo } from 'react';
+import DefaultNode from './DefaultNode';
 
 const operatorMap = {
-  MULTIPLY: "×",
-  ADD: "+",
-  SUBTRACT: "-",
-  DIVIDE: "÷",
-  ABS: "|x|",
+  MULTIPLY: '×',
+  ADD: '+',
+  SUBTRACT: '-',
+  DIVIDE: '÷',
+  ABS: '|x|',
 };
 
 const ArithmeticNode = (props: CustomNodeProps) => {

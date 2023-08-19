@@ -1,4 +1,4 @@
-import React, { SVGProps } from "react";
+import React, { SVGProps } from 'react';
 
 export const DodecahedronSVG = ({ ...props }: SVGProps<SVGSVGElement>) => {
   return (

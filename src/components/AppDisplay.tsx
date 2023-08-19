@@ -100,7 +100,6 @@ export default function AppDisplay({
     URL.revokeObjectURL(url);
   }, [appObject]);
 
-
   useEffect(() => {
     setNodeTypes(
       Object.fromEntries(
@@ -115,7 +114,6 @@ export default function AppDisplay({
       )
     );
   }, [colorMode.colorMode]);
-
 
   const styles = getReactFlowStyles();
 
