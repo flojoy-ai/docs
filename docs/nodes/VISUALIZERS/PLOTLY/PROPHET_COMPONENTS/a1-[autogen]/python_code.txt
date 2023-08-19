@@ -1,4 +1,4 @@
-from flojoy import flojoy, run_in_venv, DataFrame, Plotly, DataContainer
+from flojoy import flojoy, run_in_venv, DataFrame, Plotly
 
 
 @flojoy
@@ -7,9 +7,7 @@ from flojoy import flojoy, run_in_venv, DataFrame, Plotly, DataContainer
         "prophet==1.1.4",
     ]
 )
-def PROPHET_COMPONENTS(
-    default: DataFrame, data: DataContainer, periods: int = 365
-) -> Plotly:
+def PROPHET_COMPONENTS(default: DataFrame, periods: int = 365) -> Plotly:
     
 
     import os
@@ -68,7 +66,7 @@ def PROPHET_COMPONENTS(
 
     _apply_macos_prophet_hotfix()
 
-    extra = data.extra
+    extra = default.extra
     if not extra or "prophet" not in extra:
         raise ValueError(
             "Prophet model must be available in DataContainer 'extra' key to plot"
