@@ -2,9 +2,9 @@
 title: Connecting to Keysight E8257D by Agilent in Python
 sidebar_label: Keysight E8257D
 description: Metrology-grade analog signal generator offering industry-leading output power, level accuracy, and phase noise, with frequency coverage from 100 kHz to 67 GHz (extendable to 500 GHz) for testing advanced RF and microwave radar
-keywords: [rf signal generators, Agilent, Qcodes]
+keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-wiki/rf-signal-generators/agilent/keysight-e8257d
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310101/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Metrology-grade analog signal generator offering industry-leading output power, 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310101/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight E8257D RF Signal Generator using Qcodes, you can use the following Python script:
 

@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Thermometers
+sidebar_label: Thermometers
 sidebar_position: 1
 slug: /instruments-wiki/thermometers/
 ---
@@ -20,10 +20,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/thermometers/pico-technology/pt-104-picoch">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310224/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395499/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PT 104 Picoch</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

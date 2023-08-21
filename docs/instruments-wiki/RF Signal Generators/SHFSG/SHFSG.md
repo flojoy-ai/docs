@@ -2,9 +2,9 @@
 title: Connecting to SHFSG by Zurich Instruments in Python
 sidebar_label: SHFSG
 description: The Zurich Instruments SHFSG Signal Generator produces qubit control signals in the frequency range from DC to 8.5 GHz with a spurious-free modulation bandwidth of 1 GHz. The SHFSG uses a double superheterodyne technique for frequency up-conversion, which eliminates the need for mixer calibration and saves time on system tune-up. Each SHFSG comes with 4 or 8 analog output channels with 14-bit vertical resolution. Controlled by LabOne, its APIs or the LabOne Q Software, the SHFSG supports quantum computing projects with sizes ranging from a few to several hundred qubits.
-keywords: [rf signal generators, Zurich Instruments, Qcodes]
+keywords: [rf signal generators, Zurich Instruments, QCodes]
 slug: /instruments-wiki/rf-signal-generators/zurich-instruments/shfsg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310284/Instruments/RF%20Signal%20Generators/SHFSG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395679/Instruments/RF%20Signal%20Generators/SHFSG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments SHFSG Signal Generator produces qubit control signals in 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310284/Instruments/RF%20Signal%20Generators/SHFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395679/Instruments/RF%20Signal%20Generators/SHFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a SHFSG RF Signal Generator:
 

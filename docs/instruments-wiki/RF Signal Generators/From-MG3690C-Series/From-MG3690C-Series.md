@@ -2,9 +2,9 @@
 title: Connecting to From MG3690C Series by Anritsu in Python
 sidebar_label: From MG3690C Series
 description: The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF and microwave frequencies from 0.1 Hz to 70 GHz in single coaxial output and up to 500 GHz or beyond, with external multipliers
-keywords: [rf signal generators, Anritsu, Pymeasure]
+keywords: [rf signal generators, Anritsu, PyMeasure]
 slug: /instruments-wiki/rf-signal-generators/anritsu/from-mg3690c-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309951/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309951/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

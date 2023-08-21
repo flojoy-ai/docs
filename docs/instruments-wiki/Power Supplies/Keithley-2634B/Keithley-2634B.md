@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2634B by Keithley in Python
 sidebar_label: Keithley 2634B
 description: The 2634B SourceMeter SMU instrument is a new dual-channel SMU instrument with best-in-class value and performance. Its tightly-integrated, four-quadrant design allows it to simultaneously source and measure both voltage and current to boost productivity in R&D and bench-top applications. The wide range of 1.5A DC, 10A pulse, 200V output and 1fA measurement resolution makes it suitable to test a wide range of lower current devices and materials. The Model 2634B is equipped with Keithley's high speed TSP technology, which is over 190% faster than traditional PC-to-instrument communication techniques. The Model 2634B is designed for bench-top applications and, therefore, does not have the high-end, system-level automation features of the Model 2636B SourceMeter SMU Instrument that includes digital I/O, TSP-Link technology, and contact check function.
-keywords: [power supplies, Keithley, Qcodes]
+keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2634b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201036/Instruments/Power%20Supplies/Keithley-2634B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395560/Instruments/Power%20Supplies/Keithley-2634B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 2634B SourceMeter SMU instrument is a new dual-channel SMU instrument with b
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201036/Instruments/Power%20Supplies/Keithley-2634B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395560/Instruments/Power%20Supplies/Keithley-2634B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here's an example Python script that uses Qcodes to connect to a Keithley 2634B Power Supply:
 

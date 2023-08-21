@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Qubit Controllers
+sidebar_label: Qubit Controllers
 sidebar_position: 1
 slug: /instruments-wiki/qubit-controllers/
 ---
@@ -22,10 +22,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/qubit-controllers/zurich-instruments/shfqc">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310282/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQC</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

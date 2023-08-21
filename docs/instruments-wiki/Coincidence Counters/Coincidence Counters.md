@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Coincidence Counters
+sidebar_label: Coincidence Counters
 sidebar_position: 1
 slug: /instruments-wiki/coincidence-counters/
 ---
@@ -20,10 +20,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/coincidence-counters/qubitekk/cc1">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309906/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393996/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CC1</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

@@ -2,9 +2,9 @@
 title: Connecting to Model 625 by Lakeshore in Python
 sidebar_label: Model 625
 description: The Model 625 superconducting magnet power supply is the ideal supply for small to medium sized superconducting magnets used in high sensitivity materials research applications. The Model 625 is a practical alternative to both the larger, one size fits all, superconducting magnet supplies and the endless adaptations of generic power supplies. By limiting output power, Lake Shore was able to concentrate on the performance requirements of the most demanding magnet users. The resulting Model 625 provides high precision, low noise, safety, and convenience.
-keywords: [power supplies, Lakeshore, Qcodes Community]
+keywords: [power supplies, Lakeshore, QCodes Community]
 slug: /instruments-wiki/power-supplies/lakeshore/model-625
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107104/Instruments/Power%20Supplies/Model-625/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107104/Instruments/Power%20Supplies/Model-625/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Model 625 Power Supply using Qcodes Community, you can use the following Python script:
 

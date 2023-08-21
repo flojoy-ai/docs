@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Quantum Analyzers
+sidebar_label: Quantum Analyzers
 sidebar_position: 1
 slug: /instruments-wiki/quantum-analyzers/
 ---
@@ -20,16 +20,24 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/quantum-analyzers/zurich-instruments/shfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310281/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQA</figcaption>
 </figure>
-</a>
+</a></div>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/quantum-analyzers/zurich-instruments/uhfqa">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310395/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>UHFQA</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

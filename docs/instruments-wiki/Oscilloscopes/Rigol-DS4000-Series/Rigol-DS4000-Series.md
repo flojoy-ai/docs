@@ -2,9 +2,9 @@
 title: Connecting to Rigol DS4000-Series by Rigol in Python
 sidebar_label: Rigol DS4000-Series
 description: The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional operation, which come off very well compared to higher prices models of other brands.
-keywords: [oscilloscopes, Rigol, Qcodes]
+keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-wiki/oscilloscopes/rigol/rigol-ds4000-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201260/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201260/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Rigol DS4000-Series Oscilloscope using Qcodes, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to 2500A Bridge by Andeen Hagerling in Python
 sidebar_label: 2500A Bridge
 description: The AH 2500A offers unparalleled stability, resolution and accuracy in a capacitance/loss1 bridge (whether manual or automatic)
-keywords: [multimeters, Andeen Hagerling, Pymeasure]
+keywords: [multimeters, Andeen Hagerling, PyMeasure]
 slug: /instruments-wiki/multimeters/andeen-hagerling/2500a-bridge
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201331/Instruments/Multimeters/2500A-Bridge/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692386181/Instruments/Multimeters/2500A-Bridge/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The AH 2500A offers unparalleled stability, resolution and accuracy in a capacit
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201331/Instruments/Multimeters/2500A-Bridge/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692386181/Instruments/Multimeters/2500A-Bridge/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ The AH 2500A offers unparalleled stability, resolution and accuracy in a capacit
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

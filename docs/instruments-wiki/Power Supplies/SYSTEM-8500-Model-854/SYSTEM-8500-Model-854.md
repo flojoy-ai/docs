@@ -2,9 +2,9 @@
 title: Connecting to SYSTEM 8500-Model 854 by Danfysik in Python
 sidebar_label: SYSTEM 8500-Model 854
 description: The System 8500 Power Supply program offers the ultrastable Model 854 specially designed for powering magnets in MRI applications
-keywords: [power supplies, Danfysik, Pymeasure]
+keywords: [power supplies, Danfysik, PyMeasure]
 slug: /instruments-wiki/power-supplies/danfysik/system-8500-model-854
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250506/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639539/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The System 8500 Power Supply program offers the ultrastable Model 854 specially 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250506/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639539/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Danfysik accelerator system and accelerator components are in service at most pa
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

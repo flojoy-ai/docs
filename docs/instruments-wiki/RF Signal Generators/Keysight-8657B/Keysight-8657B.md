@@ -2,9 +2,9 @@
 title: Connecting to Keysight 8657B by HP in Python
 sidebar_label: Keysight 8657B
 description: The Agilent Technologies 8657A and 8657B signal generators are designed to test AM, FM, and pulsed receivers as well as components.
-keywords: [rf signal generators, HP, Pymeasure]
+keywords: [rf signal generators, HP, PyMeasure]
 slug: /instruments-wiki/rf-signal-generators/hp/keysight-8657b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310085/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Agilent Technologies 8657A and 8657B signal generators are designed to test 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310085/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keysight 8657B RF Signal Generator:
 

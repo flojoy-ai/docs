@@ -2,9 +2,9 @@
 title: Connecting to Yokogawa 7651 by Yokogawa in Python
 sidebar_label: Yokogawa 7651
 description: The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art DC standard technology. The dual multiplying D/A converter has enabled the compatibility of high-speed response and high resolution. The 7651 also provides high accuracy and stability. In addition to the source function (current supply), the sink function (current absorption) is also available, so the 7651 can be used as not only DC voltage/current source but also high-precision electronic load. Further, a series of powerful functions to meet the system use such as the programming function up to 50 steps, the IC memory card capable of storing 7 patterns of programs, and GP-IB interface are provided as standard. This 7651 can be used for a wide range of fields from R & D to production line, service and maintenance.
-keywords: [power supplies, Yokogawa, Pymeasure, Instrumentkit]
+keywords: [power supplies, Yokogawa, PyMeasure, InstrumentKit]
 slug: /instruments-wiki/power-supplies/yokogawa/yokogawa-7651
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692197344/Instruments/Power%20Supplies/Yokogawa-7651/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692197344/Instruments/Power%20Supplies/Yokogawa-7651/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Yokogawa is a leading provider of Industrial Automation and Test and Measurement
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python
@@ -70,7 +70,7 @@ This script connects to the Yokogawa 7651 Power Supply using the GPIB address "G
 Note: Make sure you have the necessary dependencies installed, such as `pymeasure` and the appropriate GPIB driver for your system.
 
 </TabItem>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Yokogawa 7651 Power Supply using Instrumentkit, you can use the following Python script:
 

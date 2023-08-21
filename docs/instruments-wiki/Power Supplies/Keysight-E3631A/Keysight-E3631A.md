@@ -2,9 +2,9 @@
 title: Connecting to Keysight E3631A by HP in Python
 sidebar_label: Keysight E3631A
 description: E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
-keywords: [power supplies, HP, Instrumentkit]
+keywords: [power supplies, HP, InstrumentKit]
 slug: /instruments-wiki/power-supplies/hp/keysight-e3631a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106905/Instruments/Power%20Supplies/Keysight-E3631A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106905/Instruments/Power%20Supplies/Keysight-E3631A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Keysight E3631A Power Supply using Instrumentkit, you can use the following Python script:
 

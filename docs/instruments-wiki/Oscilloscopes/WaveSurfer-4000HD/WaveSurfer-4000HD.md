@@ -2,9 +2,9 @@
 title: Connecting to WaveSurfer 4000HD by Teledyne in Python
 sidebar_label: WaveSurfer 4000HD
 description: WaveSurfer 4000HD extends Teledyne LeCroy’s leadership in High Definition Oscilloscopes with a bright, 12.1” touch screen display, performance without compromise, and price points that fit your budget.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavesurfer-4000hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201048/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ WaveSurfer 4000HD extends Teledyne LeCroy’s leadership in High Definition Osci
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201048/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WaveSurfer 4000HD Oscilloscope using Instrumentkit, you can use the following code:
 

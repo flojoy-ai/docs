@@ -2,9 +2,9 @@
 title: Connecting to NI DAQ by National Instruments in Python
 sidebar_label: NI DAQ
 description: Data acquisition (DAQ) is the process of measuring an electrical or physical phenomenon, such as voltage, current, temperature, pressure, or sound. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software such as LabVIEW.
-keywords: [daq boards, National Instruments, Qcodes Community]
+keywords: [daq boards, National Instruments, QCodes Community]
 slug: /instruments-wiki/daq-boards/national-instruments/ni-daq
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201020/Instruments/DAQ%20boards/NI-DAQ/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201020/Instruments/DAQ%20boards/NI-DAQ/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ A producer of automated test equipment and virtual instrumentation software. Com
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a NI DAQ board using Qcodes Community, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to Gemini GV6 by Parker in Python
 sidebar_label: Gemini GV6
 description: Incorporates all of the powerful features of the Gemini GV digital servo driveProvides six power ranges for up to 11.8 kW of continuous powerStand-alone servo controller and drive in one small packageFull ASCII communications capabilityControl features such as registration, motion profiles, S-curve velocity profiling and conditional statementsProgram storage-> Up to 32 programs or 190 lines of program codeDaisy chain up to 99 unitsSimplified configuration and tuning8 programmable inputs and 6 programmable outputsWide range of PWM frequencies for linear motor support
-keywords: [motor controllers, Parker, Pymeasure]
+keywords: [motor controllers, Parker, PyMeasure]
 slug: /instruments-wiki/motor-controllers/parker/gemini-gv6
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309952/Instruments/Motor%20Controllers/Gemini-GV6/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -31,7 +31,7 @@ Wide range of PWM frequencies for linear motor support
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309952/Instruments/Motor%20Controllers/Gemini-GV6/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -52,7 +52,7 @@ Parker Hannifin Corporation, originally Parker Appliance Company, usually referr
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

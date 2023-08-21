@@ -2,9 +2,9 @@
 title: Connecting to Keysight J7211-A-B-C-Series by Keysight in Python
 sidebar_label: Keysight J7211-A-B-C-Series
 description: Currently no description
-keywords: [lockin amplifiers, Keysight, Qcodes Community]
+keywords: [lockin amplifiers, Keysight, QCodes Community]
 slug: /instruments-wiki/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201302/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201302/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight J7211/A/B/C-Series Lockin Amplifier using Qcodes, you can use the following Python script:
 

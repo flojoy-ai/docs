@@ -2,9 +2,9 @@
 title: Connecting to Fluke 7341 by Fluke in Python
 sidebar_label: Fluke 7341
 description: Deep-Well Compact Bath, –45 °C to 150 °C
-keywords: [temperature controllers, Fluke, Pymeasure]
+keywords: [temperature controllers, Fluke, PyMeasure]
 slug: /instruments-wiki/temperature-controllers/fluke/fluke-7341
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201323/Instruments/Temperature%20Controllers/Fluke-7341/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201323/Instruments/Temperature%20Controllers/Fluke-7341/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 ```python
 from pymeasure.instruments import Instrument

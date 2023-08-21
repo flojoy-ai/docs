@@ -2,9 +2,9 @@
 title: Connecting to Keithley 6430 by Keithley in Python
 sidebar_label: Keithley 6430
 description: he 6½-digit Model 6430 Sub-Femtoamp Remote SourceMeter SMU Instrument can measure current with 1aA sensitivity. Its low noise and drift performance make it ideal for research on single electron devices, highly resistive nanowires and nanotubes, polymers, and electrochemical applications.
-keywords: [power supplies, Keithley, Qcodes Community]
-slug: /instruments-wiki/power-supplies/keithley/keithley-6430
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200770/Instruments/Power%20Supplies/Keithley-6430/file.png
+keywords: [multimeters, Keithley, QCodes Community]
+slug: /instruments-wiki/multimeters/keithley/keithley-6430
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639161/Instruments/Multimeters/Keithley-6430/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ he 6½-digit Model 6430 Sub-Femtoamp Remote SourceMeter SMU Instrument can measu
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200770/Instruments/Power%20Supplies/Keithley-6430/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639161/Instruments/Multimeters/Keithley-6430/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keithley 6430 Multimeter using Qcodes Community, you can use the following Python script:
 

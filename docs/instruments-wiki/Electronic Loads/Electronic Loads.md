@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Electronic Loads
+sidebar_label: Electronic Loads
 sidebar_position: 1
 slug: /instruments-wiki/electronic-loads/
 ---
@@ -21,10 +21,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/electronic-loads/keysight/keysight-n3300a">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106966/Instruments/Electronic%20Loads/Keysight-N3300A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N3300A</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

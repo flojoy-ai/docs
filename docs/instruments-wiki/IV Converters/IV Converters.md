@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All IV Converters
+sidebar_label: IV Converters
 sidebar_position: 1
 slug: /instruments-wiki/iv-converters/
 ---
@@ -20,16 +20,24 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/iv-converters/qutech/ivvi">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692309983/Instruments/IV%20Converters/IVVI/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395733/Instruments/IV%20Converters/IVVI/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>IVVI</figcaption>
 </figure>
-</a>
+</a></div>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/iv-converters/basel/sp983c">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310295/Instruments/IV%20Converters/SP983c/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639467/Instruments/IV%20Converters/SP983c/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SP983c</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

@@ -2,9 +2,9 @@
 title: Connecting to LCC25 by Thorlabs in Python
 sidebar_label: LCC25
 description: The LCC25 is a liquid crystal controller compatible with all Thorlabs LC VariableRetarders. The LCC25 will drive most nematic liquid crystal devices. The liquid crystaldevice is connected to the BNC voltage output port. The amplitude of the output voltage,adjusted by the front panel knob, and external signal, and a computer via a USB interface,controls the retardance of the LC device.
-keywords: [power supplies, Thorlabs, Instrumentkit]
+keywords: [power supplies, Thorlabs, InstrumentKit]
 slug: /instruments-wiki/power-supplies/thorlabs/lcc25
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201003/Instruments/Power%20Supplies/LCC25/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -26,7 +26,7 @@ controls the retardance of the LC device.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201003/Instruments/Power%20Supplies/LCC25/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -47,7 +47,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

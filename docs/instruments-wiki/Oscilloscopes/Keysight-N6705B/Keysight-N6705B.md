@@ -2,9 +2,9 @@
 title: Connecting to Keysight N6705B by Keysight in Python
 sidebar_label: Keysight N6705B
 description: The N6705B is a 4-slot mainframe that accepts up to 4 DC Power Modules, and up to 600 W total DC Power Module output power. The modules are ordered separately. N6705B accepts the same modules as N6700 Modular Power System, with over 30 modules to choose from
-keywords: [rf signal generators, Keysight, Qcodes]
-slug: /instruments-wiki/rf-signal-generators/keysight/keysight-n6705b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310125/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.png
+keywords: [oscilloscopes, Keysight, QCodes]
+slug: /instruments-wiki/oscilloscopes/keysight/keysight-n6705b
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,7 +24,7 @@ N6705B accepts the same modules as N6700 Modular Power System, with over 30 modu
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310125/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -45,7 +45,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight N6705B Power Supply using Qcodes, you can use the following Python script:
 

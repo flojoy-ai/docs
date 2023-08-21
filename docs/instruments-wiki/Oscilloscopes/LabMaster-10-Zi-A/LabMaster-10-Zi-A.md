@@ -2,9 +2,9 @@
 title: Connecting to LabMaster 10 Zi-A by Teledyne in Python
 sidebar_label: LabMaster 10 Zi-A
 description: The LabMaster 10 Zi is the world's highest-performance modular oscilloscope - it breaks channel count barriers and provides more "bandwidth density". The modular design provides the simplest upgrade path in bandwidth and channel count, with one acquisition module providing four channels at 36 GHz or two channels at 65 GHz, with capability for up to 20 acquisition modules
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/labmaster-10-zi-a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201120/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The LabMaster 10 Zi is the world's highest-performance modular oscilloscope - it
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201120/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a LabMaster 10 Zi-A Oscilloscope using Instrumentkit, you can use the following code:
 

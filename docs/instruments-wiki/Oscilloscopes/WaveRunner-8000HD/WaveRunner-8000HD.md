@@ -2,9 +2,9 @@
 title: Connecting to WaveRunner 8000HD by Teledyne in Python
 sidebar_label: WaveRunner 8000HD
 description: Providing 12 bits all the time, more channels than any other oscilloscope, and long memory without tradeoffs – the WaveRunner 8000HD 8 channel oscilloscope captures every detail.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/waverunner-8000hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200948/Instruments/Oscilloscopes/WaveRunner-8000HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Providing 12 bits all the time, more channels than any other oscilloscope, and l
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200948/Instruments/Oscilloscopes/WaveRunner-8000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WaveRunner 8000HD Oscilloscope using Instrumentkit, you can use the following code:
 

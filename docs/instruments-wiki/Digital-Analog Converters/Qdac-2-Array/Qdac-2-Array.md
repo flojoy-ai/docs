@@ -2,9 +2,9 @@
 title: Connecting to Qdac 2 Array by Qdevil in Python
 sidebar_label: Qdac 2 Array
 description: QDAC-II is the next generation of the successful QDAC from QDevil. It has all the outstanding features from its predecessor but is even more versatile and with superior performance. QDAC-II is a high-precision ultra-low-noise computer controlled DAC with 24 voltage generators, operating at a sample rate of 1MS/s – a thousand times faster than its predecessor. It is designed for DC and intermediate-frequency control of quantum devices, including, for example, gate electrodes and flux bias coils in qubits, but is a very versatile instrument that can be used for many other purposes. Each of the 24 channels has five voltage generators working in parallel-> One for DC, a sine generator, a triangle generator, a square wave generator, and an arbitrary waveform generator (1 million points/second). Additionally, each channel is equipped with a DC current sensor with a resolution down to a few tens of pA, typically used for gate leakage detection and with sample rates up to 3 kHz.
-keywords: [digital analog converters, Qdevil, Qcodes Community]
+keywords: [digital analog converters, Qdevil, QCodes Community]
 slug: /instruments-wiki/digital-analog-converters/qdevil/qdac-2-array
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310237/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ QDAC-II is the next generation of the successful QDAC from QDevil. It has all th
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310237/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Founded in 2016, QDevil is an international quantum technology company focused o
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Qdac 2 Array Power Supplies using Qcodes Community, you can use the following code:
 

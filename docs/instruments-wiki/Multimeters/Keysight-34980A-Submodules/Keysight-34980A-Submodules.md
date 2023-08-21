@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34980A Submodules by Keysight in Python
 sidebar_label: Keysight 34980A Submodules
 description: The Keysight 34980A Multifunction Switch/Measure unit is designed for R&D andmanufacturing test engineers who are working in design verification, automatedtest or data acquisition and are either looking to upgrade their existing systems orare in need of a new, cost-effective alternative
-keywords: [multimeters, Keysight, Qcodes]
+keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-wiki/multimeters/keysight/keysight-34980a-submodules
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107072/Instruments/Multimeters/Keysight-34980A-Submodules/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -25,7 +25,7 @@ are in need of a new, cost-effective alternative
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107072/Instruments/Multimeters/Keysight-34980A-Submodules/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -46,7 +46,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 34980A Submodule DAQ board using Qcodes, you can use the following Python script:
 

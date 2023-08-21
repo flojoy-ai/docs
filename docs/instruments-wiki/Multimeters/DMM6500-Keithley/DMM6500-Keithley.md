@@ -2,9 +2,9 @@
 title: Connecting to DMM6500 Keithley by Keithley in Python
 sidebar_label: DMM6500 Keithley
 description: 6½ digit bench/system digital multimeter with large 5" (12.7cm) multi touch capacitive touchscreen and graphical display. It supports SCPI, TSP® scripting, Keithley 2000 SCPI emulation and Keysight 34401A SCPI emulation language modes.
-keywords: [multimeters, Keithley, Qcodes]
+keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-wiki/multimeters/keithley/DMM6500-keithley
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200843/Instruments/Multimeters/DMM6500-Keithley/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200843/Instruments/Multimeters/DMM6500-Keithley/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Keithley DMM6500 Multimeter:
 

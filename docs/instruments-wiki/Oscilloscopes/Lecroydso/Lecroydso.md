@@ -4,9 +4,9 @@ title: Connecting to Lecroydso
 sidebar_label: Lecroydso
 
 description: This Class Allows The Acquisition Of A Waveform (The Description And The Data), From A Specific C...
-keywords: [oscilloscopes, Lecroy, Pytango]
+keywords: [oscilloscopes, Lecroy, PyTango]
 slug: /instruments-wiki/oscilloscopes/lecroy/lecroydso
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106981/Instruments/Oscilloscopes/Lecroydso/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -25,7 +25,7 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106981/Instruments/Oscilloscopes/Lecroydso/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -47,7 +47,7 @@ Teledyne LeCroy, Inc. manufactures and distributes electronic measuring instrum
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pytango" label="Pytango">
+<TabItem value="PyTango" label="PyTango">
 
 To connect to a LeCroy Oscilloscope using Pytango, you can use the following code:
 

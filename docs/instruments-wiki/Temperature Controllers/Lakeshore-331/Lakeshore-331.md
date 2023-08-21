@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore 331 by Lakeshore in Python
 sidebar_label: Lakeshore 331
 description: The Model 331 cryogenic temperature controller combines the easy operation and unsurpassed reliability of the Model 330 with improved sensor input and interface flexibility, including compatibility with negative temperature coefficient (NTC) resistance temperature detectors (RTDs). Backed by the Lake Shore tradition of excellence in cryogenic sensors and instrumentation, the Model 331 temperature controller sets the standard for mid-price range temperature control instruments.
-keywords: [temperature controllers, Lakeshore, Pymeasure]
+keywords: [temperature controllers, Lakeshore, PyMeasure]
 slug: /instruments-wiki/temperature-controllers/lakeshore/lakeshore-331
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106835/Instruments/Temperature%20Controllers/Lakeshore-331/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395444/Instruments/Temperature%20Controllers/Lakeshore-331/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 331 cryogenic temperature controller combines the easy operation and u
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106835/Instruments/Temperature%20Controllers/Lakeshore-331/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395444/Instruments/Temperature%20Controllers/Lakeshore-331/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

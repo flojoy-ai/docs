@@ -2,9 +2,9 @@
 title: Connecting to FJ Series by Glassman in Python
 sidebar_label: FJ Series
 description: FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0 - 1kVDC to 0 - 60kVDC
-keywords: [power supplies, Glassman, Instrumentkit]
+keywords: [power supplies, Glassman, InstrumentKit]
 slug: /instruments-wiki/power-supplies/glassman/fj-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201086/Instruments/Power%20Supplies/FJ-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395117/Instruments/Power%20Supplies/FJ-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201086/Instruments/Power%20Supplies/FJ-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395117/Instruments/Power%20Supplies/FJ-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC conver
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a FJ Series Power Supply using Instrumentkit, you can use the `GlassmanFR` class from the provided code. Here's an example script:
 

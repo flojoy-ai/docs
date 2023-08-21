@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Multiplexer Switch Modules
+sidebar_label: Multiplexer Switch Modules
 sidebar_position: 1
 slug: /instruments-wiki/multiplexer-switch-modules/
 ---
@@ -20,10 +20,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/multiplexer-switch-modules/national-instruments/ni-pxie-2597">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692201270/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>NI PXIe-2597</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

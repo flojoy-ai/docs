@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33521A by Agilent in Python
 sidebar_label: Keysight 33521A
 description: Keysight 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
-keywords: [rf signal generators, Agilent, Pymeasure]
+keywords: [rf signal generators, Agilent, PyMeasure]
 slug: /instruments-wiki/rf-signal-generators/agilent/keysight-33521a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310041/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395168/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310041/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395168/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

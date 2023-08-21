@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33622A by Keysight in Python
 sidebar_label: Keysight 33622A
 description: The Keysight 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
-keywords: [function generators, Keysight, Qcodes]
+keywords: [function generators, Keysight, QCodes]
 slug: /instruments-wiki/function-generators/keysight/keysight-33622a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201214/Instruments/Function%20Generators/Keysight-33622A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight 33622A function/arbitrary waveform generators offer the standard si
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201214/Instruments/Function%20Generators/Keysight-33622A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 33622A Function Generator using Qcodes, you can use the following Python script:
 

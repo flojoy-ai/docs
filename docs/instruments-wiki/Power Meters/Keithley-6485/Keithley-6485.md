@@ -2,9 +2,9 @@
 title: Connecting to Keithley 6485 by Keithley in Python
 sidebar_label: Keithley 6485
 description: The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitive current measurement instrumentation with enhanced speed and a robust design. With eight current measurement ranges and high speed autoranging, this cost effective instrument can measure currents from 2nA to 20mA, taking measurements at speeds up to 1000 readings per second. The Model 6485’s 10fA resolution and superior sensitivity make it well suited for characterising low current phenomena, while its 20mA range lets it measure currents high enough for applications such as measuring 4-20mA sensor loops.
-keywords: [power meters, Keithley, Pytango]
+keywords: [power meters, Keithley, PyTango]
 slug: /instruments-wiki/power-meters/keithley/keithley-6485
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327916/Instruments/Power%20Meters/Keithley-6485/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitiv
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327916/Instruments/Power%20Meters/Keithley-6485/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pytango" label="Pytango">
+<TabItem value="PyTango" label="PyTango">
 
 ```python
 import PyTango

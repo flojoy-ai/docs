@@ -2,9 +2,9 @@
 title: Connecting to Shamrock 750 by Andor in Python
 sidebar_label: Shamrock 750
 description: The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock is available as a pre-aligned detector/spectrometer option allowing for seamless integration of software, electronics, optics and detector. There is also a fast and interactive graphical software interface allowing full control of all the spectrograph functions.
-keywords: [spectrometers, Andor, Qcodes Community]
+keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-wiki/spectrometers/andor/shamrock-750
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107080/Instruments/Spectrometers/Shamrock-750/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107080/Instruments/Spectrometers/Shamrock-750/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 Here is a Python script that uses Qcodes Community to connect to a Shamrock 750 Spectrometer:
 

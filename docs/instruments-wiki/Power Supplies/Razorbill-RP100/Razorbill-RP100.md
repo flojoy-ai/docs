@@ -2,9 +2,9 @@
 title: Connecting to Razorbill RP100 by Razorbill in Python
 sidebar_label: Razorbill RP100
 description: The RP100 is a two channel, sink-source power supplydesigned to drive the CS100 series strain cells and the FC100series stress cells. This power supply can be used in conjunctionwith the corresponding range of compatible Razorbill Instrumentsproducts to tune the electronic properties of materials by applyingcontrolled strains and stresses to the material.
-keywords: [power supplies, Razorbill, Pymeasure]
+keywords: [power supplies, Razorbill, PyMeasure]
 slug: /instruments-wiki/power-supplies/razorbill/razorbill-rp100
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200885/Instruments/Power%20Supplies/Razorbill-RP100/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -27,7 +27,7 @@ controlled strains and stresses to the material.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200885/Instruments/Power%20Supplies/Razorbill-RP100/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -48,7 +48,7 @@ Manufacturer of precision instruments intended for use in fundamental physics an
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 ```python
 from pymeasure.instruments import Instrument

@@ -2,9 +2,9 @@
 title: Connecting to Keysight N5232B by Keysight in Python
 sidebar_label: Keysight N5232B
 description: The Keysight N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
-keywords: [network analyzers, Keysight, Qcodes]
+keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-wiki/network-analyzers/keysight/keysight-n5232b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310118/Instruments/Network%20Analyzers/Keysight-N5232B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight N5232B PNA-L series network analyzer is designed for S-parameter an
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310118/Instruments/Network%20Analyzers/Keysight-N5232B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 from qcodes import Station

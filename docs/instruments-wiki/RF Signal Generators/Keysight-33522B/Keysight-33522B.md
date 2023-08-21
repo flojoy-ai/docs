@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33522B by Keysight in Python
 sidebar_label: Keysight 33522B
 description: Keysight 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
-keywords: [rf signal generators, Keysight, Qcodes]
+keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-33522b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310042/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Keysight 33500B Series waveform generators with exclusive Trueform signal genera
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310042/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 33522B RF Signal Generator using Qcodes, you can use the following Python script:
 

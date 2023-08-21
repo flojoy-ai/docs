@@ -2,9 +2,9 @@
 title: Connecting to Apsin 26G by Anapico in Python
 sidebar_label: Apsin 26G
 description: The APSINXXG is an analog signal generator (analog signal source) series covering RF and microwave frequency ranges from 9 kHz to 12, 20 and 26.5 GHz
-keywords: [rf signal generators, Anapico, Pymeasure]
+keywords: [rf signal generators, Anapico, PyMeasure]
 slug: /instruments-wiki/rf-signal-generators/anapico/apsin-26g
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309900/Instruments/RF%20Signal%20Generators/Apsin-26G/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395179/Instruments/RF%20Signal%20Generators/Apsin-26G/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309900/Instruments/RF%20Signal%20Generators/Apsin-26G/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395179/Instruments/RF%20Signal%20Generators/Apsin-26G/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 ```python
 from pymeasure.instruments import Instrument

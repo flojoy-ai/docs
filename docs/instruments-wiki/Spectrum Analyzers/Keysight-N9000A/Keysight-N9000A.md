@@ -2,9 +2,9 @@
 title: Connecting to Keysight N9000A by Agilent in Python
 sidebar_label: Keysight N9000A
 description: N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
-keywords: [spectrum analyzers, Agilent, Qcodes Community]
+keywords: [spectrum analyzers, Agilent, QCodes Community]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-n9000a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106876/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106876/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight N9000A Spectrum Analyzer using Qcodes Community, you can use the following Python script:
 

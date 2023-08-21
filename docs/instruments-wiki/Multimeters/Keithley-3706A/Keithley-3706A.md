@@ -2,9 +2,9 @@
 title: Connecting to Keithley 3706A by Keithley in Python
 sidebar_label: Keithley 3706A
 description: The Model 3706A system switch with high performance DMM contains six slots for plug-in cards in a compact 2U high enclosure that easily accommodates the needs of medium to high channel count applications. When fully loaded, a mainframe can support up to 576 two-wire multiplexer channels for unrivaled density and economical per channel costs. The result is a tightly integrated switch and measurement solution that’s equally at home on the bench or in the rack.
-keywords: [multimeters, Keithley, Qcodes]
+keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-wiki/multimeters/keithley/keithley-3706a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201306/Instruments/Multimeters/Keithley-3706A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 3706A system switch with high performance DMM contains six slots for p
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201306/Instruments/Multimeters/Keithley-3706A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keithley 3706A Multimeter using Qcodes, you can use the following Python script:
 

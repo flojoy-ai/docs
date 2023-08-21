@@ -2,9 +2,9 @@
 title: Connecting to PRM1Z8 by Thorlabs in Python
 sidebar_label: PRM1Z8
 description: The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stage that accepts Ø1" optics and SM1-threaded components. The user can measure the angular displacement by using the Vernier dial in conjunction with the graduation marks that are marked on the rotating plate in 1° increments. This rotation stage/mount is also equipped with a home limit switch to facilitate automated rotation to the precise 0° position, allowing absolute angular positioning thereafter. The limit switch is designed to allow continuous rotation of the stage over multiple 360° cycles.
-keywords: [motor controllers, Thorlabs, Qcodes Community]
+keywords: [motor controllers, Thorlabs, QCodes Community]
 slug: /instruments-wiki/motor-controllers/thorlabs/prm1z8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310222/Instruments/Motor%20Controllers/PRM1Z8/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stag
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310222/Instruments/Motor%20Controllers/PRM1Z8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a PRM1Z8 Motion using Qcodes Community, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33511B by Keysight in Python
 sidebar_label: Keysight 33511B
 description: The 33511B waveform generator provides Keysight's exclusive Trueform technology which offers unmatched capabilities for generating a full range of signals for your most demanding measurements.
-keywords: [rf signal generators, Keysight, Qcodes]
+keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-33511b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310038/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 33511B waveform generator provides Keysight's exclusive Trueform technology 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310038/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 33511B RF Signal Generator using Qcodes, you can use the following Python script:
 

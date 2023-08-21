@@ -2,9 +2,9 @@
 title: Connecting to WaveRunner 9000 by Teledyne in Python
 sidebar_label: WaveRunner 9000
 description: WaveRunner 9000 oscilloscopes have the industry's widest and deepest collection of tools, making it unbelievably powerful and MAUI with OneTouch makes measurement setup insanely easy, providing faster time to insight.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/waverunner-9000
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200897/Instruments/Oscilloscopes/WaveRunner-9000/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ WaveRunner 9000 oscilloscopes have the industry's widest and deepest collection 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200897/Instruments/Oscilloscopes/WaveRunner-9000/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WaveRunner 9000 Oscilloscope using Instrumentkit, you can use the following code:
 

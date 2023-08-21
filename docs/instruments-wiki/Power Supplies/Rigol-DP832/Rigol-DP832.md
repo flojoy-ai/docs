@@ -2,9 +2,9 @@
 title: Connecting to Rigol DP832 by Rigol in Python
 sidebar_label: Rigol DP832
 description: 3 Outputs; total power up to 195WLow Ripple Noise <350 uVrms/2mVppFast transient response time-> <50 usChannel isolation-> CH1 || CH2,CH3OVP/OCP/OTP protection functionsBuilt in V, A, W measurements and waveform display
-keywords: [power supplies, Rigol, Qcodes]
+keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-wiki/power-supplies/rigol/rigol-dp832
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201276/Instruments/Power%20Supplies/Rigol-DP832/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -27,7 +27,7 @@ Built in V, A, W measurements and waveform display
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201276/Instruments/Power%20Supplies/Rigol-DP832/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -49,7 +49,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Rigol DP832 Power Supply using Qcodes, you can use the following Python script:
 

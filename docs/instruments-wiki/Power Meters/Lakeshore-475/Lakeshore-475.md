@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore 475 by Lakeshore in Python
 sidebar_label: Lakeshore 475
 description: Lake Shore combined the technical advantages of digital signal processing with over a decade of experience in precision magnetic field measurements to produce the first commercial digital signal processor (DSP) based Hall effect gaussmeter, the Model 475. DSP technology creates a solid foundation for accurate, stable, and repeatable field measurement while simultaneously enabling the gaussmeter to offer an unequaled set of useful measurement features. The Model 475 is intended for the most demanding DC and AC applications. In many cases, it provides the functionality of two or more instruments in a field measurement system.
-keywords: [power meters, Lakeshore, Instrumentkit]
+keywords: [power meters, Lakeshore, InstrumentKit]
 slug: /instruments-wiki/power-meters/lakeshore/lakeshore-475
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107001/Instruments/Power%20Meters/Lakeshore-475/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Lake Shore combined the technical advantages of digital signal processing with
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107001/Instruments/Power%20Meters/Lakeshore-475/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

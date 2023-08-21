@@ -2,9 +2,9 @@
 title: Connecting to LPS710E-M by Thorlabs in Python
 sidebar_label: LPS710E-M
 description: The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis travel for a microscope slide while maintaining a compact, low-profile footprint. It features submicron repeatability, nanometer positioning resolution, low angular error, and fast millisecond response and settling times. When used with the LPSA1(/M) microscope slide holder, the stage is ideal for imaging modalities requiring sensitive sample positioning and sectioning, such as confocal laser scanning microscopy. This stage is not compatible with trans-illumination.
-keywords: [motor controllers, Thorlabs, Instrumentkit]
+keywords: [motor controllers, Thorlabs, InstrumentKit]
 slug: /instruments-wiki/motor-controllers/thorlabs/lps710e-m
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310162/Instruments/Motor%20Controllers/LPS710E-M/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis tra
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310162/Instruments/Motor%20Controllers/LPS710E-M/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a LPS710E/M Positional Controller using Instrumentkit, you can use the following code:
 

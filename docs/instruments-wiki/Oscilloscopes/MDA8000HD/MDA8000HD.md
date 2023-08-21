@@ -2,9 +2,9 @@
 title: Connecting to MDA8000HD by Teledyne in Python
 sidebar_label: MDA8000HD
 description: The Motor Drive Analyzer is built on an 8 channel, 12-bit resolution oscilloscope platform. It acquires any signal and performs three-phase electrical and mechanical power calculations. It provides complete power section and embedded control test coverage.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/mda8000hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201092/Instruments/Oscilloscopes/MDA8000HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Motor Drive Analyzer is built on an 8 channel, 12-bit resolution oscilloscop
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201092/Instruments/Oscilloscopes/MDA8000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a MDA8000HD Oscilloscope using Instrumentkit, you can use the following code:
 

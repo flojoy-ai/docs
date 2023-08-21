@@ -2,9 +2,9 @@
 title: Connecting to SCPI multimeter by Generic SCPI in Python
 sidebar_label: SCPI multimeter
 description: All SCPI Multimeters
-keywords: [multimeters, Generic SCPI, Instrumentkit]
+keywords: [multimeters, Generic SCPI, InstrumentKit]
 slug: /instruments-wiki/multimeters/generic-scpi/SCPI-multimeter
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107011/Instruments/Multimeters/SCPI-multimeter/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ All SCPI Multimeters
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107011/Instruments/Multimeters/SCPI-multimeter/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ All SCPI Multimeters
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a SCPI multimeter using Instrumentkit, you can use the following code:
 

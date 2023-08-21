@@ -2,9 +2,9 @@
 title: Connecting to Rigol DG1062Z by Rigol in Python
 sidebar_label: Rigol DG1062Z
 description: The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to create high quality signals up to 60 MHz (Sine) with very low jitter (200 ps) and the new SiFi (SIgnal FIdelity) technology. Beside the two analog outputs, the device includes an USB-Host- and an USB-device interface.
-keywords: [function generators, Rigol, Qcodes]
+keywords: [function generators, Rigol, QCodes]
 slug: /instruments-wiki/function-generators/rigol/rigol-dg1062z
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201248/Instruments/Function%20Generators/Rigol-DG1062Z/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to cr
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201248/Instruments/Function%20Generators/Rigol-DG1062Z/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Rigol DG1062Z Function Generator:
 

@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34934A by Keysight in Python
 sidebar_label: Keysight 34934A
 description: The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offers the highest density matrix for connecting paths between your device under test and your test equipment, allowing for multiple instrument connections to multiple points on your device under test at the same time.
-keywords: [daq boards, Keysight, Qcodes]
+keywords: [daq boards, Keysight, QCodes]
 slug: /instruments-wiki/daq-boards/keysight/keysight-34934a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201047/Instruments/DAQ%20boards/Keysight-34934A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offe
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201047/Instruments/DAQ%20boards/Keysight-34934A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 34934A DAQ board using Qcodes, you can use the following Python script:
 

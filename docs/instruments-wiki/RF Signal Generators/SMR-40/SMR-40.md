@@ -1,10 +1,10 @@
 ---
-title: Connecting to SMR 40 by Rohdeschwarz in Python
+title: Connecting to SMR 40 by Rohdes & Schwarz in Python
 sidebar_label: SMR 40
 description: The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation capability with frequency coverage from 1 GHz up to 40 GHz. The lower limit can be expanded to 10 MHz by the optional Frequency Extension 0.01 GHz to 1 GHz  (option B11).
-keywords: [rf signal generators, Rohdeschwarz, Qcodes Community]
-slug: /instruments-wiki/rf-signal-generators/rohdeschwarz/smr-40
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310290/Instruments/RF%20Signal%20Generators/SMR-40/file.png
+keywords: [rf signal generators, Rohdes & Schwarz, QCodes Community]
+slug: /instruments-wiki/rf-signal-generators/rohdes-&-schwarz/smr-40
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310290/Instruments/RF%20Signal%20Generators/SMR-40/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to the SMR 40 RF Signal Generator using Qcodes Community, you can use the following Python script:
 

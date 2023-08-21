@@ -1,6 +1,6 @@
 --- 
 hide_table_of_contents: true
-sidebar_label: All Laser Diode Controllers
+sidebar_label: Laser Diode Controllers
 sidebar_position: 1
 slug: /instruments-wiki/laser-diode-controllers/
 ---
@@ -20,10 +20,14 @@ You can find all the available instruments from the sidebar
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+
+
+<div className="p-4">
+
 <a href="/instruments-wiki/laser-diode-controllers/thorlabs/pro8000">
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201063/Instruments/Laser%20Diode%20Controllers/PRO8000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PRO8000</figcaption>
 </figure>
-</a>
+</a></div>
 </div>

@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2600 by Keithley in Python
 sidebar_label: Keithley 2600
 description: Series 2600A System SourceMeter instruments are Keithley’s latest I-V source measurement unit(SMU) instruments for use as either bench-top I-V characterization tools or as building block components of multi-channel I-V test systems. For bench-top use, Series 2600A instruments feature anembedded TSP Express Software Tool that allows users to quickly and easily perform common I-Vtests without programming or installing software. For system level applications, the Series 2600A’sTest Script Processor (TSP) architecture, along with other new capabilities such as parallel test execution and precision timing, provides the highest throughput in the industry, lowering the cost of test.To simplify the testing, verification, and analysis of semiconductor components, the optional ACSBasic Edition software is also available.
-keywords: [power supplies, Keithley, Pymeasure, Qcodes]
+keywords: [power supplies, Keithley, PyMeasure, QCodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2600
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327893/Instruments/Power%20Supplies/Keithley-2600/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692651720/Instruments/Power%20Supplies/Keithley-2600/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -28,7 +28,7 @@ Basic Edition software is also available.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327893/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692651720/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -49,7 +49,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keithley 2600 Power Supply:
 
@@ -87,7 +87,7 @@ keithley.disconnect()
 This script connects to a Keithley 2600 Power Supply using a VISA adapter. It sets the source mode to voltage and applies a voltage of 5V to channel A. Then, it enables the output and measures the voltage and current. Finally, it disables the output and closes the connection.
 
 </TabItem>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 
 ```python

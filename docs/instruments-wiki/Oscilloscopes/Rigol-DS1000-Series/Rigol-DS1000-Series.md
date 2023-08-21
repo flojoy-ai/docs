@@ -2,9 +2,9 @@
 title: Connecting to Rigol DS1000-Series by Rigol in Python
 sidebar_label: Rigol DS1000-Series
 description: The 1000 Series from RIGOL include the B, D, and E series oscilloscopes. The E Series are the value leader with 50-100 MHz models that include 2 channels and 1 Million points of memory. The D Series add low speed digital capture enabling basic mixed signal analysis in a economic package. The B Series provide more speed and power including our economic 4 channel, 200 MHz DS1204B model which provides 2 GSa/sec sampling. With features including FFTs, record and replay, roll mode, alternate trigger mode, and adjustable trigger sensitivity the 1000 Series is a great entry for value oscilloscope requirements.
-keywords: [oscilloscopes, Rigol, Instrumentkit]
+keywords: [oscilloscopes, Rigol, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/rigol/rigol-ds1000-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107015/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 1000 Series from RIGOL include the B, D, and E series oscilloscopes. The E S
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107015/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

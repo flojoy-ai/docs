@@ -2,9 +2,9 @@
 title: Connecting to Keysight 3456A by HP in Python
 sidebar_label: Keysight 3456A
 description: 3456A 6 1/2 Digit Digital Multimeter
-keywords: [multimeters, HP, Instrumentkit]
+keywords: [multimeters, HP, InstrumentKit]
 slug: /instruments-wiki/multimeters/hp/keysight-3456a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201355/Instruments/Multimeters/Keysight-3456A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393997/Instruments/Multimeters/Keysight-3456A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201355/Instruments/Multimeters/Keysight-3456A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393997/Instruments/Multimeters/Keysight-3456A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

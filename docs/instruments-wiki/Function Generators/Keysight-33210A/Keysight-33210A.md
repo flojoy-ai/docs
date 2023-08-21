@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33210A by Keysight in Python
 sidebar_label: Keysight 33210A
 description: The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
-keywords: [function generators, Keysight, Qcodes]
+keywords: [function generators, Keysight, QCodes]
 slug: /instruments-wiki/function-generators/keysight/keysight-33210a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200793/Instruments/Function%20Generators/Keysight-33210A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200793/Instruments/Function%20Generators/Keysight-33210A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 33210A Function Generator using Qcodes, you can use the following Python script:
 

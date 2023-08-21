@@ -1,10 +1,10 @@
 ---
-title: Connecting to SFM by Rohdes And Schwarz in Python
+title: Connecting to SFM by Rohdes & Schwarz in Python
 sidebar_label: SFM
 description: Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N, K1) including stereo/dual sound and NICAMDouble-sideband test modulator for all IFs between 32 and 46 MHzRF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
-keywords: [rf signal generators, Rohdes And Schwarz, Pymeasure]
-slug: /instruments-wiki/rf-signal-generators/rohdes-and-schwarz/sfm
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310267/Instruments/RF%20Signal%20Generators/SFM/file.png
+keywords: [rf signal generators, Rohdes & Schwarz, PyMeasure]
+slug: /instruments-wiki/rf-signal-generators/rohdes-&-schwarz/sfm
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,14 +24,14 @@ RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310267/Instruments/RF%20Signal%20Generators/SFM/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -45,7 +45,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 To connect to a SFM RF Signal Generator using Pymeasure, you can use the following Python script:
 

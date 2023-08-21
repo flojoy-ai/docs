@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2450 by Keithley in Python
 sidebar_label: Keithley 2450
 description: The 2450 is Keithley's next-generation SourceMeter source measure unit (SMU) instrument that truly brings Ohm's law (current, voltage, and resistance) testing right to your fingertips. Its innovative graphical user interface (GUI) and advanced, capacitive touchscreen technology allow intuitive usage and minimize the learning curve to enable engineers and scientists to learn faster, work smarter, and invent easier. The 2450 is the SMU for everyone-> a versatile instrument, particularly well-suited for characterizing modern scaled semiconductors, nano-scale devices and materials, organic semiconductors, printed electronics, and other small-geometry and low-power devices.
-keywords: [power supplies, Keithley, Pymeasure, Qcodes]
+keywords: [power supplies, Keithley, PyMeasure, QCodes]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2450
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106861/Instruments/Power%20Supplies/Keithley-2450/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 2450 is Keithley's next-generation SourceMeter source measure unit (SMU) ins
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106861/Instruments/Power%20Supplies/Keithley-2450/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keithley 2450 Power Supply:
 
@@ -77,7 +77,7 @@ keithley.shutdown()
 This script connects to the Keithley 2450 Power Supply using a VISA adapter with the address "GPIB::1". It enables the source, sets the current range to 10 mA, sets the compliance voltage to 10 V, and sets the source current to 0 mA. It then measures the voltage, ramps the current to 5 mA, and prints the voltage. Finally, it shuts down the instrument.
 
 </TabItem>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keithley 2450 Power Supply using Qcodes, you can use the following Python script:
 

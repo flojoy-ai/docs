@@ -2,9 +2,9 @@
 title: Connecting to NI PXIe-5654 by National Instruments in Python
 sidebar_label: NI PXIe-5654
 description: PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features a combination of exceptional phase noise and frequency tuning time. These features address applications such as blocker test/receiver desensitization, high-performance intermodulation distortion measurements, and various electronic warfare applications. The PXIe-5654 is designed to meet the challenging requirements of RFIC characterization, satellite test, and radar applications. Some PXIe-5654 options include a PXIe-5696 Amplitude Extender Module. The PXIe-5696 supports a frequency range of 250 kHz to 20 GHz and an extended amplitude range up to 27 dBm.
-keywords: [rf signal generators, National Instruments, Qcodes Community]
+keywords: [rf signal generators, National Instruments, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/national-instruments/ni-pxie-5654
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310193/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395786/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-5654 features
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310193/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395786/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ A producer of automated test equipment and virtual instrumentation software. Com
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a NI PXIe-5654 RF Signal Generator using Qcodes Community, you can use the following Python script:
 

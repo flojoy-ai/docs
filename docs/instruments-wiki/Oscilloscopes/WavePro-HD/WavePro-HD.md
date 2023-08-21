@@ -2,9 +2,9 @@
 title: Connecting to WavePro HD by Teledyne in Python
 sidebar_label: WavePro HD
 description: WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 technology to achieve 12-bit resolution at up to 8 GHz bandwidth, for the lowest noise and unmatched signal fidelity. Up to 5 Gpt of highly responsive acquisition memory gives more visibility into system behavior, and the exceptional analysis toolbox enables deep insight.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavepro-hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106903/Instruments/Oscilloscopes/WavePro-HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394022/Instruments/Oscilloscopes/WavePro-HD/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 te
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106903/Instruments/Oscilloscopes/WavePro-HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394022/Instruments/Oscilloscopes/WavePro-HD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WavePro HD Oscilloscope using Instrumentkit, you can use the following code:
 

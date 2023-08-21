@@ -2,9 +2,9 @@
 title: Connecting to Keysight N5767A by Keysight in Python
 sidebar_label: Keysight N5767A
 description: The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, LXI compliance, and analog/resistance control of output voltage and current. It delivers reliable performance and enhanced capabilities in a compact 1U package.
-keywords: [power supplies, Keysight, Pymeasure]
+keywords: [power supplies, Keysight, PyMeasure]
 slug: /instruments-wiki/power-supplies/keysight/keysight-n5767a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201191/Instruments/Power%20Supplies/Keysight-N5767A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, L
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201191/Instruments/Power%20Supplies/Keysight-N5767A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keysight N5767A Power Supply:
 

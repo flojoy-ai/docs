@@ -2,9 +2,9 @@
 title: Connecting to TDS5XX by Tektronix in Python
 sidebar_label: TDS5XX
 description: Currently no description
-keywords: [oscilloscopes, Tektronix, Instrumentkit]
+keywords: [oscilloscopes, Tektronix, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/tektronix/tds5xx
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201042/Instruments/Oscilloscopes/TDS5XX/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201042/Instruments/Oscilloscopes/TDS5XX/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

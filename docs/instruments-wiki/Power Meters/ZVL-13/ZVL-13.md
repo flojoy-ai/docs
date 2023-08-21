@@ -1,10 +1,10 @@
 ---
-title: Connecting to ZVL 13 by Rohdeschwarz in Python
+title: Connecting to ZVL 13 by Rohdes & Schwarz in Python
 sidebar_label: ZVL 13
 description: The ZVL is a compact, cost-efficient, powerful and portable network analyzer. It is ideal for use in development, production, and service. It is the only instrument to combine the functions of a network analyzer, spectrum analyzer, and power meter in a single box, making you much more efficient.
-keywords: [spectrum analyzers, Rohdeschwarz, Qcodes Community]
-slug: /instruments-wiki/spectrum-analyzers/rohdeschwarz/zvl-13
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200933/Instruments/Spectrum%20Analyzers/ZVL-13/file.png
+keywords: [power meters, Rohdes & Schwarz, QCodes Community]
+slug: /instruments-wiki/power-meters/rohdes-&-schwarz/zvl-13
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395809/Instruments/Power%20Meters/ZVL-13/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The ZVL is a compact, cost-efficient, powerful and portable network analyzer. It
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200933/Instruments/Spectrum%20Analyzers/ZVL-13/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395809/Instruments/Power%20Meters/ZVL-13/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a ZVL 13 Network Analyzer using Qcodes Community, you can use the following Python script:
 

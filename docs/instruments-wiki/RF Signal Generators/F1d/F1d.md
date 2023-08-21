@@ -2,9 +2,9 @@
 title: Connecting to F1d	 by Qutech in Python
 sidebar_label: F1d	
 description: The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz. It was initially designed for reflectometry and to be used in conjuction with the S5i RF source and the M2j low noise amplifier.
-keywords: [rf signal generators, Qutech, Qcodes Community]
+keywords: [rf signal generators, Qutech, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/qutech/f1d
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309943/Instruments/RF%20Signal%20Generators/F1d/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395719/Instruments/RF%20Signal%20Generators/F1d/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz. It was initi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309943/Instruments/RF%20Signal%20Generators/F1d/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395719/Instruments/RF%20Signal%20Generators/F1d/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to an F1d RF Signal Generator using Qcodes Community, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2700 by Keithley in Python
 sidebar_label: Keithley 2700
 description: The Model 2750 offers extended low ohms measurement capability and supports up to 5 7700 Switch cards for a maximum 200, 2-pole multiplexed channels. It also contains a built-in 20mV clamp that helps protect sensitive devices from damage and prevents self-heating errors during dry circuit testing.
-keywords: [multimeters, Keithley, Pymeasure]
+keywords: [multimeters, Keithley, PyMeasure]
 slug: /instruments-wiki/multimeters/keithley/keithley-2700
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201181/Instruments/Multimeters/Keithley-2700/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395433/Instruments/Multimeters/Keithley-2700/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 2750 offers extended low ohms measurement capability and supports up t
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201181/Instruments/Multimeters/Keithley-2700/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395433/Instruments/Multimeters/Keithley-2700/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

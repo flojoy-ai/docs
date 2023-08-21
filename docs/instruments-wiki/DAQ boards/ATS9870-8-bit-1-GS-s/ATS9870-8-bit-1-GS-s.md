@@ -2,9 +2,9 @@
 title: Connecting to ATS9870-8 bit 1 GS-s by Alazartech in Python
 sidebar_label: ATS9870-8 bit 1 GS-s
 description: ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane PCI Express interface
-keywords: [daq boards, Alazartech, Qcodes]
+keywords: [daq boards, Alazartech, QCodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9870-8-bit-1-gs-s
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201046/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ ATS9870 is the world's first Giga-sample waveform digitizer based on the 8-lane 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201046/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to an ATS9870-8 bit, 1 GS/s DAQ board using Qcodes, you can use the following Python script:
 

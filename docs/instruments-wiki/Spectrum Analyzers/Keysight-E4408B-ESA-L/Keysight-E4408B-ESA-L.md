@@ -2,9 +2,9 @@
 title: Connecting to Keysight E4408B ESA-L by Agilent in Python
 sidebar_label: Keysight E4408B ESA-L
 description: E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
-keywords: [spectrum analyzers, Agilent, Pymeasure]
+keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-e4408b-esa-l
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200766/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200766/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 ```python
 from pymeasure.adapters import VISAAdapter

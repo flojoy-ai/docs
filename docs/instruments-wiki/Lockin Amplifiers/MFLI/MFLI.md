@@ -2,9 +2,9 @@
 title: Connecting to MFLI by Zurich Instruments in Python
 sidebar_label: MFLI
 description: The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequency range from DC to 500 kHz (and up to 5 MHz when upgraded). Thanks to its embedded data and web servers, the MFLI can be used directly with any device running a web browser without further software installations
-keywords: [lockin amplifiers, Zurich Instruments, Qcodes]
+keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-wiki/lockin-amplifiers/zurich-instruments/mfli
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200935/Instruments/Lockin%20Amplifiers/MFLI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequ
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200935/Instruments/Lockin%20Amplifiers/MFLI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 The provided code is a stub for connecting to a Zurich Instruments MFLI Lock-in Amplifier using Qcodes. To establish a connection and interact with the lock-in amplifier, you can use the following code:
 

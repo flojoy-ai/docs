@@ -2,9 +2,9 @@
 title: Connecting to SHFQC by Zurich Instruments in Python
 sidebar_label: SHFQC
 description: The SHFQC Qubit Controller can control, read out and provide fast feedback on up to 6 superconducting qubits. It integrates the functionality of the SHFQA Quantum Analyzer, the SHFSG Signal Generator and more in a single instrument.
-keywords: [qubit controllers, Zurich Instruments, Qcodes]
+keywords: [qubit controllers, Zurich Instruments, QCodes]
 slug: /instruments-wiki/qubit-controllers/zurich-instruments/shfqc
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310282/Instruments/Qubit%20Controllers/SHFQC/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The SHFQC Qubit Controller can control, read out and provide fast feedback on up
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310282/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a SHFQC Qubit Controller using Qcodes, you can use the following code:
 

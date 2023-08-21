@@ -2,9 +2,9 @@
 title: Connecting to Keysight 8722ES  by Agilent in Python
 sidebar_label: Keysight 8722ES 
 description: The Agilent 8722ES Vector Network Analyzer (VNA) allows users to test a RF device’s amplitude and phase with one instrument. It works within 50 MHz to 40 GHz and enables the complete characterization of a device or network.
-keywords: [network analyzers, Agilent, Pymeasure]
+keywords: [network analyzers, Agilent, PyMeasure]
 slug: /instruments-wiki/network-analyzers/agilent/keysight-8722es
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310086/Instruments/Network%20Analyzers/Keysight-8722ES/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Agilent 8722ES Vector Network Analyzer (VNA) allows users to test a RF devic
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310086/Instruments/Network%20Analyzers/Keysight-8722ES/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

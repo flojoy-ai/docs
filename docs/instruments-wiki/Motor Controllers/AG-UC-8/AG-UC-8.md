@@ -2,9 +2,9 @@
 title: Connecting to AG UC 8 by Newport in Python
 sidebar_label: AG UC 8
 description: The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agilis axes. Power is supplied through the same USB port used for communication. USB hubs may also be used for powering and communication, but must provide the required 5 V supply, e.g. must feature an external power supply. Two holes in the controller allow stacking of several controllers and attachment to optical tables.
-keywords: [motor controllers, Newport, Qcodes Community]
+keywords: [motor controllers, Newport, QCodes Community]
 slug: /instruments-wiki/motor-controllers/newport/ag-uc-8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309863/Instruments/Motor%20Controllers/AG-UC-8/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309863/Instruments/Motor%20Controllers/AG-UC-8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Newport provides a wide range of photonics technology and products designed to e
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 ```python
 from qcodes.instrument_drivers.newport.ag_uc8 import Newport_AG_UC8

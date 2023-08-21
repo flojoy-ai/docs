@@ -2,9 +2,9 @@
 title: Connecting to Weinschel 8320 by Weinschel in Python
 sidebar_label: Weinschel 8320
 description: Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable Attenuator systems allow for multiple attenuator channels to be controlled across a variety of interfaces, or via a front panel.
-keywords: [digital attenuators, Weinschel, Qcodes]
+keywords: [digital attenuators, Weinschel, QCodes]
 slug: /instruments-wiki/digital-attenuators/weinschel/weinschel-8320
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310406/Instruments/Digital%20Attenuators/Weinschel-8320/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395699/Instruments/Digital%20Attenuators/Weinschel-8320/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310406/Instruments/Digital%20Attenuators/Weinschel-8320/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395699/Instruments/Digital%20Attenuators/Weinschel-8320/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Weinschel Associates designs and manufactures high-quality Broadband RF and Mic
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Weinschel 8320 Digital Attenuator using Qcodes, you can use the following Python script:
 

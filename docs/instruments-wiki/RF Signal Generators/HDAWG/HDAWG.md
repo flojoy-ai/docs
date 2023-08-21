@@ -2,9 +2,9 @@
 title: Connecting to HDAWG by Zurich Instruments in Python
 sidebar_label: HDAWG
 description: The Zurich Instruments HDAWG multi-channel Arbitrary Waveform Generator has one of the highest channel densities available in its class and is designed for advanced signal generation up to 750 MHz bandwidth. The HDAWG comes with either 4 or 8 DC-coupled, single-ended analog output channels with 16-bit vertical resolution.
-keywords: [rf signal generators, Zurich Instruments, Qcodes Community, Qcodes]
+keywords: [rf signal generators, Zurich Instruments, QCodes Community, QCodes]
 slug: /instruments-wiki/rf-signal-generators/zurich-instruments/hdawg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309955/Instruments/RF%20Signal%20Generators/HDAWG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395541/Instruments/RF%20Signal%20Generators/HDAWG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments HDAWG multi-channel Arbitrary Waveform Generator has one 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309955/Instruments/RF%20Signal%20Generators/HDAWG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395541/Instruments/RF%20Signal%20Generators/HDAWG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a HDAWG RF Signal Generator using Qcodes Community, you can use the following Python script:
 
@@ -72,7 +72,7 @@ In this script, we first import the necessary modules and classes from Qcodes. T
 Note: Replace `'dev1234'` with the actual device ID of your HDAWG RF Signal Generator.
 
 </TabItem>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 import qcodes as qc

@@ -1,10 +1,10 @@
 ---
-title: Connecting to FSL by Rohdes And Schwarz in Python
+title: Connecting to FSL by Rohdes & Schwarz in Python
 sidebar_label: FSL
 description: The R&S FSL series Spectrum Analyzer – are a lightweight and compact range of spectrum analyzer for cost-conscious users who want the functionality of high-end instruments.These analyzers are ideal for a large number of applications in development, service and production.
-keywords: [spectrum analyzers, Rohdes And Schwarz, Pymeasure]
-slug: /instruments-wiki/spectrum-analyzers/rohdes-and-schwarz/fsl
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201039/Instruments/Spectrum%20Analyzers/FSL/file.png
+keywords: [spectrum analyzers, Rohdes & Schwarz, PyMeasure]
+slug: /instruments-wiki/spectrum-analyzers/rohdes-&-schwarz/fsl
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,14 +24,14 @@ These analyzers are ideal for a large number of applications in development, ser
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201039/Instruments/Spectrum%20Analyzers/FSL/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -45,7 +45,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

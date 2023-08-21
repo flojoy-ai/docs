@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2182 by Keithley in Python
 sidebar_label: Keithley 2182
 description: The two-channel Model 2182A Nanovoltmeter is optimized for making stable, low noise voltage measurements and for characterizing low resistance materials and devices reliably and repeatably. It provides higher measurement speed and significantly better noise performance than alternative low voltage measurement solutions. It offers a simplified delta mode for making resistance measurements in combination with a reversing current source, such as the Model 6220 or 6221.
-keywords: [power meters, Keithley, Instrumentkit]
+keywords: [power meters, Keithley, InstrumentKit]
 slug: /instruments-wiki/power-meters/keithley/keithley-2182
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200772/Instruments/Power%20Meters/Keithley-2182/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394002/Instruments/Power%20Meters/Keithley-2182/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The two-channel Model 2182A Nanovoltmeter is optimized for making stable, low no
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200772/Instruments/Power%20Meters/Keithley-2182/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394002/Instruments/Power%20Meters/Keithley-2182/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Keithley 2182 Power Meter using Instrumentkit, you can use the following Python script:
 

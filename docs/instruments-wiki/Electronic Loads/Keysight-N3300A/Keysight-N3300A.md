@@ -2,9 +2,9 @@
 title: Connecting to Keysight N3300A by Keysight in Python
 sidebar_label: Keysight N3300A
 description: The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts combinations of N330x user-installable load modules (150 W to 600 W) for easy system configuration and future reconfiguration. The N3300A holds up to six N3302A, N3303A, N3304A, N3307A load modules, or three N3305A, N3306A double-wide modules, allowing a total up to 1,800 watts of maximum power.
-keywords: [electronic loads, Keysight, Qcodes Community]
+keywords: [electronic loads, Keysight, QCodes Community]
 slug: /instruments-wiki/electronic-loads/keysight/keysight-n3300a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106966/Instruments/Electronic%20Loads/Keysight-N3300A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight N3300A is a full-rack width mainframe with 6-slots that accepts com
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106966/Instruments/Electronic%20Loads/Keysight-N3300A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight N3300A Electronic Load using Qcodes Community, you can use the following code:
 

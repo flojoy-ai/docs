@@ -2,9 +2,9 @@
 title: Connecting to AVS 47 by Picowatt in Python
 sidebar_label: AVS 47
 description: The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low-temperature sensors.
-keywords: [temperature controllers, Picowatt, Instrumentkit]
+keywords: [temperature controllers, Picowatt, InstrumentKit]
 slug: /instruments-wiki/temperature-controllers/picowatt/avs-47
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201292/Instruments/Temperature%20Controllers/AVS-47/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394036/Instruments/Temperature%20Controllers/AVS-47/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201292/Instruments/Temperature%20Controllers/AVS-47/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394036/Instruments/Temperature%20Controllers/AVS-47/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for the
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 Here is an example Python script that uses Instrumentkit to connect to a Picowatt AVS 47 resistance bridge:
 

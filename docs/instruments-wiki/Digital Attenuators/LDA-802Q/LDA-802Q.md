@@ -2,9 +2,9 @@
 title: Connecting to LDA-802Q by Vaunix in Python
 sidebar_label: LDA-802Q
 description: The LDA-802Q Digital Attenuator is a 4-channel high dynamic range, bidirectional, 50 Ohm step attenuator. The LDA-802Q provides 120 dB of attenuation control range from 200 to 8000 MHz with a step size of 0.1 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
-keywords: [digital attenuators, Vaunix, Qcodes Community]
+keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-wiki/digital-attenuators/vaunix/lda-802q
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310156/Instruments/Digital%20Attenuators/LDA-802Q/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395770/Instruments/Digital%20Attenuators/LDA-802Q/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The LDA-802Q Digital Attenuator is a 4-channel high dynamic range, bidirectional
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692310156/Instruments/Digital%20Attenuators/LDA-802Q/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395770/Instruments/Digital%20Attenuators/LDA-802Q/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Vaunix Technology Corp. designs, manufactures, and services RF and microwave tes
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a LDA-802Q Digital Attenuator using Qcodes Community, you can use the following Python script:
 

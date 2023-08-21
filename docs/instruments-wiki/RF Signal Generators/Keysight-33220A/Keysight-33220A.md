@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33220A by Agilent in Python
 sidebar_label: Keysight 33220A
 description: The Keysight 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
-keywords: [rf signal generators, Agilent, Instrumentkit]
+keywords: [rf signal generators, Agilent, InstrumentKit]
 slug: /instruments-wiki/rf-signal-generators/agilent/keysight-33220a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310034/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393989/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight 33220A is a 20 MHz synthesized function generator with built-in arb
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310034/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393989/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

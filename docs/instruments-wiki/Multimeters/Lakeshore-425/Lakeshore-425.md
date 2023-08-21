@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore 425 by Lakeshore in Python
 sidebar_label: Lakeshore 425
 description: Class Connecting To The Lakeshore 425 Gaussmeter
-keywords: [multimeters, Lakeshore, Pymeasure, Pytango]
+keywords: [multimeters, Lakeshore, PyMeasure, PyTango]
 slug: /instruments-wiki/multimeters/lakeshore/lakeshore-425
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106851/Instruments/Multimeters/Lakeshore-425/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Class Connecting To The Lakeshore 425 Gaussmeter
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106851/Instruments/Multimeters/Lakeshore-425/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python
@@ -170,7 +170,7 @@ This script creates a class `LakeShore425` that represents the LakeShore 425 Gau
 In the example usage section, a serial adapter is created to connect to the instrument. Then, an instance of the `LakeShore425` class is created using the adapter. The unit and range are set, and a measurement of 10 points is performed. The mean and standard deviation are then printed to the console.
 
 </TabItem>
-<TabItem value="Pytango" label="Pytango">
+<TabItem value="PyTango" label="PyTango">
 
 To connect to a Lake Shore Model 425 Gaussmeter using Pytango, you can use the following code:
 

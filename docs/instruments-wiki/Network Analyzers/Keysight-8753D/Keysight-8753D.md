@@ -2,9 +2,9 @@
 title: Connecting to Keysight 8753D by HP in Python
 sidebar_label: Keysight 8753D
 description: 8753D Network Analyzer, 30 kHz to 3 GHz
-keywords: [network analyzers, HP, Qcodes]
+keywords: [network analyzers, HP, QCodes]
 slug: /instruments-wiki/network-analyzers/hp/keysight-8753d
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310087/Instruments/Network%20Analyzers/Keysight-8753D/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310087/Instruments/Network%20Analyzers/Keysight-8753D/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Keysight 8753D Network Analyzer:
 
