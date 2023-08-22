@@ -1,9 +1,9 @@
 ---
-title: Connecting to SFM by Rohdes & Schwarz in Python
+title: Connecting to SFM by Rohdes&Schwarz in Python
 sidebar_label: SFM
 description: Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N, K1) including stereo/dual sound and NICAMDouble-sideband test modulator for all IFs between 32 and 46 MHzRF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
-keywords: [rf signal generators, Rohdes & Schwarz, PyMeasure]
-slug: /instruments-wiki/rf-signal-generators/rohdes-&-schwarz/sfm
+keywords: [rf signal generators, Rohdes&Schwarz, PyMeasure]
+slug: /instruments-wiki/rf-signal-generators/rohdes&schwarz/sfm
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.png
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: Connecting to FSL by Rohdes & Schwarz in Python
+title: Connecting to FSL by Rohdes&Schwarz in Python
 sidebar_label: FSL
 description: The R&S FSL series Spectrum Analyzer – are a lightweight and compact range of spectrum analyzer for cost-conscious users who want the functionality of high-end instruments.These analyzers are ideal for a large number of applications in development, service and production.
-keywords: [spectrum analyzers, Rohdes & Schwarz, PyMeasure]
-slug: /instruments-wiki/spectrum-analyzers/rohdes-&-schwarz/fsl
+keywords: [spectrum analyzers, Rohdes&Schwarz, PyMeasure]
+slug: /instruments-wiki/spectrum-analyzers/rohdes&schwarz/fsl
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.png
 ---
 

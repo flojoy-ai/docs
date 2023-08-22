@@ -2,7 +2,7 @@
 title: Connecting to Keithley 2000 by Keithley in Python
 sidebar_label: Keithley 2000
 description: The Model 2000 6½-Digit Multimeter is part of Keithley’s family of high performance DMMs. Based on the same high speed, low noise A/D convertertechnology as the Model 2001 and 2002, the 2000 is a fast, accurate,and highly stable instrument that’s as easy to operate as it is to afford. Itcombines broad measurement ranges with superior accuracy specifications
-keywords: [multimeters, Keithley, PyMeasure, QCodes]
+keywords: [multimeters, Keithley, QCodes, PyMeasure]
 slug: /instruments-wiki/multimeters/keithley/keithley-2000
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.png
 ---
@@ -46,37 +46,6 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="PyMeasure" label="PyMeasure">
-
-To connect to a Keithley 2000 Multimeter using Pymeasure, you can use the following Python script:
-
-```python
-from pymeasure.adapters import VISAAdapter
-from pymeasure.instruments.keithley import Keithley2000
-
-# Create a VISA adapter for the instrument
-adapter = VISAAdapter("GPIB::1")
-
-# Connect to the Keithley 2000 Multimeter
-meter = Keithley2000(adapter)
-
-# Perform measurements or configure the instrument as needed
-meter.measure_voltage()
-print("Voltage:", meter.voltage)
-
-meter.measure_current()
-print("Current:", meter.current)
-
-meter.measure_resistance()
-print("Resistance:", meter.resistance)
-
-# Disconnect from the instrument
-meter.disconnect()
-```
-
-This script creates a `VISAAdapter` object to connect to the instrument using the GPIB address "GPIB::1". Then, a `Keithley2000` object is created using the adapter. You can perform measurements or configure the instrument as needed using the provided methods and properties. Finally, the `disconnect()` method is called to disconnect from the instrument.
-
-</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to a Keithley 2000 Multimeter using Qcodes, you can use the following Python script:
@@ -117,6 +86,37 @@ keithley.disconnect()
 ```
 
 This script creates an instance of the `Keithley_2000` driver and connects to the instrument using the specified address. It then sets various parameters such as mode, range, auto range, and NPLC. It triggers a measurement and reads the measured value using the `amplitude` parameter. Finally, it disconnects from the instrument.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
+
+To connect to a Keithley 2000 Multimeter using Pymeasure, you can use the following Python script:
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.keithley import Keithley2000
+
+# Create a VISA adapter for the instrument
+adapter = VISAAdapter("GPIB::1")
+
+# Connect to the Keithley 2000 Multimeter
+meter = Keithley2000(adapter)
+
+# Perform measurements or configure the instrument as needed
+meter.measure_voltage()
+print("Voltage:", meter.voltage)
+
+meter.measure_current()
+print("Current:", meter.current)
+
+meter.measure_resistance()
+print("Resistance:", meter.resistance)
+
+# Disconnect from the instrument
+meter.disconnect()
+```
+
+This script creates a `VISAAdapter` object to connect to the instrument using the GPIB address "GPIB::1". Then, a `Keithley2000` object is created using the adapter. You can perform measurements or configure the instrument as needed using the provided methods and properties. Finally, the `disconnect()` method is called to disconnect from the instrument.
 
 </TabItem>
 </Tabs>

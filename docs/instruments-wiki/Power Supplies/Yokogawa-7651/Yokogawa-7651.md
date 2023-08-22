@@ -2,7 +2,7 @@
 title: Connecting to Yokogawa 7651 by Yokogawa in Python
 sidebar_label: Yokogawa 7651
 description: The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art DC standard technology. The dual multiplying D/A converter has enabled the compatibility of high-speed response and high resolution. The 7651 also provides high accuracy and stability. In addition to the source function (current supply), the sink function (current absorption) is also available, so the 7651 can be used as not only DC voltage/current source but also high-precision electronic load. Further, a series of powerful functions to meet the system use such as the programming function up to 50 steps, the IC memory card capable of storing 7 patterns of programs, and GP-IB interface are provided as standard. This 7651 can be used for a wide range of fields from R & D to production line, service and maintenance.
-keywords: [power supplies, Yokogawa, PyMeasure, InstrumentKit]
+keywords: [power supplies, Yokogawa, InstrumentKit, PyMeasure]
 slug: /instruments-wiki/power-supplies/yokogawa/yokogawa-7651
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.png
 ---
@@ -43,33 +43,6 @@ Yokogawa is a leading provider of Industrial Automation and Test and Measurement
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="PyMeasure" label="PyMeasure">
-
-
-```python
-from pymeasure.instruments.yokogawa import Yokogawa7651
-
-# Connect to the Yokogawa 7651 Power Supply
-yoko = Yokogawa7651("GPIB::1")
-
-# Apply a current of 1 mA with a compliance voltage of 1 V
-yoko.apply_current(max_current=1e-3, compliance_voltage=1)
-
-# Enable the source
-yoko.enable_source()
-
-# Ramp the current to 5 mA over 0.5 seconds
-yoko.ramp_to_current(5e-3, steps=25, duration=0.5)
-
-# Shutdown the instrument
-yoko.shutdown()
-```
-
-This script connects to the Yokogawa 7651 Power Supply using the GPIB address "GPIB::1". It applies a current of 1 mA with a compliance voltage of 1 V using the `apply_current` method. Then, it enables the source using the `enable_source` method. Next, it ramps the current to 5 mA over 0.5 seconds using the `ramp_to_current` method. Finally, it shuts down the instrument using the `shutdown` method.
-
-Note: Make sure you have the necessary dependencies installed, such as `pymeasure` and the appropriate GPIB driver for your system.
-
-</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Yokogawa 7651 Power Supply using Instrumentkit, you can use the following Python script:
@@ -100,6 +73,33 @@ Once connected, you can set the voltage and current using the `voltage` and `cur
 You can also enable or disable the output using the `output` property of the power supply channel. Set it to `True` to enable the output and `False` to disable it.
 
 Note that the script assumes you have already installed the `instrumentkit` package and its dependencies.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
+
+
+```python
+from pymeasure.instruments.yokogawa import Yokogawa7651
+
+# Connect to the Yokogawa 7651 Power Supply
+yoko = Yokogawa7651("GPIB::1")
+
+# Apply a current of 1 mA with a compliance voltage of 1 V
+yoko.apply_current(max_current=1e-3, compliance_voltage=1)
+
+# Enable the source
+yoko.enable_source()
+
+# Ramp the current to 5 mA over 0.5 seconds
+yoko.ramp_to_current(5e-3, steps=25, duration=0.5)
+
+# Shutdown the instrument
+yoko.shutdown()
+```
+
+This script connects to the Yokogawa 7651 Power Supply using the GPIB address "GPIB::1". It applies a current of 1 mA with a compliance voltage of 1 V using the `apply_current` method. Then, it enables the source using the `enable_source` method. Next, it ramps the current to 5 mA over 0.5 seconds using the `ramp_to_current` method. Finally, it shuts down the instrument using the `shutdown` method.
+
+Note: Make sure you have the necessary dependencies installed, such as `pymeasure` and the appropriate GPIB driver for your system.
 
 </TabItem>
 </Tabs>

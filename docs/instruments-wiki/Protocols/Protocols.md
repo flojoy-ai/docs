@@ -19,14 +19,14 @@ You can find all the available instruments from the sidebar
  SCPI Instrument 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+ <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 
 <div className="p-4">
 
 <a href="/instruments-wiki/protocols/generic-scpi/scpi-instrument">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI Instrument</figcaption>
 </figure>
 </a></div>

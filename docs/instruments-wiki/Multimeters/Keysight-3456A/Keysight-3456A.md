@@ -4,7 +4,7 @@ sidebar_label: Keysight 3456A
 description: 3456A 6 1/2 Digit Digital Multimeter
 keywords: [multimeters, HP, InstrumentKit]
 slug: /instruments-wiki/multimeters/hp/keysight-3456a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393997/Instruments/Multimeters/Keysight-3456A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393997/Instruments/Multimeters/Keysight-3456A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

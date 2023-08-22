@@ -1,10 +1,10 @@
 ---
-title: Connecting to Series by Rohdes & Schwarz in Python
+title: Connecting to Series by Rohdes&Schwarz in Python
 sidebar_label: Series
 description: Currently no description
-keywords: [network analyzers, Rohdes & Schwarz, QCodes]
-slug: /instruments-wiki/network-analyzers/rohdes-&-schwarz/series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692655381/Instruments/Network%20Analyzers/Series/file.png
+keywords: [network analyzers, Rohdes&Schwarz, QCodes]
+slug: /instruments-wiki/network-analyzers/rohdes&schwarz/series
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692724879/Instruments/Network%20Analyzers/Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692655381/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692724879/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

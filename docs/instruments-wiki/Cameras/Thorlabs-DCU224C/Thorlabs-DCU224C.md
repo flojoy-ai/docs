@@ -4,7 +4,7 @@ sidebar_label: Thorlabs-DCU224C
 description: DCU224C - CCD Camera, 1280 x 1024 Resolution, Color, USB 2.0
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-wiki/cameras/thorlabs/thorlabs-dcu224c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395134/Instruments/Cameras/Thorlabs-DCU224C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ DCU224C - CCD Camera, 1280 x 1024 Resolution, Color, USB 2.0
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395134/Instruments/Cameras/Thorlabs-DCU224C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

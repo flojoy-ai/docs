@@ -19,14 +19,14 @@ You can find all the available instruments from the sidebar
  A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+ <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 
 <div className="p-4">
 
 <a href="/instruments-wiki/pulse-generators/stanford-research-systems/dg645">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395096/Instruments/Pulse%20Generators/DG645/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719393/Instruments/Pulse%20Generators/DG645/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DG645</figcaption>
 </figure>
 </a></div>

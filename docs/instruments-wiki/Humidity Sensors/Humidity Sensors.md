@@ -19,14 +19,14 @@ You can find all the available instruments from the sidebar
  A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
+ <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 
 <div className="p-4">
 
 <a href="/instruments-wiki/humidity-sensors/orbit3/orbit-3-sensor">
-<figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.png" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Orbit 3 Sensor</figcaption>
 </figure>
 </a></div>

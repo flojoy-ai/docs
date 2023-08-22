@@ -4,7 +4,7 @@ sidebar_label: CC1
 description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
 keywords: [coincidence counters, Qubitekk, InstrumentKit]
 slug: /instruments-wiki/coincidence-counters/qubitekk/cc1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692393996/Instruments/Coincidence%20Counters/CC1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692393996/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

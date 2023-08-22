@@ -1,9 +1,9 @@
 ---
-title: Connecting to SMW 200 A by Rohdes & Schwarz in Python
+title: Connecting to SMW 200 A by Rohdes&Schwarz in Python
 sidebar_label: SMW 200 A
 description: The R&S®SMW200A offers integrated channel emulation for up to 800 MHz of fading bandwidth. Fading profiles for all major standards are available as presets. With up to 64 fading channels, all key MIMO fading scenarios such as 2x2, 3x3, 4x4, 8x4, 4x8 and 8x8 can be configured in a single instrument.
-keywords: [rf signal generators, Rohdes & Schwarz, QCodes Community]
-slug: /instruments-wiki/rf-signal-generators/rohdes-&-schwarz/smw-200-a
+keywords: [rf signal generators, Rohdes&Schwarz, QCodes Community]
+slug: /instruments-wiki/rf-signal-generators/rohdes&schwarz/smw-200-a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png
 ---
 
