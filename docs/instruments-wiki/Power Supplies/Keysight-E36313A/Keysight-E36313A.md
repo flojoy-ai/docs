@@ -2,9 +2,9 @@
 title: Connecting to Keysight E36313A by Keysight in Python
 sidebar_label: Keysight E36313A
 description: The triple output, 160 W, E36313A provides small, compact size for bench use; low output ripple and noise; built-in measurements and basic programmable features with USB and LAN, and optional GPIB interfaces.
-keywords: [power supplies, Keysight, Qcodes Community]
+keywords: [power supplies, Keysight, QCodes Community]
 slug: /instruments-wiki/power-supplies/keysight/keysight-e36313a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201237/Instruments/Power%20Supplies/Keysight-E36313A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The triple output, 160 W, E36313A provides small, compact size for bench use; lo
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201237/Instruments/Power%20Supplies/Keysight-E36313A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight E36313A Power Supply using Qcodes, you can use the following Python script:
 

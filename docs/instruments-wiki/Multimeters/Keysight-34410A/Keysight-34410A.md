@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34410A by Agilent in Python
 sidebar_label: Keysight 34410A
 description: The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB.
-keywords: [multimeters, Agilent, Qcodes]
+keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-wiki/multimeters/agilent/keysight-34410a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106759/Instruments/Multimeters/Keysight-34410A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the ph
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106759/Instruments/Multimeters/Keysight-34410A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 34410A Multimeter using Qcodes, you can use the following Python script:
 

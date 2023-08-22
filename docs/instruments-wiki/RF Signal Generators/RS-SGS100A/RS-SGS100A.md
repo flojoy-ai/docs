@@ -1,10 +1,10 @@
 ---
-title: Connecting to R&S SGS100A by Rohde Schwarz in Python
+title: Connecting to R&S SGS100A by Rohdes&Schwarz in Python
 sidebar_label: R&S SGS100A
 description: The R&S®SGS100A is an RF source designed to meet the requirements of automated test systems. It is available as a CW source or as a vector signal generator with an integrated I/Q modulator. With its frequency range of up to 12.75 GHz, the vector signal generation version covers the essential digital signals. The CW version can be used as a flexible local oscillator and for interference testing against mobile radio standards.
-keywords: [rf signal generators, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/rf-signal-generators/rohde-schwarz/r&s-sgs100a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310242/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png
+keywords: [rf signal generators, Rohdes&Schwarz, QCodes]
+slug: /instruments-wiki/rf-signal-generators/rohdes-schwarz/rs-sgs100a
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The R&S®SGS100A is an RF source designed to meet the requirements of automated 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310242/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a R&S SGS100A RF Signal Generator:
 

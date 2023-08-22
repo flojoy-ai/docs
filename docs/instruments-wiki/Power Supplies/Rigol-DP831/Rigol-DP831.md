@@ -2,9 +2,9 @@
 title: Connecting to Rigol DP831 by Rigol in Python
 sidebar_label: Rigol DP831
 description: The Rigol DP831 features a relative large (8.9 cm / 3.5") and easy to read TFT monochrome display. In addition to the normal digital displays for voltage, current, and power, these values can also be displayed as signal curves.
-keywords: [power supplies, Rigol, Qcodes]
+keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-wiki/power-supplies/rigol/rigol-dp831
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201058/Instruments/Power%20Supplies/Rigol-DP831/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395533/Instruments/Power%20Supplies/Rigol-DP831/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Rigol DP831 features a relative large (8.9 cm / 3.5") and easy to read TFT m
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201058/Instruments/Power%20Supplies/Rigol-DP831/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395533/Instruments/Power%20Supplies/Rigol-DP831/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 import qcodes as qc

@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34460A Submodules by Keysight in Python
 sidebar_label: Keysight 34460A Submodules
 description: The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.
-keywords: [multimeters, Keysight, Qcodes]
+keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-wiki/multimeters/keysight/keysight-34460a-submodules
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201095/Instruments/Multimeters/Keysight-34460A-Submodules/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201095/Instruments/Multimeters/Keysight-34460A-Submodules/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 34460A Submodules Multimeter using Qcodes, you can use the following Python script:
 

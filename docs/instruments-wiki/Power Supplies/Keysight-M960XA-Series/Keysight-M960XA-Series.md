@@ -2,9 +2,9 @@
 title: Connecting to Keysight M960XA-Series by Keysight in Python
 sidebar_label: Keysight M960XA-Series
 description: PXI source/measure units are the source and measurement resources of voltage and current for test applications requiring high accuracy, high resolution, and measurement flexibility
-keywords: [power supplies, Keysight, Qcodes]
+keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-wiki/power-supplies/keysight/keysight-m960xa-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106825/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106825/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Keysight M960XA-Series Power Meters:
 

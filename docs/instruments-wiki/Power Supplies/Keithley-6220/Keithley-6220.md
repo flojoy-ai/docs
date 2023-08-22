@@ -2,9 +2,9 @@
 title: Connecting to Keithley 6220 by Keithley in Python
 sidebar_label: Keithley 6220
 description: The Model 6220 DC Current Source and Model 6221 AC and DC Current Source combine ease of use with exceptionally low current noise. Low current sourcing is critical to applications in test environments ranging from R&D to production, especially in the semiconductor, nanotechnology, and superconductor industries. High sourcing accuracy and built-in control functions make the Models 6220 and 6221 ideal for applications like Hall measurements, resistance measurements using delta mode, pulsed measurements, and differential conductance measurements.
-keywords: [power supplies, Keithley, Instrumentkit]
+keywords: [power supplies, Keithley, InstrumentKit]
 slug: /instruments-wiki/power-supplies/keithley/keithley-6220
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201183/Instruments/Power%20Supplies/Keithley-6220/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394007/Instruments/Power%20Supplies/Keithley-6220/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 6220 DC Current Source and Model 6221 AC and DC Current Source combine
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201183/Instruments/Power%20Supplies/Keithley-6220/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394007/Instruments/Power%20Supplies/Keithley-6220/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Keithley 6220 Power Supply using Instrumentkit, you can use the following Python script:
 

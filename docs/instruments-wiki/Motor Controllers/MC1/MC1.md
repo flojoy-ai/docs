@@ -2,9 +2,9 @@
 title: Connecting to MC1 by Qubitekk in Python
 sidebar_label: MC1
 description: Currently no description
-keywords: [motor controllers, Qubitekk, Instrumentkit]
+keywords: [motor controllers, Qubitekk, InstrumentKit]
 slug: /instruments-wiki/motor-controllers/qubitekk/mc1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328090/Instruments/Motor%20Controllers/MC1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728386/Instruments/Motor%20Controllers/MC1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328090/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728386/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 
 ```python

@@ -2,9 +2,9 @@
 title: Connecting to NI PXIe-2597 by National Instruments in Python
 sidebar_label: NI PXIe-2597
 description: 26.5 GHz, 50 Ω, 6x1 (SP6T) Terminated PXI RF Multiplexer Switch Module—The PXI‑2597 is ideal for passing high-order harmonics from PXI RF Signal Upconverter modules or routing multiple sources to PXI RF Signal Downconverter modules. The internal termination of the PXI‑2597 helps prevent high-power reflections that arise from open channels on the module. You can use the PXI‑2597 onboard relay count tracking feature to predict relay lifetime and reduce unexpected system downtime.
-keywords: [multiplexer switch modules, National Instruments, Qcodes Community]
+keywords: [multiplexer switch modules, National Instruments, QCodes Community]
 slug: /instruments-wiki/multiplexer-switch-modules/national-instruments/ni-pxie-2597
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692201270/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692201270/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ A producer of automated test equipment and virtual instrumentation software. Com
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a NI PXIe-2597 Multiplexer Switch Module using Qcodes Community, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34401A by Agilent in Python
 sidebar_label: Keysight 34401A
 description: The Keysight Technologies, Inc. 34401A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34401A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
-keywords: [multimeters, Agilent, Qcodes]
+keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-wiki/multimeters/agilent/keysight-34401a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107067/Instruments/Multimeters/Keysight-34401A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight Technologies, Inc. 34401A multimeter gives you the performance you 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107067/Instruments/Multimeters/Keysight-34401A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 34401A Multimeter using Qcodes, you can use the following Python script:
 

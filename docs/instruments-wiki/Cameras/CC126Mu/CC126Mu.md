@@ -4,7 +4,7 @@ sidebar_label: CC126Mu
 description: Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled Package, USB 3.0 Interface, 1/4"-20 Taps
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-wiki/cameras/thorlabs/cc126mu
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200939/Instruments/Cameras/CC126Mu/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled Package, USB 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200939/Instruments/Cameras/CC126Mu/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

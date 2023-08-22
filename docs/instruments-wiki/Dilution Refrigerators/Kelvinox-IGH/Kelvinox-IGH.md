@@ -2,9 +2,9 @@
 title: Connecting to Kelvinox IGH by Oxford Instruments in Python
 sidebar_label: Kelvinox IGH
 description: Currently no description
-keywords: [dilution refrigerators, Oxford Instruments, Qcodes Community]
+keywords: [dilution refrigerators, Oxford Instruments, QCodes Community]
 slug: /instruments-wiki/dilution-refrigerators/oxford-instruments/kelvinox-igh
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310029/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310029/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Oxford Instruments plc is a United Kingdom manufacturing and research company th
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 
 ```python

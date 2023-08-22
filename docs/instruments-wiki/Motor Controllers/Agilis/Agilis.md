@@ -2,9 +2,9 @@
 title: Connecting to Agilis by Newport in Python
 sidebar_label: Agilis
 description: Agilis™ Piezo Motion Controllers provide convenient and compact fine positioning control of the Agilis family of piezo motion stages and mounts.
-keywords: [motor controllers, Newport, Instrumentkit]
+keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-wiki/motor-controllers/newport/agilis
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Motor%20Controllers/Agilis/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Agilis™ Piezo Motion Controllers provide convenient and compact fine positioni
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Motor%20Controllers/Agilis/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Newport provides a wide range of photonics technology and products designed to e
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to an Agilis Positional Controller using Instrumentkit, you can use the following code:
 

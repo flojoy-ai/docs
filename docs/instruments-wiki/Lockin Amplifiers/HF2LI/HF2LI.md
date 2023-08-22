@@ -2,9 +2,9 @@
 title: Connecting to HF2LI by Zurich Instruments in Python
 sidebar_label: HF2LI
 description: The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequency range between DC and 50 MHz. It is the instrument of choice for the characterization of MEMS devices such as gyroscopes and for measurements in the area of microfluidics.
-keywords: [lockin amplifiers, Zurich Instruments, Qcodes Community]
+keywords: [lockin amplifiers, Zurich Instruments, QCodes Community]
 slug: /instruments-wiki/lockin-amplifiers/zurich-instruments/hf2li
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201107/Instruments/Lockin%20Amplifiers/HF2LI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequen
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201107/Instruments/Lockin%20Amplifiers/HF2LI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a HF2LI Lockin Amplifier using Qcodes Community, you can use the following Python script:
 

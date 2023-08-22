@@ -1,10 +1,10 @@
 ---
-title: Connecting to R&S RTO1000 by Rohde Schwarz in Python
+title: Connecting to R&S RTO1000 by Rohdes&Schwarz in Python
 sidebar_label: R&S RTO1000
 description: With an acquisition memory of 400 Mpts per channel simultaneously for all four channels, the oscilloscope offers up to 100 times the memory depth of comparable devices as standard.The R&S MXO 4 oscilloscopes offer the world's highest update rate of 4.5 million waveforms per second.
-keywords: [oscilloscopes, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/oscilloscopes/rohde-schwarz/r&s-rto1000
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200774/Instruments/Oscilloscopes/RS-RTO1000/file.png
+keywords: [oscilloscopes, Rohdes&Schwarz, QCodes]
+slug: /instruments-wiki/oscilloscopes/rohdes-schwarz/rs-rto1000
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,14 +24,14 @@ The R&S MXO 4 oscilloscopes offer the world's highest update rate of 4.5 million
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200774/Instruments/Oscilloscopes/RS-RTO1000/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -45,7 +45,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a R&S RTO1000 Oscilloscope:
 

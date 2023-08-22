@@ -1,10 +1,10 @@
 ---
-title: Connecting to SMW 200 A by Rohdeschwarz in Python
+title: Connecting to SMW 200 A by Rohdes&Schwarz in Python
 sidebar_label: SMW 200 A
 description: The R&S®SMW200A offers integrated channel emulation for up to 800 MHz of fading bandwidth. Fading profiles for all major standards are available as presets. With up to 64 fading channels, all key MIMO fading scenarios such as 2x2, 3x3, 4x4, 8x4, 4x8 and 8x8 can be configured in a single instrument.
-keywords: [rf signal generators, Rohdeschwarz, Qcodes Community]
-slug: /instruments-wiki/rf-signal-generators/rohdeschwarz/smw-200-a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310292/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png
+keywords: [rf signal generators, Rohdes&Schwarz, QCodes Community]
+slug: /instruments-wiki/rf-signal-generators/rohdes-schwarz/smw-200-a
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The R&S®SMW200A offers integrated channel emulation for up to 800 MHz of fading
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310292/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to the SMW 200 A RF Signal Generator using Qcodes, you can use the following code:
 

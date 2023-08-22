@@ -4,7 +4,7 @@ sidebar_label: Newmark-NSC-A1
 description: The NSC-A1 Series motion controller is a powerful single axis stepper motor control system which combines a microstepping driver with a programmable controller into a compact envelope
 keywords: [motor controllers, Newmark, Instrumental]
 slug: /instruments-wiki/motor-controllers/newmark/newmark-nsc-a1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310194/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639360/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310194/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639360/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

@@ -2,9 +2,9 @@
 title: Connecting to IDUS 401 CCD by Andor in Python
 sidebar_label: IDUS 401 CCD
 description: The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideally suited to rapid analysis, multi-channel and low-light applications including fluorescence and Raman spectroscopy.
-keywords: [spectrometers, Andor, Qcodes Community]
+keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-wiki/spectrometers/andor/idus-401-ccd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107048/Instruments/Spectrometers/IDUS-401-CCD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideal
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107048/Instruments/Spectrometers/IDUS-401-CCD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 Here is a Python script that uses Qcodes Community to connect to an Andor IDUS 401 CCD Spectrometer:
 

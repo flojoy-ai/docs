@@ -2,9 +2,9 @@
 title: Connecting to TDS510A by Tektronix in Python
 sidebar_label: TDS510A
 description: The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile oscilloscope which meets the measurement requirements for general-purpose research and design. Its industry-preferred graphical user interface makes it easy to learn and efficient to use. The TDS510A advanced trigger capability allows the user to trigger and view signals in a wide variety of simple as well as complex design and analysis settings. With four channels, 50 K points per channel record length, and powerful waveform acquisition modes, the TDS510A can satisfy most complex design, debug, and analysis requirements.
-keywords: [oscilloscopes, Tektronix, Instrumentkit]
+keywords: [oscilloscopes, Tektronix, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/tektronix/tds510a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200970/Instruments/Oscilloscopes/TDS510A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The TDS510A Digital Oscilloscope is a full-featured, cost-effective, versatile o
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200970/Instruments/Oscilloscopes/TDS510A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Tektronix, Inc., historically widely known as Tek, is an American company best 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 ```python
 from instrumentkit import tektronix

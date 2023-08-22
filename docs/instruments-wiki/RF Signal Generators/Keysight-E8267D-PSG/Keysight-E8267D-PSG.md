@@ -2,9 +2,9 @@
 title: Connecting to Keysight E8267D PSG by Keysight in Python
 sidebar_label: Keysight E8267D PSG
 description: The E8267D PSG Vector Signal Generator is the highest performance, fully-integrated microwave vector signal generator from 100 kHz to 44 GHz, allowing you to create realistic wideband radar, electronic warfare (EW), and satellite communications (SATCOM) waveforms.
-keywords: [rf signal generators, Keysight, Qcodes Community]
+keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-e8267d-psg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310104/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The E8267D PSG Vector Signal Generator is the highest performance, fully-integra
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310104/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight E8267D PSG RF Signal Generator using Qcodes Community, you can use the following Python script:
 

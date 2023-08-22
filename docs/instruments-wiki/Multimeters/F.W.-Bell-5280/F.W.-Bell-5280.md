@@ -2,9 +2,9 @@
 title: Connecting to F.W. Bell 5280 by F.W. Bell in Python
 sidebar_label: F.W. Bell 5280
 description: Handheld single-axis digital magnetometer gauss / tesla meter for measuring magnets, magnetism of steel, and other manufacturing and scientific applications.
-keywords: [multimeters, F.W. Bell, Pymeasure]
+keywords: [multimeters, F.W. Bell, PyMeasure]
 slug: /instruments-wiki/multimeters/fw-bell/fw-bell-5280
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201239/Instruments/Multimeters/F.W.-Bell-5280/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Handheld single-axis digital magnetometer gauss / tesla meter for measuring magn
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201239/Instruments/Multimeters/F.W.-Bell-5280/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Technology leaders in instrumentation. Designing and manufacturing **F.W. Bell*
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

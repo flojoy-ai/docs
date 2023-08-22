@@ -2,9 +2,9 @@
 title: Connecting to PT 104 Picoch by Pico Technology in Python
 sidebar_label: PT 104 Picoch
 description: The PT-104 is a four-channel temperature measuring data logger. It offers the ultimate in resolution (0.001 °C) and accuracy (0.015 °C). Along with temperature it can also be used to measure resistance.
-keywords: [thermometers, Pico Technology, Pytango]
+keywords: [thermometers, Pico Technology, PyTango]
 slug: /instruments-wiki/thermometers/pico-technology/pt-104-picoch
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310224/Instruments/Thermometers/PT-104-Picoch/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395499/Instruments/Thermometers/PT-104-Picoch/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The PT-104 is a four-channel temperature measuring data logger. It offers the ul
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310224/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395499/Instruments/Thermometers/PT-104-Picoch/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ Pico has always been recognized for providing innovative, cost-effective alterna
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pytango" label="Pytango">
+<TabItem value="PyTango" label="PyTango">
 
 ```python
 import pytango as pt

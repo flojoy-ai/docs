@@ -2,9 +2,9 @@
 title: Connecting to Keysight 3478A by HP in Python
 sidebar_label: Keysight 3478A
 description: The HP 3478A 5.5 digit DMM with HP-IB interface
-keywords: [multimeters, HP, Pymeasure]
+keywords: [multimeters, HP, PyMeasure]
 slug: /instruments-wiki/multimeters/hp/keysight-3478a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200920/Instruments/Multimeters/Keysight-3478A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The HP 3478A 5.5 digit DMM with HP-IB interface
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200920/Instruments/Multimeters/Keysight-3478A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keysight 3478A Multimeter:
 

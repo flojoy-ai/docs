@@ -1,10 +1,10 @@
 ---
 title: Connecting to Keysight B1500A by Keysight in Python
 sidebar_label: Keysight B1500A
-description: It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
-keywords: [spectrum analyzers, Keysight, Pymeasure, Qcodes]
+description: The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
+keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327991/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -18,18 +18,18 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
+The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327991/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -43,7 +43,29 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="QCodes" label="QCodes">
+
+To connect to a Keysight B1500A Spectrum Analyzer using Qcodes, you can use the following code:
+
+```python
+from qcodes.instrument_drivers.Keysight.KeysightB1500 import KeysightB1500
+
+# Create an instance of the KeysightB1500 instrument
+b1500 = KeysightB1500('b1500', 'TCPIP0::192.168.1.1::inst0::INSTR')
+
+# Connect to the instrument
+b1500.connect()
+
+# Perform operations with the instrument
+
+# Disconnect from the instrument
+b1500.disconnect()
+```
+
+This code creates an instance of the `KeysightB1500` instrument with the name 'b1500' and the specified address ('TCPIP0::192.168.1.1::inst0::INSTR'). Then, it connects to the instrument using the `connect()` method. You can perform various operations with the instrument after connecting. Finally, it disconnects from the instrument using the `disconnect()` method.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is an example Python script that uses Pymeasure to connect to a Keysight B1500A Spectrum Analyzer:
 
@@ -88,28 +110,6 @@ instrument.disconnect()
 ```
 
 This script connects to the instrument using the GPIB interface and sets up the measurement mode, center frequency, span, resolution bandwidth, video bandwidth, and reference level. It then starts the measurement, waits for it to complete, and reads the measurement data. Finally, it prints the measurement data and disconnects from the instrument.
-
-</TabItem>
-<TabItem value="Qcodes" label="Qcodes">
-
-To connect to a Keysight B1500A Spectrum Analyzer using Qcodes, you can use the following code:
-
-```python
-from qcodes.instrument_drivers.Keysight.KeysightB1500 import KeysightB1500
-
-# Create an instance of the KeysightB1500 instrument
-b1500 = KeysightB1500('b1500', 'TCPIP0::192.168.1.1::inst0::INSTR')
-
-# Connect to the instrument
-b1500.connect()
-
-# Perform operations with the instrument
-
-# Disconnect from the instrument
-b1500.disconnect()
-```
-
-This code creates an instance of the `KeysightB1500` instrument with the name 'b1500' and the specified address ('TCPIP0::192.168.1.1::inst0::INSTR'). Then, it connects to the instrument using the `connect()` method. You can perform various operations with the instrument after connecting. Finally, it disconnects from the instrument using the `disconnect()` method.
 
 </TabItem>
 </Tabs>

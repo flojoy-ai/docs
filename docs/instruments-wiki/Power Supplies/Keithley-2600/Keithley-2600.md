@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2600 by Keithley in Python
 sidebar_label: Keithley 2600
 description: Series 2600A System SourceMeter instruments are Keithley’s latest I-V source measurement unit(SMU) instruments for use as either bench-top I-V characterization tools or as building block components of multi-channel I-V test systems. For bench-top use, Series 2600A instruments feature anembedded TSP Express Software Tool that allows users to quickly and easily perform common I-Vtests without programming or installing software. For system level applications, the Series 2600A’sTest Script Processor (TSP) architecture, along with other new capabilities such as parallel test execution and precision timing, provides the highest throughput in the industry, lowering the cost of test.To simplify the testing, verification, and analysis of semiconductor components, the optional ACSBasic Edition software is also available.
-keywords: [power supplies, Keithley, Pymeasure, Qcodes]
+keywords: [power supplies, Keithley, QCodes, PyMeasure]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2600
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327893/Instruments/Power%20Supplies/Keithley-2600/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728510/Instruments/Power%20Supplies/Keithley-2600/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -28,7 +28,7 @@ Basic Edition software is also available.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692327893/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728510/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -49,45 +49,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
-
-Here is a Python script that uses Pymeasure to connect to a Keithley 2600 Power Supply:
-
-```python
-from pymeasure.adapters import VISAAdapter
-from pymeasure.instruments.keithley import Keithley2600
-
-# Create a VISA adapter for communication
-adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
-
-# Connect to the Keithley 2600 Power Supply
-keithley = Keithley2600(adapter)
-
-# Set the source mode to voltage and apply a voltage of 5V
-keithley.ChA.source_mode = 'voltage'
-keithley.ChA.source_voltage = 5.0
-
-# Enable the output
-keithley.ChA.source_output = 'ON'
-
-# Measure the voltage and current
-voltage = keithley.ChA.voltage
-current = keithley.ChA.current
-
-# Print the measured values
-print("Voltage: %.3f V" % voltage)
-print("Current: %.3f A" % current)
-
-# Disable the output and close the connection
-keithley.ChA.source_output = 'OFF'
-# Disconnect from the Keithley 2600 Power Supply
-keithley.disconnect()
-```
-
-This script connects to a Keithley 2600 Power Supply using a VISA adapter. It sets the source mode to voltage and applies a voltage of 5V to channel A. Then, it enables the output and measures the voltage and current. Finally, it disables the output and closes the connection.
-
-</TabItem>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 
 ```python
@@ -128,6 +90,44 @@ Note: Replace `'TCPIP::192.168.1.1::INSTR'` with the actual IP address or VISA r
 This script connects to the Keithley 2600 Power Supply, sets the voltage and current limits, enables the output, sets the voltage and current levels, measures the voltage and current, disables the output, and then closes the connection.
 
 Make sure you have Qcodes and the necessary dependencies installed before running this script.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
+
+Here is a Python script that uses Pymeasure to connect to a Keithley 2600 Power Supply:
+
+```python
+from pymeasure.adapters import VISAAdapter
+from pymeasure.instruments.keithley import Keithley2600
+
+# Create a VISA adapter for communication
+adapter = VISAAdapter("TCPIP::192.168.1.1::INSTR")
+
+# Connect to the Keithley 2600 Power Supply
+keithley = Keithley2600(adapter)
+
+# Set the source mode to voltage and apply a voltage of 5V
+keithley.ChA.source_mode = 'voltage'
+keithley.ChA.source_voltage = 5.0
+
+# Enable the output
+keithley.ChA.source_output = 'ON'
+
+# Measure the voltage and current
+voltage = keithley.ChA.voltage
+current = keithley.ChA.current
+
+# Print the measured values
+print("Voltage: %.3f V" % voltage)
+print("Current: %.3f A" % current)
+
+# Disable the output and close the connection
+keithley.ChA.source_output = 'OFF'
+# Disconnect from the Keithley 2600 Power Supply
+keithley.disconnect()
+```
+
+This script connects to a Keithley 2600 Power Supply using a VISA adapter. It sets the source mode to voltage and applies a voltage of 5V to channel A. Then, it enables the output and measures the voltage and current. Finally, it disables the output and closes the connection.
 
 </TabItem>
 </Tabs>

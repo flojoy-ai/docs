@@ -2,9 +2,9 @@
 title: Connecting to Rigol DP8xx-Series by Rigol in Python
 sidebar_label: Rigol DP8xx-Series
 description: The DP800 Series Power Supplies combine the ability to source, analyze, and coordinate over time on a powerful platform. The DP800 Series is a family of linear power supplies systems with 1, 2, or 3 outputs and 140 to 200 Watts in total. With one channel isolated users can reconfigure instruments into any number of systems or applications. Built in V, A, and W measurements make power monitoring easy, but additional wave tracking, timing, and analysis features in the advanced "A" models means there are even more ways to use the instruments. Digital triggering between instruments also makes it possible to reliably combine and connect supplies together. Intuitive to use for everything from education labs to the R & D bench, the DP800 family of power supplies provide incredible value for any application. Select the value models for best price performance or upgrade to the "A" model to improve resolution and add advanced monitoring, triggering, and programming capabilities.
-keywords: [power supplies, Rigol, Qcodes]
+keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-wiki/power-supplies/rigol/rigol-dp8xx-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201342/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395620/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The DP800 Series Power Supplies combine the ability to source, analyze, and coor
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201342/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395620/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -44,7 +44,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here's an example Python script that uses Qcodes to connect to a Rigol DP8xx-Series Power Supply:
 

@@ -2,9 +2,9 @@
 title: Connecting to Keysight N5171B EXG by Keysight in Python
 sidebar_label: Keysight N5171B EXG
 description: N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6 GHz frequency coverage, optimized for manufacturing with faster throughput and greater uptime at the right price.
-keywords: [rf signal generators, Keysight, Qcodes]
+keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-n5171b-exg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310114/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310114/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 from qcodes import Station, Instrument

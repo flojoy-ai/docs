@@ -2,9 +2,9 @@
 title: Connecting to D5a by Qutech in Python
 sidebar_label: D5a
 description: The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially created for setting gate-voltages on samples. In contrast to most commercial units, there are no processor or clock circuits present in this module. This to prevent interference. The only time any digital signals are present is when the DAC values are being changed. Afterwards the module goes back to being static. The DAC values are set via the controller module. As this module is generally used for gate voltage control, the use of an isolated controller module (C1b/C2 combination) is recommended.
-keywords: [power supplies, Qutech, Qcodes Community]
+keywords: [power supplies, Qutech, QCodes Community]
 slug: /instruments-wiki/power-supplies/qutech/d5a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106745/Instruments/Power%20Supplies/D5a/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395712/Instruments/Power%20Supplies/D5a/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The D5a module contains 16 18-bit DACs (Digital to Analog Converters), initially
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106745/Instruments/Power%20Supplies/D5a/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395712/Instruments/Power%20Supplies/D5a/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a D5a Power Supply using Qcodes Community, you can use the following Python script:
 

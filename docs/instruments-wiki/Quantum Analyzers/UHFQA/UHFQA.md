@@ -2,9 +2,9 @@
 title: Connecting to UHFQA by Zurich Instruments in Python
 sidebar_label: UHFQA
 description: The Zurich Instruments UHFQA Quantum Analyzer is a unique instrument for parallel readout of up to 10 superconducting or spin qubits with highest speed and fidelity. The UHFQA operates on a frequency span of up to ±600 MHz with nanosecond timing resolution, and it features 2 signal inputs and outputs for IQ base-band operation. Thanks to its low-latency signal processing chain of matched filters, real-time matrix operations, and state discrimination, the UHFQA supports the development of ambitious quantum computing projects for 100 qubits and more.
-keywords: [quantum analyzers, Zurich Instruments, Qcodes]
+keywords: [quantum analyzers, Zurich Instruments, QCodes]
 slug: /instruments-wiki/quantum-analyzers/zurich-instruments/uhfqa
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310395/Instruments/Quantum%20Analyzers/UHFQA/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments UHFQA Quantum Analyzer is a unique instrument for paralle
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310395/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a UHFQA Quantum Analyzer:
 

@@ -2,9 +2,9 @@
 title: Connecting to ANC 350 PIEZO Controller by Attocube in Python
 sidebar_label: ANC 350 PIEZO Controller
 description: multi-functional piezo controller for closed loop positioners
-keywords: [motor controllers, Attocube, Qcodes Community]
+keywords: [motor controllers, Attocube, QCodes Community]
 slug: /instruments-wiki/motor-controllers/attocube/anc-350-piezo-controller
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309867/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638997/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ multi-functional piezo controller for closed loop positioners
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309867/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638997/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ multi-functional piezo controller for closed loop positioners
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 Here is an example Python script that uses Qcodes Community to connect to an ANC350 PIEZO Controller Positional Controller:
 

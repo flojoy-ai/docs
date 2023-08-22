@@ -2,9 +2,9 @@
 title: Connecting to Keysight 34450A by Agilent in Python
 sidebar_label: Keysight 34450A
 description: Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
-keywords: [multimeters, Agilent, Pymeasure]
+keywords: [multimeters, Agilent, PyMeasure]
 slug: /instruments-wiki/multimeters/agilent/keysight-34450a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106786/Instruments/Multimeters/Keysight-34450A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106786/Instruments/Multimeters/Keysight-34450A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

@@ -2,9 +2,9 @@
 title: Connecting to Keysight N7776C by Keysight in Python
 sidebar_label: Keysight N7776C
 description: The new Keysight N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
-keywords: [lasers, Keysight, Pymeasure]
+keywords: [lasers, Keysight, PyMeasure]
 slug: /instruments-wiki/lasers/keysight/keysight-n7776c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106799/Instruments/Lasers/Keysight-N7776C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The new Keysight N7776C top line tunable laser source is designed to reach best-
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106799/Instruments/Lasers/Keysight-N7776C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keysight N7776C Laser:
 

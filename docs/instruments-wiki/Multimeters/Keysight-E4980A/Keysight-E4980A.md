@@ -2,9 +2,9 @@
 title: Connecting to Keysight E4980A by Keysight in Python
 sidebar_label: Keysight E4980A
 description: The E4980A precision LCR meter provides the best combination of accuracy, speed, and versatility for a wide range of component measurements.
-keywords: [multimeters, Keysight, Pymeasure, Qcodes]
+keywords: [multimeters, Keysight, QCodes, PyMeasure]
 slug: /instruments-wiki/multimeters/keysight/keysight-e4980a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106813/Instruments/Multimeters/Keysight-E4980A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The E4980A precision LCR meter provides the best combination of accuracy, speed,
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106813/Instruments/Multimeters/Keysight-E4980A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
 
@@ -43,7 +43,33 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="QCodes" label="QCodes">
+
+Here is a Python script that uses Qcodes to connect to a Keysight E4980A Multimeter:
+
+```python
+from qcodes.instrument_drivers.Keysight.Keysight_E4980A import KeysightE4980A
+
+# Create an instance of the instrument
+meter = KeysightE4980A("meter", "TCPIP0::192.168.1.1::INSTR")
+
+# Connect to the instrument
+meter.connect()
+
+# Perform measurements
+impedance = meter.measure_impedance.get()
+print("Impedance:", impedance)
+
+# Disconnect from the instrument
+meter.disconnect()
+```
+
+In this script, we import the `KeysightE4980A` class from the `qcodes.instrument_drivers.Keysight.Keysight_E4980A` module. We then create an instance of the instrument by providing a name and the instrument's address (in this case, a TCP/IP address). We connect to the instrument using the `connect()` method.
+
+We can then perform measurements using the instrument's parameters and methods. In this example, we use the `measure_impedance` parameter to get the impedance measurement. Finally, we disconnect from the instrument using the `disconnect()` method.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python
@@ -148,32 +174,6 @@ meter.disconnect()
 ```
 
 Please note that you need to replace `"TCPIP::192.168.1.1::INSTR"` with the actual IP address of your instrument.
-
-</TabItem>
-<TabItem value="Qcodes" label="Qcodes">
-
-Here is a Python script that uses Qcodes to connect to a Keysight E4980A Multimeter:
-
-```python
-from qcodes.instrument_drivers.Keysight.Keysight_E4980A import KeysightE4980A
-
-# Create an instance of the instrument
-meter = KeysightE4980A("meter", "TCPIP0::192.168.1.1::INSTR")
-
-# Connect to the instrument
-meter.connect()
-
-# Perform measurements
-impedance = meter.measure_impedance.get()
-print("Impedance:", impedance)
-
-# Disconnect from the instrument
-meter.disconnect()
-```
-
-In this script, we import the `KeysightE4980A` class from the `qcodes.instrument_drivers.Keysight.Keysight_E4980A` module. We then create an instance of the instrument by providing a name and the instrument's address (in this case, a TCP/IP address). We connect to the instrument using the `connect()` method.
-
-We can then perform measurements using the instrument's parameters and methods. In this example, we use the `measure_impedance` parameter to get the impedance measurement. Finally, we disconnect from the instrument using the `disconnect()` method.
 
 </TabItem>
 </Tabs>

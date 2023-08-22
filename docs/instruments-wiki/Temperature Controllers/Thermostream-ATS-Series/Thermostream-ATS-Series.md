@@ -2,9 +2,9 @@
 title: Connecting to Thermostream ATS Series by Temptronic in Python
 sidebar_label: Thermostream ATS Series
 description: Temptronic ThermoStreams are portable systems that deliver clean dry air for precision temperature testing or conditioning of electronics (ICs, MEMS, transceivers, or circuits) and materials. No other systems can bring your test subjects to temperature faster with precise control
-keywords: [temperature controllers, Temptronic, Pymeasure]
+keywords: [temperature controllers, Temptronic, PyMeasure]
 slug: /instruments-wiki/temperature-controllers/temptronic/thermostream-ats-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200765/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200765/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is an example Python script that uses Pymeasure to connect to a Thermostream ATS Series Temperature Controller:
 

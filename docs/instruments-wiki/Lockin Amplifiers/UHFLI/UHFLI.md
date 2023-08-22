@@ -2,9 +2,9 @@
 title: Connecting to UHFLI by Zurich Instruments in Python
 sidebar_label: UHFLI
 description: The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the frequency range from DC to 600 MHz. It offers a time constant of 30 ns for demodulation – resulting in a demodulation bandwidth that exceeds 5 MHz.
-keywords: [lockin amplifiers, Zurich Instruments, Qcodes]
+keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-wiki/lockin-amplifiers/zurich-instruments/uhfli
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201068/Instruments/Lockin%20Amplifiers/UHFLI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the freq
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201068/Instruments/Lockin%20Amplifiers/UHFLI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a UHFLI Lockin Amplifier:
 

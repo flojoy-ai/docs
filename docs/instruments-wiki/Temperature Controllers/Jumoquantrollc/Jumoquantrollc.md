@@ -2,9 +2,9 @@
 title: Connecting to Jumoquantrollc by Jumo in Python
 sidebar_label: Jumoquantrollc
 description: Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
-keywords: [temperature controllers, Jumo, Pytango]
+keywords: [temperature controllers, Jumo, PyTango]
 slug: /instruments-wiki/temperature-controllers/jumo/jumoquantrollc
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201358/Instruments/Temperature%20Controllers/Jumoquantrollc/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201358/Instruments/Temperature%20Controllers/Jumoquantrollc/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pytango" label="Pytango">
+<TabItem value="PyTango" label="PyTango">
 
 
 ```python

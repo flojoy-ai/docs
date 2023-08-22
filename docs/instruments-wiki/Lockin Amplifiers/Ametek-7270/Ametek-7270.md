@@ -2,9 +2,9 @@
 title: Connecting to Ametek 7270 by Ametek in Python
 sidebar_label: Ametek 7270
 description: The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
-keywords: [lockin amplifiers, Ametek, Pymeasure]
+keywords: [lockin amplifiers, Ametek, PyMeasure]
 slug: /instruments-wiki/lockin-amplifiers/ametek/ametek-7270
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201032/Instruments/Lockin%20Amplifiers/Ametek-7270/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201032/Instruments/Lockin%20Amplifiers/Ametek-7270/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Since 1930, our talented and diverse workforce has been delivering **differenti
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

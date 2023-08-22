@@ -2,9 +2,9 @@
 title: Connecting to Keysight DSOX1102G by Keysight in Python
 sidebar_label: Keysight DSOX1102G
 description: The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channels, and waveform generator
-keywords: [oscilloscopes, Keysight, Pymeasure]
+keywords: [oscilloscopes, Keysight, PyMeasure]
 slug: /instruments-wiki/oscilloscopes/keysight/keysight-dsox1102g
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200849/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channel
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200849/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore Model 325 by Lakeshore in Python
 sidebar_label: Lakeshore Model 325
 description: The Model 325 dual-channel cryogenic temperature controller is capable of supporting nearly any diode, RTD, or thermocouple temperature sensor. Two independent PID control loops with heater outputs of 25 W and 2 W are configured to drive either a 50 Ω or 25 Ω load for optimal cryocooler control flexibility. Designed with ease of use, functionality, and value in mind, the Model 325 is ideal for general-purpose laboratory and industrial temperature measurement and control applications.
-keywords: [temperature controllers, Lakeshore, Qcodes]
+keywords: [temperature controllers, Lakeshore, QCodes]
 slug: /instruments-wiki/temperature-controllers/lakeshore/lakeshore-model-325
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107081/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 325 dual-channel cryogenic temperature controller is capable of suppor
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692107081/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Lakeshore Model 325 Temperature Controller:
 

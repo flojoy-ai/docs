@@ -2,9 +2,9 @@
 title: Connecting to SHFQA by Zurich Instruments in Python
 sidebar_label: SHFQA
 description: The Zurich Instruments SHFQA Quantum Analyzer integrates in a single instrument a full real-time readout setup for up to 64 superconducting and spin qubits. The SHFQA operates in a frequency range from 0.5 to 8.5 GHz with a clean analysis bandwidth of 1 GHz and without the need for mixer calibration. Each of its 2 or 4 readout channels can analyze up to 16 qubits, 8 qutrits or 5 ququads
-keywords: [quantum analyzers, Zurich Instruments, Qcodes]
+keywords: [quantum analyzers, Zurich Instruments, QCodes]
 slug: /instruments-wiki/quantum-analyzers/zurich-instruments/shfqa
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310281/Instruments/Quantum%20Analyzers/SHFQA/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Zurich Instruments SHFQA Quantum Analyzer integrates in a single instrument 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310281/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a SHFQA Quantum Analyzer:
 

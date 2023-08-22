@@ -1,10 +1,10 @@
 ---
-title: Connecting to QDAC by Qdev in Python
+title: Connecting to QDAC by Qdevil in Python
 sidebar_label: QDAC
-description: QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled DAC with 24 voltage channel generators operating at a sample rate of 1MS/s. It is designed for DC and intermediate-frequency control of quantum devices, including, for example, gate electrodes and flux bias coils in qubits. It is also a very versatile instrument that can be used for many other purposes.
-keywords: [digital analog converters, Qdev, Qcodes]
-slug: /instruments-wiki/digital-analog-converters/qdev/qdac
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310230/Instruments/Digital-Analog%20Converters/QDAC/file.png
+description: The original and popular QDAC from QDevil is a high-precision low-noise computer-controlled voltage generator designed for DC and low-frequency control of high impedance devices, such as gates in quantum electronics and quantum computer qubits. It also comes in a “high-current” version which can source up to 10 mA, for example for flux biasing of superconducting qubits. In addition to precise and stable voltage output, the QDAC can measure output currents, for example, to detect leaking gates or shorted bonding wires. The QDAC originates from the laboratories of the Center for Quantum Devices at the University of Copenhagen, where it is used for quantum computing research. The QDAC has 24 channels and offers a cost-effective way of getting many high-quality D/A converter channels.
+keywords: [digital analog converters, Qdevil, QCodes]
+slug: /instruments-wiki/digital-analog-converters/qdevil/qdac
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -18,11 +18,11 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-QDAC is a high-precision, 25-bit resolution, ultra-low-noise computer-controlled DAC with 24 voltage channel generators operating at a sample rate of 1MS/s. It is designed for DC and intermediate-frequency control of quantum devices, including, for example, gate electrodes and flux bias coils in qubits. It is also a very versatile instrument that can be used for many other purposes.
+The original and popular QDAC from QDevil is a high-precision low-noise computer-controlled voltage generator designed for DC and low-frequency control of high impedance devices, such as gates in quantum electronics and quantum computer qubits. It also comes in a “high-current” version which can source up to 10 mA, for example for flux biasing of superconducting qubits. In addition to precise and stable voltage output, the QDAC can measure output currents, for example, to detect leaking gates or shorted bonding wires. The QDAC originates from the laboratories of the Center for Quantum Devices at the University of Copenhagen, where it is used for quantum computing research. The QDAC has 24 channels and offers a cost-effective way of getting many high-quality D/A converter channels.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310230/Instruments/Digital-Analog%20Converters/QDAC/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Founded in 2016, QDevil is an international quantum technology company focused o
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a QDAC Power Supply:
 

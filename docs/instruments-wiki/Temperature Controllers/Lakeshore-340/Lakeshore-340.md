@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore 340 by Lakeshore in Python
 sidebar_label: Lakeshore 340
 description: The Model 340 cryogenic temperature controller is our most advanced temperature controller and offers unsurpassed resolution, accuracy, and stability for temperature measurement and control applications to as low as 100 mK. Operating with diodes, platinum RTDs, and negative temperature coefficient (NTC) resistor sensors, the Model 340 is expandable to ten sensor inputs or to operate with thermocouple or capacitance sensors. It has two control loops, with the first loop powered to 100 W.
-keywords: [temperature controllers, Lakeshore, Instrumentkit]
+keywords: [temperature controllers, Lakeshore, InstrumentKit]
 slug: /instruments-wiki/temperature-controllers/lakeshore/lakeshore-340
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106962/Instruments/Temperature%20Controllers/Lakeshore-340/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Model 340 cryogenic temperature controller is our most advanced temperature 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106962/Instruments/Temperature%20Controllers/Lakeshore-340/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Lakeshore 340 Temperature Controller using Instrumentkit, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to Triton by Oxford Instruments in Python
 sidebar_label: Triton
 description: The Triton family of cryogen free dilution refrigerators has ledthe way in ultra-low temperature experiment-readiness with itsleading-edge superconducting magnet integration, sample loadingmechanisms and sample wiring options.With over 300 systems installed worldwide, Triton is used in worldleading science across quantum technology, spintronics, optics andmany other cutting-edge applications of condensed matter physics.
-keywords: [dilution refrigerators, Oxford Instruments, Qcodes]
+keywords: [dilution refrigerators, Oxford Instruments, QCodes]
 slug: /instruments-wiki/dilution-refrigerators/oxford-instruments/triton
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310392/Instruments/Dilution%20Refrigerators/Triton/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -27,7 +27,7 @@ many other cutting-edge applications of condensed matter physics.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310392/Instruments/Dilution%20Refrigerators/Triton/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -48,7 +48,7 @@ Oxford Instruments plc is a United Kingdom manufacturing and research company th
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 
 ```python

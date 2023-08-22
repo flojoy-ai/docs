@@ -2,9 +2,9 @@
 title: Connecting to Keithley 2400 by Keithley in Python
 sidebar_label: Keithley 2400
 description: Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer four-quadrant precision voltage and current source/load coupled with measurement. Each SMU instrument is both a highly stable DC power source and a true instrument-grade 6½-digit multimeter. The power source characteristics include low noise, precision, and readback. The multimeter capabilities include high repeatability and low noise.
-keywords: [power supplies, Keithley, Pymeasure, Qcodes]
+keywords: [power supplies, Keithley, QCodes, PyMeasure]
 slug: /instruments-wiki/power-supplies/keithley/keithley-2400
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200863/Instruments/Power%20Supplies/Keithley-2400/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395429/Instruments/Power%20Supplies/Keithley-2400/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instruments offer fo
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200863/Instruments/Power%20Supplies/Keithley-2400/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395429/Instruments/Power%20Supplies/Keithley-2400/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,39 +43,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
-
-
-```python
-from pymeasure.instruments.keithley import Keithley2400
-
-# Connect to the Keithley 2400
-keithley = Keithley2400("GPIB::1")
-
-# Configure the measurement settings
-keithley.measure_voltage()
-keithley.voltage_range = 10
-keithley.voltage_nplc = 1
-
-# Enable the source and set the voltage
-keithley.enable_source()
-keithley.source_voltage = 5
-
-# Perform a measurement
-voltage = keithley.voltage
-print("Measured voltage:", voltage)
-
-# Disable the source and disconnect from the instrument
-keithley.disable_source()
-keithley.disconnect()
-```
-
-This script connects to a Keithley 2400 Power Supply using the GPIB interface (replace "GPIB::1" with the appropriate address for your setup). It configures the instrument to measure voltage, sets the voltage range and integration time, enables the source, sets the desired voltage, performs a measurement, and then disables the source and disconnects from the instrument.
-
-Note: Make sure you have the `pymeasure` package installed before running this script.
-
-</TabItem>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keithley 2400 Power Supply using Qcodes, you can use the following Python script:
 
@@ -128,6 +96,38 @@ keithley.disconnect()
 ```
 
 This script creates an instance of the `Keithley2400` instrument and connects to it using the specified address. It then uses the instrument's parameters and methods to control the power supply, set voltage and current ranges, set compliance values, set the output mode and sense mode, enable/disable the output, and read voltage, current, and resistance values. Finally, it disconnects from the instrument.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
+
+
+```python
+from pymeasure.instruments.keithley import Keithley2400
+
+# Connect to the Keithley 2400
+keithley = Keithley2400("GPIB::1")
+
+# Configure the measurement settings
+keithley.measure_voltage()
+keithley.voltage_range = 10
+keithley.voltage_nplc = 1
+
+# Enable the source and set the voltage
+keithley.enable_source()
+keithley.source_voltage = 5
+
+# Perform a measurement
+voltage = keithley.voltage
+print("Measured voltage:", voltage)
+
+# Disable the source and disconnect from the instrument
+keithley.disable_source()
+keithley.disconnect()
+```
+
+This script connects to a Keithley 2400 Power Supply using the GPIB interface (replace "GPIB::1" with the appropriate address for your setup). It configures the instrument to measure voltage, sets the voltage range and integration time, enables the source, sets the desired voltage, performs a measurement, and then disables the source and disconnects from the instrument.
+
+Note: Make sure you have the `pymeasure` package installed before running this script.
 
 </TabItem>
 </Tabs>

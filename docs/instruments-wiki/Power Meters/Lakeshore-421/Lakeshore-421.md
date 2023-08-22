@@ -2,9 +2,9 @@
 title: Connecting to Lakeshore 421 by Lakeshore in Python
 sidebar_label: Lakeshore 421
 description: Flexible probe configurations to suit your application.Several sensor types available with different performance characteristics.Most suited for field levels from earth field to very large electromagnets.Application-specific probe customization available.
-keywords: [power meters, Lakeshore, Pymeasure]
+keywords: [power meters, Lakeshore, PyMeasure]
 slug: /instruments-wiki/power-meters/lakeshore/lakeshore-421
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106749/Instruments/Power%20Meters/Lakeshore-421/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -25,7 +25,7 @@ Application-specific probe customization available.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106749/Instruments/Power%20Meters/Lakeshore-421/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -46,7 +46,7 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Lakeshore 421 Power Meter:
 

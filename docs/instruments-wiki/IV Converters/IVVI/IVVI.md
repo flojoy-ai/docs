@@ -2,9 +2,9 @@
 title: Connecting to IVVI by Qutech in Python
 sidebar_label: IVVI
 description: An ohmmeter is an electrical instrument that measures electrical resistance (the opposition offered by a circuit or component to the flow of electric current). Multimeters also function as ohmmeters when in resistance-measuring mode. An ohmmeter applies current to the circuit or component whose resistance is to be measured. It then measures the resulting voltage and calculates the resistance using Ohm’s law	https->//en.wikipedia.org/wiki/Ohmmeter
-keywords: [iv converters, Qutech, Qcodes Community]
+keywords: [iv converters, Qutech, QCodes Community]
 slug: /instruments-wiki/iv-converters/qutech/ivvi
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692309983/Instruments/IV%20Converters/IVVI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395733/Instruments/IV%20Converters/IVVI/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692309983/Instruments/IV%20Converters/IVVI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395733/Instruments/IV%20Converters/IVVI/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 
 ```python

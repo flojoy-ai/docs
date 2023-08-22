@@ -1,10 +1,10 @@
 ---
-title: Connecting to Series by Rohde Schwarz in Python
+title: Connecting to Series by Rohdes&Schwarz in Python
 sidebar_label: Series
 description: Currently no description
-keywords: [network analyzers, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/network-analyzers/rohde-schwarz/series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328289/Instruments/Network%20Analyzers/Series/file.png
+keywords: [network analyzers, Rohdes&Schwarz, QCodes]
+slug: /instruments-wiki/network-analyzers/rohdes-schwarz/series
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728443/Instruments/Network%20Analyzers/Series/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328289/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728443/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 import qcodes as qc

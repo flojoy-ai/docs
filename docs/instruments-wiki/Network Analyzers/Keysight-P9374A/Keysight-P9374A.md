@@ -2,9 +2,9 @@
 title: Connecting to Keysight P9374A by Keysight in Python
 sidebar_label: Keysight P9374A
 description: P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
-keywords: [network analyzers, Keysight, Qcodes]
+keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-wiki/network-analyzers/keysight/keysight-p9374a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310129/Instruments/Network%20Analyzers/Keysight-P9374A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceles
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310129/Instruments/Network%20Analyzers/Keysight-P9374A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 import qcodes as qc

@@ -2,9 +2,9 @@
 title: Connecting to PM100USB by Thorlabs in Python
 sidebar_label: PM100USB
 description: The PM100USB Power and Energy Meter Interface is compatible with all our C-Series photodiode, thermal, and pyroelectric sensors except for the ES408C Fast Pyroelectric Sensor. Our C-Type standard photodiode, slim photodiode, integrating sphere, and fiber sensors can collectively measure optical powers from 100 pW to 20 W. Our thermal power sensors measure optical powers from 10 µW to 200 W. Compatible C-Series pyroelectric energy sensors can measure energies from 10 µJ to 15 J and repetition rates up to 2 kHz. Note that the ES408C sensor for repetition rates up to 10 kHz, also available below, is not recommended for use with the PM100USB interface, which supports a maximum repetition rate of 3 kHz. Alternatively, other unamplified anode- or cathode-grounded photodiodes with up to 5 mA photocurrent, thermal elements with a maximum output voltage of 1 V, or energy sensors with voltage outputs from 100 mV to 100 V may be used.This interface can be operated and powered by a PC via the mini-USB port. A readout rate of 300 samples per second allows active signal monitoring while the interface is in use.
-keywords: [power meters, Thorlabs, Pymeasure, Instrumentkit]
+keywords: [power meters, Thorlabs, InstrumentKit, PyMeasure]
 slug: /instruments-wiki/power-meters/thorlabs/PM100USB
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692192822/Instruments/Power%20Meters/PM100USB/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639378/Instruments/Power%20Meters/PM100USB/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,7 +24,7 @@ This interface can be operated and powered by a PC via the mini-USB port. A read
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692192822/Instruments/Power%20Meters/PM100USB/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639378/Instruments/Power%20Meters/PM100USB/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -45,7 +45,43 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="InstrumentKit" label="InstrumentKit">
+
+
+```python
+from instrumentkit import ThorlabsPM100USB
+
+# Connect to the power meter
+power_meter = ThorlabsPM100USB()
+
+# Get information about the connected sensor
+sensor = power_meter.sensor
+print("Sensor Name:", sensor.name)
+print("Sensor Serial Number:", sensor.serial_number)
+print("Sensor Calibration Message:", sensor.calibration_message)
+print("Sensor Type:", sensor.type)
+print("Sensor Flags:", sensor.flags)
+
+# Set the measurement configuration to power
+power_meter.measurement_configuration = ThorlabsPM100USB.MeasurementConfiguration.power
+
+# Read a measurement from the power meter
+measurement = power_meter.read()
+print("Measurement:", measurement)
+```
+
+This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class to connect to the power meter.
+
+The script retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
+
+Next, the script sets the measurement configuration of the power meter to "power" using the `measurement_configuration` property. This configures the power meter to measure power values.
+
+Finally, the script reads a measurement from the power meter using the `read` method. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units. The script prints out the measurement value.
+
+Note that this script assumes that the Instrumentkit library is already installed and that the power meter is connected to the computer.
+
+</TabItem>
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python
@@ -169,42 +205,6 @@ The class has various properties and methods to interact with the power meter. H
 - `_set_flags` is a method that retrieves sensor information and writes flags based on the response from the power meter.
 
 To use this script, you would need to create an instance of the `ThorlabsPM100USB` class and provide the appropriate adapter for communication with the power meter.
-
-</TabItem>
-<TabItem value="Instrumentkit" label="Instrumentkit">
-
-
-```python
-from instrumentkit import ThorlabsPM100USB
-
-# Connect to the power meter
-power_meter = ThorlabsPM100USB()
-
-# Get information about the connected sensor
-sensor = power_meter.sensor
-print("Sensor Name:", sensor.name)
-print("Sensor Serial Number:", sensor.serial_number)
-print("Sensor Calibration Message:", sensor.calibration_message)
-print("Sensor Type:", sensor.type)
-print("Sensor Flags:", sensor.flags)
-
-# Set the measurement configuration to power
-power_meter.measurement_configuration = ThorlabsPM100USB.MeasurementConfiguration.power
-
-# Read a measurement from the power meter
-measurement = power_meter.read()
-print("Measurement:", measurement)
-```
-
-This script first imports the `ThorlabsPM100USB` class from the `instrumentkit` module. It then creates an instance of the `ThorlabsPM100USB` class to connect to the power meter.
-
-The script retrieves information about the connected sensor using the `sensor` property of the power meter instance. It prints out various properties of the sensor, such as its name, serial number, calibration message, type, and flags.
-
-Next, the script sets the measurement configuration of the power meter to "power" using the `measurement_configuration` property. This configures the power meter to measure power values.
-
-Finally, the script reads a measurement from the power meter using the `read` method. The measurement is returned as a `pint.Quantity` object, which represents a numerical value with associated units. The script prints out the measurement value.
-
-Note that this script assumes that the Instrumentkit library is already installed and that the power meter is connected to the computer.
 
 </TabItem>
 </Tabs>

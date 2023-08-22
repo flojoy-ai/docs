@@ -4,9 +4,9 @@ title: Connecting to ERASYNTH
 sidebar_label: ERASYNTH
 
 description: ERASynth removes the cost barriers and makes quality RF signal synthesis accessible to everyone, especially budget-conscious makers.
-keywords: [rf signal generators, Erainstruments, Qcodes Community]
+keywords: [rf signal generators, Erainstruments, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/erainstruments/erasynth
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309940/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -25,7 +25,7 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309940/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -47,7 +47,7 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 
 ```python

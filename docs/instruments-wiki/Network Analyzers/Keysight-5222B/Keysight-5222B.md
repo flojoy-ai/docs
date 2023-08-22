@@ -2,9 +2,9 @@
 title: Connecting to Keysight 5222B by Keysight in Python
 sidebar_label: Keysight 5222B
 description: The Keysight N5222B PNA Microwave Network Analyzer 10 MHz to 26.5 GHz is an integrated and flexible test engine that can measure active devices such as amplifiers, mixers, and frequency converters. This analyzer operates at a frequency range of 900 Hz to 26.5 GHz. The Keysight N5222B provides a combination of excellent hardware and powerful measurement applications to measure a broad range of devices quickly and accurately.
-keywords: [network analyzers, Keysight, Qcodes]
+keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-wiki/network-analyzers/keysight/keysight-5222b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310067/Instruments/Network%20Analyzers/Keysight-5222B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight N5222B PNA Microwave Network Analyzer 10 MHz to 26.5 GHz is an inte
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310067/Instruments/Network%20Analyzers/Keysight-5222B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight 5222B Network Analyzer using Qcodes, you can use the following Python script:
 

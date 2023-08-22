@@ -2,9 +2,9 @@
 title: Connecting to Keysight N9030B PXA by Keysight in Python
 sidebar_label: Keysight N9030B PXA
 description: PXA signal analyzers are ideally suited for high-performance research and development (R&D) applications in aerospace/defense and commercial wireless communications. The PXA analyzes signals over wider bandwidths, reduces measurement uncertainty, and reveals previously hidden signals with noise floor extension (NFE). Unravel complex signals through the PXA’s broad set of measurement applications and demodulation capabilities or add real-time spectrum analysis capabilities with an upgradeable option.
-keywords: [rf signal generators, Keysight, Qcodes]
+keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-n9030b-pxa
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310128/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ PXA signal analyzers are ideally suited for high-performance research and develo
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310128/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here's an example Python script that uses Qcodes to connect to a Keysight N9030B PXA RF Signal Generator:
 

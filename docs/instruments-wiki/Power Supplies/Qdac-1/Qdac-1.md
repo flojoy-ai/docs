@@ -2,9 +2,9 @@
 title: Connecting to Qdac 1 by Qdevil in Python
 sidebar_label: Qdac 1
 description: The original and popular QDAC from QDevil is a high-precision low-noise computer-controlled voltage generator designed for DC and low-frequency control of high impedance devices, such as gates in quantum electronics and quantum computer qubits. It also comes in a “high-current” version which can source up to 10 mA, for example for flux biasing of superconducting qubits. In addition to precise and stable voltage output, the QDAC can measure output currents, for example, to detect leaking gates or shorted bonding wires. The QDAC originates from the laboratories of the Center for Quantum Devices at the University of Copenhagen, where it is used for quantum computing research. The QDAC has 24 channels and offers a cost-effective way of getting many high-quality D/A converter channels.
-keywords: [digital analog converters, Qdevil, Qcodes Community]
-slug: /instruments-wiki/digital-analog-converters/qdevil/qdac-1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310233/Instruments/Digital-Analog%20Converters/Qdac-1/file.png
+keywords: [power supplies, Qdevil, QCodes Community]
+slug: /instruments-wiki/power-supplies/qdevil/qdac-1
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395787/Instruments/Power%20Supplies/Qdac-1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The original and popular QDAC from QDevil is a high-precision low-noise computer
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310233/Instruments/Digital-Analog%20Converters/Qdac-1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395787/Instruments/Power%20Supplies/Qdac-1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Founded in 2016, QDevil is an international quantum technology company focused o
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Qdac 1 Power Supply using Qcodes Community, you can use the following code:
 

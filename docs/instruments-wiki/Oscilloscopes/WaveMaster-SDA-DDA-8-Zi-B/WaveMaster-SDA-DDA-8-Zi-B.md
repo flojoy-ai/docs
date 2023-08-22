@@ -2,9 +2,9 @@
 title: Connecting to WaveMaster-SDA-DDA 8 Zi-B by Teledyne in Python
 sidebar_label: WaveMaster-SDA-DDA 8 Zi-B
 description: The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set needed for today’s high-speed measurements with the ease of use of a standard benchtop oscilloscope. Featuring the highest-speed serial data triggers, the only complete multi-lane serial data analysis and eye diagram solution, and the most comprehensive set of compliance packages, the WaveMaster 8 Zi-B simplifies the most complex testing.
-keywords: [oscilloscopes, Teledyne, Instrumentkit]
+keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-wiki/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250898/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The WaveMaster 8 Zi-B combines the performance, signal fidelity and feature set 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692250898/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Instrumentkit" label="Instrumentkit">
+<TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WaveMaster/SDA/DDA 8 Zi-B Oscilloscope using Instrumentkit, you can use the following code:
 

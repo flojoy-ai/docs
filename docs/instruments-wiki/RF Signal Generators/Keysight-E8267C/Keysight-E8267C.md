@@ -2,9 +2,9 @@
 title: Connecting to Keysight E8267C by Agilent in Python
 sidebar_label: Keysight E8267C
 description: E8267C PSG Vector Signal Generator, up to 20 GHz
-keywords: [rf signal generators, Agilent, Qcodes]
+keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-wiki/rf-signal-generators/agilent/keysight-e8267c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310102/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ E8267C PSG Vector Signal Generator, up to 20 GHz
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310102/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Keysight E8267C RF Signal Generator using Qcodes, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to PPMS Dynacool by Quantum Design in Python
 sidebar_label: PPMS Dynacool
 description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic measurements while controlling the samples temperature and magnetic environment.The system uses a single two-stage pulse tube cooler to cool both the superconducting magnet and provide temperature control below 10K, resulting in a low vibration environment for sample measurements. At low temperatures a small amount of Helium-4 is condensed and used to cool the sample while the magnet is cooled through solid contact to a 4 K plate.
-keywords: [power meters, Quantum Design, Qcodes]
-slug: /instruments-wiki/power-meters/quantum-design/ppms-dynacool
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106791/Instruments/Power%20Meters/PPMS-Dynacool/file.png
+keywords: [spectrometers, Quantum Design, QCodes]
+slug: /instruments-wiki/spectrometers/quantum-design/PPMS-dynacool
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic me
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106791/Instruments/Power%20Meters/PPMS-Dynacool/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Quantum Design manufactures automated temperature and magnetic field testing pla
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a PPMS DynaCool Spectrometer:
 

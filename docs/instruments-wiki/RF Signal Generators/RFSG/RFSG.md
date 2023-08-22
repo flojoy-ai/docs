@@ -2,9 +2,9 @@
 title: Connecting to RFSG by National Instruments in Python
 sidebar_label: RFSG
 description: Currently no description
-keywords: [rf signal generators, National Instruments, Qcodes Community]
+keywords: [rf signal generators, National Instruments, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/national-instruments/rfsg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328159/Instruments/RF%20Signal%20Generators/RFSG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728685/Instruments/RF%20Signal%20Generators/RFSG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Currently no description
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692328159/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728685/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ A producer of automated test equipment and virtual instrumentation software. Com
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 Here is an example Python script that uses Qcodes Community to connect to a RFSG RF Signal Generator:
 

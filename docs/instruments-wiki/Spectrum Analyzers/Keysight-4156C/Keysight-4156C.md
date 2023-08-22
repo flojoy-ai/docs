@@ -2,9 +2,9 @@
 title: Connecting to Keysight 4156C by Agilent in Python
 sidebar_label: Keysight 4156C
 description: 4156C Precision Semiconductor Parameter Analyzer
-keywords: [spectrum analyzers, Agilent, Pymeasure]
+keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-wiki/spectrum-analyzers/agilent/keysight-4156c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106960/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692106960/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

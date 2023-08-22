@@ -1,10 +1,10 @@
 ---
-title: Connecting to R&S ZNB8 by Rohde Schwarz in Python
+title: Connecting to R&S ZNB8 by Rohdes&Schwarz in Python
 sidebar_label: R&S ZNB8
 description: The R&S ZNB8 from Rohde & Schwarz is a Vector Network Analyzer with Frequency 9 kHz to 8.5 GHz, Measurement Speed 4 ms, Dynamic Range typ. 122 dB to 140 dB, Output Power typ. 12 dBm to 15 dBm, Power Sweep Range 98 dB. Tags-> VNA with Screen. More details for R&S ZNB8 can be seen below.
-keywords: [network analyzers, Rohde Schwarz, Qcodes]
-slug: /instruments-wiki/network-analyzers/rohde-schwarz/r&s-znb8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310246/Instruments/Network%20Analyzers/RS-ZNB8/file.png
+keywords: [network analyzers, Rohdes&Schwarz, QCodes]
+slug: /instruments-wiki/network-analyzers/rohdes-schwarz/rs-znb8
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,14 +22,14 @@ The R&S ZNB8 from Rohde & Schwarz is a Vector Network Analyzer with Frequency 9 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310246/Instruments/Network%20Analyzers/RS-ZNB8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
 <details>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692139604/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
 Rohde & Schwarz GmbH & Co KG is an international electronics group specializing in the fields of electronic test equipment, broadcast & media, cybersecurity, radiomonitoring and radiolocation, and radiocommunication. <a href="https://www.rohde-schwarz.com/ca/home_48230.html">Website</a>.
 
@@ -43,7 +43,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a Rohde & Schwarz ZNB8 Network Analyzer using Qcodes, you can use the following Python script:
 

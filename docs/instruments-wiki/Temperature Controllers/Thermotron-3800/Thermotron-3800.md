@@ -2,9 +2,9 @@
 title: Connecting to Thermotron 3800 by Thermotron in Python
 sidebar_label: Thermotron 3800
 description: The 3800 is a microprocessor-based programmer and controller. The programmer function allows you to program temperature, temperature/humidity, or other types of tests and store them in program memory
-keywords: [temperature controllers, Thermotron, Pymeasure]
+keywords: [temperature controllers, Thermotron, PyMeasure]
 slug: /instruments-wiki/temperature-controllers/thermotron/thermotron-3800
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201081/Instruments/Temperature%20Controllers/Thermotron-3800/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201081/Instruments/Temperature%20Controllers/Thermotron-3800/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

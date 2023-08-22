@@ -2,9 +2,9 @@
 title: Connecting to ATS9440-14 bit 125 MS-s 4 ch by Alazartech in Python
 sidebar_label: ATS9440-14 bit 125 MS-s 4 ch
 description: ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane PCI Express interface
-keywords: [daq boards, Alazartech, Qcodes]
+keywords: [daq boards, Alazartech, QCodes]
 slug: /instruments-wiki/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201128/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692201128/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of servi
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to an ATS9440-14 bit, 125 MS/s, 4 ch DAQ board:
 

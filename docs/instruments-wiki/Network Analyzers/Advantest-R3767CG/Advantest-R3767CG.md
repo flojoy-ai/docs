@@ -2,9 +2,9 @@
 title: Connecting to Advantest R3767CG by Advantest in Python
 sidebar_label: Advantest R3767CG
 description: The Advantest R3765CG/R3767CG network analyzers are vector network analyzers that incorporate a new RF circuit analysis technique.
-keywords: [network analyzers, Advantest, Pymeasure]
+keywords: [network analyzers, Advantest, PyMeasure]
 slug: /instruments-wiki/network-analyzers/advantest/advantest-r3767cg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Network%20Analyzers/Advantest-R3767CG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395166/Instruments/Network%20Analyzers/Advantest-R3767CG/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Advantest R3765CG/R3767CG network analyzers are vector network analyzers tha
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309898/Instruments/Network%20Analyzers/Advantest-R3767CG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395166/Instruments/Network%20Analyzers/Advantest-R3767CG/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Advantest manufactures and sells semiconductor and component test system product
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 ```python
 from pymeasure.instruments import Instrument

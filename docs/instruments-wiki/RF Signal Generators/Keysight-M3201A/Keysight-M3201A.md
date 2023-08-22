@@ -2,9 +2,9 @@
 title: Connecting to Keysight M3201A by Keysight in Python
 sidebar_label: Keysight M3201A
 description: Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional FPGA software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.
-keywords: [rf signal generators, Keysight, Qcodes Community]
+keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-wiki/rf-signal-generators/keysight/keysight-m3201a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310106/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692310106/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes Community" label="Qcodes Community">
+<TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight M3201A RF Signal Generator using Qcodes Community, you can use the following Python script:
 

@@ -2,9 +2,9 @@
 title: Connecting to DP Series Motor Controller by Anaheim Automation in Python
 sidebar_label: DP Series Motor Controller
 description: Anaheim Automation manufactures a variety of Stepper Motor Driver Packs with Programmable Controllers. The DPC50501 contains a single-axis bipolar microstep driver with an output capacity of 0.5 to 5 Amps, and incorporates a simple 18-command programmable controller, with a power supply in an enclosure. Models DPY50601 and DPY50611 each contain a single-axis bipolar microstep driver with an output capacity of 0.5 to 5 Amps, and a 40-command programmable controller, packaged with a power supply in an enclosure. The DPD75601 contains a single-axis bilevel driver with an output capacity of 1 to 7 Amps, and a 40-command programmable controller, with a power supply packaged in an enclosure.
-keywords: [motor controllers, Anaheim Automation, Pymeasure]
+keywords: [motor controllers, Anaheim Automation, PyMeasure]
 slug: /instruments-wiki/motor-controllers/anaheim-automation/dp-series-motor-controller
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309927/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Anaheim Automation manufactures a variety of Stepper Motor Driver Packs with Pro
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692309927/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Unable to find Vendor Description. <a href="https://www.anaheimautomation.com/?g
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

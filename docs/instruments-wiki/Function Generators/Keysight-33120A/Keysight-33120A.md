@@ -2,9 +2,9 @@
 title: Connecting to Keysight 33120A by HP in Python
 sidebar_label: Keysight 33120A
 description: 33120A Function / Arbitrary Waveform Generator, 15 MHz
-keywords: [function generators, HP, Pymeasure]
+keywords: [function generators, HP, PyMeasure]
 slug: /instruments-wiki/function-generators/hp/keysight-33120a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200855/Instruments/Function%20Generators/Keysight-33120A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200855/Instruments/Function%20Generators/Keysight-33120A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Pymeasure" label="Pymeasure">
+<TabItem value="PyMeasure" label="PyMeasure">
 
 
 ```python

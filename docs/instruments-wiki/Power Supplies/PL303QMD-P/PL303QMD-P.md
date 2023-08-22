@@ -2,9 +2,9 @@
 title: Connecting to PL303QMD-P by Aimtti in Python
 sidebar_label: PL303QMD-P
 description: Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS232 & LAN Interfaces
-keywords: [power supplies, Aimtti, Qcodes]
+keywords: [power supplies, Aimtti, QCodes]
 slug: /instruments-wiki/power-supplies/aimtti/pl303qmd-p
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692197335/Instruments/Power%20Supplies/PL303QMD-P/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS23
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692197335/Instruments/Power%20Supplies/PL303QMD-P/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ TTi (Thurlby Thandar Instruments) is a leading manufacturer of electronic test a
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 To connect to a PL303QMD-P Power Supply using Qcodes, you can use the following Python script:
 

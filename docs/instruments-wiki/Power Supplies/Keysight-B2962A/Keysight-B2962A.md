@@ -2,9 +2,9 @@
 title: Connecting to Keysight B2962A by Keysight in Python
 sidebar_label: Keysight B2962A
 description: The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
-keywords: [power supplies, Keysight, Qcodes]
+keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-wiki/power-supplies/keysight/keysight-b2962a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200917/Instruments/Power%20Supplies/Keysight-B2962A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power s
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692200917/Instruments/Power%20Supplies/Keysight-B2962A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
@@ -43,7 +43,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
-<TabItem value="Qcodes" label="Qcodes">
+<TabItem value="QCodes" label="QCodes">
 
 ```python
 from qcodes import Station
