@@ -245,7 +245,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-meters/rohdes&schwarz/zvl-13">
+<a href="/instruments-wiki/power-meters/rohdes-schwarz/zvl-13">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395809/Instruments/Power%20Meters/ZVL-13/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ZVL 13</figcaption>

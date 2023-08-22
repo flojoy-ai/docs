@@ -4,7 +4,7 @@ sidebar_label: Keysight B1500A
 description: The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
 keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725139/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ The Keysight B1500A semiconductor parameter analyzer is an all-in-one device cha
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725139/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

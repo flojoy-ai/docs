@@ -67,7 +67,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/temperature-controllers/stanford-research-systems/ctc100">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725692/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729280/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CTC100</figcaption>
 </figure>
 </a></div>

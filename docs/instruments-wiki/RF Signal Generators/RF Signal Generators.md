@@ -395,7 +395,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/r&s-sgs100a">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/rs-sgs100a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S SGS100A</figcaption>
@@ -407,7 +407,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/rf-signal-generators/national-instruments/rfsg">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725645/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728685/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>RFSG</figcaption>
 </figure>
 </a></div>
@@ -425,7 +425,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/sfm">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/sfm">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SFM</figcaption>
@@ -465,7 +465,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/sma100a">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/sma100a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMA100A</figcaption>
@@ -475,7 +475,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/smr-40">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/smr-40">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMR 40</figcaption>
@@ -485,7 +485,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/smw-200-a">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/smw-200-a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMW 200 A</figcaption>
@@ -495,7 +495,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/rf-signal-generators/rohdes&schwarz/smw-200a-b140">
+<a href="/instruments-wiki/rf-signal-generators/rohdes-schwarz/smw-200a-b140">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395801/Instruments/RF%20Signal%20Generators/SMW-200A-B140/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SMW 200A-B140</figcaption>

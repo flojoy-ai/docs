@@ -44,7 +44,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/spectrum-analyzers/rohdes&schwarz/fsl">
+<a href="/instruments-wiki/spectrum-analyzers/rohdes-schwarz/fsl">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>FSL</figcaption>
@@ -66,7 +66,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725677/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729260/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight B1500A</figcaption>
 </figure>
 </a></div>
@@ -124,7 +124,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/spectrum-analyzers/rohdes&schwarz/zvl-13">
+<a href="/instruments-wiki/spectrum-analyzers/rohdes-schwarz/zvl-13">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ZVL 13</figcaption>

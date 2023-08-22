@@ -166,7 +166,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/motor-controllers/qubitekk/mc1">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725037/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728919/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>MC1</figcaption>
 </figure>
 </a></div>

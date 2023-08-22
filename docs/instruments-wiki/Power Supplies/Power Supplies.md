@@ -55,7 +55,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmc-8041">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmc-8041">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395722/Instruments/Power%20Supplies/HMC-8041/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMC 8041</figcaption>
@@ -65,7 +65,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmc-8042">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmc-8042">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395723/Instruments/Power%20Supplies/HMC-8042/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMC 8042</figcaption>
@@ -75,7 +75,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmc-8043">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmc-8043">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMC-8043/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMC 8043</figcaption>
@@ -85,7 +85,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmp-2020">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-2020">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMP-2020/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 2020</figcaption>
@@ -95,7 +95,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmp-2030">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-2030">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395726/Instruments/Power%20Supplies/HMP-2030/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 2030</figcaption>
@@ -105,7 +105,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmp-4030">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-4030">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395727/Instruments/Power%20Supplies/HMP-4030/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4030</figcaption>
@@ -115,9 +115,9 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-supplies/rohdes&schwarz/hmp-4040">
+<a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-4040">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725510/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729081/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4040</figcaption>
 </figure>
 </a></div>
@@ -197,7 +197,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/power-supplies/keithley/keithley-2600">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725521/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728510/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2600</figcaption>
 </figure>
 </a></div>

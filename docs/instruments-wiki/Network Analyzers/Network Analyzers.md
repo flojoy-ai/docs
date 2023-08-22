@@ -114,7 +114,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/network-analyzers/rohdes&schwarz/r&s-znb20">
+<a href="/instruments-wiki/network-analyzers/rohdes-schwarz/rs-znb20">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395636/Instruments/Network%20Analyzers/RS-ZNB20/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S ZNB20</figcaption>
@@ -124,7 +124,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/network-analyzers/rohdes&schwarz/r&s-znb8">
+<a href="/instruments-wiki/network-analyzers/rohdes-schwarz/rs-znb8">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>R&S ZNB8</figcaption>
@@ -144,9 +144,9 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/network-analyzers/rohdes&schwarz/series">
+<a href="/instruments-wiki/network-analyzers/rohdes-schwarz/series">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692725426/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728979/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Series</figcaption>
 </figure>
 </a></div>
@@ -154,7 +154,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/network-analyzers/rohdes&schwarz/zvl-13">
+<a href="/instruments-wiki/network-analyzers/rohdes-schwarz/zvl-13">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395808/Instruments/Network%20Analyzers/ZVL-13/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ZVL 13</figcaption>
