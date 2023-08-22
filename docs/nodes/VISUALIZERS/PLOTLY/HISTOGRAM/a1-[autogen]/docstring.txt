@@ -1,11 +1,11 @@
-The HISTOGRAM node creates a Plotly Histogram visualization for a given
-    input data container.
+The HISTOGRAM node creates a Plotly Histogram visualization for a given input data container.
 
-    Parameters:
-    -----------
-    None
+    Inputs
+    ------
+    default : OrderedPair|DataFrame|Matrix|Vector
+        the DataContainer to be visualized
 
-    Supported DC types:
-    ------------------
-    `ordered_pair`, `dataframe`, `matrix`
-
+    Returns
+    -------
+    Plotly
+        the DataContainer containing Plotly Histogram visualization

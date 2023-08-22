@@ -14,6 +14,7 @@ def TIMER(
     sleep_time: float = 0,
 ) -> DataContainer:
     
+
     node_id = default_params.node_id
     jobset_id = default_params.jobset_id
     remaining_time = sleep_time
@@ -40,7 +41,7 @@ def TIMER(
                     "NODE_RESULTS": {
                         "cmd": "TIMER",
                         "id": node_id,
-                        "result": {"default_fig": fig, "data": result},
+                        "result": {"plotly_fig": fig},
                     },
                     "proceed_to_next": False,
                     "jobsetId": jobset_id,

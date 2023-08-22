@@ -1,2 +1,24 @@
+The WAVEPACKET node approximates the behaviour of a 1D Gaussian wavepacket in an infinite-well potential box.
 
-One dimensional Gaussian wavepacket
+    This example uses the Crank-Nicolson Method to solve the 1D Schrodinger equation.
+
+    Further reading:
+    http://staff.ustc.edu.cn/~zqj/posts/Numerical_TDSE/
+
+    Parameters
+    ----------
+    L_box : float
+        The width of the box in Bohr lengths.
+    center : float
+        The center of the initial wavepacket.
+    momentum : float
+        The momentum of the initial wavepacket.
+    sigma : float
+        The width of the initial wavepacket.
+    dt : float
+        Time steps in atomic units, 1 a.u. = 24.188 as.
+
+    Returns
+    -------
+    OrderedPair
+        The most recent wavepacket.

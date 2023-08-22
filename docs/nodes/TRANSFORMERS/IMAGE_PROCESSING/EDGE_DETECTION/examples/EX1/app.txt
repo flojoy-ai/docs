@@ -2,55 +2,22 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 210,
-                "height": 130,
-                "id": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
-                    "selected": true
-                },
-                "position": {
-                    "x": 1280.0865928617056,
-                    "y": 638.2033147738593
-                },
-                "selected": true,
-                "positionAbsolute": {
-                    "x": 1280.0865928617056,
-                    "y": 638.2033147738593
-                },
-                "dragging": true
-            },
-            {
-                "width": 150,
-                "height": 150,
+                "width": 160,
+                "height": 160,
                 "id": "LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20c",
-                "type": "LOCAL_FILE_SYSTEM",
+                "type": "LOADERS",
                 "data": {
                     "id": "LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20c",
                     "label": "LOCAL FILE",
                     "func": "LOCAL_FILE",
-                    "type": "LOCAL_FILE_SYSTEM",
+                    "type": "LOADERS",
                     "ctrls": {
                         "file_path": {
                             "type": "str",
                             "default": null,
                             "functionName": "LOCAL_FILE",
                             "param": "file_path",
-                            "value": "/Users/jinwonlee/Desktop/test.png"
+                            "value": ""
                         },
                         "file_type": {
                             "type": "select",
@@ -99,15 +66,15 @@
                 "dragging": true
             },
             {
-                "width": 150,
-                "height": 150,
+                "width": 189,
+                "height": 160,
                 "id": "EDGE_DETECTION-1f01cece-bbff-47d7-b217-5b311f88d9ba",
-                "type": "IMAGE_PROCESSING",
+                "type": "TRANSFORMERS",
                 "data": {
                     "id": "EDGE_DETECTION-1f01cece-bbff-47d7-b217-5b311f88d9ba",
                     "label": "EDGE DETECTION",
                     "func": "EDGE_DETECTION",
-                    "type": "IMAGE_PROCESSING",
+                    "type": "TRANSFORMERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -139,15 +106,15 @@
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
+                "width": 380,
+                "height": 293,
                 "id": "IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804",
                     "label": "IMAGE",
                     "func": "IMAGE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -168,26 +135,26 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 982.4493275304173,
-                    "y": 311.74746706708333
+                    "x": 1069.3810700500082,
+                    "y": 308.44626165494697
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 982.4493275304173,
-                    "y": 311.74746706708333
+                    "x": 1069.3810700500082,
+                    "y": 308.44626165494697
                 },
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
+                "width": 380,
+                "height": 293,
                 "id": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
                     "label": "IMAGE 1",
                     "func": "IMAGE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -215,6 +182,93 @@
                 "positionAbsolute": {
                     "x": 618.2655382685319,
                     "y": 643.2133248042691
+                },
+                "dragging": true
+            },
+            {
+                "width": 384,
+                "height": 288,
+                "id": "TEXT_VIEW-22e4f167-f18c-4697-aae0-f3ab98df9f1c",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "TEXT_VIEW-22e4f167-f18c-4697-aae0-f3ab98df9f1c",
+                    "label": "TEXT VIEW",
+                    "func": "TEXT_VIEW",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized in text format"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 856.3519229275383,
+                    "y": 57.769655083615646
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 856.3519229275383,
+                    "y": 57.769655083615646
+                },
+                "dragging": true
+            },
+            {
+                "width": 231,
+                "height": 96,
+                "id": "TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0",
+                "type": "GENERATORS",
+                "data": {
+                    "id": "TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0",
+                    "label": "DESCRIPTION",
+                    "func": "TEXT",
+                    "type": "GENERATORS",
+                    "ctrls": {
+                        "value": {
+                            "type": "str",
+                            "default": "Hello World!",
+                            "desc": "The value set in Parameters",
+                            "functionName": "TEXT",
+                            "param": "value",
+                            "value": "This app shows how the EDGE_DETECTION app works. First, an example image is loaded. Then the image is passed to the edge detection node. This node detects all the hard edges in the image and returns an image with those edges in white."
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "_",
+                            "id": "_",
+                            "type": "Any",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "desc": "text_blob: return the value being set in Parameters"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/TEXT/TEXT.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 458.68181282316243,
+                    "y": 177.7567984429395
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 458.68181282316243,
+                    "y": 177.7567984429395
                 },
                 "dragging": true
             }
@@ -235,13 +289,6 @@
                 "id": "reactflow__edge-EDGE_DETECTION-1f01cece-bbff-47d7-b217-5b311f88d9badefault-IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804default"
             },
             {
-                "source": "IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804",
-                "sourceHandle": "default",
-                "target": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
-                "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-285335dd-85c9-48b9-88f6-2a3dd5680804default-END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80default"
-            },
-            {
                 "source": "LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20c",
                 "sourceHandle": "default",
                 "target": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
@@ -249,17 +296,24 @@
                 "id": "reactflow__edge-LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20cdefault-IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402default"
             },
             {
-                "source": "IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402",
+                "source": "LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20c",
                 "sourceHandle": "default",
-                "target": "END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80",
+                "target": "TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0",
+                "targetHandle": "_",
+                "id": "reactflow__edge-LOCAL_FILE-745d91c9-0bcf-4ab4-a265-210f2506f20cdefault-TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0_"
+            },
+            {
+                "source": "TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0",
+                "sourceHandle": "default",
+                "target": "TEXT_VIEW-22e4f167-f18c-4697-aae0-f3ab98df9f1c",
                 "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-6cd5c97a-781e-4c8f-a926-e7d295cfa402default-END-c6aafeb2-8a19-461d-bb71-83b8f8b7fc80default"
+                "id": "reactflow__edge-TEXT-57087757-34ae-4d49-b8de-dd2046d41ce0default-TEXT_VIEW-22e4f167-f18c-4697-aae0-f3ab98df9f1cdefault"
             }
         ],
         "viewport": {
-            "x": 0,
-            "y": 0,
-            "zoom": 1
+            "x": 1122.8706531201733,
+            "y": 516.7113790478016,
+            "zoom": 1.0957886685188984
         }
     },
     "ctrlsManifest": [

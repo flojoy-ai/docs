@@ -1,12 +1,11 @@
+The DF_2_NP node takes one dataframe type data and converts it to a matrix type data.
 
-Node to convert dataframe type data into matrix type data.
-It takes one dataframe type data and converts it to matrix type data.
+    Inputs
+    ------
+    default : DataFrame
+        The input dataframe to which we apply the conversion to.
 
-Parameters
-----------
-None
-
-Returns
--------
-numpy array
-    Converted dataframe value from the input
+    Returns
+    -------
+    Matrix
+        The matrix result from the conversion of the input.

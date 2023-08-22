@@ -1,23 +1,22 @@
+The IMAGE_SMOOTHING node applies an image smoothing operation on the input DataContainer class, specifically for the 'image' type, represented by the RGB(A) channels.
 
-Apply image smoothing operation on the input `DataContainer` class,
-specifically for the 'image' type,
-represented by the RGB(A) channels.
+    Note: For "gaussian" and "median" type, you are only allowed an odd number for the kernel value.
 
-Note: for "gaussian" and "median" type, you are only allowed odd number for kernel value.
+    See https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html for smoothing function information.
 
-Args:
-dc_inputs (list[DataContainer]): List of DataContainer objects containing
-image channels.
-params (dict): Additional parameters for image smoothing.
+    Inputs
+    ------
+    default : Image
+        The input image to apply smoothing to.
 
-Params:
-kernel: The strength of the smoothing. A large value will lead
-to stronger smoothing. smoothing_type: The type of smoothing to use
-(https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html).
+    Parameters
+    ----------
+    kernel : int
+        The strength of the smoothing (larger = stronger smoothing).
+    smoothing_type : select
+        The type of smoothing function to use.
 
-Returns:
-DataContainer: A `DataContainer` class of type 'image' representing the
-output image with image smoothing results.
-
-Raises:
-Exception: If an error occurs during smoothing.
+    Returns
+    -------
+    Image
+        The smoothed image.

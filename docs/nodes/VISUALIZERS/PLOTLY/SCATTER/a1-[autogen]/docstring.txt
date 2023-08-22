@@ -1,9 +1,11 @@
-The SCATTER Node creates a Plotly Scatter visualization for a given input data container.
+The SCATTER node creates a Plotly Scatter visualization for a given input data container.
 
-    Parameters:
-    ----------
-    None
+    Inputs
+    ------
+    default : OrderedPair|DataFrame|Matrix|Vector
+        the DataContainer to be visualized
 
-    Supported DC types:
-    -------------------
-    `ordered_pair`, `dataframe`, `matrix`
+    Returns
+    -------
+    Plotly
+        the DataContainer containing Plotly Scatter visualization

@@ -2,15 +2,15 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 150,
+                "width": 189,
+                "height": 160,
                 "id": "IMAGE_SMOOTHING-271ab3fc-7780-4b0d-a394-9d6935b20736",
-                "type": "IMAGE_PROCESSING",
+                "type": "TRANSFORMERS",
                 "data": {
                     "id": "IMAGE_SMOOTHING-271ab3fc-7780-4b0d-a394-9d6935b20736",
                     "label": "IMAGE SMOOTHING",
                     "func": "IMAGE_SMOOTHING",
-                    "type": "IMAGE_PROCESSING",
+                    "type": "TRANSFORMERS",
                     "ctrls": {
                         "kernel": {
                             "type": "int",
@@ -49,13 +49,13 @@
                         }
                     ],
                     "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/IMAGE_SMOOTHING/IMAGE_SMOOTHING.py",
-                    "selected": true
+                    "selected": false
                 },
                 "position": {
                     "x": 727.3487305553774,
                     "y": 155.3525852303302
                 },
-                "selected": true,
+                "selected": false,
                 "positionAbsolute": {
                     "x": 727.3487305553774,
                     "y": 155.3525852303302
@@ -63,22 +63,22 @@
                 "dragging": true
             },
             {
-                "width": 150,
-                "height": 150,
+                "width": 160,
+                "height": 160,
                 "id": "LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497",
-                "type": "LOCAL_FILE_SYSTEM",
+                "type": "LOADERS",
                 "data": {
                     "id": "LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497",
                     "label": "LOCAL FILE",
                     "func": "LOCAL_FILE",
-                    "type": "LOCAL_FILE_SYSTEM",
+                    "type": "LOADERS",
                     "ctrls": {
                         "file_path": {
                             "type": "str",
                             "default": null,
                             "functionName": "LOCAL_FILE",
                             "param": "file_path",
-                            "value": "/Users/jinwonlee/Desktop/test.png"
+                            "value": ""
                         },
                         "file_type": {
                             "type": "select",
@@ -127,48 +127,15 @@
                 "dragging": true
             },
             {
-                "width": 210,
-                "height": 130,
-                "id": "END-3ed99c64-452e-4a7b-a439-3aab3140483a",
-                "type": "TERMINATORS",
-                "data": {
-                    "id": "END-3ed99c64-452e-4a7b-a439-3aab3140483a",
-                    "label": "END",
-                    "func": "END",
-                    "type": "TERMINATORS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Any",
-                            "multiple": false
-                        }
-                    ],
-                    "path": "PYTHON/nodes/LOGIC_GATES/TERMINATORS/END/END.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 1285.440862145957,
-                    "y": 550.5450019826343
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 1285.440862145957,
-                    "y": 550.5450019826343
-                },
-                "dragging": true
-            },
-            {
-                "width": 225,
-                "height": 226,
+                "width": 380,
+                "height": 293,
                 "id": "IMAGE-7aacbaca-2652-4c99-babe-5779ba0ce181",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "IMAGE-7aacbaca-2652-4c99-babe-5779ba0ce181",
                     "label": "IMAGE",
                     "func": "IMAGE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -200,15 +167,15 @@
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
+                "width": 380,
+                "height": 293,
                 "id": "IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94c",
-                "type": "PLOTLY",
+                "type": "VISUALIZERS",
                 "data": {
                     "id": "IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94c",
                     "label": "IMAGE 1",
                     "func": "IMAGE",
-                    "type": "PLOTLY",
+                    "type": "VISUALIZERS",
                     "ctrls": {},
                     "inputs": [
                         {
@@ -229,13 +196,100 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 662.8988425018024,
-                    "y": 513.5775685841171
+                    "x": 739.9269687849841,
+                    "y": 470.6618982263444
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 662.8988425018024,
-                    "y": 513.5775685841171
+                    "x": 739.9269687849841,
+                    "y": 470.6618982263444
+                },
+                "dragging": true
+            },
+            {
+                "width": 384,
+                "height": 288,
+                "id": "TEXT_VIEW-ae2f624a-1e9b-418e-910d-cb088c35de03",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "TEXT_VIEW-ae2f624a-1e9b-418e-910d-cb088c35de03",
+                    "label": "TEXT VIEW",
+                    "func": "TEXT_VIEW",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized in text format"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1047.2923018506249,
+                    "y": -136.2164468679791
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1047.2923018506249,
+                    "y": -136.2164468679791
+                },
+                "dragging": true
+            },
+            {
+                "width": 231,
+                "height": 96,
+                "id": "TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6",
+                "type": "GENERATORS",
+                "data": {
+                    "id": "TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6",
+                    "label": "DESCRIPTION",
+                    "func": "TEXT",
+                    "type": "GENERATORS",
+                    "ctrls": {
+                        "value": {
+                            "type": "str",
+                            "default": "Hello World!",
+                            "desc": "The value set in Parameters",
+                            "functionName": "TEXT",
+                            "param": "value",
+                            "value": "This app shows how the IMAGE_SMOOTHING node works. First, an example image is loaded. Then, the image is passed to the smoothing node. The smoothing node smooths the edges of an image which can be useful for reducing noise. There are various smoothing methods available in the node parameters."
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "_",
+                            "id": "_",
+                            "type": "Any",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "desc": "text_blob: return the value being set in Parameters"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/TEXT/TEXT.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 718.1916075564734,
+                    "y": -64.75168335883379
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 718.1916075564734,
+                    "y": -64.75168335883379
                 },
                 "dragging": true
             }
@@ -256,13 +310,6 @@
                 "id": "reactflow__edge-IMAGE_SMOOTHING-271ab3fc-7780-4b0d-a394-9d6935b20736default-IMAGE-7aacbaca-2652-4c99-babe-5779ba0ce181default"
             },
             {
-                "source": "IMAGE-7aacbaca-2652-4c99-babe-5779ba0ce181",
-                "sourceHandle": "default",
-                "target": "END-3ed99c64-452e-4a7b-a439-3aab3140483a",
-                "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-7aacbaca-2652-4c99-babe-5779ba0ce181default-END-3ed99c64-452e-4a7b-a439-3aab3140483adefault"
-            },
-            {
                 "source": "LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497",
                 "sourceHandle": "default",
                 "target": "IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94c",
@@ -270,17 +317,24 @@
                 "id": "reactflow__edge-LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497default-IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94cdefault"
             },
             {
-                "source": "IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94c",
+                "source": "LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497",
                 "sourceHandle": "default",
-                "target": "END-3ed99c64-452e-4a7b-a439-3aab3140483a",
+                "target": "TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6",
+                "targetHandle": "_",
+                "id": "reactflow__edge-LOCAL_FILE-e185ad0f-12d9-47ee-ab02-28b06f85f497default-TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6_"
+            },
+            {
+                "source": "TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6",
+                "sourceHandle": "default",
+                "target": "TEXT_VIEW-ae2f624a-1e9b-418e-910d-cb088c35de03",
                 "targetHandle": "default",
-                "id": "reactflow__edge-IMAGE-0b7bb803-8dba-43eb-a9bf-4073b3fda94cdefault-END-3ed99c64-452e-4a7b-a439-3aab3140483adefault"
+                "id": "reactflow__edge-TEXT-f7c90017-fcd0-4dca-beae-975d87b4b0b6default-TEXT_VIEW-ae2f624a-1e9b-418e-910d-cb088c35de03default"
             }
         ],
         "viewport": {
-            "x": 0,
-            "y": 0,
-            "zoom": 1
+            "x": 1122.8706531201733,
+            "y": 516.7113790478016,
+            "zoom": 1.0957886685188984
         }
     },
     "ctrlsManifest": [
