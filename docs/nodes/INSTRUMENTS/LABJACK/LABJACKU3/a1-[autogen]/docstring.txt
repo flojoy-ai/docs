@@ -1,5 +1,5 @@
 
-The LABJACKU3 node allows you to record and returns temperature measurements with a LABJACK U3 device.
+The LABJACK U3 node allows you to record and returns temperature measurements with a LABJACK U3 device.
 
 Parameters
 ----------
