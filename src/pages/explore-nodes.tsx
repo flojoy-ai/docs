@@ -15,12 +15,14 @@ const variantMap = {
 };
 
 export default function Explore() {
-  const data = partialUnflatten(nodeData, ' > ', 2);
+  const data = partialUnflatten(nodeData, ' > ', 2, ['Transform']);
 
   return (
     <Layout title="Explore">
-      <h1 style={{margin:'20px', color:'#8C9699', textAlign:'center'}}>⎈ Nodes Explorer</h1>
-      {Object.entries(data).map(([title, val]) => {
+      <h1 style={{ margin: '20px', color: '#8C9699', textAlign: 'center' }}>
+        ⎈ Nodes Explorer
+      </h1>
+      {Object.entries(data).map(([title, val], i) => {
         const variant = variantMap[title];
         const v = variants[variant];
         return (
@@ -30,6 +32,7 @@ export default function Explore() {
               variant={variant}
               data={val}
               icon={v.icon}
+              key={`${title}${i}`}
             />
           </div>
         );

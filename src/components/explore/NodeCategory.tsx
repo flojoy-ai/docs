@@ -87,7 +87,6 @@ export default function NodeCategory({
   title,
   variant,
 }: NodeCategoryProps) {
-  console.log(variant);
   const v = variants[variant];
 
   if (Array.isArray(data)) {
@@ -107,7 +106,11 @@ export default function NodeCategory({
             const name = parts[parts.length - 1];
             const to = '/' + parts.slice(0, -1).join('/');
 
-            return <LinkComponent to={to}>{name}</LinkComponent>;
+            return (
+              <LinkComponent to={to} key={name}>
+                {name}
+              </LinkComponent>
+            );
           })}
         </div>
         <div className="py-2" />
@@ -124,12 +127,13 @@ export default function NodeCategory({
       icon={icon}
       className={depth === 0 ? 'mb-8' : ''}
     >
-      {Object.entries(data).map(([title, val]) => (
+      {Object.entries(data).map(([title, val], i) => (
         <NodeCategory
           title={title}
           variant={variant}
           data={val}
           depth={depth + 1}
+          key={`${title}${i}`}
         />
       ))}
     </NodeSection>
