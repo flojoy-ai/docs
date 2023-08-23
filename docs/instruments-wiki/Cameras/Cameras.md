@@ -34,17 +34,17 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/cameras/pvcam/kinetix-scmos-all-cameras">
+<a href="/instruments-wiki/cameras/pvcam/kinetix-sCMOS-all-cameras">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692631656/Instruments/Cameras/Kinetix-sCMOS-all_cameras/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Kinetix sCMOS all cameras</figcaption>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Kinetix sCMOS all_cameras</figcaption>
 </figure>
 </a></div>
 
 
 <div className="p-4">
 
-<a href="/instruments-wiki/cameras/pco/pco-pixelfly">
+<a href="/instruments-wiki/cameras/pco/PCO-pixelfly">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PCO Pixelfly</figcaption>

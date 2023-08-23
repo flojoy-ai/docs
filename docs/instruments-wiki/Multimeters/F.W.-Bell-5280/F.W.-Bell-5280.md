@@ -26,16 +26,23 @@ Handheld single-axis digital magnetometer gauss / tesla meter for measuring magn
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://store-5445uo.mybigcommerce.com/content/5200_Magsci_version_2pg.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125981/Instruments/Vendor%20Logos/F.W.Bell.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806183/Instruments/Vendor%20Logos/F.W_Bell.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Technology leaders in instrumentation. Designing and manufacturing **F.W. Bell** gaussmeters, probes, current sensors and Hall generators for over 60 years. <a href="https://fwbell.com/">Website</a>.
+Technology leaders in instrumentation. Designing and manufacturing **F.W. Bell** gaussmeters, probes, current sensors and Hall generators for over 60 years.
 
 <ul>
   <li>Headquarters: UK (Meggit)</li>
   <li>Yearly Revenue (millions, USD): nan</li>
+  <li>Vendor Website: <a href="https://fwbell.com/">here</a></li>
 </ul>
 </details>
 

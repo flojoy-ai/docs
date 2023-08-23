@@ -16,7 +16,7 @@ You can find all the available instruments from the sidebar
 
  <details> 
  <summary>Category Description</summary> 
- In electronics, an analog-to-digital converter (ADC, A/D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal 
+ Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9360-12bit-18gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305056/Instruments/DAQ%20boards/ATS9360-12bit%2C-1.8GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9360-12bit, 1.8GS/s</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9373-12-bit-4-gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305058/Instruments/DAQ%20boards/ATS9373-12-bit%2C-4-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9373-12 bit, 4 GS/s</figcaption>
 </figure>
 </a></div>
@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305061/Instruments/DAQ%20boards/ATS9440-14-bit%2C-125-MS-s%2C-4-ch/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9440-14 bit, 125 MS/s, 4 ch</figcaption>
 </figure>
 </a></div>
@@ -56,7 +56,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9870-8-bit-1-gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305064/Instruments/DAQ%20boards/ATS9870-8-bit%2C-1-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9870-8 bit, 1 GS/s</figcaption>
 </figure>
 </a></div>
@@ -104,7 +104,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/daq-boards/advantech/pcie-1751">
+<a href="/instruments-wiki/daq-boards/advantech/PCIE-1751">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PCIE 1751</figcaption>

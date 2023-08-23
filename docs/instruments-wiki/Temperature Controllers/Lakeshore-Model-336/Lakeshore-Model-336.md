@@ -26,16 +26,23 @@ The Model 336 supports the industry’s most advanced line of cryogenic temperat
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.lakeshore.com/docs/default-source/product-downloads/336_manual0ebc9b06cbbb456491c65cf1337983e4.pdf?sfvrsn=2e8633a3_1">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125966/Instruments/Vendor%20Logos/Lakeshore.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692813206/Instruments/Vendor%20Logos/Lakeshore_Cryotronics.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions. <a href="https://www.lakeshore.com/home">Website</a>.
+Supporting advanced scientific research, Lake Shore is a leading global innovator in measurement and control solutions.
 
 <ul>
   <li>Headquarters: Westerville, Ohio, USA</li>
   <li>Yearly Revenue (millions, USD): 21.4</li>
+  <li>Vendor Website: <a href="https://www.lakeshore.com/home">here</a></li>
 </ul>
 </details>
 

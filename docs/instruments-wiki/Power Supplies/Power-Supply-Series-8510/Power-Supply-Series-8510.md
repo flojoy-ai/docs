@@ -26,16 +26,23 @@ The R. STAHL Series 8510 power supply provides a constant power supply for contr
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://r-stahl.com/fileadmin/tx_aimeos/Files/n_/gb/PO_PSS_105807_en_GB/ex-product-overview-power-supply-8510-en-gb-rstahl.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692373400/Instruments/Vendor%20Logos/Stahl.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692373400/Instruments/Vendor%20Logos/Stahl.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-R. Stahl **AG** is a listed provider of products, systems and services for [explosion protection](https://de-m-wikipedia-org.translate.goog/wiki/Explosionsschutz?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) based [in ](https://de-m-wikipedia-org.translate.goog/wiki/Sitz_(juristische_Person)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui)[Waldenburg](https://de-m-wikipedia-org.translate.goog/wiki/Waldenburg_(W%C3%BCrttemberg)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in the [Hohenlohe district](https://de-m-wikipedia-org.translate.goog/wiki/Hohenlohekreis?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in [Baden-Württemberg](https://de-m-wikipedia-org.translate.goog/wiki/Baden-W%C3%BCrttemberg?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) . <a href="https://r-stahl.com/en/global/home/">Website</a>.
+R. Stahl **AG** is a listed provider of products, systems and services for [explosion protection](https://de-m-wikipedia-org.translate.goog/wiki/Explosionsschutz?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) based [in ](https://de-m-wikipedia-org.translate.goog/wiki/Sitz_(juristische_Person)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui)[Waldenburg](https://de-m-wikipedia-org.translate.goog/wiki/Waldenburg_(W%C3%BCrttemberg)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in the [Hohenlohe district](https://de-m-wikipedia-org.translate.goog/wiki/Hohenlohekreis?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in [Baden-Württemberg](https://de-m-wikipedia-org.translate.goog/wiki/Baden-W%C3%BCrttemberg?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) .
 
 <ul>
   <li>Headquarters: Waldenburg, Germany</li>
   <li>Yearly Revenue (millions, USD): 270.7</li>
+  <li>Vendor Website: <a href="https://r-stahl.com/en/global/home/">here</a></li>
 </ul>
 </details>
 

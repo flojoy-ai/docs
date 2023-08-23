@@ -26,16 +26,23 @@ ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane 
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.alazartech.com/en/download/product/9057/307/ats9440-datasheet-and-specifications/1-4k/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125979/Instruments/Vendor%20Logos/Alazartech.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806158/Instruments/Vendor%20Logos/Alazartech.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of serving the test and measurement market, in general, and the embedded waveform digitizer (OEM) market segment, in particular, by providing highly differentiated, high performance instrumentation products at affordable prices. <a href="https://www.alazartech.com/">Website</a>.
+Alazar Technologies Inc. (AlazarTech) was founded in 2003 with the goal of serving the test and measurement market, in general, and the embedded waveform digitizer (OEM) market segment, in particular, by providing highly differentiated, high performance instrumentation products at affordable prices.
 
 <ul>
   <li>Headquarters: CANADA - QC</li>
   <li>Yearly Revenue (millions, USD): 4.0</li>
+  <li>Vendor Website: <a href="https://www.alazartech.com/">here</a></li>
 </ul>
 </details>
 

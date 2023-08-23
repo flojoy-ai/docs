@@ -54,17 +54,17 @@ You can find all the available instruments from the sidebar.
 
 <div className="p-4">
 
-<a href="/instruments-wiki/cameras/pvcam/kinetix-scmos-all-cameras">
+<a href="/instruments-wiki/cameras/pvcam/kinetix-sCMOS-all-cameras">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692631656/Instruments/Cameras/Kinetix-sCMOS-all_cameras/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Kinetix sCMOS all cameras</figcaption>
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>Kinetix sCMOS all_cameras</figcaption>
 </figure>
 </a></div>
 
 
 <div className="p-4">
 
-<a href="/instruments-wiki/cameras/pco/pco-pixelfly">
+<a href="/instruments-wiki/cameras/pco/PCO-pixelfly">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PCO Pixelfly</figcaption>
@@ -116,7 +116,7 @@ You can find all the available instruments from the sidebar.
 
  <details> 
  <summary>Category Description</summary> 
- In electronics, an analog-to-digital converter (ADC, A/D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal 
+ Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
@@ -126,7 +126,7 @@ You can find all the available instruments from the sidebar.
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9360-12bit-18gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305056/Instruments/DAQ%20boards/ATS9360-12bit%2C-1.8GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9360-12bit, 1.8GS/s</figcaption>
 </figure>
 </a></div>
@@ -136,7 +136,7 @@ You can find all the available instruments from the sidebar.
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9373-12-bit-4-gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305058/Instruments/DAQ%20boards/ATS9373-12-bit%2C-4-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9373-12 bit, 4 GS/s</figcaption>
 </figure>
 </a></div>
@@ -146,7 +146,7 @@ You can find all the available instruments from the sidebar.
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305061/Instruments/DAQ%20boards/ATS9440-14-bit%2C-125-MS-s%2C-4-ch/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9440-14 bit, 125 MS/s, 4 ch</figcaption>
 </figure>
 </a></div>
@@ -156,7 +156,7 @@ You can find all the available instruments from the sidebar.
 
 <a href="/instruments-wiki/daq-boards/alazartech/ats9870-8-bit-1-gs-s">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692305064/Instruments/DAQ%20boards/ATS9870-8-bit%2C-1-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ATS9870-8 bit, 1 GS/s</figcaption>
 </figure>
 </a></div>
@@ -204,7 +204,7 @@ You can find all the available instruments from the sidebar.
 
 <div className="p-4">
 
-<a href="/instruments-wiki/daq-boards/advantech/pcie-1751">
+<a href="/instruments-wiki/daq-boards/advantech/PCIE-1751">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PCIE 1751</figcaption>
@@ -781,7 +781,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
  <details> 
  <summary>Category Description</summary> 
- A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
+ A humidity sensor is an electronic device that measures the humidity in its environment and converts its findings into a corresponding electrical signal. Humidity sensors vary widely in size and functionality; some humidity sensors can be found in handheld devices (such as smartphones), while others are integrated into larger embedded systems (such as air quality monitoring systems). Humidity sensors are commonly used in the meteorology, medical, automobile, HVAC and manufacturing industries.  
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
@@ -971,7 +971,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/sr-830">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728857/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814791/Instruments/Lockin%20Amplifiers/SR-830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 830</figcaption>
 </figure>
 </a></div>
@@ -991,7 +991,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/sr-860">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728870/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814805/Instruments/Lockin%20Amplifiers/SR-860/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR 860</figcaption>
 </figure>
 </a></div>
@@ -1001,7 +1001,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/sr830">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728875/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814811/Instruments/Lockin%20Amplifiers/SR830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR830</figcaption>
 </figure>
 </a></div>
@@ -1011,7 +1011,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/sr860">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728881/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814818/Instruments/Lockin%20Amplifiers/SR860/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR860</figcaption>
 </figure>
 </a></div>
@@ -1021,7 +1021,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/sr865a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728887/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814823/Instruments/Lockin%20Amplifiers/SR865A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SR865A</figcaption>
 </figure>
 </a></div>
@@ -1031,7 +1031,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/lockin-amplifiers/stanford-research-systems/srs-830">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728898/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814835/Instruments/Lockin%20Amplifiers/SRS-830/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SRS 830</figcaption>
 </figure>
 </a></div>
@@ -1211,7 +1211,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/motor-controllers/qubitekk/mc1">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728919/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692741645/Instruments/Motor%20Controllers/MC1/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>MC1</figcaption>
 </figure>
 </a></div>
@@ -1319,7 +1319,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/keithley/dmm6500-keithley">
+<a href="/instruments-wiki/multimeters/keithley/DMM6500-keithley">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DMM6500 Keithley</figcaption>
@@ -1349,7 +1349,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/hp/hp-3437a">
+<a href="/instruments-wiki/multimeters/hp/HP-3437a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639102/Instruments/Multimeters/HP-3437A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HP 3437A</figcaption>
@@ -1589,7 +1589,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/generic-scpi/scpi-multimeter">
+<a href="/instruments-wiki/multimeters/generic-scpi/SCPI-multimeter">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI multimeter</figcaption>
@@ -1751,7 +1751,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/network-analyzers/rohdes-schwarz/series">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728979/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692808740/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Series</figcaption>
 </figure>
 </a></div>
@@ -1801,7 +1801,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo7000">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728986/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814923/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DPO7000</figcaption>
 </figure>
 </a></div>
@@ -1982,7 +1982,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/oscilloscopes/tektronix/tds224">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729022/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TDS224</figcaption>
 </figure>
 </a></div>
@@ -2361,7 +2361,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-meters/quantum-design/ppms-dynacool">
+<a href="/instruments-wiki/power-meters/quantum-design/PPMS-dynacool">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395539/Instruments/Power%20Meters/PPMS-Dynacool/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>
@@ -2484,7 +2484,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-4040">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729081/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815006/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4040</figcaption>
 </figure>
 </a></div>
@@ -2564,7 +2564,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/power-supplies/keithley/keithley-2600">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728510/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815017/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2600</figcaption>
 </figure>
 </a></div>
@@ -3092,7 +3092,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/protocols/generic-scpi/scpi-instrument">
+<a href="/instruments-wiki/protocols/generic-scpi/SCPI-instrument">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI Instrument</figcaption>
@@ -3587,7 +3587,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/rf-signal-generators/national-instruments/rfsg">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728685/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692809007/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>RFSG</figcaption>
 </figure>
 </a></div>
@@ -3696,7 +3696,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/screen-displays/gentec-eo/gentec-eo-maestro">
+<a href="/instruments-wiki/screen-displays/gentec-eo/gentec-EO-maestro">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Gentec EO Maestro</figcaption>
@@ -3746,7 +3746,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/spectrometers/quantum-design/ppms-dynacool">
+<a href="/instruments-wiki/spectrometers/quantum-design/PPMS-dynacool">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>
@@ -3818,7 +3818,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729260/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight B1500A</figcaption>
 </figure>
 </a></div>
@@ -3969,7 +3969,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-wiki/temperature-controllers/stanford-research-systems/ctc100">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729280/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815203/Instruments/Temperature%20Controllers/CTC100/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CTC100</figcaption>
 </figure>
 </a></div>
@@ -4087,7 +4087,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <div className="p-4">
 
-<a href="/instruments-wiki/temperature-controllers/quantum-design/ppms-dynacool">
+<a href="/instruments-wiki/temperature-controllers/quantum-design/PPMS-dynacool">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395538/Instruments/Temperature%20Controllers/PPMS-Dynacool/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>
@@ -4139,7 +4139,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
  <details> 
  <summary>Category Description</summary> 
- A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
+ Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>

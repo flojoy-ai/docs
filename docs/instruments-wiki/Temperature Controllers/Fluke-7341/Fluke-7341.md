@@ -26,16 +26,23 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://download.flukecal.com/pub/literature/7341__Rebrand__ugeng0000.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125987/Instruments/Vendor%20Logos/Fluke.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806166/Instruments/Vendor%20Logos/Fluke.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Fluke** Corporation is the world leader in professional electronic test tools and software for measuring and condition monitoring. <a href="https://us.flukecal.com/">Website</a>.
+**Fluke** Corporation is the world leader in professional electronic test tools and software for measuring and condition monitoring.
 
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 700.0</li>
+  <li>Vendor Website: <a href="https://us.flukecal.com/">here</a></li>
 </ul>
 </details>
 

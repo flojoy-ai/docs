@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/oscilloscopes/tektronix/dpo7000">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728986/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814923/Instruments/Oscilloscopes/DPO7000/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DPO7000</figcaption>
 </figure>
 </a></div>
@@ -227,7 +227,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/oscilloscopes/tektronix/tds224">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729022/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TDS224</figcaption>
 </figure>
 </a></div>

@@ -26,16 +26,23 @@ The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axe
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125992/Instruments/Vendor%20Logos/Newport.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806178/Instruments/Vendor%20Logos/Newport.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications. <a href="https://www.newport.com/">Website</a>.
+Newport provides a wide range of photonics technology and products designed to enhance the capabilities and productivity of our customers' applications.
 
 <ul>
   <li>Headquarters: Irvine, California, United States</li>
   <li>Yearly Revenue (millions, USD): 3500.0</li>
+  <li>Vendor Website: <a href="https://www.newport.com/">here</a></li>
 </ul>
 </details>
 

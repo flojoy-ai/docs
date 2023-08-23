@@ -26,16 +26,23 @@ Currently no description
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126005/Instruments/Vendor%20Logos/SingleQuantum.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806196/Instruments/Vendor%20Logos/SingleQuantum.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-At Single Quantum, we confront every challenge with innovation, dedication, and passion. Founded in 2012, our team emerged as true pioneers of single photon detection technology: we were among the first to manufacture and commercialize superconducting nanowire single photon detectors. Since then, our multi-channel Single Quantum Eos photon detection system has been chosen by more than 100 academic and industrial labs all over the world to perform complex optical measurements. <a href="https://singlequantum.com/">Website</a>.
+At Single Quantum, we confront every challenge with innovation, dedication, and passion. Founded in 2012, our team emerged as true pioneers of single photon detection technology: we were among the first to manufacture and commercialize superconducting nanowire single photon detectors. Since then, our multi-channel Single Quantum Eos photon detection system has been chosen by more than 100 academic and industrial labs all over the world to perform complex optical measurements.
 
 <ul>
   <li>Headquarters: Delft, Zuid-Holland, The Netherlands</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://singlequantum.com/">here</a></li>
 </ul>
 </details>
 

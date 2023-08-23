@@ -26,16 +26,23 @@ The ECC100 is a state-ofthe-art motion controller, allowing the simultaneous ope
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.attocube.com/application/files/6416/3697/3543/Specifications_ECC100.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125972/Instruments/Vendor%20Logos/Attocube.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806147/Instruments/Vendor%20Logos/Attocube.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Attocube** is a leading pioneer for nanotechnology solutions in precision motion and nanopositioning applications, cryogenic microscopy,. <a href="https://www.attocube.com/en">Website</a>.
+**Attocube** is a leading pioneer for nanotechnology solutions in precision motion and nanopositioning applications, cryogenic microscopy,.
 
 <ul>
   <li>Headquarters: Germany</li>
   <li>Yearly Revenue (millions, USD): 14.0</li>
+  <li>Vendor Website: <a href="https://www.attocube.com/en">here</a></li>
 </ul>
 </details>
 

@@ -29,16 +29,23 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125968/Instruments/Vendor%20Logos/Lecroy.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806142/Instruments/Vendor%20Logos/Lecroy.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Teledyne LeCroy, Inc. manufactures and distributes electronic measuring instruments. The Company produces analyzers, measurement, and testing solutions including oscilloscopes, production test digitizers, and electronic components. Teledyne LeCroy serves customers worldwide. <a href="https://www.teledynelecroy.com/">Website</a>.
+Teledyne LeCroy, Inc. manufactures and distributes electronic measuring instruments. The Company produces analyzers, measurement, and testing solutions including oscilloscopes, production test digitizers, and electronic components. Teledyne LeCroy serves customers worldwide.
 
 <ul>
   <li>Headquarters: s	Chestnut Ridge, New York, USA</li>
   <li>Yearly Revenue (millions, USD): 178.0</li>
+  <li>Vendor Website: <a href="https://www.teledynelecroy.com/">here</a></li>
 </ul>
 </details>
 

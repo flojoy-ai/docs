@@ -26,16 +26,23 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://thermotron.com/pdf/_service/software-updates/3800-manual.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125971/Instruments/Vendor%20Logos/Thermotron.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806140/Instruments/Vendor%20Logos/Thermotron.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Thermotron** is a worldwide temperature chamber, humidity chamber, and vibration testing equipment manufacturer. View our testing equipment today!. <a href="https://thermotron.com/">Website</a>.
+**Thermotron** is a worldwide temperature chamber, humidity chamber, and vibration testing equipment manufacturer. View our testing equipment today!.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 89.0</li>
+  <li>Vendor Website: <a href="https://thermotron.com/">here</a></li>
 </ul>
 </details>
 

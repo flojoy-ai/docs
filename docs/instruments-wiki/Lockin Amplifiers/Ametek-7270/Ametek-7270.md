@@ -26,16 +26,23 @@ The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.ameteksi.com/-/media/ameteksi/download_links/documentations/7270/model_7270.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125962/Instruments/Vendor%20Logos/Ametek.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806123/Instruments/Vendor%20Logos/Ametek.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Since 1930, our talented and diverse workforce has been delivering **differentiated technology solutions** to create strong, sustainable and profitable growth. <a href="https://www.ametek.com/">Website</a>.
+Since 1930, our talented and diverse workforce has been delivering **differentiated technology solutions** to create strong, sustainable and profitable growth.
 
 <ul>
   <li>Headquarters: US</li>
   <li>Yearly Revenue (millions, USD): 6200.0</li>
+  <li>Vendor Website: <a href="https://www.ametek.com/">here</a></li>
 </ul>
 </details>
 

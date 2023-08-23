@@ -117,7 +117,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/power-supplies/rohdes-schwarz/hmp-4040">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692729081/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815006/Instruments/Power%20Supplies/HMP-4040/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HMP 4040</figcaption>
 </figure>
 </a></div>
@@ -197,7 +197,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/power-supplies/keithley/keithley-2600">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728510/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815017/Instruments/Power%20Supplies/Keithley-2600/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keithley 2600</figcaption>
 </figure>
 </a></div>

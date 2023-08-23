@@ -29,16 +29,23 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139600/Instruments/Vendor%20Logos/ERAInstruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**ERA Instruments** is a startup technology company based in Istanbul, Turkey. With its young and dynamic engineering team, ERA specializes in: RF Signal Generators. <a href="https://erainstruments.com/#home">Website</a>.
+**ERA Instruments** is a startup technology company based in Istanbul, Turkey. With its young and dynamic engineering team, ERA specializes in: RF Signal Generators.
 
 <ul>
   <li>Headquarters: Turkey</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://erainstruments.com/#home">here</a></li>
 </ul>
 </details>
 

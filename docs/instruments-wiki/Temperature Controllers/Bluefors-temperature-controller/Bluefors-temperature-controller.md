@@ -29,16 +29,23 @@ With a modern and intuitive user interface, you gain direct control and overview
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://bluefors.com/blog/enhanced-user-experience-with-temperature-controller/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126011/Instruments/Vendor%20Logos/Bluefors.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806205/Instruments/Vendor%20Logos/Bluefors.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Bluefors** is the world's leading manufacturer of ultra-low temperature dilution refrigerator measurement systems. <a href="https://bluefors.com/">Website</a>.
+**Bluefors** is the world's leading manufacturer of ultra-low temperature dilution refrigerator measurement systems.
 
 <ul>
   <li>Headquarters: Finland</li>
   <li>Yearly Revenue (millions, USD): 32.0</li>
+  <li>Vendor Website: <a href="https://bluefors.com/">here</a></li>
 </ul>
 </details>
 

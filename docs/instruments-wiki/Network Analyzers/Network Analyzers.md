@@ -146,7 +146,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/network-analyzers/rohdes-schwarz/series">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728979/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692808740/Instruments/Network%20Analyzers/Series/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Series</figcaption>
 </figure>
 </a></div>

@@ -1,10 +1,10 @@
 ---
 title: Connecting to Keysight B1500A by Keysight in Python
 sidebar_label: Keysight B1500A
-description: The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
+description: It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
 keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-wiki/spectrum-analyzers/keysight/keysight-b1500a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815186/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -18,24 +18,31 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more.
+It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728720/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815186/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.keysight.com/us/en/assets/7018-03960/technical-overviews/5991-2443.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software. <a href="https://www.keysight.com/us/en/home.html">Website</a>.
+Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 5420.0</li>
+  <li>Vendor Website: <a href="https://www.keysight.com/us/en/home.html">here</a></li>
 </ul>
 </details>
 

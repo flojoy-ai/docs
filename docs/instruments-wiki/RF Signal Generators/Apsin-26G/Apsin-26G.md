@@ -26,16 +26,23 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.anapico.com/products/rf-signal-generators/single-output-rf-and-microwave-signal-generators/apsin-g-series-up-to-26-ghz/#:~:text=and%20outdoor%20fields.-,Download%20Datasheet,-Request%20for%20Quote">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125957/Instruments/Vendor%20Logos/Anapico.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125957/Instruments/Vendor%20Logos/Anapico.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**AnaPico** is an ISO 9001:2015 certified technology leader, developing, manufacturing and supplying RF and MW test & measurement instruments. <a href="https://www.anapico.com/">Website</a>.
+**AnaPico** is an ISO 9001:2015 certified technology leader, developing, manufacturing and supplying RF and MW test & measurement instruments.
 
 <ul>
   <li>Headquarters: Switzerland</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://www.anapico.com/">here</a></li>
 </ul>
 </details>
 

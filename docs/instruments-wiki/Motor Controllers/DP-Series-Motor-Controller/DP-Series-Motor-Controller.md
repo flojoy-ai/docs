@@ -26,16 +26,23 @@ Anaheim Automation manufactures a variety of Stepper Motor Driver Packs with Pro
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125991/Instruments/Vendor%20Logos/Anaheim_Automation.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806171/Instruments/Vendor%20Logos/Anaheim_Automation.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Unable to find Vendor Description. <a href="https://www.anaheimautomation.com/?gclid=Cj0KCQjwib2mBhDWARIsAPZUn_m78imRVeC4iew-ALEMOH2ABgkCznvLz8KJ7IP3DU4ltd1my9bdZrgaAo0jEALw_wcB">Website</a>.
+Unable to find Vendor Description.
 
 <ul>
   <li>Headquarters: Anaheim, US</li>
   <li>Yearly Revenue (millions, USD): nan</li>
+  <li>Vendor Website: <a href="https://www.anaheimautomation.com/?gclid=Cj0KCQjwib2mBhDWARIsAPZUn_m78imRVeC4iew-ALEMOH2ABgkCznvLz8KJ7IP3DU4ltd1my9bdZrgaAo0jEALw_wcB">here</a></li>
 </ul>
 </details>
 

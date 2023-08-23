@@ -4,7 +4,7 @@ sidebar_label: CC1
 description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
 keywords: [coincidence counters, Qubitekk, InstrumentKit]
 slug: /instruments-wiki/coincidence-counters/qubitekk/cc1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,20 +22,27 @@ Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost 
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Qubitekk provides reliable products for generating, preparing, distributing, detecting, correlating and storing photonic qubits. The hardware that is needed to strengthen American leadership in quantum computing, communications, and sensing solutions is being developed and manufactured in San Diego County, CA. <a href="https://qubitekk.com/">Website</a>.
+Qubitekk provides reliable products for generating, preparing, distributing, detecting, correlating and storing photonic qubits. The hardware that is needed to strengthen American leadership in quantum computing, communications, and sensing solutions is being developed and manufactured in San Diego County, CA.
 
 <ul>
   <li>Headquarters: Vista, California, United States</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://qubitekk.com/">here</a></li>
 </ul>
 </details>
 

@@ -35,16 +35,23 @@ Wide range of PWM frequencies for linear motor support
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://divapps.parker.com/divapps/emn/prior_version_compumotor/cat/english/pgs95_113_gem_servo.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Parker Hannifin Corporation, originally Parker Appliance Company, usually referred to as just Parker, is an American corporation specializing in motion and control technologies. <a href="https://www.parker.com/us/en/home.html">Website</a>.
+Parker Hannifin Corporation, originally Parker Appliance Company, usually referred to as just Parker, is an American corporation specializing in motion and control technologies.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 18000.0</li>
+  <li>Vendor Website: <a href="https://www.parker.com/us/en/home.html">here</a></li>
 </ul>
 </details>
 
