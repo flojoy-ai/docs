@@ -37,11 +37,11 @@ function NodeSection({
         <div
           className={clsx(
             'font-mono',
-            depth === 0 ? 'text-3xl' : 'text-lg',
+            depth === 0 ? ' text-3xl' : 'text-lg',
             v.text
           )}
         >
-          {title}
+          {title.concat(depth === 0 ? ' nodes' : '')}
         </div>
         <GoTriangleUp
           className={clsx(

@@ -19,6 +19,7 @@ export default function Explore() {
 
   return (
     <Layout title="Explore">
+      <h1 style={{margin:'20px', color:'#8C9699', textAlign:'center'}}>⎈ Nodes Explorer</h1>
       {Object.entries(data).map(([title, val]) => {
         const variant = variantMap[title];
         const v = variants[variant];
