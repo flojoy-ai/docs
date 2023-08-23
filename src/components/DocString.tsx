@@ -63,7 +63,7 @@ export default function DocString({ children }: DocStringProps) {
     {
       name: 'data-container-type',
       match:
-        /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer)/,
+        /^(OrderedPair|DataFrame|OrderedTriple|Greyscale|Matrix|Image|Scalar|DataContainer|Vector)/,
     },
   ];
 
