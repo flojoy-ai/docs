@@ -54,6 +54,6 @@ dc = cloud.to_matlab(dc)
 `dc_id` is the identifier for the cloud based `DataContainer` here. This value is important in order to load the data later. `cloud.fetch_dc` returns the data still stored in the format used by the cloud. In order to return that data to a Matlab data type use `cloud.to_matlab`.
 
 The current supported types of `DataContainer` are as follows: 
-`OrderedPair, OrderedTriple, DataFrame, Grayscale, Matrix, Scalar, Vector, Image`. Note that for `store_dc` and similar functions, the `dc_type` argument must be included in this list (including captical letters).
+`OrderedPair, OrderedTriple, DataFrame, Grayscale, Matrix, Scalar, Vector, Image`. Note that for `store_dc` and similar functions, the `dc_type` argument must be included in this list (including capital letters).
 
 For more in depth examples see [example.m](https://github.com/flojoy-ai/matlab/blob/main/examples.m).
