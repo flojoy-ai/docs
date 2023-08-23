@@ -54,7 +54,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/keithley/dmm6500-keithley">
+<a href="/instruments-wiki/multimeters/keithley/DMM6500-keithley">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>DMM6500 Keithley</figcaption>
@@ -84,7 +84,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/hp/hp-3437a">
+<a href="/instruments-wiki/multimeters/hp/HP-3437a">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639102/Instruments/Multimeters/HP-3437A/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>HP 3437A</figcaption>
@@ -324,7 +324,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/multimeters/generic-scpi/scpi-multimeter">
+<a href="/instruments-wiki/multimeters/generic-scpi/SCPI-multimeter">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI multimeter</figcaption>

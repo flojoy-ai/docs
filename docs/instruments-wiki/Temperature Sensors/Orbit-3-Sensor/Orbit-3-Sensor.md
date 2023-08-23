@@ -26,16 +26,23 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://maturix.com/wp-content/uploads/2023/03/Orbit-3_V1.5_February2022-1.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692373312/Instruments/Vendor%20Logos/Maturix.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806128/Instruments/Vendor%20Logos/Maturix.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Maturix® is the smart solution addressing the needs of the construction and concrete industry. Our aim is to increase the ease of collecting, analysing and understanding your businesses data, through wireless sensing solutions. <a href="https://maturix.com/">Website</a>.
+Maturix® is the smart solution addressing the needs of the construction and concrete industry. Our aim is to increase the ease of collecting, analysing and understanding your businesses data, through wireless sensing solutions.
 
 <ul>
   <li>Headquarters: Denmark</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://maturix.com/">here</a></li>
 </ul>
 </details>
 

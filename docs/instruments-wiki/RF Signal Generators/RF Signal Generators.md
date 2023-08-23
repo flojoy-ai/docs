@@ -407,7 +407,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-wiki/rf-signal-generators/national-instruments/rfsg">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692728685/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692809007/Instruments/RF%20Signal%20Generators/RFSG/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>RFSG</figcaption>
 </figure>
 </a></div>

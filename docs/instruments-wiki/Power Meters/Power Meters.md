@@ -235,7 +235,7 @@ You can find all the available instruments from the sidebar
 
 <div className="p-4">
 
-<a href="/instruments-wiki/power-meters/quantum-design/ppms-dynacool">
+<a href="/instruments-wiki/power-meters/quantum-design/PPMS-dynacool">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395539/Instruments/Power%20Meters/PPMS-Dynacool/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>

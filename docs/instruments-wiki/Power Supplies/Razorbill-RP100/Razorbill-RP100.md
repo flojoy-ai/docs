@@ -31,16 +31,23 @@ controlled strains and stresses to the material.
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://razorbillinstruments.com/wp-content/uploads/2018/10/RP100-Manual-v6.1-1.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125964/Instruments/Vendor%20Logos/Razorbill_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806126/Instruments/Vendor%20Logos/Razorbill_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Manufacturer of precision instruments intended for use in fundamental physics and space applications. The company manufactures electromechanical mechanisms to apply tunable uniaxial strains at low temperatures and high magnetic fields and provides expertise in the field of design for cryogenic environments, compliant mechanisms and compact systems for applying and measuring strain, enabling clients to incorporate a number of unique key technologies that allow them to have such high performance and repeatability. <a href="https://razorbillinstruments.com/">Website</a>.
+Manufacturer of precision instruments intended for use in fundamental physics and space applications. The company manufactures electromechanical mechanisms to apply tunable uniaxial strains at low temperatures and high magnetic fields and provides expertise in the field of design for cryogenic environments, compliant mechanisms and compact systems for applying and measuring strain, enabling clients to incorporate a number of unique key technologies that allow them to have such high performance and repeatability.
 
 <ul>
   <li>Headquarters: Edinburgh, United Kingdom</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://razorbillinstruments.com/">here</a></li>
 </ul>
 </details>
 

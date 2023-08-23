@@ -16,7 +16,7 @@ You can find all the available instruments from the sidebar
 
  <details> 
  <summary>Category Description</summary> 
- A temperature sensor is an electronic device that measures the temperature of its environment and converts the input data into electronic data to record, monitor, or signal temperature changes. 
+ Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
  </details> 
 
  <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>

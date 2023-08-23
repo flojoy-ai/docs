@@ -26,16 +26,23 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.photometrics.com/wp-content/uploads/2023/03/Kinetix-Datasheet-Rev-A3-08032023.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125958/Instruments/Vendor%20Logos/Teledyne.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692812958/Instruments/Vendor%20Logos/Teledyne_technologies.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Teledyne** provides enabling technologies to sense, transmit and analyze information for industrial growth markets. <a href="https://www.teledyne.com">Website</a>.
+**Teledyne** provides enabling technologies to sense, transmit and analyze information for industrial growth markets.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 4614.0</li>
+  <li>Vendor Website: <a href="https://www.teledyne.com">here</a></li>
 </ul>
 </details>
 

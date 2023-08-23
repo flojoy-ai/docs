@@ -26,16 +26,23 @@ Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125984/Instruments/Vendor%20Logos/Standa.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806162/Instruments/Vendor%20Logos/Standa.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Standa has it's own industrial base that includes CNC turning, milling, grinding machines. Standa's design department, while developing standard products presented in Standa's catalogue (such as motorized and manual translation and rotation stages, motion controllers, optical tables, vibration isolation systems, optical mounts and holders, optics, dpss lasers and etc.) also develops the equipment for OEM customers. Some examples of it, after the agreement with OEM customers, are shown on this website. Standa currently has several laser product development laboratories. <a href="https://www.standa.lt/">Website</a>.
+Standa has it's own industrial base that includes CNC turning, milling, grinding machines. Standa's design department, while developing standard products presented in Standa's catalogue (such as motorized and manual translation and rotation stages, motion controllers, optical tables, vibration isolation systems, optical mounts and holders, optics, dpss lasers and etc.) also develops the equipment for OEM customers. Some examples of it, after the agreement with OEM customers, are shown on this website. Standa currently has several laser product development laboratories.
 
 <ul>
   <li>Headquarters: Lithuania</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://www.standa.lt/">here</a></li>
 </ul>
 </details>
 

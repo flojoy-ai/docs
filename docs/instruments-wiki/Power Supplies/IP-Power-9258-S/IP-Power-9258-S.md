@@ -26,16 +26,23 @@ IP9258 is a web controller which can be easily used in the industry field
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.aviosys.com/products/downloads/manuals/power/9258S-T-SP-TP_manual.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692126000/Instruments/Vendor%20Logos/Aviosys.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126000/Instruments/Vendor%20Logos/Aviosys.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Aviosys** IP POWER is a remote power management device that allows you to control power on/off and monitor power status of connected devices. <a href="https://www.aviosys.com/">Website</a>.
+**Aviosys** IP POWER is a remote power management device that allows you to control power on/off and monitor power status of connected devices.
 
 <ul>
   <li>Headquarters: Taiwan</li>
   <li>Yearly Revenue (millions, USD): 5.0</li>
+  <li>Vendor Website: <a href="https://www.aviosys.com/">here</a></li>
 </ul>
 </details>
 

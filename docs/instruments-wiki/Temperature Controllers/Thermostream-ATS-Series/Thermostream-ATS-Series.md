@@ -26,16 +26,23 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.intestthermal.com/temptronic/brochure-request?brochure_title=ATS-605%20THERMOSTREAM%C2%AE%20DATASHEET%20AND%20SPECIFICATIONS&brand_interest=Temptronic&brand_sub_folder=temptronic&file_name=TemperatureForcing_ATS605.pdf&product=ThermoStream&hsLang=en">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125985/Instruments/Vendor%20Logos/Temptronic.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806163/Instruments/Vendor%20Logos/Temptronic.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Temptronic** temperature forcing systems, are designed for testing and characterization of semiconductors, ICs, chips, electronics, and materials. <a href="https://www.intestthermal.com/temptronic">Website</a>.
+**Temptronic** temperature forcing systems, are designed for testing and characterization of semiconductors, ICs, chips, electronics, and materials.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 19.0</li>
+  <li>Vendor Website: <a href="https://www.intestthermal.com/temptronic">here</a></li>
 </ul>
 </details>
 

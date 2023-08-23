@@ -26,16 +26,23 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="/instruments-wiki/all-instruments/">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125989/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806169/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision. <a href="https://www.ni.com/en-ca.html">Website</a>.
+A producer of automated test equipment and virtual instrumentation software. Common applications include data acquisition, instrument control and machine vision.
 
 <ul>
   <li>Headquarters: Austin, Texas, USA</li>
   <li>Yearly Revenue (millions, USD): 1657.0</li>
+  <li>Vendor Website: <a href="https://www.ni.com/en-ca.html">here</a></li>
 </ul>
 </details>
 

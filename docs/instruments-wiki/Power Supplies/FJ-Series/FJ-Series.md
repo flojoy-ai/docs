@@ -26,16 +26,23 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.xppower.com/portals/0/pdfs/SF_FJ.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125998/Instruments/Vendor%20Logos/Glassman.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806188/Instruments/Vendor%20Logos/Glassman.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC converters, high voltage, RF & custom **power** products? Discover our extensive range. <a href="https://www.xppower.com">Website</a>.
+Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC converters, high voltage, RF & custom **power** products? Discover our extensive range.
 
 <ul>
   <li>Headquarters: Singapore</li>
   <li>Yearly Revenue (millions, USD): 295.0</li>
+  <li>Vendor Website: <a href="https://www.xppower.com">here</a></li>
 </ul>
 </details>
 

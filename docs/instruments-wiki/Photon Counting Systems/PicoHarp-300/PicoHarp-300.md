@@ -26,16 +26,23 @@ The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Singl
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.picoquant.com/images/uploads/downloads/7304-picoharp300.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125981/Instruments/Vendor%20Logos/PicoQuant.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125981/Instruments/Vendor%20Logos/PicoQuant.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-The PicoQuant group was founded in 1996 to develop robust, compact, and easy to use time-resolved instrumentation and systems. Since April 2008 sales and support in North America is handled by PicoQuant Photonics North America Inc. In January 2010, the PicoQuant group was extended by PicoQuant Innovations, which was founded to support the increasing activities in the field of teaching, customer support, and event organization. <a href="https://www.picoquant.com/">Website</a>.
+The PicoQuant group was founded in 1996 to develop robust, compact, and easy to use time-resolved instrumentation and systems. Since April 2008 sales and support in North America is handled by PicoQuant Photonics North America Inc. In January 2010, the PicoQuant group was extended by PicoQuant Innovations, which was founded to support the increasing activities in the field of teaching, customer support, and event organization.
 
 <ul>
   <li>Headquarters: Berlin, Germany</li>
   <li>Yearly Revenue (millions, USD): 14.7</li>
+  <li>Vendor Website: <a href="https://www.picoquant.com/">here</a></li>
 </ul>
 </details>
 

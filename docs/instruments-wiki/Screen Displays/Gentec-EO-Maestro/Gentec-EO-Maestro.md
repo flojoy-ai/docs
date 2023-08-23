@@ -26,16 +26,23 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://downloads.gentec-eo.com/prod/cecfd555/MAESTRO-Product-specifications-Gentec-EO.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125988/Instruments/Vendor%20Logos/Gentec_Eo.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692813160/Instruments/Vendor%20Logos/GentecEO.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Gentec-EO is a manufacturer of laser beam measurement technologies. <a href="https://www.gentec-eo.com/">Website</a>.
+Gentec-EO is a manufacturer of laser beam measurement technologies.
 
 <ul>
-  <li>Headquarters: Canda - QC</li>
+  <li>Headquarters: Canada - QC</li>
   <li>Yearly Revenue (millions, USD): 14.0</li>
+  <li>Vendor Website: <a href="https://www.gentec-eo.com/">here</a></li>
 </ul>
 </details>
 

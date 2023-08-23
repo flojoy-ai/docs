@@ -26,16 +26,23 @@ The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-meg
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.raspberrypi.com/documentation/accessories/camera.html">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125961/Instruments/Vendor%20Logos/RaspberryPi.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806122/Instruments/Vendor%20Logos/RaspberryPi.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Raspberry Pi** is a series of small single-board computers (SBCs) developed in the United Kingdom by the **Raspberry Pi** Foundation in association with Broadcom. <a href="https://www.raspberrypi.org/">Website</a>.
+**Raspberry Pi** is a series of small single-board computers (SBCs) developed in the United Kingdom by the **Raspberry Pi** Foundation in association with Broadcom.
 
 <ul>
   <li>Headquarters: UK</li>
   <li>Yearly Revenue (millions, USD): 44.0</li>
+  <li>Vendor Website: <a href="https://www.raspberrypi.org/">here</a></li>
 </ul>
 </details>
 

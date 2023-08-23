@@ -26,16 +26,23 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://andor.oxinst.com/assets/uploads/products/andor/documents/andor-shamrock-750-specifications.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125995/Instruments/Vendor%20Logos/Andor.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806182/Instruments/Vendor%20Logos/Andor.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy Systems. <a href="https://andor.oxinst.com/">Website</a>.
+Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy Systems.
 
 <ul>
   <li>Headquarters: UK</li>
   <li>Yearly Revenue (millions, USD): 230.0</li>
+  <li>Vendor Website: <a href="https://andor.oxinst.com/">here</a></li>
 </ul>
 </details>
 

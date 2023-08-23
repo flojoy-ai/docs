@@ -26,16 +26,23 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 
 </div>
 
-<details>
+<div className="flex text-center">
+
+<p>Device Specification: <a target="\_blank" href="https://www.newmarksystems.com/downloads/software/NSC-A/NSC-A1/NSC-A1_Manual_Rev_1.3.0.pdf">here</a></p>
+
+</div>
+
+<details style={{ marginTop: "15px"}}>
 <summary><h2>Manufacturer Card</h2></summary>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692125976/Instruments/Vendor%20Logos/Newmark.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806153/Instruments/Vendor%20Logos/Newmark.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-**Newmark Systems** is a world leader in precision rotary table technology designed for critical positioning applications. <a href="https://www.newmarksystems.com/">Website</a>.
+**Newmark Systems** is a world leader in precision rotary table technology designed for critical positioning applications.
 
 <ul>
   <li>Headquarters: USA</li>
   <li>Yearly Revenue (millions, USD): 12.0</li>
+  <li>Vendor Website: <a href="https://www.newmarksystems.com/">here</a></li>
 </ul>
 </details>
 
