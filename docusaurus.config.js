@@ -138,7 +138,7 @@ const config = {
                 label: 'Flojoy Studio UI',
               },
               {
-                href: '/cloud/documentation',
+                href: '/cloud/introduction',
                 label: 'Flojoy Cloud',
               },              
               {
@@ -190,6 +190,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['matlab']
       },
       scripts: {
         src: 'https://cdn.usefathom.com/script.js',
