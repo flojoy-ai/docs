@@ -68,6 +68,6 @@ returning:
 `dcid` is the identifier for the cloud based `DataContainer` here. This value is important in order to load the data later. `my_data_container` is the data still stored in the format used by the cloud. In order to return that data to a Pythonic data type use `remote.to_python(dc=my_data_container)`. 
 
 The current supported types of `DataContainer` are as follows: 
-`OrderedPair, OrderedTriple, DataFrame, Grayscale, Matrix, Scalar, Vector, Image`. Note that for `store_dc` and similar functions, the second argument must be included in this list (including captical letters).
+`OrderedPair, OrderedTriple, DataFrame, Grayscale, Matrix, Scalar, Vector, Image`. Note that for `store_dc` and similar functions, the second argument must be included in this list (including capital letters).
 
 For further usage examples see the notebook: [cloud.ipynb](/img/cloud/cloud.ipynb) (download warning).
