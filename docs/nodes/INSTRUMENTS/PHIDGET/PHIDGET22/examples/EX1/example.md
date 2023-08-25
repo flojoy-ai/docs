@@ -8,13 +8,11 @@ The [`PHIDGET22`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/PHIDG
 
 The [`BAR`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/BAR/BAR.py) node displays all pressure measurements on the same figure.
 
-The [`END`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/TERMINATORS/END/END.py) node terminates the process.
-
 **Calibration:**
 
-- Apply known pressures (at least 4) and measure sensor voltages with the Phidget control panel. 
+- Apply known pressures (at least 4) and measure sensor voltages with the Phidget control panel.
 - Plot the voltage as a function of the forces applied. You can choose the unit of your choice.
 - Find the linear equation (y=ax+b) between the voltage measured and the pressure applied on the sensor.
 - A and B are the calibration parameters used to convert voltage into pressure.
 
-To update the measurements with time, you can add the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) and the [`GOTO`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/GOTO/GOTO.py) nodes to create a loop. (Refer to the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node documentation for the loop settings).
+To update the measurements with time, you can add the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node to create a loop. (Refer to the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node documentation for the loop settings).
