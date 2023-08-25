@@ -42,10 +42,10 @@ import appImg from './examples/EX1/app.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'><Media/></AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/appendix/'><Media /></AppendixSection>

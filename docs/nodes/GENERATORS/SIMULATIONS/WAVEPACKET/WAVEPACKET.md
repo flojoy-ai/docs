@@ -42,10 +42,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'><Media/></AppendixSection>
+<AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/WAVEPACKET/appendix/'><Media /></AppendixSection>

@@ -41,10 +41,6 @@ export default function AppendixSection({
   const SECTION = sections[index];
   const HREF = ROOT + folderPath + fileNames[index];
 
-  console.log(children);
-  // const isDriverDoc =
-  //   typeof children === 'string' && children.includes('Driver doc :');
-
   return (
     <>
       <br />
