@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 import { useLocation } from '@docusaurus/router';
 
 type AppendixSectionProps = {
-  children: string;
+  children: React.ReactNode;
   index: number;
   folderPath: string;
 };
@@ -13,7 +12,9 @@ export default function AppendixSection({
   index,
   folderPath,
 }: AppendixSectionProps) {
+  // FIXME: Clean this up this is kinda dirty
   const location = useLocation();
+
   const isIONode = location.pathname.indexOf('INSTRUMENTS') !== -1;
 
   // Don't display hardware info on non IO nodes
@@ -40,9 +41,6 @@ export default function AppendixSection({
   const SECTION = sections[index];
   const HREF = ROOT + folderPath + fileNames[index];
 
-  const isDriverDoc =
-    typeof children === 'string' && children.includes('Driver doc :');
-
   return (
     <>
       <br />
@@ -52,11 +50,7 @@ export default function AppendixSection({
             <h4>{SECTION}</h4>
           </span>
         </summary>
-        {isDriverDoc ? null : children !== '' ? (
-          <ReactMarkdown>{children}</ReactMarkdown>
-        ) : (
-          <ReactMarkdown>{boilerplate[index]}</ReactMarkdown>
-        )}
+        {children || boilerplate[index]}
         <br />
         <small>
           <i>
