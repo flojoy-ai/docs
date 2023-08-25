@@ -19,6 +19,7 @@ import HandleComponent from './components/HandleComponent';
 import NodeWrapper from './components/NodeWrapper';
 import PeakFinder from './assets/nodes/PeakFinder';
 import RegionInspector from './assets/nodes/RegionInspector';
+import Heatmap from './assets/nodes/Heatmap';
 
 const chartElemMap: { [func: string]: React.JSX.Element } = {
   SCATTER: <Scatter />,
@@ -39,6 +40,7 @@ const chartElemMap: { [func: string]: React.JSX.Element } = {
   TEXT_VIEW: <Table />,
   EXTREMA_DETERMINATION: <PeakFinder />,
   REGION_PROPERTIES: <RegionInspector />,
+  HEATMAP: <Heatmap/>
 };
 
 const VisorNode = (props: CustomNodeProps) => {
