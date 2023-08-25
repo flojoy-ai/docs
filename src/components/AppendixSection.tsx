@@ -53,9 +53,9 @@ export default function AppendixSection({
           </span>
         </summary>
         {isDriverDoc ? null : children !== '' ? (
-          <ReactMarkdown>{children}</ReactMarkdown>
+          <ReactMarkdown skipHtml={false}>{children}</ReactMarkdown>
         ) : (
-          <ReactMarkdown>{boilerplate[index]}</ReactMarkdown>
+          <ReactMarkdown skipHtml={false}>{boilerplate[index]}</ReactMarkdown>
         )}
         <br />
         <small>
