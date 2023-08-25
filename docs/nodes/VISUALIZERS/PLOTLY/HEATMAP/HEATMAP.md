@@ -1,4 +1,3 @@
-
 [//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
@@ -17,8 +16,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='VISUALIZERS/PLOTLY/HEATMAP/HEATMAP.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
-
-    
 
 [//]: # 'Examples'
 
@@ -54,8 +51,6 @@ import App2  from '!!raw-loader!./examples/EX2/app.txt';
 <Example2 />
 
 <SectionBreak />
-  
-    
 
 [//]: # 'Appendix'
 
@@ -69,6 +64,6 @@ import Media from './appendix/media.md';
 
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/HEATMAP/appendix/'>{Hardware}</AppendixSection>
 
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HEATMAP/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HEATMAP/appendix/'><Media/></AppendixSection>
 
 

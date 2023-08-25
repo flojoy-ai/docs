@@ -46,12 +46,12 @@ import appImg from './examples/EX1/app.jpeg'
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Media from './appendix/media.md';
 
 ## Appendix
 
 <AppendixSection index={0} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/appendix/'><Media/></AppendixSection>
 
 

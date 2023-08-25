@@ -46,12 +46,12 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Media from './appendix/media.md';
 
 ## Appendix
 
 <AppendixSection index={0} folderPath='nodes/LOADERS/CLOUD_DATABASE/LOADER/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/LOADERS/CLOUD_DATABASE/LOADER/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/LOADER/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/LOADER/appendix/'><Media/></AppendixSection>
 
 

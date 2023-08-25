@@ -45,12 +45,12 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Media from './appendix/media.md';
 
 ## Appendix
 
 <AppendixSection index={0} folderPath='nodes/SCIPY/stats/ANDERSON/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/SCIPY/stats/ANDERSON/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/SCIPY/stats/ANDERSON/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/SCIPY/stats/ANDERSON/appendix/'><Media/></AppendixSection>
 
 

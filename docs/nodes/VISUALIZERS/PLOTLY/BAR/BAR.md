@@ -45,10 +45,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 import Notes from '!!raw-loader!./appendix/notes.md';
 import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Media from './appendix/media.md';
 
 <AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/BAR/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/BAR/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/BAR/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/BAR/appendix/'><Media/></AppendixSection>
 
 
