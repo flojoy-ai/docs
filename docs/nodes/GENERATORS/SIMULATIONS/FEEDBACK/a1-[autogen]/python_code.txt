@@ -1,16 +1,16 @@
-from typing import Optional
-from flojoy import flojoy, DataContainer, get_job_result, NodeReference
+from typing import Optional, Any
+from flojoy import flojoy, DataContainer, get_job_result, NodeReference, JobResultBuilder
 
 
 @flojoy
 def FEEDBACK(
     referred_node: NodeReference,
     default: Optional[DataContainer] = None,
-) -> Optional[DataContainer]:
+) -> Any:
     
 
     result = get_job_result(referred_node.ref)
     if result:
         return result
     else:
-        return default
+        return JobResultBuilder().from_inputs([default] if default else []).flow_to_directions(["default"]).build()
