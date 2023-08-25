@@ -9,7 +9,6 @@ export default function LoomEmbedder({VLink} : LoomEmbedderProps){
         <div style={{
             position: "relative",
             paddingBottom: "52.916666666666664%",
-            width: 730, height: 330
         }}>
             <iframe
                 src={`${VLink}`}
