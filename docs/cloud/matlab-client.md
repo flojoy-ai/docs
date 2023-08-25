@@ -36,6 +36,11 @@ cloud = FlojoyCloud;
 cloud.api_key = loadflojoyconfig;
 ```
 
+You must then create a `measurement` to store data in.
+```matlab
+meas_id = cloud.create_measurement('example_name');
+```
+
 Then to save and load a simple dataset with the cloud: 
 
 ```matlab
@@ -43,15 +48,16 @@ Then to save and load a simple dataset with the cloud:
 data = [12 14; 5 12];
 dc_type = "Matrix";
 
-% Store the example dataset to the cloud.
-dc_id = cloud.store_dc(data, dc_type);
+% Store a datacontainer in the created measurement folder.
+dcid = cloud.store_dc(data, dc_type, meas_id);
 
-% Load the example dataset from the cloud.
-dc = cloud.fetch_dc(dc_id);
-dc = cloud.to_matlab(dc)
+% You can fetch a DataContainer without specifying the measurement ID.
+dc = cloud.fetch_dc(dcid);
 ```
 
 `dc_id` is the identifier for the cloud based `DataContainer` here. This value is important in order to load the data later. `cloud.fetch_dc` returns the data still stored in the format used by the cloud. In order to return that data to a Matlab data type use `cloud.to_matlab`.
+
+Note that to store data, the measurement ID must be used in `store_dc`. However, to load data with `fetch_dc`, only the datacontainer ID is needed.
 
 The current supported types of `DataContainer` are as follows: 
 `OrderedPair, OrderedTriple, DataFrame, Grayscale, Matrix, Scalar, Vector, Image`. Note that for `store_dc` and similar functions, the `dc_type` argument must be included in this list (including capital letters).
