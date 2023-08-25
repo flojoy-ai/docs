@@ -7,7 +7,7 @@ import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { downloadLinks } from '../utils/helper';
 import QuickStart from '../components/QuickStart';
-import { FaApple, FaWindows } from 'react-icons/fa';
+import { FaApple, FaWindows, FaLinux } from 'react-icons/fa';
 
 function HomepageHeader() {
   useEffect(() => {
@@ -55,6 +55,15 @@ function HomepageHeader() {
               >
                 <FaApple />
                 <span className="">Download For Mac</span>
+              </Link>
+            </div>
+            <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
+              <Link
+                className="flex items-center gap-2 p-4 text-xl font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black"
+                to={downloadLinks.linux}
+              >
+                <FaLinux />
+                <span className="">Download For Linux</span>
               </Link>
             </div>
           </div>
