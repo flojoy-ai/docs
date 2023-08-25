@@ -1,13 +1,14 @@
 
-[//]: # (Custom component imports)
+[//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
+import LoomEmbedder from '@site/src/components/LoomEmbedder';
 
-[//]: # (Docstring)
+[//]: # 'Docstring'
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -19,7 +20,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
     
 
-[//]: # (Examples)
+[//]: # 'Examples'
 
 ## Examples
 
@@ -42,7 +43,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.txt';
   
     
 
-[//]: # (Appendix)
+[//]: # 'Appendix'
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
