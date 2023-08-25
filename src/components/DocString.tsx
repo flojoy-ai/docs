@@ -71,7 +71,7 @@ export default function DocString({ children }: DocStringProps) {
   if (isBrowser) {
     try {
       highlight({ patterns: patterns });
-    } catch(e) {
+    } catch (e) {
       console.warn('Docstring highlight failed ', e);
     }
   }
