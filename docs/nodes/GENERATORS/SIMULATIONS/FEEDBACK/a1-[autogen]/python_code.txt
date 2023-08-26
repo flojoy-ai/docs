@@ -12,7 +12,7 @@ from flojoy import (
 def FEEDBACK(
     referred_node: NodeReference,
     default: Optional[DataContainer] = None,
-) -> Any:
+) -> Optional[DataContainer]:
     
 
     result = get_job_result(referred_node.ref)

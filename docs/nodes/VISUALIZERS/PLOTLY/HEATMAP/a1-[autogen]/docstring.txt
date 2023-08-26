@@ -2,13 +2,15 @@ The HEATMAP node creates a Plotly Heatmap visualization for a given input data c
 
     Inputs
     ------
-    default : OrderedPair|OrderedTriple|DataFrame|Vector|Matrix
+    default : OrderedPair|OrderedTriple|DataFrame|Vector|Matrix|Grayscale
         the DataContainer to be visualized
 
     Parameters
     ----------
     show_text : bool
         whether to show the text inside the heatmap color blocks
+    histogram : bool
+        whether or not to render a histogram of the image next to the render
 
     Returns
     -------
