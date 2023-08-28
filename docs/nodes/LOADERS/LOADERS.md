@@ -24,9 +24,9 @@ Here you can find information about all the Flojoy nodes that load data.
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/LOADERS/CLOUD_DATABASE/LOADER/">
+<a href="/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/LOADERS/CLOUD_DATABASE/LOADER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/LOADERS/CLOUD_DATABASE_DOWNLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LOADER</figcaption>
 </figure>
 </a></div>
