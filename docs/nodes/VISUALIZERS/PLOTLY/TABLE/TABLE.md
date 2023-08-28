@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: TABLE
+description: Enhance data presentation with Python using Flojoy's Plotly Table visualizer. Create dynamic tables for organized and insightful data representation.
+keywords: [Python, Visualize, Plotly, Plotly Table visualizer, Python data table tool, Dynamic table creation, Table visualization examples, Flojoy Plotly nodes, Interactive data tables, Python data representation, Table creation with Plotly, Visualizing data with tables, Data table analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/TABLE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

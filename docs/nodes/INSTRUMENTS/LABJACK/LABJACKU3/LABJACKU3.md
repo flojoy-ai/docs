@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LABJACKU3
+description: Efficiently integrate LabJack U3 instruments with Python. The LABJACKU3 node allows you to record and return temperature measurements with a LABJACK U3 device.
+keyword: [Python, Instrument, LabJack U3 instrument control, Python integration with LabJack, Measurement and analysis, Python-based instrument control, LabJack U3 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline LabJack usage, Accurate data analysis, Python control of LabJack U3]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/LABJACK/LABJACKU3/examples/EX1/output.jpeg
+--- 
 
 [//]: # (Custom component imports)
 

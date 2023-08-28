@@ -4,7 +4,7 @@ from typing import Literal
 
 
 @flojoy(deps={"scikit-image": "0.21.0"})
-def SKLEARNIMAGE(
+def SKIMAGE(
     img_key: Literal[
         "astronaut",
         "binary_blobs",

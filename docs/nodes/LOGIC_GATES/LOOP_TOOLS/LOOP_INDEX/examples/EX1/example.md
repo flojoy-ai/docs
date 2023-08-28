@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LOOP_INDEX
+description: In this example, we show a simple way to create a Python loop with Flojoy. The parameter for the LOOP node was set to 100 loops (the default is "-"1, which causes the loop to repeat indefinitely).
+keyword: [Python, Flow, Logic gates, Loop, Loop logic gate, Python loop operations, Data manipulation with looping, Streamline data processing, Loop"-"driven transformations, Looping in Python, Python data analysis, Accurate data insights, Data processing using LOOP logic gate, Data manipulation using looping in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP_INDEX/examples/EX1/output.jpeg
+---
 
 In this example, we show a simple way to create a loop with Flojoy: 
 

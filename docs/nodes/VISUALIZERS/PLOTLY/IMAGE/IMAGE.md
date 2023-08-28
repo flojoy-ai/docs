@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: IMAGE
+description: The IMAGE node creates a Plotly image visualization for a given input data container type of image.
+keywords: [Python, Visualize, Plotly, Plotly Image visualizer, Python image data visualization, Visualizing images with Plotly, Image plot examples, Flojoy Plotly nodes, Interactive image visualization, Python data visualization tools, Image representation techniques, Plotly for image insights, Image data exploration]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/IMAGE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

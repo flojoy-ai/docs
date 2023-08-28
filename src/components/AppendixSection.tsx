@@ -28,12 +28,6 @@ export default function AppendixSection({
     'Media',
   ];
 
-  const boilerplate = [
-    'No theory or technical notes have been contributed for this node yet.',
-    'This node does not require any peripheral hardware to operate. Please see INSTRUMENTS for nodes that interact with the physical world through connected hardware.',
-    'No supporting screenshots, photos, or videos have been added to the media.md file for this node.',
-  ];
-
   const ROOT = 'https://github.com/flojoy-io/docs/tree/main/docs/';
 
   const fileNames = ['notes.md', 'hardware.md', 'media.md'];
@@ -50,7 +44,7 @@ export default function AppendixSection({
             <h4>{SECTION}</h4>
           </span>
         </summary>
-        {children || boilerplate[index]}
+        {children}
         <br />
         <small>
           <i>

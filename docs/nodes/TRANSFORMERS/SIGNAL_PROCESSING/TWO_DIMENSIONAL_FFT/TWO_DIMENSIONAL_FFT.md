@@ -1,3 +1,9 @@
+---
+title: TWO_DIMENSIONAL_FFT
+description: The Python"-"powered TWO_DIMENSIONAL_FFT node performs a two"-"dimensional fourier transform on the input matrix.
+keyword: [Python, Transform, Signal processing, Two-dimensional FFT transformer, Signal processing in Python, Data analysis with 2D FFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, 2D FFT calculation in Python, Python data manipulation, Accurate data insights, Frequency analysis using 2D FFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

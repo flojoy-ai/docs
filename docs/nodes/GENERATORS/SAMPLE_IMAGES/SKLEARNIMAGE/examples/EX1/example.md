@@ -1,3 +1,0 @@
-<!--- Add SEO here --->
-
-In this example, the `SKLEARNIMAGE` node takes one parameter, `img_key`, which is the name of the sample image, and loads it from the `scikit-image` package. In this case, `astronaut` is the default value of this parameter. It then passes an `image` type object (r,g,b,a), from the `DataContainer` class, to the `OBJECT_DETECTION` node using the `opencv` Python library. Finally, the current script is terminated with the `END` node, which is the same as its parent node.

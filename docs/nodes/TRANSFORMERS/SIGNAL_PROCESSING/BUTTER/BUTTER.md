@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: BUTTER
+description: The BUTTER node applies a butterworth filter to an input signal. It is designed to have a frequency response that is as flat as possible in the pass band.
+keyword: [Python, Transform, Signal processing, Butterworth filter transformer, Signal processing in Python, Data filtering with Butterworth, Python filter calculations, Streamline data analysis, Signal processing transformations, Butterworth filter design, Python data manipulation, Accurate data insights, Signal filtering using Butterworth]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: ORDERED_TRIPLE_2_SURFACE
+description: Efficiently convert ordered triples to surfaces using Python with Flojoy's ORDERED_TRIPLE_2_SURFACE type casting transformer. It reshapes the z array into a 2D grid using the unique values of x and y. 
+keyword: [Python, Transform, Type casting, Ordered triple to surface conversion, Python type casting transformer, Data conversion with ORDERED_TRIPLE_2_SURFACE, Python data manipulation, Streamline data processing, Data transformation techniques, Surface creation from ordered triples, Python data analysis, Accurate data insights, Data manipulation using ORDERED_TRIPLE_2_SURFACE]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SUBTRACT
+description: Effortlessly perform Python-based subtraction calculations with Flojoy's SUBTRACT transformer. Subtract 2 input vectors and return the result.
+keyword: [Python, Transform, Arithmetic, Subtract, Subtraction transformer, Python subtraction calculations, Data processing with subtraction, Flojoy SUBTRACT transformer, Streamline data analysis, Arithmetic transformations, Subtraction calculation, Python data manipulation, Accurate data insights, SUBTRACT transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
