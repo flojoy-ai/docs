@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DOUBLE_INDEFINITE_INTEGRAL
+description: The DOUBLE_INDEFINITE_INTEGRAL node will reshape the 3 columns in matrices and use them to output a matrix of the same dimension as the 3 reshaped matrices. In this matrix, the volume is computed up to that given point within each cell.
+keyword: [Python, Transform, Calculus, Indefinite integral, Double indefinite integral transformer, Calculus operations in Python, Data integration with Flojoy, Python integration calculations, 
+Calculus transformations, Double integral calculation, Python data manipulation, Accurate data insights, Indefinite integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/examples/EX1/output.jpeg
+---
 
 In this example, we use the `R_DATASET`, `DF_2_ORDEREDTRIPLE`, and `DOUBLE_INDEFINITE_INTEGRAL` nodes. The parameters for each of them are as follow:
 

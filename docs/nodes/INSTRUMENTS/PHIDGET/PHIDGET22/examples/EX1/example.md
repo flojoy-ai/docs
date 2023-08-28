@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PHIDGET22
+description: This example shows how to use the PHIDGET22 node to measure pressures from Flexiforce sensors using a Phidget Interface Kit.
+keyword: [Python, Instrument, Phidget22 instrument control, Python integration with Phidget, Measurement and analysis, Python-based instrument control, Phidget22 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline Phidget usage, Accurate data analysis, Python control of Phidget22]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/PHIDGET/PHIDGET22/examples/EX1/output.jpeg
+--- 
 
 This example shows how to use the `PHIDGET22` node to measure pressures from Flexiforce sensors using a Phidget Interface Kit. The appendix contains all information about hardware requirements and sensor connections (Images).
 

@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LINE
+description: The LINE node creates a Plotly Line visualization for a given input data container.
+keywords: [Python, Visualize, Plotly, Plotly Line visualizer, Python line chart tool, Data trend visualization, Line plot examples, Flojoy Plotly nodes, Interactive line charts, Python data visualization, Line chart creation, Visualizing data with Plotly, Data trend analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/LINE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

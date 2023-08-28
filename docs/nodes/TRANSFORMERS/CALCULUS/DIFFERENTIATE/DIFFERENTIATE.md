@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: DIFFERENTIATE
+description: The Python powered DIFFERENTIATE node takes two list, x and y, as input. It computes the derivative of the array, y with respect to x.
+keyword: [Python, Transform, Calculus, Differentiate, Differentiation transformer, Calculus operations in Python, Data differentiation with Flojoy, Python differentiation calculations, Streamline data analysis, Calculus transformations, Differential calculus, Python data manipulation, Accurate data insights, Differentiation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DIFFERENTIATE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

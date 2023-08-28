@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: MAT_2_DF
+description: Efficiently convert matrices to Dataframes using Python with Flojoy's MAT_2_DF type casting transformer node.
+keyword: [Python, Transform, Type casting, Matrix to DataFrame conversion, Python type casting transformer, Data conversion with MAT_2_DF, Python data manipulation, Streamline data processing, Data transformation techniques, DataFrame creation from matrix, Python data analysis, Accurate data insights, Data manipulation using MAT_2_DF]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
