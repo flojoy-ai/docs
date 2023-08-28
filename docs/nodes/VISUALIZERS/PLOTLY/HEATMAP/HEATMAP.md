@@ -26,7 +26,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-
+import Example2 from './examples/EX2/example.md';
+import App2 from '!!raw-loader!./examples/EX2/app.json';
 
 <AppDisplay 
     nodeLabel='HEATMAP'
@@ -37,6 +38,16 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 </AppDisplay>
 
 <Example1 />
+
+<AppDisplay 
+    nodeLabel='HEATMAP'
+    appImg={''}
+    outputImg={''}
+    >
+    {App2}
+</AppDisplay>
+
+<Example2 />
 
 <SectionBreak />
   
