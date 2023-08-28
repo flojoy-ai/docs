@@ -15,6 +15,6 @@ The [`KEITHLEY2400`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/KE
 
 The [`LINE`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/LINE/LINE.py) node will display the I-V curve by plotting the currents received from the device as a function of the voltages transmitted to the device.
 
-The [`END`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/TERMINATORS/END/END.py) node terminates the process.
+The `END` node terminates the process.
 
 When the setup is ready, and the parameters above are well defined, the experiment can be started by turning on the source meter and clicking the PLAY button.
