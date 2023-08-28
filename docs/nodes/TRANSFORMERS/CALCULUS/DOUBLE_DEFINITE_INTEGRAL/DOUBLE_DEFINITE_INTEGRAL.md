@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DOUBLE_DEFINITE_INTEGRAL
+description: The DEFINITE_INTEGRAL node takes a function, upper, and lower bounds as input. It computes double integral of the given function.
+keyword: [Python, Transform, Calculus, Definite integral, Double definite integral transformer, Calculus operations in Python, Data integration with Flojoy, Python integration calculations, 
+Calculus transformations, Double integral calculation, Python data manipulation, Accurate data insights, Definite integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

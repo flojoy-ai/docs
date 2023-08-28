@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PID
+description: The PID node acts like a PID function. The returned value with be modified according to the PID parameters Kp, Ki, and Kd.
+keyword: [Python, Transform, Signal processing, PID transformer, Signal processing in Python, Data control with PID, Python PID calculations, Streamline data analysis, Signal processing transformations, PID control system, Python data manipulation, Accurate data insights, Control system using PID]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

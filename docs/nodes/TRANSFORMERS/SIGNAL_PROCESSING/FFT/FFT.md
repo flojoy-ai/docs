@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: FFT
+description: The FFT node performs a Discrete Fourier Transform on the input vector. The input vector will be transformed from the time domain into the frequency domain which will be an ordered pair of arrays.
+keyword: [Python, Transform, Signal processing, FFT transformer, Python Fast Fourier Transform, Signal processing with FFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, FFT calculation in Python, Python data manipulation, Accurate data insights, Frequency analysis using FFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

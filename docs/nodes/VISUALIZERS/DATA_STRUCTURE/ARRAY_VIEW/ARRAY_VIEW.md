@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: ARRAY_VIEW
+description: The ARRAY_VIEW node takes ordered_pair, dataframe, matrix, and image as input type and displays its visualization in array format.
+keywords: [Python, Visualize, Array View visualizer, Data structure visualization, Array representation tools, Flojoy visualization nodes, Array View examples, Array data visualization, Visualizing data arrays, Data structure illustration, Array visualization techniques, Data array exploration]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

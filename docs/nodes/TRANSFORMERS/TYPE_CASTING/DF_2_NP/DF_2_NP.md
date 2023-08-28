@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: DF_2_NP
+description: Easily convert Dataframes to NumPy arrays matrix type data using Python with Flojoy's DF_2_NP type casting transformer.
+keyword: [Python, Transform, Type casting, Dataframe to NumPy conversion, Python type casting transformer, Data conversion with DF_2_NP, Python data manipulation, Streamline data processing, Data transformation techniques, NumPy array creation, Python data analysis, Accurate data insights, Data manipulation using DF_2_NP]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

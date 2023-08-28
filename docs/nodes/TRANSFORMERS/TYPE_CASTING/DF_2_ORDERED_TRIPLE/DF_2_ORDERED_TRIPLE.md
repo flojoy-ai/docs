@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DF_2_ORDEREDTRIPLE
+description: Efficiently convert Dataframes to ordered triples using Python with Flojoy's DF_2_ORDEREDTRIPLE type casting transformer. It takes one dataframe type data to picks 3 different columns to generate OrderedTriple type.
+keyword: [Python, Transform, Type casting,  Dataframe to ordered triple conversion, Python type casting transformer, Data conversion with DF_2_ORDEREDTRIPLE, Python data manipulation, Streamline data processing, Data transformation techniques, Ordered triple creation, Python data analysis, Accurate data insights, Data manipulation using DF_2_ORDEREDTRIPLE]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/examples/EX1/output.jpeg
+---
+
 
 [//]: # (Custom component imports)
 

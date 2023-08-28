@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: INTEGRATE
+description: The Python"-"powered INTEGRATE node takes two lists as input and integrates it using the composite trapezoidal rule.
+keyword: [Python, Transform, Calculus, Integrate, Integration transformer, Python integration calculations, Data processing with integration, Flojoy INTEGRATE transformer, Streamline data analysis, Calculus transformations, Integration calculation, Python data manipulation, Accurate data insights, Integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/INTEGRATE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

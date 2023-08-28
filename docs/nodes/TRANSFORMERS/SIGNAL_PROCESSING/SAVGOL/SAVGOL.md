@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SAVGOL
+description: Apply a Savitzky-Golay filter to an input signal, which is generally used for smoothing data. The default behaviour is implementing a 3-point moving average of the data.
+keyword: [Python, Transform, Signal processing, Savitzky-Golay filter transformer, Signal processing in Python, Data smoothing with SavGol, Python filter calculations, Streamline data analysis, Signal processing transformations, Savitzky-Golay filter design, Python data manipulation, Accurate data insights, Data smoothing using SavGol]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

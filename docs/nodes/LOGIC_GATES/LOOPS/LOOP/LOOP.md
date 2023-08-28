@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LOOP
+description: Efficiently perform Python-based looping operations with Flojoy's LOOP logic gate that iterates through the body nodes for a given number of times. 
+keyword: [Python, Flow, Logic gates, Loop, Loop logic gate, Python loop operations, Data manipulation with looping, Streamline data processing, Loop"-"driven transformations, Looping in Python, Python data analysis, Accurate data insights, Data processing using LOOP logic gate, Data manipulation using looping in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

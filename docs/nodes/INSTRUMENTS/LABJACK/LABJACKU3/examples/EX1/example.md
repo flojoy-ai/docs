@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LABJACKU3
+description: In this example, we show how to record and display temperature measurements with a LABJACK U3 device and update them in a Loop.
+keyword: [Python, Instrument, LabJack U3 instrument control, Python integration with LabJack, Measurement and analysis, Python-based instrument control, LabJack U3 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline LabJack usage, Accurate data analysis, Python control of LabJack U3]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/LABJACK/LABJACKU3/examples/EX1/output.jpeg
+--- 
 
 In this example, we show how to record and display temperature measurements with a LABJACK U3 device and update them in a Loop. The appendix contains all information about hardware requirements and sensor connections (Images). You'll also need to install the Labjack exodriver to communicate with the U3 device through USB: https://labjack.com/pages/support?doc=/software-driver/installer-downloads/exodriver/.
 

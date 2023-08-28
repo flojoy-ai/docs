@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SCATTER3D
+description: Enhance data visualization with Python using Flojoy's Scatter3D visualizer. Create dynamic 3D scatter plots for insightful analyses and presentations.
+keywords: [Python, Visualize, Plotly, 3D, Plotly Scatter3D visualizer, Python 3D scatter plot tool, Three-dimensional data visualization, Scatter3D plot examples, Flojoy Plotly nodes, Interactive 3D scatter charts, Python data visualization, 3D scatter plot creation, Visualizing data with Plotly, Three-dimensional data analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER3D/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
