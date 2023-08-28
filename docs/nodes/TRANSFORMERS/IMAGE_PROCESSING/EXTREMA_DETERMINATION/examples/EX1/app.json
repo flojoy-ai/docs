@@ -1,0 +1,243 @@
+{
+    "rfInstance": {
+        "nodes": [
+            {
+                "width": 225,
+                "height": 226,
+                "id": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                    "label": "EXTREMA DETERMINATION",
+                    "func": "EXTREMA_DETERMINATION",
+                    "type": "VISUALIZERS",
+                    "ctrls": {
+                        "center": {
+                            "type": "list[int]",
+                            "default": null,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "center",
+                            "value": ""
+                        },
+                        "min_dist": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "min_dist",
+                            "value": 0
+                        },
+                        "algorithm": {
+                            "type": "select",
+                            "default": "log",
+                            "options": [
+                                "persistence",
+                                "high_symmetry",
+                                "log"
+                            ],
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "algorithm",
+                            "value": "log"
+                        },
+                        "prominence": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "prominence",
+                            "value": 0
+                        },
+                        "k": {
+                            "type": "float",
+                            "default": 1.41,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "k",
+                            "value": 1.41
+                        },
+                        "sigma": {
+                            "type": "float",
+                            "default": 1,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "sigma",
+                            "value": 1
+                        },
+                        "max_power": {
+                            "type": "int",
+                            "default": 9,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "max_power",
+                            "value": 9
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        },
+                        {
+                            "name": "image_mask",
+                            "id": "image_mask",
+                            "type": "Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "fig",
+                            "id": "fig",
+                            "type": "Plotly",
+                            "desc": null
+                        },
+                        {
+                            "name": "blobs",
+                            "id": "blobs",
+                            "type": "Grayscale",
+                            "desc": null
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/EXTREMA_DETERMINATION/EXTREMA_DETERMINATION.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 237.01542462272937,
+                    "y": -201.91204087326986
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 237.01542462272937,
+                    "y": -201.91204087326986
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                    "label": "REGION PROPERTIES",
+                    "func": "REGION_PROPERTIES",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": "The input node to this function. If nothing is supplied, then a demo test\ncase is returned to illustrate the functionality of this node."
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "Returns the Plotly superclass of `DataContainer` that has the illustrated\nfeatures as determined by this node."
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/REGION_PROPERTIES.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 701.5694568361153,
+                    "y": -354.4355078405773
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 701.5694568361153,
+                    "y": -354.4355078405773
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                    "label": "IMAGE",
+                    "func": "IMAGE",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "the DataContainer containing Plotly Image visualization of the input image"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/IMAGE/IMAGE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 708.9104803493708,
+                    "y": -40.863390467058935
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 708.9104803493708,
+                    "y": -40.863390467058935
+                },
+                "dragging": true
+            }
+        ],
+        "edges": [
+            {
+                "source": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                "sourceHandle": "blobs",
+                "target": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675blobs-REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7edefault"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                "sourceHandle": "blobs",
+                "target": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675blobs-IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2deadefault"
+            }
+        ],
+        "viewport": {
+            "x": 621.1813795484834,
+            "y": 324.9597014372874,
+            "zoom": 0.6891413136990774
+        }
+    }
+}

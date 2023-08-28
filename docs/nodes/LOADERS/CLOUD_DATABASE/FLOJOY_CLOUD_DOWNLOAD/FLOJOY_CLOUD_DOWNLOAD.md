@@ -23,6 +23,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
+
 <AppDisplay
 nodeLabel='FLOJOY_CLOUD_DOWNLOAD'
 appImg={''}
