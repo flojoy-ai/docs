@@ -46,7 +46,7 @@
         "nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/TEXT_DATASET"
     ],
     "Data > Generate > Synthetic Data > IMAGES": [
-        "nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/SKLEARNIMAGE"
+        "nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/SKIMAGE"
     ],
     "Data > Visualize > Data Structure": [
         "nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/ARRAY_VIEW",
