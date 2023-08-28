@@ -152,7 +152,7 @@ You can also find all of these nodes in the sidebar.
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 <div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/">
+<a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SKLEARNIMAGE</figcaption>
