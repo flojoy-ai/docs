@@ -86,19 +86,23 @@ def browse_directories(dir_path: str):
 
             browse_directories(entry.path)
 
+
 def update_app(path: str):
     with open(path, "r") as f:
         app = json.load(f)
     nodes = app["rfInstance"]["nodes"]
     edges = app["rfInstance"]["edges"]
+
     def should_keep_node(node):
-        return (node["data"]["func"] != "END"
-            and node["data"]["func"] != "GOTO")
+        return node["data"]["func"] != "END" and node["data"]["func"] != "GOTO"
+
     def should_keep_edge(edge):
-        return (not edge["target"].startswith("END-") 
-            and not edge["target"].startswith("GOTO-") 
-            and not edge["source"].startswith("END-") 
-            and not edge["source"].startswith("GOTO-"))
+        return (
+            not edge["target"].startswith("END-")
+            and not edge["target"].startswith("GOTO-")
+            and not edge["source"].startswith("END-")
+            and not edge["source"].startswith("GOTO-")
+        )
 
     for node in nodes:
         if not should_keep_node(node):
@@ -119,11 +123,9 @@ def update_app(path: str):
         json.dump(app, f, indent=2)
 
 
-
 get_type_map(FULL_PATH)
 type_map["DF_2_OrderedTriple"] = "TRANSFORMERS"
 
 example_apps_path = Path.join("..", "studio", "src", "utils", "app-gallery-apps")
 for path in os.listdir(example_apps_path):
     update_app(Path.join(example_apps_path, path))
-

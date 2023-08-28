@@ -1,13 +1,57 @@
 {
+    "name": "LabJack",
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 150,
-                "id": "PHIDGET22-c6e0fa47-17f1-4642-ae9e-f52453b7c526",
+                "width": 225,
+                "height": 226,
+                "id": "BAR-c7fcec94-45c8-43e9-b35f-28c98bb21c96",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "BAR-c7fcec94-45c8-43e9-b35f-28c98bb21c96",
+                    "label": "BAR",
+                    "func": "BAR",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "OrderedPair|DataFrame|Matrix|Vector",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized in bar chart"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "the DataContainer containing Plotly Bar chart visualization"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/BAR/BAR.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1855.8154876086248,
+                    "y": -302.51832709592355
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1855.8154876086248,
+                    "y": -302.51832709592355
+                },
+                "dragging": true
+            },
+            {
+                "width": 192,
+                "height": 192,
+                "id": "PHIDGET22-481eba31-1ee6-41a5-9241-03cc797fa5f4",
                 "type": "INSTRUMENTS",
                 "data": {
-                    "id": "PHIDGET22-c6e0fa47-17f1-4642-ae9e-f52453b7c526",
+                    "id": "PHIDGET22-481eba31-1ee6-41a5-9241-03cc797fa5f4",
                     "label": "PHIDGET22",
                     "func": "PHIDGET22",
                     "type": "INSTRUMENTS",
@@ -15,13 +59,15 @@
                         "n_sensors": {
                             "type": "int",
                             "default": 1,
+                            "desc": "Defines the number of pressure sensors connected to the Phidget InterfaceKit.",
                             "functionName": "PHIDGET22",
                             "param": "n_sensors",
-                            "value": "4"
+                            "value": 1
                         },
                         "calibration1": {
                             "type": "float",
                             "default": 0.015,
+                            "desc": "Calibration parameters to convert voltage into pressure.",
                             "functionName": "PHIDGET22",
                             "param": "calibration1",
                             "value": 0.015
@@ -29,24 +75,28 @@
                         "calibration2": {
                             "type": "float",
                             "default": 0.06,
+                            "desc": "Calibration parameters to convert voltage into pressure.",
                             "functionName": "PHIDGET22",
                             "param": "calibration2",
                             "value": 0.06
                         }
                     },
+                    "initCtrls": {},
                     "inputs": [
                         {
                             "name": "default",
                             "id": "default",
                             "type": "OrderedPair",
-                            "multiple": false
+                            "multiple": false,
+                            "desc": null
                         }
                     ],
                     "outputs": [
                         {
                             "name": "default",
                             "id": "default",
-                            "type": "OrderedPair"
+                            "type": "OrderedPair",
+                            "desc": null
                         }
                     ],
                     "pip_dependencies": [
@@ -56,92 +106,33 @@
                         }
                     ],
                     "path": "PYTHON/nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22.py",
-                    "selected": false
+                    "selected": true
                 },
                 "position": {
-                    "x": 104.17972518130836,
-                    "y": -46.665726762869554
+                    "x": 1501.7006581112141,
+                    "y": -283.8123758873477
                 },
-                "selected": false,
+                "selected": true,
                 "positionAbsolute": {
-                    "x": 104.17972518130836,
-                    "y": -46.665726762869554
-                },
-                "dragging": true
-            },
-            {
-                "width": 225,
-                "height": 226,
-                "id": "BAR-8788c5f3-d566-4c58-85dc-59af4e81d36c",
-                "type": "VISUALIZERS",
-                "data": {
-                    "id": "BAR-8788c5f3-d566-4c58-85dc-59af4e81d36c",
-                    "label": "BAR",
-                    "func": "BAR",
-                    "type": "VISUALIZERS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair|DataFrame|Matrix",
-                            "multiple": false
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Plotly"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/BAR/BAR.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 513.6546307707831,
-                    "y": -80.58167838030928
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 513.6546307707831,
-                    "y": -80.58167838030928
+                    "x": 1501.7006581112141,
+                    "y": -283.8123758873477
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "PHIDGET22-c6e0fa47-17f1-4642-ae9e-f52453b7c526",
+                "source": "PHIDGET22-481eba31-1ee6-41a5-9241-03cc797fa5f4",
                 "sourceHandle": "default",
-                "target": "BAR-8788c5f3-d566-4c58-85dc-59af4e81d36c",
+                "target": "BAR-c7fcec94-45c8-43e9-b35f-28c98bb21c96",
                 "targetHandle": "default",
-                "id": "reactflow__edge-PHIDGET22-c6e0fa47-17f1-4642-ae9e-f52453b7c526default-BAR-8788c5f3-d566-4c58-85dc-59af4e81d36cdefault"
+                "id": "reactflow__edge-PHIDGET22-481eba31-1ee6-41a5-9241-03cc797fa5f4default-BAR-c7fcec94-45c8-43e9-b35f-28c98bb21c96default"
             }
         ],
         "viewport": {
-            "x": -358.59636577932724,
-            "y": 99.85117439980638,
-            "zoom": 1.0581352782820395
+            "x": 815.7959874736157,
+            "y": 352.53461082817995,
+            "zoom": 0.7476193625116623
         }
-    },
-    "ctrlsManifest": [
-        {
-            "type": "input",
-            "name": "Slider",
-            "id": "INPUT_PLACEHOLDER",
-            "hidden": false,
-            "minHeight": 1,
-            "minWidth": 2,
-            "layout": {
-                "x": 0,
-                "y": 0,
-                "h": 2,
-                "w": 2,
-                "minH": 1,
-                "minW": 2,
-                "i": "INPUT_PLACEHOLDER"
-            }
-        }
-    ]
+    }
 }

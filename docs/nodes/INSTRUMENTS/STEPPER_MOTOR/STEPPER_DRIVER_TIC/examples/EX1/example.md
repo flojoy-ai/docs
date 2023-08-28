@@ -12,6 +12,4 @@ After that, he can set the speed and choose the sleep time between movements.
 
 Then, after clicking the PLAY button, the motor will move between the four default positions. (To choose positions, use the [`STEPPER_DRIVER_TIC_KNOB`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB.py) node.)
 
-The `END` node terminates the process.
-
-To create a repetitive movement, use the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) and `GOTO` nodes.
+To create a repetitive movement, use the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node.
