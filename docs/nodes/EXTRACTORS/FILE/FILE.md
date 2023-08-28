@@ -24,7 +24,7 @@ Here you can find information about all the Flojoy nodes that load and read file
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/EXTRACTORS/OPEN_PARQUET/">
+<a href="/nodes/EXTRACTORS/FILE/OPEN_PARQUET/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/EXTRACTORS/FILE/OPEN_PARQUET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>OPEN PARQUET</figcaption>
@@ -32,7 +32,7 @@ Here you can find information about all the Flojoy nodes that load and read file
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/EXTRACTORS/READ_CSV/">
+<a href="/nodes/EXTRACTORS/FILE/READ_CSV/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/EXTRACTORS/FILE/READ_CSV/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>READ CSV</figcaption>
@@ -40,7 +40,7 @@ Here you can find information about all the Flojoy nodes that load and read file
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/EXTRACTORS/READ_S3/">
+<a href="/nodes/EXTRACTORS/FILE/READ_S3/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>READ S3</figcaption>
@@ -48,17 +48,17 @@ Here you can find information about all the Flojoy nodes that load and read file
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/EXTRACTORS/LOCAL_FILE/">
+<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/EXTRACTORS/FILE/LOCAL_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>LOCAL FILE</figcaption>
 </figure>
 </a></div>
 
 <div className="p-4">
-<a href="/nodes/EXTRACTORS/OPEN_MATLAB/">
+<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/EXTRACTORS/FILE/OPEN_MATLAB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://github.com/flojoy-ai/docs/blob/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>OPEN MATLAB</figcaption>
 </figure>
 </a></div>
