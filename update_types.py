@@ -24,7 +24,7 @@ OVERRIDES = {
     "PERIODOGRAM": "default",
     "WELCH": "default",
     "STFT": "default",
-    "SKLEARNIMAGE": "default",
+    "SKIMAGE": "default",
     "LINSPACE": "default",
 }
 
