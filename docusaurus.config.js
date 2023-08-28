@@ -146,8 +146,8 @@ const config = {
                 label: 'Explore nodes',
               },
               {
-                href: '/instruments-wiki/all-instruments',
-                label: 'Instruments Wiki',
+                href: '/instruments-database/all-instruments',
+                label: 'Instruments Database',
               },
               {
                 href: '/custom-nodes/creating-custom-node/',
