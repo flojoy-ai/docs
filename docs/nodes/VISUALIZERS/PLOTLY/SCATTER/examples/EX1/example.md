@@ -5,4 +5,4 @@ keywords: [Python, Visualize, Plotly, Plotly Scatter visualizer, Python scatter 
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER/examples/EX1/output.jpeg
 ---
 
-In this example, we are simulating data from the `LINSPACE`, `TIMESERIES`, `MATRIX` and `PLOTLY_DATASET` and visualizing them with the `SCATTER` node. This creates a Plotly Scatter visualization from each of the input nodes.
+In this example, we are simulating data from the `TIMESERIES`, `MATRIX` and `PLOTLY_DATASET` nodes and visualizing them with the `SCATTER` node. This creates a Plotly Scatter visualization from each of the input nodes.

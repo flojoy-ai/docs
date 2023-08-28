@@ -4,6 +4,10 @@
 
 @layer base {
   :root {
+    --controls: 0 0% 100%;
+    --controls-hover: 0 0% 90%;
+    --controls-border: 0 0% 80%;
+    --foreground: 222.2 84% 4.9%;
     --color-modal: 244 244 244;
     --color-accent1: 123 97 255;
     --color-accent1-hover: 175 159 255;
@@ -13,6 +17,10 @@
   }
 
   [data-theme='dark']:root {
+    --controls: 0 0% 15%;
+    --controls-hover: 0 0% 20%;
+    --controls-border: 0 0% 40%;
+    --foreground: 210 40% 98%;
     --color-modal: 25 25 25;
     --color-accent1: 153 245 255;
     --color-accent1-hover: 212 251 255;
@@ -20,4 +28,53 @@
     --color-accent3: 255 201 63;
     --color-accent4: 240 95 168;
   }
+}
+
+.react-flow__controls-button {
+  background: hsl(var(--controls)) !important;
+  color: hsl(var(--foreground)) !important;
+  border-bottom: 1px solid hsl(var(--controls-border)) !important;
+}
+
+.react-flow__controls-button:hover {
+  background: hsl(var(--controls-hover)) !important;
+}
+
+.react-flow__controls-button svg {
+  fill: currentColor !important;
+}
+/* docstring regex syntax highlighter */
+
+.string {
+  color: #7b61ff;
+}
+
+.before-colon,
+.snake-case {
+  color: #e14092;
+}
+
+.dashes {
+  color: #7b61ff;
+}
+
+.node-names,
+.all-caps {
+  color: #7b61ff;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.data-container-type {
+  cursor: pointer;
+  color: #2e83ff;
+}
+
+.sections {
+  color: black;
+}
+
+[data-theme='dark']:root .sections {
+  color: white !important;
 }

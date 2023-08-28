@@ -1,14 +1,14 @@
 ---
 sidebar_position: 4
 id: custom-category
-title: Custom categories
+title: Custom Categories
 ---
 
-As you create custom nodes, it is also possible to create categories if any of the ones built-in are not appropriate.
+As you create custom nodes, it is also possible to create new categories if the built-in categories are not appropriate.
 
 ### Informing the UI
 
-Flojoy relies on folder structure to tell which Python functions should be placed in what category in the UI. You can easily introduce a new category following Flojoy node's folder structure below:
+Flojoy relies on folder structure to tell which Python functions should be placed in which category in the UI. You can easily introduce a new category following the Flojoy nodes folder structure below:
 
 ```txt
 ├── nodes
@@ -23,15 +23,15 @@ Flojoy relies on folder structure to tell which Python functions should be place
 ### Updating the internal databases
 
 :::info
-This is now performed at startup of Flojoy. So simply rerunning the startup script is sufficient.
+This is now performed at startup of Flojoy. Simply rerunning the startup script is sufficient.
 :::
 
-To update the databases with the new category and the functionalities of the nodes (including your new custom node), run following commands in the root directory:
+To update the databases with the new category and the functionalities of the nodes (including your new custom node), run the following commands in the root directory:
 
 ```bash
-python3 generate_manifest.py # generates nodes manifest for Front-end
+python3 generate_manifest.py  # generates nodes manifest for Front-End
 ```
 
 ```bash
-python3 write_python_metadata.py # writes nodes metatdata to Front-end
+python3 write_python_metadata.py  # writes nodes metatdata to Front-End
 ```

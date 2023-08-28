@@ -54,6 +54,12 @@ const config = {
             require.resolve('./src/css/custom.css'),
           ],
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -76,8 +82,8 @@ const config = {
     },
     {
       async: true,
-      src: 'https://www.feedbackrocket.io/sdk/v1.0.0.js',
-      'data-fr-id': 'qrrGqJ92uPlGPDmv_ZmZh',
+      src: 'https://www.feedbackrocket.io/sdk/v1.1.js',
+      'data-fr-id': 'Miu2_YZZhyNubTim6WBdV',
     },
   ],
   plugins: [
@@ -94,14 +100,14 @@ const config = {
       };
     },
   ],
-  themes: ['@markprompt/docusaurus-theme-search'],
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
         id: 'support_us',
         content:
-          'If you like Flojoy, <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">give it a star on GitHub ⭐</a>',
+          '⭐ If you like Flojoy, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">GitHub</a> ⭐',
         backgroundColor: '#000',
         textColor: '#FFF',
         isCloseable: true,
@@ -119,11 +125,6 @@ const config = {
 
         items: [
           {
-            to: '/explore-nodes',
-            label: 'Explore Nodes',
-            position: 'right',
-          },
-          {
             type: 'dropdown',
             label: 'Resources',
             position: 'right',
@@ -133,16 +134,24 @@ const config = {
                 label: 'Installation',
               },
               {
-                href: '/explore-nodes',
-                label: 'Nodes',
-              },
-              {
-                href: '/Instruments/introduction',
-                label: 'Instruments',
-              },
-              {
                 href: '/nodes/introduction/',
-                label: 'Tutorial',
+                label: 'Flojoy Studio UI',
+              },
+              {
+                href: '/cloud/introduction',
+                label: 'Flojoy Cloud',
+              },              
+              {
+                href: '/explore-nodes',
+                label: 'Explore nodes',
+              },
+              {
+                href: '/instruments-wiki/all-instruments',
+                label: 'Instruments Wiki',
+              },
+              {
+                href: '/custom-nodes/creating-custom-node/',
+                label: 'Contributing nodes',
               },
             ],
           },
@@ -164,7 +173,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: `<a href=# class="navbar__link feedback" data-fr-widget>
+            value: `<a href=# class="navbar__link feedback" data-fr-widget data-fr-theme="dynamic" data-fr-reply-required="">
                Feedback
           </a>`,
           },
@@ -181,47 +190,48 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['matlab']
       },
       scripts: {
         src: 'https://cdn.usefathom.com/script.js',
         'data-site': 'LCCRNAEW',
         defer: true,
       },
-      // algolia: {
-      //   // The application ID provided by Algolia
-      //   appId: '8F0URYIKW5',
-      //
-      //   // Public API key: it is safe to commit it
-      //   apiKey: '089cd76d3023464d056479e65880af90',
-      //
-      //   indexName: 'Flojoy Docs',
-      //
-      //   // Optional: see doc section below
-      //   contextualSearch: true,
-      //
-      //   // Optional: Algolia search parameters
-      //   searchParameters: {},
-      //
-      //   // Optional: path for search page that enabled by default (`false` to disable it)
-      //   searchPagePath: 'search',
-      // },
-      markprompt: {
-        projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
-        trigger: { floating: false },
-        search: {
-          enabled: true,
-          provider: {
-            name: 'algolia',
-            apiKey: '12f712936d242f4a4592cdafb61a4620',
-            appId: '8F0URYIKW5',
-            indexName: 'Flojoy Docs',
-          },
-          getHref: result => result.url,
-          getHeading: result => result.pageTitle,
-          getTitle: result => result.pageDescription,
-          getSubtitle: result => result.pageContent,
-        },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'JW330EK7K6',
+
+        // Public API key: it is safe to commit it
+        apiKey: '7eab408fbb0770ffd58b42a8392f3676',
+
+        indexName: 'flojoy_docs_prod',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
       },
+      // markprompt: {
+      //   projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
+      //   trigger: { floating: false },
+      //   search: {
+      //     enabled: true,
+      //     provider: {
+      //       name: 'algolia',
+      //       apiKey: '12f712936d242f4a4592cdafb61a4620',
+      //       appId: '8F0URYIKW5',
+      //       indexName: 'Flojoy Docs',
+      //     },
+      //     getHref: result => result.url,
+      //     getHeading: result => result.pageTitle,
+      //     getTitle: result => result.pageDescription,
+      //     getSubtitle: result => result.pageContent,
+      //   },
+      // },
     }),
 };
 

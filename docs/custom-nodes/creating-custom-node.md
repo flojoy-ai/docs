@@ -1,17 +1,17 @@
 ---
 sidebar_position: 3
 id: creating-custom-node
-title: Creating a custom node
+title: Creating a Custom Node
 description: Learn how to create a custom node in Flojoy by writing a Python function.
 ---
 
-## Division: an example
+## A basic example
 
-Suppose we wanted to contribute a node that divides two items element-wise (for the case of vector inputs, for instance). Although we could do this with the built-in `invert` and `multiply` nodes, we want to create this node for convenience.
+Suppose we wanted to contribute a node that divides two items element-wise (for the case of vector inputs, for instance). Although we could do this with the built-in `invert` and `multiply` nodes, we could also do it from scratch.
 
 ### Creating the source files
 
-To start, we create the file `DIVIDE/DIVIDE.py` inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC). Each node must have its own folder.
+To start, we create a `DIVIDE` folder inside [`/PYTHON/nodes/TRANSFORMERS/ARITHMETIC/`](https://github.com/flojoy-io/nodes/tree/main/TRANSFORMERS/ARITHMETIC), and then create the `DIVIDE.py` file inside that folder. Each node must have its own folder.
 
 We can then create our new function using the features discussed [here](../data-container).
 
@@ -26,13 +26,13 @@ def DIVIDE(a: OrderedPair, b: OrderedPair) -> OrderedPair:
     return OrderedPair(x=x, y=result)
 ```
 
-Note: The type hints are important! This is how Flojoy differentiates between node inputs (that you connect edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (ex: `OrderedPair`, `Matrix`, etc.) is an input, and everything else is a parameter.
+**Note:** The type hints are important! This is how Flojoy differentiates between node inputs (that you connect the edges to) and parameters (that you can set in the node parameters panel). Anything that inherits from `DataContainer` (e.g. `OrderedPair`, `Matrix`, etc.) is an _input_, and everything else is a _parameter_.
 
-The `node_type` argument to the `flojoy` decorator specifies what kind of node this should display as in the frontend.
+The `node_type` argument to the `flojoy` decorator specifies what kind of node this should be displayed as in the Front-End.
 
-### A more advanced example
+## A more advanced example
 
-Let's say we want to create a node to wrap `scikit-learn`'s `train_test_split` function. This node will have to return two different `DataContainer`s.
+Let's say we want to create a node to wrap the `train_test_split` function from `scikit-learn`. This node will have to return two different `DataContainers`.
 
 ```python {title="TRAIN_TEST_SPLIT.py"}
 
@@ -59,16 +59,17 @@ def TRAIN_TEST_SPLIT(
     return TrainTestSplitOutput(train=DataFrame(df=train), test=DataFrame(df=test))
 ```
 
-In this example, the node needs to import `sklearn` which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
+In this example, the node needs to import `sklearn`, which might not be installed. We can specify this in the `deps` argument to the `flojoy` decorator. This will ensure that the library is installed before the node is run.
 
-This node needs to return two `DataContainers`. We do this by creating a dataclass with the names of the outputs as fields. Then, we return an instance of this dataclass.
+This node needs to return two `DataContainers`. We do this by creating a data class with the names of the outputs as fields. Then, we return an instance of this data class.
 
-Looking at the parameters, we have one `DataContainer` input, named `default`. When we only have 1 input and we don't want to label it in the frontend, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter, that has a default value of 0.2.
+Looking at the parameters, we have one `DataContainer` input, called `default`. When we only have one input and we do not want to label it in the Front-End, we can name it `default`, which is a special name that Flojoy recognizes. This node also has a `test_size` parameter that has a default value of 0.2.
 
-### Creating Custom Component ( Frontend )
+### Creating custom components (Front-End)
 
-In Flojoy, you can create custom component for newly created nodes (i.e. shape and node connections). The custom components are located in [`/src/feature/flow_chart_panel/components/custom-nodes`](https://github.com/flojoy-io/studio/tree/main/src/feature/flow_chart_panel/components/custom-nodes) folder. Create a custom component for the newly created nodes and register the design in [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, its a `ARITHMETIC` type node, so you register custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`.
-If you don't register the newly created node type,it will render the `DefaultNode` component.
+In Flojoy, you can create custom components for newly created nodes (i.e. shape and node connections). The custom components are located in the [`/src/feature/flow_chart_panel/components/`](https://github.com/flojoy-ai/studio/tree/main/src/feature/flow_chart_panel/components) `studio` folder. 
+
+Create a custom component for the newly created nodes and register the design in the [`/src/configs/NodeConfigs.ts`](https://github.com/flojoy-io/studio/blob/main/src/configs/NodeConfigs.ts) file. In this case, it is an `ARITHMETIC` type node, so you will register the custom component as `ARITHMETIC: YOUR_CUSTOM_COMPONENT`. If you do not register the newly created node type, it will render the `DefaultNode` component.
 
 ```typescript {title='NodeConfigs.ts'}
 import MyCustomComponent from '@src/feature/flow_chart_panel/components/custom-nodes/YOUR_CUSTOM_COMPONENT';
@@ -85,21 +86,21 @@ export const nodeConfigs = {
 This is now performed at startup of Flojoy. So simply rerunning the startup script is sufficient.
 :::
 
-To update the databases with the functionalities of the nodes (including your new custom node), run following commands in the root directory:
+To update the databases with the functionalities of the nodes (including your new custom node), run the following commands in the root directory:
 
 ```bash
-python3 generate_manifest.py # generates nodes manifest for Front-end
+python3 generate_manifest.py  # generates node manifest for Front-End
 ```
 
 ```bash
-python3 write_python_metadata.py # writes nodes metatdata to Front-end
+python3 write_python_metadata.py  # writes node metatdata to Front-End
 ```
 
 ### Almost done! Housekeeping time
 
 Let's make sure your code is properly formatted!
 
-We use [black](https://github.com/psf/black) as our formatter for Python, which you can install by running
+We use [black](https://github.com/psf/black) as our formatter for Python, which you can install by running the following in the **root** of the `nodes` repository:
 
 ```bash
 pip3 install black
@@ -111,32 +112,44 @@ or
 pip3 install -r requirements.txt
 ```
 
-on the root of the nodes repo.
-
-Once the formatter is installed, simply run
+Once the formatter is installed, simply run:
 
 ```bash
 black .
 ```
 
-on the root of the nodes repo and all your Python files will be properly formatted!
+All your Python files will now be properly formatted!
 
 :::tip
-It is always a good idea to setup format on save on the editor of your choice!
+It is always a good idea to set up formatting on save in the editor of your choice!
 :::
 
-### Congratulations! You've created your first custom node.
+When creating custom nodes, make sure that you go through the following checklist:
 
-When creating custom nodes, make sure to go through the following steps:
-
-- [x] Did I make my new function correctly?
+- [x] Did I create my new function correctly?
   - [x] Did I add the `flojoy` decorator to my function?
-  - [x] Did I add inputs and parameters for the node correctly with proper type annotations?
+  - [x] Did I add `inputs` and `parameters` for the node correctly with proper type annotations?
 - [x] Did I generate the manifest for the node?
 - [x] Did I update the Python metadata?
 
 ### Common Errors:
 
-- `[2023-05-17 08:59:25.876-RQ-watch] cmd = node["cmd"]    KeyError: 'cmd'`
+`[2023-05-17 08:59:25.876-RQ-watch] cmd = node["cmd"]    KeyError: 'cmd'`
 
 This likely means you have to run `python3 generate_manifest.py` in the root Flojoy directory.
+
+**Congratulations! You have created your first custom node!**
+
+## How to contribute to the Nodes submodule
+
+Currently there are only one submodule in the Flojoy `studio` repository, called the `nodes` submodule, that includes all the node definitions.
+
+To contribute your own custom node, do the following:
+
+- First go to the [`PYTHON/nodes/`](https://github.com/flojoy-io/nodes/tree/main/) directory, then create **your own branch**. 
+- After creating your own custom nodes, push it to GitHub and create a pull request to the main branch. We have a [Pull Request Template](https://github.com/flojoy-io/nodes/blob/main/pull_request_template.md) for the nodes repository that must be followed by the developer.
+- Next, navigate back to the `studio` root directory, then also push it to remote. The `studio` repository has a separate pull request strategy. 
+  - The pull request should be made to the **develop branch**, and later the develop branch is merged with main. Therefore, when you create **your own branch** in the `studio` repository, it must be created from the develop branch. 
+  - Further, the link to the `nodes` submodule pull request (from earlier) must be included in this pull request to the `studio` repository.
+
+This will ensure that the `nodes` submodule will be tracked in the `studio` repository by the latest commit hash and that the pull requests are in sync.

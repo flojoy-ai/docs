@@ -1,9 +1,12 @@
 The SURFACE3D node creates a Plotly 3D Surface visualization for a given input data container.
 
-    Parameters:
-    -----------
-    None
+    Inputs
+    ------
+    default : OrderedTriple|DataFrame|Surface|Matrix
+        the DataContainer to be visualized
 
-    Supported DC types:
-    -------------------
-    `ordered_triple`, `dataframe`, `surface`, `matrix`
+    Returns
+    -------
+    Plotly
+        the DataContainer containing Plotly 3D Surface visualization
+

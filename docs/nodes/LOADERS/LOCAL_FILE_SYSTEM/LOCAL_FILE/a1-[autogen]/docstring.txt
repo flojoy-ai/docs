@@ -1,16 +1,17 @@
-The LOCAL_FILE node loads a local file of different type and converts it to a DataContainer class.
+The LOCAL_FILE node loads a local file of a different type and converts it to a DataContainer class.
 
     Parameters
     ----------
     file_type : str
-        type of file to load, default: image.
+        type of file to load, default = image
+    default   : Optional[TextBlob]
+        If this input node is connected, the filename will be taken from 
+        the output of the connected node. To be used in conjunction with batch processing
     file_path : str
-        path to the file to be loaded.
+        path to the file to be loaded
 
-    Returns:
-    --------
-    Image:
-        type 'image' for file_type 'image'
-
-        type 'dataframe' for file_type 'json', 'csv', 'excel', 'xml'
-
+    Returns
+    -------
+    Image|DataFrame
+        Image for file_type 'image'
+        DataFrame for file_type 'json', 'csv', 'excel', 'xml'

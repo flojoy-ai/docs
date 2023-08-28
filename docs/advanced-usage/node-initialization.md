@@ -1,6 +1,6 @@
 # Flojoy Node Initialization - Enhancing Efficiency
 
-In various scenarios, node operations require some form of initialization before runtime. A prominent example could be establishing a serial connection with Arduino via PySerial. Conventionally, such a connection takes approximately one second to initiate. This latency can pose a significant bottleneck, especially if the node requires to reopen the connection each time it runs.
+In various scenarios, node operations require some form of initialization before runtime. A prominent example could be establishing a serial connection with Arduino via PySerial. Conventionally, such a connection takes approximately one second to initiate. This latency can pose a significant bottleneck, especially if the node requires that the connection is reopened each time it runs.
 
 Fortunately, Flojoy presents an efficient solution to this challenge, providing a method to initialize any necessary objects.
 

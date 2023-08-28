@@ -5,4 +5,6 @@ keyword: [Python, Transform, Signal processing, PID transformer, Signal processi
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg
 ---
 
-In this example, an active `PID` controller node is used for a mock non-linear system to be driven to a given setpoint.
+This example demonstrates an active PID controller for a mock non-linear system to be driven to a given setpoint.
+
+This is an advanced subject. For further reading see the [`feedback control`](/docs/advanced-usage/feedback-control/active-feedback.md) section.

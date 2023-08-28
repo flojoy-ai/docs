@@ -2,9 +2,12 @@ export function partialUnflatten(
   obj: { [key: string]: string[] } | string[],
   delimiter: string,
   maxDepth: number,
+  ignoreUnflatten?: string[],
+  key?: string,
   depth = 0
 ): object {
-  if (depth >= maxDepth) {
+  // Keys passed to the ignoreUnflatten array ignore the max depth condition
+  if (depth >= maxDepth && !ignoreUnflatten.includes(key)) {
     return Object.values(obj).reduce((acc, val) => acc.concat(val), []);
   }
   let res = {};
@@ -26,7 +29,14 @@ export function partialUnflatten(
 
   for (const key of Object.keys(res)) {
     if (!Array.isArray(res[key])) {
-      res[key] = partialUnflatten(res[key], delimiter, maxDepth, depth + 1);
+      res[key] = partialUnflatten(
+        res[key],
+        delimiter,
+        maxDepth,
+        ignoreUnflatten,
+        key,
+        depth + 1
+      );
     }
   }
   return res;

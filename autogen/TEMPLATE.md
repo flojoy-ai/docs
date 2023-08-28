@@ -22,7 +22,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 [//]: # (Examples)
 
 import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import App1 from '!!raw-loader!./examples/EX1/app.json';
 import Data1 from '!!raw-loader!./examples/EX1/output.txt';
 
 <AppDisplay 
@@ -46,4 +46,4 @@ import Media from './appendix/media.md';
 
 <AppendixSection index={0} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'>{Notes}</AppendixSection>
 <AppendixSection index={1} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={2} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'><Media/></AppendixSection>

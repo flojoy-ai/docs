@@ -1,13 +1,26 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ReactFlow, { Background, MiniMap, ReactFlowProvider } from 'reactflow';
+import ReactFlow, {
+  Background,
+  Controls,
+  MiniMap,
+  ReactFlowProvider,
+} from 'reactflow';
 import 'reactflow/dist/style.css';
 import { JSONTree } from 'react-json-tree';
 import { GitHubNodeRepo } from '../utils/helper';
 import { useColorMode } from '@docusaurus/theme-common';
 import ReactCompareImage from 'react-compare-image';
-import 'flojoy/styles/styles.css';
+import { nodeTypesMap } from './nodes/nodeTypesMap';
+import { ViewFitter } from './ViewFitter';
+
+const getReactFlowStyles = () => {
+  const { colorMode } = useColorMode();
+  return {
+    background: colorMode === 'light' ? '#fff' : 'rgba(18,18,18,1)',
+  };
+};
 
 const FlowMiniMap = () => {
   const { colorMode } = useColorMode();
@@ -88,41 +101,41 @@ export default function AppDisplay({
   }, [appObject]);
 
   useEffect(() => {
-    import('flojoy/components').then(({ nodeTypesMap }) => {
-      setNodeTypes(
-        Object.fromEntries(
-          Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
-            return [
-              key,
-              props => (
-                <CustomNode nodeProps={props} theme={colorMode.colorMode} />
-              ),
-            ];
-          })
-        )
-      );
-    });
+    setNodeTypes(
+      Object.fromEntries(
+        Object.entries(nodeTypesMap).map(([key, CustomNode]) => {
+          return [
+            key,
+            props => (
+              <CustomNode nodeProps={props} theme={colorMode.colorMode} />
+            ),
+          ];
+        })
+      )
+    );
   }, [colorMode.colorMode]);
 
+  const styles = getReactFlowStyles();
+
   return (
-    <div>
+    <div id="app-display">
       <Tabs>
         <TabItem value="app" label="App" default>
           <ReactFlowProvider>
             <div style={{ height: HEIGHT }}>
+              <ViewFitter />
               <ReactFlow
+                style={styles}
                 nodes={nodes}
                 nodeTypes={nodeTypes}
                 edges={edges}
                 minZoom={0.25}
                 fitView
-                fitViewOptions={{
-                  padding: 1,
-                }}
                 proOptions={{ hideAttribution: true }}
               >
                 <FlowMiniMap />
                 <Background />
+                <Controls />
               </ReactFlow>
             </div>
           </ReactFlowProvider>

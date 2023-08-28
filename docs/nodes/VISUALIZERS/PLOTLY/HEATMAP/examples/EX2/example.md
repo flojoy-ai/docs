@@ -1,0 +1,1 @@
+In this example, we illustrate the `histogram` parameter of the `HEATMAP` node, with dynamic contrast adjustment.

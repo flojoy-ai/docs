@@ -6,9 +6,10 @@ title: Ask AI
 
 # Ask AI 🔮 
 
-Ask anything at the intersection of Flojoy, SciPy, NumPy, sklearn, and PyMeasure
+Ask anything at the intersection of Flojoy, SciPy, NumPy, sklearn, and PyMeasure.
 
 ### Example questions
+
 - Write a Flojoy node that...
     - adds 2 plus 3
     - calculates a double integral
