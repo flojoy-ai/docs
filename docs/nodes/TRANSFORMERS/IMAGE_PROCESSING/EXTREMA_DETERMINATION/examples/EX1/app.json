@@ -2,12 +2,270 @@
     "rfInstance": {
         "nodes": [
             {
+                "width": 160,
+                "height": 160,
+                "id": "LOCAL_FILE-f93e72d9-0922-4f3b-b1b3-c273b8bae49c",
+                "type": "LOADERS",
+                "data": {
+                    "id": "LOCAL_FILE-f93e72d9-0922-4f3b-b1b3-c273b8bae49c",
+                    "label": "PNG LOADER",
+                    "func": "LOCAL_FILE",
+                    "type": "LOADERS",
+                    "ctrls": {
+                        "file_path": {
+                            "type": "str",
+                            "default": null,
+                            "desc": "path to the file to be loaded",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_path",
+                            "value": ""
+                        },
+                        "file_type": {
+                            "type": "select",
+                            "default": "Image",
+                            "options": [
+                                "Image",
+                                "Grayscale",
+                                "JSON",
+                                "CSV",
+                                "Excel",
+                                "XML"
+                            ],
+                            "desc": "type of file to load, default = image",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_type",
+                            "value": "Image"
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "multiple": false,
+                            "desc": "If this input node is connected, the filename will be taken from\nthe output of the connected node. To be used in conjunction with batch processing"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|DataFrame",
+                            "desc": "Image for file_type 'image'\nDataFrame for file_type 'json', 'csv', 'excel', 'xml'"
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "xlrd",
+                            "v": "2.0.1"
+                        },
+                        {
+                            "name": "lxml",
+                            "v": "4.9.2"
+                        },
+                        {
+                            "name": "openpyxl",
+                            "v": "3.0.10"
+                        },
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": -554.5229713015976,
+                    "y": -390.3484009391375
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -554.5229713015976,
+                    "y": -390.3484009391375
+                },
+                "dragging": true
+            },
+            {
+                "width": 168,
+                "height": 160,
+                "id": "LOCAL_FILE-26a3d832-61e0-40c3-a3d0-81bb218cd5da",
+                "type": "LOADERS",
+                "data": {
+                    "id": "LOCAL_FILE-26a3d832-61e0-40c3-a3d0-81bb218cd5da",
+                    "label": "LOW CONTRAST TIF",
+                    "func": "LOCAL_FILE",
+                    "type": "LOADERS",
+                    "ctrls": {
+                        "file_path": {
+                            "type": "str",
+                            "default": null,
+                            "desc": "path to the file to be loaded",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_path",
+                            "value": ""
+                        },
+                        "file_type": {
+                            "type": "select",
+                            "default": "Image",
+                            "options": [
+                                "Image",
+                                "Grayscale",
+                                "JSON",
+                                "CSV",
+                                "Excel",
+                                "XML"
+                            ],
+                            "desc": "type of file to load, default = image",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_type",
+                            "value": "Image"
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "multiple": false,
+                            "desc": "If this input node is connected, the filename will be taken from\nthe output of the connected node. To be used in conjunction with batch processing"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|DataFrame",
+                            "desc": "Image for file_type 'image'\nDataFrame for file_type 'json', 'csv', 'excel', 'xml'"
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "xlrd",
+                            "v": "2.0.1"
+                        },
+                        {
+                            "name": "lxml",
+                            "v": "4.9.2"
+                        },
+                        {
+                            "name": "openpyxl",
+                            "v": "3.0.10"
+                        },
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": -88.12332538481309,
+                    "y": 101.41481008721888
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -88.12332538481309,
+                    "y": 101.41481008721888
+                },
+                "dragging": true
+            },
+            {
+                "width": 160,
+                "height": 160,
+                "id": "LOCAL_FILE-1994c7c0-554f-4e81-83d8-3555041655bd",
+                "type": "LOADERS",
+                "data": {
+                    "id": "LOCAL_FILE-1994c7c0-554f-4e81-83d8-3555041655bd",
+                    "label": "TIF LOADER",
+                    "func": "LOCAL_FILE",
+                    "type": "LOADERS",
+                    "ctrls": {
+                        "file_path": {
+                            "type": "str",
+                            "default": null,
+                            "desc": "path to the file to be loaded",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_path",
+                            "value": ""
+                        },
+                        "file_type": {
+                            "type": "select",
+                            "default": "Image",
+                            "options": [
+                                "Image",
+                                "Grayscale",
+                                "JSON",
+                                "CSV",
+                                "Excel",
+                                "XML"
+                            ],
+                            "desc": "type of file to load, default = image",
+                            "functionName": "LOCAL_FILE",
+                            "param": "file_type",
+                            "value": "Image"
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "TextBlob",
+                            "multiple": false,
+                            "desc": "If this input node is connected, the filename will be taken from\nthe output of the connected node. To be used in conjunction with batch processing"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|DataFrame",
+                            "desc": "Image for file_type 'image'\nDataFrame for file_type 'json', 'csv', 'excel', 'xml'"
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "xlrd",
+                            "v": "2.0.1"
+                        },
+                        {
+                            "name": "lxml",
+                            "v": "4.9.2"
+                        },
+                        {
+                            "name": "openpyxl",
+                            "v": "3.0.10"
+                        },
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 602.6295766408473,
+                    "y": -394.4551728348896
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 602.6295766408473,
+                    "y": -394.4551728348896
+                },
+                "dragging": true
+            },
+            {
                 "width": 225,
                 "height": 226,
-                "id": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                "id": "EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaaf",
                 "type": "VISUALIZERS",
                 "data": {
-                    "id": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
+                    "id": "EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaaf",
                     "label": "EXTREMA DETERMINATION",
                     "func": "EXTREMA_DETERMINATION",
                     "type": "VISUALIZERS",
@@ -115,23 +373,271 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 237.01542462272937,
-                    "y": -201.91204087326986
+                    "x": -216.8571435238302,
+                    "y": -337.8345557653837
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 237.01542462272937,
-                    "y": -201.91204087326986
+                    "x": -216.8571435238302,
+                    "y": -337.8345557653837
                 },
                 "dragging": true
             },
             {
                 "width": 225,
                 "height": 226,
-                "id": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                "id": "EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3",
                 "type": "VISUALIZERS",
                 "data": {
-                    "id": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                    "id": "EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3",
+                    "label": "EXTREMA DETERMINATION 1",
+                    "func": "EXTREMA_DETERMINATION",
+                    "type": "VISUALIZERS",
+                    "ctrls": {
+                        "center": {
+                            "type": "list[int]",
+                            "default": null,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "center",
+                            "value": ""
+                        },
+                        "min_dist": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "min_dist",
+                            "value": 0
+                        },
+                        "algorithm": {
+                            "type": "select",
+                            "default": "log",
+                            "options": [
+                                "persistence",
+                                "high_symmetry",
+                                "log"
+                            ],
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "algorithm",
+                            "value": "log"
+                        },
+                        "prominence": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "prominence",
+                            "value": 0
+                        },
+                        "k": {
+                            "type": "float",
+                            "default": 1.41,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "k",
+                            "value": 1.41
+                        },
+                        "sigma": {
+                            "type": "float",
+                            "default": 1,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "sigma",
+                            "value": 1
+                        },
+                        "max_power": {
+                            "type": "int",
+                            "default": 9,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "max_power",
+                            "value": 9
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        },
+                        {
+                            "name": "image_mask",
+                            "id": "image_mask",
+                            "type": "Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "fig",
+                            "id": "fig",
+                            "type": "Plotly",
+                            "desc": null
+                        },
+                        {
+                            "name": "blobs",
+                            "id": "blobs",
+                            "type": "Grayscale",
+                            "desc": null
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/EXTREMA_DETERMINATION/EXTREMA_DETERMINATION.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 907.1618678471426,
+                    "y": -336.20713872829265
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 907.1618678471426,
+                    "y": -336.20713872829265
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787",
+                    "label": "EXTREMA DETERMINATION 2",
+                    "func": "EXTREMA_DETERMINATION",
+                    "type": "VISUALIZERS",
+                    "ctrls": {
+                        "center": {
+                            "type": "list[int]",
+                            "default": null,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "center",
+                            "value": ""
+                        },
+                        "min_dist": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "min_dist",
+                            "value": 0
+                        },
+                        "algorithm": {
+                            "type": "select",
+                            "default": "log",
+                            "options": [
+                                "persistence",
+                                "high_symmetry",
+                                "log"
+                            ],
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "algorithm",
+                            "value": "log"
+                        },
+                        "prominence": {
+                            "type": "float",
+                            "default": 0,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "prominence",
+                            "value": 0
+                        },
+                        "k": {
+                            "type": "float",
+                            "default": 1.41,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "k",
+                            "value": 1.41
+                        },
+                        "sigma": {
+                            "type": "float",
+                            "default": 1,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "sigma",
+                            "value": 1
+                        },
+                        "max_power": {
+                            "type": "int",
+                            "default": 9,
+                            "desc": null,
+                            "functionName": "EXTREMA_DETERMINATION",
+                            "param": "max_power",
+                            "value": 9
+                        }
+                    },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        },
+                        {
+                            "name": "image_mask",
+                            "id": "image_mask",
+                            "type": "Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": null
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "fig",
+                            "id": "fig",
+                            "type": "Plotly",
+                            "desc": null
+                        },
+                        {
+                            "name": "blobs",
+                            "id": "blobs",
+                            "type": "Grayscale",
+                            "desc": null
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/EXTREMA_DETERMINATION/EXTREMA_DETERMINATION.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 220.84746897868519,
+                    "y": 167.05459959403254
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 220.84746897868519,
+                    "y": 167.05459959403254
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "REGION_PROPERTIES-869d341c-2b3b-4cb5-879f-5a777f10aa00",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "REGION_PROPERTIES-869d341c-2b3b-4cb5-879f-5a777f10aa00",
                     "label": "REGION PROPERTIES",
                     "func": "REGION_PROPERTIES",
                     "type": "VISUALIZERS",
@@ -164,23 +670,23 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 701.5694568361153,
-                    "y": -354.4355078405773
+                    "x": 214.39200717760508,
+                    "y": -470.6539684304251
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 701.5694568361153,
-                    "y": -354.4355078405773
+                    "x": 214.39200717760508,
+                    "y": -470.6539684304251
                 },
                 "dragging": true
             },
             {
                 "width": 225,
                 "height": 226,
-                "id": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                "id": "IMAGE-5b94a634-7190-4cbe-acdb-8efba8a04089",
                 "type": "VISUALIZERS",
                 "data": {
-                    "id": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                    "id": "IMAGE-5b94a634-7190-4cbe-acdb-8efba8a04089",
                     "label": "IMAGE",
                     "func": "IMAGE",
                     "type": "VISUALIZERS",
@@ -207,31 +713,264 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 708.9104803493708,
-                    "y": -40.863390467058935
+                    "x": 215.16022663762575,
+                    "y": -188.09384274687054
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 708.9104803493708,
-                    "y": -40.863390467058935
+                    "x": 215.16022663762575,
+                    "y": -188.09384274687054
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "IMAGE-12946944-2980-487b-819b-958d04828e47",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "IMAGE-12946944-2980-487b-819b-958d04828e47",
+                    "label": "IMAGE 1",
+                    "func": "IMAGE",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "the DataContainer containing Plotly Image visualization of the input image"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/IMAGE/IMAGE.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1281.6512688568675,
+                    "y": -169.08422737786165
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1281.6512688568675,
+                    "y": -169.08422737786165
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "IMAGE-a16d01cc-c47c-45e3-b8ce-a2917fe088cc",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "IMAGE-a16d01cc-c47c-45e3-b8ce-a2917fe088cc",
+                    "label": "IMAGE 2",
+                    "func": "IMAGE",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "the DataContainer containing Plotly Image visualization of the input image"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/IMAGE/IMAGE.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 661.3898145126208,
+                    "y": 330.4705219204993
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 661.3898145126208,
+                    "y": 330.4705219204993
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "REGION_PROPERTIES-93500f81-7c16-433c-9c9a-7a29dbd5afaa",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "REGION_PROPERTIES-93500f81-7c16-433c-9c9a-7a29dbd5afaa",
+                    "label": "REGION PROPERTIES 1",
+                    "func": "REGION_PROPERTIES",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": "The input node to this function. If nothing is supplied, then a demo test\ncase is returned to illustrate the functionality of this node."
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "Returns the Plotly superclass of `DataContainer` that has the illustrated\nfeatures as determined by this node."
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/REGION_PROPERTIES.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 1279.7300521045374,
+                    "y": -446.36181902257283
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1279.7300521045374,
+                    "y": -446.36181902257283
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "REGION_PROPERTIES-286ec9a8-fcc5-4f8a-9a67-43784db92a70",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "REGION_PROPERTIES-286ec9a8-fcc5-4f8a-9a67-43784db92a70",
+                    "label": "REGION PROPERTIES 2",
+                    "func": "REGION_PROPERTIES",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Image|Grayscale|Matrix",
+                            "multiple": false,
+                            "desc": "The input node to this function. If nothing is supplied, then a demo test\ncase is returned to illustrate the functionality of this node."
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "Returns the Plotly superclass of `DataContainer` that has the illustrated\nfeatures as determined by this node."
+                        }
+                    ],
+                    "pip_dependencies": [
+                        {
+                            "name": "scikit-image",
+                            "v": "0.21.0"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/REGION_PROPERTIES.py",
+                    "selected": false
+                },
+                "position": {
+                    "x": 657.1163257986806,
+                    "y": 58.46874196674503
+                },
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 657.1163257986806,
+                    "y": 58.46874196674503
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
-                "sourceHandle": "blobs",
-                "target": "REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7e",
+                "source": "LOCAL_FILE-f93e72d9-0922-4f3b-b1b3-c273b8bae49c",
+                "sourceHandle": "default",
+                "target": "EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaaf",
                 "targetHandle": "default",
-                "id": "reactflow__edge-EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675blobs-REGION_PROPERTIES-7cdb933a-2286-4cc4-ae6f-33f3e36b3b7edefault"
+                "id": "reactflow__edge-LOCAL_FILE-f93e72d9-0922-4f3b-b1b3-c273b8bae49cdefault-EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaafdefault"
             },
             {
-                "source": "EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675",
-                "sourceHandle": "blobs",
-                "target": "IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2dea",
+                "source": "LOCAL_FILE-1994c7c0-554f-4e81-83d8-3555041655bd",
+                "sourceHandle": "default",
+                "target": "EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3",
                 "targetHandle": "default",
-                "id": "reactflow__edge-EXTREMA_DETERMINATION-ed58cead-c34c-4d4c-be6e-0a7f96b65675blobs-IMAGE-47a09562-c1e2-47b2-8c1c-97cbd30a2deadefault"
+                "id": "reactflow__edge-LOCAL_FILE-1994c7c0-554f-4e81-83d8-3555041655bddefault-EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3default"
+            },
+            {
+                "source": "LOCAL_FILE-26a3d832-61e0-40c3-a3d0-81bb218cd5da",
+                "sourceHandle": "default",
+                "target": "EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787",
+                "targetHandle": "default",
+                "id": "reactflow__edge-LOCAL_FILE-26a3d832-61e0-40c3-a3d0-81bb218cd5dadefault-EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787default"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaaf",
+                "sourceHandle": "blobs",
+                "target": "REGION_PROPERTIES-869d341c-2b3b-4cb5-879f-5a777f10aa00",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaafblobs-REGION_PROPERTIES-869d341c-2b3b-4cb5-879f-5a777f10aa00default"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaaf",
+                "sourceHandle": "blobs",
+                "target": "IMAGE-5b94a634-7190-4cbe-acdb-8efba8a04089",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-9d860ad3-7a8c-44e4-b736-bf702e8caaafblobs-IMAGE-5b94a634-7190-4cbe-acdb-8efba8a04089default"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3",
+                "sourceHandle": "blobs",
+                "target": "REGION_PROPERTIES-93500f81-7c16-433c-9c9a-7a29dbd5afaa",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3blobs-REGION_PROPERTIES-93500f81-7c16-433c-9c9a-7a29dbd5afaadefault"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3",
+                "sourceHandle": "blobs",
+                "target": "IMAGE-12946944-2980-487b-819b-958d04828e47",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-559690d8-839c-4647-9308-2dfecbf427f3blobs-IMAGE-12946944-2980-487b-819b-958d04828e47default"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787",
+                "sourceHandle": "blobs",
+                "target": "REGION_PROPERTIES-286ec9a8-fcc5-4f8a-9a67-43784db92a70",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787blobs-REGION_PROPERTIES-286ec9a8-fcc5-4f8a-9a67-43784db92a70default"
+            },
+            {
+                "source": "EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787",
+                "sourceHandle": "blobs",
+                "target": "IMAGE-a16d01cc-c47c-45e3-b8ce-a2917fe088cc",
+                "targetHandle": "default",
+                "id": "reactflow__edge-EXTREMA_DETERMINATION-020f45a3-c2ab-42ab-b8da-74ddc85a0787blobs-IMAGE-a16d01cc-c47c-45e3-b8ce-a2917fe088ccdefault"
             }
         ],
         "viewport": {
