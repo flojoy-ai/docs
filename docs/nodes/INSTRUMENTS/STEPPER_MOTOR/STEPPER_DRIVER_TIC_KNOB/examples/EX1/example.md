@@ -12,5 +12,3 @@ First, the user must define the current limitation, which depends on the motor's
 After updating the knob position, click on PLAY again to initiate a new movement.
 
 To create a repetitive movement, use the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) and [`GOTO`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/GOTO/GOTO.py) nodes. 
-
-
