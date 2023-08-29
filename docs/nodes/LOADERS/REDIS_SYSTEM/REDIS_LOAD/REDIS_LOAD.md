@@ -43,8 +43,16 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD/appendix/'><Media/></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOADERS/REDIS_SYSTEM/REDIS_LOAD)
 
 

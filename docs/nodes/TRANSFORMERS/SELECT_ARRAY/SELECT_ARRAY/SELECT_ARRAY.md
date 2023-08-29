@@ -43,8 +43,16 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/appendix/'><Media/></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY)
 
 

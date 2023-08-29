@@ -82,4 +82,10 @@ To save the app for later use, click on `File -> Save As` in the top right, and 
 
 You can also load an already saved app from here using `File -> Load`. 
 
-In the next tutorial, we will show you how you can change the behavior of individual nodes.
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/nodes/introduction.md)

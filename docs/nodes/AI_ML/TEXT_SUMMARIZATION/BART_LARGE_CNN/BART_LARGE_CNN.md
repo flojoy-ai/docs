@@ -55,3 +55,11 @@ import Media from './appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/appendix/'><Media /></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN)
