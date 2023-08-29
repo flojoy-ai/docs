@@ -31,7 +31,7 @@ Open your Terminal and type `node -v` to see if you already have Node.js install
 
 ### Git
 
-[Download](https://git-scm.com/download/win)
+[Download](https://git-scm.com/download)
 
 Git is required to run the installation script
 
