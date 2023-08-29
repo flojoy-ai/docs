@@ -126,7 +126,7 @@ Flojoy Studio will open automatically after installation.
 The next time that you wish to run Studio, simply navigate to the `studio` folder and run:
 
 ```bash
-sh flojoy -v venv
+bash flojoy -v venv
 ```
 
 <details>
