@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SURFACE3D
+description: The SURFACE3D node creates a Plotly 3D Surface visualization for a given input DataContainer.
+keywords: [Python, Visualize, Plotly, 3D, Plotly Surface3D visualizer, Python 3D surface plot tool, Three-dimensional data visualization, Surface3D plot examples, Flojoy Plotly nodes, Interactive 3D surface charts, Python data visualization, 3D surface plot creation, Visualizing data with Plotly, Three-dimensional data analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SURFACE3D/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SURFACE3D/appendix/'><Media /></AppendixSection>

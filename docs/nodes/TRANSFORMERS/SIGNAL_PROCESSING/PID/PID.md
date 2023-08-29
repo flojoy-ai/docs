@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PID
+description: The PID node acts like a PID function. The returned value with be modified according to the PID parameters Kp, Ki, and Kd.
+keyword: [Python, Transform, Signal processing, PID transformer, Signal processing in Python, Data control with PID, Python PID calculations, Streamline data analysis, Signal processing transformations, PID control system, Python data manipulation, Accurate data insights, Control system using PID]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/appendix/'><Media /></AppendixSection>

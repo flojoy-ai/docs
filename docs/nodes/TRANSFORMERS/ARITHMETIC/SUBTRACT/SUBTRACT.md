@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SUBTRACT
+description: Effortlessly perform Python-based subtraction calculations with Flojoy's SUBTRACT transformer. Subtract 2 input vectors and return the result.
+keyword: [Python, Transform, Arithmetic, Subtract, Subtraction transformer, Python subtraction calculations, Data processing with subtraction, Flojoy SUBTRACT transformer, Streamline data analysis, Arithmetic transformations, Subtraction calculation, Python data manipulation, Accurate data insights, SUBTRACT transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/appendix/'><Media /></AppendixSection>

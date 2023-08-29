@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: PROPHET_COMPONENTS
+description: Explore Python-powered Prophet components visualization in Flojoy. Master dynamic insights into time series forecasting components.
+keywords: [Python, Visualize, Plotly, Plotly Prophet Components visualizer, Python time series visualization, Dynamic Prophet components insight, Plotly time series plot examples, Flojoy Plotly nodes, Interactive time series visualization, Python data visualization tools, Time series components representation, Visualizing Prophet components with Plotly, Time series analysis using Prophet]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Media /></AppendixSection>

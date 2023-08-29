@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: TABLE
+description: Enhance data presentation with Python using Flojoy's Plotly Table visualizer. Create dynamic tables for organized and insightful data representation.
+keywords: [Python, Visualize, Plotly, Plotly Table visualizer, Python data table tool, Dynamic table creation, Table visualization examples, Flojoy Plotly nodes, Interactive data tables, Python data representation, Table creation with Plotly, Visualizing data with tables, Data table analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/TABLE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/TABLE/appendix/'><Media /></AppendixSection>

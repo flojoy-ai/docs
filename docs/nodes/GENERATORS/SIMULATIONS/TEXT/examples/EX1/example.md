@@ -1,1 +1,3 @@
-In this example, a short phrase is entered to `TEXT` and it get displayed with `TEXT_VIEW`.
+<!--- Add SEO here --->
+
+In this example, a short phrase is entered into the `TEXT` node and then displayed with the `TEXT_VIEW` node.

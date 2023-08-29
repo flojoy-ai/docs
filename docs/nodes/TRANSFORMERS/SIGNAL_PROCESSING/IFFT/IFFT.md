@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: IFFT
+description: The IFFT performs the Inverse Discrete Fourier Transform on the input signal. With the IFFT algorith, the input signal will be transformed from the frequency domain back into the time domain.
+keyword: [Python, Transform, Signal processing, IFFT transformer, Python Inverse Fast Fourier Transform, Signal processing with IFFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, IFFT calculation in Python, Python data manipulation, Accurate data insights, Inverse frequency analysis using IFFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Media /></AppendixSection>

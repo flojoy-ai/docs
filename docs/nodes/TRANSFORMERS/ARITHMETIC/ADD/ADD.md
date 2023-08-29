@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: ADD
+description: Add 2 or more numeric arrays, matrices, dataframes, or constants element-wise. When a constant is added to an array or matrix, each element in the array or matrix will be increased by the constant value.
+keyword: [Python, Transform, Arithmetic, Addition transformer, Python addition calculations, Data processing with addition, Flojoy ADD transformer, Streamline data analysis, Arithmetic transformations, Addition calculation, Python data manipulation, Accurate data insights, ADD transformation in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/ADD/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ARITHMETIC/ADD/appendix/'><Media /></AppendixSection>

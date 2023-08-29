@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LOCAL_FILE
+description: The LOCAL_FILE node loads a local file of different format and converts it to a DataContainer class.
+keyword: [Python, Extractor, Extract, Local file loading, Load data from local files, Data loading from file system, Flojoy Local File Loader, Python local file handling, Data import from local storage, Local data processing, Python file system loader, Efficient data access, Data loading with Flojoy]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Media /></AppendixSection>

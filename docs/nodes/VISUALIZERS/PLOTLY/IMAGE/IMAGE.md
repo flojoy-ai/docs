@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: IMAGE
+description: The IMAGE node creates a Plotly image visualization for a given input data container type of image.
+keywords: [Python, Visualize, Plotly, Plotly Image visualizer, Python image data visualization, Visualizing images with Plotly, Image plot examples, Flojoy Plotly nodes, Interactive image visualization, Python data visualization tools, Image representation techniques, Plotly for image insights, Image data exploration]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/IMAGE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/IMAGE/appendix/'><Media /></AppendixSection>

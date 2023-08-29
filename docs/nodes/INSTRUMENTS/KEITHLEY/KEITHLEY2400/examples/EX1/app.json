@@ -2,19 +2,21 @@
     "rfInstance": {
         "nodes": [
             {
-                "width": 150,
-                "height": 150,
-                "id": "KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063ab",
+                "width": 192,
+                "height": 192,
+                "id": "KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01e",
                 "type": "INSTRUMENTS",
                 "data": {
-                    "id": "KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063ab",
+                    "id": "KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01e",
                     "label": "KEITHLEY2400",
                     "func": "KEITHLEY2400",
                     "type": "INSTRUMENTS",
-                    "ctrls": {
+                    "ctrls": {},
+                    "initCtrls": {
                         "comport": {
                             "type": "str",
                             "default": "/dev/ttyUSB0",
+                            "desc": null,
                             "functionName": "KEITHLEY2400",
                             "param": "comport",
                             "value": "/dev/ttyUSB0"
@@ -22,6 +24,7 @@
                         "baudrate": {
                             "type": "float",
                             "default": 9600,
+                            "desc": null,
                             "functionName": "KEITHLEY2400",
                             "param": "baudrate",
                             "value": 9600
@@ -31,15 +34,17 @@
                         {
                             "name": "default",
                             "id": "default",
-                            "type": "OrderedPair",
-                            "multiple": false
+                            "type": "OrderedPair|Vector",
+                            "multiple": false,
+                            "desc": null
                         }
                     ],
                     "outputs": [
                         {
                             "name": "default",
                             "id": "default",
-                            "type": "OrderedPair"
+                            "type": "OrderedPair",
+                            "desc": null
                         }
                     ],
                     "pip_dependencies": [
@@ -52,70 +57,31 @@
                     "selected": false
                 },
                 "position": {
-                    "x": 200.68907961661031,
-                    "y": 13.035882888633353
+                    "x": 114.41979939902592,
+                    "y": -225.9703888733589
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": 200.68907961661031,
-                    "y": 13.035882888633353
+                    "x": 114.41979939902592,
+                    "y": -225.9703888733589
                 },
                 "dragging": true
             },
             {
-                "width": 225,
-                "height": 226,
-                "id": "LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06",
-                "type": "VISUALIZERS",
+                "width": 208,
+                "height": 96,
+                "id": "LINSPACE-a3ec55cd-d572-437a-a823-7a8707fc2099",
+                "type": "GENERATORS",
                 "data": {
-                    "id": "LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06",
-                    "label": "LINE",
-                    "func": "LINE",
-                    "type": "VISUALIZERS",
-                    "ctrls": {},
-                    "inputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "OrderedPair|DataFrame|Matrix",
-                            "multiple": false
-                        }
-                    ],
-                    "outputs": [
-                        {
-                            "name": "default",
-                            "id": "default",
-                            "type": "Plotly"
-                        }
-                    ],
-                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/LINE/LINE.py",
-                    "selected": false
-                },
-                "position": {
-                    "x": 551.1961381818137,
-                    "y": -23.670798508066298
-                },
-                "selected": false,
-                "positionAbsolute": {
-                    "x": 551.1961381818137,
-                    "y": -23.670798508066298
-                },
-                "dragging": true
-            },
-            {
-                "width": 150,
-                "height": 150,
-                "id": "LINSPACE-9ef0bb07-00b7-4d2b-8cb3-bba95cdc6477",
-                "type": "default",
-                "data": {
-                    "id": "LINSPACE-9ef0bb07-00b7-4d2b-8cb3-bba95cdc6477",
+                    "id": "LINSPACE-a3ec55cd-d572-437a-a823-7a8707fc2099",
                     "label": "LINSPACE",
                     "func": "LINSPACE",
-                    "type": "default",
+                    "type": "GENERATORS",
                     "ctrls": {
                         "start": {
                             "type": "float",
                             "default": 10,
+                            "desc": "The start point of the data.",
                             "functionName": "LINSPACE",
                             "param": "start",
                             "value": 10
@@ -123,6 +89,7 @@
                         "end": {
                             "type": "float",
                             "default": 0,
+                            "desc": "The end point of the data.",
                             "functionName": "LINSPACE",
                             "param": "end",
                             "value": 0
@@ -130,72 +97,108 @@
                         "step": {
                             "type": "int",
                             "default": 1000,
+                            "desc": "The number of points in the vector.",
                             "functionName": "LINSPACE",
                             "param": "step",
                             "value": 1000
                         }
                     },
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Vector|OrderedPair",
+                            "multiple": false,
+                            "desc": "Optional input in case LINSPACE is used in a loop. Not used."
+                        }
+                    ],
                     "outputs": [
                         {
                             "name": "default",
                             "id": "default",
-                            "type": "OrderedPair"
+                            "type": "Vector",
+                            "desc": "v: the vector between start and end with step number of points."
                         }
                     ],
                     "path": "PYTHON/nodes/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE.py",
                     "selected": false
                 },
                 "position": {
-                    "x": -152.73436905978036,
-                    "y": 11.992374302794559
+                    "x": -220.989828306302,
+                    "y": -177.3419913453396
                 },
                 "selected": false,
                 "positionAbsolute": {
-                    "x": -152.73436905978036,
-                    "y": 11.992374302794559
+                    "x": -220.989828306302,
+                    "y": -177.3419913453396
+                },
+                "dragging": true
+            },
+            {
+                "width": 225,
+                "height": 226,
+                "id": "LINE-5ea158cf-c235-4bff-bec2-0714507a1bf0",
+                "type": "VISUALIZERS",
+                "data": {
+                    "id": "LINE-5ea158cf-c235-4bff-bec2-0714507a1bf0",
+                    "label": "LINE",
+                    "func": "LINE",
+                    "type": "VISUALIZERS",
+                    "ctrls": {},
+                    "initCtrls": {},
+                    "inputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "OrderedPair|DataFrame|Matrix|Vector",
+                            "multiple": false,
+                            "desc": "the DataContainer to be visualized"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "name": "default",
+                            "id": "default",
+                            "type": "Plotly",
+                            "desc": "the DataContainer containing Plotly Line visualization of the input data"
+                        }
+                    ],
+                    "path": "PYTHON/nodes/VISUALIZERS/PLOTLY/LINE/LINE.py",
+                    "selected": true
+                },
+                "position": {
+                    "x": 448.130869654421,
+                    "y": -243.92275361997378
+                },
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 448.130869654421,
+                    "y": -243.92275361997378
                 },
                 "dragging": true
             }
         ],
         "edges": [
             {
-                "source": "LINSPACE-9ef0bb07-00b7-4d2b-8cb3-bba95cdc6477",
+                "source": "LINSPACE-a3ec55cd-d572-437a-a823-7a8707fc2099",
                 "sourceHandle": "default",
-                "target": "KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063ab",
+                "target": "KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01e",
                 "targetHandle": "default",
-                "id": "reactflow__edge-LINSPACE-9ef0bb07-00b7-4d2b-8cb3-bba95cdc6477default-KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063abdefault"
+                "id": "reactflow__edge-LINSPACE-a3ec55cd-d572-437a-a823-7a8707fc2099default-KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01edefault"
             },
             {
-                "source": "KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063ab",
+                "source": "KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01e",
                 "sourceHandle": "default",
-                "target": "LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06",
+                "target": "LINE-5ea158cf-c235-4bff-bec2-0714507a1bf0",
                 "targetHandle": "default",
-                "id": "reactflow__edge-KEITHLEY2400-06832353-c0e3-4b21-80f1-99f7827063abdefault-LINE-c497dfe3-5697-43ea-89ae-49855ed1fd06default"
+                "id": "reactflow__edge-KEITHLEY2400-33053219-7ec1-40d0-9cb9-5d337294a01edefault-LINE-5ea158cf-c235-4bff-bec2-0714507a1bf0default"
             }
         ],
         "viewport": {
-            "x": -358.59636577932724,
-            "y": 99.85117439980638,
-            "zoom": 1.0581352782820395
+            "x": 621.1813795484834,
+            "y": 324.9597014372874,
+            "zoom": 0.6891413136990774
         }
-    },
-    "ctrlsManifest": [
-        {
-            "type": "input",
-            "name": "Slider",
-            "id": "INPUT_PLACEHOLDER",
-            "hidden": false,
-            "minHeight": 1,
-            "minWidth": 2,
-            "layout": {
-                "x": 0,
-                "y": 0,
-                "h": 2,
-                "w": 2,
-                "minH": 1,
-                "minW": 2,
-                "i": "INPUT_PLACEHOLDER"
-            }
-        }
-    ]
+    }
 }

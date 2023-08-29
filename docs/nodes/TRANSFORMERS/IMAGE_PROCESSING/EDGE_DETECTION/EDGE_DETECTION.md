@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: EDGE_DETECTION
+description: The EDGE_DETECTION node detects edges in the image passed to it. This is done through the the Pillow image filter FIND_EDGES. The image is converted to greyscale during this processing. 
+keyword: [Python, Transform, Image processing, Edge detection, Image processing in Python, Data analysis with edge detection, Python edge detection algorithms, Streamline image analysis, Image processing transformations, Edge detection techniques, Python image manipulation, Accurate image insights, Image feature extraction using edges]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/appendix/'><Media /></AppendixSection>

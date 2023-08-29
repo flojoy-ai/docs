@@ -1,3 +1,4 @@
+<!--- Add SEO here --->
 
 [//]: # (Custom component imports)
 
@@ -24,7 +25,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
+import App1 from '!!raw-loader!./examples/EX1/app.json';
 import outputImg from './examples/EX1/output.jpeg'
 import appImg from './examples/EX1/app.jpeg'
 
@@ -46,14 +47,14 @@ import appImg from './examples/EX1/app.jpeg'
 
 [//]: # (Appendix)
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'><Media /></AppendixSection>
 
 

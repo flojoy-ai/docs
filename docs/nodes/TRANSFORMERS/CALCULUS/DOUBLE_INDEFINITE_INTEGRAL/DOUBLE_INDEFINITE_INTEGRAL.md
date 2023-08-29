@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DOUBLE_INDEFINITE_INTEGRAL
+description: The DOUBLE_INDEFINITE_INTEGRAL node takes an OrderedTriple (x,y,z) and have the width and height parameter. It computes the double integral approximation according to the matrices dimensions given and it returns a matrix where each cell represents volume up to the given point.
+keyword: [Python, Transform, Calculus, Indefinite integral, Double indefinite integral transformer, Calculus operations in Python, Data integration with Flojoy, Python integration calculations, 
+Calculus transformations, Double integral calculation, Python data manipulation, Accurate data insights, Indefinite integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +49,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/appendix/'><Media /></AppendixSection>

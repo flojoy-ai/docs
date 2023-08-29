@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: BIG_NUMBER
+description: Enhance data presentation using Python with Flojoy's Plotly Big Number visualizer. Create impactful visualizations for large numerical insights.
+keywords: [Python, Visualize, Plotly, Plotly Big Number visualizer, Python numerical visualization, Large numerical insights, Big Number visualization examples, Flojoy Plotly nodes, Data presentation tools, Python data visualization, Numerical data representation, Visualizing data with Plotly, Impactful numerical insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/appendix/'><Media /></AppendixSection>

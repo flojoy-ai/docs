@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: EXTRACT_COLUMNS
+description: Efficiently extract specific columns from DataFrames using Python with Flojoy's EXTRACT_COLUMNS node. Streamline data manipulation and analysis.
+keywords: [Python, Extractor, Extract, Dataframe column extraction, Python column selection, Efficient data manipulation, Extracting DataFframe columns, Flojoy Extract Columns node, Streamlining data analysis, Python data extraction, Data column filtering, Dataframe column manipulation, Extracting specific columns]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/appendix/'><Media /></AppendixSection>

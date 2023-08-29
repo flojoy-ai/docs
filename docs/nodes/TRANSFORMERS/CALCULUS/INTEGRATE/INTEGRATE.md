@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: INTEGRATE
+description: The Python"-"powered INTEGRATE node takes two lists as input and integrates it using the composite trapezoidal rule.
+keyword: [Python, Transform, Calculus, Integrate, Integration transformer, Python integration calculations, Data processing with integration, Flojoy INTEGRATE transformer, Streamline data analysis, Calculus transformations, Integration calculation, Python data manipulation, Accurate data insights, Integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/INTEGRATE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Media /></AppendixSection>

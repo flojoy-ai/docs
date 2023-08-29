@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: TEXT_DATASET
+description: The TEXT_DATASET node loads the 20 newsgroups dataset from scikit"-"learn. The data is returned as a dataframe with one column containing the text and the other containing the category.
+keywords: [Python, Generate, Text dataset generator, Sample text datasets, Flojoy generator nodes, Synthetic text data, Text dataset examples, Text data simulation, Text dataset generation, Data simulation for NLP, Text data analysis tools, Text dataset for training]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/appendix/'><Media /></AppendixSection>

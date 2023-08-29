@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: READ_CSV
+description: Efficiently read CSV files from local disk or URL using Python with Flojoy's READ_CSV node. Simplify data extraction and manipulation for enhanced analysis.
+keywords: [Python, Extractor, Extract, CSV file reading, Python CSV extraction, Data extraction from CSV, Flojoy Read CSV node, Efficient data manipulation, CSV file handling, Python data extraction, Data analysis with CSV, CSV data processing, CSV data import in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_CSV/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/EXTRACTORS/FILE/READ_CSV/appendix/'><Media /></AppendixSection>

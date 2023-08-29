@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: COMPOSITE
+description: The COMPOSITE node creates a combination of Plotly visualizations for a given input data container.
+keywords: [Python, Visualize, Plotly, Plotly Composite visualizer, Composite data visualization, Data fusion using Plotly, Composite plot examples, Flojoy Plotly nodes, Multi-dimensional data visualization, Python composite data representation, Visualizing complex data, Plotly for composite insights, Interactive composite visualization]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/COMPOSITE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/COMPOSITE/appendix/'><Media /></AppendixSection>

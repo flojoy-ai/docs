@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: TIMER
+description: Efficiently manage time-based operations using Python with Flojoy's TIMER logic gate. The TIMER node sleeps for a specified number of seconds.
+keyword: [Python, Flow, Logic gates, Timer, Timer logic gate, Python timer operations, Time"-"based data processing, Streamline time"-"sensitive tasks, Timer"-"driven transformations, Timer usage in Python, Python data analysis with timers, Accurate time"-"based insights, Data processing using TIMER logic gate, Time management using timers in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/TIMERS/TIMER/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/LOGIC_GATES/TIMERS/TIMER/appendix/'><Media /></AppendixSection>

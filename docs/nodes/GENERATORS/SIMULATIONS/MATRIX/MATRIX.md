@@ -1,6 +1,6 @@
 ---
 title: MATRIX
-description: Master random matrix simulations with Python using the MATIX generator node from Flojoy. The MATRIX node takes row and col arguments as input and generates a random matrix where the integers inside the matrix are between 0 and 19.
+description: Master random matrix simulations with Python using the MATRIX generator node from Flojoy. The MATRIX node takes row and col arguments as input and generates a random matrix where the integers inside the matrix are between 0 and 19.
 keywords: [Python, Simulations, Python Matrix simulations, Matrix manipulation techniques, Flojoy generator nodes, Dynamic matrix modeling, Matrix simulation examples, Python simulation tools, Matrix manipulation in Python, Matrix-based simulations, Dynamic system modeling, Python matrix generator, Random matrix generator]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/MATRIX/examples/EX1/output.jpeg
 ---
@@ -48,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/MATRIX/appendix/'><Media /></AppendixSection>

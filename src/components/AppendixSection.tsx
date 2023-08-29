@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 import { useLocation } from '@docusaurus/router';
 
 type AppendixSectionProps = {
-  children: string;
+  children: React.ReactNode;
   index: number;
   folderPath: string;
 };
@@ -13,7 +12,9 @@ export default function AppendixSection({
   index,
   folderPath,
 }: AppendixSectionProps) {
+  // FIXME: Clean this up this is kinda dirty
   const location = useLocation();
+
   const isIONode = location.pathname.indexOf('INSTRUMENTS') !== -1;
 
   // Don't display hardware info on non IO nodes
@@ -27,21 +28,12 @@ export default function AppendixSection({
     'Media',
   ];
 
-  const boilerplate = [
-    'No theory or technical notes have been contributed for this node yet.',
-    'This node does not require any peripheral hardware to operate. Please see INSTRUMENTS for nodes that interact with the physical world through connected hardware.',
-    'No supporting screenshots, photos, or videos have been added to the media.md file for this node.',
-  ];
-
   const ROOT = 'https://github.com/flojoy-io/docs/tree/main/docs/';
 
   const fileNames = ['notes.md', 'hardware.md', 'media.md'];
   const sectionStyle = { display: 'inline-block', cursor: 'pointer' };
   const SECTION = sections[index];
   const HREF = ROOT + folderPath + fileNames[index];
-
-  const isDriverDoc =
-    typeof children === 'string' && children.includes('Driver doc :');
 
   return (
     <>
@@ -52,11 +44,7 @@ export default function AppendixSection({
             <h4>{SECTION}</h4>
           </span>
         </summary>
-        {isDriverDoc ? null : children !== '' ? (
-          <ReactMarkdown>{children}</ReactMarkdown>
-        ) : (
-          <ReactMarkdown>{boilerplate[index]}</ReactMarkdown>
-        )}
+        {children}
         <br />
         <small>
           <i>

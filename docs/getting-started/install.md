@@ -17,7 +17,7 @@ To install Flojoy, firstly there are a few prequisites needed on your machine.
 
 [Download](https://www.python.org/downloads/)
 
-Python and `pip` are required to install and run the Flojoy nodes. The minimum version requirement for Python is `3.10` and `20.0` for `pip`. 
+Python and `pip` are required to install and run the Flojoy nodes. The minimum version requirement for Python is `3.10` and `20.0` for `pip`.
 
 Open your Terminal and type `python3 –version` to see if you already have Python installed and what the version number is.
 
@@ -25,14 +25,18 @@ Open your Terminal and type `python3 –version` to see if you already have Pyth
 
 [Download](https://nodejs.org/en/download/package-manager/)
 
-Node.js is required to run Flojoy's app interface. 
+Node.js is required to run Flojoy's app interface.
 
 Open your Terminal and type `node -v` to see if you already have Node.js installed.
 
 </details>
 
+### Direct Install
+
+Coming soon... You will be able to download Flojoy Studio directly without interacting with the command line.
+
 ### Install with CLI command
-  
+
 <Tabs groupId="platform" queryString="platform">
   
 <TabItem value="windows" label="Windows">
@@ -84,6 +88,7 @@ python3.10 -m venv venv
 ```
 
 Optional flags:
+
 <ul>
   <li><code>-v</code> provides the path to the Python virtual environment</li>
   <li><code>-n</code> skips installing the Node packages in package.json</li>
@@ -113,7 +118,7 @@ Flojoy Studio will open automatically after installation.
 The next time that you wish to run Studio, simply navigate to the `studio` folder and run:
 
 ```bash
-flojoy -v venv
+sh flojoy -v venv
 ```
 
 <details>
@@ -140,10 +145,11 @@ python3.10 -m venv venv
 5. Finally, run:
 
 ```bash
-bash flojoy -v venv
+bash flojoy -v venv -p
 ```
 
 Optional flags:
+
 <ul>
   <li><code>-v</code> provides the path to the Python virtual environment</li>
   <li><code>-n</code> skips installing the Node packages in package.json</li>

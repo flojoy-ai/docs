@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DOUBLE_DEFINITE_INTEGRAL
+description: The DEFINITE_INTEGRAL node takes a function, upper, and lower bounds as input. It computes double integral of the given function.
+keyword: [Python, Transform, Calculus, Definite integral, Double definite integral transformer, Calculus operations in Python, Data integration with Flojoy, Python integration calculations, 
+Calculus transformations, Double integral calculation, Python data manipulation, Accurate data insights, Definite integration in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +49,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/appendix/'><Media /></AppendixSection>

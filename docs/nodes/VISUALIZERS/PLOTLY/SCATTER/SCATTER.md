@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: SCATTER
+description: Elevate data visualization with Python using Flojoy's Scatter visualizer. Create dynamic scatter plots for insightful analyses and presentations.
+keywords: [Python, Visualize, Plotly, Plotly Scatter visualizer, Python scatter plot tool, Data point visualization, Scatter plot examples, Flojoy Plotly nodes, Interactive scatter charts, Python data visualization, Scatter plot creation, Visualizing data with Plotly, Data point analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER/appendix/'><Media /></AppendixSection>

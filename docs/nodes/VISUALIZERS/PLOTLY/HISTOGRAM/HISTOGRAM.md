@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: HISTOGRAM
+description: The HISTOGRAM node creates a Plotly Histogram visualization for a given input data container.
+keywords: [Python, Visualize, Plotly, Plotly Histogram visualizer, Python histogram chart, Data distribution visualization, Histogram plot examples, Flojoy Plotly nodes, Interactive data visualization, Python data analysis tools, Histogram representation, Visualizing data with Plotly, Data distribution insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HISTOGRAM/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HISTOGRAM/appendix/'><Media /></AppendixSection>

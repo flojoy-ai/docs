@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: LABJACKU3
+description: Efficiently integrate LabJack U3 instruments with Python. The LABJACKU3 node allows you to record and return temperature measurements with a LABJACK U3 device.
+keyword: [Python, Instrument, LabJack U3 instrument control, Python integration with LabJack, Measurement and analysis, Python-based instrument control, LabJack U3 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline LabJack usage, Accurate data analysis, Python control of LabJack U3]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/LABJACK/LABJACKU3/examples/EX1/output.jpeg
+--- 
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/INSTRUMENTS/LABJACK/LABJACKU3/appendix/'><Media /></AppendixSection>

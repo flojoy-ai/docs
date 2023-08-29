@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: FFT
+description: The FFT node performs a Discrete Fourier Transform on the input vector. The input vector will be transformed from the time domain into the frequency domain which will be an ordered pair of arrays.
+keyword: [Python, Transform, Signal processing, FFT transformer, Python Fast Fourier Transform, Signal processing with FFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, FFT calculation in Python, Python data manipulation, Accurate data insights, Frequency analysis using FFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/appendix/'><Media /></AppendixSection>

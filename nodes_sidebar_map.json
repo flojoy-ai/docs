@@ -22,7 +22,7 @@
   "Data > AI & ML > Predict Time Series": "PREDICT_TIME_SERIES",
   "Data > AI & ML > Segmentation": "SEGMENTATION",
   "Data > AI & ML > Text Summarization": "TEXT_SUMMARIZATION",
-  "Flow": ["LOOPS", "CONDITIONALS", "TIMERS"],
+  "Flow": ["LOOPS", "CONDITIONALS", "TIMERS", "LOOP_TOOLS"],
   "I/O > Instruments > Keithley": "KEITHLEY",
   "I/O > Instruments > LabJack": "LABJACK",
   "I/O > Instruments > Phidget": "PHIDGET",

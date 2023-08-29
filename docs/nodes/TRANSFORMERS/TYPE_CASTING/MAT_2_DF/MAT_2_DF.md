@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: MAT_2_DF
+description: Efficiently convert matrices to Dataframes using Python with Flojoy's MAT_2_DF type casting transformer node.
+keyword: [Python, Transform, Type casting, Matrix to DataFrame conversion, Python type casting transformer, Data conversion with MAT_2_DF, Python data manipulation, Streamline data processing, Data transformation techniques, DataFrame creation from matrix, Python data analysis, Accurate data insights, Data manipulation using MAT_2_DF]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/appendix/'><Media /></AppendixSection>

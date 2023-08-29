@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: ORDERED_TRIPLE_2_SURFACE
+description: Efficiently convert ordered triples to surfaces using Python with Flojoy's ORDERED_TRIPLE_2_SURFACE type casting transformer. It reshapes the z array into a 2D grid using the unique values of x and y. 
+keyword: [Python, Transform, Type casting, Ordered triple to surface conversion, Python type casting transformer, Data conversion with ORDERED_TRIPLE_2_SURFACE, Python data manipulation, Streamline data processing, Data transformation techniques, Surface creation from ordered triples, Python data analysis, Accurate data insights, Data manipulation using ORDERED_TRIPLE_2_SURFACE]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/appendix/'><Media /></AppendixSection>

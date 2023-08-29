@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: DF_2_NP
+description: Easily convert Dataframes to NumPy arrays matrix type data using Python with Flojoy's DF_2_NP type casting transformer.
+keyword: [Python, Transform, Type casting, Dataframe to NumPy conversion, Python type casting transformer, Data conversion with DF_2_NP, Python data manipulation, Streamline data processing, Data transformation techniques, NumPy array creation, Python data analysis, Accurate data insights, Data manipulation using DF_2_NP]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/appendix/'><Media /></AppendixSection>

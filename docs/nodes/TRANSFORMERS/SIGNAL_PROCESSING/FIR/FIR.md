@@ -1,4 +1,9 @@
-<!--- Add SEO here --->
+---
+title: FIR
+description: The FIR node applies a low-pass FIR filter to an input vector. The filter is designed with the window method.
+keyword: [Python, Transform, Signal processing, FIR filter transformer, Signal processing in Python, Data filtering with FIR, Python filter calculations, Streamline data analysis, Signal processing transformations, FIR filter design, Python data manipulation, Accurate data insights, FIR filtering in Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -43,10 +48,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/appendix/'><Media /></AppendixSection>

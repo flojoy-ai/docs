@@ -1,3 +1,9 @@
+---
+title: TWO_DIMENSIONAL_FFT
+description: The Python"-"powered TWO_DIMENSIONAL_FFT node performs a two"-"dimensional fourier transform on the input matrix.
+keyword: [Python, Transform, Signal processing, Two-dimensional FFT transformer, Signal processing in Python, Data analysis with 2D FFT, Python frequency analysis, Streamline data analysis, Signal processing transformations, 2D FFT calculation in Python, Python data manipulation, Accurate data insights, Frequency analysis using 2D FFT]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -44,14 +50,14 @@ import outputImg from './examples/EX1/output.jpeg'
 
 [//]: # (Appendix)
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/appendix/'><Media /></AppendixSection>
 
 

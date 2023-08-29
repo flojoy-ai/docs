@@ -1,4 +1,10 @@
-<!--- Add SEO here --->
+---
+title: DF_2_ORDEREDTRIPLE
+description: Efficiently convert Dataframes to ordered triples using Python with Flojoy's DF_2_ORDEREDTRIPLE type casting transformer. It takes one dataframe type data to picks 3 different columns to generate OrderedTriple type.
+keyword: [Python, Transform, Type casting,  Dataframe to ordered triple conversion, Python type casting transformer, Data conversion with DF_2_ORDEREDTRIPLE, Python data manipulation, Streamline data processing, Data transformation techniques, Ordered triple creation, Python data analysis, Accurate data insights, Data manipulation using DF_2_ORDEREDTRIPLE]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDEREDTRIPLE/examples/EX1/output.jpeg
+---
+
 
 [//]: # (Custom component imports)
 
@@ -43,10 +49,10 @@ import outputImg from './examples/EX1/output.jpeg'
 
 ## Appendix
 
-import Notes from '!!raw-loader!./appendix/notes.md';
-import Hardware from '!!raw-loader!./appendix/hardware.md';
-import Media from '!!raw-loader!./appendix/media.md';
+import Notes from './appendix/notes.md';
+import Hardware from './appendix/hardware.md';
+import Media from './appendix/media.md';
 
-<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'>{Hardware}</AppendixSection>
-<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'>{Media}</AppendixSection>
+<AppendixSection index={0} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/appendix/'><Media /></AppendixSection>
