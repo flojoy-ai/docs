@@ -94,3 +94,10 @@ This script connects to a SHFSG RF Signal Generator with the name "dev1234" and 
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/RF%20Signal%20Generators/SHFSG/SHFSG.md)
