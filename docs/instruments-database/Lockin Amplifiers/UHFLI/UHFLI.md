@@ -95,5 +95,15 @@ uhfli.close()
 
 Note: Replace `"dev1234"` with the actual device ID or address of your UHFLI Lockin Amplifier.
 
+<<<<<<< HEAD:docs/instruments-database/Lockin Amplifiers/UHFLI/UHFLI.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lockin%20Amplifiers/UHFLI/UHFLI.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lockin Amplifiers/UHFLI.md

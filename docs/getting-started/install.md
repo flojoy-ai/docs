@@ -175,3 +175,15 @@ Optional flags:
 </TabItem>
 
 </Tabs>
+## Common gotchya's
+
+- Error related to an npm package: Delete the node_modules folder then run `npm install` to reinstall all node packages
+- Please ask for debug help on community.flojoy.io for help troubleshooting an installation error
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/getting-started/install.md)

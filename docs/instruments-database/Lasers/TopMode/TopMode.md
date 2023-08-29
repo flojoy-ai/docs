@@ -68,5 +68,15 @@ This script imports the `toptica` module from Instrumentkit and uses the `TopMod
 
 In this example, the script accesses the `wavelength` property of the first laser (`tm.laser[0].wavelength`) and prints its value.
 
+<<<<<<< HEAD:docs/instruments-database/Lasers/TopMode/TopMode.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lasers/TopMode/TopMode.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lasers/TopMode.md

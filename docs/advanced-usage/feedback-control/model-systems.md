@@ -74,3 +74,10 @@ def SECOND_ORDER_SYSTEM(
     bd = x1 * x2
     ...
 ```
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/feedback-control/model-systems.md)

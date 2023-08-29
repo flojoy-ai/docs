@@ -96,3 +96,10 @@ This script demonstrates how to connect to the CC1 Coincidence Counter, retrieve
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Coincidence%20Counters/CC1/CC1.md)

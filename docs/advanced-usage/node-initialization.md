@@ -33,3 +33,11 @@ In this example, the initialization function `linspace_init` is created using th
 During the runtime of the `LINSPACE` node, the `init_container`'s `get()` method extracts the content (in this case, "test") and prints it to the console. This operation exemplifies how Flojoy facilitates efficient runtime initialization, allowing node functions to access and utilize resources initialized beforehand.
 
 Utilizing Flojoy's `node_initialization` decorator efficiently alleviates the need for repetitive and time-consuming initialization processes, resulting in enhanced performance and resource utilization. This method significantly augments the efficiency and throughput of node operations, paving the way for more streamlined and robust applications.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/node-initialization.md)

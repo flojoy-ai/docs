@@ -35,3 +35,11 @@ where we give the transfer function in terms of its frequency components $\omega
 :::info
 Note that in this formalism, you will also see equivalent expressions for transfer functions given by the Laplace transform of the time-domain signals, known as the $s$-domain representation. 
 :::
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/feedback-control/active-feedback.md)

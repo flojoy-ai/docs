@@ -21,10 +21,18 @@ title: Architecture
 ### Data flow
 
 1. Flojoy is a single-page React app that hinges on the https://reactflow.dev/ open-source library. Creating the Flow Chart and control dashboard is done entirely in JavaScript (React), without any interaction with a backend service.
-2. React Flow serializes the flow chart layout and metadata as JSON. When an app user clicks on the PLAY button, the Front-End sends node metadata to Django, which processes that JSON data and enqueues a watchdog function to the rq worker.
-3. Flojoy has two primary rq workers: `flojoy-watch` and `flojoy`, where `flojoy-watch` runs the watchdog function, and `flojoy` is for the nodes. Django enqueues watchdog to the watch rq worker, and eventually, the rq worker executes that watchdog function.
-4. The watchdog function then processes further, and enqueues nodes to the corresponding rq worker with respect to their execution order. 
-5. Flojoy has its own python library, [flojoy](https://pypi.org/project/flojoy/), which exports a decorator function to wrap all the node functions. Rq workers, watchdog, and the decorator all communicate with Django through HTTP POST requests on an API.
-6. Django receives these requests and communicates with the Front-End through a socket connection to provide real-time data. 
-7. The decorator processes node metadata, prepares all the parameters of the node, and looks for any dependency on another node. If the current node depends on other nodes, it fetches their results from the rq worker, and finally calls the node function with its parameter values and dependent node results.
-8. After the node function runs, the decorator collects its result and sends it to Django with a POST API call, which eventually sends them to the Front-End through a socket connection.
+2. React Flow serializes flow chart layout and metadata as JSON. When an app user clicks on the play button, the Front-End sends node metadata to Django, which processes that JSON data and enqueues a watchdog function to the rq worker.
+3. Flojoy has two primary rq workers: `flojoy-watch` and `flojoy`. Where `flojoy-watch` runs the watchdog function, and the other one is for nodes. Django enqueues watchdog to the watch rq worker, and eventually, rq worker executes that watchdog function.
+4. The watchdog function then processes further and enqueues nodes to corresponding rq worker in respect to their execution order. 
+5. Flojoy has its own python library [flojoy](https://pypi.org/project/flojoy/) which exports a decorator function to wrap all the node functions. Rq workers, watchdog, and the decorator all of them communicate with Django with HTTP POST requests on an API.
+6. Django receives these requests and communicates with Front-End with a socket connection to provide real-time data. 
+7. The decorator processes node metadata and prepares all the parameters of the node and looks for any dependency on another node. If the current node depends on other nodes, then it fetches their results from the rq worker and finally calls the node function with its parameter values and dependent node results.
+8. After the node function runs, the decorator collects its result and sends it to Django with a POST API call, which eventually sends them to FE through a socket connection.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/getting-started/architecture.md)

@@ -99,5 +99,15 @@ d5a.disconnect()
 
 Note: Replace `"COM1"` with the appropriate port name for your SPI rack connection.
 
+<<<<<<< HEAD:docs/instruments-database/Power Supplies/D5a/D5a.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Power%20Supplies/D5a/D5a.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Power Supplies/D5a.md
