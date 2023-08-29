@@ -1,3 +1,9 @@
+---
+title: FLOJOY_CLOUD_DOWNLOAD
+description: Efficiently download a DataContainer that has been uploaded to the Flojoy Cloud.
+keyword: [Python, Load, Dataset loading in Python, Cloud database loader, Data loading from cloud, Flojoy Cloud Database Loader, Cloud data import, Python data retrieval, Cloud data processing, Efficient data loading, Streamline cloud data access, Cloud data integration, Data loading for analysis, Download from Cloud]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/examples/EX1/output.jpeg
+---  
 [//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
