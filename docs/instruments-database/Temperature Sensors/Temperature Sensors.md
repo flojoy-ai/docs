@@ -1,7 +1,7 @@
 --- 
 hide_table_of_contents: true
 sidebar_label: Temperature Sensors
-sidebar_position: 1
+sidebar_position: 3
 slug: /instruments-database/temperature-sensors/
 ---
 
