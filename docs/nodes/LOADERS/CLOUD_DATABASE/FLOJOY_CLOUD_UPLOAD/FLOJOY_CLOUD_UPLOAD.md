@@ -1,3 +1,9 @@
+---
+title: FLOJOY_CLOUD_UPLOAD
+description: Efficiently load datasets into Python using Flojoy's FLOJOY_CLOUD_UPLOAD node. It loads data directly from in-cloud storage.
+keyword: [Python, Load, Dataset loading in Python, Cloud database loader, Data loading from cloud, Flojoy Cloud Database Loader, Cloud data import, Python data retrieval, Cloud data processing, Efficient data loading, Streamline cloud data access, Cloud data integration, Data loading for analysis]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/examples/EX1/output.jpeg
+--- 
 [//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
