@@ -1,5 +1,5 @@
 ---
-title: LOADER
+title: FLOJOY_CLOUD_DOWNLOAD
 description: Efficiently load datasets into Python using Flojoy's DS_LOAD node. It loads data directly from in-memory data storage.
 keyword: [Python, Load, Dataset loading in Python, Cloud database loader, Data loading from cloud, Flojoy Cloud Database Loader, Cloud data import, Python data retrieval, Cloud data processing, Efficient data loading, Streamline cloud data access, Cloud data integration, Data loading for analysis]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/examples/EX1/output.jpeg
