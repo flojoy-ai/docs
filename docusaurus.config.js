@@ -99,6 +99,17 @@ const config = {
         },
       };
     },
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/instruments-database/all-instruments/',
+            from: '/instruments-database',
+          },
+        ],
+      },
+    ],
   ],
   // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
@@ -140,7 +151,7 @@ const config = {
               {
                 href: '/cloud/introduction',
                 label: 'Flojoy Cloud',
-              },              
+              },
               {
                 href: '/explore-nodes',
                 label: 'Explore nodes',
@@ -190,7 +201,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['matlab']
+        additionalLanguages: ['matlab'],
       },
       scripts: {
         src: 'https://cdn.usefathom.com/script.js',
