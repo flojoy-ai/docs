@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 <details>
 
-<summary>Click if you don't already have Python 3 or Node.js installed 👇</summary>
+<summary>Click if you don't already have Python 3, Node.js or Git installed 👇</summary>
 
 To install Flojoy, firstly there are a few prequisites needed on your machine.
 
@@ -28,6 +28,14 @@ Open your Terminal and type `python3 –version` to see if you already have Pyth
 Node.js is required to run Flojoy's app interface.
 
 Open your Terminal and type `node -v` to see if you already have Node.js installed.
+
+### Git
+
+[Download](https://git-scm.com/download/win)
+
+Git is required to run the installation script
+
+Open your Terminal and type `git -v` to see if you already have Git installed.
 
 </details>
 
