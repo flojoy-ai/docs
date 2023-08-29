@@ -4,13 +4,14 @@ import numpy as np
 from typing import Literal
 
 
-@flojoy
+@flojoy(deps={"opencv-python": "4.8.0"})
 def IMAGE_SMOOTHING(
     default: Image,
     kernel: int = 5,
     smoothing_type: Literal["average", "gaussian", "median", "bilateral"] = "average",
 ) -> Image:
     
+
     r = default.r
     g = default.g
     b = default.b
