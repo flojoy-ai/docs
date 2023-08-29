@@ -1,7 +1,7 @@
 --- 
 hide_table_of_contents: true
 sidebar_label: Spectrum Analyzers
-sidebar_position: 1
+sidebar_position: 3
 slug: /instruments-database/spectrum-analyzers/
 ---
 
