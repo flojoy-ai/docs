@@ -35,12 +35,12 @@ function HomepageHeader() {
       // email: 'youruser@example.com',
     });
 
-    win.Featurebase('initialize_portal_widget', {
-      organization: 'flojoy', // required
-      placement: 'right', // optional
-      fullScreen: false, // optional
-      initialPage: 'MainView', // optional (MainView, RoadmapView, CreatePost, PostsView, ChangelogView)
-    });
+    // win.Featurebase('initialize_portal_widget', {
+    //   organization: 'flojoy', // required
+    //   placement: 'right', // optional
+    //   fullScreen: false, // optional
+    //   initialPage: 'MainView', // optional (MainView, RoadmapView, CreatePost, PostsView, ChangelogView)
+    // });
   }, []);
 
   const { siteConfig } = useDocusaurusContext();
