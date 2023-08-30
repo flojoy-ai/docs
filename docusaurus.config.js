@@ -80,11 +80,6 @@ const config = {
       dataSite: 'LCCRNAEW',
       defer: true,
     },
-    {
-      async: true,
-      src: 'https://www.feedbackrocket.io/sdk/v1.1.js',
-      'data-fr-id': 'Miu2_YZZhyNubTim6WBdV',
-    },
   ],
   plugins: [
     'docusaurus-plugin-sass',
@@ -180,13 +175,6 @@ const config = {
                 label: 'Community',
               },
             ],
-          },
-          {
-            type: 'html',
-            position: 'right',
-            value: `<a href=# class="navbar__link feedback" data-fr-widget data-fr-theme="dynamic" data-fr-reply-required="">
-               Feedback
-          </a>`,
           },
           {
             href: 'https://www.flojoy.ai/contact-sales',
