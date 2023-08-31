@@ -9,6 +9,7 @@ import { downloadLinks } from '../utils/helper';
 import QuickStart from '../components/QuickStart';
 import { FaApple, FaWindows, FaLinux } from 'react-icons/fa';
 import Head from '@docusaurus/Head';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function HomepageHeader() {
   useEffect(() => {
@@ -72,7 +73,7 @@ function HomepageHeader() {
           <div className="d-flex align-center flex-column-lg justify-center gap-3">
             <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
               <Link
-                className=" flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black sm:text-xl"
+                className=" flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black"
                 to={downloadLinks.windows}
               >
                 <FaWindows />
@@ -81,7 +82,7 @@ function HomepageHeader() {
             </div>
             <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
               <Link
-                className="flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black sm:text-xl"
+                className="flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black"
                 to={downloadLinks.mac}
               >
                 <FaApple />
@@ -90,7 +91,7 @@ function HomepageHeader() {
             </div>
             <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
               <Link
-                className="flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black sm:text-xl"
+                className="flex items-center gap-2 p-4 text-lg font-bold uppercase tracking-wider text-white hover:text-white hover:no-underline dark:text-black hover:dark:text-black"
                 to={downloadLinks.linux}
               >
                 <FaLinux />
@@ -113,7 +114,7 @@ function HomepageHeader() {
 
       <section className={clsx('mb-4', styles.backgroundSection)}>
         <div className="container text-center">
-          <QuickStart />
+          <BrowserOnly>{() => <QuickStart />}</BrowserOnly>
         </div>
       </section>
     </>
