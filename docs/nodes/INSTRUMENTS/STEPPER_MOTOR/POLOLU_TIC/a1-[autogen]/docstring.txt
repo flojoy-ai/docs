@@ -1,0 +1,18 @@
+
+The POLOLU_TIC node allows you to set starting and target positions of a stepper
+motor compatible with the Pololu Tic T500, T249, T825, T834 or T36v4 stepper drivers.
+It returns time elapsed until target position is reached.
+
+Parameters
+----------
+initial_positiion : int
+    set current stepper motor position
+target_position : int
+    set target stepper motor position
+
+Returns
+-------
+OrderedPair
+    x: current stepper motor position
+    y: the amount of time in milliseconds until target position is reached
+
