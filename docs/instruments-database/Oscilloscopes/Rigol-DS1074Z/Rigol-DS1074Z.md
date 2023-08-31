@@ -57,10 +57,13 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 Here is a Python script that uses Qcodes to connect to a Rigol DS1074Z Oscilloscope:
 
 ```python
-from qcodes.instrument.visa import VisaInstrument
-
-class RigolDS1074Z(VisaInstrument):
-    # ... code omitted for brevity ...
+from qcodes.dataset import (
+    Measurement,
+    initialise_database,
+    load_or_create_experiment,
+    plot_dataset,
+)
+from qcodes.instrument_drivers.rigol import RigolDS1074Z
 
 # Create an instance of the RigolDS1074Z instrument
 rigol = RigolDS1074Z("rigol", "USB0::0x1AB1::0x04CE::DS1ZA222222222::INSTR")
