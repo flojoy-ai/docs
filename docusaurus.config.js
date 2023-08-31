@@ -74,13 +74,6 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-  scripts: [
-    {
-      src: 'https://cdn.usefathom.com/script.js',
-      dataSite: 'LCCRNAEW',
-      defer: true,
-    },
-  ],
   plugins: [
     'docusaurus-plugin-sass',
     async function myPlugin(context, options) {
@@ -105,6 +98,7 @@ const config = {
         ],
       },
     ],
+    require.resolve('docusaurus-plugin-fathom'),
   ],
   // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
@@ -191,11 +185,6 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['matlab'],
       },
-      scripts: {
-        src: 'https://cdn.usefathom.com/script.js',
-        'data-site': 'LCCRNAEW',
-        defer: true,
-      },
       algolia: {
         // The application ID provided by Algolia
         appId: 'JW330EK7K6',
@@ -213,6 +202,10 @@ const config = {
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
+      },
+
+      fathomAnalytics: {
+        siteId: 'LCCRNAEW',
       },
       // markprompt: {
       //   projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
