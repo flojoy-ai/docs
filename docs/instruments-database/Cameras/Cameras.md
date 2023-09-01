@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/cameras/thorlabs/cc126mu">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CC126Mu</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Kinetix sCMOS all_cameras</figcaption>
 </figure>
 </a></div>
@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/cameras/pco/PCO-pixelfly">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PCO Pixelfly</figcaption>
 </figure>
 </a></div>
@@ -56,7 +56,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/cameras/picam/pi-camera">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Pi Camera</figcaption>
 </figure>
 </a></div>
@@ -66,7 +66,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/cameras/thorlabs/thorlabs-dcu224c">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Thorlabs-DCU224C</figcaption>
 </figure>
 </a></div>

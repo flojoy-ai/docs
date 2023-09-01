@@ -95,7 +95,7 @@ export default function AppDisplay({
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'example.txt';
+    link.download = 'example.json';
     link.click();
     URL.revokeObjectURL(url);
   }, [appObject]);
