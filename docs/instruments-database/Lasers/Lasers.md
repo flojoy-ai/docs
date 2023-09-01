@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/lasers/keysight/keysight-n7776c">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Keysight N7776C</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/lasers/toptica/topmode">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>TopMode</figcaption>
 </figure>
 </a></div>
@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/lasers/toptica/ibeam-smart">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>iBeam smart</figcaption>
 </figure>
 </a></div>

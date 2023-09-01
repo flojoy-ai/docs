@@ -74,18 +74,6 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-  scripts: [
-    {
-      src: 'https://cdn.usefathom.com/script.js',
-      dataSite: 'LCCRNAEW',
-      defer: true,
-    },
-    {
-      async: true,
-      src: 'https://www.feedbackrocket.io/sdk/v1.1.js',
-      'data-fr-id': 'Miu2_YZZhyNubTim6WBdV',
-    },
-  ],
   plugins: [
     'docusaurus-plugin-sass',
     async function myPlugin(context, options) {
@@ -110,6 +98,7 @@ const config = {
         ],
       },
     ],
+    require.resolve('docusaurus-plugin-fathom'),
   ],
   // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
@@ -182,13 +171,6 @@ const config = {
             ],
           },
           {
-            type: 'html',
-            position: 'right',
-            value: `<a href=# class="navbar__link feedback" data-fr-widget data-fr-theme="dynamic" data-fr-reply-required="">
-               Feedback
-          </a>`,
-          },
-          {
             href: 'https://www.flojoy.ai/contact-sales',
             label: 'Contact Sales',
             position: 'right',
@@ -202,11 +184,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['matlab'],
-      },
-      scripts: {
-        src: 'https://cdn.usefathom.com/script.js',
-        'data-site': 'LCCRNAEW',
-        defer: true,
       },
       algolia: {
         // The application ID provided by Algolia
@@ -225,6 +202,10 @@ const config = {
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
+      },
+
+      fathomAnalytics: {
+        siteId: 'LCCRNAEW',
       },
       // markprompt: {
       //   projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',

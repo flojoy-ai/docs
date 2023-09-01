@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/coincidence-counters/qubitekk/cc1">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>CC1</figcaption>
 </figure>
 </a></div>

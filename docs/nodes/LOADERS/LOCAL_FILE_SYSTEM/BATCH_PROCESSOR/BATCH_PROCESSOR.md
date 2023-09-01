@@ -1,3 +1,10 @@
+---
+title: BATCH_PROCESSOR
+description: In this example, we demonstrate how to batch load many TIF images from within a directory, and process them each sequentially. The example processing here is to pass the loaded grayscale images as DataContainers to visualize with the IMAGE node.
+keywords: [Python, Batch Processing, Iteration]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/BATCH_PROCESSOR/examples/EX1/app.jpeg
+---
+
 [//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';

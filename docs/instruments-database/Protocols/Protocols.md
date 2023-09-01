@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/protocols/generic-scpi/SCPI-instrument">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SCPI Instrument</figcaption>
 </figure>
 </a></div>
