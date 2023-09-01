@@ -1,6 +1,6 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Visulaize
+sidebar_label: Visualize
 sidebar_position: 1
 slug: /nodes/VISUALIZERS/
 ---
