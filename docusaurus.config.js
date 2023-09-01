@@ -43,6 +43,37 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          sidebarItemsGenerator: async ({
+            defaultSidebarItemsGenerator,
+            ...args
+          }) => {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            const flattenNodes = item => {
+              if (!item.items || item.items.length === 0) {
+                return item;
+              }
+
+              // Check if the item is a node, i.e it has an examples
+              // or appendix section. If so, don't display it as a category
+              // and instead make it a leaf.
+              const filtered = item.items.filter(
+                x => x.label !== 'examples' && x.label !== 'appendix'
+              );
+
+              if (filtered.length === 0 && item.link) {
+                return {
+                  type: 'doc',
+                  id: item.link.id,
+                };
+              }
+
+              return {
+                ...item,
+                items: filtered.map(flattenNodes),
+              };
+            };
+            return sidebarItems.map(flattenNodes);
+          },
           // added LaTeX addins
           remarkPlugins: [math],
           rehypePlugins: [katex],
