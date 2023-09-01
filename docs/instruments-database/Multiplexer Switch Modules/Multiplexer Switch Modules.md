@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/multiplexer-switch-modules/national-instruments/ni-pxie-2597">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>NI PXIe-2597</figcaption>
 </figure>
 </a></div>
