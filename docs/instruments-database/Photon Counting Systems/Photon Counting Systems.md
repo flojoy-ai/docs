@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/photon-counting-systems/picoquant/picoharp-300">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PicoHarp 300</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/photon-counting-systems/singlequantum/singlequantum">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Singlequantum</figcaption>
 </figure>
 </a></div>

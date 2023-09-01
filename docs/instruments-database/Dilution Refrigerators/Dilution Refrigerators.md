@@ -28,7 +28,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-database/dilution-refrigerators/oxford-instruments/kelvinox-igh">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Kelvinox IGH</figcaption>
 </figure>
 </a></div>
@@ -38,7 +38,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
 
 <a href="/instruments-database/dilution-refrigerators/oxford-instruments/triton">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Triton</figcaption>
 </figure>
 </a></div>

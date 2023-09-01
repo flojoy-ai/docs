@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/humidity-sensors/orbit3/orbit-3-sensor">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Orbit 3 Sensor</figcaption>
 </figure>
 </a></div>

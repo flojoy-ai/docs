@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/spectrometers/andor/idus-401-ccd">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>IDUS 401 CCD</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/spectrometers/quantum-design/PPMS-dynacool">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>PPMS Dynacool</figcaption>
 </figure>
 </a></div>
@@ -46,7 +46,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/spectrometers/andor/shamrock-750">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>Shamrock 750</figcaption>
 </figure>
 </a></div>

@@ -26,7 +26,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/quantum-analyzers/zurich-instruments/shfqa">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>SHFQA</figcaption>
 </figure>
 </a></div>
@@ -36,7 +36,7 @@ You can find all the available instruments from the sidebar
 
 <a href="/instruments-database/quantum-analyzers/zurich-instruments/uhfqa">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.png" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>UHFQA</figcaption>
 </figure>
 </a></div>
