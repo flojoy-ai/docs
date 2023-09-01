@@ -1,0 +1,9 @@
+import numpy as np
+from flojoy import flojoy, Matrix
+
+
+@flojoy
+def DOT_PRODUCT(a: Matrix, b: Matrix) -> Matrix:
+    
+
+    return Matrix(m=np.matmul(a.m, b.m))
