@@ -54,3 +54,10 @@ import Media from './appendix/media.md';
 <AppendixSection index={2} folderPath='nodes/SCIPY/stats/TRIM_MEAN/appendix/'><Media /></AppendixSection>
 
 
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/SCIPY/STATS/TRIM_MEAN)

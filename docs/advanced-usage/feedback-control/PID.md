@@ -33,4 +33,12 @@ This is the final form of PID control established in the [`PID`](https://github.
 Since control theory is a large field, interested readers are encouraged to read more [here](https://en.wikipedia.org/wiki/PID_controller) to understand more the theory, motivation, and applications of the active feedback procedure using PID controllers.
 :::
 
-Next, we will put these pieces together to create a complete simulation of active feedback control.
+We will put these pieces together to create a complete simulation of active feedback control next.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/feedback-control/PID.md)

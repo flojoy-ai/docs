@@ -33,3 +33,11 @@ Jack Parmer: [CV](https://jackparmer.com) | [crunchbase](https://www.crunchbase.
 ## Contact
 
 media@flojoy.io
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/press-kit.md)

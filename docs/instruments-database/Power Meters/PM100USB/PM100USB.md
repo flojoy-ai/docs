@@ -213,5 +213,15 @@ The class has various properties and methods to interact with the power meter. H
 
 To use this script, you would need to create an instance of the `ThorlabsPM100USB` class and provide the appropriate adapter for communication with the power meter.
 
+<<<<<<< HEAD:docs/instruments-database/Power Meters/PM100USB/PM100USB.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Power%20Meters/PM100USB/PM100USB.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Power Meters/PM100USB.md

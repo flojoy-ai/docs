@@ -81,3 +81,10 @@ Note: Make sure you have the necessary DLL files (`VNX_atten64.dll` for 64-bit W
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Digital%20Attenuators/LDA-102N/LDA-102N.md)

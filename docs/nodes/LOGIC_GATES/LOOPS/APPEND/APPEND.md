@@ -55,3 +55,11 @@ import Media from './appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/LOGIC_GATES/LOOPS/APPEND/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/LOGIC_GATES/LOOPS/APPEND/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOGIC_GATES/LOOPS/APPEND/appendix/'><Media /></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOGIC_GATES/LOOPS/APPEND)

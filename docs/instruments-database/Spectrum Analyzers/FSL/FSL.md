@@ -318,3 +318,10 @@ This script provides a basic example of how to use Pymeasure to connect to and c
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Spectrum%20Analyzers/FSL/FSL.md)

@@ -80,6 +80,13 @@ with the name of the virtual environment folder.
 ### Deactivation 
 
 To deactivate your virtual environment, simply run the following in the terminal:
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/getting-started/virtualenv.md)
 
  ```bash
  ~ deactivate

@@ -8,3 +8,11 @@ image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CL
 In this example, the `tips` dataset from the `PLOTLY_DATASET` node is passed to the `ONE_HOT_ENCODING` node.
 
 For the `columns` parameter, `smoker,day` is passed to the `ONE_HOT_ENCODING` node so that the output consists of a dataframe with one hot encodings for only the `smoker` and `day` columns from the input dataset.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/examples/EX1/example.md)

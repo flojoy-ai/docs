@@ -33,4 +33,12 @@ Greyscale(m=my_greyscale_image)
 
 - `Parametric[TYPE]`: This data type consists of an additional argument, `t`, which represents time. It can be irregularly spaced but must always be in ascending order, otherwise an error will occur.
 
-- `DataContainer`: This is the base class for all `DataContainer` types. It can be used to represent any of the above data types. It is recommended to always use the most specific type possible, but this type can be used in cases where any type of `DataContainer` is a valid input.
+- `DataContainer` : this is the base class for all `DataContainer` types. It can be used to represent any of the above data types. It is recommended to always use the most specific type possible, but this type can be used in cases where any type of `DataContainer` is a valid input.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/custom-nodes/data-container.md)

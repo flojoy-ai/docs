@@ -52,6 +52,20 @@ import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
+<<<<<<< HEAD
 <AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Media /></AppendixSection>
+=======
+<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/SCATTER3D/appendix/'><Media /></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER3D)
+>>>>>>> d898a0e0 (feat: Concluded adding unique links to GitHub Edit page sources.)

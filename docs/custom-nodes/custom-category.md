@@ -35,3 +35,10 @@ python3 generate_manifest.py  # generates nodes manifest for Front-End
 ```bash
 python3 write_python_metadata.py  # writes nodes metatdata to Front-End
 ```
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/custom-nodes/custom-category.md)

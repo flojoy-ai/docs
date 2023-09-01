@@ -106,3 +106,10 @@ Please note that you need to have PyTango installed in order to run this script.
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/RF%20Signal%20Generators/SMA100A/SMA100A.md)
