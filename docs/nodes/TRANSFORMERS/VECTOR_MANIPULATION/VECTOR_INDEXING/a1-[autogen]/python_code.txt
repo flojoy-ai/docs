@@ -8,5 +8,10 @@ def VECTOR_INDEXING(
     index: int = 0,
 ) -> Scalar:
     
+    assert (
+        len(default.v) >= index
+    ), "The index parameter must be less than or equal to the length of the Vector."
+    assert index >= 0, "The index parameter greater than zero."
+    c = default.v[index]
 
-    return Scalar(c=default.v[index])
+    return Scalar(c=c)

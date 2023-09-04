@@ -1,9 +1,10 @@
-The VECTOR_LENGTH node returns the length of the input
+The VECTOR_INDEXING node returns the value of the Vector at the
+    requested index.
 
     Inputs
     ------
     v : Vector
-        The input vector to find the length of.
+        The input vector to index.
 
     Parameters
     ----------
