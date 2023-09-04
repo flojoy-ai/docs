@@ -7,9 +7,10 @@ import requests
 from utils.object_detection.object_detection import detect_object
 
 
-@flojoy
+@flojoy(deps={"opencv-python": "4.8.0.76"})
 def OBJECT_DETECTION(default: Image) -> Image:
     
+
     r = default.r
     g = default.g
     b = default.b
