@@ -42,10 +42,26 @@ You can also find all of these nodes in the sidebar.
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>BREAK</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>LOOP INDEX</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/LOGIC_GATES/TIMERS/TIMER/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/TIMERS/TIMER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CONDITIONAL</figcaption>
+<figcaption>TIMER</figcaption>
 </figure>
 </a></div>
 

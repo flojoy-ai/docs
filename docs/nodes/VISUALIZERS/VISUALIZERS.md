@@ -72,6 +72,14 @@ You can also find all of these nodes in the sidebar.
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/VISUALIZERS/PLOTLY/HEATMAP/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HEATMAP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>HEATMAP</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/VISUALIZERS/PLOTLY/HISTOGRAM/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HISTOGRAM/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />

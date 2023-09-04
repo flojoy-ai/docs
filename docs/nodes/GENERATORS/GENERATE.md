@@ -154,8 +154,8 @@ You can also find all of these nodes in the sidebar.
 <div className="p-4">
 <a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SKLEARNIMAGE</figcaption>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SKIMAGE</figcaption>
 </figure>
 </a></div>
 

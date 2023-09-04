@@ -9,7 +9,7 @@ slug: /nodes/SCIPY/STATS/
 
 Welcome to the Stats Nodes page!
 
-Here you can find information about all the Flojoy nodes that can be used for SciPy statistical test functions.
+Here you can find information about all the Flojoy nodes that can be used for statistical functions.
 
 ## Stats Nodes
 

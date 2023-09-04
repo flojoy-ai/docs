@@ -1,33 +1,19 @@
 ---
 hide_table_of_contents: true
-sidebar_label: I/O
+sidebar_label: Instruments
 sidebar_position: 1
 slug: /nodes/INSTRUMENTS/
 ---
 
-# I/O in Python
+# INSTRUMENTS in Python
 
-Welcome to the I/O Nodes page!
+Welcome to the Instruments Nodes page!
 
-Here you can find a list of all the Flojoy nodes that are used with Input/Output instruments and devices.
+Here you can find a list of all the Flojoy nodes that can be used with instruments.
 
 You can also find all of these nodes in the sidebar.
 
-## Imaging Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/INSTRUMENTS/WEB_CAM/CAMERA/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CAMERA</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Instruments Nodes
+## Keithley Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
@@ -39,6 +25,12 @@ You can also find all of these nodes in the sidebar.
 </figure>
 </a></div>
 
+</div>
+
+## Labjack Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
 <div className="p-4">
 <a href="/nodes/INSTRUMENTS/LABJACK/LABJACKU3/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
@@ -46,6 +38,26 @@ You can also find all of these nodes in the sidebar.
 <figcaption>LABJACKU3</figcaption>
 </figure>
 </a></div>
+
+</div>
+
+## Mock Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
+<div className="p-4">
+<a href="/nodes/INSTRUMENTS/MOCK/MOCK_WEINSCHEL8320/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/MOCK/MOCK_WEINSCHEL8320/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>MOCK WEINSCHEL8320</figcaption>
+</figure>
+</a></div>
+
+</div>
+
+## Phidget Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 <div className="p-4">
 <a href="/nodes/INSTRUMENTS/PHIDGET/PHIDGET22/">
@@ -57,49 +69,15 @@ You can also find all of these nodes in the sidebar.
 
 </div>
 
-## Motion Nodes
-
-### Stepper Motor Drivers
+## QCoDeS Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 <div className="p-4">
-<a href="/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/">
+<a href="/nodes/INSTRUMENTS/QCODES/CLOSE_ALL/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>STEPPER DRIVER TIC</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>STEPPER DRIVER TIC KNOB</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Protocol Nodes
-
-### Serial
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SERIAL SINGLE MEASUREMENT</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SERIAL TIMESERIES</figcaption>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/QCODES/CLOSE_ALL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>CLOSE ALL</figcaption>
 </figure>
 </a></div>
 
