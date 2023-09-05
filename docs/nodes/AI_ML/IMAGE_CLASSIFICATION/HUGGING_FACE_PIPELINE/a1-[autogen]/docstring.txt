@@ -1,0 +1,20 @@
+Hugging Face Pipeline for Image Classification.
+
+    Parameters
+    ----------
+    default: Image
+        The input image to be classified. The image must be a PIL.Image object wrapped in a flojoy Image object.
+    model: str
+        The model to be used for classification.
+        If not specified, Vision Transformers (i.e. `google/vit-base-patch16-224`) are used.
+        For more information about Vision Transformers, see: https://huggingface.co/google/vit-base-patch16-224
+        For a complete list of models see: https://huggingface.co/models?pipeline_tag=image-classification
+    revision: str
+        The revision of the model to be used for classification.
+        If not specified, main is `used`. For instance see: https://huggingface.co/google/vit-base-patch16-224/commits/main
+
+    Returns
+    -------
+    DataFrame:
+        A DataFrame containing as columns the `label` classification label and `score`, its confidence score.
+        All scores are between 0 and 1 and sum to 1.
