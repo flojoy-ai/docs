@@ -1,13 +1,13 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Visulaize
+sidebar_label: Visulaizers
 sidebar_position: 1
 slug: /nodes/VISUALIZERS/
 ---
 
 # VISUALIZERS in Python
 
-Welcome to the Visualizers Nodes page!
+Welcome to the Visualizer Nodes page!
 
 Here you can find information about all the Flojoy nodes that can be used to visualize your data.
 

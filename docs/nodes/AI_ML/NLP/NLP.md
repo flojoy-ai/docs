@@ -1,6 +1,6 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Natural Language Processing
+sidebar_label: NLP
 sidebar_position: 1
 slug: /nodes/AI_ML/NLP/
 ---

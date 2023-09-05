@@ -1,6 +1,6 @@
 ---
 hide_table_of_contents: true
-sidebar_label: DSP
+sidebar_label: Signal Processing
 sidebar_position: 1
 slug: /nodes/TRANSFORMERS/SIGNAL_PROCESSING/
 ---

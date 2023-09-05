@@ -1,13 +1,13 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Transform
+sidebar_label: Transformers
 sidebar_position: 1
 slug: /nodes/TRANSFORMERS/
 ---
 
-# TRANSFORM in Python
+# TRANSFORMERS in Python
 
-Welcome to the Transform Nodes page!
+Welcome to the Transformer Nodes page!
 
 Here you can find a list of all the Flojoy nodes that can transform inputs.
 
@@ -97,68 +97,6 @@ You can also find all of these nodes in the sidebar.
 
 </div>
 
-## Signal Processing (DSP) Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BUTTER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FAST FOURIER TRANSFORM (FFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FINITE IMPULSE RESPONSE (FIR)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INVERSE DISCRETE FOURIER TRANSFORM (IFFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPORTIONAL INTEGRAL DERIVATIVE (PID)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SAVITZKY-GOLAY (SAVGOL)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TWO DIMENSIONAL FFT</figcaption>
-</figure>
-</a></div>
-
-</div>
-
 ## Image Processing Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
@@ -235,6 +173,68 @@ You can also find all of these nodes in the sidebar.
 
 </div>
 
+## Signal Processing (DSP) Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>BUTTER</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>FAST FOURIER TRANSFORM (FFT)</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>FINITE IMPULSE RESPONSE (FIR)</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>INVERSE DISCRETE FOURIER TRANSFORM (IFFT)</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>PROPORTIONAL INTEGRAL DERIVATIVE (PID)</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SAVITZKY-GOLAY (SAVGOL)</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>TWO DIMENSIONAL FFT</figcaption>
+</figure>
+</a></div>
+
+</div>
+
 ## Type Casting Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
@@ -276,6 +276,20 @@ You can also find all of these nodes in the sidebar.
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>ORDERED TRIPLE 2 SURFACE</figcaption>
+</figure>
+</a></div>
+
+</div>
+
+## Select Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SELECT ARRAY</figcaption>
 </figure>
 </a></div>
 

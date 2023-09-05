@@ -1,17 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Imaging
+sidebar_label: Webcam
 sidebar_position: 1
 slug: /nodes/INSTRUMENTS/WEB_CAM/
 ---
 
-# IMAGING in Python
+# WEBCAM in Python
 
-Welcome to the Imaging Nodes page!
+Welcome to the Webcam Nodes page!
 
-Here you can find information about all the Flojoy nodes that can acquire an image from a device.
+Here you can find information about all the Flojoy nodes that can acquire an image from a Webcam device.
 
-## Imaging Nodes
+## Webcam Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 

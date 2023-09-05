@@ -1,33 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Extract
+sidebar_label: File
 sidebar_position: 1
-slug: /nodes/EXTRACTORS/
+slug: /nodes/EXTRACTORS/FILE/
 ---
 
-# EXTRACT in Python
+# FILES in Python
 
-Welcome to the Extract Nodes page!
+Welcome to the File Nodes page!
 
-Here you can find a list of all the Flojoy nodes that can extract from inputs.
+Here you can find information about all the Flojoy nodes that load and read files.
 
-You can also find all of these nodes in the sidebar.
-
-## Dataframe Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>EXTRACT COLUMNS</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## File System Nodes
+## File Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
@@ -60,22 +44,6 @@ You can also find all of these nodes in the sidebar.
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>READ S3</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOCAL FILE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OPEN MATLAB</figcaption>
 </figure>
 </a></div>
 

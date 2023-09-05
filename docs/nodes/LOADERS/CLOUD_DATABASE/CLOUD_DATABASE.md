@@ -1,17 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Load
+sidebar_label: Cloud Database
 sidebar_position: 1
-slug: /nodes/LOADERS/
+slug: /nodes/LOADERS/CLOUD_DATABASE/
 ---
 
-# LOAD in Python
+# CLOUD DATABASES in Python
 
-Welcome to the Load Nodes page!
+Welcome to the Cloud Database Nodes page!
 
-Here you can find information about all the Flojoy nodes that load data.
+Here you can find information about all the Flojoy nodes that can be used to download from, and upload to the Flojoy Cloud.
 
-## Load Nodes
+## Cloud Database Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
@@ -28,14 +28,6 @@ Here you can find information about all the Flojoy nodes that load data.
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>FLOJOY CLOUD UPLOAD</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/INTERNAL_MEMORY/DS_LOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/INTERNAL_MEMORY/DS_LOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DS LOAD</figcaption>
 </figure>
 </a></div>
 

@@ -1,17 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Images
+sidebar_label: Sample Images
 sidebar_position: 1
 slug: /nodes/GENERATORS/SAMPLE_IMAGES/
 ---
 
-# IMAGES in Python
+# SAMPLE IMAGES in Python
 
-Welcome to the Images Nodes page!
+Welcome to the Sample Image Nodes page!
 
 Here you can find information about all the Flojoy nodes that load images.
 
-## Images Nodes
+## Sample Image Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
