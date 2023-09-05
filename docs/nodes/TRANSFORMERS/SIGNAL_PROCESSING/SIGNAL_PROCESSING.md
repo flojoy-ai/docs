@@ -1,6 +1,6 @@
 ---
 hide_table_of_contents: true
-sidebar_label: DSP
+sidebar_label: Signal Processing
 sidebar_position: 1
 slug: /nodes/TRANSFORMERS/SIGNAL_PROCESSING/
 ---
@@ -67,7 +67,7 @@ Here you can find information about all the Flojoy nodes that processes and tran
 <a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TWO_DIMENSIONAL_FFT</figcaption>
+<figcaption>TWO DIMENSIONAL FFT</figcaption>
 </figure>
 </a></div>
 

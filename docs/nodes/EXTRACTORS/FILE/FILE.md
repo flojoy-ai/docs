@@ -1,17 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: File System
+sidebar_label: File
 sidebar_position: 1
 slug: /nodes/EXTRACTORS/FILE/
 ---
 
-# FILE SYSTEMS in Python
+# FILES in Python
 
-Welcome to the File System Nodes page!
+Welcome to the File Nodes page!
 
 Here you can find information about all the Flojoy nodes that load and read files.
 
-## File System Nodes
+## File Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
@@ -44,22 +44,6 @@ Here you can find information about all the Flojoy nodes that load and read file
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>READ S3</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOCAL FILE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OPEN MATLAB</figcaption>
 </figure>
 </a></div>
 

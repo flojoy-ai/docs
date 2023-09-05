@@ -1,13 +1,13 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Visulaize
+sidebar_label: Visualizers
 sidebar_position: 1
 slug: /nodes/VISUALIZERS/
 ---
 
 # VISUALIZERS in Python
 
-Welcome to the Visualizers Nodes page!
+Welcome to the Visualizer Nodes page!
 
 Here you can find information about all the Flojoy nodes that can be used to visualize your data.
 
@@ -68,6 +68,14 @@ You can also find all of these nodes in the sidebar.
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/COMPOSITE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>COMPOSITE</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/VISUALIZERS/PLOTLY/HEATMAP/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HEATMAP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>HEATMAP</figcaption>
 </figure>
 </a></div>
 

@@ -9,7 +9,7 @@ slug: /nodes/AI_ML/
 
 Welcome to the AI & ML Nodes page!
 
-Here you can find a list of all the Flojoy nodes that you can use to produce output through Artificial Intelligence and Machine Learning.
+Here you can find a list of all the Flojoy nodes that you can use to produce an output with Artificial Intelligence and Machine Learning.
 
 You can also find all of these nodes in the sidebar.
 

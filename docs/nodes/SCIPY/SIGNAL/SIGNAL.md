@@ -9,7 +9,7 @@ slug: /nodes/SCIPY/SIGNAL/
 
 Welcome to the Signal Nodes page!
 
-Here you can find information about all the Flojoy nodes that can be used for SciPy signal functions.
+Here you can find information about all the Flojoy nodes that can be used for signal functions.
 
 ## Signal Nodes
 
