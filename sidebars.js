@@ -19,10 +19,10 @@ const sidebars = {
       type: 'category',
       label: 'General Tutorials',
       items: [
-        'nodes/introduction',
-        'nodes/ctrls',
-        'nodes/dc_types',
-        'nodes/numpyscipy',
+        'general-tutorials/introduction',
+        'general-tutorials/ctrls',
+        'general-tutorials/dc_types',
+        'general-tutorials/numpyscipy',
       ],
     },
     {
