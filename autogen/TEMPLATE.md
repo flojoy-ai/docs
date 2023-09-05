@@ -44,6 +44,6 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'>{Notes}</AppendixSection>
-<AppendixSection index={1} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'>{Hardware}</AppendixSection>
+<AppendixSection index={0} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='[NODE_DIRECTORY_HEAD]/appendix/'><Media/></AppendixSection>

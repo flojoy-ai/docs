@@ -4,7 +4,7 @@ sidebar_label: M2j
 description: The M2j module is a low noise amplifier initially designed for use in reflectometry. It has been optimised for use with the F1d IQ Demodulator with a 40 MHz to 1.5 GHz frequency range. This is reflected in the gain flatness of M2j-> within 3dB from 40 MHz to 1.4 GHz.
 keywords: [lockin amplifiers, Qutech, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/qutech/m2j
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -69,6 +69,62 @@ except ImportError:
 class M2j(Instrument):
     # The code for the M2j class is provided in the question
 
+    def __init__(self, name: str, spi_rack: SPI_rack, module: int, **kwargs):
+    """
+    Qcodes driver for the M2j RF amplifier SPI-rack module.
+
+    Args:
+        name: name of the instrument.
+
+        spi_rack: instance of the SPI_rack class as defined in
+            the spirack package. This class manages communication with the
+            individual modules.
+
+        module: module number as set on the hardware.
+
+    The gain can only be set on the device, but not read from the device.
+    """
+    super().__init__(name, **kwargs)
+
+    self.m2j = M2j_module(spi_rack, module)
+    self._max_gain_value = 4095
+    self._min_gain_value = 0
+    self._gain_parameters = {'slope': -1024.45, 'offset': 4450.63,
+                                 'db_offset': 32}
+
+    self.add_parameter('gain',
+                           label='gain',
+                           set_cmd=self._set_gain,
+                           unit='dB',
+                           vals=Numbers(min_value=33, max_value=110),
+                           docstring='Amplifier gain in dB, range 33 to 110 dB')
+
+    self.add_parameter('RF_level',
+                           label='RF level',
+                           get_cmd=self._meas_rf_level,
+                           unit='dBm',
+                           docstring='Measured RF power after amplification '
+                                     '(not calibrated)')
+
+    self.add_function('clear_rf_clip',
+                          call_cmd=self.m2j.clear_rf_clip)
+    self.add_function('is_rf_clipped',
+                          call_cmd=self.m2j.rf_clipped)
+
+    def _set_gain(self, gain):
+        ref_scale = int(self._gain_parameters['slope'] * np.log(
+            gain - self._gain_parameters['db_offset']) + self._gain_parameters[
+                            'offset'])
+        if ref_scale < self._min_gain_value:
+            ref_scale = self._min_gain_value
+        if ref_scale > self._max_gain_value:
+            ref_scale = self._max_gain_value
+
+        self.m2j.set_gain(ref_scale)
+
+    def _meas_rf_level(self):
+        return self.m2j.get_level()
+
 
 # Create an instance of the SPI_rack class
 spi_rack = SPI_rack()
@@ -77,10 +133,10 @@ spi_rack = SPI_rack()
 m2j = M2j('m2j', spi_rack, module=1)
 
 # Set the gain of the amplifier
-m2j.gain(50)
+m2j._set_gain(50)
 
 # Get the RF level after amplification
-rf_level = m2j.RF_level()
+rf_level = m2j._meas_rf_level()
 print(f"RF level: {rf_level} dBm")
 
 # Clear RF clip

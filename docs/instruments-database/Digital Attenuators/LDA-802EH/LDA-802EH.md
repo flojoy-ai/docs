@@ -4,7 +4,7 @@ sidebar_label: LDA-802EH
 description: The LDA-802EH Digital Attenuator is a high dynamic range, bidirectional, 50 Ohm step attenuator. The LDA-802EH provides 120 dB of attenuation control range from 200 to 8000 MHz with a step size of 0.1 dB. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-802eh
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395769/Instruments/Digital%20Attenuators/LDA-802EH/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395769/Instruments/Digital%20Attenuators/LDA-802EH/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

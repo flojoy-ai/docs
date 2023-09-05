@@ -4,7 +4,7 @@ sidebar_label: LKS 425 Gaussmeter
 description: Lake Shore Model 425 gaussmeter provides high-end functionality and performance in an affordable desktop instrument. Magnet testing and sorting have never been easier. When used in combination with the built-in relay and audible alarm features, the Model 425 takes the guesswork out of pass/fail criteria. Additional features including DC to 10 kHz AC frequency response, max hold and relative measurement make the Model 425 the ideal tool for your manufacturing, quality control and R&D flux density measurement applications. Put the Model 425 gaussmeter to use with confidence knowing it’s supported by industry leading experts in magnet measurement instrument, sensor, and Hall probe technology.
 keywords: [power meters, Lakeshore, PyTango]
 slug: /instruments-database/power-meters/lakeshore/lks-425-gaussmeter
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395491/Instruments/Power%20Meters/LKS-425-Gaussmeter/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395491/Instruments/Power%20Meters/LKS-425-Gaussmeter/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: Keithley 6430
 description: he 6½-digit Model 6430 Sub-Femtoamp Remote SourceMeter SMU Instrument can measure current with 1aA sensitivity. Its low noise and drift performance make it ideal for research on single electron devices, highly resistive nanowires and nanotubes, polymers, and electrochemical applications.
 keywords: [power supplies, Keithley, QCodes Community]
 slug: /instruments-database/power-supplies/keithley/keithley-6430
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692638610/Instruments/Power%20Supplies/Keithley-6430/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638610/Instruments/Power%20Supplies/Keithley-6430/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

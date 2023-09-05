@@ -4,7 +4,7 @@ sidebar_label: M4i.6631-x8
 description: The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest performance in both speed and resolution. The series includes PCIe cards with either one, two or four synchronous channels. The large onboard memory can be segmented to replay different waveform sequences. The AWG features a PCI Express x8 Gen 2 interface that offers outstanding data streaming performance. The interface and Spectrum’s optimized drivers enable data transfer rates in excess of 2.8 GB/s so that signals can continuously replayed at a high output rate. While the cards have been designed using the latest technology they are still software compatible with the drivers from earlier Spectrum waveform generators. So, existing customers can use the same software they developed for a 10 year old 20 MS/s AWG card and for an M4i series 625 MS/s AWG.
 keywords: [function generators, Spectrum, QCodes Community]
 slug: /instruments-database/function-generators/spectrum/m4i6631-x8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395778/Instruments/Function%20Generators/M4i.6631-x8/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395778/Instruments/Function%20Generators/M4i.6631-x8/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -72,5 +72,15 @@ m4i.close()
 
 This code connects to the M4i.6631-x8 Function Generator using the `M4i` driver from the Qcodes Community. It sets the output voltage of channel 0 to 1V and enables the output of channel 0. Finally, it closes the connection to the function generator.
 
+<<<<<<< HEAD:docs/instruments-database/Function Generators/M4i.6631-x8/M4i.6631-x8.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Function%20Generators/M4i.6631-x8/M4i.6631-x8.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Function Generators/M4i.6631-x8.md

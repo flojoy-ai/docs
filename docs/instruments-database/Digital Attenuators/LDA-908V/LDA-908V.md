@@ -4,7 +4,7 @@ sidebar_label: LDA-908V
 description: The LDA-908V Digital Attenuator is a highly accurate, bidirectional, 50 Ohm step attenuator. The LDA-908V provides calibrated attenuation from 200 to 8000 MHz with an amazing step size of 0.1 dB and typical accuracy <0.25 dB over 90 dB of control range. The attenuators are easily programmable for fixed attenuation, swept attenuation ramps and fading profiles directly from the included Graphical User Interface (GUI). Alternatively, for users wishing to develop their own interface, Vaunix supplies LabVIEW drivers, Windows API DLL files, Linux drivers, Python examples and much more.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-908v
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692639312/Instruments/Digital%20Attenuators/LDA-908V/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639312/Instruments/Digital%20Attenuators/LDA-908V/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -81,3 +81,10 @@ Make sure to replace `'path/to/dll'` with the actual path to the DLL file for th
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Digital%20Attenuators/LDA-908V/LDA-908V.md)

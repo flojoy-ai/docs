@@ -4,7 +4,7 @@ sidebar_label: MT Standard Interface Communication Software
 description: Instrument class to communicate with Mettler Toledo balances using the MT-SICS Standared Interface Command Set.
 keywords: [balance scales, Mettler Toledo, InstrumentKit]
 slug: /instruments-database/balance-scales/mettler-toledo/mt-standard-interface-communication-software
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

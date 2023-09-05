@@ -20,3 +20,10 @@ Ask anything at the intersection of Flojoy, SciPy, NumPy, sklearn, and PyMeasure
 
 <iframe width='100%' height='800' src='https://markprompt.com/s/Zptf17MA' />
 
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/nodes/ask-AI.md)

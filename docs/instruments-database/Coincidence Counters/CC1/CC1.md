@@ -4,7 +4,7 @@ sidebar_label: CC1
 description: Qubitekk’s 2-channel Coincidence Counter provides researchers with a low-cost solution for nanosecond resolution coincidence counting. A third gating channel makes the counter suitable for use with pulsed sources.
 keywords: [coincidence counters, Qubitekk, InstrumentKit]
 slug: /instruments-database/coincidence-counters/qubitekk/cc1
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -96,3 +96,10 @@ This script demonstrates how to connect to the CC1 Coincidence Counter, retrieve
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Coincidence%20Counters/CC1/CC1.md)

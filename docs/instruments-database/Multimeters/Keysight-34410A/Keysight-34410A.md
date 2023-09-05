@@ -4,7 +4,7 @@ sidebar_label: Keysight 34410A
 description: The Keysight Technologies, Inc. 34410A and 34411A 6½-Digit DMMs build on the phenomenal success of the industry-standard Keysight 34401A. These new meters offer improved accuracy, expanded measurement capability, dramatically improved measurement speed and throughput, and modern computer interfaces including LAN and USB.
 keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-database/multimeters/agilent/keysight-34410a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

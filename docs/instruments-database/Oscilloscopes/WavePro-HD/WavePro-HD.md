@@ -4,7 +4,7 @@ sidebar_label: WavePro HD
 description: WavePro HD High-Definition oscilloscopes employ unique Teledyne LeCroy HD4096 technology to achieve 12-bit resolution at up to 8 GHz bandwidth, for the lowest noise and unmatched signal fidelity. Up to 5 Gpt of highly responsive acquisition memory gives more visibility into system behavior, and the exceptional analysis toolbox enables deep insight.
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavepro-hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

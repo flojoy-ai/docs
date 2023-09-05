@@ -4,7 +4,7 @@ sidebar_label: Jumoquantrollc
 description: Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Controller
 keywords: [temperature controllers, Jumo, PyTango]
 slug: /instruments-database/temperature-controllers/jumo/jumoquantrollc
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -79,5 +79,15 @@ Finally, we print the current temperature using the `print()` function.
 
 Note: Make sure to replace the `device_name` variable with the actual Tango device name of your Jumoquantrollc Temperature Controller.
 
+<<<<<<< HEAD:docs/instruments-database/Temperature Controllers/Jumoquantrollc/Jumoquantrollc.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Temperature%20Controllers/Jumoquantrollc/Jumoquantrollc.md)
+>>>>>>> d898a0e0 (feat: Concluded adding unique links to GitHub Edit page sources.):docs/Instruments/Temperature Controllers/Jumoquantrollc.md

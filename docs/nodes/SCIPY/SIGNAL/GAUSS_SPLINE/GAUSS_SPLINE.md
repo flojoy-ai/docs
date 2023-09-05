@@ -53,4 +53,12 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/SCIPY/signal/GAUSS_SPLINE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/SCIPY/signal/GAUSS_SPLINE/appendix/'><Media /></AppendixSection>
 
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/SCIPY/SIGNAL/GAUSS_SPLINE)
+
 

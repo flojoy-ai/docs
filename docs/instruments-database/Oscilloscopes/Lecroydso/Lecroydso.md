@@ -6,7 +6,7 @@ sidebar_label: Lecroydso
 description: This Class Allows The Acquisition Of A Waveform (The Description And The Data), From A Specific C...
 keywords: [oscilloscopes, Lecroy, PyTango]
 slug: /instruments-database/oscilloscopes/lecroy/lecroydso
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

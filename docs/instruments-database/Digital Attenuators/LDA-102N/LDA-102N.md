@@ -4,7 +4,7 @@ sidebar_label: LDA-102N
 description: The LDA-102N Lab Brick USB programmable 50 Ohm digital attenuator has an input power of up to +22 dBm, and offers frequency coverage of 10 to 1,000 MHz. It has an attenuation range of 63 dB and a step size of 0.5 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-102n
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395748/Instruments/Digital%20Attenuators/LDA-102N/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102N/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -81,3 +81,10 @@ Note: Make sure you have the necessary DLL files (`VNX_atten64.dll` for 64-bit W
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Digital%20Attenuators/LDA-102N/LDA-102N.md)

@@ -4,7 +4,7 @@ sidebar_label: UHFLI
 description: The Zurich Instruments UHFLI is a digital lock-in amplifier that covers the frequency range from DC to 600 MHz. It offers a time constant of 30 ns for demodulation – resulting in a demodulation bandwidth that exceeds 5 MHz.
 keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/uhfli
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -95,5 +95,15 @@ uhfli.close()
 
 Note: Replace `"dev1234"` with the actual device ID or address of your UHFLI Lockin Amplifier.
 
+<<<<<<< HEAD:docs/instruments-database/Lockin Amplifiers/UHFLI/UHFLI.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lockin%20Amplifiers/UHFLI/UHFLI.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lockin Amplifiers/UHFLI.md

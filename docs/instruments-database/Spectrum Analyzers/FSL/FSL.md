@@ -4,7 +4,7 @@ sidebar_label: FSL
 description: The R&S FSL series Spectrum Analyzer – are a lightweight and compact range of spectrum analyzer for cost-conscious users who want the functionality of high-end instruments.These analyzers are ideal for a large number of applications in development, service and production.
 keywords: [spectrum analyzers, Rohdes&Schwarz, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/rohdes-schwarz/fsl
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -318,3 +318,10 @@ This script provides a basic example of how to use Pymeasure to connect to and c
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Spectrum%20Analyzers/FSL/FSL.md)

@@ -4,7 +4,7 @@ sidebar_label: SFM
 description: Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N, K1) including stereo/dual sound and NICAMDouble-sideband test modulator for all IFs between 32 and 46 MHzRF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
 keywords: [rf signal generators, Rohdes&Schwarz, PyMeasure]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/sfm
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -82,3 +82,10 @@ Note: Make sure to replace the GPIB address in the `VISAAdapter` constructor wit
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/RF%20Signal%20Generators/SFM/SFM.md)

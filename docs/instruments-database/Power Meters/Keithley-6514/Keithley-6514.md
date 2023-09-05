@@ -4,7 +4,7 @@ sidebar_label: Keithley 6514
 description: 6514 electrometer combines flexible interfacing capabilities with current sensitivity, charge measurement capabilities, resolution, and speed that are equal or superior to our earlier electrometers. The Model 6514’s built-in IEEE-488, RS-232, and digital I/O interfaces make it simple to configure fully automated, high speed systems for low-level testing. The 5½-digit Model 6514 is designed for applications that demand fast, yet precise measurements of low currents, voltages from high resistance sources, charges, or high resistances. The Model 6514’s exceptional measurement performance comes at an affordable price. While its cost is comparable with that of many high end DMMs, the Model 6514 offers far greater current sensitivity and significantly lower voltage burden (as low as 20μV) than other instruments can provide.
 keywords: [power meters, Keithley, InstrumentKit]
 slug: /instruments-database/power-meters/keithley/keithley-6514
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394008/Instruments/Power%20Meters/Keithley-6514/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394008/Instruments/Power%20Meters/Keithley-6514/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

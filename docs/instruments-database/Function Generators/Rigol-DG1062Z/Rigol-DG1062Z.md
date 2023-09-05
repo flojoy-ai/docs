@@ -4,7 +4,7 @@ sidebar_label: Rigol DG1062Z
 description: The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Generator to create high quality signals up to 60 MHz (Sine) with very low jitter (200 ps) and the new SiFi (SIgnal FIdelity) technology. Beside the two analog outputs, the device includes an USB-Host- and an USB-device interface.
 keywords: [function generators, Rigol, QCodes]
 slug: /instruments-database/function-generators/rigol/rigol-dg1062z
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

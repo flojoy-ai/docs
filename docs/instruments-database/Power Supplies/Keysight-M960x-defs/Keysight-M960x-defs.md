@@ -4,7 +4,7 @@ sidebar_label: Keysight M960x defs
 description: PXI source/measure units are the source and measurement resources of voltage and current for test applications requiring high accuracy, high resolution, and measurement flexibility
 keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-database/power-supplies/keysight/keysight-m960x-defs
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

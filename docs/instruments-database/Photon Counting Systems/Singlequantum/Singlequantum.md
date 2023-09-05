@@ -4,7 +4,7 @@ sidebar_label: Singlequantum
 description: Currently no description
 keywords: [photon counting systems, Singlequantum, QCodes Community]
 slug: /instruments-database/photon-counting-systems/singlequantum/singlequantum
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -87,5 +87,15 @@ instrument.close()
 
 In this script, we first create a `Station` object to hold the instrument. Then, we create an instance of the `WebSQControlqcode` class and add it to the station. We can then use the instrument's parameters and methods to interact with the Singlequantum Photon Counting System. In this example, we set the bias current, enable the detectors, set the measurement period, and acquire counts for 5 points. Finally, we print the acquired counts and close the connection to the instrument.
 
+<<<<<<< HEAD:docs/instruments-database/Photon Counting Systems/Singlequantum/Singlequantum.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Photon%20Counting%20Systems/Singlequantum/Singlequantum.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Photon Counting System/Singlequantum.md

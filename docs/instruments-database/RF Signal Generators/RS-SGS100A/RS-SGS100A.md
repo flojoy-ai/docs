@@ -4,7 +4,7 @@ sidebar_label: R&S SGS100A
 description: The R&S®SGS100A is an RF source designed to meet the requirements of automated test systems. It is available as a CW source or as a vector signal generator with an integrated I/Q modulator. With its frequency range of up to 12.75 GHz, the vector signal generation version covers the essential digital signals. The CW version can be used as a flexible local oscillator and for interference testing against mobile radio standards.
 keywords: [rf signal generators, Rohdes&Schwarz, QCodes]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/rs-sgs100a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

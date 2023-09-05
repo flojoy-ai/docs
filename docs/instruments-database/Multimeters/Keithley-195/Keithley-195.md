@@ -4,7 +4,7 @@ sidebar_label: Keithley 195
 description: The Keithley 195A Digital Multimeter is a fully programmable instrument with a 5.5 digit resolution. In standard configuration, the Model 195A is capable of DC voltage measurements between 100nV and 1000V on six ranges, 2-terminal and 4-terminal resistance measurements between 100µO and 20MO on seven ranges. The instrument is designed to work with platinum RTD probes, a factor which contributes to high accuracy.
 keywords: [multimeters, Keithley, InstrumentKit]
 slug: /instruments-database/multimeters/keithley/keithley-195
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

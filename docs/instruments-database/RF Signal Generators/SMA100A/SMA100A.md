@@ -4,7 +4,7 @@ sidebar_label: SMA100A
 description: This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is-> -Sma100A. Signal quality, speed and flexibility these are the criteria by which signal generators are measured today. The R&S SMA100A perfectly meets these criteria, and thus is a premium-class analog generator that sets standards due to its outstanding characteristics.
 keywords: [rf signal generators, Rohdes&Schwarz, PyTango]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/sma100a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -106,3 +106,10 @@ Please note that you need to have PyTango installed in order to run this script.
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/RF%20Signal%20Generators/SMA100A/SMA100A.md)

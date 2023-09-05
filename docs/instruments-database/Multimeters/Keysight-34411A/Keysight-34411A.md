@@ -4,7 +4,7 @@ sidebar_label: Keysight 34411A
 description: The Keysight Technologies, Inc. 34411A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34411A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
 keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-database/multimeters/agilent/keysight-34411a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

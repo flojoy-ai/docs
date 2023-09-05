@@ -4,7 +4,7 @@ sidebar_label: HF2LI
 description: The Zurich Instruments HF2LI is a digital lock-in amplifier covering the frequency range between DC and 50 MHz. It is the instrument of choice for the characterization of MEMS devices such as gyroscopes and for measurements in the area of microfluidics.
 keywords: [lockin amplifiers, Zurich Instruments, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/hf2li
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -85,5 +85,15 @@ hf2li.disconnect()
 
 Note: Make sure you have installed the necessary dependencies, including `qcodes` and `zhinst`.
 
+<<<<<<< HEAD:docs/instruments-database/Lockin Amplifiers/HF2LI/HF2LI.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lockin%20Amplifiers/HF2LI/HF2LI.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lockin Amplifiers/HF2LI.md

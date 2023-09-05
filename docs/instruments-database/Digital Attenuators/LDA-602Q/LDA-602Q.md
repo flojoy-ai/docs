@@ -4,7 +4,7 @@ sidebar_label: LDA-602Q
 description: The LDA-602Q Lab Brick USB programmable 50 Ohm high resolution digital attenuator has an input power of up to +28 dBm, and offers frequency coverage of 200 to 6,000 MHz. It has an attenuation range of 120 dB and a step size of 0.1 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-602q
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395763/Instruments/Digital%20Attenuators/LDA-602Q/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395763/Instruments/Digital%20Attenuators/LDA-602Q/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -81,3 +81,10 @@ Make sure to replace `'path/to/dll'` with the actual path to the DLL file for th
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Digital%20Attenuators/LDA-602Q/LDA-602Q.md)

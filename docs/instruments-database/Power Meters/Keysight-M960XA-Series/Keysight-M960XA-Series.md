@@ -4,7 +4,7 @@ sidebar_label: Keysight M960XA-Series
 description: PXI source/measure units are the source and measurement resources of voltage and current for test applications requiring high accuracy, high resolution, and measurement flexibility
 keywords: [power meters, Keysight, QCodes]
 slug: /instruments-database/power-meters/keysight/keysight-m960xa-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: MFLI
 description: The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequency range from DC to 500 kHz (and up to 5 MHz when upgraded). Thanks to its embedded data and web servers, the MFLI can be used directly with any device running a web browser without further software installations
 keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/mfli
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

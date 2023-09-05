@@ -4,7 +4,7 @@ sidebar_label: TopMode
 description: TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher power and the choice of wavelength. The TopMode series sets records in terms of power, coherence and wavelength stability. The proprietary CoHerence-Advanced Regulation Method (CHARM) provides an active stabilization of the lasers’ coherence and ensures continuous single-frequency operation. TopMode and CHARM means nothing less than reliable 24/7 operation.
 keywords: [lasers, Toptica, InstrumentKit]
 slug: /instruments-database/lasers/toptica/topmode
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
@@ -68,5 +68,15 @@ This script imports the `toptica` module from Instrumentkit and uses the `TopMod
 
 In this example, the script accesses the `wavelength` property of the first laser (`tm.laser[0].wavelength`) and prints its value.
 
+<<<<<<< HEAD:docs/instruments-database/Lasers/TopMode/TopMode.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lasers/TopMode/TopMode.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lasers/TopMode.md
