@@ -165,7 +165,7 @@ const config = {
                 label: 'Installation',
               },
               {
-                href: '/nodes/introduction/',
+                href: '/general-tutorials/introduction/',
                 label: 'Flojoy Studio UI',
               },
               {

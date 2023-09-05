@@ -13,20 +13,20 @@ This introduction tutorial will guide you through the UI, including how to creat
 Upon starting Flojoy you should be greeted to a UI like this:
 
 ![image](/img/introduction/UI.png)
-*UI at startup showing an example app.*
+_UI at startup showing an example app._
 
 :::info
 The UI could look slightly different in your version of Flojoy. We are constantly improving the UI.
 :::
 
-In this page, we will guide you through how to control the interface, including adding nodes and running the app. 
+In this page, we will guide you through how to control the interface, including adding nodes and running the app.
 
 First, let's break down the UI.
 
 ### The UI
 
 ![image](/img/introduction/UI_2.png)
-*Interface broken down into sections.*
+_Interface broken down into sections._
 
 Here are the sections of the interface:
 
@@ -45,47 +45,47 @@ Flojoy works through the use of connected nodes, and each node has a specific fu
 When Flojoy is first launched, an example app is shown. We want a clean slate here so delete all nodes by pressing the `Clear Canvas` button. You can also click on individual nodes and delete them (this also works with node connections).
 
 :::info
-On some platforms, the delete button will delete nodes, while on others, backspace will. 
+On some platforms, the delete button will delete nodes, while on others, backspace will.
 :::
 
-With the default nodes cleared, we can now add our own. 
+With the default nodes cleared, we can now add our own.
 
-Click on `Add Python Function` at the top right, then click on `Generate -> SIMULATIONS -> LINSPACE` in the submenu that opens up: 
+Click on `Add Python Function` at the top right, then click on `Generate -> SIMULATIONS -> LINSPACE` in the submenu that opens up:
 
 ![image](/img/introduction/add_nodes.png)
-*<br/>The submenu to add a node.*
+_<br/>The submenu to add a node._
 
-This is your first node! This one creates example linear data. 
+This is your first node! This one creates example linear data.
 
-Next, add three more nodes: `RAND`, `SCATTER`, and `HISTOGRAM`. You can use the search bar at the top of the submenu to easily find specific nodes. 
+Next, add three more nodes: `RAND`, `SCATTER`, and `HISTOGRAM`. You can use the search bar at the top of the submenu to easily find specific nodes.
 
 Finally, arange the nodes as below. The exact placment of the nodes is not important, the node connections will specify the order of the flow.
 
 ![image](/img/introduction/nodes.png)
-*The exact placement of the nodes is not important.*
+_The exact placement of the nodes is not important._
 
 To connect the nodes together, click and drag starting from one of the small circles at the left or right of a node. Connect the nodes as shown below.
 
 ![image](/img/introduction/connections.png)
-*The connections must match exactly.*
+_The connections must match exactly._
 
 ### Running and saving the app
 
-Now that the nodes and connections are in place, you can run the app. 
+Now that the nodes and connections are in place, you can run the app.
 
 Press the `Play` button in the top right. After the app has run, you can see the results in the `SCATTER` and `HISTOGRAM` nodes. The `LINSPACE` and `RAND` nodes create X and Y data, respectively, shown in `SCATTER`.
 
 ![image](/img/introduction/results.png)
-*The results can be seen after running the app.*
+_The results can be seen after running the app._
 
-To save the app for later use, click on `File -> Save As` in the top right, and save the .txt file with the desired name and location. 
+To save the app for later use, click on `File -> Save As` in the top right, and save the .txt file with the desired name and location.
 
-You can also load an already saved app from here using `File -> Load`. 
+You can also load an already saved app from here using `File -> Load`.
 
 <SectionBreak />
 
-[//]: # (Edit page on GitHub)
+[//]: # 'Edit page on GitHub'
 
 #### Edit this page on GitHub
 
-[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/nodes/introduction.md)
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/general-tutorials/introduction.md)
