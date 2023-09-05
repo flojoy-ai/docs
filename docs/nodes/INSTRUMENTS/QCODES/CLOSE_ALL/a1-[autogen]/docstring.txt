@@ -1,0 +1,7 @@
+The CLOSE_ALL node closes all qcodes instruments and should be ran at
+    the end of each Flojoy app that uses qcodes (and possibly the beginning).
+
+    Returns
+    -------
+    DataContainer
+        optional: The input DataContainer is returned.

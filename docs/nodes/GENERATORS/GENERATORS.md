@@ -9,9 +9,53 @@ slug: /nodes/GENERATORS/
 
 Welcome to the Generators Nodes page!
 
-Here you can find information about all the Flojoy nodes that can be used to generate certain outputs, also as part of simulations.
+Here you can find information about all the Flojoy nodes that can be used to generate certain outputs as part of simulations, as well as from sample datasets and images.
 
 You can also find all of these nodes in the sidebar.
+
+## Sample Dataset Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
+<div className="p-4">
+<a href="/nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>PLOTLY DATASET</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>R DATASET</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>TEXT DATASET</figcaption>
+</figure>
+</a></div>
+
+</div>
+
+## Sample Image Nodes
+
+<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+
+<div className="p-4">
+<a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SKIMAGE</figcaption>
+</figure>
+</a></div>
+
+</div>
 
 ## Simulation Nodes
 
@@ -110,52 +154,6 @@ You can also find all of these nodes in the sidebar.
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SIMULATIONS/WAVEPACKET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>WAVEPACKET</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Synthetic Data Nodes
-
-### Dataframes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/PLOTLY_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PLOTLY DATASET</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/R_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R DATASET</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_DATASETS/TEXT_DATASET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TEXT DATASET</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-### Images
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKLEARNIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SKLEARNIMAGE</figcaption>
 </figure>
 </a></div>
 

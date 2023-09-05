@@ -32,4 +32,12 @@ With the `studio` virtual environment active, navigate to the `python` repositor
 pip install -e .
 ```
 
-This installs the `flojoy` package in editable mode, which creates a symlink to the local package code, allowing you to edit the package source code and have the changes reflected in the Flojoy nodes, without having to reinstall it each time.
+This installs the `flojoy` package in editable mode, which creates a symlink to the local package code, allowing you to edit the package source code and have the changes reflected in `flojoy` nodes without having to reinstall each time.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/flojoy-python-library.md)

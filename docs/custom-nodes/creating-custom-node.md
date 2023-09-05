@@ -153,3 +153,10 @@ To contribute your own custom node, do the following:
   - Further, the link to the `nodes` submodule pull request (from earlier) must be included in this pull request to the `studio` repository.
 
 This will ensure that the `nodes` submodule will be tracked in the `studio` repository by the latest commit hash and that the pull requests are in sync.
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/custom-nodes/creating-custom-node.md)

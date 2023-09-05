@@ -55,3 +55,11 @@ import Media from './appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/appendix/'><Media /></AppendixSection>
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT)

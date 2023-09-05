@@ -1,17 +1,17 @@
 ---
 hide_table_of_contents: true
-sidebar_label: DATAFRAMES
+sidebar_label: Sample Datasets
 sidebar_position: 1
 slug: /nodes/GENERATORS/SAMPLE_DATASETS/
 ---
 
-# DATAFRAMES in Python
+# SAMPLE DATASETS in Python
 
-Welcome to the Dataframes Nodes page!
+Welcome to the Sample Dataset Nodes page!
 
-Here you can find information about all the Flojoy nodes that load dataframes.
+Here you can find information about all the Flojoy nodes that load datasets.
 
-## Dataframe Nodes
+## Sample Dataset Nodes
 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 

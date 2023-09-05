@@ -9,7 +9,7 @@ slug: /nodes/AI_ML/CLASSIFICATION/
 
 Welcome to the Classification Nodes page!
 
-Here you can find information about all the Flojoy nodes that classifies data.
+Here you can find information about all the Flojoy nodes that classify data.
 
 ## Classification Nodes
 

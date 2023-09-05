@@ -87,5 +87,15 @@ znb.close()
 ```
 Note: Replace `"TCPIP0::192.168.15.100::inst0::INSTR"` with the actual address of your Series Network Analyzer.
 
+<<<<<<< HEAD:docs/instruments-database/Network Analyzers/Series/Series.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Network%20Analyzers/Series/Series.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Network Analyzer/Series.md

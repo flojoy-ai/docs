@@ -70,3 +70,11 @@ If no data has been written to this store with the given node ID and memory key,
 :::info
 Empty dictionaries evaluate to `False` in Python, so you can easily check if `SmallMemory` returned anything real. 
 :::
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/advanced-usage/small-memory.md)

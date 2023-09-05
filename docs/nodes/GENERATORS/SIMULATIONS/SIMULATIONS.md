@@ -1,11 +1,11 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Simulation
+sidebar_label: Simulations
 sidebar_position: 1
 slug: /nodes/GENERATORS/SIMULATIONS/
 ---
 
-# SIMULATION in Python
+# SIMULATIONS in Python
 
 Welcome to the Simulation Nodes page!
 

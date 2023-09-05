@@ -85,5 +85,15 @@ hf2li.disconnect()
 
 Note: Make sure you have installed the necessary dependencies, including `qcodes` and `zhinst`.
 
+<<<<<<< HEAD:docs/instruments-database/Lockin Amplifiers/HF2LI/HF2LI.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Lockin%20Amplifiers/HF2LI/HF2LI.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Lockin Amplifiers/HF2LI.md

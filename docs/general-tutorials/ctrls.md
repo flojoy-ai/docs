@@ -44,3 +44,11 @@ Saving the app will save the parameters with the currently set values.
 :::
 
 You have now finished a tutorial showing the basics of Flojoy.
+
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/nodes/ctrls.md)

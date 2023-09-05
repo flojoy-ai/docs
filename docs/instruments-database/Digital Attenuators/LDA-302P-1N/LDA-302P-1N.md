@@ -81,3 +81,10 @@ Note: Replace `12345678` with the actual serial number of your LDA-302P-1N Digit
 
 </TabItem>
 </Tabs>
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Digital%20Attenuators/LDA-302P-1N/LDA-302P-1N.md)

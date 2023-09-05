@@ -143,8 +143,14 @@
     "I/O > Instruments > LabJack": [
         "nodes/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3"
     ],
+    "I/O > Instruments > Mock": [
+        "nodes/INSTRUMENTS/MOCK/MOCK_WEINSCHEL8320/MOCK_WEINSCHEL8320"
+    ],
     "I/O > Instruments > Phidget": [
         "nodes/INSTRUMENTS/PHIDGET/PHIDGET22/PHIDGET22"
+    ],
+    "I/O > Instruments > QCoDeS": [
+        "nodes/INSTRUMENTS/QCODES/CLOSE_ALL/CLOSE_ALL"
     ],
     "I/O > Motion > Stepper Motor Drivers": [
         "nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC",

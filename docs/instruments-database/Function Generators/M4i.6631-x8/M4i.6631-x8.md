@@ -72,5 +72,15 @@ m4i.close()
 
 This code connects to the M4i.6631-x8 Function Generator using the `M4i` driver from the Qcodes Community. It sets the output voltage of channel 0 to 1V and enables the output of channel 0. Finally, it closes the connection to the function generator.
 
+<<<<<<< HEAD:docs/instruments-database/Function Generators/M4i.6631-x8/M4i.6631-x8.md
 </TabItem>
 </Tabs>
+=======
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/blob/main/docs/instruments-database/Function%20Generators/M4i.6631-x8/M4i.6631-x8.md)
+>>>>>>> 216cbc78 (feat: Added unique GitHub edit links to each .md file):docs/Instruments/Function Generators/M4i.6631-x8.md
