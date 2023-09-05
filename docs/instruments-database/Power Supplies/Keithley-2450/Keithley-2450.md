@@ -4,7 +4,7 @@ sidebar_label: Keithley 2450
 description: The 2450 is Keithley's next-generation SourceMeter source measure unit (SMU) instrument that truly brings Ohm's law (current, voltage, and resistance) testing right to your fingertips. Its innovative graphical user interface (GUI) and advanced, capacitive touchscreen technology allow intuitive usage and minimize the learning curve to enable engineers and scientists to learn faster, work smarter, and invent easier. The 2450 is the SMU for everyone-> a versatile instrument, particularly well-suited for characterizing modern scaled semiconductors, nano-scale devices and materials, organic semiconductors, printed electronics, and other small-geometry and low-power devices.
 keywords: [power supplies, Keithley, QCodes, PyMeasure]
 slug: /instruments-database/power-supplies/keithley/keithley-2450
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

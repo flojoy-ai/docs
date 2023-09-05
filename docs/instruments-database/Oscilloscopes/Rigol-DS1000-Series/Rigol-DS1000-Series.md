@@ -4,7 +4,7 @@ sidebar_label: Rigol DS1000-Series
 description: The 1000 Series from RIGOL include the B, D, and E series oscilloscopes. The E Series are the value leader with 50-100 MHz models that include 2 channels and 1 Million points of memory. The D Series add low speed digital capture enabling basic mixed signal analysis in a economic package. The B Series provide more speed and power including our economic 4 channel, 200 MHz DS1204B model which provides 2 GSa/sec sampling. With features including FFTs, record and replay, roll mode, alternate trigger mode, and adjustable trigger sensitivity the 1000 Series is a great entry for value oscilloscope requirements.
 keywords: [oscilloscopes, Rigol, InstrumentKit]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds1000-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

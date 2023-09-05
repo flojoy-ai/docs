@@ -4,7 +4,7 @@ sidebar_label: Keithley 2260B
 description: Source a wide range of voltages and currents with the 360W, 720W, or 1080W Series 2260B Programmable DC Power Supplies. The 360W versions can output current of 36A, 13.5A, 4.5A, or 1.44A; the 720W models can output 72A, 27A, 9A, or 2.88A; and the 1080W instruments can output 108A, 40.5A, 13.5A or 4.32A. This wide range of output voltages and current, combined with multiple interface choices, makes the Series 2260B ideal for use in a wide range of applications, including research and design, quality control, and production test.
 keywords: [power supplies, Keithley, PyMeasure]
 slug: /instruments-database/power-supplies/keithley/keithley-2260b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395427/Instruments/Power%20Supplies/Keithley-2260B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395427/Instruments/Power%20Supplies/Keithley-2260B/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: SHFQC
 description: The SHFQC Qubit Controller can control, read out and provide fast feedback on up to 6 superconducting qubits. It integrates the functionality of the SHFQA Quantum Analyzer, the SHFSG Signal Generator and more in a single instrument.
 keywords: [qubit controllers, Zurich Instruments, QCodes]
 slug: /instruments-database/qubit-controllers/zurich-instruments/shfqc
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

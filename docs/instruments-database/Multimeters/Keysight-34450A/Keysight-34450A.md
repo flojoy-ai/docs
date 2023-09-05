@@ -4,7 +4,7 @@ sidebar_label: Keysight 34450A
 description: Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
 keywords: [multimeters, Agilent, PyMeasure]
 slug: /instruments-database/multimeters/agilent/keysight-34450a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

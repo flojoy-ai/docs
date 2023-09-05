@@ -4,7 +4,7 @@ sidebar_label: Lakeshore 425
 description: Class Connecting To The Lakeshore 425 Gaussmeter
 keywords: [multimeters, Lakeshore, PyMeasure, PyTango]
 slug: /instruments-database/multimeters/lakeshore/lakeshore-425
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

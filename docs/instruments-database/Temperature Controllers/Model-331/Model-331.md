@@ -4,7 +4,7 @@ sidebar_label: Model 331
 description: The Model 331 cryogenic temperature controller combines the easy operation and unsurpassed reliability of the Model 330 with improved sensor input and interface flexibility, including compatibility with negative temperature coefficient (NTC) resistance temperature detectors (RTDs). Backed by the Lake Shore tradition of excellence in cryogenic sensors and instrumentation, the Model 331 temperature controller sets the standard for mid-price range temperature control instruments.
 keywords: [temperature controllers, Lakeshore, QCodes Community]
 slug: /instruments-database/temperature-controllers/lakeshore/model-331
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395781/Instruments/Temperature%20Controllers/Model-331/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395781/Instruments/Temperature%20Controllers/Model-331/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

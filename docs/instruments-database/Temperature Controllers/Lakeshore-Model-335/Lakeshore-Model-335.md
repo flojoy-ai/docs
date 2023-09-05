@@ -4,7 +4,7 @@ sidebar_label: Lakeshore Model 335
 description: The Model 335 supports the industry's most advanced line of cryogenic temperature sensors as manufactured by Lake Shore, including diodes, resistance temperature detectors (RTDs), and thermocouples. The controller's zone tuning feature allows you to measure and control temperatures seamlessly from 300 mK to over 1,500 K. This feature automatically switches temperature sensor inputs when your temperature range goes beyond the usable range of a given sensor.
 keywords: [temperature controllers, Lakeshore, QCodes]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-model-335
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395612/Instruments/Temperature%20Controllers/Lakeshore-Model-335/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395612/Instruments/Temperature%20Controllers/Lakeshore-Model-335/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

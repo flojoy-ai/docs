@@ -4,7 +4,7 @@ sidebar_label: Keysight 5222B
 description: The Keysight N5222B PNA Microwave Network Analyzer 10 MHz to 26.5 GHz is an integrated and flexible test engine that can measure active devices such as amplifiers, mixers, and frequency converters. This analyzer operates at a frequency range of 900 Hz to 26.5 GHz. The Keysight N5222B provides a combination of excellent hardware and powerful measurement applications to measure a broad range of devices quickly and accurately.
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-5222b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

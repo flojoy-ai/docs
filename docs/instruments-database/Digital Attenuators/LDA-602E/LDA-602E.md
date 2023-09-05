@@ -4,7 +4,7 @@ sidebar_label: LDA-602E
 description: The LDA-602E Lab Brick USB programmable 50 Ohm digital attenuator has an input power of up to +30 dBm, and offers frequency coverage of 400 to 6,000 MHz. It has an attenuation range of 120 dB and a step size of 0.5 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-602e
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395760/Instruments/Digital%20Attenuators/LDA-602E/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395760/Instruments/Digital%20Attenuators/LDA-602E/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

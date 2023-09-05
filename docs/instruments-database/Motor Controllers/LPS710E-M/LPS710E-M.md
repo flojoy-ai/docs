@@ -4,7 +4,7 @@ sidebar_label: LPS710E-M
 description: The LPS710E(/M) Amplified Piezo Stage provides long range, fine focus Z-axis travel for a microscope slide while maintaining a compact, low-profile footprint. It features submicron repeatability, nanometer positioning resolution, low angular error, and fast millisecond response and settling times. When used with the LPSA1(/M) microscope slide holder, the stage is ideal for imaging modalities requiring sensitive sample positioning and sectioning, such as confocal laser scanning microscopy. This stage is not compatible with trans-illumination.
 keywords: [motor controllers, Thorlabs, InstrumentKit]
 slug: /instruments-database/motor-controllers/thorlabs/lps710e-m
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

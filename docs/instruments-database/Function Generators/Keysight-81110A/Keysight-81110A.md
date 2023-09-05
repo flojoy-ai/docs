@@ -4,7 +4,7 @@ sidebar_label: Keysight 81110A
 description: Keysight 81110APulse Pattern Generator / 165/330 MHz
 keywords: [function generators, Agilent, Instrumental]
 slug: /instruments-database/function-generators/agilent/keysight-81110a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

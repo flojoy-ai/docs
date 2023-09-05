@@ -4,7 +4,7 @@ sidebar_label: Keysight B1500A
 description: It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
 keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/keysight/keysight-b1500a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692815186/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815186/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

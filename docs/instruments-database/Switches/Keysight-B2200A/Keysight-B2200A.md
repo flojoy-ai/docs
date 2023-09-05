@@ -4,7 +4,7 @@ sidebar_label: Keysight B2200A
 description: The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
 keywords: [switches, Keysight, QCodes]
 slug: /instruments-database/switches/keysight/keysight-b2200a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

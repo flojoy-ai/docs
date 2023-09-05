@@ -4,7 +4,7 @@ sidebar_label: Thermostream ATS Series
 description: Temptronic ThermoStreams are portable systems that deliver clean dry air for precision temperature testing or conditioning of electronics (ICs, MEMS, transceivers, or circuits) and materials. No other systems can bring your test subjects to temperature faster with precise control
 keywords: [temperature controllers, Temptronic, PyMeasure]
 slug: /instruments-database/temperature-controllers/temptronic/thermostream-ats-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

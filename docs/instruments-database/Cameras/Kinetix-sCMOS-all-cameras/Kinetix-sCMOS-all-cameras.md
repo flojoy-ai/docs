@@ -4,7 +4,7 @@ sidebar_label: Kinetix sCMOS all-cameras
 description: The Kinetix sCMOS delivers the highest speed and largest field of view with near-perfect 96% quantum efficiency
 keywords: [cameras, Pvcam, Instrumental]
 slug: /instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

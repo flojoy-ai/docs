@@ -4,7 +4,7 @@ sidebar_label: Singlequantum
 description: Currently no description
 keywords: [photon counting systems, Singlequantum, QCodes Community]
 slug: /instruments-database/photon-counting-systems/singlequantum/singlequantum
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -6,7 +6,7 @@ sidebar_label: ERASYNTH
 description: ERASynth removes the cost barriers and makes quality RF signal synthesis accessible to everyone, especially budget-conscious makers.
 keywords: [rf signal generators, Erainstruments, QCodes Community]
 slug: /instruments-database/rf-signal-generators/erainstruments/erasynth
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

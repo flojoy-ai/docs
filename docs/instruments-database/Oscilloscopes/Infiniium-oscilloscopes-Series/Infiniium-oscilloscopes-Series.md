@@ -4,7 +4,7 @@ sidebar_label: Infiniium oscilloscopes Series
 description: Infiniium series oscilloscopes feature application-specific software that allows you to gain valuable insight into your design. Whether you are solving tough jitter or noise problems, removing loss due to cables or probes, or simply looking at protocol, this series has the software tools to help you realize your best design.
 keywords: [oscilloscopes, Keysight, QCodes]
 slug: /instruments-database/oscilloscopes/keysight/infiniium-oscilloscopes-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

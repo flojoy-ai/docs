@@ -4,7 +4,7 @@ sidebar_label: Keithley S46
 description: S46 Microwave Switch Systems are designed to simplify the automated switching needed to test a wide range of RF and telecommunication products and devices. The S46 can control 32 relay contacts in a package as small as a 2U high (3.5 in) full-rack enclosure.
 keywords: [switches, Keithley, QCodes]
 slug: /instruments-database/switches/keithley/keithley-s46
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395566/Instruments/Switches/Keithley-S46/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Switches/Keithley-S46/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

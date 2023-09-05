@@ -4,7 +4,7 @@ sidebar_label: Picomotorcontroller 8742
 description: The model 8742 is a 4-axis open-loop intelligent motion controller/driver that provides a compact and low cost solution for driving New Focus open-loop Picomotors products. It is a single-box solution that can be computer controlled via USB and Ethernet communication interfaces using Newport Motion Control Language (NMCL) command set. Both interfaces are well supported via Windows DLL, sample LabVIEW™VIs, and intuitive graphical user interface (GUI) Windows application with device auto-discovery feature. Each model 8742 controller/driver can control one of four 4-pin RJ-22 single output ports for use with any single-channel Picomotor actuator at any given time. The model 8725 multi-axis adapter can be used to connect the 4-pin RJ-22 output ports on the drivers to New Focus™ Picomotor products with 6-pin RJ-11 connectors. Note-> Power Supply not included
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/picomotorcontroller-8742
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394035/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394035/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

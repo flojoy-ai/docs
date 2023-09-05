@@ -4,7 +4,7 @@ sidebar_label: Keysight N5245A
 description: The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-n5245a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

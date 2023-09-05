@@ -4,7 +4,7 @@ sidebar_label: Power Supply Series 8510
 description: The R. STAHL Series 8510 power supply provides a constant power supply for control circuits. It is protected against sustained short-circuit current, overload and idle running and is therefore extremely reliable in operation. It can be fitted in Ex e enclosures using an anti-vibration screw connection, easily accessible terminals simplify installation.
 keywords: [power supplies, Stahl]
 slug: /instruments-database/power-supplies/stahl/power-supply-series-8510
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395680/Instruments/Power%20Supplies/Power-Supply-Series-8510/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395680/Instruments/Power%20Supplies/Power-Supply-Series-8510/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

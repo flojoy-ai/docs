@@ -4,7 +4,7 @@ sidebar_label: Keysight 33250A
 description: The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synthesis techniques to create a stable, accurate output on all waveforms, down to 1 µHz frequency resolution. The benefits are apparent in every signal you produce, from the sine wave frequency accuracy to the fast rise/fall times of square waves, to the ramp linearity.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33250a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

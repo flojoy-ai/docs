@@ -4,7 +4,7 @@ sidebar_label: IVVI
 description: An ohmmeter is an electrical instrument that measures electrical resistance (the opposition offered by a circuit or component to the flow of electric current). Multimeters also function as ohmmeters when in resistance-measuring mode. An ohmmeter applies current to the circuit or component whose resistance is to be measured. It then measures the resulting voltage and calculates the resistance using Ohm’s law	https->//en.wikipedia.org/wiki/Ohmmeter
 keywords: [iv converters, Qutech, QCodes Community]
 slug: /instruments-database/iv-converters/qutech/ivvi
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395733/Instruments/IV%20Converters/IVVI/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

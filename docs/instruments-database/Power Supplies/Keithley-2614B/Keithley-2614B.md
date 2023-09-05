@@ -4,7 +4,7 @@ sidebar_label: Keithley 2614B
 description: The 2614B SourceMeter SMU Instrument is a new dual-channel SMU instrument with best-in-class value and performance. Its tightly integrated, four-quadrant design allows it to simultaneously source and measure both voltage and current to boost productivity in R&D and bench-top applications. The Model 2614B is equipped with Keithley's high speed TSP technology, which is over 190% faster than traditional PC-to-instrument communication techniques. The Model 2614B is designed for bench-top applications and, therefore, does not have the high-end, system-level automation features of the Model 2612B SourceMeter SMU Instrument, which includes digital I/O, TSP-Link technology, and contact check function.
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2614b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692719322/Instruments/Power%20Supplies/Keithley-2614B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719322/Instruments/Power%20Supplies/Keithley-2614B/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

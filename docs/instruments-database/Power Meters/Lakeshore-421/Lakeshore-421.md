@@ -4,7 +4,7 @@ sidebar_label: Lakeshore 421
 description: Flexible probe configurations to suit your application.Several sensor types available with different performance characteristics.Most suited for field levels from earth field to very large electromagnets.Application-specific probe customization available.
 keywords: [power meters, Lakeshore, PyMeasure]
 slug: /instruments-database/power-meters/lakeshore/lakeshore-421
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

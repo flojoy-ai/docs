@@ -4,7 +4,7 @@ sidebar_label: Keysight 33120A
 description: 33120A Function / Arbitrary Waveform Generator, 15 MHz
 keywords: [function generators, HP, PyMeasure]
 slug: /instruments-database/function-generators/hp/keysight-33120a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: Rigol DS1074Z
 description: 4 analog channels, Upgradable to 16 digital channels (requires optional RPL1116 logic probe to operate)Built in 2 channel 25MHz waveform generator
 keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds1074z
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

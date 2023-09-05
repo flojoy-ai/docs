@@ -4,7 +4,7 @@ sidebar_label: Ametek 7270
 description: The model 7270 sets a new standard for general-purpose DSP lock-in amplifiers.
 keywords: [lockin amplifiers, Ametek, PyMeasure]
 slug: /instruments-database/lockin-amplifiers/ametek/ametek-7270
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
