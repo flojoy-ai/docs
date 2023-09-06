@@ -1,0 +1,27 @@
+The REMOTE_FILE node loads a remote file of a different type and converts it to a DataContainer class.
+
+    Parameters
+    ----------
+    file_url : str
+        URL  the file to be loaded
+    default   : Optional[TextBlob]
+        If this input node is connected, the file URL will be taken from
+        the output of the connected node. To be used in conjunction with batch processing
+    file_type : str
+        type of file to load, default = image
+
+    Notes
+    -----
+    If both file_url and default are not specified when `file_type="Image"`, a default image will be loaded.
+
+    Raises
+    ------
+    ValueError
+        If the file url is not specified and the default input is not connected, a ValueError is raised.
+        If the file url is not a valid URL, a ValueError is raised.
+
+    Returns
+    -------
+    Image|DataFrame
+        Image for file_type 'image'
+        DataFrame for file_type 'json', 'csv', 'excel', 'xml'
