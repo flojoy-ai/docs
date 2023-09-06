@@ -30,7 +30,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
     appImg={''}
     outputImg={''}
     >
-    {App1}
 </AppDisplay>
 
 <Example1 />
