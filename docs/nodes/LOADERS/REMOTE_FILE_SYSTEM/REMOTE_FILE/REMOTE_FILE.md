@@ -17,18 +17,15 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
+
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.txt';
 
 
-
-<AppDisplay 
+<AppDisplay
     nodeLabel='REMOTE_FILE'
     appImg={''}
     outputImg={''}
