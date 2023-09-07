@@ -1,6 +1,6 @@
 ---
 hide_table_of_contents: true
-sidebar_label: Generate
+sidebar_label: Generators
 sidebar_position: 1
 slug: /nodes/GENERATORS/
 ---

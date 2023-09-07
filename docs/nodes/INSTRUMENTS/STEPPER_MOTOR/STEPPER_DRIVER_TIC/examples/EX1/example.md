@@ -5,7 +5,7 @@ keyword: [Python, Instrument, Stepper motor control, Python integration with ste
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/examples/EX1/output.jpeg
 ---
 
-In this example, the [`STEPPER_DRIVER_TIC`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC.py) node controls a stepper motor movement with a TIC driver.
+In this example, the [`STEPPER_DRIVER_TIC`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/STEPPER_DRIVER_TIC.py) node controls a stepper motor's movement with a TIC driver.
 
 First, the user must define the current limitation, which depends on the motor's size and model.
 After that, he can set the speed and choose the sleep time between movements.

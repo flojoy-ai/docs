@@ -5,7 +5,6 @@ keywords: [AI, Classification, Python, DataFrame, Columns Dataframe, Categorical
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/examples/EX1/output.jpeg
 ---
 
-
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
@@ -32,6 +31,8 @@ import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
+
+### Create a one hot encoding from a dataframe
 
 <AppDisplay 
     nodeLabel='ONE_HOT_ENCODING'

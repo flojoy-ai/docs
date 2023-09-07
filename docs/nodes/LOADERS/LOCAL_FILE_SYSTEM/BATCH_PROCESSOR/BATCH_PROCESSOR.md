@@ -33,6 +33,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import outputImg from './examples/EX1/output.jpeg'
 import appImg from './examples/EX1/app.jpeg'
 
+### Batch load TIFF images from disk
+
 <AppDisplay 
     nodeLabel='BATCH_PROCESSOR'
     appImg={appImg}

@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Split the data for testing and training
+
 <AppDisplay 
     nodeLabel='TRAIN_TEST_SPLIT'
     appImg={appImg}
