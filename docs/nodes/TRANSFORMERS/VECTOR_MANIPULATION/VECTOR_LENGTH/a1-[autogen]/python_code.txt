@@ -1,0 +1,9 @@
+import numpy as np
+from flojoy import flojoy, Vector, Scalar
+
+
+@flojoy
+def VECTOR_LENGTH(default: Vector) -> Scalar:
+    
+
+    return Scalar(c=len(default.v))
