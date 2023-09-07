@@ -4,7 +4,7 @@ sidebar_label: SCPI multimeter
 description: All SCPI Multimeters
 keywords: [multimeters, Generic SCPI, InstrumentKit]
 slug: /instruments-database/multimeters/generic-scpi/SCPI-multimeter
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

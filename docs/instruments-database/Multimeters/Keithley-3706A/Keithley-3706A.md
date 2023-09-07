@@ -4,7 +4,7 @@ sidebar_label: Keithley 3706A
 description: The Model 3706A system switch with high performance DMM contains six slots for plug-in cards in a compact 2U high enclosure that easily accommodates the needs of medium to high channel count applications. When fully loaded, a mainframe can support up to 576 two-wire multiplexer channels for unrivaled density and economical per channel costs. The result is a tightly integrated switch and measurement solution that’s equally at home on the bench or in the rack.
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/keithley-3706a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

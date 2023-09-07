@@ -4,7 +4,7 @@ sidebar_label: LCC25
 description: The LCC25 is a liquid crystal controller compatible with all Thorlabs LC VariableRetarders. The LCC25 will drive most nematic liquid crystal devices. The liquid crystaldevice is connected to the BNC voltage output port. The amplitude of the output voltage,adjusted by the front panel knob, and external signal, and a computer via a USB interface,controls the retardance of the LC device.
 keywords: [power supplies, Thorlabs, InstrumentKit]
 slug: /instruments-database/power-supplies/thorlabs/lcc25
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

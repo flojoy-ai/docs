@@ -4,7 +4,7 @@ sidebar_label: Keysight E3631A
 description: E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 keywords: [power supplies, HP, InstrumentKit]
 slug: /instruments-database/power-supplies/hp/keysight-e3631a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

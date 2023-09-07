@@ -4,7 +4,7 @@ sidebar_label: Rigol DS4000-Series
 description: The Rigol DS4000 series consists of 8 high level Oscilloscopes for professional operation, which come off very well compared to higher prices models of other brands.
 keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds4000-series
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

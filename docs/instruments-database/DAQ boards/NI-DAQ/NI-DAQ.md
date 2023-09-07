@@ -4,7 +4,7 @@ sidebar_label: NI DAQ
 description: Data acquisition (DAQ) is the process of measuring an electrical or physical phenomenon, such as voltage, current, temperature, pressure, or sound. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software such as LabVIEW.
 keywords: [daq boards, National Instruments, QCodes Community]
 slug: /instruments-database/daq-boards/national-instruments/ni-daq
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

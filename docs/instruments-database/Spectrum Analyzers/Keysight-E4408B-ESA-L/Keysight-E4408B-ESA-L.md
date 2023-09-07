@@ -4,7 +4,7 @@ sidebar_label: Keysight E4408B ESA-L
 description: E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-e4408b-esa-l
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

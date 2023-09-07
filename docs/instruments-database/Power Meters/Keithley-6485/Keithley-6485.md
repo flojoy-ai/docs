@@ -4,7 +4,7 @@ sidebar_label: Keithley 6485
 description: The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitive current measurement instrumentation with enhanced speed and a robust design. With eight current measurement ranges and high speed autoranging, this cost effective instrument can measure currents from 2nA to 20mA, taking measurements at speeds up to 1000 readings per second. The Model 6485’s 10fA resolution and superior sensitivity make it well suited for characterising low current phenomena, while its 20mA range lets it measure currents high enough for applications such as measuring 4-20mA sensor loops.
 keywords: [power meters, Keithley, PyTango]
 slug: /instruments-database/power-meters/keithley/keithley-6485
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

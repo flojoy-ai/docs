@@ -4,7 +4,7 @@ sidebar_label: Keysight 34465A Submodules
 description: The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-34465a-submodules
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

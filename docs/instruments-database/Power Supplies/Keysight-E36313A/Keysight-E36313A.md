@@ -4,7 +4,7 @@ sidebar_label: Keysight E36313A
 description: The triple output, 160 W, E36313A provides small, compact size for bench use; low output ripple and noise; built-in measurements and basic programmable features with USB and LAN, and optional GPIB interfaces.
 keywords: [power supplies, Keysight, QCodes Community]
 slug: /instruments-database/power-supplies/keysight/keysight-e36313a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

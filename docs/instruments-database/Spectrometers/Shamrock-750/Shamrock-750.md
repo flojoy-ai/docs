@@ -4,7 +4,7 @@ sidebar_label: Shamrock 750
 description: The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock is available as a pre-aligned detector/spectrometer option allowing for seamless integration of software, electronics, optics and detector. There is also a fast and interactive graphical software interface allowing full control of all the spectrograph functions.
 keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-database/spectrometers/andor/shamrock-750
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: R&S ZNB8
 description: The R&S ZNB8 from Rohde & Schwarz is a Vector Network Analyzer with Frequency 9 kHz to 8.5 GHz, Measurement Speed 4 ms, Dynamic Range typ. 122 dB to 140 dB, Output Power typ. 12 dBm to 15 dBm, Power Sweep Range 98 dB. Tags-> VNA with Screen. More details for R&S ZNB8 can be seen below.
 keywords: [network analyzers, Rohdes&Schwarz, QCodes]
 slug: /instruments-database/network-analyzers/rohdes-schwarz/rs-znb8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

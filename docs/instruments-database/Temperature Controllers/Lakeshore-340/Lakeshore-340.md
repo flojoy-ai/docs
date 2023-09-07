@@ -4,7 +4,7 @@ sidebar_label: Lakeshore 340
 description: The Model 340 cryogenic temperature controller is our most advanced temperature controller and offers unsurpassed resolution, accuracy, and stability for temperature measurement and control applications to as low as 100 mK. Operating with diodes, platinum RTDs, and negative temperature coefficient (NTC) resistor sensors, the Model 340 is expandable to ten sensor inputs or to operate with thermocouple or capacitance sensors. It has two control loops, with the first loop powered to 100 W.
 keywords: [temperature controllers, Lakeshore, InstrumentKit]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-340
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

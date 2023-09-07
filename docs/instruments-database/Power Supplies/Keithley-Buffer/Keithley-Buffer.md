@@ -4,7 +4,7 @@ sidebar_label: Keithley Buffer
 description: Currently no description
 keywords: [power supplies, Keithley]
 slug: /instruments-database/power-supplies/keithley/keithley-buffer
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692647285/Instruments/Power%20Supplies/Keithley-Buffer/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647285/Instruments/Power%20Supplies/Keithley-Buffer/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

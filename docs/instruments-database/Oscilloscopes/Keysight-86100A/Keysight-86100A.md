@@ -4,7 +4,7 @@ sidebar_label: Keysight 86100A
 description: Keysight 86100AInfiniium DCA Wide-Bandwidth Oscilloscope / up to 50 GHz
 keywords: [oscilloscopes, Agilent, Instrumental]
 slug: /instruments-database/oscilloscopes/agilent/keysight-86100a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

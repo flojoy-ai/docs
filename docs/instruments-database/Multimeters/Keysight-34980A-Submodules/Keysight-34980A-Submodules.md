@@ -4,7 +4,7 @@ sidebar_label: Keysight 34980A Submodules
 description: The Keysight 34980A Multifunction Switch/Measure unit is designed for R&D andmanufacturing test engineers who are working in design verification, automatedtest or data acquisition and are either looking to upgrade their existing systems orare in need of a new, cost-effective alternative
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-34980a-submodules
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

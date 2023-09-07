@@ -4,7 +4,7 @@ sidebar_label: Rigol DP832
 description: 3 Outputs; total power up to 195WLow Ripple Noise <350 uVrms/2mVppFast transient response time-> <50 usChannel isolation-> CH1 || CH2,CH3OVP/OCP/OTP protection functionsBuilt in V, A, W measurements and waveform display
 keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-database/power-supplies/rigol/rigol-dp832
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

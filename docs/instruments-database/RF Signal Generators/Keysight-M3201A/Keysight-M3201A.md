@@ -4,7 +4,7 @@ sidebar_label: Keysight M3201A
 description: Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional FPGA software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.
 keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-m3201a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

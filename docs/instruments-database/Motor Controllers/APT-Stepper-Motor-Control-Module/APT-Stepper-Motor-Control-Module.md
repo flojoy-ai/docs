@@ -4,7 +4,7 @@ sidebar_label: APT Stepper Motor Control Module
 description: The APT™ MST602 module is a dual-channel, high-resolution, rack-mounted stepper motor driver designed for use with the APT MMR601 Motion Control 19" Modular Rack System. It has been designed to drive 2-phase bi-polar stepper motors up to 50 W, with or without encoder feedback, and is compatible with the full range of stepper-motor-equipped nanopositioning actuators and stages offered by Thorlabs. Alternatively, it is also compatible with any generic two-phase bi-polar motor of varying powers and varying cardinal step sizes.
 keywords: [motor controllers, Thorlabs, InstrumentKit]
 slug: /instruments-database/motor-controllers/thorlabs/apt-stepper-motor-control-module
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393993/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393993/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

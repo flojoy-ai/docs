@@ -4,7 +4,7 @@ sidebar_label: IDUS 401 CCD
 description: The Scientific Grade, 1024 x 127 deep depletion spectroscopy CCD camera is ideally suited to rapid analysis, multi-channel and low-light applications including fluorescence and Raman spectroscopy.
 keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-database/spectrometers/andor/idus-401-ccd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

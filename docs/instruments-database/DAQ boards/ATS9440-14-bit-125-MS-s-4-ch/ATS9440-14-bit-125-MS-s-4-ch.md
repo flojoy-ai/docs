@@ -4,7 +4,7 @@ sidebar_label: ATS9440-14 bit 125 MS-s 4 ch
 description: ATS9440 is a 4-channel, 14-bit, 125 MS/s waveform digitizer based on the 8-lane PCI Express interface
 keywords: [daq boards, Alazartech, QCodes]
 slug: /instruments-database/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

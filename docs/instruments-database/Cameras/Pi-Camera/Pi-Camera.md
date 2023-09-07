@@ -4,7 +4,7 @@ sidebar_label: Pi Camera
 description: The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-megapixel OmniVision OV5647 sensor of the original camera).
 keywords: [cameras, Picam, Instrumental]
 slug: /instruments-database/cameras/picam/pi-camera
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

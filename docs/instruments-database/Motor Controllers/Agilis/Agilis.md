@@ -4,7 +4,7 @@ sidebar_label: Agilis
 description: Agilis™ Piezo Motion Controllers provide convenient and compact fine positioning control of the Agilis family of piezo motion stages and mounts.
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/agilis
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

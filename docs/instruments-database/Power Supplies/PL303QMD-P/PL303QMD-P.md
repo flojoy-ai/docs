@@ -4,7 +4,7 @@ sidebar_label: PL303QMD-P
 description: Bench/System Linear Regulated DC Power Supply Dual Output, 2 x 30V/3A, USB, RS232 & LAN Interfaces
 keywords: [power supplies, Aimtti, QCodes]
 slug: /instruments-database/power-supplies/aimtti/pl303qmd-p
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
