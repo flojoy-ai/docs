@@ -78,3 +78,25 @@
 [data-theme='dark']:root .sections {
   color: white !important;
 }
+
+.node-explorer-toc {
+  padding: 20px 40px;
+}
+
+[data-theme='dark']:root .node-explorer-toc {
+  background-color: #191919;
+}
+
+[data-theme='light']:root .node-explorer-toc {
+  background-color: #F4F4F4;
+}
+
+.explore-nodes-h1 {
+  font-family: 'PonyMaker';
+  margin: 40px;
+  letter-spacing: 5px;
+}
+
+.explore-nodes-h2, .explore-nodes-preamble {
+  margin: 20px 40px;
+}

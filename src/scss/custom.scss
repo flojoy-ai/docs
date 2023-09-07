@@ -137,20 +137,6 @@ pre {
     'Courier New', monospace;
 }
 
-#__docusaurus {
-  background: url('/img/home-bg-light.svg');
-  background-position-y: bottom;
-  background-size: contain;
-}
-
-/* overwrites for dark theme */
-
-[data-theme='dark'] {
-  #__docusaurus {
-    background-image: url('/img/home-bg-dark.svg');
-  }
-}
-
 .hero {
   background-color: transparent;
 }

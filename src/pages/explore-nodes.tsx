@@ -16,12 +16,76 @@ const variantMap = {
 
 export default function Explore() {
   const data = partialUnflatten(nodeData, ' > ', 2, ['Transform']);
+  const liteGradient = 'bg-clip-text bg-gradient-to-br from-blue-400 to-purple-600';
 
   return (
     <Layout title="Explore">
-      <h1 style={{ margin: '20px', color: '#8C9699', textAlign: 'center' }}>
-        ⎈ Nodes Explorer
+      <h1 className={`explore-nodes-h1 text-5xl font-extrabold text-transparent ${liteGradient}`}>
+        <div>explore</div>
+        <div>nodes</div>
       </h1>
+
+      <h2 className='explore-nodes-h2'>
+        Nodes are the drag-&-drop building blocks of Flojoy Studio.
+        <br></br>
+      </h2>
+
+      <div className='explore-nodes-preamble'>
+        <p>Here's what to know about nodes:</p>
+        <ul>
+            <li>
+              Nodes are just Python or C scripts under-the-hood.
+            </li>
+            <li>
+              You can create your own nodes by following <a href='/custom-nodes/creating-custom-node/'>this guide</a>.
+            </li>   
+            <li>
+              All nodes are open-source and can be inspected <a href='https://github.com/flojoy-ai/nodes'>on GitHub</a>.
+            </li>                   
+        </ul>
+      </div>
+
+      {/* ToC */}
+
+      <div className='node-explorer-toc'>
+
+        {Object.entries(data).map(([title, val], i) => {
+          const variant = variantMap[title];
+          const v = variants[variant];
+
+          title = title.indexOf('NumPy') >= 0 ? 'numpy' : title;
+          title = title.indexOf('SciPy') >= 0 ? 'scipy' : title;
+
+          return(
+            <>
+              {title != 'Flow' &&
+                <>
+                  <a href={`#${title}`}>{title}</a>
+                  <blockquote style={{margin: '0'}}>
+                    <ul style={{listStyleType: 'none'}}>
+                      {Object.keys(val).map((k) => {
+                        let hashString = k.indexOf('AI') >= 0 ? 'AI_ML' : k;
+                        hashString = hashString.toUpperCase().replace(' ', '_');
+                        return(
+                          <li>
+                            <a href={`#${hashString}`}>{k}</a>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  </blockquote>
+                </>
+              }
+            </>
+          )
+        })}
+
+      </div>
+
+      <hr style={{margin:'40px 20px'}}></hr>
+
+      {/* Content */}
+
       {Object.entries(data).map(([title, val], i) => {
         const variant = variantMap[title];
         const v = variants[variant];

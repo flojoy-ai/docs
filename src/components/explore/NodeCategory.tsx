@@ -30,6 +30,9 @@ function NodeSection({
 
   const v = variants[variant];
 
+  let titleID = title.indexOf('AI') >= 0 ? 'AI_ML' : title;
+  titleID = titleID.toUpperCase().replace(' ', '_');
+
   return (
     <div className={className}>
       <div className="flex items-center gap-x-8 px-4 py-2">
@@ -40,6 +43,7 @@ function NodeSection({
             depth === 0 ? ' text-3xl' : 'text-lg',
             v.text
           )}
+          id={titleID}
         >
           {title.concat(depth === 0 ? ' nodes' : '')}
         </div>
