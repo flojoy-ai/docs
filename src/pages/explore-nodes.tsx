@@ -49,6 +49,8 @@ export default function Explore() {
 
       <div className='node-explorer-toc'>
 
+        <h3>Node types</h3>
+
         {Object.entries(data).map(([title, val], i) => {
           const variant = variantMap[title];
           const v = variants[variant];
