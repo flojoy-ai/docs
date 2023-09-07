@@ -153,7 +153,7 @@ python3.10 -m venv venv
 5. Finally, run:
 
 ```bash
-bash flojoy -v venv -p
+bash flojoy -v venv
 ```
 
 Optional flags:
