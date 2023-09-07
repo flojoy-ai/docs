@@ -4,7 +4,7 @@ sidebar_label: Keysight N5171B EXG
 description: N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6 GHz frequency coverage, optimized for manufacturing with faster throughput and greater uptime at the right price.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-n5171b-exg
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

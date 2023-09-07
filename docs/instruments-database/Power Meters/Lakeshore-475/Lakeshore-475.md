@@ -4,7 +4,7 @@ sidebar_label: Lakeshore 475
 description: Lake Shore combined the technical advantages of digital signal processing with over a decade of experience in precision magnetic field measurements to produce the first commercial digital signal processor (DSP) based Hall effect gaussmeter, the Model 475. DSP technology creates a solid foundation for accurate, stable, and repeatable field measurement while simultaneously enabling the gaussmeter to offer an unequaled set of useful measurement features. The Model 475 is intended for the most demanding DC and AC applications. In many cases, it provides the functionality of two or more instruments in a field measurement system.
 keywords: [power meters, Lakeshore, InstrumentKit]
 slug: /instruments-database/power-meters/lakeshore/lakeshore-475
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

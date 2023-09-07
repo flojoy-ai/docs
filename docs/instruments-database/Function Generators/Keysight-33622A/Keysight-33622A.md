@@ -4,7 +4,7 @@ sidebar_label: Keysight 33622A
 description: The Keysight 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
 keywords: [function generators, Keysight, QCodes]
 slug: /instruments-database/function-generators/keysight/keysight-33622a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

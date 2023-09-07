@@ -4,7 +4,7 @@ sidebar_label: MDA8000HD
 description: The Motor Drive Analyzer is built on an 8 channel, 12-bit resolution oscilloscope platform. It acquires any signal and performs three-phase electrical and mechanical power calculations. It provides complete power section and embedded control test coverage.
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/mda8000hd
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

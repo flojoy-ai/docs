@@ -4,7 +4,7 @@ sidebar_label: Keysight 4156C
 description: 4156C Precision Semiconductor Parameter Analyzer
 keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-4156c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

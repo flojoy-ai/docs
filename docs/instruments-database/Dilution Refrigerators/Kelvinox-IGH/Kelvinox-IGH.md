@@ -4,7 +4,7 @@ sidebar_label: Kelvinox IGH
 description: Currently no description
 keywords: [dilution refrigerators, Oxford Instruments, QCodes Community]
 slug: /instruments-database/dilution-refrigerators/oxford-instruments/kelvinox-igh
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

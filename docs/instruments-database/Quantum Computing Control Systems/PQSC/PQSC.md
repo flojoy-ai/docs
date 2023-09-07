@@ -4,7 +4,7 @@ sidebar_label: PQSC
 description: The Zurich Instruments PQSC Programmable Quantum System Controller brings together the instrumentation required for quantum computers with up to 100 qubits. Its ZSync low-latency, real-time communication links are designed specifically for quantum computing-> the PQSC overcomes the practical limitations of traditional control methods, making automated and rapid qubit calibration routines a reality. Programming access to the powerful Xilinx UltraScale+ FPGA is the basis for developing new and optimized processing solutions for rapid tune-up and error correction adapted to the specific algorithm and computer architecture in use.
 keywords: [quantum computing control systems, Zurich Instruments, QCodes]
 slug: /instruments-database/quantum-computing-control-systems/zurich-instruments/pqsc
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395618/Instruments/Quantum%20Computing%20Control%20Systems/PQSC/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/Quantum%20Computing%20Control%20Systems/PQSC/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

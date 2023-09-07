@@ -4,7 +4,7 @@ sidebar_label: TDS5XX
 description: Currently no description
 keywords: [oscilloscopes, Tektronix, InstrumentKit]
 slug: /instruments-database/oscilloscopes/tektronix/tds5xx
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

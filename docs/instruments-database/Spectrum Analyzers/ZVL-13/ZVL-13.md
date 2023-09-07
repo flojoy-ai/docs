@@ -4,7 +4,7 @@ sidebar_label: ZVL 13
 description: The ZVL is a compact, cost-efficient, powerful and portable network analyzer. It is ideal for use in development, production, and service. It is the only instrument to combine the functions of a network analyzer, spectrum analyzer, and power meter in a single box, making you much more efficient.
 keywords: [spectrum analyzers, Rohdes&Schwarz, QCodes Community]
 slug: /instruments-database/spectrum-analyzers/rohdes-schwarz/zvl-13
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: M2j
 description: The M2j module is a low noise amplifier initially designed for use in reflectometry. It has been optimised for use with the F1d IQ Demodulator with a 40 MHz to 1.5 GHz frequency range. This is reflected in the gain flatness of M2j-> within 3dB from 40 MHz to 1.4 GHz.
 keywords: [lockin amplifiers, Qutech, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/qutech/m2j
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

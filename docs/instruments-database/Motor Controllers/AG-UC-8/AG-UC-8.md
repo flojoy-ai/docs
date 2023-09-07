@@ -4,7 +4,7 @@ sidebar_label: AG UC 8
 description: The AG-UC8 Agilis™ Controller provides USB computer control of up to eight Agilis axes. Power is supplied through the same USB port used for communication. USB hubs may also be used for powering and communication, but must provide the required 5 V supply, e.g. must feature an external power supply. Two holes in the controller allow stacking of several controllers and attachment to optical tables.
 keywords: [motor controllers, Newport, QCodes Community]
 slug: /instruments-database/motor-controllers/newport/ag-uc-8
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

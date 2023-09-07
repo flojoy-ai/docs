@@ -4,7 +4,7 @@ sidebar_label: 2700A Bridge
 description: The Andeen-Hagerling AH 2700A offers unparalleled stability, resolution, linearity and accuracy in a multi-frequency capacitance/loss bridge. Its numerous state-of-the-art features make it an exceptionally user-friendly instrument, measuring capacitance and loss in medium and high impedance ranges, and thus allows using three-terminal rather than five-terminal connections to the DUT (Device Under Test).The new AH 2700A-E offers substantially improved resolution over the entire operating range, bringing a super-sensitivity that enables it to explore applications in calibration, scientific research, and manufacturing with a new precision.The AH2700A-E is the pinnacle of decades of Andeen-Hagerling experience in bridge design and manufacture, and is complemented by its sister model, the AH2700A-E-C that offers continuous frequency scanning.
 keywords: [multimeters, Andeen Hagerling, PyMeasure]
 slug: /instruments-database/multimeters/andeen-hagerling/2700a-bridge
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692386182/Instruments/Multimeters/2700A-Bridge/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386182/Instruments/Multimeters/2700A-Bridge/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

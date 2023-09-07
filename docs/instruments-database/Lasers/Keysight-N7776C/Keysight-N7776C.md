@@ -4,7 +4,7 @@ sidebar_label: Keysight N7776C
 description: The new Keysight N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
 keywords: [lasers, Keysight, PyMeasure]
 slug: /instruments-database/lasers/keysight/keysight-n7776c
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

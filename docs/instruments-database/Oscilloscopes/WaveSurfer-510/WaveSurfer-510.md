@@ -4,7 +4,7 @@ sidebar_label: WaveSurfer 510
 description: The WaveSurfer 510 combines the MAUI with OneTouch user interface with powerful waveform processing, in addition to advanced math, measurement, and debug tools, to quickly analyze and find the root cause of problems. The 12.1” touch-screen display of the WaveSurfer 510 is the largest in its class and makes viewing waveform abnormalities fast and easy.
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavesurfer-510
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

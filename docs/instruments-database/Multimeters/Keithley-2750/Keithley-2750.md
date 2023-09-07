@@ -4,7 +4,7 @@ sidebar_label: Keithley 2750
 description: The 2750 offers a cost-effective, high performance, affordable alternatives to separate digital multimeters and switch systems, dataloggers/recorders, plug-in card data acquisition equipment, and VXI/PXI systems. System builders can create test solutions with a combination of channel count, cost per channel, and system performance unmatched by any other singlebox measurement system. The input modules provide the flexibility to vary the channel count from 20 to 200 (2-pole), apply a stimulus to the device under test, route signals, control system components, and make precision measurements with up to 14 functions. Robust digital I/O capabilities can be used for triggering, handshaking with other automation equipment, and alarm limit outputs. Scan rates of up to 500 channels/second (up to 3500 readings/second on a single channel) will increase test productivity.
 keywords: [multimeters, Keithley, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2750
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: Lakeshore Model 325
 description: The Model 325 dual-channel cryogenic temperature controller is capable of supporting nearly any diode, RTD, or thermocouple temperature sensor. Two independent PID control loops with heater outputs of 25 W and 2 W are configured to drive either a 50 Ω or 25 Ω load for optimal cryocooler control flexibility. Designed with ease of use, functionality, and value in mind, the Model 325 is ideal for general-purpose laboratory and industrial temperature measurement and control applications.
 keywords: [temperature controllers, Lakeshore, QCodes]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-model-325
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

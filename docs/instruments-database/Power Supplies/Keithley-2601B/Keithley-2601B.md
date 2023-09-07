@@ -4,7 +4,7 @@ sidebar_label: Keithley 2601B
 description: The Model 2601B SourceMeter SMU instrument, is a new and improved one channel SMU instrument with a tightly integrated four-quadrant design that allows it to simultaneously source and measure both voltage and current to boost productivity in applications ranging from R&D to automated production test. In addition to retaining all the features of the Model 2601A, the Model 2601B has 6½-digit resolution, USB 2.0 connectivity, and software command emulation of the Model 2400 SourceMeter SMU Instrument that enables easy migration of legacy test code. The Model 2601B model is equipped with Keithley's high speed TSP technology (over 190% faster than traditional PC-to-instrument communication techniques,) which dramatically improves the system-level speed to lower the cost of test.
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2601b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395553/Instruments/Power%20Supplies/Keithley-2601B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395553/Instruments/Power%20Supplies/Keithley-2601B/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: Keysight E8257D
 description: Metrology-grade analog signal generator offering industry-leading output power, level accuracy, and phase noise, with frequency coverage from 100 kHz to 67 GHz (extendable to 500 GHz) for testing advanced RF and microwave radar
 keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-e8257d
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

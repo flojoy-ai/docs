@@ -4,7 +4,7 @@ sidebar_label: LDA-302P-2N
 description: The LDA-302P-2N Lab Brick USB programmable 50 Ohm digital attenuator has an input power of up to +33 dBm, and offers frequency coverage of 10 to 3,000 MHz. It has an attenuation range of 90 dB and a step size of 2.0 dB. The unit is powered and controlled by USB connection to a PC or self-powered hub, and is programmable for fixed attenuation or swept attenuation ramps directly from the included graphical user interface (GUI) software.
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-302p-2n
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1692395754/Instruments/Digital%20Attenuators/LDA-302P-2N/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395754/Instruments/Digital%20Attenuators/LDA-302P-2N/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

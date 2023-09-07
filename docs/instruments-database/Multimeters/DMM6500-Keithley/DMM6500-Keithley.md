@@ -4,7 +4,7 @@ sidebar_label: DMM6500 Keithley
 description: 6½ digit bench/system digital multimeter with large 5" (12.7cm) multi touch capacitive touchscreen and graphical display. It supports SCPI, TSP® scripting, Keithley 2000 SCPI emulation and Keysight 34401A SCPI emulation language modes.
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/DMM6500-keithley
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

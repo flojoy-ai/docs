@@ -6,7 +6,7 @@ sidebar_label: Bluefors temperature controller
 description: With a modern and intuitive user interface, you gain direct control and overview of the dilution refrigerator system’s temperature status.
 keywords: [temperature controllers, Bluefors, QCodes Community]
 slug: /instruments-database/temperature-controllers/bluefors/bluefors-temperature-controller
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

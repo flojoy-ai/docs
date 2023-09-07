@@ -4,7 +4,7 @@ sidebar_label: Keysight 34934A
 description: The Keysight 34934A module for the 34980A Multifunction Switch/Measure Unit offers the highest density matrix for connecting paths between your device under test and your test equipment, allowing for multiple instrument connections to multiple points on your device under test at the same time.
 keywords: [daq boards, Keysight, QCodes]
 slug: /instruments-database/daq-boards/keysight/keysight-34934a
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

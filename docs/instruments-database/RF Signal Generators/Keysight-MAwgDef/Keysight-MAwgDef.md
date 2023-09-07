@@ -4,7 +4,7 @@ sidebar_label: Keysight MAwgDef
 description: Currently no description
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-mawgdef
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ sidebar_label: PPMS Dynacool
 description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic measurements while controlling the samples temperature and magnetic environment.The system uses a single two-stage pulse tube cooler to cool both the superconducting magnet and provide temperature control below 10K, resulting in a low vibration environment for sample measurements. At low temperatures a small amount of Helium-4 is condensed and used to cool the sample while the magnet is cooled through solid contact to a 4 K plate.
 keywords: [spectrometers, Quantum Design, QCodes]
 slug: /instruments-database/spectrometers/quantum-design/PPMS-dynacool
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

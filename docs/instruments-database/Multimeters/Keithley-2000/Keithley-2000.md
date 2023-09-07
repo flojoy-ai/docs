@@ -4,7 +4,7 @@ sidebar_label: Keithley 2000
 description: The Model 2000 6½-Digit Multimeter is part of Keithley’s family of high performance DMMs. Based on the same high speed, low noise A/D convertertechnology as the Model 2001 and 2002, the 2000 is a fast, accurate,and highly stable instrument that’s as easy to operate as it is to afford. Itcombines broad measurement ranges with superior accuracy specifications
 keywords: [multimeters, Keithley, QCodes, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2000
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

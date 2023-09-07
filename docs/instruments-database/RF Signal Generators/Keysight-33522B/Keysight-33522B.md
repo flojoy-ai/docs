@@ -4,7 +4,7 @@ sidebar_label: Keysight 33522B
 description: Keysight 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33522b
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';

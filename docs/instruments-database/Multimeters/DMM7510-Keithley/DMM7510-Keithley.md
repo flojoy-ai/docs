@@ -4,7 +4,7 @@ sidebar_label: DMM7510 Keithley
 description: The DMM7510 7.5 digit multimeter combines a precision, high-resolution digital multimeter (DMM), graphical touchscreen display, and high-speed, high-resolution digitizer to create the first graphical sampling multimeter. With pA-level sensitivity and 1Msample/s sampling, it accurately measures ultra-low sleep mode currents and transmit drain currents from wireless devices.
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/dmm7510-keithley
-image: https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692395565/Instruments/Multimeters/DMM7510-Keithley/file.png
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395565/Instruments/Multimeters/DMM7510-Keithley/file.jpg
 ---
 
 import Tabs from '@theme/Tabs';
