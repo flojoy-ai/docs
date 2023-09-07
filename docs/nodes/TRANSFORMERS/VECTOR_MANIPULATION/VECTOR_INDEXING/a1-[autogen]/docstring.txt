@@ -1,0 +1,17 @@
+The VECTOR_INDEXING node returns the value of the Vector at the
+    requested index.
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to index.
+
+    Parameters
+    ----------
+    index : int
+        The index of the vector to return.
+
+    Returns
+    -------
+    Scalar
+        The scalar index of the input vector.
