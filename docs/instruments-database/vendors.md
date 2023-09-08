@@ -1,12 +1,14 @@
 --- 
-hide_table_of_contents: true
 sidebar_position: 2
 ---
 
-# Vendors Database
+# 🏭 By manufacturer
 
-Welcome to the Vendors Database! Here you can find information about vendors collaborating with Flojoy and their devices.
+## Welcome!
 
+Welcome to Flojoy's Scientific Instrument Database! 
+
+This page is organized by Instrument manufacturer. Here you can find information about vendors collaborating with Flojoy and their devices.
 
 ## Advantech 
 
@@ -4007,9 +4009,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
  <details> 
  <summary>Vendor Description</summary> 
- R. Stahl **AG** is a listed provider of products, systems and services for [explosion protection](https://de-m-wikipedia-org.translate.goog/wiki/Explosionsschutz?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) based [in ](https://de-m-wikipedia-org.translate.goog/wiki/Sitz_(juristische_Person)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui)[Waldenburg](https://de-m-wikipedia-org.translate.goog/wiki/Waldenburg_(W%C3%BCrttemberg)?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in the [Hohenlohe district](https://de-m-wikipedia-org.translate.goog/wiki/Hohenlohekreis?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) in [Baden-Württemberg](https://de-m-wikipedia-org.translate.goog/wiki/Baden-W%C3%BCrttemberg?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui) .
-
- 
+    No information about R. Stahl **AG** .
  </details> 
 
 <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -4284,8 +4284,8 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
  <details> 
  <summary>Vendor Description</summary> 
- Tektronix, Inc., historically widely known as Tek, is an American company best known for manufacturing test and measurement devices such as [oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope), [logic analyzers](https://en.wikipedia.org/wiki/Logic_analyzer), and video and mobile test protocol equipment.
- 
+ Tektronix, Inc. (historically widely known as Tek) is an American company best known for manufacturing test and measurement devices such as oscilloscopes, logic analyzers, and video and mobile test protocol equipment.
+
  </details> 
 
 <div className="flex flex-wrap" style={{ marginLeft: "-40px" }}>
@@ -5054,7 +5054,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
  <details> 
  <summary>Vendor Description</summary> 
- TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/Laser) for quantum technologies, biophotonics and material inspection
+ TOPTICA Photonics is a manufacturer of lasers for quantum technologies, biophotonics and material inspection
  
  </details> 
 

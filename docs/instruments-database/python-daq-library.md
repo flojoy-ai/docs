@@ -1,17 +1,23 @@
 --- 
-hide_table_of_contents: true
 sidebar_position: 1
 ---
 
-# Python Libraries Database
+# 🐍 By Python library
 
-Welcome to the Python Libraries Database! Here you can find information about instruments supported by libraries.
+## Welcome!
 
+Welcome to Flojoy's Scientific Instrument Database! 
+
+Here you can find information about some of the most popular Python libraries for scientific Instrument control - including InstrumentKit, QCodes, PyMeasure, PyVISA, and PySerial. 
+
+Flojoy uses these libraries (plus many others) to connect to Instruments with no-code, drag-and-drop blocks called "nodes" in Flojoy Studio. 
+
+Please use this Instruments Database as a resource to [download Studio](/) and [create your own nodes](/custom-nodes/creating-custom-node/) for your favorite scientific Instruments.
 
 ## InstrumentKit 
 
  <details> 
- <summary>Python Library Description</summary> 
+ <summary>Python Library Description</summary>
  InstrumentKit is a powerful and versatile Python library designed specifically for hardware engineers and scientists working with instruments. It provides a comprehensive set of tools and functionalities to control, automate, and interface with a wide range of instruments commonly used in various fields such as electronics, physics, and chemistry.
 
 One of the key features of InstrumentKit is its intuitive and user-friendly API, which simplifies the process of instrument control and data acquisition. The library offers a consistent interface across different instrument types, allowing users to seamlessly switch between instruments without having to learn new syntax or commands. This makes it incredibly convenient for engineers and scientists who work with multiple instruments simultaneously or need to switch between different setups frequently.
