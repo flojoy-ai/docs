@@ -18,8 +18,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -29,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import outputImg from './examples/EX1/output.jpeg'
 import appImg from './examples/EX1/app.jpeg'
 
-
+### Process and visualize the regions of an image
 
 <AppDisplay 
     nodeLabel='REGION_PROPERTIES'
@@ -42,8 +40,6 @@ import appImg from './examples/EX1/app.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -57,4 +53,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/appendix/'><Media /></AppendixSection>
 
-
+<!--- Add Button here --->

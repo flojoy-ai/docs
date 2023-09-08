@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Retrieve categorized text from a text dataset
+
 <AppDisplay 
     nodeLabel='TEXT_DATASET'
     appImg={appImg}

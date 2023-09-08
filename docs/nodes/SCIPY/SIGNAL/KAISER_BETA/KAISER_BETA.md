@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the Kaiser `beta` parameter
+
 <AppDisplay 
   GLink='SCIPY/signal/KAISER_BETA'
   nodeLabel='KAISER_BETA'>

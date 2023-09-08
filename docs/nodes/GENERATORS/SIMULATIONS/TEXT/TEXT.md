@@ -16,9 +16,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='GENERATORS/SIMULATIONS/TEXT/TEXT.py'>{PythonSource}</PythonCode>
 
-<SectionBreak />
-
-    
+<SectionBreak />    
 
 [//]: # (Examples)
 
@@ -27,7 +25,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-
+### Generate a TextBlob
 
 <AppDisplay 
     nodeLabel='TEXT'
@@ -40,8 +38,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -55,4 +51,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/TEXT/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/GENERATORS/SIMULATIONS/TEXT/appendix/'><Media /></AppendixSection>
 
-
+<!--- Add Button here --->

@@ -31,6 +31,8 @@ import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 
+### Control a stepper motor's movement with a TIC driver
+
 <AppDisplay 
     nodeLabel='STEPPER_DRIVER_TIC'
     appImg={appImg}

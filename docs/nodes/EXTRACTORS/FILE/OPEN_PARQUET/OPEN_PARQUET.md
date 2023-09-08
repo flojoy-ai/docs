@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Load a `.parquet` file from disk
+
 <AppDisplay 
     nodeLabel='OPEN_PARQUET'
     appImg={appImg}

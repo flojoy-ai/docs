@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Raise a square matrix to a power
+
 <AppDisplay 
   GLink='NUMPY/linalg/MATRIX_POWER'
   nodeLabel='MATRIX_POWER'>

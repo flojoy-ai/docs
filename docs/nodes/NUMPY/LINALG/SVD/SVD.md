@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Perform a singular value decomposition
+
 <AppDisplay 
   GLink='NUMPY/linalg/SVD'
   nodeLabel='SVD'>

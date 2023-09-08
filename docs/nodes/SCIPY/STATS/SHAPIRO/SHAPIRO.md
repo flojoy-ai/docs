@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test for normality with the Shapiro-Wilk test
+
 <AppDisplay 
   GLink='SCIPY/stats/SHAPIRO'
   nodeLabel='SHAPIRO'>

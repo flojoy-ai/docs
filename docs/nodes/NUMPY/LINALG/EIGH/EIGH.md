@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Return the eigenvalues and -vectors of a specific matrix
+
 <AppDisplay 
   GLink='NUMPY/linalg/EIGH'
   nodeLabel='EIGH'>

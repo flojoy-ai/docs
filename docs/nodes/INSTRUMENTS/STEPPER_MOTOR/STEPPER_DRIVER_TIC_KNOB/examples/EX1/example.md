@@ -5,7 +5,7 @@ keyword: [Python, Instrument, Stepper motor control with knob, Python integratio
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/examples/EX1/output.jpeg
 ---
 
-In this example, the [`STEPPER_DRIVER_TIC_KNOB`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB.py) node controls a stepper motor movement with a TIC driver. It allows you to control the motor's rotation with a KNOB button. (From 0 to 100 corresponds to a rotation between 0 and 360 degrees.)
+In this example, the [`STEPPER_DRIVER_TIC_KNOB`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC_KNOB/STEPPER_DRIVER_TIC_KNOB.py) node controls a stepper motor's movement with a TIC driver. It allows you to control the motor's rotation with a KNOB button. (From 0 to 100 corresponds to a rotation between 0 and 360 degrees.)
 
 First, the user must define the current limitation, which depends on the motor's size and model. After that, he can set the speed, the rotation, and the sleep time to create a specific movement for different applications. Then, after clicking the PLAY button, the motor will start moving.
 

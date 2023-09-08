@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test if data comes from a particular distribution
+
 <AppDisplay 
   GLink='SCIPY/stats/ANDERSON'
   nodeLabel='ANDERSON'>

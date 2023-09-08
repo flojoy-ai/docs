@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Downsample a signal with an anti-aliasing filter
+
 <AppDisplay 
   GLink='SCIPY/signal/DECIMATE'
   nodeLabel='DECIMATE'>

@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Perform a Jarque-Bera goodness of fit test
+
 <AppDisplay 
   GLink='SCIPY/stats/JARQUE_BERA'
   nodeLabel='JARQUE_BERA'>

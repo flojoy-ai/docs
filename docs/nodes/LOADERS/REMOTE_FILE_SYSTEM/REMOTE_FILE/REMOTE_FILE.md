@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,13 +18,11 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-
-
 [//]: # (Examples)
 
 ## Examples
 
-
+### Load and convert a remote file to a DataContainer
 
 <AppDisplay
     nodeLabel='REMOTE_FILE'
@@ -35,8 +34,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -50,4 +47,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

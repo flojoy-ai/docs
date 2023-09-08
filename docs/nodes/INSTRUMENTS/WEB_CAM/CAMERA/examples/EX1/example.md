@@ -5,7 +5,7 @@ keyword: [Python, Instrument, Web cam, Camera, Python webcam integration, Camera
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg
 ---  
 
-In this example app, the [`CAMERA`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA.py) node takes and returns a picture from a camera connected to the computer.
+In this example, the [`CAMERA`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/WEB_CAM/CAMERA/CAMERA.py) node takes and returns a picture from a camera connected to the computer.
 
 Before using the node, you'll need to define the Camera index in the node parameter to choose your Camera (e.g. Webcam, USB camera, etc.).
 

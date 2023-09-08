@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Perform a Cholesky decomposition
+
 <AppDisplay 
   GLink='NUMPY/linalg/CHOLESKY'
   nodeLabel='CHOLESKY'>

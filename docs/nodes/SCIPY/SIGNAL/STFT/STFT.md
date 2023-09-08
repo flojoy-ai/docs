@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the Short Time Fourier Transform (STFT)
+
 <AppDisplay 
   GLink='SCIPY/signal/STFT'
   nodeLabel='STFT'>

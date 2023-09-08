@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Obtain 'Frozen' distributions
+
 <AppDisplay 
   GLink='SCIPY/stats/MVSDIST'
   nodeLabel='MVSDIST'>

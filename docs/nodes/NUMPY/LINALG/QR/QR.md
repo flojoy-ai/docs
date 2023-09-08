@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the `qr` factorization of a matrix
+
 <AppDisplay 
   GLink='NUMPY/linalg/QR'
   nodeLabel='QR'>

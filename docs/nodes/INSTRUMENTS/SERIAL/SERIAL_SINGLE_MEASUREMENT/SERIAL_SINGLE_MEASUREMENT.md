@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Take a single reading from a serial device
+
 <AppDisplay 
     nodeLabel='SERIAL_SINGLE_MEASUREMENT'
     appImg={appImg}

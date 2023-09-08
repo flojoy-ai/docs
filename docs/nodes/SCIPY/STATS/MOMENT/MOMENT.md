@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Calculate the nth moment about the mean
+
 <AppDisplay 
   GLink='SCIPY/stats/MOMENT'
   nodeLabel='MOMENT'>

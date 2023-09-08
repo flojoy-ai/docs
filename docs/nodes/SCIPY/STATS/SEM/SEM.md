@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the standard error of the mean
+
 <AppDisplay 
   GLink='SCIPY/stats/SEM'
   nodeLabel='SEM'>

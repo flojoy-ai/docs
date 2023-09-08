@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Calculate the relative maxima of data
+
 <AppDisplay 
   GLink='SCIPY/signal/ARGRELMAX'
   nodeLabel='ARGRELMAX'>

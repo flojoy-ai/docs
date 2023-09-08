@@ -1,3 +1,5 @@
+<!--Add SEO here-->
+
 [//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
@@ -23,6 +25,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
+### Upload a DataContainer to Flojoy Cloud
+
 <AppDisplay
 nodeLabel='FLOJOY_CLOUD_UPLOAD'
 appImg={''}
@@ -33,8 +37,6 @@ outputImg={''} >
 <Example1 />
 
 <SectionBreak />
-  
-
 
 [//]: # 'Appendix'
 
@@ -47,3 +49,5 @@ import Media from './appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/appendix/'><Media /></AppendixSection>
+
+<!--Add Button here-->

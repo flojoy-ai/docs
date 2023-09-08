@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Estimate power spectral density with a periodogram
+
 <AppDisplay 
   GLink='SCIPY/signal/PERIODOGRAM'
   nodeLabel='PERIODOGRAM'>
