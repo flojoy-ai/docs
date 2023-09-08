@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Track the number of loops
+
 <AppDisplay 
     nodeLabel='LOOP_INDEX'
     appImg={appImg}

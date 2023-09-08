@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Visualize the components of a Prophet model
+
 <AppDisplay 
     nodeLabel='PROPHET_COMPONENTS'
     appImg={appImg}
@@ -52,11 +54,6 @@ import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
-<<<<<<< HEAD
-<AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Media /></AppendixSection>
-=======
 <AppendixSection index={0} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/appendix/'><Media /></AppendixSection>
@@ -68,4 +65,3 @@ import Media from './appendix/media.md';
 #### Edit this page on GitHub
 
 [Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS)
->>>>>>> d898a0e0 (feat: Concluded adding unique links to GitHub Edit page sources.)

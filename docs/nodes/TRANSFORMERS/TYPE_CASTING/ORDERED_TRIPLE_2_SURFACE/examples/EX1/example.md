@@ -5,6 +5,6 @@ keyword: [Python, Transform, Type casting, Ordered triple to surface conversion,
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/examples/EX1/output.jpeg
 ---
 
-In this example, the `PLOTLY_DATASET` node generates a `dataframe`. This output is passed to the type casting `DF_2_ORDEREDTRIPLE` node, which converts the `dataframe` type into an `ordered_triple` type from the `DataContainer` class. 
+In this example, the `PLOTLY_DATASET` node generates a `DataFrame`. This output is passed to the type casting `DF_2_ORDEREDTRIPLE` node, which converts the `DataFrame` type into an `OrderedTriple` type from the `DataContainer` class. 
 
-We then use the `ORDERED_TRIPLE_2_SURFACE` node to cast the `ordered_triple` to a `surface` `DataContainer` type. Finally we vizualize the output with the Plotly visualizer `SURFACE3D` node.
+We then use the `ORDERED_TRIPLE_2_SURFACE` node to cast the `OrderedTriple` to a `surface` `DataContainer` type. Finally we vizualize the output with the Plotly visualizer `SURFACE3D` node.
