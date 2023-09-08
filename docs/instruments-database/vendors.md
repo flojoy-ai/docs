@@ -1,5 +1,10 @@
 --- 
 sidebar_position: 2
+sidebar_label: 🏭 By manufacturer
+title: Scientific Instruments Database by Manufacturer
+description: Copy/paste Python examples for hundreds of instruments from Agilent, Tektronix, Keithley, Keysigh, and more.
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1694137515/flojoy-docs/Marketing%20Images/instrument_menagerie_delnwb.jpg
+keywords: [Python, Agilent, Tektronix, Keysight, DAQ]
 ---
 
 # 🏭 By manufacturer
@@ -8,7 +13,7 @@ sidebar_position: 2
 
 Welcome to Flojoy's Scientific Instrument Database! 
 
-This page is organized by Instrument manufacturer. Here you can find information about vendors collaborating with Flojoy and their devices.
+This page is organized by Instrument manufacturer. Here you can find information about vendors collaborating with Flojoy and copy/paste Python examples for connecting to their products in your lab, manufacturing facility, and test stations.
 
 ## Advantech 
 

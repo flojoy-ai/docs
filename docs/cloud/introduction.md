@@ -31,6 +31,6 @@ Measurement is simply a collection of data containers. This helps you to group d
 
 ## Clients
 
-Currently there are two clients written for the REST API: Python and Matlab.
+Currently there are two clients written for the REST API: Python and MATLAB®.
 
 You can find examples of some usages on the next page.

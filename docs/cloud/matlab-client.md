@@ -1,17 +1,17 @@
 ---
-title: Matlab Client
+title: MATLAB® client
 ---
 
 ## Installation
 
-The Matlab client for the Flojoy cloud API is found [here](https://github.com/flojoy-ai/matlab). To download the client, either: 
+The MATLAB® client for the Flojoy cloud API is found [here](https://github.com/flojoy-ai/matlab). To download the client, either: 
 
 1. Open a terminal at your desired directory and clone the repository: `git clone https://github.com/flojoy-ai/matlab.git`
 
 2. Download the repository manually in `<> Code -> Download ZIP` and unzip into your desired directory.
 
 ![image](/img/cloud/download.png)
-*<br/>To download the Matlab source code use `Download ZIP`*
+*<br/>To download the MATLAB® source code use `Download ZIP`*
 
 ## Usage
 

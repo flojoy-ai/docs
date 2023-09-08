@@ -1,5 +1,10 @@
 --- 
 sidebar_position: 1
+sidebar_label: 🐍 By Python library
+title: Scientific Instruments Database by Python Library
+description: Copy/paste Python examples using PyMeasure, QCodes, PyVISA, PySerial, and more.
+image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1694137515/flojoy-docs/Marketing%20Images/instrument_menagerie_delnwb.jpg
+keywords: [PyMeasure, PyVISA, PySerial, QCodes, Python Driver, Agilent, Tektronix, Keysight, DAQ]
 ---
 
 # 🐍 By Python library
@@ -12,7 +17,7 @@ Here you can find information about some of the most popular Python libraries fo
 
 Flojoy uses these libraries (plus many others) to connect to Instruments with no-code, drag-and-drop blocks called "nodes" in Flojoy Studio. 
 
-Please use this Instruments Database as a resource to [download Studio](/) and [create your own nodes](/custom-nodes/creating-custom-node/) for your favorite scientific Instruments.
+Please use this Instruments Database as a resource to [download Studio](/) and [create your own nodes](/custom-nodes/creating-custom-node/) for connecting to scientific hardware in your lab, manufacturing facility, and test stations.
 
 ## InstrumentKit 
 
