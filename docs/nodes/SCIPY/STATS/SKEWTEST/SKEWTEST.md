@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test whether a dataset has a normal skewness
+
 <AppDisplay 
   GLink='SCIPY/stats/SKEWTEST'
   nodeLabel='SKEWTEST'>

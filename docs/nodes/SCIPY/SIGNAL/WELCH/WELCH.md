@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Estimate power spectral density with Welch's method
+
 <AppDisplay 
   GLink='SCIPY/signal/WELCH'
   nodeLabel='WELCH'>

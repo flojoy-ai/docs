@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test whether a dataset has a normal kurtosis
+
 <AppDisplay 
   GLink='SCIPY/stats/KURTOSISTEST'
   nodeLabel='KURTOSISTEST'>

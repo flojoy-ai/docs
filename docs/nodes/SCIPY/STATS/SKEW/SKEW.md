@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the skewness of a dataset
+
 <AppDisplay 
   GLink='SCIPY/stats/SKEW'
   nodeLabel='SKEW'>

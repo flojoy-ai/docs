@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the eigenvalues and -vectors of a square array
+
 <AppDisplay 
   GLink='NUMPY/linalg/EIG'
   nodeLabel='EIG'>

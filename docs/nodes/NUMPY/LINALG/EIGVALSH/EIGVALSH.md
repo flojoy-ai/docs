@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the eigenvalues of a specific matrix
+
 <AppDisplay 
   GLink='NUMPY/linalg/EIGVALSH'
   nodeLabel='EIGVALSH'>

@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Calculate the geometric standard deviation of an array
+
 <AppDisplay 
   GLink='SCIPY/stats/GSTD'
   nodeLabel='GSTD'>

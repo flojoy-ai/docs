@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Calculate the relative minima of data
+
 <AppDisplay 
   GLink='SCIPY/signal/ARGRELMIN'
   nodeLabel='ARGRELMIN'>

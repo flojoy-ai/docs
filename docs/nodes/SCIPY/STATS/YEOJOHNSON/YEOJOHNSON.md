@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Transform a dataset with the Yeo-Johnson power transformation
+
 <AppDisplay 
   GLink='SCIPY/stats/YEOJOHNSON'
   nodeLabel='YEOJOHNSON'>

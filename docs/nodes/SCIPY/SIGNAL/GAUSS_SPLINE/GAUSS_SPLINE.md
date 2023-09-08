@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Apply a Gaussian approximation to a B-spline basis function
+
 <AppDisplay 
   GLink='SCIPY/signal/GAUSS_SPLINE'
   nodeLabel='GAUSS_SPLINE'>

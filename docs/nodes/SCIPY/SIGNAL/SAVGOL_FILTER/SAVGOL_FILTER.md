@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Apply a Savitzky-Golay filter to an array
+
 <AppDisplay 
   GLink='SCIPY/signal/SAVGOL_FILTER'
   nodeLabel='SAVGOL_FILTER'>

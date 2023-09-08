@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Calculate the T-test for the mean of one group of scores
+
 <AppDisplay 
   GLink='SCIPY/stats/TTEST_1SAMP'
   nodeLabel='TTEST_1SAMP'>

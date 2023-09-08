@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Trim from both tails and return the mean of an array
+
 <AppDisplay 
   GLink='SCIPY/stats/TRIM_MEAN'
   nodeLabel='TRIM_MEAN'>
