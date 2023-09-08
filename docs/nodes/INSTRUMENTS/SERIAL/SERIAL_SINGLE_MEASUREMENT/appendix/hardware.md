@@ -1,3 +1,0 @@
-- [An Arduino microcontroller board](https://store-usa.arduino.cc/collections/boards) and the Arduino IDE software to program it.
-- A thermistor
-- Connection Cables

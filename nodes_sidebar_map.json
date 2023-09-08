@@ -23,6 +23,7 @@
   "Data > AI & ML > Segmentation": "SEGMENTATION",
   "Data > AI & ML > Text Summarization": "TEXT_SUMMARIZATION",
   "Flow": ["LOOPS", "CONDITIONALS", "TIMERS", "LOOP_TOOLS"],
+  "I/O > IO > ANALOG_SENSOR > PRESSURE_SENSORS": "PRESSURE_SENSORS",
   "I/O > Instruments > Keithley": "KEITHLEY",
   "I/O > Instruments > LabJack": "LABJACK",
   "I/O > Instruments > Phidget": "PHIDGET",
