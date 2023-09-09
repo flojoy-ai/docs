@@ -1,4 +1,4 @@
---- 
+---
 sidebar_position: 0
 sidebar_label: 📻 All Instruments
 hide_table_of_contents: true
