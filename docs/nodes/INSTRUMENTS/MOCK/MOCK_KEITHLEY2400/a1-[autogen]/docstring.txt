@@ -1,0 +1,14 @@
+Note this node is for testing purposes only.
+
+    The KEYTHLEY2400 node mocks the instrument KEYTHLEY 2400.
+    The KEYTHLEY 2400 is the voltage source.
+
+    Parameters
+    ----------
+    voltage : int
+
+
+    Returns
+    -------
+    Scalar
+
