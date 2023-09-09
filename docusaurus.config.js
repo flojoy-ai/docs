@@ -34,12 +34,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  themeConfig: {
-    // Declare some <meta> tags
-    metadata: [
-      {name: 'google-site-verification', content: 'vnTrpT2hj2y0bAD5_FltptHs2oDPgwU5N4amWmA1DbE'},
-    ],
-  },
   presets: [
     [
       'classic',
@@ -148,6 +142,9 @@ const config = {
         textColor: '#FFF',
         isCloseable: true,
       },
+      metadata: [
+        {name: 'google-site-verification', content: 'vnTrpT2hj2y0bAD5_FltptHs2oDPgwU5N4amWmA1DbE'},
+      ],      
       colorMode: {
         defaultMode: 'dark',
       },
@@ -243,23 +240,6 @@ const config = {
       fathomAnalytics: {
         siteId: 'LCCRNAEW',
       },
-      // markprompt: {
-      //   projectKey: 'gueBknoZsCk4hWiUxpJcNAYhEEh8g2Ih',
-      //   trigger: { floating: false },
-      //   search: {
-      //     enabled: true,
-      //     provider: {
-      //       name: 'algolia',
-      //       apiKey: '12f712936d242f4a4592cdafb61a4620',
-      //       appId: '8F0URYIKW5',
-      //       indexName: 'Flojoy Docs',
-      //     },
-      //     getHref: result => result.url,
-      //     getHeading: result => result.pageTitle,
-      //     getTitle: result => result.pageDescription,
-      //     getSubtitle: result => result.pageContent,
-      //   },
-      // },
     }),
 };
 
