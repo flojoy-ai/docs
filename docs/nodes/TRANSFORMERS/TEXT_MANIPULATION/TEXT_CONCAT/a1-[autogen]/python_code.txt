@@ -1,0 +1,26 @@
+from flojoy import TextBlob, flojoy
+from typing import Literal
+
+
+@flojoy
+def TEXT_CONCAT(
+    a: TextBlob,
+    b: TextBlob,
+    delimiter: Literal["space", "comma", "semicolon", "colon", "new line"] = "space",
+) -> TextBlob:
+    
+
+    delim: str = ""
+    match delimiter:
+        case "space":
+            delim = " "
+        case "comma":
+            delim = ","
+        case "semicolon":
+            delim = ";"
+        case "colon":
+            delim = ":"
+        case "new line":
+            delim = "\n"
+
+    return TextBlob(text_blob=delim.join([a.text_blob, b.text_blob]))
