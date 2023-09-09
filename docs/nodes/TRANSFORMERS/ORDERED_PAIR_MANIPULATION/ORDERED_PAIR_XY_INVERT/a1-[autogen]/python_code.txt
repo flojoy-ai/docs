@@ -1,0 +1,10 @@
+from flojoy import flojoy, OrderedPair
+
+
+@flojoy
+def ORDERED_PAIR_XY_INVERT(
+    default: OrderedPair,
+) -> OrderedPair:
+    
+
+    return OrderedPair(x=default.y, y=default.x)
