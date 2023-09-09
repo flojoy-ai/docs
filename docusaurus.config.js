@@ -34,7 +34,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  themeConfig: {
+    // Declare some <meta> tags
+    metadata: [
+      {name: 'google-site-verification', content: 'vnTrpT2hj2y0bAD5_FltptHs2oDPgwU5N4amWmA1DbE'},
+    ],
+  },
   presets: [
     [
       'classic',
