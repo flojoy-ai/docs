@@ -100,3 +100,16 @@
 .explore-nodes-h2, .explore-nodes-preamble {
   margin: 20px 40px;
 }
+
+.app-example-thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+  margin-right: 15px;
+}
+
+.app-thumbnail-section figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin: 2px auto;
+}
