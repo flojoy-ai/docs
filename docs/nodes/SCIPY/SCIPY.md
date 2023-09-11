@@ -13,8 +13,6 @@ Here you can find information about all the Flojoy nodes that can be used for Sc
 
 You can also find all of these nodes in the sidebar.
 
-## Signal Nodes
-
 <!-- Custom component -->
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 

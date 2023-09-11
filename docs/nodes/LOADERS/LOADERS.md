@@ -37,3 +37,10 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionRoot = 'LOADERS/LOCAL_FILE_SYSTEM'
     nodes = {['BATCH_PROCESSOR', 'LOCAL_FILE', 'OPEN_MATLAB']}
 />
+
+<AppThumbnailSection
+    sectionName = 'Remote file system'
+    blockquote = 'No-code Flojoy nodes for reading and writing data files to and from remote.'
+    sectionRoot = 'LOADERS/REMOTE_FILE_SYSTEM'
+    nodes = {['REMOTE_FILE']}
+/>
