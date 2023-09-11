@@ -21,11 +21,7 @@ All of the nodes in the examples below are free to use, open-source (MIT license
 <!-- Custom component -->
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-## AI & ML examples
-
-Here you can find a list of all the Flojoy nodes that you can use to produce an output with Artificial Intelligence and Machine Learning.
-
-You can also find all of these nodes in the sidebar.
+# AI & ML
 
 <AppThumbnailSection
     sectionName = 'Classification'
@@ -77,7 +73,7 @@ You can also find all of these nodes in the sidebar.
     nodes = {['EXTRACT_COLUMNS']}
 />
 
-## ETL - Transformers examples
+## ETL - Transformer examples
 
 Here you can find a list of all the Flojoy ETL nodes that can transform input data.
 
