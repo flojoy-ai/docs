@@ -1,4 +1,5 @@
-The LABJACKU3 node allows you to record and returns temperature measurements with a LABJACK U3 device.
+The READ_A0_PINS node allows you to record and return voltages from a sensor connected to a LABJACK U3 device. eturns temperature measurements with a
+    Use the sensor node to convert voltage into temperature measurements
 
     Parameters
     ----------

@@ -13,8 +13,6 @@ def onVoltageRatioChange(self, voltageRatio):
 def READ_N_PINS(
     default: Optional[OrderedPair] = None,
     n_sensors: int = 1,
-    calibration1: float = 0.015,
-    calibration2: float = 0.06,
 ) -> OrderedPair:
     
 
@@ -42,4 +40,4 @@ def READ_N_PINS(
         pression_i: float = (volt_i - calibration1) / calibration2
         pressions.append(pression_i)
 
-    return OrderedPair(x=sensor_num, y=pressions)
+    return OrderedPair(x=sensor_num, y=voltage)
