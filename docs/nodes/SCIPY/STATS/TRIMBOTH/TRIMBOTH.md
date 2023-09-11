@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Trim a proportion from both ends of an array
+
 <AppDisplay 
   GLink='SCIPY/stats/TRIMBOTH'
   nodeLabel='TRIMBOTH'>

@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Visualize a DataContainer as a Plotly Matrix
+
 <AppDisplay 
     nodeLabel='MATRIX_VIEW'
     appImg={appImg}

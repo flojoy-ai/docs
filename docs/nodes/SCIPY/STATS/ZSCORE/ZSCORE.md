@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the z-score
+
 <AppDisplay 
   GLink='SCIPY/stats/ZSCORE'
   nodeLabel='ZSCORE'>

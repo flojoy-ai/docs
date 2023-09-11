@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Apply a quadratic B-spline function
+
 <AppDisplay 
   GLink='SCIPY/signal/QUADRATIC'
   nodeLabel='QUADRATIC'>

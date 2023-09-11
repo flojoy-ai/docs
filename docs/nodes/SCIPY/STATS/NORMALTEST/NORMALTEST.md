@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test if a sample differs from a normal distribution
+
 <AppDisplay 
   GLink='SCIPY/stats/NORMALTEST'
   nodeLabel='NORMALTEST'>

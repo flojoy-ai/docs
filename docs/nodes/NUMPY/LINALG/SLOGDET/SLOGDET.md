@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute specific logarithms of the determinant of an array
+
 <AppDisplay 
   GLink='NUMPY/linalg/SLOGDET'
   nodeLabel='SLOGDET'>

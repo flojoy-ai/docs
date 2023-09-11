@@ -32,6 +32,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### Apply a butterworth filter to an input signal
+
 <AppDisplay 
     nodeLabel='BUTTER'
     appImg={appImg}

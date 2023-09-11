@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Test that the probability of success is p
+
 <AppDisplay 
   GLink='SCIPY/stats/BINOM_TEST'
   nodeLabel='BINOM_TEST'>

@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the determinant of an array
+
 <AppDisplay 
   GLink='NUMPY/linalg/DET'
   nodeLabel='DET'>

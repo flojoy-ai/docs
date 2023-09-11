@@ -19,18 +19,16 @@ import AppendixSection from '@site/src/components/AppendixSection';
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
 <PythonCode GLink='LOADERS/INTERNAL_MEMORY/DS_LOAD/DS_LOAD.py'>{PythonSource}</PythonCode>
 
-
 <SectionBreak />
-
-    
 
 [//]: # (Examples)
 
 ## Examples
+
+### Load data from in-memory data storage
 
 <AppDisplay 
   GLink='LOADERS/INTERNAL_MEMORY/DS_LOAD'
@@ -38,8 +36,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 </AppDisplay>
 
 <SectionBreak />
-
-    
 
 [//]: # (Appendix)
 

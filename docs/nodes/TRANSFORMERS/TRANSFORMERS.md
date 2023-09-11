@@ -1,296 +1,69 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Transformers
-sidebar_position: 1
+sidebar_label: ETL - Transformers
 slug: /nodes/TRANSFORMERS/
+sidebar_position: 3
 ---
 
 # TRANSFORMERS in Python
 
-Welcome to the Transformer Nodes page!
+Welcome to the Transformer nodes page!
 
-Here you can find a list of all the Flojoy nodes that can transform inputs.
+Here you can find a list of all the Flojoy ETL nodes that can transform input data.
+
+Data in Flojoy is passed between nodes inside [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/). Transformer nodes can be used to convert one DataContainer type to another, perform mathematical operations on the data within a DataContainer, and much more.
+
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Loader](/nodes/LOADERS/) nodes.
 
 You can also find all of these nodes in the sidebar.
 
-## Arithmetic Nodes
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<AppThumbnailSection
+    sectionName = 'Arithmetic'
+    blockquote = 'No-code Flojoy nodes for basic arithmetic operations (eg addition, substraction, division, multiplication). Arithmetic nodes are applicable to DataContainers of types scalar, vector, matrix, and dataframe.'
+    sectionRoot = 'TRANSFORMERS/ARITHMETIC'
+    nodes = {['ABS', 'ADD', 'SUBTRACT', 'MULTIPLY', 'DIVIDE']}
+/>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/ARITHMETIC/ABS/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/ABS/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ABSOLUTE</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Calculus'
+    blockquote = 'No-code Flojoy nodes for basic calculus operations like differentiation and multiplication. Calculus nodes are applicable to DataContainers of types vector, matrix, and dataframe.'
+    sectionRoot = 'TRANSFORMERS/CALCULUS'
+    nodes = {['DIFFERENTIATE', 'INTEGRATE', 'DOUBLE_DEFINITE_INTEGRAL', 'DOUBLE_INDEFINITE_INTEGRAL']}
+/>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/ARITHMETIC/ADD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/ADD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ADD</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Image processing'
+    blockquote = 'No-code Flojoy nodes for Python-based image processing, including nodes for RGB channel splitting, edge detection, and smoothing.'
+    sectionRoot = 'TRANSFORMERS/IMAGE_PROCESSING'
+    nodes = {['CHANNEL_MERGE', 'CHANNEL_SPLIT', 'EDGE_DETECTION', 'EXTREMA_DETERMINATION', 'IMAGE_SMOOTHING', 'REGION_PROPERTIES']}
+/>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/DIVIDE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DIVIDE</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Matrix manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix inverstion and matrix product.'
+    sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
+    nodes = {['INVERT', 'MATMUL']}
+/>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/MULTIPLY/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MULTIPLY</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Digital signal processing (DSP)'
+    blockquote = 'Flojoy nodes for Python-based DSP. Connect DSP nodes together on the Flojoy Studio canvas to create DSP data pipelines similar to Simulink or LabVIEW.'
+    sectionRoot = 'TRANSFORMERS/SIGNAL_PROCESSING'
+    nodes = {['BUTTER', 'FFT', 'FIR', 'IFFT', 'SAVGOL', 'TWO_DIMENSIONAL_FFT']}
+/>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/ARITHMETIC/SUBTRACT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SUBTRACT</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Type casting'
+    blockquote = 'Use these nodes to convert one DataContainer type to another.'
+    sectionRoot = 'TRANSFORMERS/TYPE_CASTING'
+    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT']}
+/>
 
-</div>
-
-## Calculus Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/CALCULUS/DIFFERENTIATE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DIFFERENTIATE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DIFFERENTIATE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_DEFINITE_INTEGRAL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DOUBLE DEFINITE INTEGRAL</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/DOUBLE_INDEFINITE_INTEGRAL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DOUBLE INDEFINITE INTEGRAL</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/CALCULUS/INTEGRATE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/INTEGRATE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INTEGRATE</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Image Processing Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_MERGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CHANNEL MERGE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_SPLIT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/CHANNEL_SPLIT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CHANNEL SPLIT</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/EDGE_DETECTION/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>EDGE DETECTION</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/EXTREMA_DETERMINATION/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/EXTREMA_DETERMINATION/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>EXTREMA DETERMINATION</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/IMAGE_SMOOTHING/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/IMAGE_SMOOTHING/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IMAGE SMOOTHING</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/IMAGE_PROCESSING/REGION_PROPERTIES/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>REGION PROPERTIES</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Matrix Manipulation Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INVERT</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MATMUL</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Signal Processing (DSP) Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BUTTER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FAST FOURIER TRANSFORM (FFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FINITE IMPULSE RESPONSE (FIR)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INVERSE DISCRETE FOURIER TRANSFORM (IFFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPORTIONAL INTEGRAL DERIVATIVE (PID)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SAVITZKY-GOLAY (SAVGOL)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TWO DIMENSIONAL FFT</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Type Casting Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_NP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DF 2 NP</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/DF_2_ORDERED_TRIPLE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DF 2 ORDERED TRIPLE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/MAT_2_DF/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MAT 2 DF</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/TYPE_CASTING/NP_2_DF/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/NP_2_DF/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NP 2 DF</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/TYPE_CASTING/ORDERED_TRIPLE_2_SURFACE/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ORDERED TRIPLE 2 SURFACE</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Select Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SELECT_ARRAY/SELECT_ARRAY/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SELECT ARRAY</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Select'
+    blockquote = 'Select subsets from structured, indexable data such as vectors (arrays), matrices, and json.'
+    sectionRoot = 'TRANSFORMERS/SELECT_ARRAY'
+    nodes = {['SELECT_ARRAY']}
+/>

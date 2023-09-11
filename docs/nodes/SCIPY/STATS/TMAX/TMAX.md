@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the trimmed maximum
+
 <AppDisplay 
   GLink='SCIPY/stats/TMAX'
   nodeLabel='TMAX'>

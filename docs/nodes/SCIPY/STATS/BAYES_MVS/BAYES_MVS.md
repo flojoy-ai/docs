@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Obtain Bayesian confidence intervals
+
 <AppDisplay 
   GLink='SCIPY/stats/BAYES_MVS'
   nodeLabel='BAYES_MVS'>

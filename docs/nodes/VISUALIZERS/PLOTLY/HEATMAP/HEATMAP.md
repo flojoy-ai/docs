@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,8 +18,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -29,6 +28,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import Example2 from './examples/EX2/example.md';
 import App2 from '!!raw-loader!./examples/EX2/app.json';
 
+### Create a Plotly Heatmap visualization
+
 <AppDisplay 
     nodeLabel='HEATMAP'
     appImg={''}
@@ -38,6 +39,8 @@ import App2 from '!!raw-loader!./examples/EX2/app.json';
 </AppDisplay>
 
 <Example1 />
+
+### Additionally render a Histogram
 
 <AppDisplay 
     nodeLabel='HEATMAP'
@@ -50,8 +53,6 @@ import App2 from '!!raw-loader!./examples/EX2/app.json';
 <Example2 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -65,4 +66,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/VISUALIZERS/PLOTLY/HEATMAP/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/VISUALIZERS/PLOTLY/HEATMAP/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

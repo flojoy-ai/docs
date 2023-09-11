@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute descriptive statistics of an array
+
 <AppDisplay 
   GLink='SCIPY/stats/DESCRIBE'
   nodeLabel='DESCRIBE'>

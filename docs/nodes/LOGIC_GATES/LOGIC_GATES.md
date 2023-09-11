@@ -1,86 +1,37 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Logic Gates
-sidebar_position: 1
+sidebar_label: Logic
 slug: /nodes/LOGIC_GATES/
+sidebar_position: 5
 ---
 
-# LOGIC GATES in Python
+# Logic expressions in Python
 
-Welcome to the Logic Gate Nodes page!
+Welcome to the Logic nodes page!
 
-Here you can find information about all the Flojoy nodes that can be used as logic gates to optimise flow.
+Here you can find information about all the Flojoy nodes that can be used as logic gates to control the execution flow of Flojoy nodes.
 
 You can also find all of these nodes in the sidebar.
 
-## Conditional Nodes
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<AppThumbnailSection
+    sectionName = 'Conditionals'
+    blockquote = 'A no-code Flojoy logic nodes for "if statements." Use this node to make the execution flow of a Flojoy app conditional on a True/False statement.'
+    sectionRoot = 'LOGIC_GATES/CONDITIONALS'
+    nodes = {['CONDITIONAL']}
+/>
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/CONDITIONALS/CONDITIONAL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CONDITIONAL</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Loops'
+    blockquote = 'No-code Flojoy logic nodes for "loops." Use these nodes to execute a collection of nodes a desired number of times.'
+    sectionRoot = 'LOGIC_GATES'
+    nodes = {['LOOPS/APPEND', 'LOOPS/LOOP', 'LOOP_TOOLS/BREAK', 'LOOP_TOOLS/LOOP_INDEX']}
+/>
 
-</div>
-
-## Loop Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOPS/APPEND/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/APPEND/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>APPEND</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOPS/LOOP/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOOP</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Loop Tool Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BREAK</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOOP INDEX</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Timer Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/TIMERS/TIMER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/TIMERS/TIMER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TIMER</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Timers'
+    blockquote = 'A time node introducing delays in between Flojoy node execution.'
+    sectionRoot = 'TIMERS'
+    nodes = {['TIMER']}
+/>

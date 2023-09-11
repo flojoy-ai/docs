@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the inverse of an N-dimensional array
+
 <AppDisplay 
   GLink='NUMPY/linalg/TENSORINV'
   nodeLabel='TENSORINV'>

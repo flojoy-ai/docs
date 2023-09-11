@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the geometric standard score
+
 <AppDisplay 
   GLink='SCIPY/stats/GZSCORE'
   nodeLabel='GZSCORE'>

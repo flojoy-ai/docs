@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Compute the coefficient of variation
+
 <AppDisplay 
   GLink='SCIPY/stats/VARIATION'
   nodeLabel='VARIATION'>

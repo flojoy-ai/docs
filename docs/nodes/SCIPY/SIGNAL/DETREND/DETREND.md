@@ -32,6 +32,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+### Remove a linear trend along an axis
+
 <AppDisplay 
   GLink='SCIPY/signal/DETREND'
   nodeLabel='DETREND'>

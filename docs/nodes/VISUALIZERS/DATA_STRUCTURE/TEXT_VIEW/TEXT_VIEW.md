@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,11 +18,11 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
+
+### Visualize a TextBlob DataContainer as text
 
 <AppDisplay 
   GLink='VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW'
@@ -29,8 +30,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 </AppDisplay>
 
 <SectionBreak />
-
-    
 
 [//]: # (Appendix)
 
