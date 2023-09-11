@@ -50,10 +50,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/appendix/'><Media /></AppendixSection>
 
-<SectionBreak />
-
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD)
+<!--Add Button here-->
