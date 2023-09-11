@@ -1,5 +1,5 @@
 ---
-sidebar_label: ETL- Extractors
+sidebar_label: ETL - Extractors
 slug: /nodes/EXTRACTORS/
 sidebar_position: 2
 ---
@@ -8,9 +8,11 @@ sidebar_position: 2
 
 Welcome to the Extractor nsodes page!
 
-Here you can find a list of all the Flojoy ETL nodes extract data from a remote or local data source for use within Flojoy apps.
+Here you can find a list of all the Flojoy ETL nodes that extract data from a remote or local data source.
 
-If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
+Data in Flojoy is passed between nodes inside [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/). Extractor nodes format data from a remote or local data source into a DataContainer so that it can be passed between nodes in Flojoy apps.
+
+If interested in Flojoy's ETL capabilities, please also see the [Transformer](/nodes/TRANSFORMERS/) and [Loader](/nodes/LOADERS/) nodes.
 
 You can also find all of these nodes in the sidebar.
 
