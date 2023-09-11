@@ -1,8 +1,7 @@
 ---
-hide_table_of_contents: true
 sidebar_label: Visualizers
-sidebar_position: 1
 slug: /nodes/VISUALIZERS/
+sidebar_position: 6
 ---
 
 # VISUALIZERS in Python
@@ -13,142 +12,19 @@ Here you can find information about all the Flojoy nodes that can be used to vis
 
 You can also find all of these nodes in the sidebar.
 
-## Data Structure Nodes
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<AppThumbnailSection
+    sectionName = 'Data structure visualization'
+    blockquote = 'Visually review DataContainer data structures as they flow through Flojoy apps.'
+    sectionRoot = 'VISUALIZERS/DATA_STRUCTURE'
+    nodes = {['ARRAY_VIEW', 'MATRIX_VIEW', 'TEXT_VIEW']}
+/>
 
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ARRAY VIEW</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MATRIX VIEW</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TEXT VIEW</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Plotly Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/BAR/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/BAR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BAR</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/BIG_NUMBER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BIG NUMBER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/COMPOSITE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/COMPOSITE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>COMPOSITE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/HEATMAP/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HEATMAP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HEATMAP</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/HISTOGRAM/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/HISTOGRAM/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HISTOGRAM</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/IMAGE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/IMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IMAGE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/LINE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/LINE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LINE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_COMPONENTS/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPHET COMPONENTS</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/PROPHET_PLOT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/PROPHET_PLOT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPHET PLOT</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/SCATTER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SCATTER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/SCATTER3D/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SCATTER3D/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SCATTER3D</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/SURFACE3D/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/SURFACE3D/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SURFACE3D</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/PLOTLY/TABLE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/PLOTLY/TABLE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TABLE</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Plotly'
+    blockquote = 'Create scientific and engineering data visualizations with the Plotly charting library.'
+    sectionRoot = 'VISUALIZERS/PLOTLY'
+    nodes = {['BAR', 'BIG_NUMBER', 'COMPOSITE', 'HEATMAP', 'HISTOGRAM', 'IMAGE', 'LINE', 'PROPHET_COMPONENTS', 'PROPHET_PLOT', 'SCATTER', 'SCATTER3D', 'SURFACE3D', 'TABLE']}
+/>

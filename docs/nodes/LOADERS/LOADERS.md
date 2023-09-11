@@ -1,78 +1,39 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Loaders
-sidebar_position: 1
+sidebar_label: ETL - Loaders
 slug: /nodes/LOADERS/
+sidebar_position: 4
 ---
 
 # LOADERS in Python
 
-Welcome to the Loader Nodes page!
+Welcome to the Loader nodes page!
 
-Here you can find information about all the Flojoy nodes that load data.
+Here you can find information about all the no-code Flojoy ETL nodes that load data to a remote or local data store.
 
-## Cloud Database Nodes
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+You can also find all of these nodes in the sidebar.
 
-<div className="p-4">
-<a href="/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE_DOWNLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FLOJOY CLOUD DOWNLOAD</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="p-4">
-<a href="/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FLOJOY CLOUD UPLOAD</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Cloud databases'
+    blockquote = 'No-code Flojoy ETL nodes for retrieving and saving engineering data to and from cloud data storage.'
+    sectionRoot = 'LOADERS/CLOUD_DATABASE'
+    nodes = {['FLOJOY_CLOUD_DOWNLOAD', 'FLOJOY_CLOUD_UPLOAD']}
+/>
 
-</div>
+<AppThumbnailSection
+    sectionName = 'Flojoy Studio internal memory'
+    blockquote = "A node for caching app data to Flojoy Studio's internal memory space."
+    sectionRoot = 'LOADERS/INTERNAL_MEMORY'
+    nodes = {['DS_LOAD']}
+/>
 
-## Internal Memory Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/INTERNAL_MEMORY/DS_LOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/INTERNAL_MEMORY/DS_LOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DS LOAD</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Local File System Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/BATCH_PROCESSOR/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/BATCH_PROCESSOR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BATCH PROCESSOR</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOCAL FILE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/OPEN_MATLAB/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OPEN MATLAB</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Local file system'
+    blockquote = 'No-code Flojoy nodes for reading and writing data files to and from disk.'
+    sectionRoot = 'LOADERS/LOCAL_FILE_SYSTEM'
+    nodes = {['BATCH_PROCESSOR', 'LOCAL_FILE', 'OPEN_MATLAB']}
+/>

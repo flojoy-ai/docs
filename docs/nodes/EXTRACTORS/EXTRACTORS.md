@@ -1,66 +1,32 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Extractors
-sidebar_position: 1
+sidebar_label: ETL- Extractors
 slug: /nodes/EXTRACTORS/
+sidebar_position: 2
 ---
 
 # EXTRACTORS in Python
 
-Welcome to the Extractor Nodes page!
+Welcome to the Extractor nsodes page!
 
-Here you can find a list of all the Flojoy nodes that can extract from inputs such as dataframes and specific files.
+Here you can find a list of all the Flojoy ETL nodes extract data from a remote or local data source for use within Flojoy apps.
+
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
 
 You can also find all of these nodes in the sidebar.
 
-## Dataframe Nodes
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<AppThumbnailSection
+    sectionName = 'Local files'
+    blockquote = 'No-code Flojoy nodes for extracting data from local files on disk.'
+    sectionRoot = 'EXTRACTORS/FILE'
+    nodes = {['OPEN_IMAGE', 'OPEN_PARQUET', 'READ_CSV', 'READ_S3']}
+/>
 
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/DATAFRAME/EXTRACT_COLUMNS/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>EXTRACT COLUMNS</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## File Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/FILE/OPEN_IMAGE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/OPEN_IMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OPEN IMAGE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/FILE/OPEN_PARQUET/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/OPEN_PARQUET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OPEN PARQUET</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/FILE/READ_CSV/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_CSV/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>READ CSV</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/EXTRACTORS/FILE/READ_S3/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/EXTRACTORS/FILE/READ_S3/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>READ S3</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Dataframes'
+    blockquote = 'AFlojoy nodes for extracting a subset of columns from an in-memory dataframe.'
+    sectionRoot = 'EXTRACTORS/DATAFRAME'
+    nodes = {['EXTRACT_COLUMNS']}
+/>

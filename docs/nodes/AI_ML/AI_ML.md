@@ -1,8 +1,7 @@
 ---
-hide_table_of_contents: true
 sidebar_label: AI & ML
-sidebar_position: 1
 slug: /nodes/AI_ML/
+sidebar_position: 1
 ---
 
 # AI & ML in Python
@@ -13,138 +12,33 @@ Here you can find a list of all the Flojoy nodes that you can use to produce an 
 
 You can also find all of these nodes in the sidebar.
 
-## Classification Nodes
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<AppThumbnailSection
+    sectionName = 'Classification'
+    blockquote = 'No-code Flojoy AI nodes for SVM, one-hot encoding, and more.'
+    sectionRoot = 'AI_ML/CLASSIFICATION'
+    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TRAIN_TEST_SPLIT']}
+/>
 
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/ACCURACY/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ACCURACY</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'AI-assisted image processing'
+    blockquote = 'No-code Flojoy AI nodes for image captioning (ViT + GPT2), object detection (YOLOv3), and image segmentation (DEEPLAB).'
+    sectionRoot = 'AI_ML'
+    nodes = {['IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2', 'OBJECT_DETECTION/OBJECT_DETECTION', 'SEGMENTATION/DEEPLAB_V3']}
+/>
 
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ONE HOT ENCODING</figcaption>
-</figure>
-</a></div>
+<AppThumbnailSection
+    sectionName = 'Natural Language Processing (NLP)'
+    blockquote = 'No-code Flojoy AI nodes for text processing and NLP.'
+    sectionRoot = 'AI_ML'
+    nodes = {['NLP/COUNT_VECTORIZER', 'TEXT_SUMMARIZATION/BART_LARGE_CNN']}
+/>
 
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SUPPORT VECTOR MACHINE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TRAIN TEST SPLIT</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Image Captioning Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NLP CONNECT VIT GPT2</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Natural Language Processing (NLP) Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/NLP/COUNT_VECTORIZER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/NLP/COUNT_VECTORIZER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>COUNT VECTORIZER</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Object Detection Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/OBJECT_DETECTION/OBJECT_DETECTION/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>OBJECT DETECTION</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Predict Time Series Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/PREDICT_TIME_SERIES/PROPHET_PREDICT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPHET PREDICT</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Regression Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/REGRESSION/LEAST_SQUARES/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/REGRESSION/LEAST_SQUARES/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LEAST SQUARES</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Segmentation Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/SEGMENTATION/DEEPLAB_V3/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DEEPLAB V3</figcaption>
-</figure>
-</a></div>
-
-</div>
-
-## Text Summarization Nodes
-
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/TEXT_SUMMARIZATION/BART_LARGE_CNN/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BART LARGE CNN</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Predictive analytics'
+    blockquote = 'No-code Flojoy AI nodes for predictive analytics.'
+    sectionRoot = 'AI_ML'
+    nodes = {['PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
+/>

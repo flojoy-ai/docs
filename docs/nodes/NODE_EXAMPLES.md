@@ -1,6 +1,6 @@
 ---
 sidebar_label: All Node Examples
-sidebar_position: 1
+sidebar_position: 0
 slug: /nodes/
 ---
 
