@@ -12,6 +12,8 @@ Here you can find a list of all the Flojoy ETL nodes that can transform input da
 
 Data in Flojoy is passed between nodes inside [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/). Transformer nodes can be used to convert one DataContainer type to another, perform mathematical operations on the data within a DataContainer, and much more.
 
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Loader](/nodes/LOADERS/) nodes.
+
 You can also find all of these nodes in the sidebar.
 
 <!-- Custom component -->
