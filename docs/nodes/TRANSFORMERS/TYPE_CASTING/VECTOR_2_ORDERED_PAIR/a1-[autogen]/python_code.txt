@@ -1,0 +1,8 @@
+from flojoy import flojoy, Vector, OrderedPair
+
+
+@flojoy
+def VECTOR_2_ORDERED_PAIR(default: Vector, y: Vector) -> OrderedPair:
+    
+
+    return OrderedPair(x=default.v, y=y.v)
