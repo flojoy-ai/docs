@@ -10,7 +10,7 @@ The TEXT_CONCAT node takes in two TextBlob DataContainer type and concatenates t
 
     Parameters
     ----------
-    delimiter: "space" | "comma" | "semicolon" | "colon" | "new line", default="space"
+    delimiter: "space" | "comma" | "semicolon" | "colon" | "new line" | "none", default="space"
         Select the delimiter to place between two text.
 
     Returns
