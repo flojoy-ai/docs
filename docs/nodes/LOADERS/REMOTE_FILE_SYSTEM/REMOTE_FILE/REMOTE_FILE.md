@@ -47,4 +47,10 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+<SectionBreak />
+
+[//]: # (Edit page on GitHub)
+
+#### Edit this page on GitHub
+
+[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE)
