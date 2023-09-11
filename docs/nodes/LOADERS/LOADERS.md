@@ -10,6 +10,8 @@ Welcome to the Loader nodes page!
 
 Here you can find information about all the no-code Flojoy ETL nodes that load data to a remote or local data store.
 
+Data in Flojoy is passed between nodes inside [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/). DataContainers can be images, dataframes, matrices, vectors, data visualizations, and many other types of engineering data. Loader send DataContainers from Flojoy apps to local or remote data stores such as Flojoy Cloud, S3, and Snowflake.
+
 If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
 
 You can also find all of these nodes in the sidebar.
