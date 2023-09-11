@@ -27,7 +27,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Classification'
     blockquote = 'No-code Flojoy AI nodes for SVM, one-hot encoding, and more.'
     sectionRoot = 'AI_ML/CLASSIFICATION'
-    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TRAIN_TEST_SPLIT']}
+    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TORCHSCRIPT_CLASSIFIER', 'TRAIN_TEST_SPLIT']}
 />
 
 <AppThumbnailSection

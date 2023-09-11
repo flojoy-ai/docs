@@ -40,6 +40,14 @@ Here you can find information about all the Flojoy nodes that classify data.
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>TORCHSCRIPT CLASSIFIER</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
