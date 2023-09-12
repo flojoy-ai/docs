@@ -38,8 +38,11 @@ export default function AppThumbnail({ children, path }: AppThumbnailProps) {
         <a href={`/nodes/${path}/`}>
             {
             <figure className="app-example-thumbnail">
-            <img src={`https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/${path}/${thumbnailPath}`}/>
-            <figcaption>{children}</figcaption>
+              <img 
+                alt={children}
+                src={`https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/${path}/${thumbnailPath}`}
+              />
+              <figcaption>{children}</figcaption>
             </figure>
             }
         </a>
