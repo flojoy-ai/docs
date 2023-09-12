@@ -101,15 +101,47 @@
   margin: 20px 40px;
 }
 
-.app-example-thumbnail {
+.thumbnail-section figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin: 2px auto;
+}
+
+.thumbnail-section figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin: 2px auto;
+}
+
+/* Instrument and Example Node thumbnail styles */
+
+.category-page-thumbnail {
   width: 200px;
   height: 200px;
   object-fit: scale-down;
   margin-right: 15px;
 }
 
-.app-thumbnail-section figcaption {
-  font-size: 14px;
-  text-align: center;
-  margin: 2px auto;
+.app-thumbnail-figure {
+  width: 300px;
+  height: 300px;
+}
+
+.app-thumbnail-figure > .thumbnail-image-container {
+  overflow: hidden;
+  height: 250px;
+}
+
+.app-thumbnail-figure > .thumbnail-image-container  > img {
+  height: 100%;
+  object-fit: cover;
+  transition: all .5s ease-in-out;
+}
+
+.app-thumbnail-figure > .thumbnail-image-container  > img:hover {
+  transform: scale(1.5);
+}
+
+.app-thumbnail-figure > figcaption {
+  font-family: Menlo;  
 }
