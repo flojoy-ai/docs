@@ -10,54 +10,60 @@ type AppThumbnailProps = {
   instrument: boolean;
 };
 
-export default function AppThumbnail({ children, path, img, instrument }: AppThumbnailProps) {
-
+export default function AppThumbnail({
+  children,
+  path,
+  img,
+  instrument,
+}: AppThumbnailProps) {
   const { colorMode } = useColorMode();
-  let thumbnailPath:string = 'examples/EX1/output.jpeg';
-  let nodeLabel:string = path.split('/').pop();
-  let nodeData = {label: nodeLabel}
-  
-  const imgSrc = typeof img === 'string' ? img : `https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/${path}/${thumbnailPath}`;
+  let thumbnailPath: string = 'examples/EX1/output.jpeg';
+  let nodeLabel: string = path.split('/').pop();
+  let nodeData = { label: nodeLabel };
 
-  const thumbnailClass = instrument ? 'instrument-thumbnail-figure' : 'app-thumbnail-figure';
+  const imgSrc =
+    typeof img === 'string'
+      ? img
+      : `https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/${path}/${thumbnailPath}`;
+
+  const thumbnailClass = instrument
+    ? 'instrument-thumbnail-figure'
+    : 'app-thumbnail-figure';
 
   const pathRoot = instrument ? 'instruments-database' : 'nodes';
 
-  if( path.toLowerCase().indexOf('numpy') >= 0 ) {
+  if (path.toLowerCase().indexOf('numpy') >= 0) {
     return (
       <div className="p-4">
         <a href={`/nodes/${path}/`}>
-          <NumpyNode nodeProps={{data: nodeData}}/>
+          <NumpyNode nodeProps={{ data: nodeData }} />
         </a>
       </div>
-    )
+    );
   }
 
-  if( path.toLowerCase().indexOf('scipy') >= 0 ) {
+  if (path.toLowerCase().indexOf('scipy') >= 0) {
     return (
       <div className="p-4">
         <a href={`/nodes/${path}/`}>
-          <ScipyNode nodeProps={{data: nodeData}}/>
+          <ScipyNode nodeProps={{ data: nodeData }} />
         </a>
       </div>
-    )
+    );
   }
 
   return (
     <div className="p-4">
-        <a href={`/${pathRoot}/${path}/`}>
-            {
-            <figure className={`category-page-thumbnail ${thumbnailClass}`}>
-              <div class='thumbnail-image-container'>
-                <img 
-                  alt={children}
-                  src={imgSrc}
-                />
-              </div>
-              <figcaption>{children}</figcaption>
-            </figure>
-            }
-        </a>
+      <a href={`/${pathRoot}/${path}/`}>
+        {
+          <figure className={`category-page-thumbnail ${thumbnailClass}`}>
+            <div class="thumbnail-image-container">
+              <img alt={children} src={imgSrc} />
+            </div>
+            <figcaption>{children}</figcaption>
+          </figure>
+        }
+      </a>
     </div>
   );
 }

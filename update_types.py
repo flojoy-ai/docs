@@ -118,10 +118,8 @@ def update_app(path: str):
 
         node["type"] = mapped
         node["data"]["type"] = mapped
-    app["rfInstance"]["nodes"] = [
-        node for node in nodes if should_keep_node(node)]
-    app["rfInstance"]["edges"] = [
-        edge for edge in edges if should_keep_edge(edge)]
+    app["rfInstance"]["nodes"] = [node for node in nodes if should_keep_node(node)]
+    app["rfInstance"]["edges"] = [edge for edge in edges if should_keep_edge(edge)]
 
     with open(path, "w") as f:
         json.dump(app, f, indent=2)
@@ -130,7 +128,6 @@ def update_app(path: str):
 get_type_map(FULL_PATH)
 type_map["DF_2_OrderedTriple"] = "TRANSFORMERS"
 
-example_apps_path = Path.join(
-    "..", "studio", "src", "utils", "app-gallery-apps")
+example_apps_path = Path.join("..", "studio", "src", "utils", "app-gallery-apps")
 for path in os.listdir(example_apps_path):
     update_app(Path.join(example_apps_path, path))
