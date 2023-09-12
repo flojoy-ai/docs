@@ -76,10 +76,23 @@ export default function DocString({ children }: DocStringProps) {
     }
   }
 
+  const formatted = content
+    .split('\n')
+    .map(line => {
+      // strip leading 4 characters of the line if its all spaces
+      // for text alignment purposes
+      const leading = line.slice(0, 4);
+      if (leading.trim() === '') {
+        return line.slice(4);
+      }
+      return line;
+    })
+    .join('\n');
+
   return (
     <>
       <pre>
-        <code>{content}</code>
+        <code>{formatted}</code>
       </pre>
       <br></br>
     </>
