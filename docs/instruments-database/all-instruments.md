@@ -22,18 +22,18 @@ Here you can find copy/paste Python examples for connecting to over 400 scientif
  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
-
-<div className="p-4">
-
-<a href="/instruments-database/balance-scales/mettler-toledo/mt-standard-interface-communication-software">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MT Standard Interface Communication Software</figcaption>
-</figure>
-</a></div>
-</div> 
+ <div className="flex flex-wrap">
+    <AppThumbnail 
+        path='balance-scales/mettler-toledo/mt-standard-interface-communication-software'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg'
+        instrument={true}
+    >
+        MT Standard Interface Communication Software
+    </AppThumbnail>
+</div>
 
  ## Cameras 
 
@@ -42,7 +42,7 @@ Here you can find copy/paste Python examples for connecting to over 400 scientif
  A camera module is an image sensor integrated with a lens, control electronics, and an interface like CSI, Ethernet or plain raw low-voltage differential signaling. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -102,7 +102,7 @@ Here you can find copy/paste Python examples for connecting to over 400 scientif
  In quantum physics, coincidence counting is used in experiments testing particle non-locality and quantum entanglement. In these experiments two or more particles are created from the same initial packet of energy, inexorably linking/entangling their physical properties. Separate particle detectors measure the quantum states of each particle and send the resulting signal to a coincidence counter. In any experiment studying entanglement, the entangled particles are vastly outnumbered by non-entangled particles which are also detected; patternless noise that drowns out the entangled signal. In a two detector system, a coincidence counter alleviates this problem by only recording detection signals that strike both detectors simultaneously (or more accurately, recording only signals that arrive at both detectors and correlate to the same emission time). This ensures that the data represents only entangled particles. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -122,7 +122,7 @@ Here you can find copy/paste Python examples for connecting to over 400 scientif
  Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -224,7 +224,7 @@ Here you can find copy/paste Python examples for connecting to over 400 scientif
 An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -544,7 +544,7 @@ An attenuator is effectively the opposite of an amplifier, though the two work b
  In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a system that converts a digital signal into an analog signal. An analog-to-digital converter (ADC) performs the reverse function. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -596,7 +596,7 @@ An attenuator is effectively the opposite of an amplifier, though the two work b
 The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -627,7 +627,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -647,7 +647,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A frequency synthesizer is an electronic circuit that generates a range of frequencies from a single reference frequency. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -667,7 +667,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -787,7 +787,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A humidity sensor is an electronic device that measures the humidity in its environment and converts its findings into a corresponding electrical signal. Humidity sensors vary widely in size and functionality; some humidity sensors can be found in handheld devices (such as smartphones), while others are integrated into larger embedded systems (such as air quality monitoring systems). Humidity sensors are commonly used in the meteorology, medical, automobile, HVAC and manufacturing industries.  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -807,7 +807,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  An I/V-convertor is intended to convert the current from a DAC (Digital Analog Convertor) into an analog voltage and to filter this signal to keep out the alias frequencies 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -837,7 +837,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -857,7 +857,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -897,7 +897,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -1067,7 +1067,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -1287,7 +1287,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A multimeter (also known as a volt-ohm-milliammeter, volt-ohmmeter or VOM) is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current, in which case can be used as a voltmeter, ammeter, and ohmmeter. Some feature the measurement of additional properties such as temperature and capacitance. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -1607,7 +1607,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  PXI Multiplexer Switch Modules are ideal for high-channel-count applications that need to connect measurement or signal generation instruments to various test points on devices or units under test (DUTs or UUTs). PXI Multiplexer Switch Modules use a variety of relay types, including electromechanical armature relays, reed relays,  field-effect transistor (FET) relays, and solid-state relays, each with their own benefits, allowing you to choose a multiplexer that fits your requirements. To program the switches, you can use the IVI-compliant NI-SWITCH driver software, complete with help documentation, example programs, and a soft front panel application for interactive control of switches. For intelligent management of complex switch systems, NI Switch Executive provides additional software tools to help you design, build, and deploy your switching system. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -1627,7 +1627,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Vector network analyzers are crucial for the characterization of the devices and components used in radio frequency and microwave systems. This includes network testing for wifi, computer networks, cell phone coverage, and much more. These powerful devices are used in various stages of product development and can be used to verify the performance of various components such as antennas, amplifiers, cables, and many other active or passive devices. We use network analyzers to test these components to verify specifications of building blocks for more complex RF systems. Testing these systems ensures distortion-free transmission of communication signals and ensures a good match when absorbing power. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -1777,7 +1777,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -2118,7 +2118,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -2148,7 +2148,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -2390,7 +2390,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3060,7 +3060,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A preamplifier, also known as a preamp, is an electronic amplifier that converts a weak electrical signal into an output signal strong enough to be noise-tolerant and strong enough for further processing, or for sending to a power amplifier and a loudspeaker. Without this, the final signal would be noisy or distorted. They are typically used to amplify signals from analog sensors such as microphones and pickups. Because of this, the preamplifier is often placed close to the sensor to reduce the effects of noise and interference. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3090,7 +3090,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  SCPI Instrument 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3110,7 +3110,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3130,7 +3130,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  The SHFQA enables multi-state discrimination with optimal signal-to-noise ratio and minimal latency thanks to its advanced sequencer and its low-latency signal processing chain with matched filters and result correlation. The data are transmitted in real-time to other instruments for active qubit reset or global error correction protocols. Controlled through the LabOne software suite comprising the user interface, several APIs and LabOne Q, the SHFQA supports quantum computing projects with sizes ranging from a few to several hundreds of qubits. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3160,7 +3160,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A Quantum Computing Control System (QCCS) is designed to control more than 100 superconducting and spin qubits. Each component of the QCCS is conceived to play a specific role in qubit control, readout and feedback, and operates in a fully synchronized manner with the other parts of the system. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3182,7 +3182,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3202,7 +3202,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A signal generator is one of a class of electronic devices that generates electrical signals with set properties of amplitude, frequency, and wave shape. These generated signals are used as a stimulus for electronic measurements, typically used in designing, testing, troubleshooting, and repairing electronic or electroacoustic devices, though it often has artistic uses as well 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3694,7 +3694,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3714,7 +3714,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Optical Shutters utilize a rotary, electro-mechanical actuator to provide millisecond shutter operation. During operation, these shutters remain in a closed position and then open when a pulse control signal is applied by an external controller. As long as the control voltage to the optical shutter remains high, the shutter stays open, but as soon as the voltage goes low, the shutter closes, providing inherent "fail-safe" operation. The frequency at which the device is opened and closed can be controlled. An optical sensor, which detects the shutter blade position in the housing, provides information that confirms the state of the optical shutter position. This makes it ideal in applications where a laser safety lockout is required. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3734,7 +3734,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A spectrometer is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3774,7 +3774,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3894,7 +3894,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  An RF switch or microwave switch is a device to route high frequency signals through transmission paths. RF (radio frequency) and microwave switches are used extensively in microwave test systems for signal routing between instruments and devices under test (DUT). Incorporating a switch into a switch matrix system enables you to route signals from multiple instruments to single or multiple DUTs. This allows multiple tests to be performed with the same setup, eliminating the need for frequent connects and disconnects. The entire testing process can be automated, increasing the throughput in high-volume production environments. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -3924,7 +3924,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -4145,7 +4145,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
@@ -4165,7 +4165,7 @@ The dilution refrigerator was first proposed by Heinz London in the early 1950s,
  A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object). A thermometer has two important elements: (1) a temperature sensor (e.g. the bulb of a mercury-in-glass thermometer or the pyrometric sensor in an infrared thermometer) in which some change occurs with a change in temperature; and (2) some means of converting this change into a numerical value (e.g. the visible scale that is marked on a mercury-in-glass thermometer or the digital readout on an infrared model). Thermometers are widely used in technology and industry to monitor processes, in meteorology, in medicine, and in scientific research. 
  </details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+ <div className="flex flex-wrap">
 
 
 <div className="p-4">
