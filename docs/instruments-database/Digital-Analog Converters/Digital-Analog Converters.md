@@ -14,50 +14,49 @@ You can find all the available instruments from the sidebar
 
 ## Digital-Analog Converters 
 
- <details> 
- <summary>Category Description</summary> 
- In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a system that converts a digital signal into an analog signal. An analog-to-digital converter (ADC) performs the reverse function. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a system that converts a digital signal into an analog signal. An analog-to-digital converter (ADC) performs the reverse function. 
+</details>
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg'
+    >
+        QDAC
+    </AppThumbnail>
+</div>
 
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>QDAC</figcaption>
-</figure>
-</a></div>
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg'
+    >
+        Qdac 1
+    </AppThumbnail>
+</div>
 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-2'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg'
+    >
+        Qdac 2
+    </AppThumbnail>
+</div>
 
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-2-array">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2 Array</figcaption>
-</figure>
-</a></div>
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-2-array'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg'
+    >
+        Qdac 2 Array
+    </AppThumbnail>
+</div>
 </div>

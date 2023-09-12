@@ -14,18 +14,19 @@ Welcome to Flojoy's Instruments Database of Python drivers!
 
 Here you can find copy/paste Python examples for connecting to over 400 scientific instruments, sensors, motors, and actuators.
 
-## Balance Scales 
-
- <details> 
- <summary>Category Description</summary> 
- Balances, Scales and Weighing. Laboratory balances are used to accurately determine the mass or weight of an item or substance within a specific weight range and to a particular readability. They are typically used to measure the weight of smaller amounts of substances in grams, milligrams, or micrograms.
- 
- </details> 
-
 <!-- Custom component -->
 import AppThumbnail from '@site/src/components/AppThumbnail';
 
- <div className="flex flex-wrap">
+## Balance Scales 
+
+<details> 
+<summary>Category Description</summary> 
+Balances, Scales and Weighing. Laboratory balances are used to accurately determine the mass or weight of an item or substance within a specific weight range and to a particular readability. They are typically used to measure the weight of smaller amounts of substances in grams, milligrams, or micrograms.
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
     <AppThumbnail 
         path='balance-scales/mettler-toledo/mt-standard-interface-communication-software'
         img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg'
@@ -34,1251 +35,1178 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
         MT Standard Interface Communication Software
     </AppThumbnail>
 </div>
+</div>
 
- ## Cameras 
+## Cameras 
 
- <details> 
- <summary>Category Description</summary> 
- A camera module is an image sensor integrated with a lens, control electronics, and an interface like CSI, Ethernet or plain raw low-voltage differential signaling. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+A camera module is an image sensor integrated with a lens, control electronics, and an interface like CSI, Ethernet or plain raw low-voltage differential signaling. 
+</details> 
 
- <div className="flex flex-wrap">
+<div className="flex flex-wrap">
 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg'
+        instrument={true}
+    >
+        Kinetix sCMOS all_cameras
+    </AppThumbnail>
+</div>
 
-<div className="p-4">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/cameras/pco/PCO-pixelfly'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg'
+        instrument={true}
+    >
+        PCO Pixelfly
+    </AppThumbnail>
+</div>
 
-<a href="/instruments-database/cameras/thorlabs/cc126mu">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CC126Mu</figcaption>
-</figure>
-</a></div>
+<div>
+    <AppThumbnail 
+        path='/instruments-database/cameras/picam/pi-camera'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg'
+        instrument={true}
+    >
+        Pi Camera
+    </AppThumbnail>
+</div>
 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/cameras/thorlabs/thorlabs-dcu224c'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.jpg'
+        instrument={true}
+    >
+        Thorlabs-DCU224C
+    </AppThumbnail>
+</div>
+</div>
 
-<div className="p-4">
+## Coincidence Counters 
 
-<a href="/instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Kinetix sCMOS all_cameras</figcaption>
-</figure>
-</a></div>
+<details> 
+<summary>Category Description</summary> 
+In quantum physics, coincidence counting is used in experiments testing particle non-locality and quantum entanglement. In these experiments two or more particles are created from the same initial packet of energy, inexorably linking/entangling their physical properties. Separate particle detectors measure the quantum states of each particle and send the resulting signal to a coincidence counter. In any experiment studying entanglement, the entangled particles are vastly outnumbered by non-entangled particles which are also detected; patternless noise that drowns out the entangled signal. In a two detector system, a coincidence counter alleviates this problem by only recording detection signals that strike both detectors simultaneously (or more accurately, recording only signals that arrive at both detectors and correlate to the same emission time). This ensures that the data represents only entangled particles. 
+</details> 
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/coincidence-counters/qubitekk/cc1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg'
+        instrument={true}
+    >
+        CC1
+    </AppThumbnail>
+</div>
+</div>
 
-<a href="/instruments-database/cameras/pco/PCO-pixelfly">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PCO Pixelfly</figcaption>
-</figure>
-</a></div>
+## DAQ Boards
 
+<details> 
+<summary>Category Description</summary> 
+Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
+</details> 
 
-<div className="p-4">
+<div className="flex flex-wrap">
 
-<a href="/instruments-database/cameras/picam/pi-camera">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Pi Camera</figcaption>
-</figure>
-</a></div>
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/alazartech/ats9360-12bit-18gs-s'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg'
+        instrument={true}
+    >
+        ATS9360-12bit, 1.8GS/s
+    </AppThumbnail>
+</div>
 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/alazartech/ats9373-12-bit-4-gs-s'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg'
+        instrument={true}
+    >
+        ATS9373-12 bit, 4 GS/s
+    </AppThumbnail>
+</div>
 
-<div className="p-4">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg'
+        instrument={true}
+    >
+        ATS9440-14 bit, 125 MS/s, 4 ch
+    </AppThumbnail>
+</div>
 
-<a href="/instruments-database/cameras/thorlabs/thorlabs-dcu224c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Thorlabs-DCU224C</figcaption>
-</figure>
-</a></div>
-</div> 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/alazartech/ats9870-8-bit-1-gs-s'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg'
+        instrument={true}
+    >
+        ATS9870-8 bit, 1 GS/s
+    </AppThumbnail>
+</div>
 
- ## Coincidence Counters 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/keysight/keysight-34934a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg'
+        instrument={true}
+    >
+        Keysight 34934A
+    </AppThumbnail>
+</div>
 
- <details> 
- <summary>Category Description</summary> 
- In quantum physics, coincidence counting is used in experiments testing particle non-locality and quantum entanglement. In these experiments two or more particles are created from the same initial packet of energy, inexorably linking/entangling their physical properties. Separate particle detectors measure the quantum states of each particle and send the resulting signal to a coincidence counter. In any experiment studying entanglement, the entangled particles are vastly outnumbered by non-entangled particles which are also detected; patternless noise that drowns out the entangled signal. In a two detector system, a coincidence counter alleviates this problem by only recording detection signals that strike both detectors simultaneously (or more accurately, recording only signals that arrive at both detectors and correlate to the same emission time). This ensures that the data represents only entangled particles. 
- </details> 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/keysight/keysight-34980a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg'
+        instrument={true}
+    >
+        Keysight 34980A
+    </AppThumbnail>
+</div>
 
- <div className="flex flex-wrap">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/keysight/keysight-34980a-submodules'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg'
+        instrument={true}
+    >
+        Keysight 34980A Submodules
+    </AppThumbnail>
+</div>
 
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/national-instruments/ni-daq'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg'
+        instrument={true}
+    >
+        NI DAQ
+    </AppThumbnail>
+</div>
 
-<div className="p-4">
+<div>
+    <AppThumbnail 
+        path='/instruments-database/daq-boards/advantech/PCIE-1751'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg'
+        instrument={true}
+    >
+        PCIE 1751
+    </AppThumbnail>
+</div>
+</div>
 
-<a href="/instruments-database/coincidence-counters/qubitekk/cc1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CC1</figcaption>
-</figure>
-</a></div>
-</div> 
+## Digital Attenuators 
 
- ## DAQ Boards 
-
- <details> 
- <summary>Category Description</summary> 
- Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/alazartech/ats9360-12bit-18gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9360-12bit, 1.8GS/s</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/alazartech/ats9373-12-bit-4-gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9373-12 bit, 4 GS/s</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9440-14 bit, 125 MS/s, 4 ch</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/alazartech/ats9870-8-bit-1-gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9870-8 bit, 1 GS/s</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34934a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34934A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34980a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34980a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/national-instruments/ni-daq">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NI DAQ</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/advantech/PCIE-1751">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PCIE 1751</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Digital Attenuators 
-
- <details> 
- <summary>Category Description</summary> 
- An attenuator is an electronic device that reduces the power of a signal without appreciably distorting its waveform.
+<details> 
+<summary>Category Description</summary> 
+An attenuator is an electronic device that reduces the power of a signal without appreciably distorting its waveform.
 
 An attenuator is effectively the opposite of an amplifier, though the two work by different methods. While an amplifier provides gain, an attenuator provides loss, or gain less than 1. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-102">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395747/Instruments/Digital%20Attenuators/LDA-102/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-102</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-102-75f">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102-75F/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-102-75F</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-102n">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102N/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-102N</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-133">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395749/Instruments/Digital%20Attenuators/LDA-133/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-133</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-203b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692719003/Instruments/Digital%20Attenuators/LDA-203B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-203B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395751/Instruments/Digital%20Attenuators/LDA-302P-1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-1n">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395753/Instruments/Digital%20Attenuators/LDA-302P-1N/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-1N</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395753/Instruments/Digital%20Attenuators/LDA-302P-2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-2</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-2n">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395754/Instruments/Digital%20Attenuators/LDA-302P-2N/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-2N</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-h">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395755/Instruments/Digital%20Attenuators/LDA-302P-H/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-H</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-302p-hn">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395756/Instruments/Digital%20Attenuators/LDA-302P-HN/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-302P-HN</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-403">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395757/Instruments/Digital%20Attenuators/LDA-403/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-403</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-5018v">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395758/Instruments/Digital%20Attenuators/LDA-5018V/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-5018V</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-602">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395759/Instruments/Digital%20Attenuators/LDA-602/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-602</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-602e">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395760/Instruments/Digital%20Attenuators/LDA-602E/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-602E</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-602eh">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395761/Instruments/Digital%20Attenuators/LDA-602EH/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-602EH</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-602n">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395762/Instruments/Digital%20Attenuators/LDA-602N/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-602N</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-602q">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395763/Instruments/Digital%20Attenuators/LDA-602Q/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-602Q</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-608v-4">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692719018/Instruments/Digital%20Attenuators/LDA-608V-4/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-608V-4</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802-12">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395765/Instruments/Digital%20Attenuators/LDA-802-12/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802-12</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802-16">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395766/Instruments/Digital%20Attenuators/LDA-802-16/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802-16</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802-32">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395767/Instruments/Digital%20Attenuators/LDA-802-32/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802-32</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802-8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395768/Instruments/Digital%20Attenuators/LDA-802-8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802-8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802eh">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395769/Instruments/Digital%20Attenuators/LDA-802EH/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802EH</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-802q">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395770/Instruments/Digital%20Attenuators/LDA-802Q/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-802Q</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-906v">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395770/Instruments/Digital%20Attenuators/LDA-906V/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-906V</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-906v-8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395771/Instruments/Digital%20Attenuators/LDA-906V-8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-906V-8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-908v">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639312/Instruments/Digital%20Attenuators/LDA-908V/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-908V</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-908v-4">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395773/Instruments/Digital%20Attenuators/LDA-908V-4/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-908V-4</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/vaunix/lda-908v-8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395774/Instruments/Digital%20Attenuators/LDA-908V-8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LDA-908V-8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-attenuators/weinschel/weinschel-8320">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395699/Instruments/Digital%20Attenuators/Weinschel-8320/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Weinschel 8320</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Digital-Analog Converters 
-
- <details> 
- <summary>Category Description</summary> 
- In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a system that converts a digital signal into an analog signal. An analog-to-digital converter (ADC) performs the reverse function. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>QDAC</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/digital-analog-converters/qdevil/qdac-2-array">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2 Array</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Dilution Refrigerators 
-
- <details> 
- <summary>Category Description</summary> 
- A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region. The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-102'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395747/Instruments/Digital%20Attenuators/LDA-102/file.jpg'
+        instrument={true}
+    >
+        LDA-102
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-102-75f'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102-75F/file.jpg'
+        instrument={true}
+    >
+        LDA-102-75F
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-102n'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102N/file.jpg'
+        instrument={true}
+    >
+        LDA-102N
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-133'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395749/Instruments/Digital%20Attenuators/LDA-133/file.jpg'
+        instrument={true}
+    >
+        LDA-133
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-203b'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692719003/Instruments/Digital%20Attenuators/LDA-203B/file.jpg'
+        instrument={true}
+    >
+        LDA-203B
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395751/Instruments/Digital%20Attenuators/LDA-302P-1/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-1
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-1n'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395753/Instruments/Digital%20Attenuators/LDA-302P-1N/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-1N
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-2'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395753/Instruments/Digital%20Attenuators/LDA-302P-2/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-2
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-2n'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395754/Instruments/Digital%20Attenuators/LDA-302P-2N/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-2N
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-h'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395755/Instruments/Digital%20Attenuators/LDA-302P-H/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-H
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-302p-hn'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395756/Instruments/Digital%20Attenuators/LDA-302P-HN/file.jpg'
+        instrument={true}
+    >
+        LDA-302P-HN
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-403'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395757/Instruments/Digital%20Attenuators/LDA-403/file.jpg'
+        instrument={true}
+    >
+        LDA-403
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-5018v'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395758/Instruments/Digital%20Attenuators/LDA-5018V/file.jpg'
+        instrument={true}
+    >
+        LDA-5018V
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-602'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395759/Instruments/Digital%20Attenuators/LDA-602/file.jpg'
+        instrument={true}
+    >
+        LDA-602
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-602e'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395760/Instruments/Digital%20Attenuators/LDA-602E/file.jpg'
+        instrument={true}
+    >
+        LDA-602E
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-602eh'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395761/Instruments/Digital%20Attenuators/LDA-602EH/file.jpg'
+        instrument={true}
+    >
+        LDA-602EH
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-602n'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395762/Instruments/Digital%20Attenuators/LDA-602N/file.jpg'
+        instrument={true}
+    >
+        LDA-602N
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-602q'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395763/Instruments/Digital%20Attenuators/LDA-602Q/file.jpg'
+        instrument={true}
+    >
+        LDA-602Q
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-608v-4'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692719018/Instruments/Digital%20Attenuators/LDA-608V-4/file.jpg'
+        instrument={true}
+    >
+        LDA-608V-4
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802-12'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395765/Instruments/Digital%20Attenuators/LDA-802-12/file.jpg'
+        instrument={true}
+    >
+        LDA-802-12
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802-16'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395766/Instruments/Digital%20Attenuators/LDA-802-16/file.jpg'
+        instrument={true}
+    >
+        LDA-802-16
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802-32'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395767/Instruments/Digital%20Attenuators/LDA-802-32/file.jpg'
+        instrument={true}
+    >
+        LDA-802-32
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802-8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395768/Instruments/Digital%20Attenuators/LDA-802-8/file.jpg'
+        instrument={true}
+    >
+        LDA-802-8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802eh'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395769/Instruments/Digital%20Attenuators/LDA-802EH/file.jpg'
+        instrument={true}
+    >
+        LDA-802EH
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-802q'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395770/Instruments/Digital%20Attenuators/LDA-802Q/file.jpg'
+        instrument={true}
+    >
+        LDA-802Q
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-906v'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395770/Instruments/Digital%20Attenuators/LDA-906V/file.jpg'
+        instrument={true}
+    >
+        LDA-906V
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-906v-8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395771/Instruments/Digital%20Attenuators/LDA-906V-8/file.jpg'
+        instrument={true}
+    >
+        LDA-906V-8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-908v'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639312/Instruments/Digital%20Attenuators/LDA-908V/file.jpg'
+        instrument={true}
+    >
+        LDA-908V
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-908v-4'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395773/Instruments/Digital%20Attenuators/LDA-908V-4/file.jpg'
+        instrument={true}
+    >
+        LDA-908V-4
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/vaunix/lda-908v-8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395774/Instruments/Digital%20Attenuators/LDA-908V-8/file.jpg'
+        instrument={true}
+    >
+        LDA-908V-8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-attenuators/weinschel/weinschel-8320'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395699/Instruments/Digital%20Attenuators/Weinschel-8320/file.jpg'
+        instrument={true}
+    >
+        Weinschel 8320
+    </AppThumbnail>
+</div>
+</div>
+
+## Digital-Analog Converters 
+
+<details> 
+<summary>Category Description</summary> 
+In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a system that converts a digital signal into an analog signal. An analog-to-digital converter (ADC) performs the reverse function. 
+</details>
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg'
+    >
+        QDAC
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg'
+    >
+        Qdac 1
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-2'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg'
+    >
+        Qdac 2
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/digital-analog-converters/qdevil/qdac-2-array'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg'
+    >
+        Qdac 2 Array
+    </AppThumbnail>
+</div>
+</div>
+
+## Dilution Refrigerators 
+
+<details> 
+<summary>Category Description</summary> 
+A 3He/4He dilution refrigerator is a cryogenic device that provides continuous cooling to temperatures as low as 2 mK, with no moving parts in the low-temperature region. The cooling power is provided by the heat of mixing of the helium-3 and helium-4 isotopes.
 
 The dilution refrigerator was first proposed by Heinz London in the early 1950s, and was experimentally realized in 1964 in the Kamerlingh Onnes Laboratorium at Leiden University. The field of dilution refrigeration is reviewed by Zu et al. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/dilution-refrigerators/oxford-instruments/kelvinox-igh">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Kelvinox IGH</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/dilution-refrigerators/oxford-instruments/triton">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Triton</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Electronic Loads 
-
- <details> 
- <summary>Category Description</summary> 
- An electronic load is a test instrument designed to sink current and absorb power out of a power source. If a power supply is used to power a device, an electronic load is used to test the power supply by emulating the device under test (DUT). Power supplies and electronic loads are complementary test equipment. The power supply tests electronic circuits under specific sourcing conditions. The electronic load tests the energy sources or energy conversion blocks under specific loading constraints. An electronic load is a programmable instrument that offers the user various modes of control such as constant voltage (CV), constant current (CC), constant power (CP) or constant resistance (CR).
- 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/electronic-loads/keysight/keysight-n3300a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N3300A</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Frequency Synthesizers 
-
- <details> 
- <summary>Category Description</summary> 
- A frequency synthesizer is an electronic circuit that generates a range of frequencies from a single reference frequency. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/frequency-synthesizers/holzworth/hs-9008b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394000/Instruments/Frequency%20synthesizers/HS-9008B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HS 9008B</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Function Generators 
-
- <details> 
- <summary>Category Description</summary> 
- A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/tektronix/afg3000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386474/Instruments/Function%20Generators/AFG3000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AFG3000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/tektronix/afg3152c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387416/Instruments/Function%20Generators/AFG3152C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AFG3152C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/stanford-research-systems/ds345">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395077/Instruments/Function%20Generators/DS345/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DS345</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/hp/keysight-33120a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33120A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/keysight/keysight-33210a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33210A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/keysight/keysight-33622a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33622A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/agilent/keysight-81110a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 81110A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/hp/keysight-8116a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395418/Instruments/Function%20Generators/Keysight-8116A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8116A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/spectrum/m4i6631-x8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395778/Instruments/Function%20Generators/M4i.6631-x8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>M4i.6631-x8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/minghe/mhs-5200-a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394015/Instruments/Function%20Generators/MHS-5200-A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MHS 5200 A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/function-generators/rigol/rigol-dg1062z">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DG1062Z</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Humidity Sensors 
-
- <details> 
- <summary>Category Description</summary> 
- A humidity sensor is an electronic device that measures the humidity in its environment and converts its findings into a corresponding electrical signal. Humidity sensors vary widely in size and functionality; some humidity sensors can be found in handheld devices (such as smartphones), while others are integrated into larger embedded systems (such as air quality monitoring systems). Humidity sensors are commonly used in the meteorology, medical, automobile, HVAC and manufacturing industries.  
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/humidity-sensors/orbit3/orbit-3-sensor">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Orbit 3 Sensor</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## IV Converters 
-
- <details> 
- <summary>Category Description</summary> 
- An I/V-convertor is intended to convert the current from a DAC (Digital Analog Convertor) into an analog voltage and to filter this signal to keep out the alias frequencies 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/iv-converters/qutech/ivvi">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IVVI</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/iv-converters/basel/sp983c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639467/Instruments/IV%20Converters/SP983c/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SP983c</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Laser Diode Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/laser-diode-controllers/thorlabs/pro8000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PRO8000</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Lasers 
-
- <details> 
- <summary>Category Description</summary> 
- A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lasers/keysight/keysight-n7776c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N7776C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lasers/toptica/topmode">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TopMode</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lasers/toptica/ibeam-smart">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>iBeam smart</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Lockin Amplifiers 
-
- <details> 
- <summary>Category Description</summary> 
- A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/ametek/ametek-7270">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Ametek 7270</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/hf2li">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HF2LI</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/ithaco/ithaco-1211">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Ithaco 1211</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight J7211/A/B/C-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/qutech/m2j">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>M2j</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/mfli">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MFLI</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-510">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395458/Instruments/Lockin%20Amplifiers/SR-510/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 510</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814791/Instruments/Lockin%20Amplifiers/SR-830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-850">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395148/Instruments/Lockin%20Amplifiers/SR-850/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 850</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-860">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814805/Instruments/Lockin%20Amplifiers/SR-860/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 860</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814811/Instruments/Lockin%20Amplifiers/SR830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr860">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814818/Instruments/Lockin%20Amplifiers/SR860/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR860</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr865a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814823/Instruments/Lockin%20Amplifiers/SR865A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR865A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/srs-830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814835/Instruments/Lockin%20Amplifiers/SRS-830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SRS 830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/standa/standa-10mwa168">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Standa 10MWA168</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/uhfli">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>UHFLI</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Motor Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/ag-uc-8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AG UC 8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/ag-uc2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AG-UC2</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/attocube/anc-350-piezo-controller">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638997/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ANC 350 PIEZO Controller</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/attocube/anc300">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395706/Instruments/Motor%20Controllers/ANC300/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ANC300</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/apt-stepper-motor-control-module">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393993/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>APT Stepper Motor Control Module</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/agilis">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Agilis</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/attocube/attocube-ecc-100">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395132/Instruments/Motor%20Controllers/Attocube-ECC-100/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Attocube ECC 100</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/anaheim-automation/dp-series-motor-controller">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DP Series Motor Controller</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/esp-300">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395189/Instruments/Motor%20Controllers/ESP-300/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ESP 300</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/parker/gemini-gv6">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Gemini GV6</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/k10cr1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395734/Instruments/Motor%20Controllers/K10CR1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>K10CR1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/kim001">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692723427/Instruments/Motor%20Controllers/KIM001/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>KIM001</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/kim101">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393988/Instruments/Motor%20Controllers/KIM101/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>KIM101</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/lps710e-m">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LPS710E/M</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/qubitekk/mc1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692741645/Instruments/Motor%20Controllers/MC1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MC1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/mmf101-mmf102">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639347/Instruments/Motor%20Controllers/MMF101-MMF102/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MMF101/MMF102</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newmark/newmark-nsc-a1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639360/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Newmark-NSC-A1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/newportesp-301">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394031/Instruments/Motor%20Controllers/Newportesp-301/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Newportesp 301</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/thorlabs/prm1z8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PRM1Z8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/newport/picomotorcontroller-8742">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394035/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Picomotorcontroller 8742</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/motor-controllers/smaract/smaract-mcs2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639545/Instruments/Motor%20Controllers/Smaract-MCS2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Smaract-MCS2</figcaption>
-</figure>
-</a></div>
-</div> 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/dilution-refrigerators/oxford-instruments/kelvinox-igh'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg'
+    >
+        Kelvinox IGH
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/dilution-refrigerators/oxford-instruments/triton'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.jpg'
+    >
+        Triton
+    </AppThumbnail>
+</div>
+</div>
+
+## Electronic Loads 
+
+<details> 
+<summary>Category Description</summary> 
+An electronic load is a test instrument designed to sink current and absorb power out of a power source. If a power supply is used to power a device, an electronic load is used to test the power supply by emulating the device under test (DUT). Power supplies and electronic loads are complementary test equipment. The power supply tests electronic circuits under specific sourcing conditions. The electronic load tests the energy sources or energy conversion blocks under specific loading constraints. An electronic load is a programmable instrument that offers the user various modes of control such as constant voltage (CV), constant current (CC), constant power (CP) or constant resistance (CR).
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/electronic-loads/keysight/keysight-n3300a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg'
+    >
+        Keysight N3300A
+    </AppThumbnail>
+</div>
+</div>
+
+## Frequency Synthesizers 
+
+<details> 
+<summary>Category Description</summary> 
+A frequency synthesizer is an electronic circuit that generates a range of frequencies from a single reference frequency. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/frequency-synthesizers/holzworth/hs-9008b'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394000/Instruments/Frequency%20synthesizers/HS-9008B/file.jpg'
+    >
+        HS 9008B
+    </AppThumbnail>
+</div>
+</div>
+
+## Function Generators 
+
+<details> 
+<summary>Category Description</summary> 
+A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source). Another feature included on many function generators is the ability to add a DC offset. Integrated circuits used to generate waveforms may also be described as function generator ICs. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/tektronix/afg3000'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386474/Instruments/Function%20Generators/AFG3000/file.jpg'
+    >
+        AFG3000
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/tektronix/afg3152c'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387416/Instruments/Function%20Generators/AFG3152C/file.jpg'
+    >
+        AFG3152C
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/stanford-research-systems/ds345'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395077/Instruments/Function%20Generators/DS345/file.jpg'
+    >
+        DS345
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/hp/keysight-33120a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.jpg'
+    >
+        Keysight 33120A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/keysight/keysight-33210a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.jpg'
+    >
+        Keysight 33210A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/keysight/keysight-33622a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg'
+    >
+        Keysight 33622A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/agilent/keysight-81110a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg'
+    >
+        Keysight 81110A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/hp/keysight-8116a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395418/Instruments/Function%20Generators/Keysight-8116A/file.jpg'
+    >
+        Keysight 8116A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/spectrum/m4i6631-x8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395778/Instruments/Function%20Generators/M4i.6631-x8/file.jpg'
+    >
+        M4i.6631-x8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/minghe/mhs-5200-a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394015/Instruments/Function%20Generators/MHS-5200-A/file.jpg'
+    >
+        MHS 5200 A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/function-generators/rigol/rigol-dg1062z'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.jpg'
+    >
+        Rigol DG1062Z
+    </AppThumbnail>
+</div>
+</div>
+
+## Humidity Sensors 
+
+<details> 
+<summary>Category Description</summary> 
+A humidity sensor is an electronic device that measures the humidity in its environment and converts its findings into a corresponding electrical signal. Humidity sensors vary widely in size and functionality; some humidity sensors can be found in handheld devices (such as smartphones), while others are integrated into larger embedded systems (such as air quality monitoring systems). Humidity sensors are commonly used in the meteorology, medical, automobile, HVAC and manufacturing industries.  
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/humidity-sensors/orbit3/orbit-3-sensor'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.jpg'
+    >
+        Orbit 3 Sensor
+    </AppThumbnail>
+</div>
+</div>
+
+## IV Converters 
+
+<details> 
+<summary>Category Description</summary> 
+An I/V-convertor is intended to convert the current from a DAC (Digital Analog Convertor) into an analog voltage and to filter this signal to keep out the alias frequencies 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/iv-converters/qutech/ivvi'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg'
+    >
+        IVVI
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/iv-converters/basel/sp983c'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639467/Instruments/IV%20Converters/SP983c/file.jpg'
+    >
+        SP983c
+    </AppThumbnail>
+</div>
+</div>
+
+## Laser Diode Controllers 
+
+<details> 
+<summary>Category Description</summary> 
+Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/laser-diode-controllers/thorlabs/pro8000'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg'
+    >
+        PRO8000
+    </AppThumbnail>
+</div>
+</div>
+
+## Lasers 
+
+<details> 
+<summary>Category Description</summary> 
+A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lasers/keysight/keysight-n7776c'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg'
+    >
+        Keysight N7776C
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lasers/toptica/topmode'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg'
+    >
+        TopMode
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lasers/toptica/ibeam-smart'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg'
+    >
+        iBeam smart
+    </AppThumbnail>
+</div>
+</div>
+
+## Lockin Amplifiers 
+
+<details> 
+<summary>Category Description</summary> 
+A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/ametek/ametek-7270'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.jpg'
+    >
+        Ametek 727
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/zurich-instruments/hf2li'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg'
+    >
+        HF2LI
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/ithaco/ithaco-1211'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg'
+    >
+        Ithaco 1211
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jp'
+    >
+        Keysight J7211/A/B/C-Series
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/qutech/m2j'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg'
+    >
+        M2j
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/zurich-instruments/mfli'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg'
+    >
+        MFLI
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr-510'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395458/Instruments/Lockin%20Amplifiers/SR-510/file.jpg'
+    >
+        SR 510
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr-830'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814791/Instruments/Lockin%20Amplifiers/SR-830/file.jpg'
+    >
+        SR 830
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr-850'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395148/Instruments/Lockin%20Amplifiers/SR-850/file.jpg'
+    >
+        SR 850
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr-860'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814805/Instruments/Lockin%20Amplifiers/SR-860/file.jpg'
+    >
+        SR 860
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr830'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814811/Instruments/Lockin%20Amplifiers/SR830/file.jpg'
+    >
+        SR830
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr860'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814818/Instruments/Lockin%20Amplifiers/SR860/file.jpg'
+    >
+        SR860
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/sr865a'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814823/Instruments/Lockin%20Amplifiers/SR865A/file.jpg'
+    >
+        SR865A
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/stanford-research-systems/srs-830'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814835/Instruments/Lockin%20Amplifiers/SRS-830/file.jpg'
+    >
+        SRS 830
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/standa/standa-10mwa168'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg'
+    >
+        Standa 10MWA168
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/lockin-amplifiers/zurich-instruments/uhfli'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg'
+    >
+        UHFLI
+    </AppThumbnail>
+</div>
+</div>
+
+## Motor Controllers 
+
+<details> 
+<summary>Category Description</summary> 
+Motor controllers are devices which regulate the operation of an electric motor. In artificial lift applications, motor controllers generally refer to those devices used in conjunction with switchboards or VFDs to control the operation of the prime mover. Motion controller calculates and controls the mechanical trajectories (motion profile) an actuator must follow (i.e., motion planning) and, in closed loop systems, employs feedback to make control corrections and thus implement closed-loop control. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/ag-uc-8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.jpg'
+    >
+        AG UC 8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/ag-uc2'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC2/file.jpg'
+    >
+        AG-UC2
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/attocube/anc-350-piezo-controller'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638997/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.jpg'
+    >
+        ANC 350 PIEZO Controller
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/attocube/anc300'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395706/Instruments/Motor%20Controllers/ANC300/file.jpg'
+    >
+        ANC300
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/apt-stepper-motor-control-module'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393993/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.jpg'
+    >
+        APT Stepper Motor Control Module
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/agilis'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.jpg'
+    >
+        Agilis
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/attocube/attocube-ecc-100'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395132/Instruments/Motor%20Controllers/Attocube-ECC-100/file.jpg'
+    >
+        Attocube ECC 100
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/anaheim-automation/dp-series-motor-controller'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.jpg'
+    >
+        DP Series Motor Controller
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/esp-300'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395189/Instruments/Motor%20Controllers/ESP-300/file.jpg'
+    >
+        ESP 300
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/parker/gemini-gv6'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.jpg'
+    >
+        Gemini GV6
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/k10cr1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395734/Instruments/Motor%20Controllers/K10CR1/file.jpg'
+    >
+        K10CR1
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/kim001'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692723427/Instruments/Motor%20Controllers/KIM001/file.jpg'
+    >
+        KIM001
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/kim101'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393988/Instruments/Motor%20Controllers/KIM101/file.jpg'
+    >
+        KIM101
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/lps710e-m'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.jpg'
+    >
+        LPS710E/M
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/qubitekk/mc1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692741645/Instruments/Motor%20Controllers/MC1/file.jpg'
+    >
+        MC1
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/mmf101-mmf102'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639347/Instruments/Motor%20Controllers/MMF101-MMF102/file.jpg'
+    >
+        MMF101/MMF102
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newmark/newmark-nsc-a1'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639360/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.jpg'
+    >
+        Newmark-NSC-A1
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/newportesp-301'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394031/Instruments/Motor%20Controllers/Newportesp-301/file.jpg'
+    >
+        Newportesp 301
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/thorlabs/prm1z8'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.jpg'
+    >
+        PRM1Z8
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/newport/picomotorcontroller-8742'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394035/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.jpg'
+    >
+        Picomotorcontroller 8742
+    </AppThumbnail>
+</div>
+
+<div>
+    <AppThumbnail 
+        path='/instruments-database/motor-controllers/smaract/smaract-mcs2'
+        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639545/Instruments/Motor%20Controllers/Smaract-MCS2/file.jpg'
+    >
+        Smaract-MCS2
+    </AppThumbnail>
+</div>
+</div>
 
  ## Multimeters 
 
