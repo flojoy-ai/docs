@@ -1053,1107 +1053,897 @@ Motor controllers are devices which regulate the operation of an electric motor.
 </AppThumbnail>
 </div>
 
- ## Multimeters 
-
- <details> 
- <summary>Category Description</summary> 
- A multimeter (also known as a volt-ohm-milliammeter, volt-ohmmeter or VOM) is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current, in which case can be used as a voltmeter, ammeter, and ohmmeter. Some feature the measurement of additional properties such as temperature and capacitance. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/andeen-hagerling/2500a-bridge">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386181/Instruments/Multimeters/2500A-Bridge/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>2500A Bridge</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/andeen-hagerling/2700a-bridge">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386182/Instruments/Multimeters/2700A-Bridge/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>2700A Bridge</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/DMM6500">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395737/Instruments/Multimeters/DMM6500/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DMM6500</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/DMM6500-keithley">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DMM6500 Keithley</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/dmm7510-keithley">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395565/Instruments/Multimeters/DMM7510-Keithley/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DMM7510 Keithley </figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/fw-bell/fw-bell-5280">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>F.W. Bell 5280</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/hp/HP-3437a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639102/Instruments/Multimeters/HP-3437A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HP 3437A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-195">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 195</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-2000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-2700">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395433/Instruments/Multimeters/Keithley-2700/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2700</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-2750">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2750</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-3706a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 3706A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keithley/keithley-6430">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639161/Instruments/Multimeters/Keithley-6430/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6430</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/agilent/keysight-34401a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34401A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/agilent/keysight-34410a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34410A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34410a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395578/Instruments/Multimeters/Keysight-34410A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34410A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/agilent/keysight-34411a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34411A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34411a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395579/Instruments/Multimeters/Keysight-34411A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34411A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/agilent/keysight-34450a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34450A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34460a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34460A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34461a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395583/Instruments/Multimeters/Keysight-34461A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34461A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34465a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34465A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34470a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395586/Instruments/Multimeters/Keysight-34470A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34470A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/hp/keysight-3456a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 3456A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/hp/keysight-3478a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 3478A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34980a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395589/Instruments/Multimeters/Keysight-34980A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-34980a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-e4980a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4980A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/keysight/keysight-n6705b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395606/Instruments/Multimeters/Keysight-N6705B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/lakeshore/lakeshore-425">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 425</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multimeters/generic-scpi/SCPI-multimeter">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SCPI multimeter</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Multiplexer Switch Modules 
-
- <details> 
- <summary>Category Description</summary> 
- PXI Multiplexer Switch Modules are ideal for high-channel-count applications that need to connect measurement or signal generation instruments to various test points on devices or units under test (DUTs or UUTs). PXI Multiplexer Switch Modules use a variety of relay types, including electromechanical armature relays, reed relays,  field-effect transistor (FET) relays, and solid-state relays, each with their own benefits, allowing you to choose a multiplexer that fits your requirements. To program the switches, you can use the IVI-compliant NI-SWITCH driver software, complete with help documentation, example programs, and a soft front panel application for interactive control of switches. For intelligent management of complex switch systems, NI Switch Executive provides additional software tools to help you design, build, and deploy your switching system. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/multiplexer-switch-modules/national-instruments/ni-pxie-2597">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NI PXIe-2597</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Network Analyzers 
-
- <details> 
- <summary>Category Description</summary> 
- Vector network analyzers are crucial for the characterization of the devices and components used in radio frequency and microwave systems. This includes network testing for wifi, computer networks, cell phone coverage, and much more. These powerful devices are used in various stages of product development and can be used to verify the performance of various components such as antennas, amplifiers, cables, and many other active or passive devices. We use network analyzers to test these components to verify specifications of building blocks for more complex RF systems. Testing these systems ensures distortion-free transmission of communication signals and ensures a good match when absorbing power. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/advantest/advantest-r3767cg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395166/Instruments/Network%20Analyzers/Advantest-R3767CG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Advantest R3767CG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/keysight/keysight-5222b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 5222B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/agilent/keysight-8722es">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8722ES </figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/hp/keysight-8753d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8753D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/keysight/keysight-n5230c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5230C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5230C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/keysight/keysight-n5232b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5232B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/keysight/keysight-n5245a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5245A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/keysight/keysight-p9374a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight P9374A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/coppermountain/m5180-2-port-18-ghz-analyzer">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395776/Instruments/Network%20Analyzers/M5180-2-Port-18-GHz-Analyzer/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>M5180 2-Port 18 GHz Analyzer</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/rohdes-schwarz/rs-znb20">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395636/Instruments/Network%20Analyzers/RS-ZNB20/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R&S ZNB20</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/rohdes-schwarz/rs-znb8">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R&S ZNB8</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/coppermountain/s5048-2-port-48-ghz-analyzer">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639433/Instruments/Network%20Analyzers/S5048-2-Port-4.8-GHz-Analyzer/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>S5048 2-Port 4.8 GHz Analyzer</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/rohdes-schwarz/series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692808740/Instruments/Network%20Analyzers/Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/network-analyzers/rohdes-schwarz/zvl-13">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Network%20Analyzers/ZVL-13/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ZVL 13</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Oscilloscopes 
-
- <details> 
- <summary>Category Description</summary> 
- An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo4104">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395102/Instruments/Oscilloscopes/DPO4104/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO4104</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo5000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395686/Instruments/Oscilloscopes/DPO5000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO5000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo7000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814923/Instruments/Oscilloscopes/DPO7000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO7000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo70000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647177/Instruments/Oscilloscopes/DPO70000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO70000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/hdo4000a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394016/Instruments/Oscilloscopes/HDO4000A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDO4000A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/hdo6000b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394017/Instruments/Oscilloscopes/HDO6000B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDO6000B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/infiniium-oscilloscopes-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Infiniium oscilloscopes Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/agilent/keysight-86100a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 86100A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/keysight-dsox1102g">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight DSOX1102G</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/keysight-n6705b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/labmaster-10-zi-a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LabMaster 10 Zi-A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/lecroy/lecroydso">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lecroydso
-</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/mda8000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MDA8000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/mso5000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395690/Instruments/Oscilloscopes/MSO5000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MSO5000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/mso70000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639352/Instruments/Oscilloscopes/MSO70000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MSO70000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rohdes-schwarz/rs-rto1000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R&S RTO1000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds1000-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS1000-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds1074z">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS1074Z</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds4000-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS4000-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds2000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS2000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds224">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS224</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds500-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395110/Instruments/Oscilloscopes/TDS500-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS500 Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds510a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS510A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds520-tds540">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395114/Instruments/Oscilloscopes/TDS520-TDS540/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS520/TDS540</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds5xx">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS5XX</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tsp2012">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639561/Instruments/Oscilloscopes/TSP2012/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TSP2012</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveMaster/SDA/DDA 8 Zi-B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavepro-hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WavePro HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/waverunner-8000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveRunner 8000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/waverunner-9000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveRunner 9000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-3000z">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394026/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 3000z</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-4000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 4000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-510">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 510</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Photon Counting Systems 
-
- <details> 
- <summary>Category Description</summary> 
- Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/photon-counting-systems/picoquant/picoharp-300">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PicoHarp 300</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/photon-counting-systems/singlequantum/singlequantum">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Singlequantum</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Power Meters 
-
- <details> 
- <summary>Category Description</summary> 
- A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/newport/1830-c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638985/Instruments/Power%20Meters/1830-C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>1830-C
-</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/qutech/d4">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395711/Instruments/Power%20Meters/D4/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>D4</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/oxford-instruments/ilm-200">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639107/Instruments/Power%20Meters/ILM-200/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ILM 200</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-2182">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394002/Instruments/Power%20Meters/Keithley-2182/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2182</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-485">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394003/Instruments/Power%20Meters/Keithley-485/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 485</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-580">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394005/Instruments/Power%20Meters/Keithley-580/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 580</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-6220">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393982/Instruments/Power%20Meters/Keithley-6220/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6220</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-6485">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6485</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-6514">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394008/Instruments/Power%20Meters/Keithley-6514/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6514</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-6517a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395437/Instruments/Power%20Meters/Keithley-6517A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6517A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keithley/keithley-6517b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395438/Instruments/Power%20Meters/Keithley-6517B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6517B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keysight/keysight-m960xa-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960XA-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/keysight/keysight-m960x-defs">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395548/Instruments/Power%20Meters/Keysight-M960x-defs/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960x defs</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lks-425-gaussmeter">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395491/Instruments/Power%20Meters/LKS-425-Gaussmeter/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LKS 425 Gaussmeter</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lakeshore-370">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394012/Instruments/Power%20Meters/Lakeshore-370/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 370</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lakeshore-421">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 421</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lakeshore-425">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-425/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 425</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lakeshore-475">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 475</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/lakeshore/lakeshore-model-372">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395614/Instruments/Power%20Meters/Lakeshore-Model-372/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore Model 372</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/thorlabs/pm100d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395144/Instruments/Power%20Meters/PM100D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PM100D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/thorlabs/PM100USB">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639378/Instruments/Power%20Meters/PM100USB/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PM100USB</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/quantum-design/PPMS-dynacool">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395539/Instruments/Power%20Meters/PPMS-Dynacool/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PPMS Dynacool</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-meters/rohdes-schwarz/zvl-13">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395809/Instruments/Power%20Meters/ZVL-13/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ZVL 13</figcaption>
-</figure>
-</a></div>
-</div> 
+## Multimeters 
+
+<details> 
+<summary>Category Description</summary> 
+A multimeter (also known as a volt-ohm-milliammeter, volt-ohmmeter or VOM) is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current, in which case can be used as a voltmeter, ammeter, and ohmmeter. Some feature the measurement of additional properties such as temperature and capacitance. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='multimeters/andeen-hagerling/2500a-bridge'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386181/Instruments/Multimeters/2500A-Bridge/file.jpg'
+    instrument={true}
+>
+    2500A Bridge
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/andeen-hagerling/2700a-bridge'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386182/Instruments/Multimeters/2700A-Bridge/file.jpg'
+    instrument={true}
+>
+    2700A Bridge
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/DMM6500'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395737/Instruments/Multimeters/DMM6500/file.jpg'
+    instrument={true}
+>
+    DMM6500
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/DMM6500-keithley'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.jpg'
+    instrument={true}
+>
+    DMM6500 Keithley
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/dmm7510-keithley'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395565/Instruments/Multimeters/DMM7510-Keithley/file.jpg'
+    instrument={true}
+>
+    DMM7510 Keithley
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/fw-bell/fw-bell-5280'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.jpg'
+    instrument={true}
+>
+    F.W. Bell 5280
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/hp/HP-3437a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639102/Instruments/Multimeters/HP-3437A/file.jpg'
+    instrument={true}
+>
+    HP 3437A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-195'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.jpg'
+    instrument={true}
+>
+    Keithley 195
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-2000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.jpg'
+    instrument={true}
+>
+    Keithley 2000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-2700'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395433/Instruments/Multimeters/Keithley-2700/file.jpg'
+    instrument={true}
+>
+    Keithley 2700
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-2750'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.jpg'
+    instrument={true}
+>
+    Keithley 2750
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-3706a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.jpg'
+    instrument={true}
+>
+    Keithley 3706A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keithley/keithley-6430'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639161/Instruments/Multimeters/Keithley-6430/file.jpg'
+    instrument={true}
+>
+    Keithley 6430
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/agilent/keysight-34401a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.jpg'
+    instrument={true}
+>
+    Keysight 34401A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/agilent/keysight-34410a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.jpg'
+    instrument={true}
+>
+    Keysight 34410A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34410a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395578/Instruments/Multimeters/Keysight-34410A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34410A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/agilent/keysight-34411a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg'
+    instrument={true}
+>
+    Keysight 34411A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34411a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395579/Instruments/Multimeters/Keysight-34411A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34411A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/agilent/keysight-34450a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg'
+    instrument={true}
+>
+    Keysight 34450A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34460a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34460A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34461a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395583/Instruments/Multimeters/Keysight-34461A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34461A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34465a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34465A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34470a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395586/Instruments/Multimeters/Keysight-34470A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34470A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/hp/keysight-3456a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.jpg'
+    instrument={true}
+>
+    Keysight 3456A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/hp/keysight-3478a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.jpg'
+    instrument={true}
+>
+    Keysight 3478A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34980a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395589/Instruments/Multimeters/Keysight-34980A/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-34980a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A Submodules
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-e4980a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg'
+    instrument={true}
+>
+    Keysight E4980A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/keysight/keysight-n6705b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395606/Instruments/Multimeters/Keysight-N6705B/file.jpg'
+    instrument={true}
+>
+    Keysight N6705B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/lakeshore/lakeshore-425'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650213/Instruments/Multimeters/Lakeshore-425/file.jpg'
+    instrument={true}
+>
+    Lakeshore 425
+</AppThumbnail>
+
+<AppThumbnail 
+    path='multimeters/generic-scpi/SCPI-multimeter'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639438/Instruments/Multimeters/SCPI-multimeter/file.jpg'
+    instrument={true}
+>
+    SCPI multimeter
+</AppThumbnail>
+</div>
+
+## Multiplexer Switch Modules 
+
+<details> 
+<summary>Category Description</summary> 
+PXI Multiplexer Switch Modules are ideal for high-channel-count applications that need to connect measurement or signal generation instruments to various test points on devices or units under test (DUTs or UUTs). PXI Multiplexer Switch Modules use a variety of relay types, including electromechanical armature relays, reed relays,  field-effect transistor (FET) relays, and solid-state relays, each with their own benefits, allowing you to choose a multiplexer that fits your requirements. To program the switches, you can use the IVI-compliant NI-SWITCH driver software, complete with help documentation, example programs, and a soft front panel application for interactive control of switches. For intelligent management of complex switch systems, NI Switch Executive provides additional software tools to help you design, build, and deploy your switching system. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='multiplexer-switch-modules/national-instruments/ni-pxie-2597'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.jpg'
+    instrument={true}
+>
+    NI PXIe-2597
+</AppThumbnail>
+</div>
+
+## Network Analyzers 
+
+<details> 
+<summary>Category Description</summary> 
+Vector network analyzers are crucial for the characterization of the devices and components used in radio frequency and microwave systems. This includes network testing for wifi, computer networks, cell phone coverage, and much more. These powerful devices are used in various stages of product development and can be used to verify the performance of various components such as antennas, amplifiers, cables, and many other active or passive devices. We use network analyzers to test these components to verify specifications of building blocks for more complex RF systems. Testing these systems ensures distortion-free transmission of communication signals and ensures a good match when absorbing power. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='network-analyzers/advantest/advantest-r3767cg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395166/Instruments/Network%20Analyzers/Advantest-R3767CG/file.jpg'
+    instrument={true}
+>
+    Advantest R3767CG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/keysight/keysight-5222b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.jpg'
+    instrument={true}
+>
+    Keysight 5222B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/agilent/keysight-8722es'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.jpg'
+    instrument={true}
+>
+    Keysight 8722ES
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/hp/keysight-8753d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.jpg'
+    instrument={true}
+>
+    Keysight 8753D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/keysight/keysight-n5230c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5230C/file.jpg'
+    instrument={true}
+>
+    Keysight N5230C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/keysight/keysight-n5232b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.jpg'
+    instrument={true}
+>
+    Keysight N5232B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/keysight/keysight-n5245a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.jpg'
+    instrument={true}
+>
+    CKeysight N5245A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/keysight/keysight-p9374a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.jpg'
+    instrument={true}
+>
+    Keysight P9374A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/coppermountain/m5180-2-port-18-ghz-analyzer'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395776/Instruments/Network%20Analyzers/M5180-2-Port-18-GHz-Analyzer/file.jpg'
+    instrument={true}
+>
+    M5180 2-Port 18 GHz Analyzer
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/rohdes-schwarz/rs-znb20'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395636/Instruments/Network%20Analyzers/RS-ZNB20/file.jpg'
+    instrument={true}
+>
+    R&S ZNB20
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/rohdes-schwarz/rs-znb8'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395638/Instruments/Network%20Analyzers/RS-ZNB8/file.jpg'
+    instrument={true}
+>
+    R&S ZNB8
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/coppermountain/s5048-2-port-48-ghz-analyzer'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639433/Instruments/Network%20Analyzers/S5048-2-Port-4.8-GHz-Analyzer/file.jpg'
+    instrument={true}
+>
+    S5048 2-Port 4.8 GHz Analyzer
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/rohdes-schwarz/series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692808740/Instruments/Network%20Analyzers/Series/file.jpg'
+    instrument={true}
+>
+    Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='network-analyzers/rohdes-schwarz/zvl-13'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Network%20Analyzers/ZVL-13/file.jpg'
+    instrument={true}
+>
+    ZVL 13
+</AppThumbnail>
+</div>
+
+## Oscilloscopes 
+
+<details> 
+<summary>Category Description</summary> 
+An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo4104'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395102/Instruments/Oscilloscopes/DPO4104/file.jpg'
+    instrument={true}
+>
+    DPO4104
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo5000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395686/Instruments/Oscilloscopes/DPO5000/file.jpg'
+    instrument={true}
+>
+    DPO5000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo7000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814924/Instruments/Oscilloscopes/DPO7000/file.jpg'
+    instrument={true}
+>
+    DPO7000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo70000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647177/Instruments/Oscilloscopes/DPO70000/file.jpg'
+    instrument={true}
+>
+    DPO70000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/hdo4000a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394016/Instruments/Oscilloscopes/HDO4000A/file.jpg'
+    instrument={true}
+>
+    HDO4000A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/hdo6000b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394017/Instruments/Oscilloscopes/HDO6000B/file.jpg'
+    instrument={true}
+>
+    HDO6000B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/infiniium-oscilloscopes-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg'
+    instrument={true}
+>
+    Infiniium oscilloscopes Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/agilent/keysight-86100a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg'
+    instrument={true}
+>
+    Keysight 86100A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/keysight-dsox1102g'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg'
+    instrument={true}
+>
+    Keysight DSOX1102G
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/keysight-n6705b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg'
+    instrument={true}
+>
+    Keysight N6705B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/labmaster-10-zi-a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.jpg'
+    instrument={true}
+>
+    LabMaster 10 Zi-A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/lecroy/lecroydso'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.jpg'
+    instrument={true}
+>
+    Lecroydso
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/mda8000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg'
+    instrument={true}
+>
+    MDA8000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/mso5000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395690/Instruments/Oscilloscopes/MSO5000/file.jpg'
+    instrument={true}
+>
+    MSO5000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/mso70000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639352/Instruments/Oscilloscopes/MSO70000/file.jpg'
+    instrument={true}
+>
+    MSO70000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rohdes-schwarz/rs-rto1000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.jpg'
+    instrument={true}
+>
+    R&S RTO1000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds1000-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg'
+    instrument={true}
+>
+    Rigol DS1000-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds1074z'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg'
+    instrument={true}
+>
+    Rigol DS1074Z
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds4000-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg'
+    instrument={true}
+>
+    Rigol DS4000-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds2000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg'
+    instrument={true}
+>
+    TDS2000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds224'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.jpg'
+    instrument={true}
+>
+    TDS224
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds500-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395110/Instruments/Oscilloscopes/TDS500-Series/file.jpg'
+    instrument={true}
+>
+    TDS500 Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds510a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.jpg'
+    instrument={true}
+>
+    TDS510A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds520-tds540'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395114/Instruments/Oscilloscopes/TDS520-TDS540/file.jpg'
+    instrument={true}
+>
+    TDS520/TDS540
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds5xx'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.jpg'
+    instrument={true}
+>
+    TDS5XX
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tsp2012'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639561/Instruments/Oscilloscopes/TSP2012/file.jpg'
+    instrument={true}
+>
+    TSP2012
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.jpg'
+    instrument={true}
+>
+    WaveMaster/SDA/DDA 8 Zi-B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavepro-hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg'
+    instrument={true}
+>
+    WavePro HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/waverunner-8000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.jpg'
+    instrument={true}
+>
+    WaveRunner 8000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/waverunner-9000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.jpg'
+    instrument={true}
+>
+    WaveRunner 9000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-3000z'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394026/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 3000z
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-4000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 4000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-510'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 510
+</AppThumbnail>
+</div>
+
+## Photon Counting Systems
+
+<details> 
+<summary>Category Description</summary> 
+Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='photon-counting-systems/picoquant/picoharp-300'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg'
+    instrument={true}
+>
+    PicoHarp 300
+</AppThumbnail>
+
+<AppThumbnail 
+    path='photon-counting-systems/singlequantum/singlequantum'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg'
+    instrument={true}
+>
+    Singlequantum
+</AppThumbnail>
+</div>
+
+## Power Meters 
+
+<details> 
+<summary>Category Description</summary> 
+A Power Meter is one of the most useful and simple instruments to measure electrical power when no deeper analysis of the measured data is required. It measures the voltage (V) and current (A) and derives from these the most important power results. Power meters are perfect for technicians and engineers performing simple tasks like stand-by power measurements. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='power-meters/newport/1830-c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638985/Instruments/Power%20Meters/1830-C/file.jpg'
+    instrument={true}
+>
+    1830-C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/qutech/d4'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395711/Instruments/Power%20Meters/D4/file.jpg'
+    instrument={true}
+>
+    D4
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/oxford-instruments/ilm-200'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639107/Instruments/Power%20Meters/ILM-200/file.jpg'
+    instrument={true}
+>
+    ILM 200
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-2182'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394002/Instruments/Power%20Meters/Keithley-2182/file.jpg'
+    instrument={true}
+>
+    Keithley 2182
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-485'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394003/Instruments/Power%20Meters/Keithley-485/file.jpg'
+    instrument={true}
+>
+    Keithley 485
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-580'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394005/Instruments/Power%20Meters/Keithley-580/file.jpg'
+    instrument={true}
+>
+    Keithley 580
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-6220'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393982/Instruments/Power%20Meters/Keithley-6220/file.jpg'
+    instrument={true}
+>
+    Keithley 6220
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-6485'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.jpg'
+    instrument={true}
+>
+    Keithley 6485
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-6514'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394008/Instruments/Power%20Meters/Keithley-6514/file.jpg'
+    instrument={true}
+>
+    Keithley 6514
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-6517a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395437/Instruments/Power%20Meters/Keithley-6517A/file.jpg'
+    instrument={true}
+>
+    Keithley 6517A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keithley/keithley-6517b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395438/Instruments/Power%20Meters/Keithley-6517B/file.jpg'
+    instrument={true}
+>
+    Keithley 6517B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keysight/keysight-m960xa-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.jpg'
+    instrument={true}
+>
+    Keysight M960XA-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/keysight/keysight-m960x-defs'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395548/Instruments/Power%20Meters/Keysight-M960x-defs/file.jpg'
+    instrument={true}
+>
+    Keysight M960x defs
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lks-425-gaussmeter'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395491/Instruments/Power%20Meters/LKS-425-Gaussmeter/file.jpg'
+    instrument={true}
+>
+    LKS 425 Gaussmeter
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lakeshore-370'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394012/Instruments/Power%20Meters/Lakeshore-370/file.jpg'
+    instrument={true}
+>
+    Lakeshore 370
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lakeshore-421'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.jpg'
+    instrument={true}
+>
+    Lakeshore 421
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lakeshore-425'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-425/file.jpg'
+    instrument={true}
+>
+    Lakeshore 425
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lakeshore-475'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.jpg'
+    instrument={true}
+>
+    Lakeshore 475
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/lakeshore/lakeshore-model-372'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395614/Instruments/Power%20Meters/Lakeshore-Model-372/file.jpg'
+    instrument={true}
+>
+    Lakeshore Model 372
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/thorlabs/pm100d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395144/Instruments/Power%20Meters/PM100D/file.jpg'
+    instrument={true}
+>
+    PM100D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/thorlabs/PM100USB'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639378/Instruments/Power%20Meters/PM100USB/file.jpg'
+    instrument={true}
+>
+    PM100USB
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/quantum-design/PPMS-dynacool'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395539/Instruments/Power%20Meters/PPMS-Dynacool/file.jpg'
+    instrument={true}
+>
+    PPMS Dynacool
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-meters/rohdes-schwarz/zvl-13'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395809/Instruments/Power%20Meters/ZVL-13/file.jpg'
+    instrument={true}
+>
+    ZVL 13
+</AppThumbnail>
+</div>
 
  ## Power Supplies 
 
