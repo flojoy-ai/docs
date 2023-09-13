@@ -4,7 +4,7 @@ slug: /nodes/LOGIC_GATES/
 sidebar_position: 5
 ---
 
-# Logic expressions in Python
+# LOGIC EXPRESSIONS in Python
 
 Welcome to the Logic nodes page!
 

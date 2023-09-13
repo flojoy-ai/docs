@@ -42,9 +42,9 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix inverstion and matrix product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inverstion and product.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
-    nodes = {['INVERT', 'MATMUL']}
+    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
 />
 
 <AppThumbnailSection
@@ -66,4 +66,11 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     blockquote = 'Select subsets from structured, indexable data such as vectors (arrays), matrices, and json.'
     sectionRoot = 'TRANSFORMERS/SELECT_ARRAY'
     nodes = {['SELECT_ARRAY']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Vector manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, such as determining the vector length and value at a requested index.'
+    sectionRoot = 'TRANSFORMERS/VECTOR_MANIPULATION'
+    nodes = {['VECTOR_INDEXING', 'VECTOR_LENGTH']}
 />

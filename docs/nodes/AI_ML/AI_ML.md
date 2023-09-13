@@ -19,14 +19,14 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Classification'
     blockquote = 'No-code Flojoy AI nodes for SVM, one-hot encoding, and more.'
     sectionRoot = 'AI_ML/CLASSIFICATION'
-    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TRAIN_TEST_SPLIT']}
+    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TORCHSCRIPT_CLASSIFIER', 'TRAIN_TEST_SPLIT']}
 />
 
 <AppThumbnailSection
     sectionName = 'AI-assisted image processing'
-    blockquote = 'No-code Flojoy AI nodes for image captioning (ViT + GPT2), object detection (YOLOv3), and image segmentation (DEEPLAB).'
+    blockquote = 'No-code Flojoy AI nodes for image captioning (ViT + GPT2), image classification (Hugging Face pipeline), object detection (YOLOv3), and image segmentation (DEEPLAB).'
     sectionRoot = 'AI_ML'
-    nodes = {['IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2', 'OBJECT_DETECTION/OBJECT_DETECTION', 'SEGMENTATION/DEEPLAB_V3']}
+    nodes = {['IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2', 'IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE', 'OBJECT_DETECTION/OBJECT_DETECTION', 'SEGMENTATION/DEEPLAB_V3']}
 />
 
 <AppThumbnailSection
