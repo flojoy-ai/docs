@@ -24,12 +24,11 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/electronic-loads/keysight/keysight-n3300a'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg'
-    >
-        Keysight N3300A
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='electronic-loads/keysight/keysight-n3300a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg'
+    instrument={true}
+>
+    Keysight N3300A
+</AppThumbnail>
 </div>

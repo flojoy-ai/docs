@@ -24,12 +24,11 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/frequency-synthesizers/holzworth/hs-9008b'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394000/Instruments/Frequency%20synthesizers/HS-9008B/file.jpg'
-    >
-        HS 9008B
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='frequency-synthesizers/holzworth/hs-9008b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394000/Instruments/Frequency%20synthesizers/HS-9008B/file.jpg'
+    instrument={true}
+>
+    HS 9008B
+</AppThumbnail>
 </div>

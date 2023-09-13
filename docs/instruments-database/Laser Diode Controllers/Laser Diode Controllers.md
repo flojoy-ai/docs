@@ -24,12 +24,11 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/laser-diode-controllers/thorlabs/pro8000'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg'
-    >
-        PRO8000
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='laser-diode-controllers/thorlabs/pro8000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg'
+    instrument={true}
+>
+    PRO8000
+</AppThumbnail>
 </div>

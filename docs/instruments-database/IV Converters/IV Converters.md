@@ -24,21 +24,19 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/iv-converters/qutech/ivvi'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg'
-    >
-        IVVI
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='iv-converters/qutech/ivvi'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg'
+    instrument={true}
+>
+    IVVI
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/iv-converters/basel/sp983c'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639467/Instruments/IV%20Converters/SP983c/file.jpg'
-    >
-        SP983c
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='iv-converters/basel/sp983c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639467/Instruments/IV%20Converters/SP983c/file.jpg'
+    instrument={true}
+>
+    SP983c
+</AppThumbnail>
 </div>

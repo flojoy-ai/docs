@@ -24,39 +24,35 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/digital-analog-converters/qdevil/qdac'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg'
-    >
-        QDAC
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='digital-analog-converters/qdevil/qdac'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg'
+    instrument={true}
+>
+    QDAC
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/digital-analog-converters/qdevil/qdac-1'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg'
-    >
-        Qdac 1
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='digital-analog-converters/qdevil/qdac-1'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Digital-Analog%20Converters/Qdac-1/file.jpg'
+    instrument={true}
+>
+    Qdac 1
+</AppThumbnail>>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/digital-analog-converters/qdevil/qdac-2'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg'
-    >
-        Qdac 2
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='digital-analog-converters/qdevil/qdac-2'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg'
+    instrument={true}
+>
+    Qdac 2
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/digital-analog-converters/qdevil/qdac-2-array'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg'
-    >
-        Qdac 2 Array
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='digital-analog-converters/qdevil/qdac-2-array'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395791/Instruments/Digital-Analog%20Converters/Qdac-2-Array/file.jpg'
+    instrument={true}
+>
+    Qdac 2 Array
+</AppThumbnail>
 </div>

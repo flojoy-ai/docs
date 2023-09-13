@@ -24,13 +24,11 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/coincidence-counters/qubitekk/cc1'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg'
-        instrument={true}
-    >
-        CC1
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='coincidence-counters/qubitekk/cc1'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg'
+    instrument={true}
+>
+    CC1
+</AppThumbnail>
 </div>

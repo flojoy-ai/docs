@@ -24,30 +24,27 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/lasers/keysight/keysight-n7776c'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg'
-    >
-        Keysight N7776C
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='lasers/keysight/keysight-n7776c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg'
+    instrument={true}
+>
+    Keysight N7776C
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/lasers/toptica/topmode'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg'
-    >
-        TopMode
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='lasers/toptica/topmode'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg'
+    instrument={true}
+>
+    TopMode
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/lasers/toptica/ibeam-smart'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg'
-    >
-        iBeam smart
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='lasers/toptica/ibeam-smart'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg'
+    instrument={true}
+>
+    iBeam smart
+</AppThumbnail>
 </div>

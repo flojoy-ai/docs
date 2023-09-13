@@ -26,21 +26,19 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/dilution-refrigerators/oxford-instruments/kelvinox-igh'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg'
-    >
-        Kelvinox IGH
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='dilution-refrigerators/oxford-instruments/kelvinox-igh'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395738/Instruments/Dilution%20Refrigerators/Kelvinox-IGH/file.jpg'
+    instrument={true}
+>
+    Kelvinox IGH
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/dilution-refrigerators/oxford-instruments/triton'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.jpg'
-    >
-        Triton
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='dilution-refrigerators/oxford-instruments/triton'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395692/Instruments/Dilution%20Refrigerators/Triton/file.jpg'
+    instrument={true}
+>
+    Triton
+</AppThumbnail>
 </div>

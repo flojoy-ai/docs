@@ -24,12 +24,11 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/humidity-sensors/orbit3/orbit-3-sensor'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.jpg'
-    >
-        Orbit 3 Sensor
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='humidity-sensors/orbit3/orbit-3-sensor'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638458/Instruments/Humidity%20Sensors/Orbit-3-Sensor/file.jpg'
+    instrument={true}
+>
+    Orbit 3 Sensor
+</AppThumbnail>
 </div>

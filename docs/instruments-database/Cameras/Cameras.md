@@ -24,43 +24,35 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg'
-        instrument={true}
-    >
-        Kinetix sCMOS all_cameras
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='cameras/pvcam/kinetix-sCMOS-all-cameras'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg'
+    instrument={true}
+>
+    Kinetix sCMOS all_cameras
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/cameras/pco/PCO-pixelfly'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg'
-        instrument={true}
-    >
-        PCO Pixelfly
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='cameras/pco/PCO-pixelfly'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg'
+    instrument={true}
+>
+    PCO Pixelfly
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/cameras/picam/pi-camera'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg'
-        instrument={true}
-    >
-        Pi Camera
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='cameras/picam/pi-camera'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395147/Instruments/Cameras/Pi-Camera/file.jpg'
+    instrument={true}
+>
+    Pi Camera
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/cameras/thorlabs/thorlabs-dcu224c'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.jpg'
-        instrument={true}
-    >
-        Thorlabs-DCU224C
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='cameras/thorlabs/thorlabs-dcu224c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692718981/Instruments/Cameras/Thorlabs-DCU224C/file.jpg'
+    instrument={true}
+>
+    Thorlabs-DCU224C
+</AppThumbnail>
 </div>

@@ -24,93 +24,75 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <div className="flex flex-wrap">
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/alazartech/ats9360-12bit-18gs-s'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg'
-        instrument={true}
-    >
-        ATS9360-12bit, 1.8GS/s
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9360-12bit-18gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9360-12bit, 1.8GS/s
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/alazartech/ats9373-12-bit-4-gs-s'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg'
-        instrument={true}
-    >
-        ATS9373-12 bit, 4 GS/s
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9373-12-bit-4-gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9373-12 bit, 4 GS/s
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg'
-        instrument={true}
-    >
-        ATS9440-14 bit, 125 MS/s, 4 ch
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg'
+    instrument={true}
+>
+    ATS9440-14 bit, 125 MS/s, 4 ch
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/alazartech/ats9870-8-bit-1-gs-s'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg'
-        instrument={true}
-    >
-        ATS9870-8 bit, 1 GS/s
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9870-8-bit-1-gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9870-8 bit, 1 GS/s
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/keysight/keysight-34934a'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg'
-        instrument={true}
-    >
-        Keysight 34934A
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34934a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg'
+    instrument={true}
+>
+    Keysight 34934A
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/keysight/keysight-34980a'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg'
-        instrument={true}
-    >
-        Keysight 34980A
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34980a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/keysight/keysight-34980a-submodules'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg'
-        instrument={true}
-    >
-        Keysight 34980A Submodules
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34980a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A Submodules
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/national-instruments/ni-daq'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg'
-        instrument={true}
-    >
-        NI DAQ
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/national-instruments/ni-daq'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg'
+    instrument={true}
+>
+    NI DAQ
+</AppThumbnail>
 
-<div>
-    <AppThumbnail 
-        path='/instruments-database/daq-boards/advantech/PCIE-1751'
-        img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg'
-        instrument={true}
-    >
-        PCIE 1751
-    </AppThumbnail>
-</div>
+<AppThumbnail 
+    path='daq-boards/advantech/PCIE-1751'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg'
+    instrument={true}
+>
+    PCIE 1751
+</AppThumbnail>
 </div>
