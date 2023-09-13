@@ -1,0 +1,6 @@
+The LIST_VISA node lists all VISA instruments available.
+
+    Returns
+    -------
+    DataContainer
+        optional: The input DataContainer is returned.
