@@ -1,0 +1,8 @@
+The IV_SWEEP node takes a IV curve measurement with a Keithley 2400 source meter, send voltages, and measures currents.
+
+    Parameters
+    -----------
+    comport : string
+         defines the serial communication port for the Keithley2400 source meter.
+    baudrate : float
+         specifies the baud rate for the serial communication between the Keithley2400 and the computer
