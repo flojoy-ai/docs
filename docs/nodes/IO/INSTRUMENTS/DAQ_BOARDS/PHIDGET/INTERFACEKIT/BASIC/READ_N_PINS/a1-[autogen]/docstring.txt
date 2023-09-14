@@ -1,0 +1,7 @@
+
+The READ_N_PINS node allows you to measure and output voltages from Flexiforce sensors using a Phidget InterfaceKit.
+
+Parameters
+----------
+n_sensors : int
+    Defines the number of pressure sensors connected to the Phidget InterfaceKit.
