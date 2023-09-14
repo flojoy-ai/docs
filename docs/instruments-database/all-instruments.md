@@ -1945,1798 +1945,1466 @@ A Power Meter is one of the most useful and simple instruments to measure electr
 </AppThumbnail>
 </div>
 
- ## Power Supplies 
-
- <details> 
- <summary>Category Description</summary> 
- A power supply is an electrical device that supplies electric power to an electrical load. 
- 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/american-magnetics/ami-430">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395511/Instruments/Power%20Supplies/AMI-430/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AMI 430</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/qutech/d5a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395712/Instruments/Power%20Supplies/D5a/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>D5a</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/glassman/fj-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395117/Instruments/Power%20Supplies/FJ-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FJ Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmc-8041">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395722/Instruments/Power%20Supplies/HMC-8041/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMC 8041</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmc-8042">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395723/Instruments/Power%20Supplies/HMC-8042/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMC 8042</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmc-8043">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMC-8043/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMC 8043</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmp-2020">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMP-2020/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMP 2020</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmp-2030">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395726/Instruments/Power%20Supplies/HMP-2030/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMP 2030</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmp-4030">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395727/Instruments/Power%20Supplies/HMP-4030/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMP 4030</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rohdes-schwarz/hmp-4040">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815006/Instruments/Power%20Supplies/HMP-4040/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HMP 4040</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aviosys/ip-power-9258-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395731/Instruments/Power%20Supplies/IP-Power-9258-S/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IP Power 9258 S</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/oxford-instruments/ips-120">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395732/Instruments/Power%20Supplies/IPS-120/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IPS 120</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/oxford-instruments/ips-120-10">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395420/Instruments/Power%20Supplies/IPS-120-10/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IPS 120  10</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2260b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395427/Instruments/Power%20Supplies/Keithley-2260B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2260B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2306">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395428/Instruments/Power%20Supplies/Keithley-2306/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2306</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2400">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395429/Instruments/Power%20Supplies/Keithley-2400/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2400</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2450">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2450</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2600">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815017/Instruments/Power%20Supplies/Keithley-2600/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2600</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2601b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395553/Instruments/Power%20Supplies/Keithley-2601B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2601B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2602a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2602A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2602b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2602B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2604b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719318/Instruments/Power%20Supplies/Keithley-2604B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2604B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2611b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719319/Instruments/Power%20Supplies/Keithley-2611B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2611B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2612b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719321/Instruments/Power%20Supplies/Keithley-2612B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2612B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2614b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719322/Instruments/Power%20Supplies/Keithley-2614B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2614B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2634b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719323/Instruments/Power%20Supplies/Keithley-2634B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2634B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2635b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719324/Instruments/Power%20Supplies/Keithley-2635B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2635B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-2636b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639150/Instruments/Power%20Supplies/Keithley-2636B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 2636B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-6220">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394007/Instruments/Power%20Supplies/Keithley-6220/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6220</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-6221">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719327/Instruments/Power%20Supplies/Keithley-6221/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6221</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-6430">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638610/Instruments/Power%20Supplies/Keithley-6430/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley 6430</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keithley/keithley-buffer">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647285/Instruments/Power%20Supplies/Keithley-Buffer/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley Buffer</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-b2962a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B2962A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-e36313a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E36313A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/hp/keysight-e3631a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E3631A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-m960xa-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960XA-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-m960x-defs">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960x defs</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-n5767a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5767A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/keysight/keysight-n6705b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395605/Instruments/Power%20Supplies/Keysight-N6705B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/thorlabs/lcc25">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LCC25</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/oxford-instruments/mercuryips">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395615/Instruments/Power%20Supplies/MercuryiPS/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MercuryiPS</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/lakeshore/model-625">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Model 625</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl068-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395501/Instruments/Power%20Supplies/PL068-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL068-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl155-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395502/Instruments/Power%20Supplies/PL155-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL155-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl303-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395504/Instruments/Power%20Supplies/PL303-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL303-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl303qmd-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL303QMD-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl303qmt-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395507/Instruments/Power%20Supplies/PL303QMT-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL303QMT-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/pl601-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395509/Instruments/Power%20Supplies/PL601-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PL601-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/stahl/power-supply-series-8510">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395680/Instruments/Power%20Supplies/Power-Supply-Series-8510/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Power Supply Series 8510</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/qdevil/qdac">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395621/Instruments/Power%20Supplies/QDAC/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>QDAC</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/aimtti/ql335-p">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395511/Instruments/Power%20Supplies/QL335-P/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>QL335-P</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/qdevil/qdac-1">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395787/Instruments/Power%20Supplies/Qdac-1/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 1</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/qdevil/qdac-2">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Power%20Supplies/Qdac-2/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/qdevil/qdac-2-array">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395790/Instruments/Power%20Supplies/Qdac-2-Array/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Qdac 2 Array</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/razorbill/razorbill-rp100">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Razorbill RP100</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rigol/rigol-dp821">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395532/Instruments/Power%20Supplies/Rigol-DP821/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DP821</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rigol/rigol-dp831">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395533/Instruments/Power%20Supplies/Rigol-DP831/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DP831</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rigol/rigol-dp832">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DP832</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/rigol/rigol-dp8xx-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395620/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DP8xx-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/stanford-research-systems/sim928">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395795/Instruments/Power%20Supplies/SIM928/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SIM928</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/delta-elektronika/sm-70-45d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395457/Instruments/Power%20Supplies/SM-70-45D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SM 70-45D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/siglent-technologies/spd1168x-power-supply">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395478/Instruments/Power%20Supplies/SPD1168X-Power-Supply/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SPD1168X Power Supply</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/siglent-technologies/spd1305x-power-supply">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395480/Instruments/Power%20Supplies/SPD1305X-Power-Supply/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SPD1305X Power Supply</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/danfysik/system-8500-model-854">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639539/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SYSTEM 8500-Model 854</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/yokogawa/yokogawa-7651">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Yokogawa 7651</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/power-supplies/yokogawa/yokogawa-gs-200">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395488/Instruments/Power%20Supplies/Yokogawa-GS-200/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Yokogawa GS 200</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Preamplifiers 
-
- <details> 
- <summary>Category Description</summary> 
- A preamplifier, also known as a preamp, is an electronic amplifier that converts a weak electrical signal into an output signal strong enough to be noise-tolerant and strong enough for further processing, or for sending to a power amplifier and a loudspeaker. Without this, the final signal would be noisy or distorted. They are typically used to amplify signals from analog sensors such as microphones and pickups. Because of this, the preamplifier is often placed close to the sensor to reduce the effects of noise and interference. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/preamplifiers/stanford-research-systems/sr-570">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395465/Instruments/Preamplifiers/SR-570/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 570</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/preamplifiers/stanford-research-systems/sr560">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395651/Instruments/Preamplifiers/SR560/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR560</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Protocols 
-
- <details> 
- <summary>Category Description</summary> 
- SCPI Instrument 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/protocols/generic-scpi/SCPI-instrument">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SCPI Instrument</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Pulse Generators 
-
- <details> 
- <summary>Category Description</summary> 
- A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/pulse-generators/stanford-research-systems/dg645">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719393/Instruments/Pulse%20Generators/DG645/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DG645</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Quantum Analyzers 
-
- <details> 
- <summary>Category Description</summary> 
- The SHFQA enables multi-state discrimination with optimal signal-to-noise ratio and minimal latency thanks to its advanced sequencer and its low-latency signal processing chain with matched filters and result correlation. The data are transmitted in real-time to other instruments for active qubit reset or global error correction protocols. Controlled through the LabOne software suite comprising the user interface, several APIs and LabOne Q, the SHFQA supports quantum computing projects with sizes ranging from a few to several hundreds of qubits. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/quantum-analyzers/zurich-instruments/shfqa">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SHFQA</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/quantum-analyzers/zurich-instruments/uhfqa">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>UHFQA</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Quantum Computing Control Systems 
-
- <details> 
- <summary>Category Description</summary> 
- A Quantum Computing Control System (QCCS) is designed to control more than 100 superconducting and spin qubits. Each component of the QCCS is conceived to play a specific role in qubit control, readout and feedback, and operates in a fully synchronized manner with the other parts of the system. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/quantum-computing-control-systems/zurich-instruments/pqsc">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/Quantum%20Computing%20Control%20Systems/PQSC/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PQSC</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Qubit Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- Each control channel of the SHFQC has its own powerful sequencer for creating phase- and timing-programmable waveforms, so that a single SHFQC can control or couple qubits with pulses from DC to 8.5 GHz, and react at any time on measurements from the readout channel. With the SHFQC-16W upgrade option, the readout channel's freely configurable integration weights and readout-pulse memories are doubled from 8 to 16. This provides more flexibility in configuring the readout, e.g. by enabling full real-time control and readout of 6 qutrits.
-
- 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/qubit-controllers/zurich-instruments/shfqc">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SHFQC</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## RF Signal Generators 
-
- <details> 
- <summary>Category Description</summary> 
- A signal generator is one of a class of electronic devices that generates electrical signals with set properties of amplitude, frequency, and wave shape. These generated signals are used as a stimulus for electronic measurements, typically used in designing, testing, troubleshooting, and repairing electronic or electroacoustic devices, though it often has artistic uses as well 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/signalcore/5521a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386184/Instruments/RF%20Signal%20Generators/5521A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>5521A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg2005">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639019/Instruments/RF%20Signal%20Generators/AWG2005/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG2005</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg5014">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395520/Instruments/RF%20Signal%20Generators/AWG5014/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG5014</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg520">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395708/Instruments/RF%20Signal%20Generators/AWG520/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG520</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg5208">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395521/Instruments/RF%20Signal%20Generators/AWG5208/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG5208</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg70000a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395523/Instruments/RF%20Signal%20Generators/AWG70000A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG70000A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg70001a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395683/Instruments/RF%20Signal%20Generators/AWG70001A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG70001A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg70001b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395685/Instruments/RF%20Signal%20Generators/AWG70001B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG70001B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg70002a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395525/Instruments/RF%20Signal%20Generators/AWG70002A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG70002A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/tektronix/awg70002b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395685/Instruments/RF%20Signal%20Generators/AWG70002B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AWG70002B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/anapico/apsin-26g">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395179/Instruments/RF%20Signal%20Generators/Apsin-26G/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Apsin 26G</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/erainstruments/erasynth">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ERASYNTH
-</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/qutech/f1d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395719/Instruments/RF%20Signal%20Generators/F1d/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>F1d	</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/anritsu/from-mg3690c-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>From MG3690C Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/zurich-instruments/hdawg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395541/Instruments/RF%20Signal%20Generators/HDAWG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDAWG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/agilent/keysight-33220a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719424/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33220A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-33250a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33250A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-33510b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395569/Instruments/RF%20Signal%20Generators/Keysight-33510B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33510B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-33511b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33511B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-33512b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395572/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33512B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/agilent/keysight-33521a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719432/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33521A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-33522b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33522B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/hp/keysight-8657b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8657B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/agilent/keysight-e8257d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8257D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/agilent/keysight-e8267c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/agilent/keysight-e8267d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639247/Instruments/RF%20Signal%20Generators/Keysight-E8267D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-e8267d-psg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267D PSG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-m3201a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M3201A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-m3202a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395775/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M3202A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-mawgdef">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight MAwgDef</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-n5171b-exg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5171B EXG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-n5173b-exg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639262/Instruments/RF%20Signal%20Generators/Keysight-N5173B-EXG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5173B EXG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-n5183b-mxg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395596/Instruments/RF%20Signal%20Generators/Keysight-N5183B-MXG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5183B MXG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-n6705b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395608/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/keysight-n9030b-pxa">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N9030B PXA</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/keysight/ktmawg-ivi-c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395609/Instruments/RF%20Signal%20Generators/KtMAwg-IVI-C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>KtMAwg IVI-C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/national-instruments/ni-pxie-5654">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395786/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NI PXIe-5654</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/rs-sgs100a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R&S SGS100A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/national-instruments/rfsg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692809007/Instruments/RF%20Signal%20Generators/RFSG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>RFSG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/qutech/s5i">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395794/Instruments/RF%20Signal%20Generators/S5i/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>S5i</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/sfm">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SFM</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/stanford-research-systems/sg-380">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395450/Instruments/RF%20Signal%20Generators/SG-380/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SG 380</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/stanford-research-systems/sg384">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395639/Instruments/RF%20Signal%20Generators/SG384/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SG384</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/zurich-instruments/shfsg">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395679/Instruments/RF%20Signal%20Generators/SHFSG/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SHFSG</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/sma100a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SMA100A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/smr-40">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SMR 40</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/smw-200-a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SMW 200 A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/rf-signal-generators/rohdes-schwarz/smw-200a-b140">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395801/Instruments/RF%20Signal%20Generators/SMW-200A-B140/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SMW 200A-B140</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Screen Displays 
-
- <details> 
- <summary>Category Description</summary> 
- Touchscreen Display device
- 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/screen-displays/gentec-eo/gentec-EO-maestro">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Gentec EO Maestro</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Shutter Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- Optical Shutters utilize a rotary, electro-mechanical actuator to provide millisecond shutter operation. During operation, these shutters remain in a closed position and then open when a pulse control signal is applied by an external controller. As long as the control voltage to the optical shutter remains high, the shutter stays open, but as soon as the voltage goes low, the shutter closes, providing inherent "fail-safe" operation. The frequency at which the device is opened and closed can be controlled. An optical sensor, which detects the shutter blade position in the housing, provides information that confirms the state of the optical shutter position. This makes it ideal in applications where a laser safety lockout is required. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/shutter-controllers/thorlabs/sc10">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639435/Instruments/Shutter%20Controllers/SC10/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SC10</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Spectrometers 
-
- <details> 
- <summary>Category Description</summary> 
- A spectrometer is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrometers/andor/idus-401-ccd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>IDUS 401 CCD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrometers/quantum-design/PPMS-dynacool">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PPMS Dynacool</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrometers/andor/shamrock-750">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Shamrock 750</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Spectrum Analyzers 
-
- <details> 
- <summary>Category Description</summary> 
- A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/yokogawa/aq6370">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395119/Instruments/Spectrum%20Analyzers/AQ6370/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AQ6370</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/bristol/bristol-771">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Bristol 771 </figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/rohdes-schwarz/fsl">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FSL</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-4156c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 4156C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/keysight/keysight-b1500a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B1500A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-e4408b-esa-l">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4408B ESA-L</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-n9000a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N9000A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/anritsu/ms9710c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395177/Instruments/Spectrum%20Analyzers/MS9710C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MS9710C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/anritsu/ms9740a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395178/Instruments/Spectrum%20Analyzers/MS9740A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MS9740A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/signal-hound/usb-sa-124-b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>USB SA 124 B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/rohdes-schwarz/zvl-13">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ZVL 13</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Switches 
-
- <details> 
- <summary>Category Description</summary> 
- An RF switch or microwave switch is a device to route high frequency signals through transmission paths. RF (radio frequency) and microwave switches are used extensively in microwave test systems for signal routing between instruments and devices under test (DUT). Incorporating a switch into a switch matrix system enables you to route signals from multiple instruments to single or multiple DUTs. This allows multiple tests to be performed with the same setup, eliminating the need for frequent connects and disconnects. The entire testing process can be automated, increasing the throughput in high-volume production environments. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/switches/keithley/keithley-s46">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Switches/Keithley-S46/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keithley S46</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/switches/keysight/keysight-b2200a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B2200A</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Temperature Controllers 
-
- <details> 
- <summary>Category Description</summary> 
- Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/temptronic/ats-525">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395163/Instruments/Temperature%20Controllers/ATS-525/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS 525</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/temptronic/ats-545">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395165/Instruments/Temperature%20Controllers/ATS-545/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS 545</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/picowatt/avs-47">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394036/Instruments/Temperature%20Controllers/AVS-47/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AVS 47</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/bluefors/bluefors-temperature-controller">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Bluefors temperature controller
-</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/stanford-research-systems/ctc100">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815203/Instruments/Temperature%20Controllers/CTC100/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>CTC100</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/temptronic/eco-560">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395187/Instruments/Temperature%20Controllers/ECO-560/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ECO 560</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/fluke/fluke-7341">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Fluke 7341</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/oxford-instruments/itc-503">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647461/Instruments/Temperature%20Controllers/ITC-503/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ITC 503</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/jumo/jumoquantrollc">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Jumoquantrollc</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-331">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395444/Instruments/Temperature%20Controllers/Lakeshore-331/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 331</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-340">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore 340</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-model-325">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore Model 325</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-model-335">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395612/Instruments/Temperature%20Controllers/Lakeshore-Model-335/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore Model 335</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-model-336">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395613/Instruments/Temperature%20Controllers/Lakeshore-Model-336/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore Model 336</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/lakeshore-model-372">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395614/Instruments/Temperature%20Controllers/Lakeshore-Model-372/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lakeshore Model 372</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/lakeshore/model-331">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395781/Instruments/Temperature%20Controllers/Model-331/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Model 331</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/quantum-design/PPMS-dynacool">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395538/Instruments/Temperature%20Controllers/PPMS-Dynacool/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PPMS Dynacool</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/hcp/tc-038d">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395099/Instruments/Temperature%20Controllers/TC-038D/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TC-038D</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/thorlabs/tc200">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395098/Instruments/Temperature%20Controllers/TC200/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TC200</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/temptronic/thermostream-ats-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Thermostream ATS Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-controllers/thermotron/thermotron-3800">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Thermotron 3800</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Temperature Sensors 
-
- <details> 
- <summary>Category Description</summary> 
- Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/temperature-sensors/orbit3/orbit-3-sensor">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639362/Instruments/Temperature%20Sensors/Orbit-3-Sensor/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Orbit 3 Sensor</figcaption>
-</figure>
-</a></div>
-</div> 
-
- ## Thermometers 
-
- <details> 
- <summary>Category Description</summary> 
- A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object). A thermometer has two important elements: (1) a temperature sensor (e.g. the bulb of a mercury-in-glass thermometer or the pyrometric sensor in an infrared thermometer) in which some change occurs with a change in temperature; and (2) some means of converting this change into a numerical value (e.g. the visible scale that is marked on a mercury-in-glass thermometer or the digital readout on an infrared model). Thermometers are widely used in technology and industry to monitor processes, in meteorology, in medicine, and in scientific research. 
- </details> 
-
- <div className="flex flex-wrap">
-
-
-<div className="p-4">
-
-<a href="/instruments-database/thermometers/pico-technology/pt-104-picoch">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395499/Instruments/Thermometers/PT-104-Picoch/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PT 104 Picoch</figcaption>
-</figure>
-</a></div>
+## Power Supplies 
+
+<details> 
+<summary>Category Description</summary> 
+A power supply is an electrical device that supplies electric power to an electrical load. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='power-supplies/american-magnetics/ami-430'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395511/Instruments/Power%20Supplies/AMI-430/file.jpg'
+    instrument={true}
+>
+    AMI 430
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/qutech/d5a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395712/Instruments/Power%20Supplies/D5a/file.jpg'
+    instrument={true}
+>
+    D5a
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/glassman/fj-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395117/Instruments/Power%20Supplies/FJ-Series/file.jpg'
+    instrument={true}
+>
+    FJ Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmc-8041'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395722/Instruments/Power%20Supplies/HMC-8041/file.jpg'
+    instrument={true}
+>
+    HMC 8041
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmc-8042'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395723/Instruments/Power%20Supplies/HMC-8042/file.jpg'
+    instrument={true}
+>
+    HMC 8042
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmc-8043'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMC-8043/file.jpg'
+    instrument={true}
+>
+    HMC 8043
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmp-2020'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395725/Instruments/Power%20Supplies/HMP-2020/file.jpg'
+    instrument={true}
+>
+    HMP 2020
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmp-2030'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395726/Instruments/Power%20Supplies/HMP-2030/file.jpg'
+    instrument={true}
+>
+    HMP 2030
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmp-4030'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395727/Instruments/Power%20Supplies/HMP-4030/file.jpg'
+    instrument={true}
+>
+    HMP 4030
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rohdes-schwarz/hmp-4040'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815006/Instruments/Power%20Supplies/HMP-4040/file.jpg'
+    instrument={true}
+>
+    HMP 4040
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aviosys/ip-power-9258-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395731/Instruments/Power%20Supplies/IP-Power-9258-S/file.jpg'
+    instrument={true}
+>
+    IP Power 9258 S
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/oxford-instruments/ips-120'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395732/Instruments/Power%20Supplies/IPS-120/file.jpg'
+    instrument={true}
+>
+    IPS 120
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/oxford-instruments/ips-120-10'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395420/Instruments/Power%20Supplies/IPS-120-10/file.jpg'
+    instrument={true}
+>
+    IPS 120 10
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2260b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395427/Instruments/Power%20Supplies/Keithley-2260B/file.jpg'
+    instrument={true}
+>
+    Keithley 2260B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2306'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395428/Instruments/Power%20Supplies/Keithley-2306/file.jpg'
+    instrument={true}
+>
+    Keithley 2306
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2400'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395429/Instruments/Power%20Supplies/Keithley-2400/file.jpg'
+    instrument={true}
+>
+    Keithley 2400
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2450'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395430/Instruments/Power%20Supplies/Keithley-2450/file.jpg'
+    instrument={true}
+>
+    Keithley 2450
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2600'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815017/Instruments/Power%20Supplies/Keithley-2600/file.jpg'
+    instrument={true}
+>
+    Keithley 2600
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2601b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395553/Instruments/Power%20Supplies/Keithley-2601B/file.jpg'
+    instrument={true}
+>
+    Keithley 2601B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2602a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602A/file.jpg'
+    instrument={true}
+>
+    Keithley 2602A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2602b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602B/file.jpg'
+    instrument={true}
+>
+    Keithley 2602B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2604b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719318/Instruments/Power%20Supplies/Keithley-2604B/file.jpg'
+    instrument={true}
+>
+    Keithley 2604B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2611b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719319/Instruments/Power%20Supplies/Keithley-2611B/file.jpg'
+    instrument={true}
+>
+    Keithley 2611B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2612b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719321/Instruments/Power%20Supplies/Keithley-2612B/file.jpg'
+    instrument={true}
+>
+    Keithley 2612B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2614b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719322/Instruments/Power%20Supplies/Keithley-2614B/file.jpg'
+    instrument={true}
+>
+    Keithley 2614B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2634b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719323/Instruments/Power%20Supplies/Keithley-2634B/file.jpg'
+    instrument={true}
+>
+    Keithley 2634B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2635b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719324/Instruments/Power%20Supplies/Keithley-2635B/file.jpg'
+    instrument={true}
+>
+    Keithley 2635B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-2636b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639150/Instruments/Power%20Supplies/Keithley-2636B/file.jpg'
+    instrument={true}
+>
+    Keithley 2636B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-6220'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394007/Instruments/Power%20Supplies/Keithley-6220/file.jpg'
+    instrument={true}
+>
+    Keithley 6220
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-6221'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719327/Instruments/Power%20Supplies/Keithley-6221/file.jpg'
+    instrument={true}
+>
+    Keithley 6221
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-6430'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638610/Instruments/Power%20Supplies/Keithley-6430/file.jpg'
+    instrument={true}
+>
+    Keithley 6430
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keithley/keithley-buffer'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647285/Instruments/Power%20Supplies/Keithley-Buffer/file.jpg'
+    instrument={true}
+>
+    Keithley Buffer
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-b2962a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.jpg'
+    instrument={true}
+>
+    Keysight B2962A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-e36313a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg'
+    instrument={true}
+>
+    Keysight E36313A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/hp/keysight-e3631a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.jpg'
+    instrument={true}
+>
+    Keysight E3631A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-m960xa-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.jpg'
+    instrument={true}
+>
+    Keysight M960XA-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-m960x-defs'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg'
+    instrument={true}
+>
+    Keysight M960x defs
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-n5767a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.jpg'
+    instrument={true}
+>
+    Keysight N5767A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/keysight/keysight-n6705b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395605/Instruments/Power%20Supplies/Keysight-N6705B/file.jpg'
+    instrument={true}
+>
+    Keysight N6705B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/thorlabs/lcc25'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.jpg'
+    instrument={true}
+>
+    LCC25
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/oxford-instruments/mercuryips'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395615/Instruments/Power%20Supplies/MercuryiPS/file.jpg'
+    instrument={true}
+>
+    MercuryiPS
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/lakeshore/model-625'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.jpg'
+    instrument={true}
+>
+    Model 625
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl068-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395501/Instruments/Power%20Supplies/PL068-P/file.jpg'
+    instrument={true}
+>
+    PL068-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl155-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395502/Instruments/Power%20Supplies/PL155-P/file.jpg'
+    instrument={true}
+>
+    PL155-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl303-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395504/Instruments/Power%20Supplies/PL303-P/file.jpg'
+    instrument={true}
+>
+    PL303-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl303qmd-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395506/Instruments/Power%20Supplies/PL303QMD-P/file.jpg'
+    instrument={true}
+>
+    PL303QMD-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl303qmt-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395507/Instruments/Power%20Supplies/PL303QMT-P/file.jpg'
+    instrument={true}
+>
+    PL303QMT-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/pl601-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395509/Instruments/Power%20Supplies/PL601-P/file.jpg'
+    instrument={true}
+>
+    PL601-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/stahl/power-supply-series-8510'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395680/Instruments/Power%20Supplies/Power-Supply-Series-8510/file.jpg'
+    instrument={true}
+>
+    Power Supply Series 8510
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/qdevil/qdac'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395621/Instruments/Power%20Supplies/QDAC/file.jpg'
+    instrument={true}
+>
+    QDAC
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/aimtti/ql335-p'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395511/Instruments/Power%20Supplies/QL335-P/file.jpg'
+    instrument={true}
+>
+    QL335-P
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/qdevil/qdac-1'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395787/Instruments/Power%20Supplies/Qdac-1/file.jpg'
+    instrument={true}
+>
+    Qdac 1
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/qdevil/qdac-2'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395788/Instruments/Power%20Supplies/Qdac-2/file.jpg'
+    instrument={true}
+>
+    Qdac 2
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/qdevil/qdac-2-array'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395790/Instruments/Power%20Supplies/Qdac-2-Array/file.jpg'
+    instrument={true}
+>
+    Qdac 2 Array
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/razorbill/razorbill-rp100'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.jpg'
+    instrument={true}
+>
+    Razorbill RP100
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rigol/rigol-dp821'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395532/Instruments/Power%20Supplies/Rigol-DP821/file.jpg'
+    instrument={true}
+>
+    Rigol DP821
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rigol/rigol-dp831'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395533/Instruments/Power%20Supplies/Rigol-DP831/file.jpg'
+    instrument={true}
+>
+    Rigol DP831C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rigol/rigol-dp832'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.jpg'
+    instrument={true}
+>
+    Rigol DP832
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/rigol/rigol-dp8xx-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395620/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.jpg'
+    instrument={true}
+>
+    Rigol DP8xx-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/stanford-research-systems/sim928'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395795/Instruments/Power%20Supplies/SIM928/file.jpg'
+    instrument={true}
+>
+    SIM928
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/delta-elektronika/sm-70-45d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395457/Instruments/Power%20Supplies/SM-70-45D/file.jpg'
+    instrument={true}
+>
+    SM 70-45D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/siglent-technologies/spd1168x-power-supply'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395478/Instruments/Power%20Supplies/SPD1168X-Power-Supply/file.jpg'
+    instrument={true}
+>
+    SPD1168X Power Supply
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/siglent-technologies/spd1305x-power-supply'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395480/Instruments/Power%20Supplies/SPD1305X-Power-Supply/file.jpg'
+    instrument={true}
+>
+    SPD1305X Power Supply
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/danfysik/system-8500-model-854'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639539/Instruments/Power%20Supplies/SYSTEM-8500-Model-854/file.jpg'
+    instrument={true}
+>
+    SYSTEM 8500-Model 854
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/yokogawa/yokogawa-7651'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.jpg'
+    instrument={true}
+>
+    Yokogawa 7651
+</AppThumbnail>
+
+<AppThumbnail 
+    path='power-supplies/yokogawa/yokogawa-gs-200'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395488/Instruments/Power%20Supplies/Yokogawa-GS-200/file.jpg'
+    instrument={true}
+>
+    Yokogawa GS 200
+</AppThumbnail>
+</div>
+
+## Preamplifiers 
+
+<details> 
+<summary>Category Description</summary> 
+A preamplifier, also known as a preamp, is an electronic amplifier that converts a weak electrical signal into an output signal strong enough to be noise-tolerant and strong enough for further processing, or for sending to a power amplifier and a loudspeaker. Without this, the final signal would be noisy or distorted. They are typically used to amplify signals from analog sensors such as microphones and pickups. Because of this, the preamplifier is often placed close to the sensor to reduce the effects of noise and interference. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='preamplifiers/stanford-research-systems/sr-570'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395465/Instruments/Preamplifiers/SR-570/file.jpg'
+    instrument={true}
+>
+    SR 570
+</AppThumbnail>
+
+<AppThumbnail 
+    path='preamplifiers/stanford-research-systems/sr560'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395651/Instruments/Preamplifiers/SR560/file.jpg'
+    instrument={true}
+>
+    SR560
+</AppThumbnail>
+</div>
+
+## Protocols 
+
+<details> 
+<summary>Category Description</summary> 
+SCPI Instrument 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='protocols/generic-scpi/SCPI-instrument'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.jpg'
+    instrument={true}
+>
+    SCPI Instrument
+</AppThumbnail>
+</div>
+
+## Pulse Generators 
+
+<details> 
+<summary>Category Description</summary> 
+A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='pulse-generators/stanford-research-systems/dg645'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719393/Instruments/Pulse%20Generators/DG645/file.jpg'
+    instrument={true}
+>
+    DG645
+</AppThumbnail>
+</div>
+
+## Quantum Analyzers 
+
+<details> 
+<summary>Category Description</summary> 
+The SHFQA enables multi-state discrimination with optimal signal-to-noise ratio and minimal latency thanks to its advanced sequencer and its low-latency signal processing chain with matched filters and result correlation. The data are transmitted in real-time to other instruments for active qubit reset or global error correction protocols. Controlled through the LabOne software suite comprising the user interface, several APIs and LabOne Q, the SHFQA supports quantum computing projects with sizes ranging from a few to several hundreds of qubits. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='quantum-analyzers/zurich-instruments/shfqa'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.jpg'
+    instrument={true}
+>
+    SHFQA
+</AppThumbnail>
+
+<AppThumbnail 
+    path='quantum-analyzers/zurich-instruments/uhfqa'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.jpg'
+    instrument={true}
+>
+    UHFQA
+</AppThumbnail>
+</div>
+
+## Quantum Computing Control Systems 
+
+<details> 
+<summary>Category Description</summary> 
+A Quantum Computing Control System (QCCS) is designed to control more than 100 superconducting and spin qubits. Each component of the QCCS is conceived to play a specific role in qubit control, readout and feedback, and operates in a fully synchronized manner with the other parts of the system. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='quantum-computing-control-systems/zurich-instruments/pqsc'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/Quantum%20Computing%20Control%20Systems/PQSC/file.jpg'
+    instrument={true}
+>
+    PQSC
+</AppThumbnail>
+</div>
+
+## Qubit Controllers 
+
+<details> 
+<summary>Category Description</summary> 
+Each control channel of the SHFQC has its own powerful sequencer for creating phase- and timing-programmable waveforms, so that a single SHFQC can control or couple qubits with pulses from DC to 8.5 GHz, and react at any time on measurements from the readout channel. With the SHFQC-16W upgrade option, the readout channel's freely configurable integration weights and readout-pulse memories are doubled from 8 to 16. This provides more flexibility in configuring the readout, e.g. by enabling full real-time control and readout of 6 qutrits.
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='qubit-controllers/zurich-instruments/shfqc'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.jpg'
+    instrument={true}
+>
+    SHFQC
+</AppThumbnail>
+</div>
+
+## RF Signal Generators 
+
+<details> 
+<summary>Category Description</summary> 
+A signal generator is one of a class of electronic devices that generates electrical signals with set properties of amplitude, frequency, and wave shape. These generated signals are used as a stimulus for electronic measurements, typically used in designing, testing, troubleshooting, and repairing electronic or electroacoustic devices, though it often has artistic uses as well 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='rf-signal-generators/signalcore/5521a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386184/Instruments/RF%20Signal%20Generators/5521A/file.jpg'
+    instrument={true}
+>
+    5521A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg2005'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639019/Instruments/RF%20Signal%20Generators/AWG2005/file.jpg'
+    instrument={true}
+>
+    AWG2005
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg5014'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395520/Instruments/RF%20Signal%20Generators/AWG5014/file.jpg'
+    instrument={true}
+>
+    AWG5014
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg520'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395708/Instruments/RF%20Signal%20Generators/AWG520/file.jpg'
+    instrument={true}
+>
+    AWG520
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg5208'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395521/Instruments/RF%20Signal%20Generators/AWG5208/file.jpg'
+    instrument={true}
+>
+    AWG5208
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg70000a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395523/Instruments/RF%20Signal%20Generators/AWG70000A/file.jpg'
+    instrument={true}
+>
+    AWG70000A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg70001a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395683/Instruments/RF%20Signal%20Generators/AWG70001A/file.jpg'
+    instrument={true}
+>
+    AWG70001A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg70001b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395685/Instruments/RF%20Signal%20Generators/AWG70001B/file.jpg'
+    instrument={true}
+>
+    AWG70001B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg70002a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395525/Instruments/RF%20Signal%20Generators/AWG70002A/file.jpg'
+    instrument={true}
+>
+    AWG70002A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/tektronix/awg70002b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395685/Instruments/RF%20Signal%20Generators/AWG70002B/file.jpg'
+    instrument={true}
+>
+    AWG70002B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/anapico/apsin-26g'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395179/Instruments/RF%20Signal%20Generators/Apsin-26G/file.jpg'
+    instrument={true}
+>
+    Apsin 26G
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/erainstruments/erasynth'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.jpg'
+    instrument={true}
+>
+    ERASYNTH
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/qutech/f1d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395719/Instruments/RF%20Signal%20Generators/F1d/file.jpg'
+    instrument={true}
+>
+    F1d
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/anritsu/from-mg3690c-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.jpg'
+    instrument={true}
+>
+    From MG3690C Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/zurich-instruments/hdawg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395541/Instruments/RF%20Signal%20Generators/HDAWG/file.jpg'
+    instrument={true}
+>
+    HDAWG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/agilent/keysight-33220a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719424/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.jpg'
+    instrument={true}
+>
+    Keysight 33220A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-33250a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.jpg'
+    instrument={true}
+>
+    Keysight 33250A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-33510b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395569/Instruments/RF%20Signal%20Generators/Keysight-33510B/file.jpg'
+    instrument={true}
+>
+    Keysight 33510B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-33511b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.jpg'
+    instrument={true}
+>
+    Keysight 33511B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-33512b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395572/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.jpg'
+    instrument={true}
+>
+    Keysight 33512B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/agilent/keysight-33521a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719432/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.jpg'
+    instrument={true}
+>
+    Keysight 33521A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-33522b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg'
+    instrument={true}
+>
+    Keysight 33522B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/hp/keysight-8657b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.jpg'
+    instrument={true}
+>
+    Keysight 8657B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/agilent/keysight-e8257d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.jpg'
+    instrument={true}
+>
+    Keysight E8257D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/agilent/keysight-e8267c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.jpg'
+    instrument={true}
+>
+    Keysight E8267C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/agilent/keysight-e8267d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639247/Instruments/RF%20Signal%20Generators/Keysight-E8267D/file.jpg'
+    instrument={true}
+>
+    Keysight E8267D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-e8267d-psg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.jpg'
+    instrument={true}
+>
+    Keysight E8267D PSG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-m3201a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg'
+    instrument={true}
+>
+    Keysight M3201A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-m3202a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395775/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.jpg'
+    instrument={true}
+>
+    Keysight M3202A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-mawgdef'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg'
+    instrument={true}
+>
+    Keysight MAwgDef
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-n5171b-exg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.jpg'
+    instrument={true}
+>
+    Keysight N5171B EXG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-n5173b-exg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639262/Instruments/RF%20Signal%20Generators/Keysight-N5173B-EXG/file.jpg'
+    instrument={true}
+>
+    Keysight N5173B EXG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-n5183b-mxg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395596/Instruments/RF%20Signal%20Generators/Keysight-N5183B-MXG/file.jpg'
+    instrument={true}
+>
+    Keysight N5183B MXG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-n6705b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395608/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.jpg'
+    instrument={true}
+>
+    Keysight N6705B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/keysight-n9030b-pxa'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.jpg'
+    instrument={true}
+>
+    Keysight N9030B PXA
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/keysight/ktmawg-ivi-c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395609/Instruments/RF%20Signal%20Generators/KtMAwg-IVI-C/file.jpg'
+    instrument={true}
+>
+    KtMAwg IVI-C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/national-instruments/ni-pxie-5654'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395786/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.jpg'
+    instrument={true}
+>
+    NI PXIe-5654
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/rs-sgs100a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395646/Instruments/RF%20Signal%20Generators/RS-SGS100A/file.jpg'
+    instrument={true}
+>
+    R&S SGS100A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/national-instruments/rfsg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692809007/Instruments/RF%20Signal%20Generators/RFSG/file.jpg'
+    instrument={true}
+>
+    RFSG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/qutech/s5i'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395794/Instruments/RF%20Signal%20Generators/S5i/file.jpg'
+    instrument={true}
+>
+    S5i
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/sfm'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.jpg'
+    instrument={true}
+>
+    SFM
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/stanford-research-systems/sg-380'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395450/Instruments/RF%20Signal%20Generators/SG-380/file.jpg'
+    instrument={true}
+>
+    SG 380
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/stanford-research-systems/sg384'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395639/Instruments/RF%20Signal%20Generators/SG384/file.jpg'
+    instrument={true}
+>
+    SG384
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/zurich-instruments/shfsg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395679/Instruments/RF%20Signal%20Generators/SHFSG/file.jpg'
+    instrument={true}
+>
+    SHFSG
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/sma100a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.jpg'
+    instrument={true}
+>
+    SMA100A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/smr-40'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.jpg'
+    instrument={true}
+>
+    SMR 40
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/smw-200-a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395799/Instruments/RF%20Signal%20Generators/SMW-200-A/file.jpg'
+    instrument={true}
+>
+    SMW 200 A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='rf-signal-generators/rohdes-schwarz/smw-200a-b140'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395801/Instruments/RF%20Signal%20Generators/SMW-200A-B140/file.jpg'
+    instrument={true}
+>
+    SMW 200A-B140
+</AppThumbnail>
+</div>
+
+## Screen Displays 
+
+<details> 
+<summary>Category Description</summary> 
+Touchscreen Display device
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='screen-displays/gentec-eo/gentec-EO-maestro'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.jpg'
+    instrument={true}
+>
+    Gentec EO Maestro
+</AppThumbnail>
+</div>
+
+## Shutter Controllers 
+
+<details> 
+<summary>Category Description</summary> 
+Optical Shutters utilize a rotary, electro-mechanical actuator to provide millisecond shutter operation. During operation, these shutters remain in a closed position and then open when a pulse control signal is applied by an external controller. As long as the control voltage to the optical shutter remains high, the shutter stays open, but as soon as the voltage goes low, the shutter closes, providing inherent "fail-safe" operation. The frequency at which the device is opened and closed can be controlled. An optical sensor, which detects the shutter blade position in the housing, provides information that confirms the state of the optical shutter position. This makes it ideal in applications where a laser safety lockout is required. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='shutter-controllers/thorlabs/sc10'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639435/Instruments/Shutter%20Controllers/SC10/file.jpg'
+    instrument={true}
+>
+    SC10
+</AppThumbnail>
+</div>
+
+## Spectrometers 
+
+<details> 
+<summary>Category Description</summary> 
+A spectrometer is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed 
+</details>
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='spectrometers/andor/idus-401-ccd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395717/Instruments/Spectrometers/IDUS-401-CCD/file.jpg'
+    instrument={true}
+>
+    IDUS 401 CCD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrometers/quantum-design/PPMS-dynacool'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg'
+    instrument={true}
+>
+    PPMS Dynacool
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrometers/andor/shamrock-750'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg'
+    instrument={true}
+>
+    Shamrock 750
+</AppThumbnail>
+</div>
+
+## Spectrum Analyzers 
+
+<details> 
+<summary>Category Description</summary> 
+A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='spectrum-analyzers/yokogawa/aq6370'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395119/Instruments/Spectrum%20Analyzers/AQ6370/file.jpg'
+    instrument={true}
+>
+    AQ6370
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/bristol/bristol-771'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg'
+    instrument={true}
+>
+    Bristol 771
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/rohdes-schwarz/fsl'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg'
+    instrument={true}
+>
+    FSL
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-4156c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg'
+    instrument={true}
+>
+    Keysight 4156C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/keysight/keysight-b1500a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg'
+    instrument={true}
+>
+    Keysight B1500A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-e4408b-esa-l'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg'
+    instrument={true}
+>
+    Keysight E4408B ESA-L
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-n9000a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg'
+    instrument={true}
+>
+    Keysight N9000A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/anritsu/ms9710c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395177/Instruments/Spectrum%20Analyzers/MS9710C/file.jpg'
+    instrument={true}
+>
+    MS9710C
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/anritsu/ms9740a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395178/Instruments/Spectrum%20Analyzers/MS9740A/file.jpg'
+    instrument={true}
+>
+    MS9740A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/signal-hound/usb-sa-124-b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg'
+    instrument={true}
+>
+    USB SA 124 B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='spectrum-analyzers/rohdes-schwarz/zvl-13'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.jpg'
+    instrument={true}
+>
+    ZVL 13
+</AppThumbnail>
+</div>
+
+## Switches 
+
+<details> 
+<summary>Category Description</summary> 
+An RF switch or microwave switch is a device to route high frequency signals through transmission paths. RF (radio frequency) and microwave switches are used extensively in microwave test systems for signal routing between instruments and devices under test (DUT). Incorporating a switch into a switch matrix system enables you to route signals from multiple instruments to single or multiple DUTs. This allows multiple tests to be performed with the same setup, eliminating the need for frequent connects and disconnects. The entire testing process can be automated, increasing the throughput in high-volume production environments. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='switches/keithley/keithley-s46'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Switches/Keithley-S46/file.jpg'
+    instrument={true}
+>
+    Keithley S46
+</AppThumbnail>
+
+<AppThumbnail 
+    path='switches/keysight/keysight-b2200a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg'
+    instrument={true}
+>
+    Keysight B2200A
+</AppThumbnail>
+</div>
+
+## Temperature Controllers 
+
+<details> 
+<summary>Category Description</summary> 
+Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='temperature-controllers/temptronic/ats-525'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395163/Instruments/Temperature%20Controllers/ATS-525/file.jpg'
+    instrument={true}
+>
+    ATS 525
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/temptronic/ats-545'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395165/Instruments/Temperature%20Controllers/ATS-545/file.jpg'
+    instrument={true}
+>
+    ATS 545
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/picowatt/avs-47'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394036/Instruments/Temperature%20Controllers/AVS-47/file.jpg'
+    instrument={true}
+>
+    AVS 47
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/bluefors/bluefors-temperature-controller'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.jpg'
+    instrument={true}
+>
+    Bluefors temperature controller
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/stanford-research-systems/ctc100'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815203/Instruments/Temperature%20Controllers/CTC100/file.jpg'
+    instrument={true}
+>
+    CTC100
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/temptronic/eco-560'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395187/Instruments/Temperature%20Controllers/ECO-560/file.jpg'
+    instrument={true}
+>
+    ECO 560
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/fluke/fluke-7341'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.jpg'
+    instrument={true}
+>
+    Fluke 7341
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/oxford-instruments/itc-503'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647461/Instruments/Temperature%20Controllers/ITC-503/file.jpg'
+    instrument={true}
+>
+    ITC 503
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/jumo/jumoquantrollc'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.jpg'
+    instrument={true}
+>
+    Jumoquantrollc
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-331'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395444/Instruments/Temperature%20Controllers/Lakeshore-331/file.jpg'
+    instrument={true}
+>
+    Lakeshore 331
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-340'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.jpg'
+    instrument={true}
+>
+    Lakeshore 340
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-model-325'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395611/Instruments/Temperature%20Controllers/Lakeshore-Model-325/file.jpg'
+    instrument={true}
+>
+    Lakeshore Model 325
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-model-335'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395612/Instruments/Temperature%20Controllers/Lakeshore-Model-335/file.jpg'
+    instrument={true}
+>
+    Lakeshore Model 335
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-model-336'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395613/Instruments/Temperature%20Controllers/Lakeshore-Model-336/file.jpg'
+    instrument={true}
+>
+    Lakeshore Model 336
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/lakeshore-model-372'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395614/Instruments/Temperature%20Controllers/Lakeshore-Model-372/file.jpg'
+    instrument={true}
+>
+    Lakeshore Model 372
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/lakeshore/model-331'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395781/Instruments/Temperature%20Controllers/Model-331/file.jpg'
+    instrument={true}
+>
+    Model 331
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/quantum-design/PPMS-dynacool'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395538/Instruments/Temperature%20Controllers/PPMS-Dynacool/file.jpg'
+    instrument={true}
+>
+    PPMS Dynacool
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/hcp/tc-038d'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395099/Instruments/Temperature%20Controllers/TC-038D/file.jpg'
+    instrument={true}
+>
+    TC-038D
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/thorlabs/tc200'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395098/Instruments/Temperature%20Controllers/TC200/file.jpg'
+    instrument={true}
+>
+    TC200
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/temptronic/thermostream-ats-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.jpg'
+    instrument={true}
+>
+    Thermostream ATS Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='temperature-controllers/thermotron/thermotron-3800'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.jpg'
+    instrument={true}
+>
+    Thermotron 3800
+</AppThumbnail>
+</div>
+
+## Temperature Sensors 
+
+<details> 
+<summary>Category Description</summary> 
+Temperature control is a process in which change of temperature of a space (and objects collectively there within), or of a substance, is measured or otherwise detected, and the passage of heat energy into or out of the space or substance is adjusted to achieve a desired temperature 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='temperature-sensors/orbit3/orbit-3-sensor'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639362/Instruments/Temperature%20Sensors/Orbit-3-Sensor/file.jpg'
+    instrument={true}
+>
+    Orbit 3 Sensor
+</AppThumbnail>
+</div>
+
+## Thermometers 
+
+<details> 
+<summary>Category Description</summary> 
+A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object). A thermometer has two important elements: (1) a temperature sensor (e.g. the bulb of a mercury-in-glass thermometer or the pyrometric sensor in an infrared thermometer) in which some change occurs with a change in temperature; and (2) some means of converting this change into a numerical value (e.g. the visible scale that is marked on a mercury-in-glass thermometer or the digital readout on an infrared model). Thermometers are widely used in technology and industry to monitor processes, in meteorology, in medicine, and in scientific research. 
+</details> 
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='thermometers/pico-technology/pt-104-picoch'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395499/Instruments/Thermometers/PT-104-Picoch/file.jpg'
+    instrument={true}
+>
+    PT 104 Picoch
+</AppThumbnail>
 </div>
