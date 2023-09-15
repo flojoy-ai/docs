@@ -1,0 +1,19 @@
+The TEXT_CONCAT node takes in two TextBlob DataContainer type and concatenates the text string.
+
+    Inputs
+    ------
+    a: TextBlob
+        The input text to be concatenated to input b
+
+    b: TextBlob
+        The input text to be concatenated to input a
+
+    Parameters
+    ----------
+    delimiter: "space" | "comma" | "semicolon" | "colon" | "new line" | "none", default="space"
+        Select the delimiter to place between two text.
+
+    Returns
+    -------
+    TextBlob
+       The text result from concatenation.

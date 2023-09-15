@@ -1,0 +1,17 @@
+The VISA_IDENTITY node send an identity query ("*IDN?") to the specified instrument.
+
+    If the "VISA_address" parameter is not specified the VISA_index will be
+    used to find the address. The LIST_VISA node can be used to show the
+    indicies of all available VISA instruments.
+
+    Parameters
+    ----------
+    VISA_address: str
+        The VISA address to query.
+    VISA_index: int
+        The address will be found from LIST_VISA node list with this index.
+
+    Returns
+    -------
+    DataContainer
+        optional: The input DataContainer is returned.
