@@ -33,7 +33,7 @@
   "I/O > Motion > Motor Driver": "MOTOR_DRIVER",
   "I/O > MicroControllers": "MICROCONTROLLERS",
   "I/O > Protocols": "PROTOCOLS",
-  "SCIentific PYthon (SciPy) > Stats": "STATS",
-  "SCIentific PYthon (SciPy) > Signal": "SIGNAL",
-  "NUMerical PYthon (NumPy) > Linalg": "LINALG"
+  "SciPy > Stats": "STATS",
+  "SciPy > Signal": "SIGNAL",
+  "NumPy > Linalg": "LINALG"
 }

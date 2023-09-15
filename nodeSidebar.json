@@ -183,7 +183,7 @@
         "nodes/IO/INSTRUMENTS/SOURCEMETERS/KEITHLEY/24XX/BASIC/IV_SWEEP/IV_SWEEP",
         "nodes/IO/INSTRUMENTS/SOURCEMETERS/KEITHLEY/24XX/BASIC/SET_VOLTAGE/SET_VOLTAGE"
     ],
-    "NUMerical PYthon (NumPy) > Linalg": [
+    "NumPy > Linalg": [
         "nodes/NUMPY/LINALG/CHOLESKY/CHOLESKY",
         "nodes/NUMPY/LINALG/DET/DET",
         "nodes/NUMPY/LINALG/EIG/EIG",
@@ -198,7 +198,7 @@
         "nodes/NUMPY/LINALG/SVD/SVD",
         "nodes/NUMPY/LINALG/TENSORINV/TENSORINV"
     ],
-    "SCIentific PYthon (SciPy) > Signal": [
+    "SciPy > Signal": [
         "nodes/SCIPY/SIGNAL/ARGRELMAX/ARGRELMAX",
         "nodes/SCIPY/SIGNAL/ARGRELMIN/ARGRELMIN",
         "nodes/SCIPY/SIGNAL/BSPLINE/BSPLINE",
@@ -214,7 +214,7 @@
         "nodes/SCIPY/SIGNAL/STFT/STFT",
         "nodes/SCIPY/SIGNAL/WELCH/WELCH"
     ],
-    "SCIentific PYthon (SciPy) > Stats": [
+    "SciPy > Stats": [
         "nodes/SCIPY/STATS/ANDERSON/ANDERSON",
         "nodes/SCIPY/STATS/BAYES_MVS/BAYES_MVS",
         "nodes/SCIPY/STATS/BINOM_TEST/BINOM_TEST",
