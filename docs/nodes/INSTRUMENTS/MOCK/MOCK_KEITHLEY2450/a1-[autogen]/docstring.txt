@@ -1,0 +1,12 @@
+Note this node is for testing purposes only.
+
+    The KEYTHLEY2450 node mocks the instrument KEYTHLEY 2450.
+
+    Parameters
+    ----------
+    value : str
+
+    Returns
+    -------
+    Scalar
+
