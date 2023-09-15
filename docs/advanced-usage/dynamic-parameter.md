@@ -1,4 +1,12 @@
-# Flojoy Dynamic Parameters - for hiding unneeded parameters
+---
+sidebar-position: 2
+id: dynamic-parameters
+title: Dynamic parameters
+---
+
+# Dynamic Parameters
+
+## Conditionally hide node parameters
 
 In some cases, there are parameters inputs that are not used or unneeded. A great example could be the `RAND` node, where different distrubution requires different parameters.
 
@@ -52,8 +60,6 @@ In this example, `lower_bound` and `upper_bound` would be the ONLY displayed par
 `normal_mean` and `normal_standard_deviation` would be the ONLY displayed parameters in the UI when `distribution` is "normal", and so forth.
 
 Note that currently, Flojoy does not support two or more parameter conditions, but is planned in a future release.
-
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

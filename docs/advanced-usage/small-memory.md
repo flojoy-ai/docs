@@ -1,8 +1,10 @@
 ---
 sidebar_position: 1
 id: small-memory
-title: The SmallMemory Class
+title: SmallMemory
 ---
+
+# The SmallMemory class
 
 There are instances where a custom node will need to store complicated data so that future iterations of the node, or perhaps another external node, will be able to access it, even if no direct connections are made in Flojoy. This might be because, while in a loop, a node may be able to make smart decisions about what its future output may be, given the history of another node, for example a measurement made in real time.
 
@@ -70,8 +72,6 @@ If no data has been written to this store with the given node ID and memory key,
 :::info
 Empty dictionaries evaluate to `False` in Python, so you can easily check if `SmallMemory` returned anything real. 
 :::
-
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

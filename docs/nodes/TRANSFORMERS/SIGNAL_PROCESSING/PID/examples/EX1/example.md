@@ -7,4 +7,4 @@ image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFOR
 
 This example demonstrates an active PID controller for a mock non-linear system to be driven to a given setpoint.
 
-This is an advanced subject. For further reading see the [`feedback control`](/docs/advanced-usage/feedback-control/active-feedback.md) section.
+This is an advanced subject. For further reading see the [`feedback control`](/docs/feedback-control/active-feedback.md) section.

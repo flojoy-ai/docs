@@ -1,8 +1,12 @@
 ---
-sidebar-position: 4
+sidebar-position: 0
 id: flojoy-python-library
-title: Flojoy Python Library
+title: Python library
 ---
+
+# Contributing to Flojoy Python library
+
+The Flojoy Python library contains the `flojoy` decorator that converts Python functions into drag-drop nodes on the Flojoy Studio canvas. It also contains the specification for the `DataContainer` class which defines how data is passed between nodes.
 
 If you would like to contribute to the `flojoy` Python library, first clone the `python` repository with `git`:
 
