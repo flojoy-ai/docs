@@ -1,0 +1,21 @@
+The BURST_MODE_33510B node is used
+
+    If the "VISA_address" parameter is not specified the VISA_index will be
+    used to find the address. The LIST_VISA node can be used to show the
+    indicies of all available VISA instruments.
+
+    This node should also work with compatible Keysight 33XXX wavefunction
+    generators (although they are untested).
+
+    Parameters
+    ----------
+    VISA_address: str
+        The VISA address to query.
+    VISA_index: int
+        The address will be found from LIST_VISA node list with this index.
+
+
+    Returns
+    -------
+    DataContainer
+        TextBlob: ON or OFF depending on on_off value.
