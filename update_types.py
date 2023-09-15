@@ -10,7 +10,7 @@ ALLOWED_TYPES = [
     "EXTRACTORS",
     "TRANSFORMERS",
     "ARITHMETIC",
-    "INSTRUMENTS",
+    "IO",
     "LOGIC_GATES",
     "CONDITIONALS",
     "NUMPY",
@@ -60,7 +60,8 @@ def get_type_map(dir_path: str, cur_type: Optional[str] = None):
         return
 
     with os.scandir(dir_path) as entries:
-        entries = sorted(entries, key=lambda e: e.name)  # Sort entries alphabetically
+        # Sort entries alphabetically
+        entries = sorted(entries, key=lambda e: e.name)
 
         for entry in entries:
             if not entry.is_dir():
@@ -78,7 +79,8 @@ def browse_directories(dir_path: str):
         return
 
     with os.scandir(dir_path) as entries:
-        entries = sorted(entries, key=lambda e: e.name)  # Sort entries alphabetically
+        # Sort entries alphabetically
+        entries = sorted(entries, key=lambda e: e.name)
 
         for entry in entries:
             if not entry.is_dir():

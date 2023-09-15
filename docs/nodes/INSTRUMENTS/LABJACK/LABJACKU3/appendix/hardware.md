@@ -1,3 +1,0 @@
-- [A LabJack U3 LV daq](https://labjack.com/products/u3)
-- N temperature sensors, ([LM34Caz/Nopb](https://www.digikey.com/en/products/detail/texas-instruments/LM34CAZ-NOPB/117873) are used in this example)
-- Connections cables (USB, Electronic cables)

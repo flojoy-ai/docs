@@ -1,2 +1,0 @@
-- [Serial Communication](https://en.wikipedia.org/wiki/Serial_communication) - General
-- [Serial](https://www.arduino.cc/reference/en/language/functions/communication/serial/) - Arduino

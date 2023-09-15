@@ -3,6 +3,8 @@ title : Flojoy Press Kit
 description: Logos, screenshots, bios, headshots, and contact email for press covering Flojoy.
 ---
 
+import SectionBreak from '@site/src/components/SectionBreak';
+
 # PRESS KIT 📰
 
 ## Logos - full text 

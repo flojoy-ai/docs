@@ -88,7 +88,7 @@
 }
 
 [data-theme='light']:root .node-explorer-toc {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .explore-nodes-h1 {
@@ -97,7 +97,8 @@
   letter-spacing: 5px;
 }
 
-.explore-nodes-h2, .explore-nodes-preamble {
+.explore-nodes-h2,
+.explore-nodes-preamble {
   margin: 20px 40px;
 }
 
@@ -132,16 +133,16 @@
   height: 250px;
 }
 
-.app-thumbnail-figure > .thumbnail-image-container  > img {
+.app-thumbnail-figure > .thumbnail-image-container > img {
   height: 100%;
   object-fit: cover;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.app-thumbnail-figure > .thumbnail-image-container  > img:hover {
+.app-thumbnail-figure > .thumbnail-image-container > img:hover {
   transform: scale(1.5);
 }
 
 .app-thumbnail-figure > figcaption {
-  font-family: Menlo;  
+  font-family: Menlo;
 }

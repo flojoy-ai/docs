@@ -10,8 +10,8 @@ const variantMap = {
   ETL: 'etl',
   'I/O': 'io',
   Flow: 'logic',
-  'NUMerical PYthon (NumPy)': 'numpy',
-  'SCIentific PYthon (SciPy)': 'scipy',
+  NumPy: 'numpy',
+  SciPy: 'scipy',
 };
 
 export default function Explore() {

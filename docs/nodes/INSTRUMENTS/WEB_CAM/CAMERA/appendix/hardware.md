@@ -1,1 +1,0 @@
-- A USB camera connected to your computer or a WebCam.

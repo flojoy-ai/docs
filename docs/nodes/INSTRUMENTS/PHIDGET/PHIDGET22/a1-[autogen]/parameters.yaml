@@ -1,9 +1,0 @@
-calibration1:
-  default: 0.015
-  type: float
-calibration2:
-  default: 0.06
-  type: float
-n_sensors:
-  default: 3
-  type: int
