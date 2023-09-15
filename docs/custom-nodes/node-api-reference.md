@@ -179,7 +179,6 @@ def LOOP(
 ) -> LoopOutput:
     ...
 ```
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

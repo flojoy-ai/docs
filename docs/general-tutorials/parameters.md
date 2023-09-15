@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
-id: ctrls
-title: Parameters Introduction
+id: parameters
+title: Parameters UI introduction
 ---
 
 # Parameters
@@ -44,8 +44,6 @@ Saving the app will save the parameters with the currently set values.
 :::
 
 You have now finished a tutorial showing the basics of Flojoy.
-
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

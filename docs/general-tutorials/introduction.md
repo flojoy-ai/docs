@@ -82,8 +82,6 @@ To save the app for later use, click on `File -> Save As` in the top right, and 
 
 You can also load an already saved app from here using `File -> Load`.
 
-<SectionBreak />
-
 [//]: # 'Edit page on GitHub'
 
 #### Edit this page on GitHub

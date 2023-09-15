@@ -47,8 +47,6 @@ Available `DataContainer` types include:
 
 - `DataContainer` : this is the base class for all `DataContainer` types. It can be used to represent any of the above data types. It is recommended to always use the most specific type possible but this type can be used in cases where any type of `DataContainer` is a valid input.
 
-<SectionBreak />
-
 [//]: # (Edit page on GitHub)
 
 #### Edit page on GitHub

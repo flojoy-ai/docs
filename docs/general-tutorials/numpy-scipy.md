@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: numpyscipy
+id: numpy-scipy
 title: NumPy+SciPy Nodes
 ---
 
@@ -48,8 +48,6 @@ Currently these nodes only handle OrderedPair data. However, it is likely that s
 
 </p>
 </details> 
-
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

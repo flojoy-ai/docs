@@ -136,7 +136,6 @@ def test_NLP_CONNECT_VIT_GPT2(
         == "a man in a suit and tie standing in front of a flag"
     )
 ```
-<SectionBreak />
 
 [//]: # (Edit page on GitHub)
 

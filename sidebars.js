@@ -14,9 +14,9 @@ const sidebars = {
       label: 'General Tutorials',
       items: [
         'general-tutorials/introduction',
-        'general-tutorials/ctrls',
-        'general-tutorials/dc_types',
-        'general-tutorials/numpyscipy',
+        'general-tutorials/parameters',
+        'general-tutorials/dc-types',
+        'general-tutorials/numpy-scipy',
       ],
     },
     {

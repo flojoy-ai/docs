@@ -17,8 +17,6 @@ In order to contribute your own custom node,
 
 This way the **nodes** submodule will be tracked in the **studio** repository by the latest commit hash also the pull requests will be in sync as well.
 
-<SectionBreak />
-
 [//]: # (Edit page on GitHub)
 
 #### Edit page on GitHub

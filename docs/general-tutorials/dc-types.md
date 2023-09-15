@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-id: dc_types
+id: dc-types
 title: Node Data Types
 ---
 
