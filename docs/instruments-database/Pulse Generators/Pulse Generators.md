@@ -14,20 +14,21 @@ You can find all the available instruments from the sidebar
 
 ## Pulse Generators 
 
- <details> 
- <summary>Category Description</summary> 
- A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+A pulse generator is either an electronic circuit or a piece of electronic test equipment used to generate rectangular pulses. Pulse generators are used primarily for working with digital circuits; related function generators are used primarily for analog circuits. 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
-
-<a href="/instruments-database/pulse-generators/stanford-research-systems/dg645">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719393/Instruments/Pulse%20Generators/DG645/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DG645</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='pulse-generators/stanford-research-systems/dg645'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719393/Instruments/Pulse%20Generators/DG645/file.jpg'
+    instrument={true}
+>
+    DG645
+</AppThumbnail>
 </div>

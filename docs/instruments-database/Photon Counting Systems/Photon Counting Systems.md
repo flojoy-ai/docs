@@ -12,32 +12,31 @@ Welcome to the Photon Counting Systems page! Here you can find information about
 You can find all the available instruments from the sidebar
 
 
-## Photon Counting Systems 
+## Photon Counting Systems
 
- <details> 
- <summary>Category Description</summary> 
- Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+Photon counting is a technique in which individual photons are counted using a single-photon detector (SPD). A single-photon detector emits a pulse of signal for each detected photon. The counting efficiency is determined by the quantum efficiency and the system's electronic losses. 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<AppThumbnail 
+    path='photon-counting-systems/picoquant/picoharp-300'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg'
+    instrument={true}
+>
+    PicoHarp 300
+</AppThumbnail>
 
-<a href="/instruments-database/photon-counting-systems/picoquant/picoharp-300">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PicoHarp 300</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/photon-counting-systems/singlequantum/singlequantum">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Singlequantum</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='photon-counting-systems/singlequantum/singlequantum'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg'
+    instrument={true}
+>
+    Singlequantum
+</AppThumbnail>
 </div>

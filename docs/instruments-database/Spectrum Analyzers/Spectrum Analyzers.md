@@ -14,120 +14,101 @@ You can find all the available instruments from the sidebar
 
 ## Spectrum Analyzers 
 
- <details> 
- <summary>Category Description</summary> 
- A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+A spectrum analyzer measures the magnitude of an input signal versus frequency within the full frequency range of the instrument. The primary use is to measure the power of the spectrum of known and unknown signals. 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<AppThumbnail 
+    path='spectrum-analyzers/yokogawa/aq6370'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395119/Instruments/Spectrum%20Analyzers/AQ6370/file.jpg'
+    instrument={true}
+>
+    AQ6370
+</AppThumbnail>
 
-<a href="/instruments-database/spectrum-analyzers/yokogawa/aq6370">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395119/Instruments/Spectrum%20Analyzers/AQ6370/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>AQ6370</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='spectrum-analyzers/bristol/bristol-771'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg'
+    instrument={true}
+>
+    Bristol 771
+</AppThumbnail>
 
+<AppThumbnail 
+    path='spectrum-analyzers/rohdes-schwarz/fsl'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg'
+    instrument={true}
+>
+    FSL
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-4156c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg'
+    instrument={true}
+>
+    Keysight 4156C
+</AppThumbnail>
 
-<a href="/instruments-database/spectrum-analyzers/bristol/bristol-771">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Bristol 771 </figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='spectrum-analyzers/keysight/keysight-b1500a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg'
+    instrument={true}
+>
+    Keysight B1500A
+</AppThumbnail>
 
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-e4408b-esa-l'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg'
+    instrument={true}
+>
+    Keysight E4408B ESA-L
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='spectrum-analyzers/agilent/keysight-n9000a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg'
+    instrument={true}
+>
+    Keysight N9000A
+</AppThumbnail>
 
-<a href="/instruments-database/spectrum-analyzers/rohdes-schwarz/fsl">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FSL</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='spectrum-analyzers/anritsu/ms9710c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395177/Instruments/Spectrum%20Analyzers/MS9710C/file.jpg'
+    instrument={true}
+>
+    MS9710C
+</AppThumbnail>
 
+<AppThumbnail 
+    path='spectrum-analyzers/anritsu/ms9740a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395178/Instruments/Spectrum%20Analyzers/MS9740A/file.jpg'
+    instrument={true}
+>
+    MS9740A
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='spectrum-analyzers/signal-hound/usb-sa-124-b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg'
+    instrument={true}
+>
+    USB SA 124 B
+</AppThumbnail>
 
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-4156c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 4156C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/keysight/keysight-b1500a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B1500A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-e4408b-esa-l">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4408B ESA-L</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/agilent/keysight-n9000a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N9000A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/anritsu/ms9710c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395177/Instruments/Spectrum%20Analyzers/MS9710C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MS9710C</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/anritsu/ms9740a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395178/Instruments/Spectrum%20Analyzers/MS9740A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MS9740A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/signal-hound/usb-sa-124-b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>USB SA 124 B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/spectrum-analyzers/rohdes-schwarz/zvl-13">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ZVL 13</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='spectrum-analyzers/rohdes-schwarz/zvl-13'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395810/Instruments/Spectrum%20Analyzers/ZVL-13/file.jpg'
+    instrument={true}
+>
+    ZVL 13
+</AppThumbnail>
 </div>

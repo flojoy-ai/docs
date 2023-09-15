@@ -52,6 +52,7 @@ export default function AppThumbnail({ children, path, img, instrument }: AppThu
                 <img 
                   alt={children}
                   src={imgSrc}
+                  style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}
                 />
               </div>
               <figcaption>{children}</figcaption>

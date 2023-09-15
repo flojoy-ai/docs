@@ -14,40 +14,37 @@ You can find all the available instruments from the sidebar
 
 ## Lasers 
 
- <details> 
- <summary>Category Description</summary> 
- A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+A laser diode (LD, also injection laser diode or ILD, or diode laser) is a semiconductor device similar to a light-emitting diode in which a diode pumped directly with electrical current can create lasing conditions at the diode's junction 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<AppThumbnail 
+    path='lasers/keysight/keysight-n7776c'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg'
+    instrument={true}
+>
+    Keysight N7776C
+</AppThumbnail>
 
-<a href="/instruments-database/lasers/keysight/keysight-n7776c">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N7776C</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lasers/toptica/topmode'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg'
+    instrument={true}
+>
+    TopMode
+</AppThumbnail>
 
-
-<div className="p-4">
-
-<a href="/instruments-database/lasers/toptica/topmode">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TopMode</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lasers/toptica/ibeam-smart">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>iBeam smart</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lasers/toptica/ibeam-smart'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395423/Instruments/Lasers/iBeam-smart/file.jpg'
+    instrument={true}
+>
+    iBeam smart
+</AppThumbnail>
 </div>

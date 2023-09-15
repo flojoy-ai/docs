@@ -14,20 +14,21 @@ You can find all the available instruments from the sidebar
 
 ## Laser Diode Controllers 
 
- <details> 
- <summary>Category Description</summary> 
- Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+Laser diode controllers have an integrated precision laser diode driver and high stability temperature controller. Multiple levels of laser diode protection are built into each instrument including isolated power supplies, slow start, adjustable current limit and compliance voltage, intermittent contact protection, and output shorting relays. To complement our line of laser diode controllers, ILX Lightwave offers a wide variety of laser diode mounts and fixtures with standard interconnection cables. 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
-
-<a href="/instruments-database/laser-diode-controllers/thorlabs/pro8000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PRO8000</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='laser-diode-controllers/thorlabs/pro8000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639386/Instruments/Laser%20Diode%20Controllers/PRO8000/file.jpg'
+    instrument={true}
+>
+    PRO8000
+</AppThumbnail>
 </div>
