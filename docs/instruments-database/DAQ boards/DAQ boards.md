@@ -12,102 +12,87 @@ Welcome to the DAQ Boards page! Here you can find information about the DAQ Boar
 You can find all the available instruments from the sidebar
 
 
-## DAQ Boards 
+## DAQ Boards
 
- <details> 
- <summary>Category Description</summary> 
- Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+Data acquisition computer boards, also known as DAQ cards, are self-contained printed circuit boards (PCBs) that plug into backplanes, motherboards, or interface directly with a computer. They either have direct inputs or receive analog and digital inputs from signal conditioners, modules, relays or sensors. They are capable of supplying outputs in the form of an analog voltage, current, frequency, or switched output. They are used to translate signal and sensor data into a digital format that computers can process. 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9360-12bit-18gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9360-12bit, 1.8GS/s
+</AppThumbnail>
 
-<a href="/instruments-database/daq-boards/alazartech/ats9360-12bit-18gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395512/Instruments/DAQ%20boards/ATS9360-12bit-1.8GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9360-12bit, 1.8GS/s</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9373-12-bit-4-gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9373-12 bit, 4 GS/s
+</AppThumbnail>
 
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg'
+    instrument={true}
+>
+    ATS9440-14 bit, 125 MS/s, 4 ch
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='daq-boards/alazartech/ats9870-8-bit-1-gs-s'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg'
+    instrument={true}
+>
+    ATS9870-8 bit, 1 GS/s
+</AppThumbnail>
 
-<a href="/instruments-database/daq-boards/alazartech/ats9373-12-bit-4-gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9373-12 bit, 4 GS/s</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34934a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg'
+    instrument={true}
+>
+    Keysight 34934A
+</AppThumbnail>
 
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34980a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='daq-boards/keysight/keysight-34980a-submodules'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg'
+    instrument={true}
+>
+    Keysight 34980A Submodules
+</AppThumbnail>
 
-<a href="/instruments-database/daq-boards/alazartech/ats9440-14-bit-125-ms-s-4-ch">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395517/Instruments/DAQ%20boards/ATS9440-14-bit-125-MS-s-4-ch/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9440-14 bit, 125 MS/s, 4 ch</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='daq-boards/national-instruments/ni-daq'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg'
+    instrument={true}
+>
+    NI DAQ
+</AppThumbnail>
 
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/alazartech/ats9870-8-bit-1-gs-s">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ATS9870-8 bit, 1 GS/s</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34934a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34934A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34980a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/keysight/keysight-34980a-submodules">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A Submodules</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/national-instruments/ni-daq">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>NI DAQ</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/daq-boards/advantech/PCIE-1751">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PCIE 1751</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='daq-boards/advantech/PCIE-1751'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395783/Instruments/DAQ%20boards/PCIE-1751/file.jpg'
+    instrument={true}
+>
+    PCIE 1751
+</AppThumbnail>
 </div>

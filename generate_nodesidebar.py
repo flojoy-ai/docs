@@ -45,7 +45,10 @@ def write_nodesidebar():
     nodes_map: dict[str, str | list[str]] = load_file("nodes_sidebar_map.json")
     new_map: dict[str, list[str]] = defaultdict(list)
 
-    for root, _, files in walk(NODES_DIR):
+    for root, dirnames, files in walk(NODES_DIR):
+        # only care about directories for actual nodes
+        if (any((d not in __ignore_dirs) for d in dirnames)):
+            continue
         if any((dir in root) for dir in __ignore_dirs):
             continue
         file_proccessed = []

@@ -14,341 +14,277 @@ You can find all the available instruments from the sidebar
 
 ## Oscilloscopes 
 
- <details> 
- <summary>Category Description</summary> 
- An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
- </details> 
-
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo4104">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395102/Instruments/Oscilloscopes/DPO4104/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO4104</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo5000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395686/Instruments/Oscilloscopes/DPO5000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO5000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo7000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814923/Instruments/Oscilloscopes/DPO7000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO7000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/dpo70000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647177/Instruments/Oscilloscopes/DPO70000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DPO70000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/hdo4000a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394016/Instruments/Oscilloscopes/HDO4000A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDO4000A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/hdo6000b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394017/Instruments/Oscilloscopes/HDO6000B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HDO6000B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/infiniium-oscilloscopes-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Infiniium oscilloscopes Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/agilent/keysight-86100a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 86100A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/keysight-dsox1102g">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight DSOX1102G</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/keysight/keysight-n6705b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/labmaster-10-zi-a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LabMaster 10 Zi-A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/lecroy/lecroydso">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Lecroydso
-</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/mda8000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MDA8000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/mso5000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395690/Instruments/Oscilloscopes/MSO5000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MSO5000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/mso70000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639352/Instruments/Oscilloscopes/MSO70000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MSO70000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rohdes-schwarz/rs-rto1000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>R&S RTO1000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds1000-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS1000-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds1074z">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS1074Z</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/rigol/rigol-ds4000-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Rigol DS4000-Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds2000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS2000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds224">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS224</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds500-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395110/Instruments/Oscilloscopes/TDS500-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS500 Series</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds510a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS510A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds520-tds540">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395114/Instruments/Oscilloscopes/TDS520-TDS540/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS520/TDS540</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tds5xx">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TDS5XX</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/tektronix/tsp2012">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639561/Instruments/Oscilloscopes/TSP2012/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TSP2012</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveMaster/SDA/DDA 8 Zi-B</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavepro-hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WavePro HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/waverunner-8000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveRunner 8000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/waverunner-9000">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveRunner 9000</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-3000z">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394026/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 3000z</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-4000hd">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 4000HD</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/oscilloscopes/teledyne/wavesurfer-510">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>WaveSurfer 510</figcaption>
-</figure>
-</a></div>
+<details> 
+<summary>Category Description</summary> 
+An oscilloscope is a type of electronic test instrument that graphically displays varying voltages of one or more signals as a function of time. The main purpose is capture information on electrical signals for debugging, analysis, or characterization. The displayed waveform can then be analyzed for properties such as amplitude, frequency, rise time, time interval, distortion, and others. Originally, calculation of these values required manually measuring the waveform against the scales built into the screen of the instrument. Modern digital instruments may calculate and display these properties directly. 
+</details> 
+
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
+
+<div className="flex flex-wrap">
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo4104'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395102/Instruments/Oscilloscopes/DPO4104/file.jpg'
+    instrument={true}
+>
+    DPO4104
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo5000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395686/Instruments/Oscilloscopes/DPO5000/file.jpg'
+    instrument={true}
+>
+    DPO5000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo7000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814924/Instruments/Oscilloscopes/DPO7000/file.jpg'
+    instrument={true}
+>
+    DPO7000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/dpo70000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647177/Instruments/Oscilloscopes/DPO70000/file.jpg'
+    instrument={true}
+>
+    DPO70000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/hdo4000a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394016/Instruments/Oscilloscopes/HDO4000A/file.jpg'
+    instrument={true}
+>
+    HDO4000A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/hdo6000b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394017/Instruments/Oscilloscopes/HDO6000B/file.jpg'
+    instrument={true}
+>
+    HDO6000B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/infiniium-oscilloscopes-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg'
+    instrument={true}
+>
+    Infiniium oscilloscopes Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/agilent/keysight-86100a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg'
+    instrument={true}
+>
+    Keysight 86100A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/keysight-dsox1102g'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg'
+    instrument={true}
+>
+    Keysight DSOX1102G
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/keysight/keysight-n6705b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg'
+    instrument={true}
+>
+    Keysight N6705B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/labmaster-10-zi-a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.jpg'
+    instrument={true}
+>
+    LabMaster 10 Zi-A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/lecroy/lecroydso'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395493/Instruments/Oscilloscopes/Lecroydso/file.jpg'
+    instrument={true}
+>
+    Lecroydso
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/mda8000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg'
+    instrument={true}
+>
+    MDA8000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/mso5000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395690/Instruments/Oscilloscopes/MSO5000/file.jpg'
+    instrument={true}
+>
+    MSO5000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/mso70000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639352/Instruments/Oscilloscopes/MSO70000/file.jpg'
+    instrument={true}
+>
+    MSO70000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rohdes-schwarz/rs-rto1000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.jpg'
+    instrument={true}
+>
+    R&S RTO1000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds1000-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg'
+    instrument={true}
+>
+    Rigol DS1000-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds1074z'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg'
+    instrument={true}
+>
+    Rigol DS1074Z
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/rigol/rigol-ds4000-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg'
+    instrument={true}
+>
+    Rigol DS4000-Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds2000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg'
+    instrument={true}
+>
+    TDS2000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds224'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814953/Instruments/Oscilloscopes/TDS224/file.jpg'
+    instrument={true}
+>
+    TDS224
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds500-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395110/Instruments/Oscilloscopes/TDS500-Series/file.jpg'
+    instrument={true}
+>
+    TDS500 Series
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds510a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.jpg'
+    instrument={true}
+>
+    TDS510A
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds520-tds540'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395114/Instruments/Oscilloscopes/TDS520-TDS540/file.jpg'
+    instrument={true}
+>
+    TDS520/TDS540
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tds5xx'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395115/Instruments/Oscilloscopes/TDS5XX/file.jpg'
+    instrument={true}
+>
+    TDS5XX
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/tsp2012'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639561/Instruments/Oscilloscopes/TSP2012/file.jpg'
+    instrument={true}
+>
+    TSP2012
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.jpg'
+    instrument={true}
+>
+    WaveMaster/SDA/DDA 8 Zi-B
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavepro-hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg'
+    instrument={true}
+>
+    WavePro HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/waverunner-8000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.jpg'
+    instrument={true}
+>
+    WaveRunner 8000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/waverunner-9000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.jpg'
+    instrument={true}
+>
+    WaveRunner 9000
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-3000z'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394026/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 3000z
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-4000hd'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394027/Instruments/Oscilloscopes/WaveSurfer-4000HD/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 4000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/teledyne/wavesurfer-510'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg'
+    instrument={true}
+>
+    WaveSurfer 510
+</AppThumbnail>
 </div>

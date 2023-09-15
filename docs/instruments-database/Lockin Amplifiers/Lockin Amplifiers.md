@@ -14,170 +14,141 @@ You can find all the available instruments from the sidebar
 
 ## Lockin Amplifiers 
 
- <details> 
- <summary>Category Description</summary> 
- A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+A lock-in amplifier is a type of amplifier that can extract a signal with a known carrier wave from an extremely noisy environment 
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
+<AppThumbnail 
+    path='lockin-amplifiers/ametek/ametek-7270'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.jpg'
+    instrument={true}
+>
+    Ametek 727
+</AppThumbnail>
 
-<a href="/instruments-database/lockin-amplifiers/ametek/ametek-7270">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395175/Instruments/Lockin%20Amplifiers/Ametek-7270/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Ametek 7270</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/zurich-instruments/hf2li'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg'
+    instrument={true}
+>
+    HF2LI
+</AppThumbnail>
 
+<AppThumbnail 
+    path='lockin-amplifiers/ithaco/ithaco-1211'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg'
+    instrument={true}
+>
+    Ithaco 1211
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='lockin-amplifiers/keysight/keysight-j7211-a-b-c-series'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg'
+    instrument={true}
+>
+    Keysight J7211/A/B/C-Series
+</AppThumbnail>
 
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/hf2li">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HF2LI</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/qutech/m2j'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg'
+    instrument={true}
+>
+    M2j
+</AppThumbnail>
 
+<AppThumbnail 
+    path='lockin-amplifiers/zurich-instruments/mfli'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg'
+    instrument={true}
+>
+    MFLI
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr-510'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395458/Instruments/Lockin%20Amplifiers/SR-510/file.jpg'
+    instrument={true}
+>
+    SR 510
+</AppThumbnail>
 
-<a href="/instruments-database/lockin-amplifiers/ithaco/ithaco-1211">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Ithaco 1211</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr-830'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814791/Instruments/Lockin%20Amplifiers/SR-830/file.jpg'
+    instrument={true}
+>
+    SR 830
+</AppThumbnail>
 
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr-850'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395148/Instruments/Lockin%20Amplifiers/SR-850/file.jpg'
+    instrument={true}
+>
+    SR 850
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr-860'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814805/Instruments/Lockin%20Amplifiers/SR-860/file.jpg'
+    instrument={true}
+>
+    SR 860
+</AppThumbnail>
 
-<a href="/instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight J7211/A/B/C-Series</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr830'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814811/Instruments/Lockin%20Amplifiers/SR830/file.jpg'
+    instrument={true}
+>
+    SR830
+</AppThumbnail>
 
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr860'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814818/Instruments/Lockin%20Amplifiers/SR860/file.jpg'
+    instrument={true}
+>
+    SR860
+</AppThumbnail>
 
-<div className="p-4">
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/sr865a'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814823/Instruments/Lockin%20Amplifiers/SR865A/file.jpg'
+    instrument={true}
+>
+    SR865A
+</AppThumbnail>
 
-<a href="/instruments-database/lockin-amplifiers/qutech/m2j">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>M2j</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/stanford-research-systems/srs-830'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814835/Instruments/Lockin%20Amplifiers/SRS-830/file.jpg'
+    instrument={true}
+>
+    SRS 830
+</AppThumbnail>
 
+<AppThumbnail 
+    path='lockin-amplifiers/standa/standa-10mwa168'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg'
+    instrument={true}
+>
+    Standa 10MWA168
+</AppThumbnail>
 
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/mfli">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MFLI</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-510">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395458/Instruments/Lockin%20Amplifiers/SR-510/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 510</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814791/Instruments/Lockin%20Amplifiers/SR-830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-850">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395148/Instruments/Lockin%20Amplifiers/SR-850/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 850</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr-860">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814805/Instruments/Lockin%20Amplifiers/SR-860/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR 860</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814811/Instruments/Lockin%20Amplifiers/SR830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr860">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814818/Instruments/Lockin%20Amplifiers/SR860/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR860</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/sr865a">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814823/Instruments/Lockin%20Amplifiers/SR865A/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SR865A</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/stanford-research-systems/srs-830">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692814835/Instruments/Lockin%20Amplifiers/SRS-830/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SRS 830</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/standa/standa-10mwa168">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Standa 10MWA168</figcaption>
-</figure>
-</a></div>
-
-
-<div className="p-4">
-
-<a href="/instruments-database/lockin-amplifiers/zurich-instruments/uhfli">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>UHFLI</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='lockin-amplifiers/zurich-instruments/uhfli'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg'
+    instrument={true}
+>
+    UHFLI
+</AppThumbnail>
 </div>

@@ -54,16 +54,20 @@ export default function AppThumbnail({
 
   return (
     <div className="p-4">
-      <a href={`/${pathRoot}/${path}/`}>
-        {
-          <figure className={`category-page-thumbnail ${thumbnailClass}`}>
-            <div class="thumbnail-image-container">
-              <img alt={children} src={imgSrc} />
-            </div>
-            <figcaption>{children}</figcaption>
-          </figure>
-        }
-      </a>
+        <a href={`/${pathRoot}/${path}/`}>
+            {
+            <figure className={`category-page-thumbnail ${thumbnailClass}`}>
+              <div class='thumbnail-image-container'>
+                <img 
+                  alt={children}
+                  src={imgSrc}
+                  style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}
+                />
+              </div>
+              <figcaption>{children}</figcaption>
+            </figure>
+            }
+        </a>
     </div>
   );
 }

@@ -27,14 +27,14 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Classification'
     blockquote = 'No-code Flojoy AI nodes for SVM, one-hot encoding, and more.'
     sectionRoot = 'AI_ML/CLASSIFICATION'
-    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TRAIN_TEST_SPLIT']}
+    nodes = {['ACCURACY', 'ONE_HOT_ENCODING', 'SUPPORT_VECTOR_MACHINE', 'TORCHSCRIPT_CLASSIFIER', 'TRAIN_TEST_SPLIT']}
 />
 
 <AppThumbnailSection
     sectionName = 'AI-assisted image processing'
-    blockquote = 'No-code Flojoy AI nodes for image captioning (ViT + GPT2), object detection (YOLOv3), and image segmentation (DEEPLAB).'
+    blockquote = 'No-code Flojoy AI nodes for image captioning (ViT + GPT2), image classification (Hugging Face pipeline), object detection (YOLOv3), and image segmentation (DEEPLAB).'
     sectionRoot = 'AI_ML'
-    nodes = {['IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2', 'OBJECT_DETECTION/OBJECT_DETECTION', 'SEGMENTATION/DEEPLAB_V3']}
+    nodes = {['IMAGE_CAPTIONING/NLP_CONNECT_VIT_GPT2', 'IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE', 'OBJECT_DETECTION/OBJECT_DETECTION', 'SEGMENTATION/DEEPLAB_V3']}
 />
 
 <AppThumbnailSection
@@ -51,7 +51,13 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
 />
 
-# ETL - Extractors
+## ETL - Extractors examples
+
+Here you can find a list of all the Flojoy ETL nodes extract data from a remote or local data source for use within Flojoy apps.
+
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Local files'
@@ -67,7 +73,13 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['EXTRACT_COLUMNS']}
 />
 
-# ETL - Transformers
+## ETL - Transformer examples
+
+Here you can find a list of all the Flojoy ETL nodes that can transform input data.
+
+Data in Flojoy is passed between nodes inside [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/). Transformer nodes can be used to convert one DataContainer type to another, perform mathematical operations on the data within a DataContainer, and much more.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Arithmetic'
@@ -92,9 +104,9 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix inverstion and matrix product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inverstion and product.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
-    nodes = {['INVERT', 'MATMUL']}
+    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
 />
 
 <AppThumbnailSection
@@ -118,7 +130,20 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['SELECT_ARRAY']}
 />
 
-# ETL - Loaders
+<AppThumbnailSection
+    sectionName = 'Vector manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, such as determining the vector length and value at a requested index.'
+    sectionRoot = 'TRANSFORMERS/VECTOR_MANIPULATION'
+    nodes = {['VECTOR_INDEXING', 'VECTOR_LENGTH']}
+/>
+
+## ETL - Loaders examples
+
+Here you can find information about all the no-code Flojoy ETL nodes that load data to a remote or local data store.
+
+If interested in Flojoy's ETL capabilities, please also see the [Extractor](/nodes/EXTRACTORS/) and [Transformer](/nodes/TRANSFORMERS/) nodes.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Cloud databases'
@@ -141,7 +166,18 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['BATCH_PROCESSOR', 'LOCAL_FILE', 'OPEN_MATLAB']}
 />
 
-# Logic
+<AppThumbnailSection
+    sectionName = 'Remote file system'
+    blockquote = 'No-code Flojoy nodes for reading and writing data files to and from remote.'
+    sectionRoot = 'LOADERS/REMOTE_FILE_SYSTEM'
+    nodes = {['REMOTE_FILE']}
+/>
+
+## Logic expression examples
+
+Here you can find information about all the Flojoy nodes that can be used as logic gates to control the execution flow of Flojoy nodes.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Conditionals'
@@ -164,7 +200,11 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['TIMER']}
 />
 
-# Visualizers
+## Visualizer examples
+
+Here you can find information about all the Flojoy nodes that can be used to visualize your data.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Data structure visualization'
@@ -180,7 +220,58 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['BAR', 'BIG_NUMBER', 'COMPOSITE', 'HEATMAP', 'HISTOGRAM', 'IMAGE', 'LINE', 'PROPHET_COMPONENTS', 'PROPHET_PLOT', 'SCATTER', 'SCATTER3D', 'SURFACE3D', 'TABLE']}
 />
 
-# NumPy
+## Generator examples
+
+Generator nodes can be used to generate synthetic data for your Flojoy apps if you do not have data readily on-hand or are creating a Python-based simulation.
+
+You can also find all of these nodes in the sidebar.
+
+<AppThumbnailSection
+    sectionName = 'Sample datasets'
+    blockquote = 'Flojoy nodes that output sample datasets for rapidly creating and testing Flojoy apps. Use these nodes as inputs to AI & ML nodes, image processing nodes, and others.'
+    sectionRoot = 'GENERATORS'
+    nodes = {['SAMPLE_DATASETS/PLOTLY_DATASET', 'SAMPLE_DATASETS/R_DATASET', 'SAMPLE_DATASETS/TEXT_DATASET', 'SAMPLE_IMAGES/SKIMAGE']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Simulation'
+    blockquote = 'Flojoy nodes that output simulation data such as waveforms, scalars (constants), and empty matrices.'
+    sectionRoot = 'GENERATORS/SIMULATIONS'
+    nodes = {['BASIC_OSCILLATOR', 'CONSTANT', 'FEEDBACK', 'LINSPACE', 'MATRIX', 'RAND', 'SCALAR', 'SECOND_ORDER_SYSTEM', 'SINE', 'TEXT', 'TIMESERIES', 'WAVEPACKET']}
+/>
+
+## Instrument examples
+
+Here you can find a list of all the Flojoy nodes that can be used with instruments, motor drivers, analog sensors, and other hardware devices.
+
+You can also find all of these nodes in the sidebar.
+
+<AppThumbnailSection
+    sectionName = 'Instruments'
+    blockquote = 'Flojoy nodes for connecting to benchtop scientific instruments and cameras.'
+    sectionRoot = 'INSTRUMENTS'
+    nodes = {['KEITHLEY/KEITHLEY2400', 'LABJACK/LABJACKU3', 'MOCK/MOCK_WEINSCHEL8320', 'PHIDGET/PHIDGET22', 'QCODES/CLOSE_ALL', 'WEB_CAM/CAMERA']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Serial protocol'
+    blockquote = 'Flojoy nodes for connecting to hardware through the USB or RS-232 serial ports.'
+    sectionRoot = 'INSTRUMENTS'
+    nodes = {['SERIAL_SINGLE_MEASUREMENT', 'SERIAL_TIMESERIES']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Motor control'
+    blockquote = 'Flojoy nodes for connecting to motor drivers and precision control of motor movement.'
+    sectionRoot = 'INSTRUMENTS/STEPPER_MOTOR'
+    nodes = {['STEPPER_DRIVER_TIC', 'STEPPER_DRIVER_TIC_KNOB']}
+/>
+
+## NumPy examples
+
+Here you can find information about all the Flojoy nodes that can be used for NumPy functions.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'np.linalg'
@@ -189,7 +280,11 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     nodes = {['CHOLESKY', 'DET', 'EIG', 'EIGH', 'EIGVALS', 'EIGVALSH', 'INV', 'MATRIX_POWER', 'PINV' , 'QR', 'SLODGET', 'SVD', 'TENSORINV']}
 />
 
-# SciPy
+## SciPy examples
+
+Here you can find information about all the Flojoy nodes that can be used for SciPy functions.
+
+You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'scipy.signal'
@@ -204,5 +299,3 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionRoot = 'SCIPY/STATS'
     nodes = {['ANDERSON', 'BAYES_MVS', 'BINOM_TEST', 'GSTD', 'GZSCORE', 'JARQUE_BERA', 'KURTOSIS', 'KURTOSISTEST', 'MOMENT', 'MVSDIST', 'NORMALTEST', 'SEM', 'SHAPIRO', 'SIGMACLIP', 'SKEW', 'SKEWTEST', 'TMAX', 'TMIN', 'TRIM1', 'TRIMBOTH', 'TRIM_MEAN', 'TTEST_1SAMP', 'VARIATION', 'YEOJOHNSON', 'ZSCORE']}
 />
-
-

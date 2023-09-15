@@ -16,6 +16,14 @@ Here you can find information about all the Flojoy nodes that take at least one 
 <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
 <div className="p-4">
+<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>DOT PRODUCT</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />

@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,8 +18,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -28,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
-
+### Execute a torchscript classifier against an image
 
 <AppDisplay 
     nodeLabel='TORCHSCRIPT_CLASSIFIER'
@@ -41,8 +40,6 @@ import outputImg from './examples/EX1/output.jpeg'
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -56,4 +53,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

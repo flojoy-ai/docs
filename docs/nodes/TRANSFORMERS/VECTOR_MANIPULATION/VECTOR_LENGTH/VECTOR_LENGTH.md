@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,8 +18,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -26,7 +25,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-
+### Extract the length of a Vector
 
 <AppDisplay 
     nodeLabel='VECTOR_LENGTH'
@@ -38,9 +37,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 <Example1 />
 
-<SectionBreak />
-  
-    
+<SectionBreak /> 
 
 [//]: # (Appendix)
 
@@ -54,4 +51,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_LENGTH/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_LENGTH/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

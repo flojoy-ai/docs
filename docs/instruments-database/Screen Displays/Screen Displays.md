@@ -14,21 +14,21 @@ You can find all the available instruments from the sidebar
 
 ## Screen Displays 
 
- <details> 
- <summary>Category Description</summary> 
- Touchscreen Display device
- 
- </details> 
+<details> 
+<summary>Category Description</summary> 
+Touchscreen Display device
+</details> 
 
- <div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnail from '@site/src/components/AppThumbnail';
 
+<div className="flex flex-wrap">
 
-<div className="p-4">
-
-<a href="/instruments-database/screen-displays/gentec-eo/gentec-EO-maestro">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.jpg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Gentec EO Maestro</figcaption>
-</figure>
-</a></div>
+<AppThumbnail 
+    path='screen-displays/gentec-eo/gentec-EO-maestro'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.jpg'
+    instrument={true}
+>
+    Gentec EO Maestro
+</AppThumbnail>
 </div>
