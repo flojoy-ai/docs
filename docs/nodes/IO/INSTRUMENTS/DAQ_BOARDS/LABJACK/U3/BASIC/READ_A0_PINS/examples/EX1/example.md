@@ -13,8 +13,4 @@ The [`LABJACKU3`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/LABJA
 
 The [`BAR`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/BAR/BAR.py) node displays all temperature measurements on the same figure.
 
-<<<<<<< HEAD:docs/nodes/IO/INSTRUMENTS/DAQ_BOARDS/LABJACK/U3/BASIC/READ_A0_PINS/examples/EX1/example.md
-To update the results with the latest measurements, we use the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node to create a loop around our [`LABJACKU3`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3.py) and [`BAR`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/BAR/BAR.py) nodes. (Refer to the `LOOP` node documentation for more information).
-=======
 To update the results with the latest measurements, we use the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node to create a loop around our [`LABJACKU3`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/LABJACK/LABJACKU3/LABJACKU3.py) and [`BAR`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/BAR/BAR.py) nodes. (Refer to the [`LOOP`](https://github.com/flojoy-io/nodes/blob/main/LOGIC_GATES/LOOPS/LOOP/LOOP.py) node documentation for more information).
->>>>>>> main:docs/nodes/INSTRUMENTS/LABJACK/LABJACKU3/examples/EX1/example.md
