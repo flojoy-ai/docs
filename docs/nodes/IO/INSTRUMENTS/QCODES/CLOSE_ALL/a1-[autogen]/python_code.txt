@@ -1,0 +1,14 @@
+from flojoy import flojoy, DataContainer
+from qcodes.instrument import Instrument
+from typing import Optional
+
+
+@flojoy(deps={"qcodes": "0.39.1"})
+def CLOSE_ALL(
+    default: Optional[DataContainer] = None,
+) -> Optional[DataContainer]:
+    
+
+    Instrument.close_all()
+
+    return default
