@@ -1,0 +1,13 @@
+import numpy as np
+from flojoy import flojoy, Matrix
+
+
+@flojoy
+def SHUFFLE_MATRIX(
+    default: Matrix,
+) -> Matrix:
+    
+
+    shuffledVector = np.random.permutation(default.m)
+
+    return Matrix(m=shuffledVector)

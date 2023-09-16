@@ -1,0 +1,11 @@
+The SHUFFLE_MATRIX node returns a matrix that is randomly shuffled by the first axis
+
+    Inputs
+    ------
+    default : Matrix
+        The input Matrix
+
+    Returns
+    -------
+    Matrix
+        Shuffled input Matrix

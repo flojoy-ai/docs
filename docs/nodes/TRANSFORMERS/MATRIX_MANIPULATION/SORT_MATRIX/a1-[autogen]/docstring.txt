@@ -1,0 +1,16 @@
+The SORT_MATRIX node takes a input matrix and sort it by the axis.
+
+    Inputs
+    ------
+    a : Matrix
+        The input matrix to be multiplied to input b
+
+    Parameters
+    ----------
+    axis : int
+        Axis along which to sort. Default is -1, which means sort along the last axis.
+
+    Returns
+    -------
+    Matrix
+        The matrix result from sorting.
