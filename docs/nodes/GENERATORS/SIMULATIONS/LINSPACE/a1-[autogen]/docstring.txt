@@ -1,23 +1,22 @@
-
 The LINSPACE node generates data spaced evenly between two points.
 
-It uses the numpy function linspace. It is useful for generating an x axis for the ordered pair data type.
+    It uses the 'linspace' numpy function. It is useful for generating an x-axis for the OrderedPair data type.
 
-Inputs
-------
-default : OrderedPair
-    Optional input in case LINSPACE is used in a loop. Not used.
+    Inputs
+    ------
+    default : OrderedPair
+        Optional input in case LINSPACE is used in a loop. Not used.
 
-Parameters
-----------
-start : float
-    The start point of the data.
-end : float
-    The end point of the data.
-step : float
-    The number of points in the vector.
+    Parameters
+    ----------
+    start : float
+        The start point of the data.
+    end : float
+        The end point of the data.
+    step : float
+        The number of points in the vector.
 
-Returns
--------
-Vector
-    v: the vector between start and end with step number of points.
+    Returns
+    -------
+    Vector
+        v: the vector between 'start' and 'end' with a 'step' number of points.
