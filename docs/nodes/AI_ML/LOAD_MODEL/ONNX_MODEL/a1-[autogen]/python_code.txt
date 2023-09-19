@@ -1,0 +1,43 @@
+from flojoy import flojoy, run_in_venv, Vector
+
+@flojoy
+@run_in_venv(
+    pip_dependencies=[
+        "onnxruntime",
+        "numpy",
+        "onnx",
+    ]
+)
+def ONNX_MODEL(
+    file_path: str,
+    default: Vector,
+) -> Vector:
+    
+
+    import onnx
+    import numpy as np
+    import onnxruntime as rt
+
+    # Pre-loading the serialized model to validate whether is well-formed or not.
+    model = onnx.load(file_path)
+    onnx.checker.check_model(model)
+
+    input_tensor = default.v
+
+    # Using ONNX runtime for the ONNX model to make predictions.
+    sess = rt.InferenceSession(file_path)
+
+    # TODO(jjerphan): Assuming a single input and a single output for now.
+    input_name = sess.get_inputs()[0].name
+    label_name = sess.get_outputs()[0].name
+
+    # TODO(jjerphan): For now NumPy is assumed to be the main backend for Flojoy.
+    # We might adapt it in the future so that we can use other backends
+    # for tensor libraries for application using Deep Learning libraries.
+    pred_onx = sess.run(
+        [label_name],
+        {input_name: np.asarray(input_tensor, dtype=np.float32)}
+    )[0]
+
+    return Vector(v=pred_onx)
+

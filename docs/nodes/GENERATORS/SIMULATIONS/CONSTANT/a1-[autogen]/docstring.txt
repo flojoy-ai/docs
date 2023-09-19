@@ -1,29 +1,26 @@
-
 The CONSTANT node generates a single x-y vector of numeric (floating point) constants.
 
-Inputs
-------
-default : OrderedPair|Vector
-    Optional input that defines the size of the output.
+    Inputs
+    ------
+    default : OrderedPair|Vector
+        Optional input that defines the size of the output.
 
-Parameters
-----------
-dc_type : select
-    The type of DataContainer to return.
-constant : float
-    The value of the y axis output.
-step : int
-    The size of the y and x axes.
+    Parameters
+    ----------
+    dc_type : select
+        The type of DataContainer to return.
+    constant : float
+        The value of the y axis output.
+    step : int
+        The size of the y and x axes.
 
-Returns
--------
-OrderedPair
-
-OrderedPair|Vector|Scalar
-    OrderedPair if selected
-    x: the x axis generated with size 'step'
-    y: the resulting constant with size 'step'
-    Vector if selected
-    v: the resulting constant with size 'step'
-    Scalar if selected
-    c: the resulting constant
+    Returns
+    -------
+    OrderedPair|Vector|Scalar
+        OrderedPair if selected
+        x: the x axis generated with size 'step'
+        y: the resulting constant with size 'step'
+        Vector if selected
+        v: the resulting constant with size 'step'
+        Scalar if selected
+        c: the resulting constant
