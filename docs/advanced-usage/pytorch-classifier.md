@@ -36,3 +36,49 @@ class_name
 ```
 
 Now, with these files at hand, you're all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_CLASSIFIER` node.
+
+### 3. [Optional] Train the model on your own data
+
+If you'd like to train the model on your own data, your dataset needs to be compatible with the PyTorch `ImageFolder` dataset format. This essentially means that your images need to be structured in a directory hierarchy such as:
+
+```
+dataset/
+├── class_1
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── ...
+├── class_2
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── ...
+├── ...
+```
+
+For more information on the `ImageFolder` dataset format, refer to the PyTorch documentation [here](https://pytorch.org/vision/stable/generated/torchvision.datasets.ImageFolder.html#torchvision.datasets.ImageFolder).
+
+
+You will need to curate both (a) training and (b) test sets with the format described above, and compress them together in a zip file containing a `training_set` folder and a `test_set` folder.
+
+```
+dataset.zip/
+├── training_set/
+│   ├── class_1
+│   │   ├── img1.jpg
+│   │   ├── img2.jpg
+│   │   ├── ...
+│   ├── class_2
+│   │   ├── img1.jpg
+│   │   ├── img2.jpg
+│   │   ├── ...
+│   ├── ...
+├── test_set/
+│   ├── class_1
+│   │   ├── img1.jpg
+│   │   ├── img2.jpg
+│   │   ├── ...
+│   ├── class_2
+│   │   ├── img1.jpg
+│   │   ├── img2.jpg
+│   │   ├── ...
+│   ├── ...
+```
