@@ -39,4 +39,4 @@ The BURST_MODE_33510B node is used to turn the Burst mode on or off.
     Returns
     -------
     DataContainer
-        TextBlob: ON or OFF depending on on_off value.
+        TextBlob: summary of burst mode settings.
