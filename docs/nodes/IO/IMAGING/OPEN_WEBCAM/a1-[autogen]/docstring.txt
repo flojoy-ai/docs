@@ -1,0 +1,12 @@
+The OPEN_WEBCAM node opens a connection with the selected camera.
+
+    Parameters
+    ----------
+    camera : Camera
+        The camera to use.
+    resolution : select
+        Camera resolution. Choose from a few options.
+
+    Returns
+    -------
+    None
