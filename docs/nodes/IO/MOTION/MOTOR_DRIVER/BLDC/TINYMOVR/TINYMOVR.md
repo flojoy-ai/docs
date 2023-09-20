@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -16,8 +17,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 <PythonCode GLink='IO/MOTION/MOTOR_DRIVER/BLDC/TINYMOVR/TINYMOVR.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
-
-    
 
 [//]: # (Examples)
 
@@ -39,8 +38,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -54,4 +51,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/MOTION/MOTOR_DRIVER/BLDC/TINYMOVR/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/MOTION/MOTOR_DRIVER/BLDC/TINYMOVR/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

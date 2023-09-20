@@ -5,7 +5,7 @@ keyword: [Python, Instrument, Serial communication timeseries, Python serial dat
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/examples/EX1/output.jpeg
 ---
 
-In this example, we use the `SERIAL_TIMESERIES` node to extract some time-dependent measurements received from an Arduino microcontroller, and visualize the output.
+In this example, we use the `SERIAL_TIMESERIES` node to extract time-dependent measurements received from an Arduino microcontroller, and visualize the output.
 
 First, you need to connect the Arduino to your computer. Then, you'll need to upload an Arduino script to your board to define its behavior (with the Arduino IDE software). When your Arduino sends data to the serial monitor of the Arduino IDE, you can start using the [`SERIAL_TIMESERIES`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/SERIAL_TIMESERIES.py) node. After placing the node on Flojoy, you must specify the communication port to which the Arduino is connected. This port is found in the Arduino IDE software under _Tools/Port_.
 

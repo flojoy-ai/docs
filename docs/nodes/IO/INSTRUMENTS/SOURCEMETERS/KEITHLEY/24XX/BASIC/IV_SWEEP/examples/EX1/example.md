@@ -11,8 +11,8 @@ First you need to connect the Keithley2400 source meter to the computer with a s
 
 The [`LINSPACE`](https://github.com/flojoy-io/nodes/blob/main/GENERATORS/SIMULATIONS/LINSPACE/LINSPACE.py) node defines the voltage range sent to the electronic device. The user defines the voltage range by setting these parameters with Numeric Input:
 
-- LINSPACE START: Define your first Voltage.
-- LINSPACE END: Define your last Voltage.
+- LINSPACE START: Define your first voltage.
+- LINSPACE END: Define your last voltage.
 - LINSPACE STEP: Define the number of voltages between the first and the last one.
 
 The [`KEITHLEY2400`](https://github.com/flojoy-io/nodes/blob/main/INSTRUMENTS/KEITHLEY/KEITHLEY2400/KEITHLEY2400.py) node will communicate with the source meter through serial communication to send voltages and measure currents from the device. This node has two communication parameters set by the user after connecting the Keithley2400 to their computer:
