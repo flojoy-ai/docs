@@ -1,5 +1,7 @@
-In this example, we generate two Vector nodes using `Linspace` node.
+<!--Add SEO here-->
 
-Using `VECTOR_2_ORDERED_PAIR`, let one of the Vector nodes to be x axis and the other to be y axis.
+In this example, we generate two vectors using the `LINSPACE` node.
 
-Visualize the OrderedPair type output using `Scatter` node
+We then use the `VECTOR_2_ORDERED_PAIR` node to let one of the vectors be the x-axis and the other be the y-axis.
+
+Lastly, we visualize the OrderedPair type output using the `SCATTER` node.

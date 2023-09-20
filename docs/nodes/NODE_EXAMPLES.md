@@ -104,9 +104,23 @@ You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inverstion and product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion and product.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
     nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'OrderedPair manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based OrderedPair manipulation, including inversion.'
+    sectionRoot = 'TRANSFORMERS/ORDERED_PAIR_MANIPULATION'
+    nodes = {['ORDERED_PAIR_XY_INVERT']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Text manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based text manipulation, including concatenation of string.'
+    sectionRoot = 'TRANSFORMERS/TEXT_MANIPULATION'
+    nodes = {['TEXT_CONCAT']}
 />
 
 <AppThumbnailSection
@@ -120,7 +134,7 @@ You can also find all of these nodes in the sidebar.
     sectionName = 'Type casting'
     blockquote = 'Use these nodes to convert one DataContainer type to another.'
     sectionRoot = 'TRANSFORMERS/TYPE_CASTING'
-    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT']}
+    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT', 'VECTOR_2_ORDERED_PAIR']}
 />
 
 <AppThumbnailSection
@@ -247,24 +261,38 @@ Here you can find a list of all the Flojoy nodes that can be used with instrumen
 You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
-    sectionName = 'Instruments'
-    blockquote = 'Flojoy nodes for connecting to benchtop scientific instruments and cameras.'
-    sectionRoot = 'INSTRUMENTS'
-    nodes = {['KEITHLEY/KEITHLEY2400', 'LABJACK/LABJACKU3', 'MOCK/MOCK_WEINSCHEL8320', 'PHIDGET/PHIDGET22', 'QCODES/CLOSE_ALL', 'WEB_CAM/CAMERA']}
+sectionName = 'Analog Sensors'
+blockquote = 'Flojoy nodes for recording data from analog sensors'
+sectionRoot = 'IO/ANALOG_SENSORS'
+nodes = {['PRESSURE_SENSORS/FLEXIFORCE_25LB/FLEXIFORCE_25LB', 'THERMOCOUPLES/LM34/LM34']}
 />
 
 <AppThumbnailSection
-    sectionName = 'Serial protocol'
-    blockquote = 'Flojoy nodes for connecting to hardware through the USB or RS-232 serial ports.'
-    sectionRoot = 'INSTRUMENTS'
-    nodes = {['SERIAL_SINGLE_MEASUREMENT', 'SERIAL_TIMESERIES']}
+sectionName = 'Instruments'
+blockquote = 'Flojoy nodes for connecting to benchtop scientific instruments and cameras.'
+sectionRoot = 'IO/INSTRUMENTS'
+nodes = {['DAQ_BOARDS_LABJACK/U3/BASIC/READ_A0_PINS/READ_A0_PINS', 'DAQ_BOARDS/PHIDGET/INTERFACEKIT/BASIC/READ_N_PINS/READ_N_PINS', 'MOCK/WEINSCHEL8320/WEINSCHEL8320', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/ADVANCED_MEASUREMENTS_MDO3XXX/ADVANCED_MEASUREMENTS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/TRIGGER_SETTINGS_MDO3XXX/TRIGGER_SETTINGS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASURE_PHASE_MDO3XXX/MEASURE_PHASE_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASUREMENTS_MDO3XXX/MEASUREMENTS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TERMINATION_MDO3XXX/TERMINATION_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_CHANNEL_MDO3XXX/TRIGGER_CHANNEL_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_LEVEL_MDO3XXX/TRIGGER_LEVEL_MDO3XXX', 'QCODES/CLOSE_ALL/CLOSE_ALL', 'QCODES/LIST_VISA/LIST_VISA', 'QCODES/VISA_IDENTITY/VISA_IDENTITY', 'SOURCEMETERS/KEITHLEY//24XX/BASIC/IV_SWEEP', 'SOURCEMETERS/KEITHLEY//24XX/BASIC/SET_VOLTAGE']}
 />
 
 <AppThumbnailSection
-    sectionName = 'Motor control'
-    blockquote = 'Flojoy nodes for connecting to motor drivers and precision control of motor movement.'
-    sectionRoot = 'INSTRUMENTS/STEPPER_MOTOR'
-    nodes = {['STEPPER_DRIVER_TIC', 'STEPPER_DRIVER_TIC_KNOB']}
+sectionName = 'Imaging'
+blockquote = 'Flojoy nodes for connecting to USB cameras.'
+sectionRoot = 'IO/IMAGING'
+nodes = {['WEB_CAM/CAMERA']}
+/>
+
+<AppThumbnailSection
+sectionName = 'Protocols'
+blockquote = 'Flojoy nodes for connecting to hardware through the USB or RS-232 serial ports.'
+sectionRoot = 'INSTRUMENTS/PROTOCOLS'
+nodes = {['CAN/CAN', 'SCPI/SCPI', 'SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT', 'SERIAL/BASIC/SINGLE_MEASUREMENT/SINGLE_MEASUREMENT', 'SERIAL/BASIC/TIMESERIES/TIMESERIES', 'VISA/VISA']}
+/>
+
+<AppThumbnailSection
+sectionName = 'Motion Control'
+blockquote = 'Flojoy nodes for connecting to motor drivers and precision control of motor movement.'
+sectionRoot = 'INSTRUMENTS/MOTION/MOTOR_DRIVER'
+nodes = {['BLDC/LINENGINEERING/LINENGINEERING', 'BLDC/TINYMOVR/TINYMOVR', 'SERVO/TINYMOVR2/TINYMOVR2', 'STEPPER/ADAFRUIT/ADAFRUIT', 'STEPPER/POLULU/TIC/TIC', 'STEPPER/POLULU/TIC_KNOB', 'STEPPER/ZABER/ZABER']}
 />
 
 ## NumPy examples

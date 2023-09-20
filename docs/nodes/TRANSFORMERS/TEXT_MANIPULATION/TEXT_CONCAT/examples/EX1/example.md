@@ -1,1 +1,5 @@
-In this example, we generate two texts using `TEXT` node. Then the texts are concatenated using the `TEXT_CONCAT` node with a delimiter specified that has space set as the default. The new text is visualized with `TEXT_VIEW` node.
+<!--Add SEO here-->
+
+In this example, we generate two texts using the `TEXT` node. The texts are then concatenated using the `TEXT_CONCAT` node, where the delimiter is set as the default ('space'). 
+
+The new text is visualized with the `TEXT_VIEW` node.
