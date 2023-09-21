@@ -1,4 +1,4 @@
-The SCATTER node creates a Plotly Scatter visualization for a given input data container.
+The SCATTER node creates a Plotly Scatter visualization for a given input DataContainer.
 
     Inputs
     ------
@@ -8,4 +8,4 @@ The SCATTER node creates a Plotly Scatter visualization for a given input data c
     Returns
     -------
     Plotly
-        the DataContainer containing Plotly Scatter visualization
+        the DataContainer containing the Plotly Scatter visualization
