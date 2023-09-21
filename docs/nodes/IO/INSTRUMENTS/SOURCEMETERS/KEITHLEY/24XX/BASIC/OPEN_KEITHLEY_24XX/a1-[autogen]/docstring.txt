@@ -1,0 +1,10 @@
+The OPEN_KEITHLEY_24XX node opens a connection with the Keithley 2400 source meter.
+
+    Parameters
+    ----------
+    device: Serial
+        The connected serial device corresponding to the Keithley 2400 source meter.
+
+    Returns
+    -------
+    None
