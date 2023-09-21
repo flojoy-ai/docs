@@ -1,11 +1,15 @@
-<!--Add SEO here-->
+---
+title: Waveform Generator Output Sync
+description: The OUTPUT_SYNC_33510B node is used sync multiple outputs phases.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
-In this example, we demonstrate how to extract signal traces from a Tektronix MDO3000 oscilloscope. 
+In this example, we sync the waveform output phases generation for a Keysight 33510B. Each channel in the 33510B has a `phase` which results in shifting the wavefunction in the x axis (i.e. time). One channel should be chosen as the baseline for this phase to ensure the phases match for the two channels (the phase of the second channel is then with respect to the baseline channel).
 
-**Note:** The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
+:::note
+The 33510B nodes should also work with other 33XXX wavefunction generators. However, these are untested as of yet.
+:::
 
-First, we list the VISA devices with the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node. Knowing that the serial number is C012101, we enter the VISA address that contains this into the `VISA address` parameter for both of the `EXTRACT_TRACE` nodes.
+We add the [`OUTPUT_SYNC_33510B`](https://github.com/flojoy-ai/nodes/tree/develop/IO/INSTRUMENTS/FUNCTION_GENERATORS/KEYSIGHT/33XXX) node as well as the [`TEXT_VIEW`](https://github.com/flojoy-ai/nodes/blob/develop/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW.py) node to view the summary of the changes. We also add the `CLOSE_ALL` node at the beginning. This node can be useful when the instrument remains connected to a previous usage/app.
 
-The [`EXTRACT_TRACE_MDO3XXX`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX.py) node extracts the data from the oscilloscope for a single channel. You must first set the channel that you want to extract from and the x-axis (time) length. In this example, we set the top and bottom rows in the app to extract CH1 and CH2, repectively (note that in Flojoy we start counting from 0). We then set the x length to 2000ns.
-
-The [`LINE`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/LINE/LINE.py) node will display the data for each channel, where the two sine waves define the two channels.
+We then must set the node parameters. First the VISA address must be set. This can be found using the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node (alternatively you can use the VISA index but this is slower). Then the baseline channel must be set as well as whether to turn the output sync on or off.

@@ -1,11 +1,17 @@
-<!--Add SEO here-->
+---
+title: Waveform Generator Return Errors
+description: The RETURN_ERRORS_33510B node returns error messages from the WFG.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
-In this example, we demonstrate how to extract signal traces from a Tektronix MDO3000 oscilloscope. 
+In this example, we return errors that the Keysight 33510B has generated.
 
-**Note:** The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
+:::note
+The 33510B nodes should also work with other 33XXX wavefunction generators. However, these are untested as of yet.
+:::
 
-First, we list the VISA devices with the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node. Knowing that the serial number is C012101, we enter the VISA address that contains this into the `VISA address` parameter for both of the `EXTRACT_TRACE` nodes.
+We add the [`RETURN_ERRORS_33510B`](https://github.com/flojoy-ai/nodes/tree/develop/IO/INSTRUMENTS/FUNCTION_GENERATORS/KEYSIGHT/33XXX) node as well as the [`TEXT_VIEW`](https://github.com/flojoy-ai/nodes/blob/develop/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/TEXT_VIEW.py) node to view the summary of the error.
 
-The [`EXTRACT_TRACE_MDO3XXX`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX.py) node extracts the data from the oscilloscope for a single channel. You must first set the channel that you want to extract from and the x-axis (time) length. In this example, we set the top and bottom rows in the app to extract CH1 and CH2, repectively (note that in Flojoy we start counting from 0). We then set the x length to 2000ns.
+irst the VISA address must be set. This can be found using the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node (alternatively you can use the VISA index but this is slower).
 
-The [`LINE`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/LINE/LINE.py) node will display the data for each channel, where the two sine waves define the two channels.
+In this case `No error` is returned, but in the case of an actual error, the specific error will appear.

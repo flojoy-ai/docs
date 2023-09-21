@@ -2,7 +2,9 @@
 
 In this example, we demonstrate how to measure the phase difference between two channels for a Tektronix MDO3000 oscilloscope. 
 
-**Note:** The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
+:::note
+The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
+:::
 
 Sometimes an error can occur when playing an app. This may dictate that the [`CLOSE_ALL`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/CLOSE_ALL/CLOSE_ALL.py) node is used to ensure that all instrument connections are closed. 
 
