@@ -2,8 +2,9 @@
 
 In this example, we demonstrate how to set the triggering channel for a Tektronix MDO3000 oscilloscope and how to set the trigger threshold voltage. 
 
-**Note:** The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
-
+:::note
+The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
+:::
 We must first enter the `VISA address` parameter for the three `MDO3XXX` nodes (use the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node to find the VISA address).
 
 The [`TRIGGER_CHANNEL_MDO3XXX`](https://github.com/flojoy-ai/nodes/tree/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_CHANNEL_MDO3XXX) node can be used to either set or query the triggering channel.
