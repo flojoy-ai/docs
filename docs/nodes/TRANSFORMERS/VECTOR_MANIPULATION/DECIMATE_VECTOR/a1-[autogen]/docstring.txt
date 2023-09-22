@@ -1,5 +1,5 @@
-The DECIMATE_VECTOR node returns the input vector where
-    the elements are in the reverse order
+The DECIMATE_VECTOR node returns the input vector by reducing the
+    number of points by given factor
 
     Inputs
     ------
@@ -9,7 +9,7 @@ The DECIMATE_VECTOR node returns the input vector where
     Parameters
     ----------
     factor : int
-        Decimate factor which determines how many elements will be skipped 
+        Decimate factor which determines how many elements will be skipped
         between each selected element in the output vector
 
     Returns
