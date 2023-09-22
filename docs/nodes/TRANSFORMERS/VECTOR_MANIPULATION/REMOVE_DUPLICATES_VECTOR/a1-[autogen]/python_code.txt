@@ -1,0 +1,11 @@
+from numpy import unique
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def REMOVE_DUPLICATES_VECTOR(
+    default: Vector,
+) -> Vector:
+    
+
+    return Vector(v=unique(default.v))
