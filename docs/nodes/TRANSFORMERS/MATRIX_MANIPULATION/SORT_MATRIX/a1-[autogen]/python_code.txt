@@ -1,0 +1,11 @@
+from numpy import sort
+from flojoy import flojoy, Matrix
+
+
+@flojoy
+def SORT_MATRIX(a: Matrix, axis: int = -1) -> Matrix:
+    
+    inputMatrix = a.m
+    sortedMatrix = sort(inputMatrix, axis=axis)
+
+    return Matrix(m=sortedMatrix)
