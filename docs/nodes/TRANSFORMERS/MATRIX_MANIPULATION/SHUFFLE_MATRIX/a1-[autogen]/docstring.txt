@@ -5,6 +5,11 @@ The SHUFFLE_MATRIX node returns a matrix that is randomly shuffled by the first 
     default : Matrix
         The input Matrix
 
+    Parameters
+    ----------
+    axis : int
+        Axis along which to sort. Default is -1, which means sort along the last axis.
+
     Returns
     -------
     Matrix

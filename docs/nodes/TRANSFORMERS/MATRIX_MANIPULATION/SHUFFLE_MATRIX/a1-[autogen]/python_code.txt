@@ -1,13 +1,19 @@
-import numpy as np
+from numpy.random import shuffle
+from numpy import apply_along_axis
 from flojoy import flojoy, Matrix
 
+
+def shuffle_row(row):
+    shuffle(row)
+    return row
 
 @flojoy
 def SHUFFLE_MATRIX(
     default: Matrix,
+    axis: int = 0,
 ) -> Matrix:
     
 
-    shuffledVector = np.random.permutation(default.m)
+    shuffledVector = apply_along_axis(shuffle_row, axis, default.m)
 
     return Matrix(m=shuffledVector)

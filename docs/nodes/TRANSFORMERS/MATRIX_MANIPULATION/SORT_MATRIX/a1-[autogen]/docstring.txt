@@ -1,4 +1,4 @@
-The SORT_MATRIX node takes a input matrix and sort it by the axis.
+The SORT_MATRIX node takes a input matrix and sort it along the chosen axis.
 
     Inputs
     ------
