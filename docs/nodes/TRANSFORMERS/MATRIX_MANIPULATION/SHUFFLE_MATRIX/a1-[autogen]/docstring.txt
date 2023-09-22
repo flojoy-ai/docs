@@ -8,7 +8,7 @@ The SHUFFLE_MATRIX node returns a matrix that is randomly shuffled by the first 
     Parameters
     ----------
     axis : int
-        Axis along which to sort. Default is -1, which means sort along the last axis.
+        Axis along the matrix is shuffled. If axis is 0, shuffled by row and if it is 1, shuffled by column.
 
     Returns
     -------
