@@ -1,4 +1,4 @@
-The SURFACE3D node creates a Plotly 3D Surface visualization for a given input DataContainer.
+The SURFACE3D node creates a Plotly 3D Surface visualization for a given input data container.
 
     Inputs
     ------
@@ -8,5 +8,5 @@ The SURFACE3D node creates a Plotly 3D Surface visualization for a given input D
     Returns
     -------
     Plotly
-        the DataContainer containing the Plotly 3D Surface visualization
+        the DataContainer containing Plotly 3D Surface visualization
 

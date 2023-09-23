@@ -1,4 +1,4 @@
-The TWO_DIMENSIONAL_FFT node performs a two-dimensional fast fourier transform function on the input matrix.
+The TWO_DIMENSIONAL_FFT node performs a two-dimensional fourier transform function on the input matrix.
 
     With the FFT algorithm, the input matrix will undergo a change of basis from the space domain into the frequency domain.
 
@@ -11,7 +11,7 @@ The TWO_DIMENSIONAL_FFT node performs a two-dimensional fast fourier transform f
 
     Parameters
     ----------
-    real_signal : bool
+    real_input : boolean
         true if the input matrix consists of only real numbers, false otherwise
     color : select
         if the input is an RGBA or RGB image, this parameter selects the color channel to perform the FFT on

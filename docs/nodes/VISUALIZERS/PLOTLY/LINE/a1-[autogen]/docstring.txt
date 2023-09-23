@@ -1,4 +1,4 @@
-The LINE node creates a Plotly Line visualization for a given input DataContainer.
+The LINE node creates a Plotly Line visualization for a given input data container.
 
     Inputs
     ------
@@ -8,4 +8,4 @@ The LINE node creates a Plotly Line visualization for a given input DataContaine
     Returns
     -------
     Plotly
-        the DataContainer containing the Plotly Line visualization of the input data
+        the DataContainer containing Plotly Line visualization of the input data

@@ -7,9 +7,9 @@ The READ_S3 node takes a S3_key name, S3 bucket name, and file name as input, an
     Parameters
     ----------
     s3_name : str
-        name of the key that the user used to save the access and secret access keys
+        name of the key that the user used to save access and secret access key
     bucket_name : str
-        Amazon S3 bucket name that they are trying to access
+        AWS S3 bucket name that they are trying to access
     file_name : str
         name of the file that they want to extract
 

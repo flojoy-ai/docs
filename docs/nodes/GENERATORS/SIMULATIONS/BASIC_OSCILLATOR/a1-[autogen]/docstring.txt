@@ -5,7 +5,7 @@ The BASIC_OSCILLATOR node is a combination of the LINSPACE and SINE nodes.
     Parameters
     ----------
     sample_rate : float
-        The number of samples that are taken in a second.
+        How many samples are taken in a second.
     time : float
         The total amount of time of the signal.
     waveform : select

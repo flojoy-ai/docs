@@ -6,8 +6,8 @@ The MVSDIST node is based on a numpy or scipy function.
 
     Parameters
     ----------
-    select_return : 'mdist', 'vdist', 'sdist'
-        Select the desired object to return.
+    select_return : This function has returns multiple Objects ['mdist', 'vdist', 'sdist'].
+        Select the desired one to return.
         See the respective function docs for descriptors.
     data : array_like
         Input array. Converted to 1-D using ravel.

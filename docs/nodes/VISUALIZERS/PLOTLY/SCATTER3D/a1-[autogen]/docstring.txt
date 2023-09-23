@@ -1,4 +1,4 @@
-The SCATTER3D node creates a Plotly 3D Scatter visualization for a given input DataContainer.
+The SCATTER3D node creates a Plotly 3D Scatter visualization for a given input data container.
 
     Inputs
     ------
@@ -8,4 +8,4 @@ The SCATTER3D node creates a Plotly 3D Scatter visualization for a given input D
     Returns
     -------
     Plotly
-        the DataContainer containing the Plotly 3D Scatter visualization
+        the DataContainer containing Plotly 3D Scatter visualization

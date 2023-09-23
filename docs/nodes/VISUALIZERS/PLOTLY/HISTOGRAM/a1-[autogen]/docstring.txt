@@ -1,4 +1,4 @@
-The HISTOGRAM node creates a Plotly Histogram visualization for a given input DataContainer.
+The HISTOGRAM node creates a Plotly Histogram visualization for a given input data container.
 
     Inputs
     ------
@@ -8,4 +8,4 @@ The HISTOGRAM node creates a Plotly Histogram visualization for a given input Da
     Returns
     -------
     Plotly
-        the DataContainer containing the Plotly Histogram visualization
+        the DataContainer containing Plotly Histogram visualization

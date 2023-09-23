@@ -1,6 +1,4 @@
-The LM34 node allows you to convert voltages measured with a thermocouple (LM34) connected to a LabJack U3 device into temperatures.
 
-    Parameters
-    ----------
-    Calibration1, Calibration2, Calibration3 : float
-        Calibration parameters to convert voltage into temperature in Celcius.
+The LM34 node allows you to convert voltages measured with a thermocouple (LM34) connected to a LabJack U3 device into temperatures.
+Calibration1, Calibration2, Calibration3 : float
+    Calibration parameters to convert voltage into temperature in Celcius.

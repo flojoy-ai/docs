@@ -1,4 +1,4 @@
-The TABLE node creates a Plotly Table visualization for a given input DataContainer.
+The TABLE node creates a Plotly Table visualization for a given input data container.
 
     Inputs
     ------
@@ -8,4 +8,5 @@ The TABLE node creates a Plotly Table visualization for a given input DataContai
     Returns
     -------
     Plotly
-        the DataContainer containing the Plotly Table visualization
+        the DataContainer containing Plotly Table visualization
+

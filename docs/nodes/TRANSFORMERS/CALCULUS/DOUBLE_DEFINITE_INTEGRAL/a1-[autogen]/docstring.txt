@@ -1,11 +1,9 @@
-The DOUBLE_DEFINITE_INTEGRAL node takes a function, upper, and lower bounds as input.
+The DOUBLE_DEFINITE_INTEGRAL node takes a function, upper, and lower bounds as input. It then computes double integral of the given function.
 
-    It then computes a double integral of the given function.
-
-    Example of proper syntax for the function input:
+    Proper Syntax for function input example:
     2*x*y
 
-    Example of improper syntax for the function input:
+    Improper Syntax for function input example:
     2xy
 
     Parameters
