@@ -5,6 +5,12 @@ The SORT_VECTOR node returns the input Vector that is sorted
     default : Vector
         The input vector
 
+    Parameters
+    ----------
+    reverse : int
+        If it's given 0, sort in ascending order. 
+        If it's given 1, sort in descending order.
+
     Returns
     -------
     Vector
