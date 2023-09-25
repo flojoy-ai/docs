@@ -1,0 +1,23 @@
+The RETURN_ERRORS_33510B node returns error messages from the WFG.
+
+    Error retrival is first-in-first-out (FIFO). Returning errors clears them
+    from the instruments queue.
+
+    If the "VISA_address" parameter is not specified the VISA_index will be
+    used to find the address. The LIST_VISA node can be used to show the
+    indicies of all available VISA instruments.
+
+    This node should also work with compatible Keysight 33XXX wavefunction
+    generators (although they are untested).
+
+    Parameters
+    ----------
+    VISA_address: str
+        The VISA address to query.
+    VISA_index: int
+        The address will be found from LIST_VISA node list with this index.
+
+    Returns
+    -------
+    DataContainer
+        TextBlob: Returns all errors in the WFG memory.
