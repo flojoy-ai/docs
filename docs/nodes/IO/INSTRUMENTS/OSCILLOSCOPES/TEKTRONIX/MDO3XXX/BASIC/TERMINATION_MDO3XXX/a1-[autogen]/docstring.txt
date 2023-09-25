@@ -4,7 +4,6 @@ The TERMINATION_MDO3XXX node sets the termination ohms (or queries it).
     in the oscilloscope must match that value.
 
     Note that the termination is often called the "electrical impedance".
-
     Note that the 75 Ohm option is not compatible with all model numbers.
 
     If the "VISA_address" parameter is not specified the VISA_index will be
@@ -16,12 +15,8 @@ The TERMINATION_MDO3XXX node sets the termination ohms (or queries it).
 
     Parameters
     ----------
-    VISA_address: str
-        The VISA address to query.
-    VISA_index: int
-        The address will be found from LIST_VISA node list with this index.
-    num_channels: int
-        The number of channels on the instrument that are currently in use.
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_MDO3XXX node).
     channel: int
         The channel to query or set the impedance/termination.
     termination: str
@@ -32,4 +27,4 @@ The TERMINATION_MDO3XXX node sets the termination ohms (or queries it).
     Returns
     -------
     DataContainer
-        Scalar: The triggering voltage.
+        Scalar: The termination value for the chosen channel.
