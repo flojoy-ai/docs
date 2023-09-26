@@ -16,4 +16,4 @@ We then add two of the [`SET_WAVEFORM_33510B`](https://github.com/flojoy-ai/node
 
 We then must set the node parameters. First, the VISA address must be set for all nodes as mentioned above. The waveform settings were changed as follows: waveform: SIN, amplitude: 0.2, amplitude units: Vpp, frequency: 1e7 Hz, on_off: on, query_set: set. The second node only needs to ensure the query_set parameter is set to `query` (as well as the VISA address).
 
-The `33510B` cannot view the waveform directly. An oscilloscope can be used optionally. to view the burst mode waveform.
+The `33510B` cannot view the waveform directly. An oscilloscope can optionally be used to view the burst mode waveform.
