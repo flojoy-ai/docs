@@ -17,6 +17,7 @@ const sidebars = {
         'general-tutorials/parameters',
         'general-tutorials/dc-types',
         'general-tutorials/numpy-scipy',
+        'general-tutorials/visa-usb',
       ],
     },
     {

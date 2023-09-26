@@ -42,9 +42,23 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inverstion and product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion and product.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
     nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'OrderedPair manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based OrderedPair manipulation, including inversion.'
+    sectionRoot = 'TRANSFORMERS/ORDERED_PAIR_MANIPULATION'
+    nodes = {['ORDERED_PAIR_XY_INVERT']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Text manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based text manipulation, including concatenation of string.'
+    sectionRoot = 'TRANSFORMERS/TEXT_MANIPULATION'
+    nodes = {['TEXT_CONCAT']}
 />
 
 <AppThumbnailSection
@@ -58,7 +72,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Type casting'
     blockquote = 'Use these nodes to convert one DataContainer type to another.'
     sectionRoot = 'TRANSFORMERS/TYPE_CASTING'
-    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT']}
+    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT', 'VECTOR_2_ORDERED_PAIR']}
 />
 
 <AppThumbnailSection

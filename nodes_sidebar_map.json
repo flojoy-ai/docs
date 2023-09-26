@@ -25,6 +25,7 @@
   "Flow": ["LOOPS", "CONDITIONALS", "TIMERS", "LOOP_TOOLS"],
   "I/O > Analog Sensors": "ANALOG_SENSORS",
   "I/O > Imaging": "WEB_CAM",
+  "I/O > Function Generators": "FUNCTION_GENERATORS",
   "I/O > Daq Boards": "DAQ_BOARDS",
   "I/O > MOCK" :"MOCK",
   "I/O > Oscilloscopes": "OSCILLOSCOPES",

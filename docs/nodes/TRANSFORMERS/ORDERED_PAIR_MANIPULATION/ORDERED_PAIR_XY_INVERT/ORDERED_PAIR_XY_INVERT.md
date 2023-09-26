@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -17,8 +18,6 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
@@ -26,7 +25,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-
+### Invert the X and Y axes of an OrderedPair
 
 <AppDisplay 
     nodeLabel='ORDERED_PAIR_XY_INVERT'
@@ -40,8 +39,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 <SectionBreak />
   
-    
-
 [//]: # (Appendix)
 
 import Notes from './appendix/notes.md';
@@ -54,4 +51,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/ORDERED_PAIR_MANIPULATION/ORDERED_PAIR_XY_INVERT/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/ORDERED_PAIR_MANIPULATION/ORDERED_PAIR_XY_INVERT/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->
