@@ -1,0 +1,62 @@
+from flojoy import flojoy, run_in_venv, Vector
+from flojoy.utils import FLOJOY_CACHE_DIR
+
+
+@flojoy
+@run_in_venv(
+    pip_dependencies=[
+        "onnxruntime",
+        "numpy",
+        "onnx",
+    ]
+)
+def ONNX_MODEL(
+    file_path: str,
+    default: Vector,
+) -> Vector:
+    
+
+    import os
+    import onnx
+    import urllib.request
+    import numpy as np
+    import onnxruntime as rt
+
+    model_name = os.path.basename(file_path)
+
+    if file_path.startswith("http://") or file_path.startswith("https://"):
+        # Downloading the ONNX model from a URL to FLOJOY_CACHE_DIR.
+        onnx_model_zoo_cache = os.path.join(
+            FLOJOY_CACHE_DIR, "cache", "onnx", "model_zoo"
+        )
+
+        os.makedirs(onnx_model_zoo_cache, exist_ok=True)
+
+        filename = os.path.join(onnx_model_zoo_cache, model_name)
+
+        urllib.request.urlretrieve(
+            url=file_path,
+            filename=filename,
+        )
+
+        # Using the downloaded file.
+        file_path = filename
+
+    # Pre-loading the serialized model to validate whether is well-formed or not.
+    model = onnx.load(file_path)
+    onnx.checker.check_model(model)
+
+    # Using ONNX runtime for the ONNX model to make predictions.
+    sess = rt.InferenceSession(file_path, providers=["CPUExecutionProvider"])
+
+    # TODO(jjerphan): Assuming a single input and a single output for now.
+    input_name = sess.get_inputs()[0].name
+    label_name = sess.get_outputs()[0].name
+
+    # TODO(jjerphan): For now NumPy is assumed to be the main backend for Flojoy.
+    # We might adapt it in the future so that we can use other backends
+    # for tensor libraries for application using Deep Learning libraries.
+    input_tensor = np.asarray(default.v, dtype=np.float32)
+    predictions = sess.run([label_name], {input_name: input_tensor})[0]
+
+    return Vector(v=predictions)
