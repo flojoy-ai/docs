@@ -1,0 +1,29 @@
+from flojoy import VisaDevice, flojoy, DataContainer
+from flojoy.connection_manager import DeviceConnectionManager
+from typing import Optional
+from qcodes.instrument_drivers.Keysight import Keysight33512B
+from usb.core import USBError
+
+
+@flojoy()
+def CONNECTION_33510B(
+    device: VisaDevice,
+    default: Optional[DataContainer] = None,
+) -> Optional[DataContainer]:
+    
+
+    try:
+        ks = Keysight33512B(
+            "ks",
+            device.get_id(),
+            visalib="@py",
+            device_clear=False,
+        )
+    except USBError as err:
+        raise Exception(
+            "USB port error. Trying unplugging+replugging the port."
+        ) from err
+
+    DeviceConnectionManager.register_connection(device, ks)
+
+    return None
