@@ -4,19 +4,16 @@ The BURST_MODE_33510B node is used to turn the Burst mode on or off.
     The burst mode is way to have signals come in "bursts" that are triggered
     externally or with a timer for instance.
 
-    If the "VISA_address" parameter is not specified the VISA_index will be
-    used to find the address. The LIST_VISA node can be used to show the
-    indicies of all available VISA instruments.
+    Requires a CONNECTION_33510B node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
 
     This node should also work with compatible Keysight 33XXX wavefunction
     generators (although they are untested).
 
     Parameters
     ----------
-    VISA_address: str
-        The VISA address to query.
-    VISA_index: int
-        The address will be found from LIST_VISA node list with this index.
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_MDO3XXX node).
     on_off: str
         Turn the burst mode on or off.
     channel: str
