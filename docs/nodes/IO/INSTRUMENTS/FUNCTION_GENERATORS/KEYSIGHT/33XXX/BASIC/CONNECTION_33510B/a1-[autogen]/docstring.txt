@@ -1,0 +1,16 @@
+The CONNECTION_33510B node connects Flojoy to a 33510B function generator.
+
+    The connection is made with the VISA address in the Flojoy UI.
+
+    This node should also work with compatible Keysight 33XXX wavefunction
+    generators (although they are untested).
+
+    Parameters
+    ----------
+    device: VisaDevice
+        The VISA address to connect to.
+
+    Returns
+    -------
+    DataContainer
+        Optional: None
