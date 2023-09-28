@@ -1,4 +1,4 @@
-The VECTOR_MIN_MAX node returns the maximum or minimum value from the Vector
+The VECTOR_DELETE node returns a new Vector with elements deleted from requested indices
 
     Inputs
     ------
