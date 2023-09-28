@@ -7,9 +7,8 @@ The SORT_VECTOR node returns the input Vector that is sorted
 
     Parameters
     ----------
-    reverse : int
-        If it's given 0, sort in ascending order. 
-        If it's given 1, sort in descending order.
+    reverse : bool
+        If False, sort in ascending order. If True, descending order.
 
     Returns
     -------
