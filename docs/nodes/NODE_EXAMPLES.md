@@ -48,7 +48,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Predictive analytics'
     blockquote = 'No-code Flojoy AI nodes for predictive analytics.'
     sectionRoot = 'AI_ML'
-    nodes = {['PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
+    nodes = {['LOAD_MODEL/ONNX_MODEL', 'PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
 />
 
 ## ETL - Extractors examples
@@ -104,9 +104,9 @@ You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion and product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion, product, shuffling, and sorting.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
-    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
+    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL', 'SHUFFLE_MATRIX', 'SORT_MATRIX']}
 />
 
 <AppThumbnailSection
@@ -146,9 +146,9 @@ You can also find all of these nodes in the sidebar.
 
 <AppThumbnailSection
     sectionName = 'Vector manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, such as determining the vector length and value at a requested index.'
+    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, including determining the length, sorting, splitting, and indexing.'
     sectionRoot = 'TRANSFORMERS/VECTOR_MANIPULATION'
-    nodes = {['VECTOR_INDEXING', 'VECTOR_LENGTH']}
+    nodes = {['DECIMATE_VECTOR', 'INTERLEAVE_VECTOR', 'REMOVE_DUPLICATES_VECTOR', 'REVERSE_VECTOR', 'SHUFFLE_VECTOR', 'SORT_VECTOR', 'SPLIT_VECTOR', 'VECTOR_INDEXING', 'VECTOR_LENGTH']}
 />
 
 ## ETL - Loaders examples

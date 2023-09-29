@@ -42,9 +42,9 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion and product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion, product, shuffling, and sorting.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
-    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
+    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL', 'SHUFFLE_MATRIX', 'SORT_MATRIX']}
 />
 
 <AppThumbnailSection
@@ -84,7 +84,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Vector manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, such as determining the vector length and value at a requested index.'
+    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, including determining the length, sorting, splitting, and indexing.'
     sectionRoot = 'TRANSFORMERS/VECTOR_MANIPULATION'
-    nodes = {['VECTOR_INDEXING', 'VECTOR_LENGTH']}
+    nodes = {['DECIMATE_VECTOR', 'INTERLEAVE_VECTOR', 'REMOVE_DUPLICATES_VECTOR', 'REVERSE_VECTOR', 'SHUFFLE_VECTOR', 'SORT_VECTOR', 'SPLIT_VECTOR', 'VECTOR_INDEXING', 'VECTOR_LENGTH']}
 />

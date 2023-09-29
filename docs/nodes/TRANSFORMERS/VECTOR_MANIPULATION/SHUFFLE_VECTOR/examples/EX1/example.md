@@ -1,3 +1,5 @@
-In this example, we generate a vector type data using `LINSPACE` node.
+<!--Add SEO here-->
 
-Using `SHUFFLE_VECTOR`, we randomly shuffle the elements and visualize it using `SCATTER` node.
+In this example, we generate a Vector type data using the `LINSPACE` node.
+
+With the `SHUFFLE_VECTOR` node, we then randomly shuffle the elements and visualize it using the `SCATTER` node.

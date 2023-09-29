@@ -40,5 +40,5 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Predictive analytics'
     blockquote = 'No-code Flojoy AI nodes for predictive analytics.'
     sectionRoot = 'AI_ML'
-    nodes = {['PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
+    nodes = {['LOAD_MODEL/ONNX_MODEL', 'PREDICT_TIME_SERIES/PROPHET_PREDICT', 'REGRESSION/LEAST_SQUARES']}
 />

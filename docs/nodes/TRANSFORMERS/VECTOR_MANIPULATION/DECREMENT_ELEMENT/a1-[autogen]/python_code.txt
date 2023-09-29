@@ -1,0 +1,8 @@
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def DECREMENT_ELEMENT(default: Vector, value: int) -> Vector:
+    
+    v = default.v - value
+    return Vector(v=v)

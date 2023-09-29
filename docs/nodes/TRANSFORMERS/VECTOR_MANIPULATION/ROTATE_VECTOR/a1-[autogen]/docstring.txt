@@ -1,0 +1,16 @@
+The ROTATE_VECTOR node shifts the elements in the vector by the amount specified
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to shift elements from
+
+    Parameters
+    ----------
+    shift: int
+        the number of places in which elements are moved (negative values will shift them to the left)
+
+    Returns
+    -------
+    Vector
+        The new vector with elements shifted

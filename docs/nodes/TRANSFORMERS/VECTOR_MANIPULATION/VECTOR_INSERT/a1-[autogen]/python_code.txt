@@ -4,7 +4,6 @@ from flojoy import flojoy, Vector
 
 @flojoy
 def VECTOR_INSERT(default: Vector, index: int = 0, value: int = 0) -> Vector:
-    
 
     assert (
         len(default.v) > index
