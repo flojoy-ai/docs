@@ -18,4 +18,3 @@ The VECTOR_INSERT node inserts a value to the Vector at the
     -------
     Vector
         The new vector that contains the inserted value
-

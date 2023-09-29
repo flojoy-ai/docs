@@ -1,0 +1,11 @@
+The CONNECTION_MDO3XXX node connects Flojoy to a
+
+    Parameters
+    ----------
+    NI_address: str
+        The NI instrument address for the instrument (e.g. 'Dev0', 'Dev1').
+
+    Returns
+    -------
+    DataContainer
+        Optional: None
