@@ -1,3 +1,5 @@
-In this example, we generate a vector type data using `LINESPACE` node.
+<!--Add SEO here-->
 
-Using `REVERSE_VECTOR` node, we reverse the elements of the data and visualize it using `LINE` node
+In this example, we generate a Vector type data using the `LINESPACE` node.
+
+With the `REVERSE_VECTOR` node, we then reverse the elements of the data and visualize it using the `LINE` node.
