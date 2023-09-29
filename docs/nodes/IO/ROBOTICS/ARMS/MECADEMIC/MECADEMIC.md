@@ -17,13 +17,13 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 <AppThumbnailSection
     sectionName = 'Connection Controls'
     blockquote = 'Nodes for establishing and managing connection with the Mecademic robotic arm.'
-    sectionRoot = 'MECADEMIC'
+    sectionRoot = 'ROBOTICS/ARMS/MECADEMIC'
     nodes = {['CONNECT', 'DISCONNECT']}
 />
 
 <AppThumbnailSection
     sectionName = 'Operational Commands'
     blockquote = 'Nodes for executing various operational commands on the Mecademic robotic arm.'
-    sectionRoot = 'MECADEMIC'
+    sectionRoot = 'ROBOTICS/ARMS/MECADEMIC'
     nodes = {['ACTIVATE', 'DELAY', 'HOME', 'MOVE_JOINT', 'MOVE_LIN', 'MOVE_POSE', 'SET_CART_LIN_VEL', 'SET_JOINT_VEL']}
 />
