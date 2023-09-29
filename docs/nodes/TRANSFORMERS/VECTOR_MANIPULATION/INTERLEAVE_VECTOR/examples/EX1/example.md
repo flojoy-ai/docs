@@ -1,3 +1,5 @@
-In this example, we generate four different vector type data with the same size using `LINSPACE` node.
+<!--Add SEO here-->
 
-Using `INTERLEAVE_VECTOR` node, we merge these data into a single vector and visualize it using `SCATTER` node.
+In this example, we generate four different vector types data with the same size using the `LINSPACE` node.
+
+With the `INTERLEAVE_VECTOR` node, we then merge this data into a single vector and visualize it using the `SCATTER` node.

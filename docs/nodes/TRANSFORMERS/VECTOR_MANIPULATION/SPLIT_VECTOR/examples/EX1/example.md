@@ -1,3 +1,5 @@
-In this example, we generate a vector type data using `LINSPACE` node.
+<!--Add SEO here-->
 
-Using `SPLIT_VECTOR`, split the vector type into two different vectors by its index and visualize using `SCATTER` node.
+In this example, we generate a Vector type data using the `LINSPACE` node.
+
+With the `SPLIT_VECTOR` node, we then split the vector type into two different vectors by its index and visualize it using the `SCATTER` node.

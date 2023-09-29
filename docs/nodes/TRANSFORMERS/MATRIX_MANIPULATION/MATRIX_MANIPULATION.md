@@ -39,4 +39,20 @@ Here you can find information about all the Flojoy nodes that take at least one 
 </figure>
 </a></div>
 
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SHUFFLE MATRIX</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SORT MATRIX</figcaption>
+</figure>
+</a></div>
+
 </div>

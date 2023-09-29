@@ -1,3 +1,5 @@
-In this example, we generate a vector type data using `LINSPACE` node.
+<!--Add SEO here-->
 
-Using `DECIMATE_VECTOR` node, we generate a new decimated vector and plot it in `SCATTER` node.
+In this example, we generate a Vector type data using the `LINSPACE` node.
+
+With the `DECIMATE_VECTOR` node, we then generate a new decimated vector and plot it with the `SCATTER` node.
