@@ -1,0 +1,20 @@
+The VECTOR_INSERT node inserts a value to the Vector at the
+    specified index.
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to insert value.
+
+    Parameters
+    ----------
+    element: int
+        The value to add to the input vector.
+
+    index: int
+        The index of the vector to insert value.
+
+    Returns
+    -------
+    Vector
+        The new vector that contains the inserted value

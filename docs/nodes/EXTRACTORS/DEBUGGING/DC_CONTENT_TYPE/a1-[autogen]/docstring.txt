@@ -1,0 +1,6 @@
+The DC_CONTENT_TYPE node
+
+    Returns
+    -------
+    DataContainer
+        TextBlob:
