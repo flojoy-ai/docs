@@ -1,0 +1,11 @@
+The VECTOR_MIN node returns the minimum value from the Vector
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to use min peration
+
+    Returns
+    -------
+    Scalar
+        The minimum value found from the input vector

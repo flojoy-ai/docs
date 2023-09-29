@@ -1,0 +1,19 @@
+from numpy import concatenate, array
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def VECTOR_INSERT(default: Vector, index: int = 0, value: int = 0) -> Vector:
+    
+
+    assert (
+        len(default.v) > index
+    ), "The index parameter must be less than the length of the Vector."
+    assert index >= 0, "The index parameter must be greater than zero."
+
+    if index == len(default.v) - 1:
+        v = concatenate((default.v, [value]))
+    else:
+        v = concatenate((default.v[:index], [value], default.v[index:]))
+
+    return Vector(v=v)
