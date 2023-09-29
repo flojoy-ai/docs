@@ -1,0 +1,2 @@
+The SNAKE_GAME node is a specialized node that iterates through the body nodes for a given number of times.
+    To ensure proper functionality, the SNAKE_GAME node relies on a companion node called the `GOTO` node.

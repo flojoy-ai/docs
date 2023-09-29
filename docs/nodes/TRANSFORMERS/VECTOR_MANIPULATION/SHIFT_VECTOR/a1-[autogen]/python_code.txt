@@ -1,0 +1,10 @@
+from numpy import roll
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def SHIFT_VECTOR(default: Vector, shift: int = 1) -> Vector:
+    
+
+    v = roll(default.v, shift)
+    return Vector(v=v)

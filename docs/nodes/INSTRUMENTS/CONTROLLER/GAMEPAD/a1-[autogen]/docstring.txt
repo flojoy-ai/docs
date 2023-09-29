@@ -1,0 +1,5 @@
+
+The GAMEPAD node reads the input from a gamepad and returns a DataContainer with the following structure:
+- it is of type ordered pair
+- the x value indicates how many buttons are available
+- the y value is a numpy array of booleans indicating which buttons are pressed

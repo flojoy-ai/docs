@@ -1,0 +1,8 @@
+
+The LED_MATRIX_WS2812B node takes an image as an input and sends signals to the LED Matrix to light up specific
+LEDs accoring to the image input
+
+Parameters:
+- port: the port to which the LED Matrix is connected
+- width: the width of the LED Matrix
+- height: the height of the LED Matrix

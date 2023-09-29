@@ -1,0 +1,19 @@
+The VECTOR_DELETE node returns a new Vector with elements deleted from requested indices
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to delete from
+
+    Parameters
+    ----------
+    indices: Array
+        specified indices to delete value(s) at from the input vector
+
+    length: int
+        number of elements to delete from the input vector, default is 1 (this only applies when one index is specified for indices parameter)
+
+    Returns
+    -------
+    Vector
+        The new vector with element(s) deleted from the input vector
