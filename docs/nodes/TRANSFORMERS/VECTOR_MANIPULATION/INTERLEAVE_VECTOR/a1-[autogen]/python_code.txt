@@ -1,0 +1,19 @@
+from numpy import stack
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def INTERLEAVE_VECTOR(
+    default: Vector,
+    a: list[Vector],
+) -> Vector:
+    
+    interleavedVectors = [default.v]
+
+    for i in range(len(a)):
+        interleavedVectors = interleavedVectors + [a[i].v]
+
+    interleavedVector = stack(interleavedVectors)
+    interleavedVector = interleavedVector.T.flatten()
+
+    return Vector(v=interleavedVector)

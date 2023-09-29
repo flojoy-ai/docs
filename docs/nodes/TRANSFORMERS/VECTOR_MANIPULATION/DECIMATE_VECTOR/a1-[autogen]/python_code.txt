@@ -1,0 +1,11 @@
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def DECIMATE_VECTOR(
+    default: Vector,
+    factor: int = 1,
+) -> Vector:
+    
+
+    return Vector(v=default.v[::factor])

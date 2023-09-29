@@ -1,0 +1,21 @@
+from flojoy import flojoy, DataContainer, TextBlob, VisaConnection
+from typing import Optional, Literal
+
+
+@flojoy(inject_connection=True)
+def ON_OFF_33510B(
+    connection: VisaConnection,
+    on_off: Literal["ON", "OFF"] = "OFF",
+    channel: Literal["ch1", "ch2"] = "ch1",
+    default: Optional[DataContainer] = None,
+) -> TextBlob:
+    
+
+    ks = connection.get_handle()
+
+    channel_str = channel
+    channel = getattr(ks, channel)
+
+    channel.output(on_off)
+
+    return TextBlob(text_blob=f"{channel_str}: {on_off}")

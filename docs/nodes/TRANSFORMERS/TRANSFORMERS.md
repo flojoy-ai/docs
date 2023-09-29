@@ -42,9 +42,23 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Matrix manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inverstion and product.'
+    blockquote = 'No-code Flojoy nodes for Python-based matrix manipulation, including matrix multiplication, inversion, product, shuffling, and sorting.'
     sectionRoot = 'TRANSFORMERS/MATRIX_MANIPULATION'
-    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL']}
+    nodes = {['DOT_PRODUCT', 'INVERT', 'MATMUL', 'SHUFFLE_MATRIX', 'SORT_MATRIX']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'OrderedPair manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based OrderedPair manipulation, including inversion.'
+    sectionRoot = 'TRANSFORMERS/ORDERED_PAIR_MANIPULATION'
+    nodes = {['ORDERED_PAIR_XY_INVERT']}
+/>
+
+<AppThumbnailSection
+    sectionName = 'Text manipulation'
+    blockquote = 'No-code Flojoy nodes for Python-based text manipulation, including concatenation of string.'
+    sectionRoot = 'TRANSFORMERS/TEXT_MANIPULATION'
+    nodes = {['TEXT_CONCAT']}
 />
 
 <AppThumbnailSection
@@ -58,7 +72,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
     sectionName = 'Type casting'
     blockquote = 'Use these nodes to convert one DataContainer type to another.'
     sectionRoot = 'TRANSFORMERS/TYPE_CASTING'
-    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT']}
+    nodes = {['DF_2_NP', 'DF_2_ORDERED_TRIPLE', 'MAT_2_DF', 'NP_2_DF', 'ORDERED_TRIPLE_2_SURFACE', 'TWO_DIMENSIONAL_FFT', 'VECTOR_2_ORDERED_PAIR']}
 />
 
 <AppThumbnailSection
@@ -70,7 +84,7 @@ import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
     sectionName = 'Vector manipulation'
-    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, such as determining the vector length and value at a requested index.'
+    blockquote = 'No-code Flojoy nodes for Python-based vector manipulation, including determining the length, sorting, splitting, and indexing.'
     sectionRoot = 'TRANSFORMERS/VECTOR_MANIPULATION'
-    nodes = {['VECTOR_INDEXING', 'VECTOR_LENGTH']}
+    nodes = {['DECIMATE_VECTOR', 'INTERLEAVE_VECTOR', 'REMOVE_DUPLICATES_VECTOR', 'REVERSE_VECTOR', 'SHUFFLE_VECTOR', 'SORT_VECTOR', 'SPLIT_VECTOR', 'VECTOR_INDEXING', 'VECTOR_LENGTH']}
 />

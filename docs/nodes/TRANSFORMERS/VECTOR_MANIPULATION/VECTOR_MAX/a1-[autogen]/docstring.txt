@@ -1,0 +1,11 @@
+The VECTOR_MAX node returns the maximum value from the Vector
+
+    Inputs
+    ------
+    v : Vector
+        The input vector to use max peration
+
+    Returns
+    -------
+    Scalar
+        The maximum value found from the input vector

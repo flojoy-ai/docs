@@ -1,0 +1,13 @@
+from numpy.random import permutation
+from flojoy import flojoy, Vector
+
+
+@flojoy
+def SHUFFLE_VECTOR(
+    default: Vector,
+) -> Vector:
+    
+
+    shuffledVector = permutation(default.v)
+
+    return Vector(v=shuffledVector)
