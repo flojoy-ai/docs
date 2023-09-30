@@ -31,7 +31,7 @@ import outputImg from './examples/EX1/output.jpeg'
 
 <AppDisplay 
     nodeLabel='SHIFT_VECTOR'
-    appImg={apImg}
+    appImg={appImg}
     outputImg={outputImg}
     >
     {App1}
