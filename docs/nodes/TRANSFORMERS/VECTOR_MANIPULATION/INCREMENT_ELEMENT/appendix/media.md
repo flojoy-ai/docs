@@ -1,1 +1,0 @@
-No supporting screenshots, photos, or videos have been added to the media.md file for this node.
