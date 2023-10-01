@@ -93,4 +93,4 @@ dataset/
 
 7. Wait till the training finishes, then download your exported `model.torchscript` which you can find in Colab's file sidebar. 
 
-**IMPORTANT: Closing your Colab webpage during training will cause your training to be interrupted, and you will need to restart the process from the beginning. This will not happen if you have a paid Colab subscription however.**
+**IMPORTANT: Closing your Colab webpage during training will cause your training to be interrupted, and you will need to restart the process from the beginning. This may not happen if you already have a paid Colab subscription.**
