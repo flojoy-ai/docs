@@ -54,7 +54,6 @@ dataset/
 ├── ...
 ```
 
-For more information on the `ImageFolder` dataset format, refer to the PyTorch documentation [here](https://pytorch.org/vision/stable/generated/torchvision.datasets.ImageFolder.html#torchvision.datasets.ImageFolder).
 
 
 You will need to curate both (a) training and (b) test sets with the format described above, and compress them together in a zip file containing a `training_set` folder and a `test_set` folder.
