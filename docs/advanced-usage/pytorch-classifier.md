@@ -6,22 +6,24 @@ title: Integrating Your Custom PyTorch Image Classifier
 
 ---
 
-In this guide, we will walk you through the process of leveraging the [`TORCHSCRIPT_CLASSIFIER`](../nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/TORCHSCRIPT_CLASSIFIER.md) node in Flojoy to integrate a custom image classification model. Solely for illustration purposes, we will use a companion Colab notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node. Flojoy users do not have to use the same notebook, nor even use Colab at all, though it is a great place to help users get started with a reference implementation example.
+In this guide, we will walk you through the process of leveraging the [`TORCHSCRIPT_CLASSIFIER`](../nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/TORCHSCRIPT_CLASSIFIER.md) node in Flojoy to integrate a custom image classification model. 
+
+Solely for illustration purposes, we will use a companion [Colab](https://research.google.com/colaboratory/) notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node. Flojoy users do not have to use the same notebook, nor even use Colab at all, though it is a great place to help users get started with a reference implementation example.
 
 
 ### 1. Train and Export Your Model
 
-Start by accessing the provided Colab notebook which serves as an ideal foundation for training and exporting your model. This notebook is tailored for a cats vs. dogs dataset, but you can effortlessly modify it to suit different datasets with varying class numbers.
+Start by accessing the provided [Colab notebook](https://colab.research.google.com/drive/1HCj3i43tYt4CTLPHq4BqVC2HL0lAN2-X?usp=sharing) which serves as an ideal foundation for training and exporting your model. This notebook is tailored for a cats vs. dogs dataset, but you can effortlessly modify it to suit different datasets with varying class numbers.
 
-- **Colab Notebook**: [Link](https://colab.research.google.com/drive/1HCj3i43tYt4CTLPHq4BqVC2HL0lAN2-X?usp=sharing)
 
 To use the notebook:
 
 1. Open the notebook link.
+2. Create a your own copy of the Notebook using **File** -> **Save a copy in Drive**
 2. Run all cells sequentially.
 3. Upon completion, you'll find the `model.torchscript` file ready for download in the left sidebar, as illustrated here:
 
-![In the Google Collab UI, the left panel contains the list of directories and files, including the newly created TorchScript-serialized model: `model.torchscript`.](../../static/img/advanced_tutorials/TORCHSCRIPT_TUTORIAL_SIDEBAR.png)
+![In the Google Colab UI, the left panel contains the list of directories and files, including the newly created TorchScript-serialized model: `model.torchscript`.](../../static/img/advanced_tutorials/TORCHSCRIPT_TUTORIAL_SIDEBAR.png)
 
 ### 2. Deploy the Model in `TORCHSCRIPT_CLASSIFIER`
 
@@ -57,7 +59,7 @@ dataset/
 ├── ...
 ```
 
-#### Step-by-step instructions:
+#### Instructions:
 
 1. Curate your `training_set` and `validation_set` folders separately, and ensure that both folders respect the `ImageFolder` format (described above).
 
@@ -84,4 +86,11 @@ dataset/
 #!unzip cats_and_dogs.zip
 
 # [Advanced tutorial - Optional section 3] Comment the 2 lines above and uncomment the line below to use your own dataset 
-!unzip datasets.zip```
+!unzip datasets.zip
+```
+
+6. Re-run all cells of your notebook sequentially from the first cell to the last cell
+
+7. Wait till the training finishes, then download your exported `model.torchscript` which you can find in Colab's file sidebar. 
+
+**IMPORTANT: Closing your Colab webpage during training will cause your training to be interrupted, and you will need to restart the process from the beginning. This will not happen if you have a paid Colab subscription however.**
