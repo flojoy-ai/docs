@@ -4,7 +4,8 @@ id: pytorch-classifier
 title: Integrating Your Custom PyTorch Image Classifier
 ---
 
-In this guide, we will walk you through the process of leveraging the [`TORCHSCRIPT_CLASSIFIER`](../nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/TORCHSCRIPT_CLASSIFIER.md) node in Flojoy to integrate a custom image classification model. Specifically, we'll use a Colab notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node.
+In this guide, we will walk you through the process of leveraging the [`TORCHSCRIPT_CLASSIFIER`](../nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/TORCHSCRIPT_CLASSIFIER.md) node in Flojoy to integrate a custom image classification model. Solely for illustration purposes, we will use a companion Colab notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node. Flojoy users do not have to use the same notebook, nor even use Colab at all, though it is a great place to help users get started with a reference implementation example.
+
 
 ### 1. Train and Export Your Model
 
@@ -39,7 +40,7 @@ Now, with these files at hand, you're all set to integrate your custom PyTorch I
 
 ### 3. [Optional] Train the model on your own data
 
-If you want like to train the model on your own data, your dataset needs to be compatible with the PyTorch [`torch.vision.datasets.ImageFolder`](https://pytorch.org/vision/stable/generated/torchvision.datasets.ImageFolder.html#torchvision.datasets.ImageFolder) dataset format. This essentially means that your images need to be structured in a directory hierarchy such as:
+If you want like to train the model on your own data, your dataset needs to be compatible with the PyTorch [`torch.vision.datasets.ImageFolder`](https://pytorch.org/vision/stable/generated/torchvision.datasets.ImageFolder.html#torchvision.datasets.ImageFolder) dataset format. This essentially means that your images need to be structured as shown below:
 
 ```
 dataset/
@@ -54,30 +55,31 @@ dataset/
 ├── ...
 ```
 
+#### Step-by-step instructions:
 
+1. Curate your `training_set` and `validation_set` folders separately, and ensure that both folders respect the `ImageFolder` format (described above).
 
-You will need to curate both (a) training and (b) test sets with the format described above, and compress them together in a zip file containing a `training_set` folder and a `test_set` folder.
+2. Compress both `training_set` and `validation_set` into a `.zip` folder that you may call `datasets.zip` for example. 
+    
+    _Example_
 
+    ```
+    datasets.zip/
+    ├── training_set/
+    │   ├── ... 
+    ├── validation_set/
+    │   ├── ...
+    ```
+
+3. Drag and drop `datasets.zip` into Google Colab's left file sidebar, and wait until the upload completes.
+
+4. If `training_set` and `validation_set` folders already exist in your Colab file tree, make sure to delete them before you proceed.
+
+5. In the "Download dataset" section, comment (add `#` at the beginning of each line) the two original lines that download and unzip `cats_and_dogs.zip` and uncomment the `!unzip datasets.zip` command
 ```
-dataset.zip/
-├── training_set/
-│   ├── class_1
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   ├── ...
-│   ├── class_2
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   ├── ...
-│   ├── ...
-├── test_set/
-│   ├── class_1
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   ├── ...
-│   ├── class_2
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   ├── ...
-│   ├── ...
-```
+# The two lines below download and unzip 'cats_and_dogs.zip'
+#!gdown  https://drive.google.com/uc?id=1TIme-TSfRFwVvBVaGymV4-9CX4voThIg
+#!unzip cats_and_dogs.zip
+
+# [Advanced tutorial - Optional section 3] Comment the 2 lines above and uncomment the line below to use your own dataset 
+!unzip datasets.zip```
