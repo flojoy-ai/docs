@@ -18,7 +18,7 @@ To use the notebook:
 2. Run all cells sequentially.
 3. Upon completion, you'll find the `model.torchscript` file ready for download in the left sidebar, as illustrated here:
 
-![image](../../static/img/advanced_tutorials/TORCHSCRIPT_TUTORIAL_SIDEBAR.png)
+![In the Google Collab UI, the left panel contains the list of directories and files, including the newly created TorchScript-serialized model: `model.torchscript`.](../../static/img/advanced_tutorials/TORCHSCRIPT_TUTORIAL_SIDEBAR.png)
 
 ### 2. Deploy the Model in `TORCHSCRIPT_CLASSIFIER`
 
