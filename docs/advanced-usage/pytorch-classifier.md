@@ -28,7 +28,7 @@ To utilize a trained model within the `TORCHSCRIPT_CLASSIFIER` node, ensure you 
 - The exported `.torchscript` model file.
 - A `.csv` file mapping class names to class IDs.
 
-For instance, your `csv` file for a cats vs. dogs classifier should look like this:
+For instance, your `csv` file for a cats vs. dogs classifier need not have a column for the index and can just have single column describing the class:
 
 ```
 class_name
@@ -36,7 +36,11 @@ class_name
 "dog"
 ```
 
+<<<<<<< HEAD
 Now, with these files at hand, you're all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_NODE` node.
+=======
+Now, with these files at hand, you are all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_CLASSIFIER` node.
+>>>>>>> ddc580228ea368268a17a712c6ed1d4acbba23be
 
 ### 3. [Optional] Train the model on your own data
 
