@@ -39,7 +39,7 @@ Now, with these files at hand, you're all set to integrate your custom PyTorch I
 
 ### 3. [Optional] Train the model on your own data
 
-If you'd like to train the model on your own data, your dataset needs to be compatible with the PyTorch `ImageFolder` dataset format. This essentially means that your images need to be structured in a directory hierarchy such as:
+If you want like to train the model on your own data, your dataset needs to be compatible with the PyTorch [`torch.vision.datasets.ImageFolder`](https://pytorch.org/vision/stable/generated/torchvision.datasets.ImageFolder.html#torchvision.datasets.ImageFolder) dataset format. This essentially means that your images need to be structured in a directory hierarchy such as:
 
 ```
 dataset/
