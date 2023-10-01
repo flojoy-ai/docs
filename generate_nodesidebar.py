@@ -47,7 +47,7 @@ def write_nodesidebar():
 
     for root, dirnames, files in walk(NODES_DIR):
         # only care about directories for actual nodes
-        if (any((d not in __ignore_dirs) for d in dirnames)):
+        if any((d not in __ignore_dirs) for d in dirnames):
             continue
         if any((dir in root) for dir in __ignore_dirs):
             continue
@@ -63,6 +63,7 @@ def write_nodesidebar():
                 path_from_second_dir = root[path_index:]
                 file_path = path.join(path_from_second_dir, file)
                 new_map = update_map(new_map, nodes_map, file_path)
+                print(path_from_second_dir)
 
     sorted_map = dict(sorted(new_map.items()))
     for key, items in sorted_map.items():

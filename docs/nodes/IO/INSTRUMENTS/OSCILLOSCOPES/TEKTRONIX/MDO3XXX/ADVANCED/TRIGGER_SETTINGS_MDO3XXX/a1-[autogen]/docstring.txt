@@ -2,21 +2,16 @@ The TRIGGER_SETTINGS_MDO3XXX node sets advanced trigger settings.
 
     Note that "unchanged" will leave the settings unchanged.
 
-    If the "VISA_address" parameter is not specified the VISA_index will be
-    used to find the address. The LIST_VISA node can be used to show the
-    indicies of all available VISA instruments.
+    Requires a CONNECTION_MDO3XXX node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
 
     This node should also work with compatible Tektronix scopes (untested):
     MDO4xxx, MSO4xxx, and DPO4xxx.
 
     Parameters
     ----------
-    VISA_address: str
-        The VISA address to query.
-    VISA_index: int
-        The address will be found from LIST_VISA node list with this index.
-    num_channels: int
-        The number of channels on the instrument that are currently in use.
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_MDO3XXX node).
     query_set: str
         Whether to query or set the triggering channel.
     edge_couplings: str

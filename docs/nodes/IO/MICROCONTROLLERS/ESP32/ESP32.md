@@ -1,3 +1,4 @@
+<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
@@ -54,4 +55,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/MICROCONTROLLERS/ESP32/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/MICROCONTROLLERS/ESP32/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

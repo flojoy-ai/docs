@@ -1,0 +1,17 @@
+from flojoy import flojoy, DataContainer, TextBlob, VisaConnection
+from typing import Optional
+
+
+@flojoy(inject_connection=True)
+def RETURN_ERRORS_33510B(
+    connection: VisaConnection,
+    default: Optional[DataContainer] = None,
+) -> TextBlob:
+    
+
+    ks = connection.get_handle()
+
+    err_code, err_message = ks.error()
+    errors = f"{err_code} {err_message}"
+
+    return TextBlob(text_blob=errors)
