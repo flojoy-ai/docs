@@ -35,7 +35,7 @@ class_name
 "dog"
 ```
 
-Now, with these files at hand, you're all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_CLASSIFIER` node.
+Now, with these files at hand, you are all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_CLASSIFIER` node.
 
 ### 3. [Optional] Train the model on your own data
 
