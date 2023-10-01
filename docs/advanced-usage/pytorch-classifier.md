@@ -27,7 +27,7 @@ To utilize a trained model within the `TORCHSCRIPT_CLASSIFIER` node, ensure you 
 - The exported `.torchscript` model file.
 - A `.csv` file mapping class names to class IDs.
 
-For instance, your `csv` file for a cats vs. dogs classifier should look like this:
+For instance, your `csv` file for a cats vs. dogs classifier need not have a column for the index and can just have single column describing the class:
 
 ```
 class_name
