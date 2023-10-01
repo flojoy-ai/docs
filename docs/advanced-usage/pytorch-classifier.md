@@ -4,7 +4,7 @@ id: pytorch-classifier
 title: Integrating Your Custom PyTorch Image Classifier
 ---
 
-In this guide, we will walk you through the process of leveraging the `TORCHSCRIPT_CLASSIFIER` node in Flojoy to integrate a custom image classification model. Specifically, we'll use a Colab notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node.
+In this guide, we will walk you through the process of leveraging the [`TORCHSCRIPT_CLASSIFIER`](../nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/TORCHSCRIPT_CLASSIFIER.md) node in Flojoy to integrate a custom image classification model. Specifically, we'll use a Colab notebook to train the `MobileNetV3` model on a cats and dogs dataset, export it as a `.torchscript` format, and then deploy it within the `TORCHSCRIPT_CLASSIFIER` node.
 
 ### 1. Train and Export Your Model
 
@@ -35,7 +35,7 @@ class_name
 "dog"
 ```
 
-Now, with these files at hand, you're all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_CLASSIFIER` node.
+Now, with these files at hand, you're all set to integrate your custom PyTorch Image Classifier into Flojoy using the `TORCHSCRIPT_NODE` node.
 
 ### 3. [Optional] Train the model on your own data
 
