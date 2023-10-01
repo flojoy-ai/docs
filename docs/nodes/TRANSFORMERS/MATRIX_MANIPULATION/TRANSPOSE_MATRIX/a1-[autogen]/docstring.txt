@@ -1,0 +1,18 @@
+The TRANSPOSE_MATRIX node takes an input matrix and transpose it along the chosen axis.
+
+    Inputs
+    ------
+    a : Matrix
+        The input matrix to be transposed
+
+    Parameters
+    ----------
+    axis : int
+        Axis along which it is transposed. It takes a list of int where the length of a list is the
+        number of axis in an input matrix. It will return the list where the it transpose the
+        matrix based on the ith index of the list.
+
+    Returns
+    -------
+    Matrix
+        The matrix result from transposing.

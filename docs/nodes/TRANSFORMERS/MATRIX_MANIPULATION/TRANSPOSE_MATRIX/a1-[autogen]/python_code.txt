@@ -1,0 +1,12 @@
+from numpy import transpose
+from flojoy import flojoy, Matrix
+from typing import Optional, Union, List, Tuple
+
+
+@flojoy
+def TRANSPOSE_MATRIX(default: Matrix, axis: Optional[Union[List[int], Tuple[int, int]]] ) -> Matrix:
+    
+    if len(axis) > len(default.m):
+        raise AssertionError("Invalid axis")
+    
+    return Matrix(m=transpose(default.m, axis))
