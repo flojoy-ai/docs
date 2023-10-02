@@ -1,0 +1,27 @@
+from flojoy import flojoy, DataContainer, Scalar
+from flojoy.connection_manager import DeviceConnectionManager
+from typing import Optional, Literal
+import nidmm
+
+
+@flojoy(deps={"nidmm": "1.4.6"})
+def AC_VOLTAGE_USB4065(
+    NI_address: str = "Dev1",
+    digits: Literal["4.5", "5.5", "6.5"] = "5.5",
+    voltage_limit: Literal["0.2", "2", "20", "300"] = "20",
+    default: Optional[DataContainer] = None,
+) -> Scalar:
+    
+
+    connection = DeviceConnectionManager.get_connection(NI_address)
+    session = connection.get_handle()
+
+    session.configure_measurement_digits(
+        nidmm.Function.AC_VOLTS,
+        range=float(voltage_limit),
+        resolution_digits=float(digits),
+    )
+
+    reading = session.read()
+
+    return Scalar(c=reading)

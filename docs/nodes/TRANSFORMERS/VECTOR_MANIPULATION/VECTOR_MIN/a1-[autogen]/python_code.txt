@@ -1,0 +1,9 @@
+import numpy as np
+from flojoy import flojoy, Vector, Scalar
+
+
+@flojoy
+def VECTOR_MIN(default: Vector) -> Scalar:
+    
+
+    return Scalar(c=np.min(default.v))
