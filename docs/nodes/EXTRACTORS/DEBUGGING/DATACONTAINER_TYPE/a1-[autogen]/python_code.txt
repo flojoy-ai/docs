@@ -7,4 +7,4 @@ def DATACONTAINER_TYPE(
 ) -> TextBlob:
     
 
-    return TextBlob(text_blob=str(default.type))
+    return TextBlob(text_blob=default.type)
