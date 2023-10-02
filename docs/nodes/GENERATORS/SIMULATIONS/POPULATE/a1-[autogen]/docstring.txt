@@ -1,16 +1,14 @@
-The RAND node generates a random number or a list of random numbers, depending on the distribution selected.
+The POPULATE node generates random numbers, depending on the distribution selected and the input data.
 
     Inputs
     ------
-    default : DataContainer
-        unused in this node
+    default : OrderedPair|Vector
+        Input to use as the x-axis for the random samples.
 
     Parameters
     ----------
     distribution : select
         the distribution over the random samples
-    size : int
-        the size of the output. =1 outputs Scalar, >1 outputs Vector
     lower_bound : float
         the lower bound of the output interval
     upper_bound : float
@@ -24,9 +22,6 @@ The RAND node generates a random number or a list of random numbers, depending o
 
     Returns
     -------
-    Scalar|Vector
-        Vector if size > 1
-        v: the random samples
-
-        Scalar if size = 1
-        c: the random number
+    OrderedPair
+        x: provided from input data
+        y: the random samples
