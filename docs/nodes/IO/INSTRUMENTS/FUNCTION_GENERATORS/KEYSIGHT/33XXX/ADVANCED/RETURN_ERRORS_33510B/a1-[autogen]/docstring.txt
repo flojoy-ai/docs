@@ -3,16 +3,19 @@ The RETURN_ERRORS_33510B node returns error messages from the WFG.
     Error retrival is first-in-first-out (FIFO). Returning errors clears them
     from the instruments queue.
 
-    Requires a CONNECTION_33510B node at the start of the app to connect with
-    the instrument. The VISA address will then be listed under 'connection'.
+    If the "VISA_address" parameter is not specified the VISA_index will be
+    used to find the address. The LIST_VISA node can be used to show the
+    indicies of all available VISA instruments.
 
     This node should also work with compatible Keysight 33XXX wavefunction
     generators (although they are untested).
 
     Parameters
     ----------
-    connection: VisaConnection
-        The VISA address (requires the CONNECTION_MDO3XXX node).
+    VISA_address: str
+        The VISA address to query.
+    VISA_index: int
+        The address will be found from LIST_VISA node list with this index.
 
     Returns
     -------

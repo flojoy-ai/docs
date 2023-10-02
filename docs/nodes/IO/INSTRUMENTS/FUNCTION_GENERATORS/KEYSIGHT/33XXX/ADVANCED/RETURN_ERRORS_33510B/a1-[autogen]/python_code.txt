@@ -1,15 +1,42 @@
-from flojoy import flojoy, DataContainer, TextBlob, VisaConnection
-from typing import Optional
+from flojoy import flojoy, DataContainer, TextBlob
+import pyvisa
+from typing import Optional, Literal
+from qcodes.instrument_drivers.Keysight import Keysight33512B
+from usb.core import USBError
 
 
-@flojoy(inject_connection=True)
+@flojoy(
+    deps={
+        "pyvisa": "1.13.0",
+        "pyusb": "1.2.1",
+        "zeroconf": "0.102.0",
+        "pyvisa_py": "0.7.0",
+        "qcodes": "0.39.1",
+    }
+)
 def RETURN_ERRORS_33510B(
-    connection: VisaConnection,
+    VISA_address: Optional[str],
+    VISA_index: Optional[int] = 0,
     default: Optional[DataContainer] = None,
-) -> TextBlob:
+) -> Optional[DataContainer]:
     
 
-    ks = connection.get_handle()
+    rm = pyvisa.ResourceManager("@py")
+    if VISA_address == "":
+        VISA_addresses = rm.list_resources()
+        VISA_address = VISA_addresses[int(VISA_index)]
+
+    try:
+        ks = Keysight33512B(
+            "ks",
+            VISA_address,
+            visalib="@py",
+            device_clear=False,
+        )
+    except USBError as err:
+        raise Exception(
+            "USB port error. Trying unplugging+replugging the port."
+        ) from err
 
     err_code, err_message = ks.error()
     errors = f"{err_code} {err_message}"

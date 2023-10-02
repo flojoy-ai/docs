@@ -23,4 +23,3 @@ The LOCAL_FILE node loads a local file of a different type and converts it to a 
         Image for file_type 'image'.
         Grayscale from file_type 'Grayscale'.
         DataFrame for file_type 'json', 'csv'.
-        DataFrame for file_type 'json', 'csv', 'excel', and 'xml'.
