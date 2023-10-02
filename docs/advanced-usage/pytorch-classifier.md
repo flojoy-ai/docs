@@ -85,7 +85,8 @@ dataset/
 #!gdown  https://drive.google.com/uc?id=1TIme-TSfRFwVvBVaGymV4-9CX4voThIg
 #!unzip cats_and_dogs.zip
 
-# [Advanced tutorial - Optional section 3] Comment the 2 lines above and uncomment the line below to use your own dataset 
+# [Advanced tutorial - Optional section 3]
+# Comment the 2 lines above and uncomment the line below to use your own dataset 
 !unzip datasets.zip
 ```
 
