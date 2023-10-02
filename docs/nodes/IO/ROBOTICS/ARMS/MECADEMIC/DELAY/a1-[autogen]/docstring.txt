@@ -1,0 +1,16 @@
+
+The DELAY node delays the action between two nodes.
+
+Inputs
+------
+ip_address: TextBlob
+    The IP address of the robot arm.
+
+time: float
+    The time of delay in seconds.
+
+Returns
+-------
+ip_address
+    The IP address of the robot arm.
+
