@@ -1,7 +1,19 @@
-from flojoy import flojoy, OrderedPair, DataContainer
-from typing import Optional
+import serial
+from flojoy import flojoy, SerialConnection, TextBlob
+from typing import cast
 
+@flojoy(deps={"pyserial": "3.5"}, inject_connection=True)
+def IDN(
+    connection: SerialConnection
+) -> TextBlob:
+    
+    
+    # Start serial communication with the instrument
+    ser = cast(serial.Serial, connection.get_handle())
 
-@flojoy()
-def SCPI(default: Optional[DataContainer] = None) -> OrderedPair:
-    return OrderedPair()
+    if ser is None:
+        raise ValueError("Serial communication is not open")
+    
+    ser.write('*IDN?\n'.encode())
+
+    return TextBlob(text_blob=ser.readline())
