@@ -1,0 +1,27 @@
+The POPULATE node generates random numbers, depending on the distribution selected and the input data.
+
+    Inputs
+    ------
+    default : OrderedPair|Vector
+        Input to use as the x-axis for the random samples.
+
+    Parameters
+    ----------
+    distribution : select
+        the distribution over the random samples
+    lower_bound : float
+        the lower bound of the output interval
+    upper_bound : float
+        the upper bound of the output interval
+    normal_mean : float
+        the mean or "center" of the normal distribution
+    normal_standard_deviation : float
+        the spread or "width" of the normal distribution
+    poisson_events : float
+        the expected number of events occurring in a fixed time-interval when distribution is poisson
+
+    Returns
+    -------
+    OrderedPair
+        x: provided from input data
+        y: the random samples
