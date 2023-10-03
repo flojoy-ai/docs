@@ -9,6 +9,7 @@ def UNIX_TIMESTAMP(
     default: Optional[Scalar] = None,
     dc_type: Literal["Scalar", "Vector"] = "Scalar",
 ) -> Scalar | Vector | OrderedPair:
+
     """Return the current UNIX timestamp as a float (Scalar) or array (Vector) with length equal to 1.
     If a Scalar input is provided, the Scalar is returned with the timestamp as an OrderedPair.
     Inputs
@@ -23,6 +24,7 @@ def UNIX_TIMESTAMP(
     -------
     Scalar|Vector|OrderedPair
     """
+
 
     unix_timestamp = time.mktime(datetime.datetime.now().timetuple())
 

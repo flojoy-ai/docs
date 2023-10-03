@@ -40,10 +40,26 @@ Here you can find information about all the Flojoy nodes that can be used to man
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/REPLACE_SUBSET/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/REPLACE_SUBSET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>REPLACE_SUBSET</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/REVERSE_VECTOR/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/REVERSE_VECTOR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>REVERSE VECTOR</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/SHIFT_VECTOR/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/SHIFT_VECTOR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>SHIFT VECTOR</figcaption>
 </figure>
 </a></div>
 
@@ -72,6 +88,14 @@ Here you can find information about all the Flojoy nodes that can be used to man
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_DELETE/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_DELETE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>VECTOR DELETE</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_INDEXING/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_INDEXING/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
@@ -80,10 +104,42 @@ Here you can find information about all the Flojoy nodes that can be used to man
 </a></div>
 
 <div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_INSERT/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_INSERT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>VECTOR INSERT</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
 <a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_LENGTH/">
 <figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_LENGTH/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
 <figcaption>VECTOR LENGTH</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MAX/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MAX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>VECTOR MAX</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MIN/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MIN/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>VECTOR MIN</figcaption>
+</figure>
+</a></div>
+
+<div className="p-4">
+<a href="/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_SUBSET/">
+<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
+<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_SUBSET/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
+<figcaption>VECTOR SUBSET</figcaption>
 </figure>
 </a></div>
 

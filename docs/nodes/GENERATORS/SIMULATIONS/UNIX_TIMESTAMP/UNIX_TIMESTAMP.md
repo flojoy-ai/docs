@@ -35,6 +35,7 @@ import outputImg from './examples/EX1/output.jpeg'
     nodeLabel='UNIX_TIMESTAMP'
     appImg={appImg}
     outputImg={outputImg}
+
     >
     {App1}
 </AppDisplay>
@@ -50,6 +51,8 @@ import outputImg from './examples/EX1/output.jpeg'
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
+
+## Appendix
 
 <AppendixSection index={0} folderPath='nodes/GENERATORS/SIMULATIONS/UNIX_TIMESTAMP/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/GENERATORS/SIMULATIONS/UNIX_TIMESTAMP/appendix/'><Hardware /></AppendixSection>

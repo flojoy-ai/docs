@@ -1,0 +1,27 @@
+from flojoy import flojoy, DataContainer, Scalar
+from flojoy.connection_manager import DeviceConnectionManager
+from typing import Optional, Literal
+import nidmm
+
+
+@flojoy(deps={"nidmm": "1.4.6"})
+def AC_CURRENT_USB4065(
+    NI_address: str = "Dev1",
+    digits: Literal["4.5", "5.5", "6.5"] = "5.5",
+    current_limit: Literal["0.01", "0.1", "0.5", "3"] = "3",
+    default: Optional[DataContainer] = None,
+) -> Scalar:
+    
+
+    connection = DeviceConnectionManager.get_connection(NI_address)
+    session = connection.get_handle()
+
+    session.configure_measurement_digits(
+        nidmm.Function.AC_CURRENT,
+        range=float(current_limit),
+        resolution_digits=float(digits),
+    )
+
+    reading = session.read()
+
+    return Scalar(c=reading)
