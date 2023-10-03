@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: EXTRACT_TRACE_MDO3XXX
+description: The EXTRACT_TRACE_MDO3XXX node extracts the phase measurement between two traces from a MDO3XXX oscilloscope.
+keywords: [oscilloscope, python, extract, control, instrument, trace]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/examples/EX1/output.jpeg
+---
 
 In this example, we demonstrate how to extract signal traces from a Tektronix MDO3000 oscilloscope. 
 
@@ -6,8 +11,6 @@ In this example, we demonstrate how to extract signal traces from a Tektronix MD
 The MDO3XXX node should also work with the compatible Tektronix oscilloscopes MDO4XXX, MSO4XXX, and DPO4XXX. However, those have not been tested yet.
 :::
 
-First, we list the VISA devices with the [`LIST_VISA`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/QCODES/LIST_VISA/LIST_VISA.py) node. Knowing that the serial number is C012101, we enter the VISA address that contains this into the `VISA address` parameter for both of the `EXTRACT_TRACE` nodes.
+We must first add the [`CONNECTION_MDO3XXX`](https://github.com/flojoy-ai/nodes/tree/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/) node. This will create the connection to the instrument at the beginning of the app. To allow this we must set the `VISA address` for this (and all subsequent `MDO3XXX` nodes). If the address does not appear in the parameters you may have to press `REFRESH` in the `HARDWARE MANAGER` tab.
 
-The [`EXTRACT_TRACE_MDO3XXX`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX.py) node extracts the data from the oscilloscope for a single channel. You must first set the channel that you want to extract from and the x-axis (time) length. In this example, we set the top and bottom rows in the app to extract CH1 and CH2, repectively (note that in Flojoy we start counting from 0). We then set the x length to 2000ns.
-
-The [`LINE`](https://github.com/flojoy-io/nodes/blob/main/VISUALIZERS/PLOTLY/LINE/LINE.py) node will display the data for each channel, where the two sine waves define the two channels.
+The two [`EXTRACT_TRACE_MDO3XXX`](https://github.com/flojoy-ai/nodes/blob/develop/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX.py) nodes (as well as the `COMPOSITE` NODE) are used here to visualize waveforms for CH1 and CH2.  
