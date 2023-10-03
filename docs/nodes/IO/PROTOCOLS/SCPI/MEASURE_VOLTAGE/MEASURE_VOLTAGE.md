@@ -1,3 +1,7 @@
+---
+title: MEASURE_VOLTAGE
+description: Read a voltage from a connected device that supports the SCPI protocol.
+---
 
 [//]: # (Custom component imports)
 
@@ -17,21 +21,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
-
+### Send the MEASURE:VOLTAGE:DC command
 
 <AppDisplay 
     nodeLabel='MEASURE_VOLTAGE'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
@@ -39,8 +43,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 
@@ -54,4 +56,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SCPI/MEASURE_VOLTAGE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SCPI/MEASURE_VOLTAGE/appendix/'><Media /></AppendixSection>
 
-
+<!--Add Button here-->

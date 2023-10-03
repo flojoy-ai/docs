@@ -1,16 +1,16 @@
 The MEASURE_VOLTAGE node queries an instrument's measured output voltage, such as a DMM or power supply.
 
-    Inputs
-    ------
-    default: DataContainer
-        Any DataContainer - likely connected to the output of the OPEN_SERIAL node.
+Inputs
+------
+default: DataContainer
+    Any DataContainer - likely connected to the output of the OPEN_SERIAL node.
 
-    Parameters
-    ----------
-    connection: Serial
-        The open serial connection with the instrument.
+Parameters
+----------
+connection: Serial
+    The open serial connection with the instrument.
 
-    Returns
-    -------
-    Scalar|TextBlob
-        The measured voltage as a Scalar or an exception error as a TextBlob.
+Returns
+-------
+Scalar|TextBlob
+    The measured voltage as a Scalar or an exception error as a TextBlob.

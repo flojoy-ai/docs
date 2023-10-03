@@ -1,4 +1,7 @@
-<!--Add SEO here-->
+---
+title: OPEN_SERIAL
+description:  Open a serial connection in Flojoy.
+---
 
 [//]: # (Custom component imports)
 
@@ -14,7 +17,7 @@ import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='IO/PROTOCOLS/SCPI/SCPI.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='IO/PROTOCOLS/SERIAL/BASIC/OPEN_SERIAL/OPEN_SERIAL.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -24,13 +27,15 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
-
+### Open a serial connection through a USB or RS-232 port
 
 <AppDisplay 
-    nodeLabel='SCPI'
-    appImg={''}
-    outputImg={''}
+    nodeLabel='OPEN_SERIAL'
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
@@ -47,8 +52,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/IO/PROTOCOLS/SCPI/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SCPI/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SCPI/appendix/'><Media /></AppendixSection>
+<AppendixSection index={0} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/OPEN_SERIAL/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/OPEN_SERIAL/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/OPEN_SERIAL/appendix/'><Media /></AppendixSection>
 
 <!--Add Button here-->

@@ -1,0 +1,10 @@
+The OPEN_SERIAL node opens a serial connection through your computer's USB or RS-232 port.
+
+Parameters
+----------
+device: Serial
+    The connected serial device.
+
+Returns
+-------
+TextBlob
