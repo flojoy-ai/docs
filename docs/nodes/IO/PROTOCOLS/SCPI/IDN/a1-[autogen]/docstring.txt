@@ -2,8 +2,8 @@ The IDN node queries a device's identity through the universal *IDN? SCPI comman
 
     Inputs
     ------
-    default: TextBlob
-        A dummy TextBlob DataContainer - likely connected to the output of the OPEN_SERIAL node. This dummy input is intended to connect to the OPEN_SERIAL output to ensure that OPEN_SERIAL is executed first.    
+    default: DataContainer
+        Any DataContainer - likely connected to the output of the OPEN_SERIAL node.
 
     Parameters
     ----------
