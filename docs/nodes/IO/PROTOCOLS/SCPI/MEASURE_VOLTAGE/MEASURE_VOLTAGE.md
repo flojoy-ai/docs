@@ -36,7 +36,6 @@ import outputImg from './examples/EX1/output.jpeg'
     nodeLabel='MEASURE_VOLTAGE'
     appImg={appImg}
     outputImg={outputImg}
-
     >
     {App1}
 </AppDisplay>
