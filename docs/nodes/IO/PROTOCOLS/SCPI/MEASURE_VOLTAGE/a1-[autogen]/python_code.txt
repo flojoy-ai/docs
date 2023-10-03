@@ -6,7 +6,7 @@ from typing import cast, Optional
 
 @flojoy(deps={"pyserial": "3.5"}, inject_connection=True)
 def MEASURE_VOLTAGE(
-    connection: SerialConnection, default: Optional[TextBlob] = None
+    connection: SerialConnection, default: Optional[DataContainer] = None
 ) -> Scalar | TextBlob:
     
 
