@@ -23,13 +23,23 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.json';
+
+
+
 <AppDisplay 
-  GLink='IO/ROBOTICS/ARMS/MECADEMIC/SET_CART_LIN_VEL'
-  nodeLabel='SET_CART_LIN_VEL'>
+    nodeLabel='SET_CART_LIN_VEL'
+    appImg={''}
+    outputImg={''}
+    >
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)

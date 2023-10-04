@@ -23,13 +23,23 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.json';
+
+
+
 <AppDisplay 
-  GLink='IO/INSTRUMENTS/MULTIMETERS/NI/USB_4065/BASIC/RESISTANCE_USB4065'
-  nodeLabel='RESISTANCE_USB4065'>
+    nodeLabel='RESISTANCE_USB4065'
+    appImg={''}
+    outputImg={''}
+    >
+    {App1}
 </AppDisplay>
 
-<SectionBreak />
+<Example1 />
 
+<SectionBreak />
+  
     
 
 [//]: # (Appendix)
