@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Send an identity query to an instrument
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='VISA_IDENTITY'
     appImg={''}
     outputImg={''}

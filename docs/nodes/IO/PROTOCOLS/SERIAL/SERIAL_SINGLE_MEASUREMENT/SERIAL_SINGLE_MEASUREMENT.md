@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Extract measurements from an Arduino microcontroller
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='SERIAL_SINGLE_MEASUREMENT'
     appImg={''}
     outputImg={''}

@@ -55,6 +55,27 @@ import outputImg from './examples/EX1/output.jpeg'
 """
 
 
+def with_app_only(node_name: str, example_title:str):
+    return f"""
+
+import Example1 from './examples/EX1/example.md';
+import App1 from '!!raw-loader!./examples/EX1/app.json';
+
+### {example_title.strip() if example_title.strip() != "" else f"{node_name} example"}
+
+<AppDisplay
+    nodeLabel='{node_name}'
+    appImg={{''}}
+    outputImg={{''}}
+    >
+    {{App1}}
+</AppDisplay>
+
+<Example1 />
+
+"""
+
+
 def get_node_files() -> list[str]:
     node_files = []
     for root, dirs, files in os.walk("docs/nodes"):
@@ -98,6 +119,11 @@ def has_example_image(node_dir: str):
     )
 
 
+def has_example_app(node_dir: str):
+    example_dir = os.path.join(node_dir, "examples/EX1")
+    return os.path.exists(os.path.join(example_dir, "app.json"))
+
+
 def extract_example_title(content: str):
     heading_char = "###"
     start_index = content.find(heading_char)
@@ -111,6 +137,7 @@ def extract_example_title(content: str):
 def get_example_section(node_name: str, node_path: str, example_section: str):
     node_dir = os.path.dirname(node_path)
     has_img = has_example_image(node_dir=node_dir)
+    has_app = has_example_app(node_dir=node_dir)
     example_heading = extract_example_title(example_section)
     if has_img:
         has_light_mode = has_light_mode_img(node_dir=node_dir)
@@ -126,17 +153,22 @@ def get_example_section(node_name: str, node_path: str, example_section: str):
                 node_name=node_name, example_title=example_heading
             )
             return example
+    elif has_app:
+        example = with_app_only(node_name=node_name, example_title=example_heading)
+        return example
     return example_section
 
-def write_file(file_path:str, content:str):
-  with open(file_path, "w") as f:
-    f.write(content)
+
+def write_file(file_path: str, content: str):
+    with open(file_path, "w") as f:
+        f.write(content)
+
 
 def process_md_files():
     nodes = get_node_files()
     for node in nodes:
         md_content = get_content(node)
-        ex_start_index, ex_end_index, ex_section = find_and_extract_content(
+        _, _, ex_section = find_and_extract_content(
             md_content, EXAMPLE_SECTION_START, EXAMPLE_SECTION_END
         )
         node_name = node.split("/")[-1].replace(".md", "")
@@ -145,7 +177,6 @@ def process_md_files():
         )
         with_example = md_content.replace(ex_section, example_section)
         write_file(node, with_example)
-
 
 
 if __name__ == "__main__":

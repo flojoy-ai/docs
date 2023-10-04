@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Make predictions from a serialized ONNX model
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='ONNX_MODEL'
     appImg={''}
     outputImg={''}

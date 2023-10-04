@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Simulate a Weinschel 8320 attenuator
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='WEINSCHEL8320'
     appImg={''}
     outputImg={''}

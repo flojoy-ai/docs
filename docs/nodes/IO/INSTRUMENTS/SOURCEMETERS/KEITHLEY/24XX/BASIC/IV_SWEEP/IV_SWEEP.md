@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Record an I-V curve
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='IV_SWEEP'
     appImg={''}
     outputImg={''}

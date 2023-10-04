@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Control a stepper motor's rotation
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='TIC_KNOB'
     appImg={''}
     outputImg={''}

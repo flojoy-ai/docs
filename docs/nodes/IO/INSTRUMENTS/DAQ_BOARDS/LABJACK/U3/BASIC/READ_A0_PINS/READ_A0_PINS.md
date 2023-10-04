@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Record and display temperature measurements
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='READ_A0_PINS'
     appImg={''}
     outputImg={''}

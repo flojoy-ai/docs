@@ -28,7 +28,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### End the iteration of a loop
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='BREAK'
     appImg={''}
     outputImg={''}

@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Measure pressures from Flexiforce sensors
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='READ_N_PINS'
     appImg={''}
     outputImg={''}
