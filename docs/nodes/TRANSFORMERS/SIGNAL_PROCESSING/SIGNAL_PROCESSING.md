@@ -1,8 +1,8 @@
 ---
-hide_table_of_contents: true
 sidebar_label: Signal Processing
 sidebar_position: 1
-slug: /nodes/TRANSFORMERS/SIGNAL_PROCESSING/
+slug: /nodes/transformers/signal-processing/
+hide_table_of_contents: true
 ---
 
 # SIGNAL PROCESSING in Python

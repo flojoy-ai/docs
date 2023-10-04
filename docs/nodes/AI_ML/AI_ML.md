@@ -1,7 +1,8 @@
 ---
 sidebar_label: AI & ML
-slug: /nodes/AI_ML/
+slug: /nodes/AI-ML/
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 
 # AI & ML in Python

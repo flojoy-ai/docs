@@ -1,8 +1,8 @@
 ---
-hide_table_of_contents: true
 sidebar_label: Image Processing
 sidebar_position: 1
-slug: /nodes/TRANSFORMERS/IMAGE_PROCESSING/
+slug: /nodes/transformers/image-processing/
+hide_table_of_contents: true
 ---
 
 # IMAGE PROCESSING in Python

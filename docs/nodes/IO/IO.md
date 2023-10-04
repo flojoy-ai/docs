@@ -1,7 +1,8 @@
 ---
 sidebar_label: IO
-slug: /nodes/IO/
+slug: /nodes/io/
 sidebar_position: 8
+hide_table_of_contents: true
 ---
 
 # INSTRUMENTS in Python

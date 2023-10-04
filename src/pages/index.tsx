@@ -7,6 +7,7 @@ import styles from './index.module.scss';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { downloadLinks } from '../utils/helper';
 import QuickStart from '../components/QuickStart';
+import CardCollection from '../components/CardCollection';
 import { FaApple, FaWindows, FaLinux } from 'react-icons/fa';
 import Head from '@docusaurus/Head';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -33,15 +34,8 @@ function HomepageHeader() {
       organization: 'flojoy',
       theme: 'light',
       placement: 'right',
-      // email: 'youruser@example.com',
     });
 
-    // win.Featurebase('initialize_portal_widget', {
-    //   organization: 'flojoy', // required
-    //   placement: 'right', // optional
-    //   fullScreen: false, // optional
-    //   initialPage: 'MainView', // optional (MainView, RoadmapView, CreatePost, PostsView, ChangelogView)
-    // });
   }, []);
 
   const { siteConfig } = useDocusaurusContext();
@@ -102,15 +96,15 @@ function HomepageHeader() {
         </div>
       </header>
 
-      <section
-        className={clsx('sm:mb-4', styles.backgroundSection)}
-        style={{
-          backgroundImage: `url(${bgImage?.light})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundRepeat: 'space',
-          backgroundPosition: 'center',
-        }}
-      ></section>
+      <h1 className = 'card-collection-header'>🕹️ Demos</h1>
+
+      <section className={clsx('mb-4', styles.backgroundSection)}>
+        <div className="container text-center">
+          <CardCollection />
+        </div>
+      </section>
+
+      <h1 className = 'card-collection-header'>🎛️ App showcase</h1>
 
       <section className={clsx('mb-4', styles.backgroundSection)}>
         <div className="container text-center">

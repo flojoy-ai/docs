@@ -1,6 +1,6 @@
 ---
 sidebar_label: Logic
-slug: /nodes/LOGIC_GATES/
+slug: /nodes/logic/
 sidebar_position: 5
 ---
 
