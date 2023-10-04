@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@docsearch/js": "^3.5.0",
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/plugin-client-redirects": "^2.4.1",
-    "@docusaurus/plugin-sitemap": "^2.4.1",
-    "@docusaurus/preset-classic": "^2.4.0",
-    "@docusaurus/theme-search-algolia": "^2.4.1",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/plugin-client-redirects": "^2.4.3",
+    "@docusaurus/plugin-sitemap": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/theme-search-algolia": "^2.4.3",
     "@markprompt/css": "^0.10.0",
     "@markprompt/docusaurus-theme-search": "^0.8.0",
     "@markprompt/web": "^0.14.1",
@@ -55,7 +55,7 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.0",
+    "@docusaurus/module-type-aliases": "^2.4.3",
     "@tsconfig/docusaurus": "^1.0.6",
     "@types/flat": "^5.0.2",
     "@types/plotly.js-dist-min": "^2.3.1",
