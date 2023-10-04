@@ -30,8 +30,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
-import outputImg from './examples/EX1/output.jpeg'
 import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
 ### Batch load TIFF images from disk
 
@@ -40,7 +40,7 @@ import appImg from './examples/EX1/app.jpeg'
     appImg={appImg}
     outputImg={outputImg}
     >
-{App1}
+    {App1}
 </AppDisplay>
 
 <Example1 />

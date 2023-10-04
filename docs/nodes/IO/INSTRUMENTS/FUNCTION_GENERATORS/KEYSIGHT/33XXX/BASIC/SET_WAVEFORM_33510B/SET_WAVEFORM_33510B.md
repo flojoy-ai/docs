@@ -28,6 +28,8 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
+### SET_WAVEFORM_33510B example
+
 <AppDisplay 
     nodeLabel='SET_WAVEFORM_33510B'
     appImg={appImg}
