@@ -21,52 +21,55 @@ export default function AppThumbnail({
   let nodeLabel: string = path.split('/').pop();
   let nodeData = { label: nodeLabel };
 
-  const imgSrc =
+  let imgSrc =
     typeof img === 'string'
       ? img
       : `https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/${path}/${thumbnailPath}`;
 
-  const thumbnailClass = instrument
+  const featuredSections = ['SIGNAL_PROCESSING', 'IMAGE_PROCESSING', 'LOGIC_GATES', 'AI_ML', 'IO'];
+  const featuredNode = featuredSections.some(v => path.includes(v))
+  
+  let thumbnailClass = instrument
     ? 'instrument-thumbnail-figure'
     : 'app-thumbnail-figure';
 
-  const pathRoot = instrument ? 'instruments-database' : 'nodes';
-
-  if (path.toLowerCase().indexOf('numpy') >= 0) {
-    return (
-      <div className="p-4">
-        <a href={`/nodes/${path}/`}>
-          <NumpyNode nodeProps={{ data: nodeData }} />
-        </a>
-      </div>
-    );
+  if (featuredNode) {
+    imgSrc = `/node_thumbnails/${nodeLabel}.png`;
+    thumbnailClass += ' custom-thumbnail';
   }
 
-  if (path.toLowerCase().indexOf('scipy') >= 0) {
+  const pathRoot = instrument ? 'instruments-database' : 'nodes';
+
+  const isNumpyNode = path.toLowerCase().indexOf('numpy') >= 0;
+  const isSciPyNode = path.toLowerCase().indexOf('scipy') >= 0;
+
+  if (isNumpyNode || isSciPyNode) {
     return (
-      <div className="p-4">
+      <div className="thumbnail-wrapper">
         <a href={`/nodes/${path}/`}>
-          <ScipyNode nodeProps={{ data: nodeData }} />
+          {isNumpyNode ? <NumpyNode nodeProps={{ data: nodeData }} /> : <ScipyNode nodeProps={{ data: nodeData }} />}
         </a>
       </div>
     );
   }
 
   return (
-    <div className="p-4">
+    <div className="thumbnail-wrapper">
         <a href={`/${pathRoot}/${path}/`}>
-            {
-            <figure className={`category-page-thumbnail ${thumbnailClass}`}>
-              <div class='thumbnail-image-container'>
-                <img 
-                  alt={children}
-                  src={imgSrc}
-                  style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}
-                />
-              </div>
-              <figcaption>{children}</figcaption>
-            </figure>
-            }
+          <>
+            <div className={`thumbnail-wrapper-figure ${thumbnailClass}`}>
+              <img 
+                alt={children} 
+                src={imgSrc}
+                onError={event => {
+                  event.target.src = "/node_thumbnails/DEFAULT_THUMBNAIL.png"
+                  event.target.style.transform = 'scale(1)'
+                  event.onerror = null
+                }}
+              />
+            </div>
+            <div className='figcaption'>{nodeLabel.replaceAll('_', ' ')}</div>
+          </>
         </a>
     </div>
   );

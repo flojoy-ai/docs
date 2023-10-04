@@ -21,13 +21,13 @@ export default function AppThumbnailSection({
       <h3>{sectionName}</h3>
       <blockquote>{blockquote}</blockquote>
       <p>
-        {`Inspect the Python code for these ${sectionName} nodes `}
+        {`Inspect the Python code for these ${sectionName} nodes`}
         <a href={`https://github.com/flojoy-ai/nodes/tree/main/${sectionRoot}`}>
           on GitHub
         </a>
         .
       </p>
-      <div className="flex flex-wrap">
+      <div>
         {nodes.map(nodePath => {
           let caption = nodePath.replace('/', ' > ');
           return (
