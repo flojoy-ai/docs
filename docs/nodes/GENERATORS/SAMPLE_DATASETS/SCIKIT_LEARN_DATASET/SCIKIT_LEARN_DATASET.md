@@ -26,9 +26,9 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
+### SCIKIT_LEARN_DATASET example
 
-
-<AppDisplay 
+<AppDisplay
     nodeLabel='SCIKIT_LEARN_DATASET'
     appImg={''}
     outputImg={''}
