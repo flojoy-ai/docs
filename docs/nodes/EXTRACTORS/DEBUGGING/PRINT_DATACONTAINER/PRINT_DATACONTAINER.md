@@ -25,13 +25,19 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import appImgLight from './examples/EX1/app_light.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
+import outputLight from './examples/EX1/output_light.jpeg'
 
 ### PRINT_DATACONTAINER example
 
-<AppDisplay
+<AppDisplay 
     nodeLabel='PRINT_DATACONTAINER'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    appLight={appImgLight}
+    outputLight={outputLight}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
