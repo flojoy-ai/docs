@@ -11,6 +11,7 @@ export default function AppThumbnailSection({
   sectionName,
   blockquote,
   sectionRoot,
+  displayPath,
   nodes,
 }: AppThumbnailSectionProps) {
   const { colorMode } = useColorMode();
@@ -31,7 +32,7 @@ export default function AppThumbnailSection({
         {nodes.map(nodePath => {
           let caption = nodePath.replace('/', ' > ');
           return (
-            <AppThumbnail key={nodePath} path={`${sectionRoot}/${nodePath}`}>
+            <AppThumbnail key={nodePath} path={`${sectionRoot}/${nodePath}`} displayPath={displayPath}>
               {caption}
             </AppThumbnail>
           );

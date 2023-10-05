@@ -137,6 +137,10 @@
   overflow: hidden;
 }
 
+.thumbnail-wrapper a {
+  text-decoration: none !important;
+}
+
 .thumbnail-wrapper-figure {
   width: 300px;
   height: 300px;
@@ -162,7 +166,27 @@
 .thumbnail-wrapper .figcaption {
   font-size: 105%;
   font-weight: bold;
-  text-decoration: none;
+}
+
+.thumbnail-path-crumb {
+  font-size: 12px;
+}
+
+.thumbnail-path-crumb {
+  color: #BCC2C4;
+  padding: 2px 10px;
+  border: 1px solid #BCC2C4;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.thumbnail-path-container {
+  max-width: 300px;
+  max-height: 30px;
+}
+
+.thumbnail-wrapper .figcaption:hover, .thumbnail-path-crumb:hover {
+  text-decoration: none !important;
 }
 
 /* Instrument page thumbnail styles */
