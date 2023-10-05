@@ -1,7 +1,10 @@
 ---
-sidebar_label: Logic
-slug: /nodes/LOGIC_GATES/
+title: Flojoy | Loops, timers, and conditionals
+description: Flojoy has an expressive set of functions ("nodes") for controlling app execution flow - including timers, loops, and if statements. Learn how to add these logic expressions to your Flojoy apps through our simple examples.
+sidebar_label: Logic nodes
+slug: /nodes/logic/
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 
 # LOGIC EXPRESSIONS in Python

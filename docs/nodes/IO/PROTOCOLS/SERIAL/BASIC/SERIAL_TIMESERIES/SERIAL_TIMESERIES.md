@@ -39,7 +39,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-
     
 
 [//]: # (Appendix)

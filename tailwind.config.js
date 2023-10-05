@@ -13,6 +13,12 @@ module.exports = {
         accent2: 'rgb(var(--color-accent2) / <alpha-value>)',
         accent3: 'rgb(var(--color-accent3) / <alpha-value>)',
         accent4: 'rgb(var(--color-accent4) / <alpha-value>)',
+
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+      },
+      screens: {
+        '3xl': '1600px',
       },
     },
   },

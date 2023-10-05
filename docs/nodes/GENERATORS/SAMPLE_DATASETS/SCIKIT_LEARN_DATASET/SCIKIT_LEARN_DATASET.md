@@ -13,7 +13,7 @@ import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT.py'>{PythonSource}</PythonCode>
+<PythonCode GLink='GENERATORS/SAMPLE_DATASETS/SCIKIT_LEARN_DATASET/SCIKIT_LEARN_DATASET.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -26,10 +26,10 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-### SERIAL_SINGLE_MEASUREMENT example
 
-<AppDisplay
-    nodeLabel='SERIAL_SINGLE_MEASUREMENT'
+
+<AppDisplay 
+    nodeLabel='SCIKIT_LEARN_DATASET'
     appImg={''}
     outputImg={''}
     >
@@ -39,6 +39,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
+  
     
 
 [//]: # (Appendix)
@@ -49,8 +50,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/appendix/'><Media /></AppendixSection>
+<AppendixSection index={0} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/SCIKIT_LEARN_DATASET/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/SCIKIT_LEARN_DATASET/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/GENERATORS/SAMPLE_DATASETS/SCIKIT_LEARN_DATASET/appendix/'><Media /></AppendixSection>
 
 
