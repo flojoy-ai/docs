@@ -45,7 +45,7 @@ const cardCollectionData: CardItem[] = [
       'Flojoy has an expressive set of functions ("nodes") for controlling app execution flow - including timers, loops, and if statements. Learn how to add these logic expressions to your Flojoy apps through our simple examples.',
   },
   {
-    cardHeader: 'Build Your Own Node',
+    cardHeader: 'Build Your Own',
     cardLink: '/custom-nodes',
     cardEmoji: '🛠️',
     cardContent:
