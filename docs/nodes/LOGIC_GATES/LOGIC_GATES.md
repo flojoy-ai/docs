@@ -1,7 +1,9 @@
 ---
-sidebar_label: Logic
+title: Flojoy | Loops, timers, and conditionals
+sidebar_label: Logic nodes
 slug: /nodes/logic/
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 
 # LOGIC EXPRESSIONS in Python

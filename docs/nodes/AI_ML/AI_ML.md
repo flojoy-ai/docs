@@ -1,4 +1,6 @@
 ---
+title: Flojoy | No-code AI & ML
+description: Run pre-trained, foundation models on your data in Flojoy's drag & drop environment. Apply these models to data from the physical world by combining them with sensors, robotics, and benchtop instruments.
 sidebar_label: AI & ML
 slug: /nodes/AI-ML/
 sidebar_position: 1
@@ -7,9 +9,9 @@ hide_table_of_contents: true
 
 # AI & ML in Python
 
-Welcome to the AI & ML Nodes page!
+Welcome to the AI & ML nodes page!
 
-Here you can find a list of all the Flojoy nodes that you can use to produce an output with Artificial Intelligence and Machine Learning.
+Here you can find a list of all the Flojoy functions ("nodes") to produce an output with AI (Artificial Intelligence) and ML (Machine Learning) models.
 
 You can also find all of these nodes in the sidebar.
 

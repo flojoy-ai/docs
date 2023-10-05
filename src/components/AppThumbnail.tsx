@@ -30,8 +30,8 @@ export default function AppThumbnail({
   const featuredNode = featuredSections.some(v => path.includes(v))
   
   let thumbnailClass = instrument
-    ? 'instrument-thumbnail-figure'
-    : 'app-thumbnail-figure';
+    ? 'instrument-thumbnail'
+    : 'app-thumbnail';
 
   if (featuredNode) {
     imgSrc = `/node_thumbnails/${nodeLabel}.png`;
@@ -68,7 +68,7 @@ export default function AppThumbnail({
                 }}
               />
             </div>
-            <div className='figcaption'>{nodeLabel.replaceAll('_', ' ')}</div>
+            <div className='figcaption'>{nodeLabel.replaceAll('_', ' ').replaceAll('-', ' ').toUpperCase()}</div>
           </>
         </a>
     </div>

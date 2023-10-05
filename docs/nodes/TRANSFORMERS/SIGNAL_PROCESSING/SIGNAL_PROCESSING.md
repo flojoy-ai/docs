@@ -1,5 +1,6 @@
 ---
-sidebar_label: Signal Processing
+sidebar_label: Flojoy | No-code digital signal processing
+description: Design and analyze FIR, IIR, multistage, and adaptive filters. Signals can be streamed from simulation variables, data files on disk, or bench-top instruments and DAQ boards.
 sidebar_position: 1
 slug: /nodes/transformers/signal-processing/
 hide_table_of_contents: true
@@ -9,66 +10,18 @@ hide_table_of_contents: true
 
 Welcome to the Signal Processing Nodes page!
 
-Here you can find information about all the Flojoy nodes that processes and transforms input signals.
+Here you can find information about all the Flojoy functions ("nodes") that process, analyze, and transform input signals.
+
+You can also find all of these nodes in the sidebar.
+
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 ## Signal Processing (DSP) Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/BUTTER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BUTTER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FAST FOURIER TRANSFORM (FFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/FIR/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FINITE IMPULSE RESPONSE (FIR)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/IFFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INVERSE DISCRETE FOURIER TRANSFORM (IFFT)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/PID/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>PROPORTIONAL INTEGRAL DERIVATIVE (PID)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/SAVGOL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SAVITZKY-GOLAY (SAVGOL)</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/SIGNAL_PROCESSING/TWO_DIMENSIONAL_FFT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TWO DIMENSIONAL FFT</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Digital signal processing (DSP)'
+    blockquote = 'Flojoy nodes for Python-based DSP. Connect DSP nodes together on the Flojoy Studio canvas to create DSP data pipelines similar to Simulink or LabVIEW.'
+    sectionRoot = 'TRANSFORMERS/SIGNAL_PROCESSING'
+    nodes = {['BUTTER', 'FFT', 'FIR', 'IFFT', 'SAVGOL', 'TWO_DIMENSIONAL_FFT']}
+/>

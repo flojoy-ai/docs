@@ -124,21 +124,11 @@
   margin: 20px 40px;
 }
 
-.thumbnail-section figcaption {
-  font-size: 14px;
-  text-align: center;
-  margin: 2px auto;
-}
+/* Node page thumbnail styles */
 
-.thumbnail-section figcaption {
-  font-size: 14px;
-  text-align: center;
-  margin: 2px auto;
-  position: relative;
-  z-index: 99;
+.thumbnail-section {
+  margin-top: 4rem;
 }
-
-/* Instrument and Example Node thumbnail styles */
 
 .thumbnail-wrapper {
   display: inline-block;
@@ -165,8 +155,22 @@
   transform: scale(1) !important;
 }
 
+.custom-thumbnail img {
+  transform: scale(1) !important;
+}
+
 .thumbnail-wrapper .figcaption {
   font-size: 105%;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* Instrument page thumbnail styles */
+
+.instrument-thumbnail {
+  box-shadow: none !important;  
+}
+
+.instrument-thumbnail img {
+  transform: scale(1) !important;
 }

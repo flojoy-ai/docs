@@ -18,10 +18,10 @@ export default function AppThumbnailSection({
 
   return (
     <div className="thumbnail-section">
-      <h3>{sectionName}</h3>
+      <h1>{sectionName}</h1>
       <blockquote>{blockquote}</blockquote>
       <p>
-        {`Inspect the Python code for these ${sectionName} nodes`}
+        {`Inspect the Python code for these ${sectionName} nodes `}
         <a href={`https://github.com/flojoy-ai/nodes/tree/main/${sectionRoot}`}>
           on GitHub
         </a>
