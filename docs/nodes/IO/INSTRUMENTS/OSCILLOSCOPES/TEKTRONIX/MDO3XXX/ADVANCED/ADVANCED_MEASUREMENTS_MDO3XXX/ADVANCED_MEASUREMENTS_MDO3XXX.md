@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: ADVANCED_MEASUREMENTS_MDO3XXX
+description: The ADVANCED_MEASUREMENTS_MDO3XXX node can extract many trace measurements from the MDO3000 series oscilloscopes.
+keywords: [oscilloscope, python, extract, control, instrument, measurement, rise time]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/ADVANCED_MEASUREMENTS_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

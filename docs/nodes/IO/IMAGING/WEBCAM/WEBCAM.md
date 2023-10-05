@@ -1,3 +1,25 @@
+---
+title: WEBCAM
+description: In this example, the WEBCAM node takes and returns a picture if a USB camera is connected to the computer. The IMSHOW node then displays the image taken by the camera.
+keyword:
+  [
+    Python,
+    Instrument,
+    Web cam,
+    Camera,
+    Python webcam integration,
+    Camera instrument in Python,
+    Capture images and videos,
+    Streamline webcam usage,
+    Python-based camera control,
+    Webcam integration techniques,
+    Python image and video capture,
+    Enhance projects with webcam,
+    Accurate media processing,
+    Webcam usage with Python,
+  ]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

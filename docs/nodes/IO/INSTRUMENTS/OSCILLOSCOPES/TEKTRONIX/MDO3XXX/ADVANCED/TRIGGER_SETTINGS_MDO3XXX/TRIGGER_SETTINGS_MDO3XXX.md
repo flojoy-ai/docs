@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: TRIGGER_SETTINGS_MDO3XXX
+description: The TRIGGER_SETTINGS_MDO3XXX node can extract many trace measurements from the MDO3000 series oscilloscopes.
+keywords: [oscilloscope, python, extract, control, instrument, triggering]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/TRIGGER_SETTINGS_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

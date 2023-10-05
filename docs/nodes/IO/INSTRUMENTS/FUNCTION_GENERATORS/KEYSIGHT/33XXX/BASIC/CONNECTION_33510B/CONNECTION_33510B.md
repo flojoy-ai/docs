@@ -1,3 +1,8 @@
+---
+title: Waveform Generator Connection
+description: The CONNECTIONS_33510B node is used to connect to a 33510B WFG.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
 [//]: # (Custom component imports)
 

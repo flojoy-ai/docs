@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: EXTRACT_TRACE_MDO3XXX
+description: The EXTRACT_TRACE_MDO3XXX node extracts the phase measurement between two traces from a MDO3XXX oscilloscope.
+keywords: [oscilloscope, python, extract, control, instrument, trace]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
