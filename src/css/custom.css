@@ -198,3 +198,9 @@
 .instrument-thumbnail img {
   transform: scale(1) !important;
 }
+
+/* Hide overflowing breadcrumbs for deeply nested instrument nodes */
+
+.theme-doc-breadcrumbs {
+  overflow: hidden;
+}

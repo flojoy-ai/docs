@@ -24,7 +24,7 @@ sectionName = 'Attenuators'
 blockquote = 'Flojoy nodes for controling and reading signals from digital attenuators.'
 sectionRoot = 'IO/INSTRUMENTS'
 displayPath = {true}
-nodes = {['ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602/']}
+nodes = {['ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602']}
 />
 
 <AppThumbnailSection
