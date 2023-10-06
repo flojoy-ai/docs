@@ -1,6 +1,7 @@
 import React from 'react';
 import NumpyNode from '@site/src/components/nodes/NumpyNode';
 import ScipyNode from '@site/src/components/nodes/ScipyNode';
+import * as cloudinaryData from './cloudinary_thumbnail_lookup.json';
 
 type AppThumbnailProps = {
   children: string;
@@ -41,8 +42,12 @@ export default function AppThumbnail({
     : 'app-thumbnail';
 
   if (featuredNode) {
-    imgSrc = `/node_thumbnails/${nodeLabel}.png`;
-    thumbnailClass += ' custom-thumbnail';
+    if (nodeLabel in cloudinaryData) {
+      const cloudinaryImgSrc = cloudinaryData[nodeLabel];
+      const optimizedImgSrc = cloudinaryImgSrc.replace('/upload/', '/upload/w_300/q_auto/');
+      imgSrc = optimizedImgSrc;
+      thumbnailClass += ' custom-thumbnail';
+    }
   }
 
   // SciPy and Numpy nodes and displayed specially
