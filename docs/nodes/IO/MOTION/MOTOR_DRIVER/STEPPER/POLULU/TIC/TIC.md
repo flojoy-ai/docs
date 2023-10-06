@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: STEPPER_DRIVER_TIC
+description: This node controls a stepper motor movement with a TIC driver. The user defines the speed and the sleep time between movements.
+keyword: [Python, Instrument, Stepper motor control, Python integration with stepper driver, Motion control and automation, Python"-"based stepper motor control, Stepper motor driver integration, Accurate motor movement with Python, Enhance motion control with Python, Streamline motor automation, Precise motor control using Python, Python control of stepper driver TIC]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -27,7 +32,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Control a stepper motor's movement
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='TIC'
     appImg={''}
     outputImg={''}

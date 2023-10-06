@@ -1,3 +1,9 @@
+---
+title: OPEN_KEITHLEY_24XX
+description: In this example, we demonstrate how to record an I"-"V curve using Flojoy, a Keithley 2400 source meter, and a computer.
+keyword: [Python, Instrument, Keithley 2400 control, Python instrument integration, Measurement and analysis, Python"-"based instrument control, Keithley instrument control, Enhance measurements with Python, Python"-"based measurement techniques, Streamline instrument usage, Accurate data analysis,Python integration with Keithley 2400]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/KEITHLEY/KEITHLEY2/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -26,9 +32,9 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
+### OPEN_KEITHLEY_24XX example
 
-
-<AppDisplay 
+<AppDisplay
     nodeLabel='OPEN_KEITHLEY_24XX'
     appImg={''}
     outputImg={''}

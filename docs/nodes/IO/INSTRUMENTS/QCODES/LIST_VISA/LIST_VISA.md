@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### List VISA instruments
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='LIST_VISA'
     appImg={''}
     outputImg={''}

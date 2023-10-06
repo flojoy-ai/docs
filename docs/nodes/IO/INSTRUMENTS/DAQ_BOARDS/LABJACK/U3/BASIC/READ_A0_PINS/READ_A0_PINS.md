@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: LABJACKU3
+description: In this example, we show how to record and display temperature measurements with a LABJACK U3 device and update them in a Loop.
+keyword: [Python, Instrument, LabJack U3 instrument control, Python integration with LabJack, Measurement and analysis, Python-based instrument control, LabJack U3 integration techniques, Python-based measurement techniques, Enhance measurements with Python, Streamline LabJack usage, Accurate data analysis, Python control of LabJack U3]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/LABJACK/LABJACKU3/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -27,7 +32,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Record and display temperature measurements
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='READ_A0_PINS'
     appImg={''}
     outputImg={''}

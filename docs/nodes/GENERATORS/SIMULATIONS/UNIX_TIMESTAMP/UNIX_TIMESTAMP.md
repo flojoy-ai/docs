@@ -31,6 +31,7 @@ import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
 
 ### Generate a real-time timestamp for a measurement value
+
 <AppDisplay 
     nodeLabel='UNIX_TIMESTAMP'
     appImg={appImg}

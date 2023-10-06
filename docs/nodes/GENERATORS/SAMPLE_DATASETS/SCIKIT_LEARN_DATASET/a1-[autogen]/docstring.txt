@@ -1,0 +1,12 @@
+The SCIKIT_LEARN_DATASET node retrieves a pandas DataFrame from
+    'sklearn.datasets', using the provided dataset_key parameter, and returns
+    it wrapped in a DataContainer.
+
+    Parameters
+    ----------
+    dataset_name : str
+
+    Returns
+    -------
+    DataFrame
+        A DataContainer object containing the retrieved pandas DataFrame.

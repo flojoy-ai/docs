@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Convert voltages into pressures
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='FLEXIFORCE_25LB'
     appImg={''}
     outputImg={''}
