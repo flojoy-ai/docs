@@ -1,0 +1,11 @@
+The VECTOR_2_MATRIX node takes an input matrix and transpose it along the chosen axis.
+
+    Inputs
+    ------
+    default: Matrix
+        The input matrix that will be transformed into vector data type.
+
+    Returns
+    -------
+    Vector
+        Vector that is flatten from input matrix.
