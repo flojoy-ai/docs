@@ -13,14 +13,15 @@ Here you can find information about all the Flojoy nodes that load images.
 
 ## Sample Image Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SKIMAGE</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-</div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
+
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE/examples/EX1/output.jpeg",
+      "name": "SKIMAGE",
+      "href": "/nodes/GENERATORS/SAMPLE_IMAGES/SKIMAGE"
+   }
+]} />

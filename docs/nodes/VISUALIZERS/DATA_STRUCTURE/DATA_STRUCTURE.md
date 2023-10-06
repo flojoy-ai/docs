@@ -13,30 +13,25 @@ Here you can find information about all the Flojoy nodes that can be used to vis
 
 ## Data Structure Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ARRAY VIEW</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MATRIX VIEW</figcaption>
-</figure>
-</a></div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
 
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TEXT VIEW</figcaption>
-</figure>
-</a></div>
-
-</div>
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/output.jpeg",
+      "name": "ARRAY_VIEW",
+      "href": "/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/examples/EX1/output.jpeg",
+      "name": "TEXT_VIEW",
+      "href": "/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/examples/EX1/output.jpeg",
+      "name": "MATRIX_VIEW",
+      "href": "/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW"
+   }
+]} />

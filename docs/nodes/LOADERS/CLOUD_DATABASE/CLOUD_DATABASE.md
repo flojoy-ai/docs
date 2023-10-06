@@ -13,22 +13,20 @@ Here you can find information about all the Flojoy nodes that can be used to dow
 
 ## Cloud Database Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE_DOWNLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FLOJOY CLOUD DOWNLOAD</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-<div className="p-4">
-<a href="/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>FLOJOY CLOUD UPLOAD</figcaption>
-</figure>
-</a></div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
 
-</div>
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD/examples/EX1/output.jpeg",
+      "name": "FLOJOY_CLOUD_UPLOAD",
+      "href": "/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_UPLOAD"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/examples/EX1/output.jpeg",
+      "name": "FLOJOY_CLOUD_DOWNLOAD",
+      "href": "/nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD"
+   }
+]} />

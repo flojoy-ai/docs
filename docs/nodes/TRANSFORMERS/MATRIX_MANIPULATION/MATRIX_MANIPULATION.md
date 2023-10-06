@@ -13,46 +13,35 @@ Here you can find information about all the Flojoy nodes that take at least one 
 
 ## Matrix Manipulation Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>DOT PRODUCT</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>INVERT</figcaption>
-</figure>
-</a></div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
 
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MATMUL</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SHUFFLE MATRIX</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SORT MATRIX</figcaption>
-</figure>
-</a></div>
-
-</div>
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/examples/EX1/output.jpeg",
+      "name": "SHUFFLE_MATRIX",
+      "href": "/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT/examples/EX1/output.jpeg",
+      "name": "INVERT",
+      "href": "/nodes/TRANSFORMERS/MATRIX_MANIPULATION/INVERT"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/examples/EX1/output.jpeg",
+      "name": "DOT_PRODUCT",
+      "href": "/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL/examples/EX1/output.jpeg",
+      "name": "MATMUL",
+      "href": "/nodes/TRANSFORMERS/MATRIX_MANIPULATION/MATMUL"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/examples/EX1/output.jpeg",
+      "name": "SORT_MATRIX",
+      "href": "/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX"
+   }
+]} />

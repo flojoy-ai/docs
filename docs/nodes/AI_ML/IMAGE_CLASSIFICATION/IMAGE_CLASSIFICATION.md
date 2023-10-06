@@ -13,14 +13,15 @@ Here you can find information about all the Flojoy nodes that can be used to cla
 
 ## Image Classification Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/AI_ML/IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>HUGGING FACE PIPELINE</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-</div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
+
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE/examples/EX1/output.jpeg",
+      "name": "HUGGING_FACE_PIPELINE",
+      "href": "/nodes/AI_ML/IMAGE_CLASSIFICATION/HUGGING_FACE_PIPELINE"
+   }
+]} />
