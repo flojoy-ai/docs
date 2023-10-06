@@ -1,4 +1,4 @@
-The TRANSPOSE_MATRIX node takes an input matrix and transpose it along the chosen axis.
+The TRANSPOSE_MATRIX node takes an input 2D matrix and transposes it.
 
     Inputs
     ------
@@ -8,4 +8,4 @@ The TRANSPOSE_MATRIX node takes an input matrix and transpose it along the chose
     Returns
     -------
     Matrix
-        The matrix result from transposing.
+        The transposed matrix
