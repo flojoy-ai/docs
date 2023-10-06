@@ -1,3 +1,8 @@
+---
+title: Waveform Generator Return Errors
+description: The RETURN_ERRORS_33510B node returns error messages from the WFG.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
 [//]: # (Custom component imports)
 
