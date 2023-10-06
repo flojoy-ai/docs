@@ -20,6 +20,14 @@ You can also find all of these nodes in the sidebar.
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
+sectionName = 'Attenuators'
+blockquote = 'Flojoy nodes for controling and reading signals from digital attenuators.'
+sectionRoot = 'IO/INSTRUMENTS'
+displayPath = {true}
+nodes = {['ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602/']}
+/>
+
+<AppThumbnailSection
 sectionName = 'DAQ boards'
 blockquote = 'Flojoy nodes for reading from DAQ boards.'
 sectionRoot = 'IO/INSTRUMENTS'
@@ -29,18 +37,30 @@ nodes = {['DAQ_BOARDS/LABJACK/U3/BASIC/READ_A0_PINS',
 />
 
 <AppThumbnailSection
+sectionName = 'Function generators'
+blockquote = 'Flojoy nodes for reading and writing to function generators.'
+sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Function Generators'
+displayPath = {true}
+nodes = {[]}
+/>
+
+<AppThumbnailSection
+sectionName = 'Digital multimeters (DMMs)'
+blockquote = 'Flojoy nodes for controlling and reading from DMMs.'
+sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Digital Multimeters'
+displayPath = {true}
+nodes = {[]}
+/>
+
+<AppThumbnailSection
 sectionName = 'Oscilloscopes'
 blockquote = 'Flojoy nodes for reading and writing to oscilloscopes.'
 sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Oscilloscopes'
 displayPath = {true}
-nodes = {['OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/ADVANCED_MEASUREMENTS_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/TRIGGER_SETTINGS_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASURE_PHASE_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASUREMENTS_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TERMINATION_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_CHANNEL_MDO3XXX', 
-        'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_LEVEL_MDO3XXX']}
+nodes = {[]}
 />
 
 <AppThumbnailSection

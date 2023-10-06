@@ -7,6 +7,7 @@ type AppThumbnailProps = {
   path: string;
   img: string;
   instrument: boolean;
+  sectionSubRoot: string;
 };
 
 export default function AppThumbnail({
@@ -14,7 +15,7 @@ export default function AppThumbnail({
   path,
   img,
   instrument,
-  displayPath
+  displayPath,
 }: AppThumbnailProps) {
 
   // Variables used in thumbnail display
