@@ -1,3 +1,8 @@
+---
+title: Waveform Generator Set Waveform
+description: The SET_WAVEFORM_33510B node is used to set waveform settings for a 33510B.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
 [//]: # (Custom component imports)
 

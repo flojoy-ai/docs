@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: TRIGGER_LEVEL_MDO3XXX
+description: The TRIGGER_LEVEL_MDO3XXX node sets the triggering voltage for a MDO3XXX oscilloscope.
+keywords: [oscilloscope, python, extract, control, instrument, trigger]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_LEVEL_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
