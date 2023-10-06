@@ -4,12 +4,8 @@ from flojoy import flojoy, Vector, Matrix
 @flojoy
 def VECTOR_2_MATRIX(default: Vector, row: int, col: int ) -> Matrix:
     
-    if row > len(default.v):
-        raise AssertionError("Invalid parameter")
-    elif col * row > len(default.v):
-        raise AssertionError("Invalid parameter")
-    
-    return Matrix(m=default.v.reshape(row,col))
-    
-    
-
+    try:
+        matrix = default.v.reshape((row,col))
+        return Matrix(m=matrix)
+    except Exception as e:
+        print(e)
