@@ -1,14 +1,17 @@
 ---
-sidebar_label: IO
-slug: /nodes/IO/
+title: Flojoy | No-code benchtop instrument control
+description: Flojoy provides apps and functions or configuring data acquisition hardware, reading data into Flojoy, and writing data to DAQ output channels. Flojoy supports a variety of hardware, including those from National Instruments®, Tektronix®, and others.
+sidebar_label: I/O
+slug: /nodes/io/
 sidebar_position: 8
+hide_table_of_contents: true
 ---
 
-# INSTRUMENTS in Python
+# Benchtop instrument control
 
-Welcome to the I/O Nodes page!
+Welcome to the I/O functions ("nodes") page!
 
-Here you can find a list of all the Flojoy nodes that can be used with instruments, motor drivers, analog sensors, and other hardware devices.
+Here you can find a list of all the Flojoy nodes that connect to benchtop instruments, motor drivers, analog sensors, and other scientific hardware devices.
 
 You can also find all of these nodes in the sidebar.
 
@@ -17,36 +20,88 @@ You can also find all of these nodes in the sidebar.
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
 <AppThumbnailSection
-sectionName = 'Analog Sensors'
-blockquote = 'Flojoy nodes for recording data from analog sensors'
-sectionRoot = 'IO/ANALOG_SENSORS'
-nodes = {['PRESSURE_SENSORS/FLEXIFORCE_25LB/FLEXIFORCE_25LB', 'THERMOCOUPLES/LM34/LM34']}
+sectionName = 'Attenuators'
+blockquote = 'Flojoy nodes for controling and reading signals from digital attenuators.'
+sectionRoot = 'IO/INSTRUMENTS'
+displayPath = {true}
+nodes = {['ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602']}
 />
 
 <AppThumbnailSection
-sectionName = 'Instruments'
-blockquote = 'Flojoy nodes for connecting to benchtop scientific instruments and cameras.'
+sectionName = 'DAQ boards'
+blockquote = 'Flojoy nodes for reading from DAQ boards.'
 sectionRoot = 'IO/INSTRUMENTS'
-nodes = {['DAQ_BOARDS_LABJACK/U3/BASIC/READ_A0_PINS/READ_A0_PINS', 'DAQ_BOARDS/PHIDGET/INTERFACEKIT/BASIC/READ_N_PINS/READ_N_PINS', 'MOCK/WEINSCHEL8320/WEINSCHEL8320', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/ADVANCED_MEASUREMENTS_MDO3XXX/ADVANCED_MEASUREMENTS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/ADVANCED/TRIGGER_SETTINGS_MDO3XXX/TRIGGER_SETTINGS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/EXTRACT_TRACE_MDO3XXX/EXTRACT_TRACE_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASURE_PHASE_MDO3XXX/MEASURE_PHASE_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/MEASUREMENTS_MDO3XXX/MEASUREMENTS_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TERMINATION_MDO3XXX/TERMINATION_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_CHANNEL_MDO3XXX/TRIGGER_CHANNEL_MDO3XXX', 'OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TRIGGER_LEVEL_MDO3XXX/TRIGGER_LEVEL_MDO3XXX', 'QCODES/CLOSE_ALL/CLOSE_ALL', 'QCODES/LIST_VISA/LIST_VISA', 'QCODES/VISA_IDENTITY/VISA_IDENTITY', 'SOURCEMETERS/KEITHLEY//24XX/BASIC/IV_SWEEP', 'SOURCEMETERS/KEITHLEY//24XX/BASIC/SET_VOLTAGE']}
+displayPath = {true}
+nodes = {['DAQ_BOARDS/LABJACK/U3/BASIC/READ_A0_PINS', 
+        'DAQ_BOARDS/PHIDGET/INTERFACEKIT/BASIC/READ_N_PINS']}
+/>
+
+<AppThumbnailSection
+sectionName = 'Function generators'
+blockquote = 'Flojoy nodes for reading and writing to function generators.'
+sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Function Generators'
+displayPath = {true}
+nodes = {[]}
+/>
+
+<AppThumbnailSection
+sectionName = 'Digital multimeters (DMMs)'
+blockquote = 'Flojoy nodes for controlling and reading from DMMs.'
+sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Digital Multimeters'
+displayPath = {true}
+nodes = {[]}
+/>
+
+<AppThumbnailSection
+sectionName = 'Oscilloscopes'
+blockquote = 'Flojoy nodes for reading and writing to oscilloscopes.'
+sectionRoot = 'IO/INSTRUMENTS'
+sectionSubRoot = 'I/O > Oscilloscopes'
+displayPath = {true}
+nodes = {[]}
+/>
+
+<AppThumbnailSection
+sectionName = 'Sourcemeters'
+blockquote = 'Flojoy nodes for reading from the Keithley 2400 sourcemeter.'
+sectionRoot = 'IO/INSTRUMENTS'
+displayPath = {true}
+nodes = {['SOURCEMETERS/KEITHLEY/24XX/BASIC/IV_SWEEP', 
+        'SOURCEMETERS/KEITHLEY/24XX/BASIC/SET_VOLTAGE']}
+/>
+
+<AppThumbnailSection
+sectionName = 'Analog Sensors'
+blockquote = 'Flojoy nodes for recording data from analog sensors'
+sectionRoot = 'IO/ANALOG_SENSORS'
+displayPath = {true}
+nodes = {['PRESSURE_SENSORS/FLEXIFORCE_25LB', 'THERMOCOUPLES/LM34']}
 />
 
 <AppThumbnailSection
 sectionName = 'Imaging'
 blockquote = 'Flojoy nodes for connecting to USB cameras.'
 sectionRoot = 'IO/IMAGING'
-nodes = {['WEB_CAM/CAMERA']}
+nodes = {['OPEN_WEBCAM', 'WEBCAM']}
 />
 
 <AppThumbnailSection
 sectionName = 'Protocols'
 blockquote = 'Flojoy nodes for connecting to hardware through the USB or RS-232 serial ports.'
-sectionRoot = 'INSTRUMENTS/PROTOCOLS'
-nodes = {['CAN/CAN', 'SCPI/SCPI', 'SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/SERIAL_SINGLE_MEASUREMENT', 'SERIAL/BASIC/SINGLE_MEASUREMENT/SINGLE_MEASUREMENT', 'SERIAL/BASIC/TIMESERIES/TIMESERIES', 'VISA/VISA']}
+sectionRoot = 'IO/PROTOCOLS'
+displayPath = {true}
+nodes = {['SCPI/IDN', 
+        'SCPI/MEASURE_VOLTAGE', 
+        'SERIAL/BASIC/OPEN_SERIAL', 
+        'SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT', 
+        'SERIAL/BASIC/SERIAL_TIMESERIES']}
 />
 
 <AppThumbnailSection
 sectionName = 'Motion Control'
 blockquote = 'Flojoy nodes for connecting to motor drivers and precision control of motor movement.'
-sectionRoot = 'INSTRUMENTS/MOTION/MOTOR_DRIVER'
-nodes = {['BLDC/LINENGINEERING/LINENGINEERING', 'BLDC/TINYMOVR/TINYMOVR', 'SERVO/TINYMOVR2/TINYMOVR2', 'STEPPER/ADAFRUIT/ADAFRUIT', 'STEPPER/POLULU/TIC/TIC', 'STEPPER/POLULU/TIC_KNOB', 'STEPPER/ZABER/ZABER']}
+sectionRoot = 'IO/MOTION/MOTOR_DRIVER'
+nodes = {['STEPPER/POLULU/TIC', 'STEPPER/POLULU/TIC_KNOB']}
 />

@@ -1,3 +1,8 @@
+---
+title: Waveform Generator Burst Mode
+description: The BURST_MODE_33510B node is used to turn the Burst mode on or off.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
 [//]: # (Custom component imports)
 
@@ -27,6 +32,8 @@ import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
+
+### BURST_MODE_33510B example
 
 <AppDisplay 
     nodeLabel='BURST_MODE_33510B'

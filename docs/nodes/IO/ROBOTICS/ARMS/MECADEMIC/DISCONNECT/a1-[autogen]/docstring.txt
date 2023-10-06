@@ -1,0 +1,8 @@
+
+The DISCONNECT node disconnect the Mecademic robot arm via its API.
+
+Inputs
+------
+ip_address
+    The IP address of the robot arm.
+

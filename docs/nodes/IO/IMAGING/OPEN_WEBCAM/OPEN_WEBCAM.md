@@ -1,3 +1,9 @@
+---
+title: OPEN_WEBCAM
+description: In this example, the OPEN_WEBCAM opens the connection with the connected camera, then uses the `WEBCAM` node takes and returns a picture. The IMSHOW node then displays the image taken by the camera.
+keyword: [Python, Instrument, Web cam, Camera, Python webcam integration, Camera instrument in Python, Capture images and videos, Streamline webcam usage, Python-based camera control, Webcam integration techniques, Python image and video capture, Enhance projects with webcam, Accurate media processing, Webcam usage with Python]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -26,9 +32,9 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
+### OPEN_WEBCAM example
 
-
-<AppDisplay 
+<AppDisplay
     nodeLabel='OPEN_WEBCAM'
     appImg={''}
     outputImg={''}

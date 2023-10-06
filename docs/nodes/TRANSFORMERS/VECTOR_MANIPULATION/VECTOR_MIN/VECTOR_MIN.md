@@ -1,5 +1,4 @@
-
-[//]: # (Custom component imports)
+[//]: # 'Custom component imports'
 
 import DocString from '@site/src/components/DocString';
 import PythonCode from '@site/src/components/PythonCode';
@@ -7,7 +6,7 @@ import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (Docstring)
+[//]: # 'Docstring'
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
@@ -17,21 +16,25 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
-[//]: # (Examples)
+[//]: # 'Examples'
 
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import appImgLight from './examples/EX1/app_light.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
+import outputLight from './examples/EX1/output_light.jpeg'
 
-
+### VECTOR_MIN example
 
 <AppDisplay 
     nodeLabel='VECTOR_MIN'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    appLight={appImgLight}
+    outputLight={outputLight}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
@@ -40,9 +43,9 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 <SectionBreak />
   
-    
 
-[//]: # (Appendix)
+
+[//]: # 'Appendix'
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
@@ -53,5 +56,3 @@ import Media from './appendix/media.md';
 <AppendixSection index={0} folderPath='nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MIN/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MIN/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/VECTOR_MANIPULATION/VECTOR_MIN/appendix/'><Media /></AppendixSection>
-
-

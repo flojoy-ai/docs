@@ -1,0 +1,21 @@
+The ATTENUATION_LDA602 node sets or queries the attenuation for the LDA-602 Digital Attenuator.
+
+    When setting the attenuation, the attenuation is then queried to ensure
+    the attenuation was set correctly.
+    The attenuation is rounded to the nearest 0.5 dB.
+
+    This node should also work with compatible LDA attenuators (untested).
+
+    Parameters
+    ----------
+    serial_number: str
+        The serial number (not model number) to connect to.
+    query_set: str
+        Query or set the attenuation?
+    attenuation: str
+        The attenuation to set the LDA to, in dB.
+
+    Returns
+    -------
+    DataContainer
+        TextBlob: The current attenuation value.

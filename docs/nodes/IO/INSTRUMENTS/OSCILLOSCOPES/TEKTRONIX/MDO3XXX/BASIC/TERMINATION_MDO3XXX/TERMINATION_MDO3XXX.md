@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: TERMINATION_MDO3XXX
+description: The TERMINATION_MDO3XXX node sets the termination value for a MDO3XXX oscilloscope.
+keywords: [oscilloscope, python, extract, control, instrument, termination]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/TERMINATION_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

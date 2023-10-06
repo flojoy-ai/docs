@@ -13,7 +13,7 @@ const title = 'Flojoy';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Flojoy',
-  tagline: 'Joyful visual programming for Python.',
+  tagline: 'No-code flowchart programming for scientific Python.',
   url: 'https://docs.flojoy.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',

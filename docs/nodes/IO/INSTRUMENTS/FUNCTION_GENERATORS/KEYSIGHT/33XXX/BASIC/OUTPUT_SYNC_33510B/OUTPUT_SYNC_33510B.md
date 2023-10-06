@@ -1,3 +1,8 @@
+---
+title: Waveform Generator Output Sync
+description: The OUTPUT_SYNC_33510B node is used sync multiple outputs phases.
+keywords: [Python, Instrument Control, Keysight, Wavefunction Generator, Function Generator, Keysight 33500B]
+---
 
 [//]: # (Custom component imports)
 
@@ -27,6 +32,8 @@ import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 import appImg from './examples/EX1/app.jpeg'
 import outputImg from './examples/EX1/output.jpeg'
+
+### OUTPUT_SYNC_33510B example
 
 <AppDisplay 
     nodeLabel='OUTPUT_SYNC_33510B'

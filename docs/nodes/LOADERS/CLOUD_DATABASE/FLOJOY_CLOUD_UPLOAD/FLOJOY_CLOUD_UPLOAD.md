@@ -28,10 +28,11 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 ### Upload a DataContainer to Flojoy Cloud
 
 <AppDisplay
-nodeLabel='FLOJOY_CLOUD_UPLOAD'
-appImg={''}
-outputImg={''} >
-{App1}
+    nodeLabel='FLOJOY_CLOUD_UPLOAD'
+    appImg={''}
+    outputImg={''}
+    >
+    {App1}
 </AppDisplay>
 
 <Example1 />

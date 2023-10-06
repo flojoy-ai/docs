@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: SERIAL_SINGLE_MEASUREMENT
+description:  In this example, we use the SERIAL_SINGLE_MEASUREMENT node to extract some measurements received from an Arduino microcontroller and visualize the output.
+keyword: [Python, Instrument, Serial communication measurement, Python serial instrument integration, Data acquisition and analysis, Python"-"based serial measurement, Serial instrument integration techniques, Accurate measurement with Python, Enhance measurement with serial communication, Streamline data acquisition, Precise measurement using Python, Python control of serial single measurement]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_SINGLE_MEASUREMENT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -18,6 +23,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
+    
+
 [//]: # (Examples)
 
 ## Examples
@@ -25,9 +32,9 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-### Extract measurements from an Arduino microcontroller
+### SERIAL_SINGLE_MEASUREMENT example
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='SERIAL_SINGLE_MEASUREMENT'
     appImg={''}
     outputImg={''}
@@ -38,6 +45,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
+    
 
 [//]: # (Appendix)
 
@@ -51,4 +59,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_SINGLE_MEASUREMENT/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+

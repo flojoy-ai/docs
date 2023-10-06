@@ -1,3 +1,9 @@
+---
+title: CONNECTION_MDO3XXX
+description: The CONNECTION_MDO3XXX node extracts the phase measurement between two traces from a MDO3XXX oscilloscope.
+keywords: [oscilloscope, python, extract, control, instrument, phase]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/IO/INSTRUMENTS/OSCILLOSCOPES/TEKTRONIX/MDO3XXX/BASIC/CONNECTION_MDO3XXX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -25,13 +31,15 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
-
+### CONNECTION_MDO3XXX example
 
 <AppDisplay 
     nodeLabel='CONNECTION_MDO3XXX'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>

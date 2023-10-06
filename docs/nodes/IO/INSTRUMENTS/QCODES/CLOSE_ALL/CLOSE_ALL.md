@@ -27,7 +27,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 
 ### Close all QCoDeS instruments
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='CLOSE_ALL'
     appImg={''}
     outputImg={''}

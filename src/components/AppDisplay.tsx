@@ -56,6 +56,8 @@ type AppDisplayProps = {
   GLink: string;
   outputImg?: string;
   appImg?: string;
+  appLight?: string;
+  outputLight?: string;
 };
 
 export default function AppDisplay({
@@ -63,6 +65,8 @@ export default function AppDisplay({
   GLink,
   outputImg,
   appImg,
+  appLight,
+  outputLight
 }: AppDisplayProps) {
   const HEIGHT = '20em';
   const colorMode = useColorMode();
@@ -144,13 +148,21 @@ export default function AppDisplay({
           <div style={{ minHeight: HEIGHT }}>
             {outputImg ? (
               <ReactCompareImage
-                leftImage={appImg ?? outputImg}
+                leftImage={getImage({
+                  theme: colorMode.colorMode,
+                  img: appImg,
+                  lightImg:appLight,
+                })}
                 aspectRatio={'wider'}
                 leftImageCss={{
                   objectFit: 'containe',
                 }}
                 rightImageCss={{ objectFit: 'contain' }}
-                rightImage={outputImg}
+                rightImage={getImage({
+                  theme: colorMode.colorMode,
+                  img: outputImg,
+                  lightImg:outputLight
+                })}
                 sliderPositionPercentage={0.1}
               />
             ) : (
@@ -174,3 +186,19 @@ export default function AppDisplay({
     </div>
   );
 }
+
+const getImage = ({
+  theme,
+  img,
+  lightImg
+}: {
+  theme: string;
+  img?: string;
+  lightImg?: string;
+}) => {
+  if (lightImg) {
+    return theme === 'light' ? lightImg : img;
+  } else {
+    return img;
+  }
+};

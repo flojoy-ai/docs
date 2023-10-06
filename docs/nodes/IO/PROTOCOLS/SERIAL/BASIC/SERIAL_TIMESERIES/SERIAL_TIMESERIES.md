@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: SERIAL_TIMESERIES
+description:  In this example, we use the SERIAL_TIMESERIES node to extract some time-dependent measurements received from an Arduino microcontroller and visualize the output.
+keyword: [Python, Instrument, Serial communication timeseries, Python serial data acquisition, Time"-"series data analysis, Python-based serial data collection, Serial data acquisition techniques, Accurate timeseries recording with Python, Enhance data analysis with serial communication, Streamline timeseries data acquisition, Precise data collection using Python, Python control of serial timeseries data]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/SERIAL/SERIAL_TIMESERIES/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
@@ -18,6 +23,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
+    
+
 [//]: # (Examples)
 
 ## Examples
@@ -25,9 +32,9 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
 
-### Extract time-dependent measurements from an Arduino microcontroller
+### SERIAL_TIMESERIES example
 
-<AppDisplay 
+<AppDisplay
     nodeLabel='SERIAL_TIMESERIES'
     appImg={''}
     outputImg={''}
@@ -38,6 +45,7 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
+    
 
 [//]: # (Appendix)
 
@@ -51,4 +59,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_TIMESERIES/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/PROTOCOLS/SERIAL/BASIC/SERIAL_TIMESERIES/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+
