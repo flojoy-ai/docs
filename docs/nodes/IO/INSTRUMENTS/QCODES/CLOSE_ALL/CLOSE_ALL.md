@@ -1,8 +1,9 @@
-<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -11,33 +12,29 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='IO/INSTRUMENTS/QCODES/CLOSE_ALL/CLOSE_ALL.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-
-### Close all QCoDeS instruments
-
-<AppDisplay
-    nodeLabel='CLOSE_ALL'
-    appImg={''}
-    outputImg={''}
-    >
-    {App1}
+<AppDisplay 
+  GLink='IO/INSTRUMENTS/QCODES/CLOSE_ALL'
+  nodeLabel='CLOSE_ALL'>
 </AppDisplay>
 
-<Example1 />
+<SectionBreak />
 
-<SectionBreak /> 
+    
 
 [//]: # (Appendix)
 
@@ -51,4 +48,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/INSTRUMENTS/QCODES/CLOSE_ALL/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/INSTRUMENTS/QCODES/CLOSE_ALL/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+

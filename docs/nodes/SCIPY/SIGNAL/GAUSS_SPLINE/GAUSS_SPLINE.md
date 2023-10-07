@@ -1,15 +1,10 @@
----
-title: GAUSS_SPLINE
-description: Gaussian approximation to B-spline basis function of order n.
-keywords: [scipy, statistics, signal processing, scipy.stats, scipy.signal, scipy.signal.gauss_spline]
-image: https://docs.scipy.org/doc/scipy/reference/signal.html
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
-import PythonCode from '@site/src/components/PythonCode';
+import DocStringJSON from '@site/src/components/DocStringJSON';
 
+import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -17,12 +12,12 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='SCIPY/signal/GAUSS_SPLINE/GAUSS_SPLINE.py'>{PythonSource}</PythonCode>
-
+<DocStringJSON data={DocstringJson} />
+<PythonCode GLink='SCIPY/SIGNAL/GAUSS_SPLINE/GAUSS_SPLINE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -32,10 +27,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-### Apply a Gaussian approximation to a B-spline basis function
-
 <AppDisplay 
-  GLink='SCIPY/signal/GAUSS_SPLINE'
+  GLink='SCIPY/SIGNAL/GAUSS_SPLINE'
   nodeLabel='GAUSS_SPLINE'>
 </AppDisplay>
 
@@ -51,16 +44,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/SCIPY/signal/GAUSS_SPLINE/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/SCIPY/signal/GAUSS_SPLINE/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/SCIPY/signal/GAUSS_SPLINE/appendix/'><Media /></AppendixSection>
-
-<SectionBreak />
-
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/SCIPY/SIGNAL/GAUSS_SPLINE)
+<AppendixSection index={0} folderPath='nodes/SCIPY/SIGNAL/GAUSS_SPLINE/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/SCIPY/SIGNAL/GAUSS_SPLINE/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/SCIPY/SIGNAL/GAUSS_SPLINE/appendix/'><Media /></AppendixSection>
 
 

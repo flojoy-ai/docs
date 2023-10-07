@@ -1,13 +1,9 @@
----
-title: LOCAL_FILE
-description: The LOCAL_FILE node loads a local file of different format and converts it to a DataContainer class.
-keyword: [Python, Extractor, Extract, Local file loading, Load data from local files, Data loading from file system, Flojoy Local File Loader, Python local file handling, Data import from local storage, Local data processing, Python file system loader, Efficient data access, Data loading with Flojoy]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -16,56 +12,40 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/LOCAL_FILE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-import appImg from './examples/EX1/app.jpeg'
-import appImgLight from './examples/EX1/app_light.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-import outputLight from './examples/EX1/output_light.jpeg'
-
-### Load and convert a local file to a DataContainer
-
 <AppDisplay 
-    nodeLabel='LOCAL_FILE'
-    appImg={appImg}
-    appLight={appImgLight}
-    outputLight={outputLight}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE'
+  nodeLabel='LOCAL_FILE'>
 </AppDisplay>
-
-<Example1 />
 
 <SectionBreak />
 
-[//]: # (Appendix)
+    
 
-## Appendix
+[//]: # (Appendix)
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
+## Appendix
+
 <AppendixSection index={0} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE/appendix/'><Media /></AppendixSection>
 
-<SectionBreak />
 
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOADERS/LOCAL_FILE_SYSTEM/LOCAL_FILE)

@@ -1,15 +1,10 @@
----
-title: CHOLESKY
-description: Cholesky decomposition. Return the Cholesky decomposition, `L * L.H`, of the square matrix `a`, where `L` is lower-triangular and .H is the conjugate transpose operator (which is the ordinary transpose if `a` is real-valued).  `a` must be Hermitian (symmetric if real-valued) and positive-definite. No checking is performed to verify whether `a` is Hermitian or not. In addition, only the lower-triangular and diagonal elements of `a` are used. Only `L` is actually returned.
-keywords: [numpy, linear algerbra, linalg, np.linalg, numpy.linalg, numpy.linalg.cholesky]
-image: https://numpy.org/doc/stable/reference/routines.linalg.html
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
-import PythonCode from '@site/src/components/PythonCode';
+import DocStringJSON from '@site/src/components/DocStringJSON';
 
+import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -17,12 +12,12 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='NUMPY/linalg/CHOLESKY/CHOLESKY.py'>{PythonSource}</PythonCode>
-
+<DocStringJSON data={DocstringJson} />
+<PythonCode GLink='NUMPY/LINALG/CHOLESKY/CHOLESKY.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -32,10 +27,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-### Perform a Cholesky decomposition
-
 <AppDisplay 
-  GLink='NUMPY/linalg/CHOLESKY'
+  GLink='NUMPY/LINALG/CHOLESKY'
   nodeLabel='CHOLESKY'>
 </AppDisplay>
 
@@ -51,16 +44,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/NUMPY/linalg/CHOLESKY/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/NUMPY/linalg/CHOLESKY/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/NUMPY/linalg/CHOLESKY/appendix/'><Media /></AppendixSection>
-
-<SectionBreak />
-
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/NUMPY/LINALG/CHOLESKY)
+<AppendixSection index={0} folderPath='nodes/NUMPY/LINALG/CHOLESKY/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/NUMPY/LINALG/CHOLESKY/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/NUMPY/LINALG/CHOLESKY/appendix/'><Media /></AppendixSection>
 
 

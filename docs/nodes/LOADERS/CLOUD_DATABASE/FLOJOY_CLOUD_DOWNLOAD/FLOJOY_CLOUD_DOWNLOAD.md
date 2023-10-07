@@ -1,45 +1,42 @@
-<!--Add SEO here-->
 
-[//]: # 'Custom component imports'
+[//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # 'Docstring'
+[//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/FLOJOY_CLOUD_DOWNLOAD.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
-[//]: # 'Examples'
+    
+
+[//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-
-### Download a DataContainer from Flojoy Cloud
-
-<AppDisplay
-    nodeLabel='FLOJOY_CLOUD_DOWNLOAD'
-    appImg={''}
-    outputImg={''}
-    >
-    {App1}
+<AppDisplay 
+  GLink='LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD'
+  nodeLabel='FLOJOY_CLOUD_DOWNLOAD'>
 </AppDisplay>
-
-<Example1 />
 
 <SectionBreak />
 
-[//]: # 'Appendix'
+    
+
+[//]: # (Appendix)
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
@@ -51,4 +48,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/CLOUD_DATABASE/FLOJOY_CLOUD_DOWNLOAD/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+

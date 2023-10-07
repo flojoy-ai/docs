@@ -1,13 +1,9 @@
----
-title: STEPPER_DRIVER_TIC
-description: This node controls a stepper motor movement with a TIC driver. The user defines the speed and the sleep time between movements.
-keyword: [Python, Instrument, Stepper motor control, Python integration with stepper driver, Motion control and automation, Python"-"based stepper motor control, Stepper motor driver integration, Accurate motor movement with Python, Enhance motion control with Python, Streamline motor automation, Precise motor control using Python, Python control of stepper driver TIC]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/STEPPER_MOTOR/STEPPER_DRIVER_TIC/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -16,33 +12,29 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='IO/MOTION/MOTOR_DRIVER/STEPPER/POLULU/TIC/TIC.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-
-### Control a stepper motor's movement
-
-<AppDisplay
-    nodeLabel='TIC'
-    appImg={''}
-    outputImg={''}
-    >
-    {App1}
+<AppDisplay 
+  GLink='IO/MOTION/MOTOR_DRIVER/STEPPER/POLULU/TIC'
+  nodeLabel='TIC'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
+
+    
 
 [//]: # (Appendix)
 
@@ -56,4 +48,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/IO/MOTION/MOTOR_DRIVER/STEPPER/POLULU/TIC/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/IO/MOTION/MOTOR_DRIVER/STEPPER/POLULU/TIC/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+

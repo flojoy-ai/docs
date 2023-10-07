@@ -1,8 +1,9 @@
-<!--Add SEO here-->
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -11,39 +12,29 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/REMOTE_FILE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-import appImg from './examples/EX1/app.jpeg'
-import appImgLight from './examples/EX1/app_light.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-import outputLight from './examples/EX1/output_light.jpeg'
-
-### Load and convert a remote file to a DataContainer
-
 <AppDisplay 
-    nodeLabel='REMOTE_FILE'
-    appImg={appImg}
-    appLight={appImgLight}
-    outputLight={outputLight}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE'
+  nodeLabel='REMOTE_FILE'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
+
+    
 
 [//]: # (Appendix)
 
@@ -57,4 +48,4 @@ import Media from './appendix/media.md';
 <AppendixSection index={1} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/appendix/'><Media /></AppendixSection>
 
-<!--Add Button here-->
+

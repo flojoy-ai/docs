@@ -2,6 +2,8 @@
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -10,9 +12,11 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/DATACONTAINER_TYPE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
@@ -23,29 +27,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-import appImg from './examples/EX1/app.jpeg'
-import appImgLight from './examples/EX1/app_light.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-import outputLight from './examples/EX1/output_light.jpeg'
-
-### DATACONTAINER_TYPE example
-
 <AppDisplay 
-    nodeLabel='DATACONTAINER_TYPE'
-    appImg={appImg}
-    appLight={appImgLight}
-    outputLight={outputLight}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE'
+  nodeLabel='DATACONTAINER_TYPE'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
-  
+
     
 
 [//]: # (Appendix)

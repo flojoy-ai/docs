@@ -1,29 +1,9 @@
----
-title: WEBCAM
-description: In this example, the WEBCAM node takes and returns a picture if a USB camera is connected to the computer. The IMSHOW node then displays the image taken by the camera.
-keyword:
-  [
-    Python,
-    Instrument,
-    Web cam,
-    Camera,
-    Python webcam integration,
-    Camera instrument in Python,
-    Capture images and videos,
-    Streamline webcam usage,
-    Python-based camera control,
-    Webcam integration techniques,
-    Python image and video capture,
-    Enhance projects with webcam,
-    Accurate media processing,
-    Webcam usage with Python,
-  ]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/INSTRUMENTS/WEB_CAM/CAMERA/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -32,9 +12,11 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='IO/IMAGING/WEBCAM/WEBCAM.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
@@ -45,23 +27,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-
-### WEBCAM example
-
-<AppDisplay
-    nodeLabel='WEBCAM'
-    appImg={''}
-    outputImg={''}
-    >
-    {App1}
+<AppDisplay 
+  GLink='IO/IMAGING/WEBCAM'
+  nodeLabel='WEBCAM'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
-  
+
     
 
 [//]: # (Appendix)

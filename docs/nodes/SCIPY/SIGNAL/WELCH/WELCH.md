@@ -1,15 +1,10 @@
----
-title: WELCH
-description: Estimate power spectral density using Welch's method. Welch's method [1]_ computes an estimate of the power spectral density by dividing the data into overlapping segments, computing a modified periodogram for each segment and averaging the periodograms.
-keywords: [scipy, statistics, signal processing, scipy.stats, scipy.signal, scipy.signal.welch]
-image: https://docs.scipy.org/doc/scipy/reference/signal.html
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
-import PythonCode from '@site/src/components/PythonCode';
+import DocStringJSON from '@site/src/components/DocStringJSON';
 
+import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -17,12 +12,12 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='SCIPY/signal/WELCH/WELCH.py'>{PythonSource}</PythonCode>
-
+<DocStringJSON data={DocstringJson} />
+<PythonCode GLink='SCIPY/SIGNAL/WELCH/WELCH.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -32,10 +27,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-### Estimate power spectral density with Welch's method
-
 <AppDisplay 
-  GLink='SCIPY/signal/WELCH'
+  GLink='SCIPY/SIGNAL/WELCH'
   nodeLabel='WELCH'>
 </AppDisplay>
 
@@ -51,16 +44,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/SCIPY/signal/WELCH/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/SCIPY/signal/WELCH/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/SCIPY/signal/WELCH/appendix/'><Media /></AppendixSection>
-
-<SectionBreak />
-
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/SCIPY/SIGNAL/WELCH)
+<AppendixSection index={0} folderPath='nodes/SCIPY/SIGNAL/WELCH/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/SCIPY/SIGNAL/WELCH/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/SCIPY/SIGNAL/WELCH/appendix/'><Media /></AppendixSection>
 
 

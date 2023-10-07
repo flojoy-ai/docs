@@ -1,13 +1,9 @@
----
-title: INTEGRATE
-description: The Python"-"powered INTEGRATE node takes two lists as input and integrates it using the composite trapezoidal rule.
-keyword: [Python, Transform, Calculus, Integrate, Integration transformer, Python integration calculations, Data processing with integration, Flojoy INTEGRATE transformer, Streamline data analysis, Calculus transformations, Integration calculation, Python data manipulation, Accurate data insights, Integration in Python]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/CALCULUS/INTEGRATE/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -16,56 +12,40 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='TRANSFORMERS/CALCULUS/INTEGRATE/INTEGRATE.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-import appImg from './examples/EX1/app.jpeg'
-import appImgLight from './examples/EX1/app_light.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-import outputLight from './examples/EX1/output_light.jpeg'
-
-### Apply the trapezoidal rule to compute an integration
-
 <AppDisplay 
-    nodeLabel='INTEGRATE'
-    appImg={appImg}
-    appLight={appImgLight}
-    outputLight={outputLight}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='TRANSFORMERS/CALCULUS/INTEGRATE'
+  nodeLabel='INTEGRATE'>
 </AppDisplay>
-
-<Example1 />
 
 <SectionBreak />
 
-[//]: # (Appendix)
+    
 
-## Appendix
+[//]: # (Appendix)
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
+## Appendix
+
 <AppendixSection index={0} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/TRANSFORMERS/CALCULUS/INTEGRATE/appendix/'><Media /></AppendixSection>
 
-<SectionBreak />
 
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/TRANSFORMERS/CALCULUS/INTEGRATE)

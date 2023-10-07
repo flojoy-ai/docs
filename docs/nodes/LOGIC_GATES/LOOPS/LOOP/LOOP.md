@@ -1,13 +1,9 @@
----
-title: LOOP
-description: Efficiently perform Python-based looping operations with Flojoy's LOOP logic gate that iterates through the body nodes for a given number of times. 
-keyword: [Python, Flow, Logic gates, Loop, Loop logic gate, Python loop operations, Data manipulation with looping, Streamline data processing, Loop"-"driven transformations, Looping in Python, Python data analysis, Accurate data insights, Data processing using LOOP logic gate, Data manipulation using looping in Python]
-image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP/examples/EX1/output.jpeg
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -16,56 +12,40 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='LOGIC_GATES/LOOPS/LOOP/LOOP.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
+
+    
 
 [//]: # (Examples)
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-import appImg from './examples/EX1/app.jpeg'
-import appImgLight from './examples/EX1/app_light.jpeg'
-import outputImg from './examples/EX1/output.jpeg'
-import outputLight from './examples/EX1/output_light.jpeg'
-
-### Iterate through the body nodes
-
 <AppDisplay 
-    nodeLabel='LOOP'
-    appImg={appImg}
-    appLight={appImgLight}
-    outputLight={outputLight}
-    outputImg={outputImg}
-    >
-    {App1}
+  GLink='LOGIC_GATES/LOOPS/LOOP'
+  nodeLabel='LOOP'>
 </AppDisplay>
-
-<Example1 />
 
 <SectionBreak />
 
-[//]: # (Appendix)
+    
 
-## Appendix
+[//]: # (Appendix)
 
 import Notes from './appendix/notes.md';
 import Hardware from './appendix/hardware.md';
 import Media from './appendix/media.md';
 
+## Appendix
+
 <AppendixSection index={0} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'><Notes /></AppendixSection>
 <AppendixSection index={1} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'><Hardware /></AppendixSection>
 <AppendixSection index={2} folderPath='nodes/LOGIC_GATES/LOOPS/LOOP/appendix/'><Media /></AppendixSection>
 
-<SectionBreak />
 
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP)

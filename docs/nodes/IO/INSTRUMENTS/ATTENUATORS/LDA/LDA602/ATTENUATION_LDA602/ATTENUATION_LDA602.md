@@ -2,6 +2,8 @@
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
+import DocStringJSON from '@site/src/components/DocStringJSON';
+
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
@@ -10,9 +12,11 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <DocString>{DocstringSource}</DocString>
+<DocStringJSON data={DocstringJson} />
 <PythonCode GLink='IO/INSTRUMENTS/ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602/ATTENUATION_LDA602.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
@@ -23,23 +27,13 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-import Example1 from './examples/EX1/example.md';
-import App1 from '!!raw-loader!./examples/EX1/app.json';
-
-### ATTENUATION_LDA602 example
-
-<AppDisplay
-    nodeLabel='ATTENUATION_LDA602'
-    appImg={''}
-    outputImg={''}
-    >
-    {App1}
+<AppDisplay 
+  GLink='IO/INSTRUMENTS/ATTENUATORS/LDA/LDA602/ATTENUATION_LDA602'
+  nodeLabel='ATTENUATION_LDA602'>
 </AppDisplay>
 
-<Example1 />
-
 <SectionBreak />
-  
+
     
 
 [//]: # (Appendix)

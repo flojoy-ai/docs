@@ -1,15 +1,10 @@
----
-title: CUBIC
-description: A cubic B-spline. This is a special case of `bspline`, and equivalent to ``bspline(x, 3)``.
-keywords: [scipy, statistics, signal processing, scipy.stats, scipy.signal, scipy.signal.cubic]
-image: https://docs.scipy.org/doc/scipy/reference/signal.html
----
 
 [//]: # (Custom component imports)
 
 import DocString from '@site/src/components/DocString';
-import PythonCode from '@site/src/components/PythonCode';
+import DocStringJSON from '@site/src/components/DocStringJSON';
 
+import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
@@ -17,12 +12,12 @@ import AppendixSection from '@site/src/components/AppendixSection';
 [//]: # (Docstring)
 
 import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
+import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
-
 <DocString>{DocstringSource}</DocString>
-<PythonCode GLink='SCIPY/signal/CUBIC/CUBIC.py'>{PythonSource}</PythonCode>
-
+<DocStringJSON data={DocstringJson} />
+<PythonCode GLink='SCIPY/SIGNAL/CUBIC/CUBIC.py'>{PythonSource}</PythonCode>
 
 <SectionBreak />
 
@@ -32,10 +27,8 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 ## Examples
 
-### Apply a cubic B-spline function
-
 <AppDisplay 
-  GLink='SCIPY/signal/CUBIC'
+  GLink='SCIPY/SIGNAL/CUBIC'
   nodeLabel='CUBIC'>
 </AppDisplay>
 
@@ -51,16 +44,8 @@ import Media from './appendix/media.md';
 
 ## Appendix
 
-<AppendixSection index={0} folderPath='nodes/SCIPY/signal/CUBIC/appendix/'><Notes /></AppendixSection>
-<AppendixSection index={1} folderPath='nodes/SCIPY/signal/CUBIC/appendix/'><Hardware /></AppendixSection>
-<AppendixSection index={2} folderPath='nodes/SCIPY/signal/CUBIC/appendix/'><Media /></AppendixSection>
-
-<SectionBreak />
-
-[//]: # (Edit page on GitHub)
-
-#### Edit this page on GitHub
-
-[Edit page here](https://github.com/flojoy-ai/docs/tree/main/docs/nodes/SCIPY/SIGNAL/CUBIC)
+<AppendixSection index={0} folderPath='nodes/SCIPY/SIGNAL/CUBIC/appendix/'><Notes /></AppendixSection>
+<AppendixSection index={1} folderPath='nodes/SCIPY/SIGNAL/CUBIC/appendix/'><Hardware /></AppendixSection>
+<AppendixSection index={2} folderPath='nodes/SCIPY/SIGNAL/CUBIC/appendix/'><Media /></AppendixSection>
 
 
