@@ -11,7 +11,7 @@ Welcome to the Plotly Nodes page!
 
 These nodes use Plotly - a popular Python charting library for scientific data. Use them to visualize [DataContainers](/custom-nodes/data-container/) in your Flojoy apps.
 
-Also see the [DEBUGGING nodes](/nodes/EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/).
+Please also see the [DEBUGGING nodes](/nodes/EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/).
 
 ## Plotly Nodes
 

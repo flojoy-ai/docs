@@ -9,7 +9,7 @@ slug: /nodes/VISUALIZERS/DATA_STRUCTURE/
 
 Welcome to the data structures visualization page!
 
-These nodes help visualize Flojoy [DataContainers](/custom-nodes/data-container/) types such as Vectors and Matrices.
+These nodes visualize [DataContainer](/custom-nodes/data-container/) types such as Vectors and Matrices in your Flojoy apps.
 
 Also see the [DEBUGGING nodes](/nodes/EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/).
 

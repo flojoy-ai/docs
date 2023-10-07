@@ -6,9 +6,9 @@ sidebar_position: 6
 
 # VISUALIZERS in Python
 
-Welcome to the Visualizer Nodes page!
+Welcome to the data visualization functions page!
 
-Here you can find information about all the Flojoy nodes that can be used to visualize your data.
+Here you can find all the Flojoy nodes for visualizing [DataContainers](https://docs.flojoy.ai/custom-nodes/data-container/) in Flojoy apps. 
 
 You can also find all of these nodes in the sidebar.
 
