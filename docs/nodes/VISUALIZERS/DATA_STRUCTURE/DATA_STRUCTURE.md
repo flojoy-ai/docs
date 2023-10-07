@@ -7,36 +7,20 @@ slug: /nodes/VISUALIZERS/DATA_STRUCTURE/
 
 # DATA STRUCTURES in Python
 
-Welcome to the Data Structures Nodes page!
+Welcome to the data structures visualization page!
 
-Here you can find information about all the Flojoy nodes that can be used to visualize different data structures.
+These nodes help visualize Flojoy [DataContainers](/custom-nodes/data-container/) types such as Vectors and Matrices.
+
+Also see the [DEBUGGING nodes](/nodes/EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/).
 
 ## Data Structure Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
+<!-- Custom component -->
+import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
 
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/ARRAY_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ARRAY VIEW</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/MATRIX_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>MATRIX VIEW</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/VISUALIZERS/DATA_STRUCTURE/TEXT_VIEW/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TEXT VIEW</figcaption>
-</figure>
-</a></div>
-
-</div>
+<AppThumbnailSection
+    sectionName = 'Data structure visualization'
+    blockquote = 'Visually review DataContainer data structures as they flow through Flojoy apps.'
+    sectionRoot = 'VISUALIZERS/DATA_STRUCTURE'
+    nodes = {['ARRAY_VIEW', 'MATRIX_VIEW', 'TEXT_VIEW']}
+/>
