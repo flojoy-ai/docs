@@ -1,6 +1,7 @@
 import React from 'react';
 import NumpyNode from '@site/src/components/nodes/NumpyNode';
 import ScipyNode from '@site/src/components/nodes/ScipyNode';
+import * as cloudinaryData from './cloudinary_thumbnail_lookup.json';
 
 type AppThumbnailProps = {
   children: string;
@@ -29,6 +30,7 @@ export default function AppThumbnail({
   const pathRoot = instrument ? 'instruments-database' : 'nodes';       // Whether the thumbnail is for a node or instrument page
   const isNumpyNode = path.toLowerCase().indexOf('numpy') >= 0;         // Whether the thumbnail is for a numpy node
   const isSciPyNode = path.toLowerCase().indexOf('scipy') >= 0;         // Whether the thumbnail is for a scipy node
+  const DEFAULT_IMAGE_THUMBNAIL = 'https://res.cloudinary.com/dhopxs1y3/image/upload/w_300/q_auto/v1696619530/node_thumbnails/DEFAULT_THUMBNAIL_p2vqkw.jpg';
 
   let imgSrc =
     typeof img === 'string'
@@ -41,8 +43,12 @@ export default function AppThumbnail({
     : 'app-thumbnail';
 
   if (featuredNode) {
-    imgSrc = `/node_thumbnails/${nodeLabel}.png`;
-    thumbnailClass += ' custom-thumbnail';
+    if (nodeLabel in cloudinaryData) {
+      const cloudinaryImgSrc = cloudinaryData[nodeLabel];
+      const optimizedImgSrc = cloudinaryImgSrc.replace('/upload/', '/upload/w_300/q_auto/');
+      imgSrc = optimizedImgSrc;
+      thumbnailClass += ' custom-thumbnail';
+    }
   }
 
   // SciPy and Numpy nodes and displayed specially
@@ -71,7 +77,7 @@ export default function AppThumbnail({
                 alt={children} 
                 src={imgSrc}
                 onError={event => {
-                  event.target.src = "/node_thumbnails/DEFAULT_THUMBNAIL.png"
+                  event.target.src = DEFAULT_IMAGE_THUMBNAIL
                   event.target.style.transform = 'scale(1)'
                   event.onerror = null
                 }}

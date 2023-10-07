@@ -46,7 +46,7 @@ const cardCollectionData: CardItem[] = [
     cardLink: '/nodes/io',
     cardEmoji: '📻',
     cardContent:
-      'Flojoy provides apps and functions or configuring data acquisition hardware, reading data into Flojoy, and writing data to DAQ output channels. Flojoy supports a variety of hardware, including those from National Instruments®, Tektronix®, and others.',
+      'Flojoy provides apps and functions for configuring data acquisition hardware, reading data into Flojoy, and writing data to DAQ output channels. Flojoy supports a variety of hardware, including those from National Instruments®, Tektronix®, and others.',
   },
   {
     cardHeader: 'Loops & Timers',

@@ -26,7 +26,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
 
 <AppThumbnail 
     path='balance-scales/mettler-toledo/mt-standard-interface-communication-software'
-    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/q_auto/v1695707363/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file_new.png'
     instrument={true}
 >
     MT Standard Interface Communication Software

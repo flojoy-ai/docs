@@ -22,7 +22,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 
 </div>
 
-<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
+<img src="https://res.cloudinary.com/dhopxs1y3/image/upload/q_auto/v1695707363/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file_new.png" style={{ width: "325px", height: "200px", objectFit: "scale-down" }} />
 
 </div>
 

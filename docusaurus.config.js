@@ -167,25 +167,17 @@ const config = {
                 label: 'Installation',
               },
               {
-                href: '/general-tutorials/introduction/',
-                label: 'Flojoy Studio UI',
+                href: '/nodes',
+                label: 'All nodes',
               },
               {
-                href: '/cloud/introduction',
-                label: 'Flojoy Cloud',
-              },
-              {
-                href: '/explore-nodes',
-                label: 'Explore nodes',
+                href: '/custom-nodes/',
+                label: 'Contributing',
               },
               {
                 href: '/instruments-database/all-instruments',
                 label: 'Instruments Database',
-              },
-              {
-                href: '/custom-nodes/creating-custom-node/',
-                label: 'Contributing nodes',
-              },
+              }              
             ],
           },
           {

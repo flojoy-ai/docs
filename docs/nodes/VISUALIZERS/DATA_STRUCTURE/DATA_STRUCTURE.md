@@ -7,12 +7,13 @@ slug: /nodes/VISUALIZERS/DATA_STRUCTURE/
 
 # DATA STRUCTURES in Python
 
-Welcome to the Data Structures Nodes page!
+Welcome to the data structures visualization page!
 
-Here you can find information about all the Flojoy nodes that can be used to visualize different data structures.
+These nodes visualize [DataContainer](/custom-nodes/data-container/) types such as Vectors and Matrices in your Flojoy apps.
+
+Also see the [DEBUGGING nodes](/nodes/EXTRACTORS/DEBUGGING/DATACONTAINER_TYPE/).
 
 ## Data Structure Nodes
-
 
 <!-- Custom component -->
 
