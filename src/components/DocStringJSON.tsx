@@ -8,6 +8,7 @@ const DocStringJSON = ({ data }: Props) => {
   const parsedData = JSON.parse(data);
   return (
     <div className="flex flex-col">
+      <div>{parsedData.description}</div>
       <div className="flex gap-2">
         <div className="w-32 font-bold">Parameters:</div>
         <div className="flex flex-col gap-2">
