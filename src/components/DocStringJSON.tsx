@@ -9,29 +9,30 @@ const DocStringJSON = ({ data }: Props) => {
   return (
     <div className="flex flex-col">
       <div>{parsedData.description}</div>
+
       <div className="flex gap-2">
-        <div className="w-32 font-bold">Parameters:</div>
+        <div className="w-24 shrink-0 font-bold">Params:</div>
         <div className="flex flex-col gap-2">
           {parsedData.parameters.map((param: any) => (
             <>
               <div className="font-bold">
                 {param.name} : {param.type}
               </div>
-              <div className="ml-8">{param.description}</div>
+              <div className="pl-8">{param.description}</div>
             </>
           ))}
         </div>
       </div>
 
       <div className="flex gap-2">
-        <div className="w-32 font-bold">Returns:</div>
+        <div className="w-24 shrink-0 font-bold">Returns:</div>
         <div className="flex flex-col gap-2">
           {parsedData.returns.map((param: any) => (
             <>
               <div className="font-bold">
                 {param.name ?? 'out'} : {param.type}
               </div>
-              <div className="ml-8">{param.description}</div>
+              <div className="pl-8">{param.description}</div>
             </>
           ))}
         </div>
