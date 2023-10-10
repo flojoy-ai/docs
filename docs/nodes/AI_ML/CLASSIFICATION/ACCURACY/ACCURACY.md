@@ -15,7 +15,6 @@ import AppendixSection from '@site/src/components/AppendixSection';
 
 [//]: # 'Docstring'
 
-import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 

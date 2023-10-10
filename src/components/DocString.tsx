@@ -1,7 +1,7 @@
 import React from 'react';
-import { useColorMode } from '@docusaurus/theme-common';
 import highlight from 'custom-syntax-highlighter';
 import useIsBrowser from '@docusaurus/useIsBrowser';
+import UniversalAdmonition from '@site/src/components/UniversalAdmonition'
 
 type DocStringProps = {
   children: string;
@@ -14,7 +14,6 @@ const STYLES = {
 };
 
 export default function DocString({ children }: DocStringProps) {
-  const { colorMode } = useColorMode();
 
   const ERROR = 'This function does not have a docstring description yet.';
   if (children.trim() === '') {
@@ -78,6 +77,8 @@ export default function DocString({ children }: DocStringProps) {
 
   return (
     <>
+      <UniversalAdmonition />
+
       <pre>
         <code>{content}</code>
       </pre>

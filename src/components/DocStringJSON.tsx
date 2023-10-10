@@ -1,4 +1,5 @@
 import React from 'react';
+import UniversalAdmonition from '@site/src/components/UniversalAdmonition'
 
 type Props = {
   data: string;
@@ -7,7 +8,11 @@ type Props = {
 const DocStringJSON = ({ data }: Props) => {
   const parsedData = JSON.parse(data);
   return (
+
     <div className="flex flex-col">
+
+      <UniversalAdmonition />
+
       <div>{parsedData.description}</div>
 
       <div className="flex gap-2">

@@ -9,14 +9,13 @@ hide_table_of_contents: true
 
 # AI & ML in Python
 
-Welcome to the AI & ML nodes page!
+Welcome to the AI & ML nodes page! Here you can find a list of all the Flojoy functions ("nodes") and examples to produce no-code apps with Python-based AI (Artificial Intelligence) and ML (Machine Learning) models. You can also find all of these nodes in the sidebar.
 
-Here you can find a list of all the Flojoy functions ("nodes") to produce an output with AI (Artificial Intelligence) and ML (Machine Learning) models.
-
-You can also find all of these nodes in the sidebar.
-
-<!-- Custom component -->
+<!-- Custom components -->
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
+import UniversalAdmonition from '@site/src/components/UniversalAdmonition';
+
+<UniversalAdmonition />
 
 <AppThumbnailSection
     sectionName = 'Classification'
