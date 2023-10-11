@@ -1,3 +1,8 @@
+---
+title: ACTIVATE
+description: The ACTIVATE node activates a MECADEMIC MECA500 robot arm.
+keywords: [python robotics, robotics, python control, python, move, activate, mechademics]
+---
 
 [//]: # (Custom component imports)
 

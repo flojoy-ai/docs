@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: FLEXIFORCE_25LB
+description: The FLEXIFORCE_25LB node extracts the pressure from a FLEXIFORCE 25LB sensor.
+keywords: [pressure sensor, python control, pressure measurement, instrument, python, FLEXIFORCE, 25LB]
+---
+
 
 [//]: # (Custom component imports)
 

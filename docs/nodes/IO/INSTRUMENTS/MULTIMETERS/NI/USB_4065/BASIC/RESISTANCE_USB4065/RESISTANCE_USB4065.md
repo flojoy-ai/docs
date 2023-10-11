@@ -1,3 +1,8 @@
+---
+title: RESISTANCE_USB4065
+description: The RESISTANCE_USB4065 node measures the resistance (two-wire) with a NI USB 4065 multimeter.
+keywords: [python multimeter, python control, digital multimeter, instrument, python, National Instruments, NI, USB 4065, multimeter]
+---
 
 [//]: # (Custom component imports)
 

@@ -1,4 +1,8 @@
-<!--Add SEO here-->
+---
+title: SET_VOLTAGE
+description: The SET_VOLTAGE node sets the DC voltage output from a Keithley 2400 sourcemeter.
+keywords: [Keithley 2400, python control, sourcemeter, instrument, python, Keithley]
+---
 
 [//]: # (Custom component imports)
 

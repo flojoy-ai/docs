@@ -1,3 +1,8 @@
+---
+title: ATTENUATION_LDA602
+description: The ATTENUATION_LDA602 node sets or queries the attenuation from a Vaunix LDA602.
+keywords: [python attenuation, python control, digital attenuation, instrument, python, Vaunix, LDA602, attenuation]
+---
 
 [//]: # (Custom component imports)
 

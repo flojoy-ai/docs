@@ -1,3 +1,8 @@
+---
+title: DIODE_USB4065
+description: The DIODE_USB4065 node measures the DC voltage drop across a diode with a NI USB 4065 multimeter.
+keywords: [python multimeter, python control, digital multimeter, instrument, python, National Instruments, NI, USB 4065, multimeter]
+---
 
 [//]: # (Custom component imports)
 

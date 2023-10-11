@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: DOT_PRODUCT
+description: Calculates the dot product between two matricies.
+keyword: [Python, Transform, Matrix math, dot product, matrix multiplication, Data processing, Streamline data analysis, Python data manipulation, Accurate data insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/DOT_PRODUCT/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
