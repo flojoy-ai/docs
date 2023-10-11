@@ -1,4 +1,4 @@
-The SCPI node writes a SCPI command to a connected bench-top instrument and returns the result.
+The SCPI_WRITE node writes a SCPI command to a connected bench-top instrument and returns the result.
 
     Inputs
     ------
