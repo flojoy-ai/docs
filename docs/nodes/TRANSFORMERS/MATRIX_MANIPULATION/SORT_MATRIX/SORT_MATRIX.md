@@ -1,4 +1,9 @@
-<!--Add SEO here-->
+---
+title: SORT_MATRIX
+description: The SORT_MATRIX node sorts the matrix along the input axis.
+keyword: [Python, Transform, Matrix math, sort matrix, Data processing, Streamline data analysis, Python data manipulation, Accurate data insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SORT_MATRIX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 

@@ -1,6 +1,7 @@
 ---
 title: MEASURE_VOLTAGE
 description: Read a voltage from a connected device that supports the SCPI protocol.
+keywords: [SCPI, python control, python measurement, python instrument, python voltage]
 ---
 
 [//]: # (Custom component imports)

@@ -1,6 +1,7 @@
 ---
 title: IDN
 description: Query the identity of a connected device through the IDN? SCPI command.
+keywords: [SCPI, python control, python measurement, python instrument]
 ---
 
 [//]: # (Custom component imports)

@@ -1,3 +1,9 @@
+---
+title: TRANSPOSE_MATRIX
+description: The TRANSPOSE_MATRIX node transposes the input matrix.
+keyword: [Python, Transform, Matrix math, transpose matrix, Data processing, Streamline data analysis, Python data manipulation, Accurate data insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/TRANSPOSE_MATRIX/examples/EX1/output.jpeg
+---
 
 [//]: # (Custom component imports)
 
