@@ -1,8 +1,17 @@
+import pprint
 from flojoy import flojoy, TextBlob
 
 
 @flojoy
-def TEXT_VIEW(default: TextBlob):
+def TEXT_VIEW(
+    default: TextBlob,
+    prettify: bool = False
+) -> TextBlob:
     
 
-    return default
+    s = default.text_blob
+
+    if prettify:
+        s = pprint.pformat(default.text_blob)
+
+    return TextBlob(s)
