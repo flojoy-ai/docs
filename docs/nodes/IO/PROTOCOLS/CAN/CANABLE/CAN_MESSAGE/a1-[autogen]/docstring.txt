@@ -1,0 +1,17 @@
+The CAN_MESSAGE node sends a message onto CAN network through a slcan-compatible USB-to-CAN adapter.
+
+    Inputs
+    ------
+    default: Vector
+        The array of data to send to the CAN bus.
+
+    Parameters
+    ----------
+    arbitration_id:
+        Unique ID for message being sent.
+    is_extended_id: bool
+        Flag that controls the size of the arbitration_id field.      
+
+    Returns
+    -------
+    None
