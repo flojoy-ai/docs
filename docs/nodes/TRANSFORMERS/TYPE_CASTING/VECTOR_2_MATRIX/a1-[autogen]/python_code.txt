@@ -1,0 +1,11 @@
+from numpy import reshape
+from flojoy import flojoy, Vector, Matrix
+
+@flojoy
+def VECTOR_2_MATRIX(default: Vector, row: int, col: int ) -> Matrix:
+    
+    try:
+        matrix = default.v.reshape((row,col))
+        return Matrix(m=matrix)
+    except Exception as e:
+        print(e)
