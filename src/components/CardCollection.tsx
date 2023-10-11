@@ -1,11 +1,21 @@
 import React from 'react';
 import Card from '../components/Card';
 
-type CardCollectionProps = { cardData: string; };
+type CardCollectionProps = { 
+  cardData: string;
+  displayWide: boolean;  
+};
 
-function CardCollection({cardData}: CardCollectionProps) {
+function CardCollection({cardData, displayWide}: CardCollectionProps) {
+
+  let tailwindColumns = 'lg:grid-cols-2 2xl:grid-cols-3';
+
+  if (displayWide) {
+    tailwindColumns = 'lg:grid-cols-3 2xl:grid-cols-4';
+  }
+
   return (
-    <section className="grid gap-8 lg:grid-cols-2 2xl:grid-cols-3">
+    <section className={`grid gap-8 ${tailwindColumns}`}>
       {cardData.map(cd => {
         return (
           <Card
@@ -13,6 +23,7 @@ function CardCollection({cardData}: CardCollectionProps) {
             cardLink={cd.cardLink}
             cardEmoji={cd.cardEmoji}
             cardContent={cd.cardContent}
+            displayWide={displayWide} 
           />
         );
       })}

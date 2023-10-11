@@ -18,6 +18,9 @@ You can also find all of these nodes in the sidebar.
 <!-- Custom component -->
 
 import AppThumbnailSection from '@site/src/components/AppThumbnailSection';
+import UniversalAdmonition from '@site/src/components/UniversalAdmonition';
+
+<UniversalAdmonition />
 
 <AppThumbnailSection
 sectionName = 'Attenuators'

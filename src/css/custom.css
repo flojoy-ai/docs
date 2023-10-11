@@ -204,3 +204,10 @@
 .theme-doc-breadcrumbs {
   overflow: hidden;
 }
+
+/* New to Flojoy? admonition at the top over every node page */
+
+.universal-admonition {
+  margin-bottom: 2rem !important;
+  padding: 1rem;
+}
