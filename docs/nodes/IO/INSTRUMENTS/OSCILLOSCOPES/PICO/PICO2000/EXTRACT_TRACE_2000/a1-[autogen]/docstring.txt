@@ -1,0 +1,24 @@
+The EXTRACT_TRACE_2000 node extracts scope traces from the P2000.
+
+    Note this node requires the CONNECTION_2000 node.
+
+    Note the P2000 nodes require a device specific driver/SDK downloaded from:
+    https://www.picotech.com/downloads.
+
+    Parameters
+    ----------
+    channel: select
+        Select the channel to extract a trace from.
+    coupling_type: select
+        Select the coupling type (0:AC, 1:DC)
+    trig_threshold: float
+        The threshold to trigger the oscilloscope timing, in mV.
+    trig_direction: select
+        The direction (slope) to search for a trigger (1:Rising, 2:Falling).
+    x_samples: int
+        The number of samples in time (i.e. # of x axis pixels).
+
+    Returns
+    -------
+    DataContainer
+        OrderedPair: The trace of the oscilloscope is returned.

@@ -1,0 +1,32 @@
+The FUNCTION_GENERATION_2000 node controls wavefunction generation.
+
+    Note this node requires the CONNECTION_2000 node.
+
+    Note the P2000 nodes require a device specific driver/SDK downloaded from:
+    https://www.picotech.com/downloads.
+
+    Parameters
+    ----------
+    offset_voltage: int
+        The offset (vertical) voltage, in uV (microvolts).
+    amplitude: int
+        The peak-to-peak amplitude, in uV (microvolts).
+    wave_type: select
+        The type of waveform to generate (e.g. 0 is a sine)
+    start_frequency: int
+        The static or starting frequency, in Hz.
+    end_frequency: int
+        The ending frequency if sweeping is activated, in Hz.
+    sweep_increment: int
+        The increment to increase frequency during sweeping, in Hz
+    dwell_time: int = 1,
+        The time to dwell at a frequency during sweeping, in ms.
+    sweep_type: Literal["0", "1", "2", "3"] = "0",
+        The type of sweeping. 0 deactivates sweeping.
+    sweeps: int = 0,
+        The number of sweeps.
+
+    Returns
+    -------
+    DataContainer
+        TextBlob: Placeholder return currently
