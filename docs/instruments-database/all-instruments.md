@@ -1564,6 +1564,14 @@ An oscilloscope is a type of electronic test instrument that graphically display
 </AppThumbnail>
 
 <AppThumbnail 
+    path='oscilloscopes/tektronix/mdo3000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg'
+    instrument={true}
+>
+    TDS2000
+</AppThumbnail>
+
+<AppThumbnail 
     path='oscilloscopes/tektronix/mso5000'
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395690/Instruments/Oscilloscopes/MSO5000/file.jpg'
     instrument={true}
