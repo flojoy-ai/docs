@@ -50,7 +50,7 @@ For Windows, the only change that should be required is to install a generic USB
 1. Download [Zadig](https://zadig.akeo.ie/) and replace/install the driver (mostly) automatically.
 2. Manually download the driver and install it in `Device Manager`.
 
-In both methods ensure your device is plugged in and showing up in `Device Manager`. 
+In both methods ensure your device is plugged in and showing up in `Device Manager`.
 
 ### 1. Zadig Method
 
@@ -65,6 +65,8 @@ In both methods ensure your device is plugged in and showing up in `Device Manag
 - Choose `WinUSB` (> v6.1) to the right of the green arrow.
 - Press `Install Driver`.
 - You may need to restart your system for the changes to work.
+
+You may also have to place the `libusb-1.0.dll` file in `C:/Windows/System32` as described below.
 
 ### 2. Manual Method
 
