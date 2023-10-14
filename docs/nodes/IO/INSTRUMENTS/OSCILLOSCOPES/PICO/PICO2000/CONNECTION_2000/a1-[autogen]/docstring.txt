@@ -1,0 +1,13 @@
+The CONNECTION_2000 node connects Flojoy to an available Picoscope.
+
+    If more than one P2000 oscilloscope is available, the first one connected
+    to the PC will likely be chosen. If you need specific device selection,
+    please contact us at: https://www.flojoy.ai/contact-sales.
+
+    Note the P2000 nodes require a device specific driver/SDK downloaded from:
+    https://www.picotech.com/downloads.
+
+    Returns
+    -------
+    DataContainer
+        TextBlob: Placeholder return currently
