@@ -1,0 +1,14 @@
+The NOT_OR node takes two boolean data type and computs logical NOT OR operation on them.
+
+    Inputs
+    ------
+    default : Boolean
+        The input boolean to which we apply the NOT OR operation.
+
+    a : Boolean
+        The input boolean to which we apply the NOT OR operation.
+
+    Returns
+    -------
+    Boolean
+        The boolean result from the operation of the inputs.
