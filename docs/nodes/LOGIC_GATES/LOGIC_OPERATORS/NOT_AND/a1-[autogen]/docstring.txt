@@ -1,0 +1,14 @@
+The NOT_AND node takes two boolean data type and computs logical NOT AND operation on them.
+
+    Inputs
+    ------
+    default : Boolean
+        The input boolean to which we apply the NOT AND operation.
+
+    a : Boolean
+        The input boolean to which we apply the NOT AND operation.
+
+    Returns
+    -------
+    Boolean
+        The boolean result from the operation of the inputs.

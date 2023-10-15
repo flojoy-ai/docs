@@ -1,0 +1,12 @@
+The BOOLEAN_2_SCALAR node takes boolean type data and converts it into scalar data type.
+    1 means true and 0 means false
+
+    Inputs
+    ------
+    default : Boolean
+        The input boolean to which we apply the conversion to.
+
+    Returns
+    -------
+    Scalar
+        The scalar result from the conversion of the input.
