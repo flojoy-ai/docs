@@ -3,9 +3,14 @@ The TEXT_VIEW node creates a text visualization for a given TextBlob DataContain
     Inputs
     ------
     default : TextBlob
-        the DataContainer to be visualized in text format
+        The DataContainer to be visualized in text format
+
+    Parameters
+    ----------
+    prettify : Boolean
+        Whether to prettify the displayed text (defaults to True)
 
     Returns
     -------
     TextBlob
-        the DataContainer containing text data
+        The DataContainer containing text data
