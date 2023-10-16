@@ -3,55 +3,82 @@ import CardCollection from '../components/CardCollection';
 import * as nodeSections from '@site/nodeSidebar.json';
 import * as nodeDescriptions from '@site/src/components/flat_docstring_lookup.json';
 
-type NodeCardCollectionProps = { sectionID: string; };
+type NodeCardCollectionProps = { sectionIDs: Array<String>; };
 
-function NodeCardCollection({sectionID}: NodeCardCollectionProps) {
+function NodeCardCollection({sectionIDs}: NodeCardCollectionProps) {
 
-    let cardData = [];
+    let sectionContentData : Object = {};    
 
-    nodeSections[sectionID].map(nodePath => {
-        let cd = {};
-        const nodeID = nodePath.split('/').slice(-1).toString();
-        let nodeHint = nodeDescriptions[nodeID];
-        let nodePageLink = nodePath.split('/'); nodePageLink.pop();
-        nodePageLink = '/' + nodePageLink.join('/');
+    sectionIDs.push(
+        "I/O > Protocols > SCPI"
+    );
 
-        if (nodeHint.indexOf(' node ') > 0) {
-            nodeHint = nodeHint.split(' node '); nodeHint.shift();
-            nodeHint = nodeHint[0];
-            nodeHint = nodeHint.charAt(0).toUpperCase() + nodeHint.slice(1);
-        }
-        else if (nodeHint.trim().length == 0) {
-            nodeHint = '❗ This node has no docstring description yet.';
-        }
+    console.warn(sectionIDs);
 
-        cd['cardContent'] = nodeHint;
-        cd['cardHeader'] = nodeID.replaceAll('_', ' ');
-        cd['cardLink'] = nodePageLink;
-        cd['cardEmoji'] = '📻';
+    sectionIDs.map(sectionID => {  
 
-        if (nodePath.includes('PROTOCOLS')) {
-            cd['cardEmoji'] = '📄';
-        }
-        else if (nodePath.includes('MOTION')) {
-            cd['cardEmoji'] = '🛞';
-        }
-        else if (nodePath.includes('OSCILLOSCOPES')) {
-            cd['cardEmoji'] = '📟';
-        }
+        let cardData = [];
 
-        cardData.push(cd);
+        /*
+            Node card collection must have format like 
+            - "I/O > Oscilloscopes"
+            - "I/O > Protocols"
+            - etc
+            And match key format in nodeSidebar.json
+
+            SCPI, GPIB, and serial nodes are always included by default
+        */
+
+        nodeSections[sectionID].map(nodePath => {
+            let cd = {};
+            const nodeID = nodePath.split('/').slice(-1).toString();
+            let nodeHint = nodeDescriptions[nodeID];
+            let nodePageLink = nodePath.split('/'); nodePageLink.pop();
+            nodePageLink = '/' + nodePageLink.join('/');
+
+            if (nodeHint.indexOf(' node ') > 0) {
+                nodeHint = nodeHint.split(' node '); nodeHint.shift();
+                nodeHint = nodeHint[0];
+                nodeHint = nodeHint.charAt(0).toUpperCase() + nodeHint.slice(1);
+            }
+            else if (nodeHint.trim().length == 0) {
+                nodeHint = '❗ This node has no docstring description yet.';
+            }
+
+            cd['cardContent'] = nodeHint;
+            cd['cardHeader'] = nodeID.replaceAll('_', ' ');
+            cd['cardLink'] = nodePageLink;
+            cd['cardEmoji'] = '📻';
+
+            if (nodePath.includes('PROTOCOLS')) {
+                cd['cardEmoji'] = '📄';
+            }
+            else if (nodePath.includes('MOTION')) {
+                cd['cardEmoji'] = '🛞';
+            }
+            else if (nodePath.includes('OSCILLOSCOPES')) {
+                cd['cardEmoji'] = '📟';
+            }
+
+            cardData.push(cd);
+
+            sectionContentData[sectionID] = cardData;
+        });
     });
 
     return (
-        <>            
-            <h2 className='mt-10 mb-10'>{sectionID}</h2>
-            <div className='flex flex-col items-center'>
-                <CardCollection 
-                    cardData ={cardData} 
-                    displayWide={true} 
-                />
-            </div>
+        <>
+            {[...sectionIDs].map((sectionID) =>            
+                <>            
+                    <h2 className='mt-10 mb-10'>{sectionID}</h2>
+                    <div className='flex flex-col items-center'>
+                        <CardCollection 
+                            cardData ={sectionContentData[sectionID]} 
+                            displayWide={true} 
+                        />
+                    </div>
+                </>
+            )}
         </>
     );
   }
