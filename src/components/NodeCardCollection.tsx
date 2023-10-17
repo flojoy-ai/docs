@@ -17,7 +17,6 @@ function NodeCardCollection({category, manufacturer}: NodeCardCollectionProps) {
 
     sectionIDs.push(
         "I/O > Protocols > SCPI",
-        "I/O > Protocols > GPIB",
     );
 
     sectionIDs.map(sectionID => {  
