@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [oscilloscopes, Tektronix, InstrumentKit]
 slug: /instruments-database/oscilloscopes/tektronix/tds500-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395110/Instruments/Oscilloscopes/TDS500-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

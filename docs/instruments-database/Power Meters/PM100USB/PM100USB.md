@@ -5,6 +5,7 @@ description: The PM100USB Power and Energy Meter Interface is compatible with al
 keywords: [power meters, Thorlabs, InstrumentKit, PyMeasure]
 slug: /instruments-database/power-meters/thorlabs/PM100USB
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639378/Instruments/Power%20Meters/PM100USB/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

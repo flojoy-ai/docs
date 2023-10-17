@@ -5,6 +5,7 @@ description: The Model 2000 6½-Digit Multimeter is part of Keithley’s family 
 keywords: [multimeters, Keithley, QCodes, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2000
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395425/Instruments/Multimeters/Keithley-2000/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

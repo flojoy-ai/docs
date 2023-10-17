@@ -5,6 +5,7 @@ description: The LDA-102N Lab Brick USB programmable 50 Ohm digital attenuator h
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-102n
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395748/Instruments/Digital%20Attenuators/LDA-102N/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

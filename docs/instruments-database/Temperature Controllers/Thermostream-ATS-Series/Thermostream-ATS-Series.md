@@ -5,6 +5,7 @@ description: Temptronic ThermoStreams are portable systems that deliver clean dr
 keywords: [temperature controllers, Temptronic, PyMeasure]
 slug: /instruments-database/temperature-controllers/temptronic/thermostream-ats-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

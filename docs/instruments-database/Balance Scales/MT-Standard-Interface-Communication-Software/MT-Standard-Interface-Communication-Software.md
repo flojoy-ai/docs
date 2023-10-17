@@ -5,6 +5,7 @@ description: Instrument class to communicate with Mettler Toledo balances using 
 keywords: [balance scales, Mettler Toledo, InstrumentKit]
 slug: /instruments-database/balance-scales/mettler-toledo/mt-standard-interface-communication-software
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

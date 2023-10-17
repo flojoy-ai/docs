@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [motor controllers, Qubitekk, InstrumentKit]
 slug: /instruments-database/motor-controllers/qubitekk/mc1
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692741645/Instruments/Motor%20Controllers/MC1/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

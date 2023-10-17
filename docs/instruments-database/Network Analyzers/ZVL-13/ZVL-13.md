@@ -5,6 +5,7 @@ description: The ZVL is a compact, cost-efficient, powerful and portable network
 keywords: [network analyzers, Rohdes&Schwarz, QCodes Community]
 slug: /instruments-database/network-analyzers/rohdes-schwarz/zvl-13
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Network%20Analyzers/ZVL-13/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: Keithley’s Standard Series 2400 Source Measure Unit (SMU) Instrum
 keywords: [power supplies, Keithley, QCodes, PyMeasure]
 slug: /instruments-database/power-supplies/keithley/keithley-2400
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395429/Instruments/Power%20Supplies/Keithley-2400/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

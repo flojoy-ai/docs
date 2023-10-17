@@ -5,6 +5,7 @@ description: ATS9870 is the world's first Giga-sample waveform digitizer based o
 keywords: [daq boards, Alazartech, QCodes]
 slug: /instruments-database/daq-boards/alazartech/ats9870-8-bit-1-gs-s
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395519/Instruments/DAQ%20boards/ATS9870-8-bit-1-GS-s/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

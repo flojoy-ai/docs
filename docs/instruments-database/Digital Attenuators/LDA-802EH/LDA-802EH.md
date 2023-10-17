@@ -5,6 +5,7 @@ description: The LDA-802EH Digital Attenuator is a high dynamic range, bidirecti
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-802eh
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395769/Instruments/Digital%20Attenuators/LDA-802EH/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

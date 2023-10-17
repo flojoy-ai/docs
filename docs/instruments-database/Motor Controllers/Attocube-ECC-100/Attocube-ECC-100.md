@@ -5,6 +5,7 @@ description: The ECC100 is a state-ofthe-art motion controller, allowing the sim
 keywords: [motor controllers, Attocube, Instrumental]
 slug: /instruments-database/motor-controllers/attocube/attocube-ecc-100
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395132/Instruments/Motor%20Controllers/Attocube-ECC-100/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

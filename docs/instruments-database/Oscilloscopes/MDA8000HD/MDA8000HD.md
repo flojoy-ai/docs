@@ -5,6 +5,7 @@ description: The Motor Drive Analyzer is built on an 8 channel, 12-bit resolutio
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/mda8000hd
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394020/Instruments/Oscilloscopes/MDA8000HD/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

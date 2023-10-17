@@ -5,6 +5,7 @@ description: 6514 electrometer combines flexible interfacing capabilities with c
 keywords: [power meters, Keithley, InstrumentKit]
 slug: /instruments-database/power-meters/keithley/keithley-6514
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394008/Instruments/Power%20Meters/Keithley-6514/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

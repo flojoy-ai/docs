@@ -5,6 +5,7 @@ description: Turbo charge your production line with the Keysight 34450A 5.5-digi
 keywords: [multimeters, Agilent, PyMeasure]
 slug: /instruments-database/multimeters/agilent/keysight-34450a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

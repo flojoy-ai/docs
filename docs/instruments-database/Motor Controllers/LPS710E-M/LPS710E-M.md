@@ -5,6 +5,7 @@ description: The LPS710E(/M) Amplified Piezo Stage provides long range, fine foc
 keywords: [motor controllers, Thorlabs, InstrumentKit]
 slug: /instruments-database/motor-controllers/thorlabs/lps710e-m
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393994/Instruments/Motor%20Controllers/LPS710E-M/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

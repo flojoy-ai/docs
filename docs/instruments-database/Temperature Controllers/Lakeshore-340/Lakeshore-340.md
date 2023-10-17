@@ -5,6 +5,7 @@ description: The Model 340 cryogenic temperature controller is our most advanced
 keywords: [temperature controllers, Lakeshore, InstrumentKit]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-340
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394011/Instruments/Temperature%20Controllers/Lakeshore-340/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Thermometers
 sidebar_position: 3
 slug: /instruments-database/thermometers/
+hide_table_of_contents: true
 ---
 
 # Controlling Thermometers in Python

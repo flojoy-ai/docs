@@ -5,6 +5,7 @@ description: 3 Outputs; total power up to 195WLow Ripple Noise <350 uVrms/2mVppF
 keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-database/power-supplies/rigol/rigol-dp832
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395536/Instruments/Power%20Supplies/Rigol-DP832/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

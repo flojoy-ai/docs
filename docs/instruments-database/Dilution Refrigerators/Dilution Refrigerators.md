@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Dilution Refrigerators
 sidebar_position: 3
 slug: /instruments-database/dilution-refrigerators/
+hide_table_of_contents: true
 ---
 
 # Controlling Dilution Refrigerators in Python

@@ -5,6 +5,7 @@ description: Keysight 33500B Series waveform generators with exclusive Trueform 
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33522b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

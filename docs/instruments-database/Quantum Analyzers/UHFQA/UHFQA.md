@@ -5,6 +5,7 @@ description: The Zurich Instruments UHFQA Quantum Analyzer is a unique instrumen
 keywords: [quantum analyzers, Zurich Instruments, QCodes]
 slug: /instruments-database/quantum-analyzers/zurich-instruments/uhfqa
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395698/Instruments/Quantum%20Analyzers/UHFQA/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

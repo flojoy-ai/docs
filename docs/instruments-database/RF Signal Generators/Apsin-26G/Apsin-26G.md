@@ -5,6 +5,7 @@ description: The APSINXXG is an analog signal generator (analog signal source) s
 keywords: [rf signal generators, Anapico, PyMeasure]
 slug: /instruments-database/rf-signal-generators/anapico/apsin-26g
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395179/Instruments/RF%20Signal%20Generators/Apsin-26G/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

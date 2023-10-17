@@ -5,6 +5,7 @@ description: The Zurich Instruments SHFQA Quantum Analyzer integrates in a singl
 keywords: [quantum analyzers, Zurich Instruments, QCodes]
 slug: /instruments-database/quantum-analyzers/zurich-instruments/shfqa
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395676/Instruments/Quantum%20Analyzers/SHFQA/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

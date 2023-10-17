@@ -5,6 +5,7 @@ description: Infiniium series oscilloscopes feature application-specific softwar
 keywords: [oscilloscopes, Keysight, QCodes]
 slug: /instruments-database/oscilloscopes/keysight/infiniium-oscilloscopes-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395543/Instruments/Oscilloscopes/Infiniium-oscilloscopes-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

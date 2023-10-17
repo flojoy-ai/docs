@@ -5,6 +5,7 @@ description: The 7651 is a general-purpose DC source developed on YOKOGAWA's sta
 keywords: [power supplies, Yokogawa, InstrumentKit, PyMeasure]
 slug: /instruments-database/power-supplies/yokogawa/yokogawa-7651
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

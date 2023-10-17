@@ -5,6 +5,7 @@ description: Control Of The Jumo Quantrol Lc100/Lc200/Lc300, Universal Pid Contr
 keywords: [temperature controllers, Jumo, PyTango]
 slug: /instruments-database/temperature-controllers/jumo/jumoquantrollc
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395489/Instruments/Temperature%20Controllers/Jumoquantrollc/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Coincidence Counters
 sidebar_position: 3
 slug: /instruments-database/coincidence-counters/
+hide_table_of_contents: true
 ---
 
 # Controlling Coincidence Counters in Python

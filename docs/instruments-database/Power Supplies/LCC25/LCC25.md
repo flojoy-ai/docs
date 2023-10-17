@@ -5,6 +5,7 @@ description: The LCC25 is a liquid crystal controller compatible with all Thorla
 keywords: [power supplies, Thorlabs, InstrumentKit]
 slug: /instruments-database/power-supplies/thorlabs/lcc25
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394009/Instruments/Power%20Supplies/LCC25/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

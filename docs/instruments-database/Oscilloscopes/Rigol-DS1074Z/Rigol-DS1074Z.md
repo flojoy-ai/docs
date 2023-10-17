@@ -5,6 +5,7 @@ description: 4 analog channels, Upgradable to 16 digital channels (requires opti
 keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds1074z
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

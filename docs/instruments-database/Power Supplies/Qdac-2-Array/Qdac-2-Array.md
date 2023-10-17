@@ -5,6 +5,7 @@ description: QDAC-II is the next generation of the successful QDAC from QDevil. 
 keywords: [power supplies, Qdevil, QCodes Community]
 slug: /instruments-database/power-supplies/qdevil/qdac-2-array
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395790/Instruments/Power%20Supplies/Qdac-2-Array/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

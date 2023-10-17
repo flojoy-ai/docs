@@ -5,6 +5,7 @@ description: QDAC-II is the next generation of the successful QDAC from QDevil. 
 keywords: [digital analog converters, Qdevil, QCodes Community]
 slug: /instruments-database/digital-analog-converters/qdevil/qdac-2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: Keysight's M3202A PXIe arbitrary waveform generator offers 4 channe
 keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-m3202a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395775/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

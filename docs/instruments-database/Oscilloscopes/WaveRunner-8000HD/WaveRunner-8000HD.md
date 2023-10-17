@@ -5,6 +5,7 @@ description: Providing 12 bits all the time, more channels than any other oscill
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/waverunner-8000hd
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394023/Instruments/Oscilloscopes/WaveRunner-8000HD/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

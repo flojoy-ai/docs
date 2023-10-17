@@ -5,6 +5,7 @@ description: The TDS510A Digital Oscilloscope is a full-featured, cost-effective
 keywords: [oscilloscopes, Tektronix, InstrumentKit]
 slug: /instruments-database/oscilloscopes/tektronix/tds510a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639557/Instruments/Oscilloscopes/TDS510A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

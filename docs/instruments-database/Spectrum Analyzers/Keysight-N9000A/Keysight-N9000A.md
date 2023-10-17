@@ -5,6 +5,7 @@ description: N9000A CXA Signal Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, QCodes Community]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-n9000a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

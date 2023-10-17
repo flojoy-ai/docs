@@ -5,6 +5,7 @@ description: ATS9373 is a 12-bit waveform digitizer board that can sample one an
 keywords: [daq boards, Alazartech, QCodes]
 slug: /instruments-database/daq-boards/alazartech/ats9373-12-bit-4-gs-s
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395514/Instruments/DAQ%20boards/ATS9373-12-bit-4-GS-s/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

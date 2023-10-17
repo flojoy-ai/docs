@@ -5,6 +5,7 @@ description: The Rigol DP821 is a dual channel, remote sense programmable DC Pow
 keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-database/power-supplies/rigol/rigol-dp821
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395532/Instruments/Power%20Supplies/Rigol-DP821/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

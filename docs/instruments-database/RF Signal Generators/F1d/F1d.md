@@ -5,6 +5,7 @@ description: The F1d module is an IQ demodulator ranging from 40 MHz to 1.4 GHz.
 keywords: [rf signal generators, Qutech, QCodes Community]
 slug: /instruments-database/rf-signal-generators/qutech/f1d
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395719/Instruments/RF%20Signal%20Generators/F1d/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

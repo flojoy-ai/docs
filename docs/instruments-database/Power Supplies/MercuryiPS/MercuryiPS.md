@@ -5,6 +5,7 @@ description: Based on ±60 A modules with ±10 V compliance.Can be configured in
 keywords: [power supplies, Oxford Instruments, QCodes]
 slug: /instruments-database/power-supplies/oxford-instruments/mercuryips
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395615/Instruments/Power%20Supplies/MercuryiPS/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

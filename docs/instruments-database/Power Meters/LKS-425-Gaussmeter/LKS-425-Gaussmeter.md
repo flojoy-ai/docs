@@ -5,6 +5,7 @@ description: Lake Shore Model 425 gaussmeter provides high-end functionality and
 keywords: [power meters, Lakeshore, PyTango]
 slug: /instruments-database/power-meters/lakeshore/lks-425-gaussmeter
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395491/Instruments/Power%20Meters/LKS-425-Gaussmeter/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

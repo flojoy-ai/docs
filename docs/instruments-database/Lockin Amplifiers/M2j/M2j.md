@@ -5,6 +5,7 @@ description: The M2j module is a low noise amplifier initially designed for use 
 keywords: [lockin amplifiers, Qutech, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/qutech/m2j
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

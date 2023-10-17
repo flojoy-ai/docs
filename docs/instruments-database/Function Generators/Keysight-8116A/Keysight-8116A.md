@@ -5,6 +5,7 @@ description: 8116A 50 MHZ PULSE/FUNCTION GENERATOR
 keywords: [function generators, HP, PyMeasure]
 slug: /instruments-database/function-generators/hp/keysight-8116a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395418/Instruments/Function%20Generators/Keysight-8116A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

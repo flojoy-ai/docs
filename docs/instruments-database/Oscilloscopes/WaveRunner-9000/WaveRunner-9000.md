@@ -5,6 +5,7 @@ description: WaveRunner 9000 oscilloscopes have the industry's widest and deepes
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/waverunner-9000
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394024/Instruments/Oscilloscopes/WaveRunner-9000/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

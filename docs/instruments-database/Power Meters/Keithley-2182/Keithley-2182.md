@@ -5,6 +5,7 @@ description: The two-channel Model 2182A Nanovoltmeter is optimized for making s
 keywords: [power meters, Keithley, InstrumentKit]
 slug: /instruments-database/power-meters/keithley/keithley-2182
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394002/Instruments/Power%20Meters/Keithley-2182/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

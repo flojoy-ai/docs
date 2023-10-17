@@ -5,6 +5,7 @@ description: PXI source/measure units are the source and measurement resources o
 keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-database/power-supplies/keysight/keysight-m960x-defs
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

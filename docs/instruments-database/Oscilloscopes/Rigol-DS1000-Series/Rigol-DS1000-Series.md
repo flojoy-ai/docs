@@ -5,6 +5,7 @@ description: The 1000 Series from RIGOL include the B, D, and E series oscillosc
 keywords: [oscilloscopes, Rigol, InstrumentKit]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds1000-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395073/Instruments/Oscilloscopes/Rigol-DS1000-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

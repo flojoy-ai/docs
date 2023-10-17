@@ -5,6 +5,7 @@ description: WavePro HD High-Definition oscilloscopes employ unique Teledyne LeC
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavepro-hd
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719258/Instruments/Oscilloscopes/WavePro-HD/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

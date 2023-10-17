@@ -5,6 +5,7 @@ description: The MG3690C series of broadband signal generators covers audio, HF,
 keywords: [rf signal generators, Anritsu, PyMeasure]
 slug: /instruments-database/rf-signal-generators/anritsu/from-mg3690c-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

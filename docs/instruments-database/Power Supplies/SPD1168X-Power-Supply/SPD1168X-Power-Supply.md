@@ -5,6 +5,7 @@ description: Siglent’s SPD1168X Series Programmable Linear DC Power Supply has
 keywords: [power supplies, Siglent Technologies, PyMeasure]
 slug: /instruments-database/power-supplies/siglent-technologies/spd1168x-power-supply
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395478/Instruments/Power%20Supplies/SPD1168X-Power-Supply/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Picowatt AVS 47 is a resistance bridge used to measure the resi
 keywords: [temperature controllers, Picowatt, InstrumentKit]
 slug: /instruments-database/temperature-controllers/picowatt/avs-47
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394036/Instruments/Temperature%20Controllers/AVS-47/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Andor Shamrock SR-750 is based on Czerny-Turner optical design.
 keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-database/spectrometers/andor/shamrock-750
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

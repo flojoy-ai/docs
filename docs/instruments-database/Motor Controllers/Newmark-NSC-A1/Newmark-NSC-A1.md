@@ -5,6 +5,7 @@ description: The NSC-A1 Series motion controller is a powerful single axis stepp
 keywords: [motor controllers, Newmark, Instrumental]
 slug: /instruments-database/motor-controllers/newmark/newmark-nsc-a1
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639360/Instruments/Motor%20Controllers/Newmark-NSC-A1/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

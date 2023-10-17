@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [rf signal generators, National Instruments, QCodes Community]
 slug: /instruments-database/rf-signal-generators/national-instruments/rfsg
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692809007/Instruments/RF%20Signal%20Generators/RFSG/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

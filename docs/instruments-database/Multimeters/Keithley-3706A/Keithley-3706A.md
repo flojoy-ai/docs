@@ -5,6 +5,7 @@ description: The Model 3706A system switch with high performance DMM contains si
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/keithley-3706a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

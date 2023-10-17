@@ -5,6 +5,7 @@ description: The triple output, 160 W, E36313A provides small, compact size for 
 keywords: [power supplies, Keysight, QCodes Community]
 slug: /instruments-database/power-supplies/keysight/keysight-e36313a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

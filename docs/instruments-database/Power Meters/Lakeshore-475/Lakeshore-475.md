@@ -5,6 +5,7 @@ description: Lake Shore combined the technical advantages of digital signal pr
 keywords: [power meters, Lakeshore, InstrumentKit]
 slug: /instruments-database/power-meters/lakeshore/lakeshore-475
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394013/Instruments/Power%20Meters/Lakeshore-475/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

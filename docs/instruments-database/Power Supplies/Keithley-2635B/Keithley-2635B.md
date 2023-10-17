@@ -5,6 +5,7 @@ description: The 2635B SourceMeter SMU instrument, is a new and improved one-cha
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2635b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719324/Instruments/Power%20Supplies/Keithley-2635B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

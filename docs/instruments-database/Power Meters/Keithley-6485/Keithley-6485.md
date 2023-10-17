@@ -5,6 +5,7 @@ description: The 5½-digit Model 6485 Picoammeter combines Keithley’s expertis
 keywords: [power meters, Keithley, PyTango]
 slug: /instruments-database/power-meters/keithley/keithley-6485
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692650072/Instruments/Power%20Meters/Keithley-6485/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: PXIe, 250 kHz to 20 GHz, PXI RF Analog Signal Generator—The PXIe-
 keywords: [rf signal generators, National Instruments, QCodes Community]
 slug: /instruments-database/rf-signal-generators/national-instruments/ni-pxie-5654
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395786/Instruments/RF%20Signal%20Generators/NI-PXIe-5654/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

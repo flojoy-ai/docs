@@ -5,6 +5,7 @@ description: The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision c
 keywords: [cameras, PCO, Instrumental]
 slug: /instruments-database/cameras/pco/PCO-pixelfly
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

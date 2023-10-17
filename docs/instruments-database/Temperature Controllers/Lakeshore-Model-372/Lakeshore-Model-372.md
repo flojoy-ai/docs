@@ -5,6 +5,7 @@ description: The Model 372 AC resistance bridge and temperature controller build
 keywords: [temperature controllers, Lakeshore, QCodes]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-model-372
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395614/Instruments/Temperature%20Controllers/Lakeshore-Model-372/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

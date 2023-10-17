@@ -5,6 +5,7 @@ description: 26.5 GHz, 50 Ω, 6x1 (SP6T) Terminated PXI RF Multiplexer Switch M
 keywords: [multiplexer switch modules, National Instruments, QCodes Community]
 slug: /instruments-database/multiplexer-switch-modules/national-instruments/ni-pxie-2597
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

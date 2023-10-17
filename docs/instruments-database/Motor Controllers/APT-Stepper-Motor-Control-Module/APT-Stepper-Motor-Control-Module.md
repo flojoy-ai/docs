@@ -5,6 +5,7 @@ description: The APT™ MST602 module is a dual-channel, high-resolution, rack-m
 keywords: [motor controllers, Thorlabs, InstrumentKit]
 slug: /instruments-database/motor-controllers/thorlabs/apt-stepper-motor-control-module
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393993/Instruments/Motor%20Controllers/APT-Stepper-Motor-Control-Module/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

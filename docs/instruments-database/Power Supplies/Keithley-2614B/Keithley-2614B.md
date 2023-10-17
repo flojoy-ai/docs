@@ -5,6 +5,7 @@ description: The 2614B SourceMeter SMU Instrument is a new dual-channel SMU inst
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2614b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719322/Instruments/Power%20Supplies/Keithley-2614B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

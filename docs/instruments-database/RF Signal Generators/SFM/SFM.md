@@ -5,6 +5,7 @@ description: Generation of standard TV signals (standards B&G, D&K, L&L, I, M, N
 keywords: [rf signal generators, Rohdes&Schwarz, PyMeasure]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/sfm
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639439/Instruments/RF%20Signal%20Generators/SFM/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

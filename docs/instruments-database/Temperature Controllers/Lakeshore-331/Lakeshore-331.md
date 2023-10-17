@@ -5,6 +5,7 @@ description: The Model 331 cryogenic temperature controller combines the easy op
 keywords: [temperature controllers, Lakeshore, PyMeasure]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-331
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395444/Instruments/Temperature%20Controllers/Lakeshore-331/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

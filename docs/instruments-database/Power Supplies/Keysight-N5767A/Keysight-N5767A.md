@@ -5,6 +5,7 @@ description: The single output, 1500 W N5767A, provides universal AC input, GPIB
 keywords: [power supplies, Keysight, PyMeasure]
 slug: /instruments-database/power-supplies/keysight/keysight-n5767a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

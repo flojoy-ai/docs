@@ -5,6 +5,7 @@ description: The 2750 offers a cost-effective, high performance, affordable alte
 keywords: [multimeters, Keithley, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2750
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

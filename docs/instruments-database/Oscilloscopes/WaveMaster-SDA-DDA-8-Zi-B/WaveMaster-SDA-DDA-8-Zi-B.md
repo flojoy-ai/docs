@@ -5,6 +5,7 @@ description: The WaveMaster 8 Zi-B combines the performance, signal fidelity and
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavemaster-sda-dda-8-zi-b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719256/Instruments/Oscilloscopes/WaveMaster-SDA-DDA-8-Zi-B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

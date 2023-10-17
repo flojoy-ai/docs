@@ -5,6 +5,7 @@ description: The 771 Series Laser Spectrum Analyzer combines proven Michelson in
 keywords: [spectrum analyzers, Bristol, Instrumental]
 slug: /instruments-database/spectrum-analyzers/bristol/bristol-771
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

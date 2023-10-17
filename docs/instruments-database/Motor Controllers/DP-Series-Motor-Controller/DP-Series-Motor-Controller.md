@@ -5,6 +5,7 @@ description: Anaheim Automation manufactures a variety of Stepper Motor Driver P
 keywords: [motor controllers, Anaheim Automation, PyMeasure]
 slug: /instruments-database/motor-controllers/anaheim-automation/dp-series-motor-controller
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

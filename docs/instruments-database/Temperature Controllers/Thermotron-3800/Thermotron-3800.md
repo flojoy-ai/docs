@@ -5,6 +5,7 @@ description: The 3800 is a microprocessor-based programmer and controller. The p
 keywords: [temperature controllers, Thermotron, PyMeasure]
 slug: /instruments-database/temperature-controllers/thermotron/thermotron-3800
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The ESP301-3N 3 Axis Motion Controller and Driver is the successor 
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/newportesp-301
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394031/Instruments/Motor%20Controllers/Newportesp-301/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

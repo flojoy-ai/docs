@@ -5,6 +5,7 @@ description: The HP 3478A 5.5 digit DMM with HP-IB interface
 keywords: [multimeters, HP, PyMeasure]
 slug: /instruments-database/multimeters/hp/keysight-3478a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

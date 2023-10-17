@@ -5,6 +5,7 @@ description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal an
 keywords: [temperature controllers, Quantum Design, QCodes]
 slug: /instruments-database/temperature-controllers/quantum-design/PPMS-dynacool
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395538/Instruments/Temperature%20Controllers/PPMS-Dynacool/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

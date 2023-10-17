@@ -5,6 +5,7 @@ description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal an
 keywords: [spectrometers, Quantum Design, QCodes]
 slug: /instruments-database/spectrometers/quantum-design/PPMS-dynacool
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

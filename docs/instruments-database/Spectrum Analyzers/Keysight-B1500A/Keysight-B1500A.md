@@ -5,6 +5,7 @@ description: It provides a wide range of measurement capabilities to cover the e
 keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/keysight/keysight-b1500a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815186/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

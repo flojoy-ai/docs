@@ -5,6 +5,7 @@ description: The Keithley 195A Digital Multimeter is a fully programmable instru
 keywords: [multimeters, Keithley, InstrumentKit]
 slug: /instruments-database/multimeters/keithley/keithley-195
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

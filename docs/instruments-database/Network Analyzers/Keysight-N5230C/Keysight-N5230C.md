@@ -5,6 +5,7 @@ description: The Keysight N5230C PNA-L is a microwave network analyzer made to t
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-n5230c
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5230C/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

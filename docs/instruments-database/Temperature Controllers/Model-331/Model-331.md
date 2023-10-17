@@ -5,6 +5,7 @@ description: The Model 331 cryogenic temperature controller combines the easy op
 keywords: [temperature controllers, Lakeshore, QCodes Community]
 slug: /instruments-database/temperature-controllers/lakeshore/model-331
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395781/Instruments/Temperature%20Controllers/Model-331/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

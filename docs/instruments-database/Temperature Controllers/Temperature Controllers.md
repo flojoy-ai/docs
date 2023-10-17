@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Temperature Controllers
 sidebar_position: 3
 slug: /instruments-database/temperature-controllers/
+hide_table_of_contents: true
 ---
 
 # Controlling Temperature Controllers in Python

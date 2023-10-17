@@ -5,6 +5,7 @@ description: The Rigol DG1062Z is a two channel Function / Arbitrary Waveform Ge
 keywords: [function generators, Rigol, QCodes]
 slug: /instruments-database/function-generators/rigol/rigol-dg1062z
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395630/Instruments/Function%20Generators/Rigol-DG1062Z/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

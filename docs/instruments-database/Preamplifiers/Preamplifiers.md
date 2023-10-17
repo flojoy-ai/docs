@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Preamplifiers
 sidebar_position: 3
 slug: /instruments-database/preamplifiers/
+hide_table_of_contents: true
 ---
 
 # Controlling Preamplifiers in Python

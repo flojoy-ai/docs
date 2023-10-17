@@ -5,6 +5,7 @@ description: The GS200 is a low voltage/current DC source with high accuracy, hi
 keywords: [power supplies, Yokogawa, QCodes, PyMeasure]
 slug: /instruments-database/power-supplies/yokogawa/yokogawa-gs-200
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395488/Instruments/Power%20Supplies/Yokogawa-GS-200/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

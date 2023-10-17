@@ -5,6 +5,7 @@ description: he 6½-digit Model 6430 Sub-Femtoamp Remote SourceMeter SMU Instrum
 keywords: [power supplies, Keithley, QCodes Community]
 slug: /instruments-database/power-supplies/keithley/keithley-6430
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638610/Instruments/Power%20Supplies/Keithley-6430/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

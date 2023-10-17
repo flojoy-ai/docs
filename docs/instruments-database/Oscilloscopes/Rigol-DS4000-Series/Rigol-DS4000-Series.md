@@ -5,6 +5,7 @@ description: The Rigol DS4000 series consists of 8 high level Oscilloscopes for 
 keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds4000-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395634/Instruments/Oscilloscopes/Rigol-DS4000-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

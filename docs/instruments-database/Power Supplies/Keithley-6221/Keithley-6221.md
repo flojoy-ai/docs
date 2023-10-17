@@ -5,6 +5,7 @@ description: The 6221 AC and DC Current Source combine ease of use with exceptio
 keywords: [power supplies, Keithley, PyMeasure]
 slug: /instruments-database/power-supplies/keithley/keithley-6221
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719327/Instruments/Power%20Supplies/Keithley-6221/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

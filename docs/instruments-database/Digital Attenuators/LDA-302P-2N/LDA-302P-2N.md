@@ -5,6 +5,7 @@ description: The LDA-302P-2N Lab Brick USB programmable 50 Ohm digital attenuato
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-302p-2n
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395754/Instruments/Digital%20Attenuators/LDA-302P-2N/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

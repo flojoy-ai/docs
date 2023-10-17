@@ -5,6 +5,7 @@ description: The AG-UC2 Agilis™ Controller provides USB computer control for t
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/ag-uc2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

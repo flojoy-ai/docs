@@ -5,6 +5,7 @@ description: The N6705B is a 4-slot mainframe that accepts up to 4 DC Power Modu
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-n6705b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395608/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: E8267C PSG Vector Signal Generator, up to 20 GHz
 keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-e8267c
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.jpng
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

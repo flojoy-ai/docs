@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Pulse Generators
 sidebar_position: 3
 slug: /instruments-database/pulse-generators/
+hide_table_of_contents: true
 ---
 
 # Controlling Pulse Generators in Python

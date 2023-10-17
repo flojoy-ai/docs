@@ -5,6 +5,7 @@ description: The Zurich Instruments HDAWG multi-channel Arbitrary Waveform Gener
 keywords: [rf signal generators, Zurich Instruments, QCodes, QCodes Community]
 slug: /instruments-database/rf-signal-generators/zurich-instruments/hdawg
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395541/Instruments/RF%20Signal%20Generators/HDAWG/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

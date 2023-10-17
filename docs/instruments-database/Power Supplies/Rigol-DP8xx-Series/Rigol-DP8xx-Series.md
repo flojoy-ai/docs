@@ -5,6 +5,7 @@ description: The DP800 Series Power Supplies combine the ability to source, anal
 keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-database/power-supplies/rigol/rigol-dp8xx-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395620/Instruments/Power%20Supplies/Rigol-DP8xx-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

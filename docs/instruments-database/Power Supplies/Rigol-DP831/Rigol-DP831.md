@@ -5,6 +5,7 @@ description: The Rigol DP831 features a relative large (8.9 cm / 3.5") and easy 
 keywords: [power supplies, Rigol, QCodes]
 slug: /instruments-database/power-supplies/rigol/rigol-dp831
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395533/Instruments/Power%20Supplies/Rigol-DP831/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

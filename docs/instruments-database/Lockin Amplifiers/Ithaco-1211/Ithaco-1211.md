@@ -5,6 +5,7 @@ description: The Ithaco 1211 Current Preamplifier measures current with full sca
 keywords: [lockin amplifiers, Ithaco, QCodes]
 slug: /instruments-database/lockin-amplifiers/ithaco/ithaco-1211
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

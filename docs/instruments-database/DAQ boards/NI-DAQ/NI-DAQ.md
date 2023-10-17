@@ -5,6 +5,7 @@ description: Data acquisition (DAQ) is the process of measuring an electrical or
 keywords: [daq boards, National Instruments, QCodes Community]
 slug: /instruments-database/daq-boards/national-instruments/ni-daq
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

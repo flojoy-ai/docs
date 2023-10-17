@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Multimeters
 sidebar_position: 3
 slug: /instruments-database/multimeters/
+hide_table_of_contents: true
 ---
 
 # Controlling Multimeters in Python

@@ -5,6 +5,7 @@ description: The LDA-203B Digital Attenuator is a bidirectional, 50 Ohm step att
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-203b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692719003/Instruments/Digital%20Attenuators/LDA-203B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

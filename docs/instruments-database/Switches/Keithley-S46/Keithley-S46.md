@@ -5,6 +5,7 @@ description: S46 Microwave Switch Systems are designed to simplify the automated
 keywords: [switches, Keithley, QCodes]
 slug: /instruments-database/switches/keithley/keithley-s46
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Switches/Keithley-S46/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

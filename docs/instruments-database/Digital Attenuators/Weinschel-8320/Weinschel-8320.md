@@ -5,6 +5,7 @@ description: Spectrum Control's Weinschel brand Model 8320 Series Multi-channel 
 keywords: [digital attenuators, Weinschel, QCodes]
 slug: /instruments-database/digital-attenuators/weinschel/weinschel-8320
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395699/Instruments/Digital%20Attenuators/Weinschel-8320/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

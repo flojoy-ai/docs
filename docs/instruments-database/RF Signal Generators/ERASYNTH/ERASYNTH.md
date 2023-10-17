@@ -7,6 +7,7 @@ description: ERASynth removes the cost barriers and makes quality RF signal synt
 keywords: [rf signal generators, Erainstruments, QCodes Community]
 slug: /instruments-database/rf-signal-generators/erainstruments/erasynth
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

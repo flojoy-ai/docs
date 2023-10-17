@@ -5,6 +5,7 @@ description: The N6705B is a 4-slot mainframe that accepts up to 4 DC Power Modu
 keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-database/power-supplies/keysight/keysight-n6705b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395605/Instruments/Power%20Supplies/Keysight-N6705B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Model 370 AC resistance bridge is designed for precise, accurat
 keywords: [power meters, Lakeshore, InstrumentKit]
 slug: /instruments-database/power-meters/lakeshore/lakeshore-370
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394012/Instruments/Power%20Meters/Lakeshore-370/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

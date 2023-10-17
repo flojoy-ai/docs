@@ -5,6 +5,7 @@ description: The Keysight 33622A function/arbitrary waveform generators offer th
 keywords: [function generators, Keysight, QCodes]
 slug: /instruments-database/function-generators/keysight/keysight-33622a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

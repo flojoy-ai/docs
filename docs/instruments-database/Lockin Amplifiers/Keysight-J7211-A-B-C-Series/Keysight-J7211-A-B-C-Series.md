@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [lockin amplifiers, Keysight, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Zurich Instruments UHFLI is a digital lock-in amplifier that co
 keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/uhfli
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395696/Instruments/Lockin%20Amplifiers/UHFLI/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

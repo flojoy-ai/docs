@@ -5,6 +5,7 @@ description: Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled 
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-database/cameras/thorlabs/cc126mu
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

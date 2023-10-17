@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Power Supplies
 sidebar_position: 3
 slug: /instruments-database/power-supplies/
+hide_table_of_contents: true
 ---
 
 # Controlling Power Supplies in Python

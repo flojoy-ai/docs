@@ -5,6 +5,7 @@ description: Orbit 3 is a wireless sensor for ambient temperature and humidity m
 keywords: [temperature sensors, Orbit3, PyTango]
 slug: /instruments-database/temperature-sensors/orbit3/orbit-3-sensor
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639362/Instruments/Temperature%20Sensors/Orbit-3-Sensor/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

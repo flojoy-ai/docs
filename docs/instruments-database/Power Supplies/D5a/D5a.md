@@ -5,6 +5,7 @@ description: The D5a module contains 16 18-bit DACs (Digital to Analog Converter
 keywords: [power supplies, Qutech, QCodes Community]
 slug: /instruments-database/power-supplies/qutech/d5a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395712/Instruments/Power%20Supplies/D5a/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

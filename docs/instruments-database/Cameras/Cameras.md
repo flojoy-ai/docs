@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Cameras
 sidebar_position: 3
 slug: /instruments-database/cameras/
+hide_table_of_contents: true
 ---
 
 # Controlling Cameras in Python

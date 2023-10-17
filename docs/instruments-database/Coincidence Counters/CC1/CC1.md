@@ -5,6 +5,7 @@ description: Qubitekk’s 2-channel Coincidence Counter provides researchers wit
 keywords: [coincidence counters, Qubitekk, InstrumentKit]
 slug: /instruments-database/coincidence-counters/qubitekk/cc1
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692718982/Instruments/Coincidence%20Counters/CC1/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

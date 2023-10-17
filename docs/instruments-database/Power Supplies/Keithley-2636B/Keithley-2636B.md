@@ -5,6 +5,7 @@ description: The 2636B from Keithley is a 2600B series dual channel system Sourc
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2636b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639150/Instruments/Power%20Supplies/Keithley-2636B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

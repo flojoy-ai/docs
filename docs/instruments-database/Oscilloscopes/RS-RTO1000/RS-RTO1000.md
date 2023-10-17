@@ -5,6 +5,7 @@ description: With an acquisition memory of 400 Mpts per channel simultaneously f
 keywords: [oscilloscopes, Rohdes&Schwarz, QCodes]
 slug: /instruments-database/oscilloscopes/rohdes-schwarz/rs-rto1000
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719241/Instruments/Oscilloscopes/RS-RTO1000/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

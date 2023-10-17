@@ -5,6 +5,7 @@ description: The new Keysight N7776C top line tunable laser source is designed t
 keywords: [lasers, Keysight, PyMeasure]
 slug: /instruments-database/lasers/keysight/keysight-n7776c
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

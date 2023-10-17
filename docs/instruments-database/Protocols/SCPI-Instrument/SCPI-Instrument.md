@@ -5,6 +5,7 @@ description: All SCPI Instrument
 keywords: [protocols, Generic SCPI, InstrumentKit]
 slug: /instruments-database/protocols/generic-scpi/SCPI-instrument
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639436/Instruments/Protocols/SCPI-Instrument/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

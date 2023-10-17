@@ -5,6 +5,7 @@ description: The RP100 is a two channel, sink-source power supplydesigned to dri
 keywords: [power supplies, Razorbill, PyMeasure]
 slug: /instruments-database/power-supplies/razorbill/razorbill-rp100
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

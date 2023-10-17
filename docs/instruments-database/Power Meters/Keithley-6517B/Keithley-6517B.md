@@ -5,6 +5,7 @@ description: 6517B Electrometer/High Resistance Meter is capable of measuring th
 keywords: [power meters, Keithley, PyMeasure]
 slug: /instruments-database/power-meters/keithley/keithley-6517b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395438/Instruments/Power%20Meters/Keithley-6517B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

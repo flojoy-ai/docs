@@ -5,6 +5,7 @@ description: The LabMaster 10 Zi is the world's highest-performance modular osci
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/labmaster-10-zi-a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394019/Instruments/Oscilloscopes/LabMaster-10-Zi-A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

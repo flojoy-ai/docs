@@ -5,6 +5,7 @@ description: IP9258 is a web controller which can be easily used in the industry
 keywords: [power supplies, Aviosys, QCodes Community]
 slug: /instruments-database/power-supplies/aviosys/ip-power-9258-s
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395731/Instruments/Power%20Supplies/IP-Power-9258-S/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

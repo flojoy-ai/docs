@@ -7,6 +7,7 @@ description: With a modern and intuitive user interface, you gain direct control
 keywords: [temperature controllers, Bluefors, QCodes Community]
 slug: /instruments-database/temperature-controllers/bluefors/bluefors-temperature-controller
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

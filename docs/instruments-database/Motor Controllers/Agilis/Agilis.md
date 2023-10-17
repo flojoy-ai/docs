@@ -5,6 +5,7 @@ description: Agilis™ Piezo Motion Controllers provide convenient and compact f
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/agilis
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393991/Instruments/Motor%20Controllers/Agilis/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

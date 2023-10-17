@@ -5,6 +5,7 @@ description: Deep-Well Compact Bath, –45 °C to 150 °C
 keywords: [temperature controllers, Fluke, PyMeasure]
 slug: /instruments-database/temperature-controllers/fluke/fluke-7341
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The original and popular QDAC from QDevil is a high-precision low-n
 keywords: [digital analog converters, Qdevil, QCodes]
 slug: /instruments-database/digital-analog-converters/qdevil/qdac
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395623/Instruments/Digital-Analog%20Converters/QDAC/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

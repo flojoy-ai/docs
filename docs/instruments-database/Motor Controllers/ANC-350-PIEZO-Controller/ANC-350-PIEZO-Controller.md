@@ -5,6 +5,7 @@ description: multi-functional piezo controller for closed loop positioners
 keywords: [motor controllers, Attocube, QCodes Community]
 slug: /instruments-database/motor-controllers/attocube/anc-350-piezo-controller
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692638997/Instruments/Motor%20Controllers/ANC-350-PIEZO-Controller/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The PicoHarp 300 is a high-end, easy to use, plug and play Time-Cor
 keywords: [photon counting systems, Picoquant, PyTango]
 slug: /instruments-database/photon-counting-systems/picoquant/picoharp-300
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

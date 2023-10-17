@@ -5,6 +5,7 @@ description: The Zurich Instruments HF2LI is a digital lock-in amplifier coverin
 keywords: [lockin amplifiers, Zurich Instruments, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/hf2li
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395721/Instruments/Lockin%20Amplifiers/HF2LI/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

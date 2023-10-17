@@ -5,6 +5,7 @@ description: The AG-UC8 Agilis™ Controller provides USB computer control of up
 keywords: [motor controllers, Newport, QCodes Community]
 slug: /instruments-database/motor-controllers/newport/ag-uc-8
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC-8/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

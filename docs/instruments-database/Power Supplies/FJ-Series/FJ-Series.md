@@ -5,6 +5,7 @@ description: FJ Series - 120W regulated high voltage AC-DC power supplies with o
 keywords: [power supplies, Glassman, InstrumentKit]
 slug: /instruments-database/power-supplies/glassman/fj-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395117/Instruments/Power%20Supplies/FJ-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The AH 2500A offers unparalleled stability, resolution and accuracy
 keywords: [multimeters, Andeen Hagerling, PyMeasure]
 slug: /instruments-database/multimeters/andeen-hagerling/2500a-bridge
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386181/Instruments/Multimeters/2500A-Bridge/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

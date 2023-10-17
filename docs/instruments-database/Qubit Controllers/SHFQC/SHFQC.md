@@ -5,6 +5,7 @@ description: The SHFQC Qubit Controller can control, read out and provide fast f
 keywords: [qubit controllers, Zurich Instruments, QCodes]
 slug: /instruments-database/qubit-controllers/zurich-instruments/shfqc
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

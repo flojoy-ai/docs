@@ -5,6 +5,7 @@ description: An ohmmeter is an electrical instrument that measures electrical re
 keywords: [iv converters, Qutech, QCodes Community]
 slug: /instruments-database/iv-converters/qutech/ivvi
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

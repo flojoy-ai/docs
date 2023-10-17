@@ -5,6 +5,7 @@ description: The Andeen-Hagerling AH 2700A offers unparalleled stability, resolu
 keywords: [multimeters, Andeen Hagerling, PyMeasure]
 slug: /instruments-database/multimeters/andeen-hagerling/2700a-bridge
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692386182/Instruments/Multimeters/2700A-Bridge/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Keithley 2602A SourceMeter is used as either a bench-top I-V ch
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2602a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

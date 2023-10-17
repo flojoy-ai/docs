@@ -5,6 +5,7 @@ description: The 33512B provides Keysight’s exclusive Trueform technology whic
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33512b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395572/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The 34411A offers Temperature and Capacitance capabilities, in addi
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-34460a-submodules
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

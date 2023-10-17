@@ -5,6 +5,7 @@ description: The Keysight 34980A Multifunction Switch/Measure unit is designed f
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-34980a-submodules
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

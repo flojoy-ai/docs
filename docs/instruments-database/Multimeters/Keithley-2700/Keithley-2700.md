@@ -5,6 +5,7 @@ description: The Model 2750 offers extended low ohms measurement capability and 
 keywords: [multimeters, Keithley, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2700
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395433/Instruments/Multimeters/Keithley-2700/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

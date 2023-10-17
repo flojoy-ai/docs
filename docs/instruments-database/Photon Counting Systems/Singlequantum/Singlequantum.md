@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [photon counting systems, Singlequantum, QCodes Community]
 slug: /instruments-database/photon-counting-systems/singlequantum/singlequantum
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

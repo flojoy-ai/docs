@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: RF Signal Generators
 sidebar_position: 3
 slug: /instruments-database/rf-signal-generators/
+hide_table_of_contents: true
 ---
 
 # Controlling RF Signal Generators in Python

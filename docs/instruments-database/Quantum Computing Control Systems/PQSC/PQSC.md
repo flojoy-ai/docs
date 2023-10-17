@@ -5,6 +5,7 @@ description: The Zurich Instruments PQSC Programmable Quantum System Controller 
 keywords: [quantum computing control systems, Zurich Instruments, QCodes]
 slug: /instruments-database/quantum-computing-control-systems/zurich-instruments/pqsc
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/Quantum%20Computing%20Control%20Systems/PQSC/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

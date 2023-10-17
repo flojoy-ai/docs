@@ -5,6 +5,7 @@ description: The Kinetix sCMOS delivers the highest speed and largest field of v
 keywords: [cameras, Pvcam, Instrumental]
 slug: /instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

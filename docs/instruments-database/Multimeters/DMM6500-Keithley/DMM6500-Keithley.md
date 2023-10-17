@@ -5,6 +5,7 @@ description: 6½ digit bench/system digital multimeter with large 5" (12.7cm) mu
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/DMM6500-keithley
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395564/Instruments/Multimeters/DMM6500-Keithley/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -3,6 +3,7 @@ hide_table_of_contents: true
 sidebar_label: Temperature Sensors
 sidebar_position: 3
 slug: /instruments-database/temperature-sensors/
+hide_table_of_contents: true
 ---
 
 # Controlling Temperature Sensors in Python

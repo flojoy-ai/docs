@@ -5,6 +5,7 @@ description: Handheld single-axis digital magnetometer gauss / tesla meter for m
 keywords: [multimeters, F.W. Bell, PyMeasure]
 slug: /instruments-database/multimeters/fw-bell/fw-bell-5280
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

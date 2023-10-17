@@ -5,6 +5,7 @@ description: The E4980A precision LCR meter provides the best combination of acc
 keywords: [multimeters, Keysight, QCodes, PyMeasure]
 slug: /instruments-database/multimeters/keysight/keysight-e4980a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

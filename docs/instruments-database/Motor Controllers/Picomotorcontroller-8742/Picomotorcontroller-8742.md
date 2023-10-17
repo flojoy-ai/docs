@@ -5,6 +5,7 @@ description: The model 8742 is a 4-axis open-loop intelligent motion controller/
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/picomotorcontroller-8742
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394035/Instruments/Motor%20Controllers/Picomotorcontroller-8742/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

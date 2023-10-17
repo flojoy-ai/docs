@@ -5,6 +5,7 @@ description: Touchscreen display device for power & energy measurement. Single-c
 keywords: [screen displays, Gentec Eo, QCodes Community]
 slug: /instruments-database/screen-displays/gentec-eo/gentec-EO-maestro
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395720/Instruments/Screen%20Displays/Gentec-EO-Maestro/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers
 keywords: [network analyzers, Coppermountain, QCodes Community]
 slug: /instruments-database/network-analyzers/coppermountain/m5180-2-port-18-ghz-analyzer
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395776/Instruments/Network%20Analyzers/M5180-2-Port-18-GHz-Analyzer/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

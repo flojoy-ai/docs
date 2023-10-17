@@ -5,6 +5,7 @@ description: The Zurich Instruments SHFSG Signal Generator produces qubit contro
 keywords: [rf signal generators, Zurich Instruments, QCodes]
 slug: /instruments-database/rf-signal-generators/zurich-instruments/shfsg
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395679/Instruments/RF%20Signal%20Generators/SHFSG/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

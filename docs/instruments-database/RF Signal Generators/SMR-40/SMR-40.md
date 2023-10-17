@@ -5,6 +5,7 @@ description: The R&S SMR40 Signal Generator is designed as CW generator with pul
 keywords: [rf signal generators, Rohdes&Schwarz, QCodes Community]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/smr-40
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

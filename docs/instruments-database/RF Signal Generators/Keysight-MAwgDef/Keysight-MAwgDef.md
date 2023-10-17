@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-mawgdef
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

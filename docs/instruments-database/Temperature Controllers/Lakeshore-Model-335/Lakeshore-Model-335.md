@@ -5,6 +5,7 @@ description: The Model 335 supports the industry's most advanced line of cryogen
 keywords: [temperature controllers, Lakeshore, QCodes]
 slug: /instruments-database/temperature-controllers/lakeshore/lakeshore-model-335
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395612/Instruments/Temperature%20Controllers/Lakeshore-Model-335/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

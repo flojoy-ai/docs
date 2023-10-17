@@ -5,6 +5,7 @@ description: Flexible probe configurations to suit your application.Several sens
 keywords: [power meters, Lakeshore, PyMeasure]
 slug: /instruments-database/power-meters/lakeshore/lakeshore-421
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395445/Instruments/Power%20Meters/Lakeshore-421/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

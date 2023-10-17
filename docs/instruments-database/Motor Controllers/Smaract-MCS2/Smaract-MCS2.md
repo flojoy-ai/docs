@@ -5,6 +5,7 @@ description: The MCS2 is SmarAct’s most versatile and modular control system.I
 keywords: [motor controllers, Smaract, Instrumental]
 slug: /instruments-database/motor-controllers/smaract/smaract-mcs2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639545/Instruments/Motor%20Controllers/Smaract-MCS2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

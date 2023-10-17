@@ -5,6 +5,7 @@ description: The Keithley 580 Micro-ohmmeter combines high accuracy, resolution,
 keywords: [power meters, Keithley, InstrumentKit]
 slug: /instruments-database/power-meters/keithley/keithley-580
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394005/Instruments/Power%20Meters/Keithley-580/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

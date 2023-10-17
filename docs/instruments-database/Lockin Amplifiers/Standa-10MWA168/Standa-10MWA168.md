@@ -5,6 +5,7 @@ description: Motorized Variable Two Wheels Attenuators 10MWA168 consists of two 
 keywords: [lockin amplifiers, Standa, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/standa/standa-10mwa168
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: Incorporates all of the powerful features of the Gemini GV digital 
 keywords: [motor controllers, Parker, PyMeasure]
 slug: /instruments-database/motor-controllers/parker/gemini-gv6
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The LDA-906V Digital Attenuator is a highly accurate, bidirectional
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-906v
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395770/Instruments/Digital%20Attenuators/LDA-906V/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

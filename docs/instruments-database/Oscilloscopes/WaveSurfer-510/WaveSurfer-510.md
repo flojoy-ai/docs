@@ -5,6 +5,7 @@ description: The WaveSurfer 510 combines the MAUI with OneTouch user interface w
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavesurfer-510
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639580/Instruments/Oscilloscopes/WaveSurfer-510/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

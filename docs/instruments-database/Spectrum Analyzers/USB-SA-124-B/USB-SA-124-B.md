@@ -5,6 +5,7 @@ description: The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) opt
 keywords: [spectrum analyzers, Signal Hound, QCodes]
 slug: /instruments-database/spectrum-analyzers/signal-hound/usb-sa-124-b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

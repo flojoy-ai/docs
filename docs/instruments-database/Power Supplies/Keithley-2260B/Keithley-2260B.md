@@ -5,6 +5,7 @@ description: Source a wide range of voltages and currents with the 360W, 720W, o
 keywords: [power supplies, Keithley, PyMeasure]
 slug: /instruments-database/power-supplies/keithley/keithley-2260b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395427/Instruments/Power%20Supplies/Keithley-2260B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

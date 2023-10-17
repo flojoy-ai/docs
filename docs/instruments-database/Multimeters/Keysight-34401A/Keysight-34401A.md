@@ -5,6 +5,7 @@ description: The Keysight Technologies, Inc. 34401A multimeter gives you the per
 keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-database/multimeters/agilent/keysight-34401a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

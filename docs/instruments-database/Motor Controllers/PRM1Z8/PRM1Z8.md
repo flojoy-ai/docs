@@ -5,6 +5,7 @@ description: The PRM1Z8 is a small, compact, DC servo motorized 360° rotation m
 keywords: [motor controllers, Thorlabs, QCodes Community]
 slug: /instruments-database/motor-controllers/thorlabs/prm1z8
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

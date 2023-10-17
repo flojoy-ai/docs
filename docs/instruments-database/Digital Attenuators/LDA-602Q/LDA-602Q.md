@@ -5,6 +5,7 @@ description: The LDA-602Q Lab Brick USB programmable 50 Ohm high resolution digi
 keywords: [digital attenuators, Vaunix, QCodes Community]
 slug: /instruments-database/digital-attenuators/vaunix/lda-602q
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395763/Instruments/Digital%20Attenuators/LDA-602Q/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

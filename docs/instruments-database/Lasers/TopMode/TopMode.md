@@ -5,6 +5,7 @@ description: TOPTICA’s TopMode lasers operate as easily as a HeNe, but also of
 keywords: [lasers, Toptica, InstrumentKit]
 slug: /instruments-database/lasers/toptica/topmode
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

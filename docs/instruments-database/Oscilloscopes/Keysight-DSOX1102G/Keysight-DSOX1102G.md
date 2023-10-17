@@ -5,6 +5,7 @@ description: The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 a
 keywords: [oscilloscopes, Keysight, PyMeasure]
 slug: /instruments-database/oscilloscopes/keysight/keysight-dsox1102g
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The Keithley 6517A 5 1/2 digit Electrometer / High Resistance Meter
 keywords: [power meters, Keithley, PyMeasure]
 slug: /instruments-database/power-meters/keithley/keithley-6517a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395437/Instruments/Power%20Meters/Keithley-6517A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

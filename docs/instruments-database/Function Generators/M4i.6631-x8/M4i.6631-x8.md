@@ -5,6 +5,7 @@ description: The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver 
 keywords: [function generators, Spectrum, QCodes Community]
 slug: /instruments-database/function-generators/spectrum/m4i6631-x8
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395778/Instruments/Function%20Generators/M4i.6631-x8/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

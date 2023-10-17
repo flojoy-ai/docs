@@ -5,6 +5,7 @@ description: The Keysight 34934A module for the 34980A Multifunction Switch/Meas
 keywords: [daq boards, Keysight, QCodes]
 slug: /instruments-database/daq-boards/keysight/keysight-34934a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

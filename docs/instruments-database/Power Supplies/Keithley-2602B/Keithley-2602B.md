@@ -5,6 +5,7 @@ description: The 2602B from Keithley is a 2600B series dual channel system Sourc
 keywords: [power supplies, Keithley, QCodes]
 slug: /instruments-database/power-supplies/keithley/keithley-2602b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395555/Instruments/Power%20Supplies/Keithley-2602B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

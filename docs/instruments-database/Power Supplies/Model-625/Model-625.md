@@ -5,6 +5,7 @@ description: The Model 625 superconducting magnet power supply is the ideal supp
 keywords: [power supplies, Lakeshore, QCodes Community]
 slug: /instruments-database/power-supplies/lakeshore/model-625
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

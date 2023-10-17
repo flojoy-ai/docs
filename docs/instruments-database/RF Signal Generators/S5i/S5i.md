@@ -5,6 +5,7 @@ description: The S5i module is a RF source ranging from 40 MHz to 4 GHz, initial
 keywords: [rf signal generators, Qutech, QCodes Community]
 slug: /instruments-database/rf-signal-generators/qutech/s5i
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395794/Instruments/RF%20Signal%20Generators/S5i/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

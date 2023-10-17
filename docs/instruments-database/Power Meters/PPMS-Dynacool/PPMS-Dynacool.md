@@ -5,6 +5,7 @@ description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal an
 keywords: [power meters, Quantum Design, QCodes]
 slug: /instruments-database/power-meters/quantum-design/PPMS-dynacool
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395539/Instruments/Power%20Meters/PPMS-Dynacool/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';

@@ -5,6 +5,7 @@ description: The original and popular QDAC from QDevil is a high-precision low-n
 keywords: [power supplies, Qdevil, QCodes]
 slug: /instruments-database/power-supplies/qdevil/qdac
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395621/Instruments/Power%20Supplies/QDAC/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
