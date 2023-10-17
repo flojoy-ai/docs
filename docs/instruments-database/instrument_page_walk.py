@@ -1,4 +1,4 @@
-import json, os
+import os, traceback
 
 # Usage:
 # Run this convenience script on the command line to update flat_docstring_lookup.json
@@ -28,7 +28,7 @@ for path in page_paths:
         s = ''
         with open(path, 'r') as f:
             s = f.read()
-
+            print('PAGE:', path)            
             # Hide sidebar
 
             if 'hide_table_of_contents: true' not in s:
@@ -36,12 +36,19 @@ for path in page_paths:
 
             # isolate instrument category and mnfr
 
-            category = path.split('/')[1].upper().replace(' ', '_').replace('-', '_')
-            mnfr = s.split(' by ')[1].split(' ')[0].strip().upper()
+            try:
+                category = path.split('/')[1].upper().replace(' ', '_').replace('-', '_')
+                mnfr = s.split(' by ')[1].split(' ')[0].strip().upper()
+            except:
+                print(path)
+                print(traceback.format_exc())
+                mnfr = 'UNKNOWN'
 
-            # insert manufacturuer name explicity
+            print(category, '>>>>>>>>>>>>>>>', mnfr)
 
-            s.replace('Manufacturer Card', 'Manufacturer card: ' + mnfr)
+            # insert manufactuer name explicity
+
+            s.replace('Manufacturer Card', 'Manufacturer card: ' + mnfr)            
 
             # Insert video component
 
