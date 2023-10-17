@@ -55,6 +55,9 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 ## Connect to the ATS9440-14 bit 125 MS-s 4 ch in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
