@@ -5,6 +5,7 @@ description: The R. STAHL Series 8510 power supply provides a constant power sup
 keywords: [power supplies, Stahl]
 slug: /instruments-database/power-supplies/stahl/power-supply-series-8510
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395680/Instruments/Power%20Supplies/Power-Supply-Series-8510/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The R. STAHL Series 8510 power supply provides a constant power supply for contr
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: STAHL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692373400/Instruments/Vendor%20Logos/Stahl.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -45,6 +46,11 @@ R. Stahl **AG** is a listed provider of products, systems and services for [
   <li>Vendor Website: <a href="https://r-stahl.com/en/global/home/">here</a></li>
 </ul>
 </details>
+
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='STAHL'></FeaturedInstrumentVideo>
+
 
 ## Connect to the Power Supply Series 8510 in Python
 

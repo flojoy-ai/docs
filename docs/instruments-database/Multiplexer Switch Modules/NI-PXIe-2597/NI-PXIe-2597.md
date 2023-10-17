@@ -5,6 +5,7 @@ description: 26.5 GHz, 50 Ω, 6x1 (SP6T) Terminated PXI RF Multiplexer Switch M
 keywords: [multiplexer switch modules, National Instruments, QCodes Community]
 slug: /instruments-database/multiplexer-switch-modules/national-instruments/ni-pxie-2597
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692639357/Instruments/Multiplexer%20Switch%20Modules/NI-PXIe-2597/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ import TabItem from '@theme/TabItem';
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: NATIONAL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806169/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ A producer of automated test equipment and virtual instrumentation software. Com
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIPLEXER_SWITCH_MODULES' manufacturer='NATIONAL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the NI PXIe-2597 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIPLEXER_SWITCH_MODULES' manufacturer='NATIONAL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a NI PXIe-2597 Multiplexer Switch Module using Qcodes Community, you can use the following Python script:

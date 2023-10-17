@@ -5,6 +5,7 @@ description: The 7651 is a general-purpose DC source developed on YOKOGAWA's sta
 keywords: [power supplies, Yokogawa, InstrumentKit, PyMeasure]
 slug: /instruments-database/power-supplies/yokogawa/yokogawa-7651
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395121/Instruments/Power%20Supplies/Yokogawa-7651/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The 7651 is a general-purpose DC source developed on YOKOGAWA's state-of-the-art
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: YOKOGAWA</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806180/Instruments/Vendor%20Logos/Yokogawa.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Yokogawa is a leading provider of Industrial Automation and Test and Measurement
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='YOKOGAWA'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Yokogawa 7651 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='YOKOGAWA'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Yokogawa 7651 Power Supply using Instrumentkit, you can use the following Python script:

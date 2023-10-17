@@ -5,6 +5,7 @@ description: The 3800 is a microprocessor-based programmer and controller. The p
 keywords: [temperature controllers, Thermotron, PyMeasure]
 slug: /instruments-database/temperature-controllers/thermotron/thermotron-3800
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639563/Instruments/Temperature%20Controllers/Thermotron-3800/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: THERMOTRON</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806140/Instruments/Vendor%20Logos/Thermotron.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The 3800 is a microprocessor-based programmer and controller. The programmer fun
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='TEMPERATURE_CONTROLLERS' manufacturer='THERMOTRON'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Thermotron 3800 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='TEMPERATURE_CONTROLLERS' manufacturer='THERMOTRON'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Qubit Controllers
 sidebar_position: 3
 slug: /instruments-database/qubit-controllers/
+hide_table_of_contents: true
 ---
 
 # Controlling Qubit Controllers in Python

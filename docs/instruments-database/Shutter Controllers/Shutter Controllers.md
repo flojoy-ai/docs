@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Shutter Controllers
 sidebar_position: 3
 slug: /instruments-database/shutter-controllers/
+hide_table_of_contents: true
 ---
 
 # Controlling Shutter Controllers in Python

@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Lasers
 sidebar_position: 3
 slug: /instruments-database/lasers/
+hide_table_of_contents: true
 ---
 
 # Controlling Lasers in Python

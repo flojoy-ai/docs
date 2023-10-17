@@ -5,6 +5,7 @@ description: The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers
 keywords: [network analyzers, Coppermountain, QCodes Community]
 slug: /instruments-database/network-analyzers/coppermountain/m5180-2-port-18-ghz-analyzer
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395776/Instruments/Network%20Analyzers/M5180-2-Port-18-GHz-Analyzer/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: COPPERMOUNTAIN</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806129/Instruments/Vendor%20Logos/Coppermountain.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The M5180 is a 2-port, 18 GHz Vector Network Analyzer that delivers metrology-gr
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='NETWORK_ANALYZERS' manufacturer='COPPERMOUNTAIN'></FeaturedInstrumentVideo>
+
+
 ## Connect to the M5180 2-Port 18 GHz Analyzer in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='NETWORK_ANALYZERS' manufacturer='COPPERMOUNTAIN'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 ```python

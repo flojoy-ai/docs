@@ -5,6 +5,7 @@ description: The PRM1Z8 is a small, compact, DC servo motorized 360° rotation m
 keywords: [motor controllers, Thorlabs, QCodes Community]
 slug: /instruments-database/motor-controllers/thorlabs/prm1z8
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639385/Instruments/Motor%20Controllers/PRM1Z8/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The PRM1Z8 is a small, compact, DC servo motorized 360° rotation mount and stag
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: THORLABS</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='THORLABS'></FeaturedInstrumentVideo>
+
+
 ## Connect to the PRM1Z8 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='THORLABS'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a PRM1Z8 Motion using Qcodes Community, you can use the following Python script:

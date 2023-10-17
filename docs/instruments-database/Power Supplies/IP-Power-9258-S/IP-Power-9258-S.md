@@ -5,6 +5,7 @@ description: IP9258 is a web controller which can be easily used in the industry
 keywords: [power supplies, Aviosys, QCodes Community]
 slug: /instruments-database/power-supplies/aviosys/ip-power-9258-s
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395731/Instruments/Power%20Supplies/IP-Power-9258-S/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ IP9258 is a web controller which can be easily used in the industry field
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: AVIOSYS</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126000/Instruments/Vendor%20Logos/Aviosys.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ IP9258 is a web controller which can be easily used in the industry field
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='AVIOSYS'></FeaturedInstrumentVideo>
+
+
 ## Connect to the IP Power 9258 S in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='AVIOSYS'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to an Aviosys IP Power 9258S power supply using Qcodes Community, you can use the following Python script:

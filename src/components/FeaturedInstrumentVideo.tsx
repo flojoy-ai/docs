@@ -1,24 +1,29 @@
 import React from 'react';
 
 type FeaturedInstrumentVideoProps = {
-  videoID: string;
+  category: string;
+  manufacturer: string;
 };
 
-export default function FeaturedInstrumentVideo({ videoID }: FeaturedInstrumentVideoProps) {
+export default function FeaturedInstrumentVideo({ category, manufacturer }: FeaturedInstrumentVideoProps) {
 
     let VIDEO_URL = "https://www.youtube.com/embed/xvFZjo5PgG0?si=oXQsWInrLBlhAoCB&mute=1";
-    let VIDEO_HERO = "Video not found 😔"
+    let VIDEO_HERO = "NOT FOUND"
 
-    switch (videoID) {
-        case 'TEKTRONIX_OSCILLOSCOPE':
+    switch (category) {
+        case 'OSCILLOSCOPES':
             VIDEO_URL = "https://www.youtube.com/embed/NqPW7pG3NZs?si=P374jJmZNKatbExq";
-            VIDEO_HERO = "Measuring signal width and phase"            
-            break;         
-    }    
+            VIDEO_HERO = "Measure signal width and phase"            
+            break;
+    }
+
+    if (VIDEO_HERO == ''){
+        return (<></>);
+    }
 
     return (
-        <div className = 'mb-20'>
-            <h3>{`${VIDEO_HERO}`}</h3>
+        <div className = 'mb-20 mt-20'>
+            <h2>Demo: {`${VIDEO_HERO}`}</h2>
             <iframe 
                 width="560"
                 height="315"

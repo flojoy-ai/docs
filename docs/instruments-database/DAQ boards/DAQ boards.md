@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: DAQ Boards
 sidebar_position: 3
 slug: /instruments-database/daq-boards/
+hide_table_of_contents: true
 ---
 
 # Controlling DAQ Boards in Python

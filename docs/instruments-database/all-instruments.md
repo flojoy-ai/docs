@@ -5,6 +5,7 @@ title: Scientific Instruments Database for Python
 description: Copy/paste Python examples for connecting to over 400 scientific instruments, sensors, motors, and actuators.
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1694137012/flojoy-docs/Marketing%20Images/flojoy_and_friends_c6x62c.jpg
 keywords: [Python Driver, Agilent, Tektronix, Keysight, DAQ]
+hide_table_of_contents: true
 ---
 
 # 📻 Instruments Database

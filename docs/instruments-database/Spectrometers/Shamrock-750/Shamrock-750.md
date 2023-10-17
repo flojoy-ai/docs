@@ -5,6 +5,7 @@ description: The Andor Shamrock SR-750 is based on Czerny-Turner optical design.
 keywords: [spectrometers, Andor, QCodes Community]
 slug: /instruments-database/spectrometers/andor/shamrock-750
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395803/Instruments/Spectrometers/Shamrock-750/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Andor Shamrock SR-750 is based on Czerny-Turner optical design. The Shamrock
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ANDOR</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806182/Instruments/Vendor%20Logos/Andor.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Leaders In The Development & Manufacture of Cameras, Microscopy and Spectroscopy
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTROMETERS' manufacturer='ANDOR'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Shamrock 750 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTROMETERS' manufacturer='ANDOR'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 Here is a Python script that uses Qcodes Community to connect to a Shamrock 750 Spectrometer:

@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Power Meters
 sidebar_position: 3
 slug: /instruments-database/power-meters/
+hide_table_of_contents: true
 ---
 
 # Controlling Power Meters in Python

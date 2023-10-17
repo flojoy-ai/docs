@@ -5,6 +5,7 @@ description: The Kinetix sCMOS delivers the highest speed and largest field of v
 keywords: [cameras, Pvcam, Instrumental]
 slug: /instruments-database/cameras/pvcam/kinetix-sCMOS-all-cameras
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395146/Instruments/Cameras/Kinetix-sCMOS-all-cameras/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: PVCAM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692812958/Instruments/Vendor%20Logos/Teledyne_technologies.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='CAMERAS' manufacturer='PVCAM'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Kinetix sCMOS all-cameras in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='CAMERAS' manufacturer='PVCAM'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 Unfortunately, the provided code does not include any implementation for connecting to a Kinetix sCMOS camera using Instrumental. The code is specific to Photometrics cameras and the PVCam driver. 

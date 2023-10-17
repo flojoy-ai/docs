@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Digital Attenuators
 sidebar_position: 3
 slug: /instruments-database/digital-attenuators/
+hide_table_of_contents: true
 ---
 
 # Controlling Digital Attenuators in Python

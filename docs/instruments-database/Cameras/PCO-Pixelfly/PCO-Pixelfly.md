@@ -5,6 +5,7 @@ description: The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision c
 keywords: [cameras, PCO, Instrumental]
 slug: /instruments-database/cameras/pco/PCO-pixelfly
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395143/Instruments/Cameras/PCO-Pixelfly/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: PCO</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806161/Instruments/Vendor%20Logos/PCO.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='CAMERAS' manufacturer='PCO'></FeaturedInstrumentVideo>
+
+
 ## Connect to the PCO Pixelfly in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='CAMERAS' manufacturer='PCO'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 To connect to a PCO Pixelfly camera using Instrumental, you can use the following Python script:

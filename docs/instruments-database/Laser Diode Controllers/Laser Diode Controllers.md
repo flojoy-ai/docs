@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Laser Diode Controllers
 sidebar_position: 3
 slug: /instruments-database/laser-diode-controllers/
+hide_table_of_contents: true
 ---
 
 # Controlling Laser Diode Controllers in Python

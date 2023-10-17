@@ -5,6 +5,7 @@ description: Quantum Design's DynaCool™ PPMS® performs electrical, thermal an
 keywords: [spectrometers, Quantum Design, QCodes]
 slug: /instruments-database/spectrometers/quantum-design/PPMS-dynacool
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395537/Instruments/Spectrometers/PPMS-Dynacool/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Quantum Design's DynaCool™ PPMS® performs electrical, thermal and magnetic me
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: QUANTUM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126008/Instruments/Vendor%20Logos/QuantumDesign.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Quantum Design manufactures automated temperature and magnetic field testing pla
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTROMETERS' manufacturer='QUANTUM'></FeaturedInstrumentVideo>
+
+
 ## Connect to the PPMS Dynacool in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTROMETERS' manufacturer='QUANTUM'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 Here is an example Python script that uses Qcodes to connect to a PPMS DynaCool Spectrometer:

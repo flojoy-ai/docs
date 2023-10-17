@@ -5,6 +5,7 @@ description: Handheld single-axis digital magnetometer gauss / tesla meter for m
 keywords: [multimeters, F.W. Bell, PyMeasure]
 slug: /instruments-database/multimeters/fw-bell/fw-bell-5280
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395195/Instruments/Multimeters/F.W.-Bell-5280/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Handheld single-axis digital magnetometer gauss / tesla meter for measuring magn
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: F.W.</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806183/Instruments/Vendor%20Logos/F.W_Bell.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Technology leaders in instrumentation. Designing and manufacturing **F.W. Bell*
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='F.W.'></FeaturedInstrumentVideo>
+
+
 ## Connect to the F.W. Bell 5280 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIMETERS' manufacturer='F.W.'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

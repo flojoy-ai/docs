@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Frequency Synthesizers
 sidebar_position: 3
 slug: /instruments-database/frequency-synthesizers/
+hide_table_of_contents: true
 ---
 
 # Controlling Frequency Synthesizers in Python

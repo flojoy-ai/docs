@@ -7,6 +7,7 @@ description: ERASynth removes the cost barriers and makes quality RF signal synt
 keywords: [rf signal generators, Erainstruments, QCodes Community]
 slug: /instruments-database/rf-signal-generators/erainstruments/erasynth
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395718/Instruments/RF%20Signal%20Generators/ERASYNTH/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -36,7 +37,7 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ERAINSTRUMENTS</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692139600/Instruments/Vendor%20Logos/ERAInstruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,11 +50,25 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='ERAINSTRUMENTS'></FeaturedInstrumentVideo>
+
+
 ## Connect to the ERASYNTH
  in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='ERAINSTRUMENTS'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 

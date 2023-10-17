@@ -5,6 +5,7 @@ description: 4 analog channels, Upgradable to 16 digital channels (requires opti
 keywords: [oscilloscopes, Rigol, QCodes]
 slug: /instruments-database/oscilloscopes/rigol/rigol-ds1074z
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395632/Instruments/Oscilloscopes/Rigol-DS1074Z/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -34,7 +35,7 @@ Built in 2 channel 25MHz waveform generator
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: RIGOL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806170/Instruments/Vendor%20Logos/Rigol.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -48,10 +49,24 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='RIGOL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Rigol DS1074Z in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='OSCILLOSCOPES' manufacturer='RIGOL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a Rigol DS1074Z Oscilloscope:

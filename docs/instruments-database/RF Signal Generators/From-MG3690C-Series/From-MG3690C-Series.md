@@ -5,6 +5,7 @@ description: The MG3690C series of broadband signal generators covers audio, HF,
 keywords: [rf signal generators, Anritsu, PyMeasure]
 slug: /instruments-database/rf-signal-generators/anritsu/from-mg3690c-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395176/Instruments/RF%20Signal%20Generators/From-MG3690C-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ANRITSU</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125977/Instruments/Vendor%20Logos/Anritsu.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='ANRITSU'></FeaturedInstrumentVideo>
+
+
 ## Connect to the From MG3690C Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='ANRITSU'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

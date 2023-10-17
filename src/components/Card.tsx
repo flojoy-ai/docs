@@ -26,7 +26,7 @@ export default function Card({
 
   return (
     <a
-      className="flex flex-col gap-2 rounded-2xl border-4 border-modal p-8 text-black transition duration-300 hover:bg-accent2/10 hover:no-underline dark:text-white"
+      className="flojoy-docs-card flex flex-col gap-2 rounded-2xl border-4 border-modal p-8 text-black transition duration-300 hover:bg-accent2/10 hover:no-underline dark:text-white"
       href={`${cardLink}`}
     >
       <div className={"flex gap-2 font-bold " + tailwindHeaderSize}>

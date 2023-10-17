@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Humidity Sensors
 sidebar_position: 3
 slug: /instruments-database/humidity-sensors/
+hide_table_of_contents: true
 ---
 
 # Controlling Humidity Sensors in Python

@@ -5,6 +5,7 @@ description: The 771 Series Laser Spectrum Analyzer combines proven Michelson in
 keywords: [spectrum analyzers, Bristol, Instrumental]
 slug: /instruments-database/spectrum-analyzers/bristol/bristol-771
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395133/Instruments/Spectrum%20Analyzers/Bristol-771/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: BRISTOL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806185/Instruments/Vendor%20Logos/Bristol_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='BRISTOL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Bristol 771  in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTRUM_ANALYZERS' manufacturer='BRISTOL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 Based on the provided code, it seems that the Bristol 721 Spectrum Analyzer is supported by the Instrumental library. However, there is no specific support for the Bristol 771 Spectrum Analyzer mentioned in the code.

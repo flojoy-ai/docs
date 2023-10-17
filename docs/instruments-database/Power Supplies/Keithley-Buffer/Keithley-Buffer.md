@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [power supplies, Keithley]
 slug: /instruments-database/power-supplies/keithley/keithley-buffer
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692647285/Instruments/Power%20Supplies/Keithley-Buffer/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Currently no description
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEITHLEY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806202/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -45,6 +46,11 @@ Keithley Instruments is a measurement and instrument company headquartered in So
   <li>Vendor Website: <a href="https://www.tek.com/en">here</a></li>
 </ul>
 </details>
+
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='KEITHLEY'></FeaturedInstrumentVideo>
+
 
 ## Connect to the Keithley Buffer in Python
 

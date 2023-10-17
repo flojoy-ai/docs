@@ -5,6 +5,7 @@ description: The R&S FSL series Spectrum Analyzer – are a lightweight and comp
 keywords: [spectrum analyzers, Rohdes&Schwarz, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/rohdes-schwarz/fsl
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395190/Instruments/Spectrum%20Analyzers/FSL/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -35,7 +36,7 @@ These analyzers are ideal for a large number of applications in development, ser
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ROHDES&SCHWARZ</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806194/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -48,10 +49,24 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='ROHDES&SCHWARZ'></FeaturedInstrumentVideo>
+
+
 ## Connect to the FSL in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTRUM_ANALYZERS' manufacturer='ROHDES&SCHWARZ'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 
@@ -87,7 +102,8 @@ class FSL(Instrument):
             adapter, name, includeSCPI=True, **kwargs
         )
 
-    # Frequency settings ------------------------------------------------------
+    # Frequency settings ---------------------------------------------------hide_table_of_contents: true
+---
 
     freq_span = Instrument.control(
         "FREQ:SPAN?",
@@ -134,7 +150,8 @@ class FSL(Instrument):
         set_process=_number_or_auto,
     )
 
-    # Sweeping ----------------------------------------------------------------
+    # Sweeping -------------------------------------------------------------hide_table_of_contents: true
+---
 
     sweep_time = Instrument.control(
         "SWE:TIME?",
@@ -161,7 +178,8 @@ class FSL(Instrument):
         """Continue with single sweep with synchronization."""
         self.write("INIT:CONM; *WAI")
 
-    # Traces ------------------------------------------------------------------
+    # Traces ---------------------------------------------------------------hide_table_of_contents: true
+---
 
     def read_trace(self, n_trace=1):
         """
@@ -182,7 +200,8 @@ class FSL(Instrument):
         values=["WRIT", "MAXH", "MINH", "AVER", "VIEW"],
     )
 
-    # Markers -----------------------------------------------------------------
+    # Markers --------------------------------------------------------------hide_table_of_contents: true
+---
 
     def create_marker(self, num=1, is_delta_marker=False):
         """

@@ -5,6 +5,7 @@ description: The RP100 is a two channel, sink-source power supplydesigned to dri
 keywords: [power supplies, Razorbill, PyMeasure]
 slug: /instruments-database/power-supplies/razorbill/razorbill-rp100
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395447/Instruments/Power%20Supplies/Razorbill-RP100/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -38,7 +39,7 @@ controlled strains and stresses to the material.
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: RAZORBILL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806126/Instruments/Vendor%20Logos/Razorbill_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,10 +52,24 @@ Manufacturer of precision instruments intended for use in fundamental physics an
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='RAZORBILL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Razorbill RP100 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='RAZORBILL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 ```python

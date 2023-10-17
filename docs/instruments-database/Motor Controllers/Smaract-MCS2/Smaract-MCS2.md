@@ -5,6 +5,7 @@ description: The MCS2 is SmarAct’s most versatile and modular control system.I
 keywords: [motor controllers, Smaract, Instrumental]
 slug: /instruments-database/motor-controllers/smaract/smaract-mcs2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639545/Instruments/Motor%20Controllers/Smaract-MCS2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -35,7 +36,7 @@ Its stringent modular design approach makes it the perfect choice for all field 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: SMARACT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806184/Instruments/Vendor%20Logos/SmartAct.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -48,10 +49,24 @@ In our [Motion](https://www.smaract.com/en/motion) business unit, we develop a
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='SMARACT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Smaract-MCS2 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='SMARACT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 To connect to a Smaract-MCS2 Motion using Instrumental, you can use the following Python script:

@@ -5,6 +5,7 @@ description: The PicoHarp 300 is a high-end, easy to use, plug and play Time-Cor
 keywords: [photon counting systems, Picoquant, PyTango]
 slug: /instruments-database/photon-counting-systems/picoquant/picoharp-300
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395497/Instruments/Photon%20Counting%20Systems/PicoHarp-300/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Singl
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: PICOQUANT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125981/Instruments/Vendor%20Logos/PicoQuant.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ The PicoQuant group was founded in 1996 to develop robust, compact, and easy to 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='PHOTON_COUNTING_SYSTEMS' manufacturer='PICOQUANT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the PicoHarp 300 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='PHOTON_COUNTING_SYSTEMS' manufacturer='PICOQUANT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyTango" label="PyTango">
 
 ```python
