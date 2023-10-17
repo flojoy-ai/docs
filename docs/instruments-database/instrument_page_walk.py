@@ -21,7 +21,7 @@ for root, cat, f_names in os.walk(start_here):
         md_path = os.path.join(root, fn)
         page_paths.append(md_path)
 
-print(len(pages))
+print(len(page_paths))
 
 for path in page_paths:
     if 'TDS2000' not in path:
@@ -36,7 +36,7 @@ for path in page_paths:
             # isolate instrument category and mnfr
 
             category = path.split('/')[1].upper().replace(' ', '_').replace('-', '_')
-            mnfr = s.split(' by ')[1].split[' '][0].strip().upper()
+            mnfr = s.split(' by ')[1].split(' ')[0].strip().upper()
 
             # insert manufacturuer name explicity
 
