@@ -26,13 +26,13 @@ print(len(page_paths))
 for path in page_paths:
     if 'TDS2000' not in path:
         s = ''
-        with open(path, 'r') as f:
+        with open(path, 'w+') as f:
             s = f.read()
             print('PAGE:', path)            
             # Hide sidebar
 
             if 'hide_table_of_contents: true' not in s:
-                s.replace('---\n', 'hide_table_of_contents: true\n---\n')
+                s = s.replace('---\n', 'hide_table_of_contents: true\n---\n')
 
             # isolate instrument category and mnfr
 
@@ -48,20 +48,19 @@ for path in page_paths:
 
             # insert manufactuer name explicity
 
-            s.replace('Manufacturer Card', 'Manufacturer card: ' + mnfr)            
+            s = s.replace('Manufacturer Card', 'Manufacturer card: ' + mnfr)            
 
             # Insert video component
 
-            s.replace('</ul>\n</details>\n', '</ul>\n</details>\n\n' + \
+            s = s.replace('</ul>\n</details>\n', '</ul>\n</details>\n\n' + \
                       "import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';\n\n<FeaturedInstrumentVideo category='CAT' manufacturer='MNFR'></FeaturedInstrumentVideo>\n\n".replace('CAT', category).replace('MNFR', mnfr))
 
             # Insert Flojoy tab
 
             tab_item = tab_item.replace('CAT', category).replace('MNFR', mnfr)
 
-            s.replace('<Tabs>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>' + tab_item)
+            s = s.replace('<Tabs>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>' + tab_item)
 
-        with open(path, 'w') as f:
             f.write(s)
 
 
