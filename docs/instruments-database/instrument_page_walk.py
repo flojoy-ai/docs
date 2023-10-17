@@ -25,7 +25,7 @@ print(len(page_paths))
 
 for path in page_paths:
     if 'TDS2000' not in path:
-        with open(path, 'w') as f:
+        with open(path, 'rw') as f:
             s = f.read()
 
             # Hide sidebar
