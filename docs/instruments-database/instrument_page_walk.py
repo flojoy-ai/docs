@@ -24,7 +24,7 @@ for root, cat, f_names in os.walk(start_here):
 print(len(pages))
 
 for path in page_paths:
-    if 'TDS2000' no in path:
+    if 'TDS2000' not in path:
         with open(path) as f:            
             s = f.read()
 
