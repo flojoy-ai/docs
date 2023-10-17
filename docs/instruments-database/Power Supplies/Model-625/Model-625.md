@@ -5,6 +5,7 @@ description: The Model 625 superconducting magnet power supply is the ideal supp
 keywords: [power supplies, Lakeshore, QCodes Community]
 slug: /instruments-database/power-supplies/lakeshore/model-625
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395782/Instruments/Power%20Supplies/Model-625/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Model 625 superconducting magnet power supply is the ideal supply for small 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: LAKESHORE</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692813206/Instruments/Vendor%20Logos/Lakeshore_Cryotronics.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Supporting advanced scientific research, Lake Shore is a leading global innovato
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='LAKESHORE'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Model 625 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='LAKESHORE'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Model 625 Power Supply using Qcodes Community, you can use the following Python script:

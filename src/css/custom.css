@@ -204,3 +204,51 @@
 .theme-doc-breadcrumbs {
   overflow: hidden;
 }
+
+/* New to Flojoy? admonition at the top over every node page */
+
+.universal-admonition {
+  margin-bottom: 2rem !important;
+  padding: 1rem;
+}
+
+.flojoy-docs-card {
+  overflow: hidden;
+  font-size: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .flojoy-docs-card {
+    padding: 10px;
+  }
+}
+
+.flojoy-instrument-tabs {
+  max-height: 1200px;
+  border: 0.5px solid;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: hidden;
+  margin-bottom: 80px;
+  overflow-y: scroll;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
+}

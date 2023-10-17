@@ -5,6 +5,7 @@ description: The Model 3706A system switch with high performance DMM contains si
 keywords: [multimeters, Keithley, QCodes]
 slug: /instruments-database/multimeters/keithley/keithley-3706a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395563/Instruments/Multimeters/Keithley-3706A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Model 3706A system switch with high performance DMM contains six slots for p
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEITHLEY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806202/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='KEITHLEY'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keithley 3706A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIMETERS' manufacturer='KEITHLEY'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to a Keithley 3706A Multimeter using Qcodes, you can use the following Python script:

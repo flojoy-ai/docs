@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [lockin amplifiers, Keysight, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Currently no description
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEYSIGHT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keysight J7211-A-B-C-Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='KEYSIGHT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight J7211/A/B/C-Series Lockin Amplifier using Qcodes, you can use the following Python script:

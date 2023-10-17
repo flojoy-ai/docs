@@ -7,6 +7,7 @@ description: With a modern and intuitive user interface, you gain direct control
 keywords: [temperature controllers, Bluefors, QCodes Community]
 slug: /instruments-database/temperature-controllers/bluefors/bluefors-temperature-controller
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395710/Instruments/Temperature%20Controllers/Bluefors-temperature-controller/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -36,7 +37,7 @@ With a modern and intuitive user interface, you gain direct control and overview
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: BLUEFORS</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806205/Instruments/Vendor%20Logos/Bluefors.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,11 +50,25 @@ With a modern and intuitive user interface, you gain direct control and overview
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='TEMPERATURE_CONTROLLERS' manufacturer='BLUEFORS'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Bluefors temperature controller
  in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='TEMPERATURE_CONTROLLERS' manufacturer='BLUEFORS'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Bluefors temperature controller using Qcodes Community, you can use the following Python script:

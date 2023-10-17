@@ -1,3 +1,8 @@
+---
+title: DC_CURRENT_USB4065
+description: The DC_CURRENT_USB4065 node measures the DC current with a NI USB 4065 multimeter.
+keywords: [python multimeter, python control, digital multimeter, instrument, python, National Instruments, NI, USB 4065, multimeter]
+---
 
 [//]: # (Custom component imports)
 
@@ -17,21 +22,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
 ### DC_CURRENT_USB4065 example
 
 <AppDisplay
     nodeLabel='DC_CURRENT_USB4065'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
@@ -39,8 +44,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 

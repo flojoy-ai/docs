@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Spectrometers
 sidebar_position: 3
 slug: /instruments-database/spectrometers/
+hide_table_of_contents: true
 ---
 
 # Controlling Spectrometers in Python

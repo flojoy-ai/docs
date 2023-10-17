@@ -5,6 +5,7 @@ description: Keysight's M3201A PXIe arbitrary waveform generator offers 4 channe
 keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-m3201a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Keysight's M3201A PXIe arbitrary waveform generator offers 4 channels, on-board 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEYSIGHT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keysight M3201A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Keysight M3201A RF Signal Generator using Qcodes Community, you can use the following Python script:

@@ -1,0 +1,9 @@
+from flojoy import flojoy, Vector, Matrix
+
+
+@flojoy
+def MATRIX_2_VECTOR(default: Matrix) -> Vector:
+    
+    rVector = default.m.flatten()
+
+    return Vector(v=rVector)

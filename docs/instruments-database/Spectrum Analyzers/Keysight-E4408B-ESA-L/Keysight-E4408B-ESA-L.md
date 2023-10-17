@@ -5,6 +5,7 @@ description: E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-e4408b-esa-l
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: AGILENT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keysight E4408B ESA-L in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTRUM_ANALYZERS' manufacturer='AGILENT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 ```python

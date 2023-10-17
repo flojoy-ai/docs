@@ -5,6 +5,7 @@ description: Siglent’s SPD1305X Series Programmable Linear DC Power Supply has
 keywords: [power supplies, Siglent Technologies, PyMeasure]
 slug: /instruments-database/power-supplies/siglent-technologies/spd1305x-power-supply
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395480/Instruments/Power%20Supplies/SPD1305X-Power-Supply/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -35,7 +36,7 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: SIGLENT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126014/Instruments/Vendor%20Logos/Siglent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -48,10 +49,24 @@ Because higher currents supplied through smaller gauge wire or longer distances 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='SIGLENT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the SPD1305X Power Supply in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='SIGLENT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 To connect to a SPD1305X Power Supply using Pymeasure, you can use the following Python script:

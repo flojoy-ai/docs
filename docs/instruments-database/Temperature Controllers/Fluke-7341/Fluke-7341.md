@@ -5,6 +5,7 @@ description: Deep-Well Compact Bath, –45 °C to 150 °C
 keywords: [temperature controllers, Fluke, PyMeasure]
 slug: /instruments-database/temperature-controllers/fluke/fluke-7341
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639081/Instruments/Temperature%20Controllers/Fluke-7341/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: FLUKE</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806166/Instruments/Vendor%20Logos/Fluke.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Deep-Well Compact Bath, –45 °C to 150 °C
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='TEMPERATURE_CONTROLLERS' manufacturer='FLUKE'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Fluke 7341 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='TEMPERATURE_CONTROLLERS' manufacturer='FLUKE'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 ```python

@@ -5,6 +5,7 @@ description: This Class Handles Rohdes And Schwarz Sma Signal Generators. Suppor
 keywords: [rf signal generators, Rohdes&Schwarz, PyTango]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/sma100a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395500/Instruments/RF%20Signal%20Generators/SMA100A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ This Class Handles Rohdes And Schwarz Sma Signal Generators. Supported Model Is:
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ROHDES&SCHWARZ</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806194/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></FeaturedInstrumentVideo>
+
+
 ## Connect to the SMA100A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyTango" label="PyTango">
 
 Here is a Python script that uses Pytango to connect to a SMA100A RF Signal Generator:

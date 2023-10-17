@@ -1,4 +1,10 @@
-<!--Add SEO here-->
+---
+title: SHUFFLE_MATRIX
+description: The SHUFFLE_MATRIX node randomly shuffles a matrix along the chosen axis
+keyword: [Python, Transform, Matrix math, matrix randomized, dot product, shuffle matrix, Data processing, Streamline data analysis, Python data manipulation, Accurate data insights]
+image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/TRANSFORMERS/MATRIX_MANIPULATION/SHUFFLE_MATRIX/examples/EX1/output.jpeg
+---
+
 
 [//]: # (Custom component imports)
 

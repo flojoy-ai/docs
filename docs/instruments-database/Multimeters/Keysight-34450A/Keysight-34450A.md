@@ -5,6 +5,7 @@ description: Turbo charge your production line with the Keysight 34450A 5.5-digi
 keywords: [multimeters, Agilent, PyMeasure]
 slug: /instruments-database/multimeters/agilent/keysight-34450a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: AGILENT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keysight 34450A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIMETERS' manufacturer='AGILENT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

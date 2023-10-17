@@ -5,6 +5,7 @@ description: Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V
 keywords: [power supplies, Aimtti, QCodes]
 slug: /instruments-database/power-supplies/aimtti/pl303qmt-p
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395507/Instruments/Power%20Supplies/PL303QMT-P/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Bench/System Linear Regulated DC Power Supply Triple Ouput, 2 x 30V/3A plus 6V/6
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: AIMTTI</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125963/Instruments/Vendor%20Logos/Aimtti.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ TTi (Thurlby Thandar Instruments) is a leading manufacturer of electronic test a
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='AIMTTI'></FeaturedInstrumentVideo>
+
+
 ## Connect to the PL303QMT-P in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='AIMTTI'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 Here is a Python script that uses Qcodes to connect to a PL303QMT-P Power Supply:

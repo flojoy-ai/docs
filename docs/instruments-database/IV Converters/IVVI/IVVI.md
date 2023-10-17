@@ -5,6 +5,7 @@ description: An ohmmeter is an electrical instrument that measures electrical re
 keywords: [iv converters, Qutech, QCodes Community]
 slug: /instruments-database/iv-converters/qutech/ivvi
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/v1692395733/Instruments/IV%20Converters/IVVI/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ An ohmmeter is an electrical instrument that measures electrical resistance (the
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: QUTECH</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806156/Instruments/Vendor%20Logos/QuTech.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='IV_CONVERTERS' manufacturer='QUTECH'></FeaturedInstrumentVideo>
+
+
 ## Connect to the IVVI in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='IV_CONVERTERS' manufacturer='QUTECH'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 

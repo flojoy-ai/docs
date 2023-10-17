@@ -5,6 +5,7 @@ description: The SHFQC Qubit Controller can control, read out and provide fast f
 keywords: [qubit controllers, Zurich Instruments, QCodes]
 slug: /instruments-database/qubit-controllers/zurich-instruments/shfqc
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395678/Instruments/Qubit%20Controllers/SHFQC/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The SHFQC Qubit Controller can control, read out and provide fast feedback on up
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ZURICH</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806207/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='QUBIT_CONTROLLERS' manufacturer='ZURICH'></FeaturedInstrumentVideo>
+
+
 ## Connect to the SHFQC in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='QUBIT_CONTROLLERS' manufacturer='ZURICH'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to a SHFQC Qubit Controller using Qcodes, you can use the following code:

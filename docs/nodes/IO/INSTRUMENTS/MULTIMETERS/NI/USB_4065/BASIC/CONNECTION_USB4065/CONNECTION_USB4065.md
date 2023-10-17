@@ -1,3 +1,8 @@
+---
+title: CONNECTION_USB4065
+description: The CONNECTION_USB4065 node creates a connection between Flojoy and a NI USB 4065 multimeter.
+keywords: [python multimeter, python control, digital multimeter, instrument, python, National Instruments, NI, USB 4065, multimeter]
+---
 
 [//]: # (Custom component imports)
 
@@ -25,13 +30,15 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
 ### CONNECTION_USB4065 example
 
 <AppDisplay
     nodeLabel='CONNECTION_USB4065'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>

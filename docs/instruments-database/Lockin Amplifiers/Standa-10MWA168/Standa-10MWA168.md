@@ -5,6 +5,7 @@ description: Motorized Variable Two Wheels Attenuators 10MWA168 consists of two 
 keywords: [lockin amplifiers, Standa, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/standa/standa-10mwa168
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395808/Instruments/Lockin%20Amplifiers/Standa-10MWA168/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Motorized Variable Two Wheels Attenuators 10MWA168 consists of two filter wheels
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: STANDA</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806162/Instruments/Vendor%20Logos/Standa.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Standa has it's own industrial base that includes CNC turning, milling, grinding
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='STANDA'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Standa 10MWA168 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='STANDA'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Standa 10MWA168 Lockin Amplifier using Qcodes Community, you can use the following Python script:

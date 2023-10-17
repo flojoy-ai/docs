@@ -5,6 +5,7 @@ description: The Keithley 195A Digital Multimeter is a fully programmable instru
 keywords: [multimeters, Keithley, InstrumentKit]
 slug: /instruments-database/multimeters/keithley/keithley-195
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719171/Instruments/Multimeters/Keithley-195/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Keithley 195A Digital Multimeter is a fully programmable instrument with a 5
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEITHLEY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806202/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='KEITHLEY'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keithley 195 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIMETERS' manufacturer='KEITHLEY'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a Keithley 195 Multimeter using Instrumentkit, you can use the following code:

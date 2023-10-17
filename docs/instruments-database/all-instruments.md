@@ -5,6 +5,7 @@ title: Scientific Instruments Database for Python
 description: Copy/paste Python examples for connecting to over 400 scientific instruments, sensors, motors, and actuators.
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/v1694137012/flojoy-docs/Marketing%20Images/flojoy_and_friends_c6x62c.jpg
 keywords: [Python Driver, Agilent, Tektronix, Keysight, DAQ]
+hide_table_of_contents: true
 ---
 
 # 📻 Instruments Database
@@ -1561,6 +1562,14 @@ An oscilloscope is a type of electronic test instrument that graphically display
     instrument={true}
 >
     MDA8000HD
+</AppThumbnail>
+
+<AppThumbnail 
+    path='oscilloscopes/tektronix/mdo3000'
+    img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395482/Instruments/Oscilloscopes/TDS2000/file.jpg'
+    instrument={true}
+>
+    TDS2000
 </AppThumbnail>
 
 <AppThumbnail 

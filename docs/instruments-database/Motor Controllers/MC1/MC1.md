@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [motor controllers, Qubitekk, InstrumentKit]
 slug: /instruments-database/motor-controllers/qubitekk/mc1
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692741645/Instruments/Motor%20Controllers/MC1/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Currently no description
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: QUBITEKK</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125997/Instruments/Vendor%20Logos/Qubitekk.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Qubitekk provides reliable products for generating, preparing, distributing, det
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='QUBITEKK'></FeaturedInstrumentVideo>
+
+
 ## Connect to the MC1 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='QUBITEKK'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 

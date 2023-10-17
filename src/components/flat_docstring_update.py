@@ -1,4 +1,4 @@
-import json
+import json, os
 
 # Usage:
 # Run this convenience script on the command line to update flat_docstring_lookup.json

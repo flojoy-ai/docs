@@ -5,6 +5,7 @@ description: The M2j module is a low noise amplifier initially designed for use 
 keywords: [lockin amplifiers, Qutech, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/qutech/m2j
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395777/Instruments/Lockin%20Amplifiers/M2j/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The M2j module is a low noise amplifier initially designed for use in reflectome
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: QUTECH</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806156/Instruments/Vendor%20Logos/QuTech.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='QUTECH'></FeaturedInstrumentVideo>
+
+
 ## Connect to the M2j in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='QUTECH'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to an M2j Lockin Amplifier using Qcodes Community, you can use the following Python script:

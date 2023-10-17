@@ -5,6 +5,7 @@ description: The WaveSurfer 3000z has a 10.1" capacitive touch display, the long
 keywords: [oscilloscopes, Teledyne, InstrumentKit]
 slug: /instruments-database/oscilloscopes/teledyne/wavesurfer-3000z
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394026/Instruments/Oscilloscopes/WaveSurfer-3000z/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The WaveSurfer 3000z has a 10.1" capacitive touch display, the longest memory, a
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: TELEDYNE</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692812958/Instruments/Vendor%20Logos/Teledyne_technologies.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Teledyne LeCroy is an American manufacturer of oscilloscopes, protocol analyzers
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='TELEDYNE'></FeaturedInstrumentVideo>
+
+
 ## Connect to the WaveSurfer 3000z in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='OSCILLOSCOPES' manufacturer='TELEDYNE'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a WaveSurfer 3000z Oscilloscope using Instrumentkit, you can use the following code:

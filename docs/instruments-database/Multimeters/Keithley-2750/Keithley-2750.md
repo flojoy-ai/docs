@@ -5,6 +5,7 @@ description: The 2750 offers a cost-effective, high performance, affordable alte
 keywords: [multimeters, Keithley, PyMeasure]
 slug: /instruments-database/multimeters/keithley/keithley-2750
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395434/Instruments/Multimeters/Keithley-2750/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The 2750 offers a cost-effective, high performance, affordable alternatives to s
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: KEITHLEY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806202/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='KEITHLEY'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Keithley 2750 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MULTIMETERS' manufacturer='KEITHLEY'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 Here is a Python script that uses Pymeasure to connect to a Keithley 2750 Multimeter:

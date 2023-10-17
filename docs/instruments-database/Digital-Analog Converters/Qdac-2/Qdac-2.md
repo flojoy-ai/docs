@@ -5,6 +5,7 @@ description: QDAC-II is the next generation of the successful QDAC from QDevil. 
 keywords: [digital analog converters, Qdevil, QCodes Community]
 slug: /instruments-database/digital-analog-converters/qdevil/qdac-2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395789/Instruments/Digital-Analog%20Converters/Qdac-2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ QDAC-II is the next generation of the successful QDAC from QDevil. It has all th
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: QDEVIL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125970/Instruments/Vendor%20Logos/QDevils.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Founded in 2016, QDevil is an international quantum technology company focused o
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='DIGITAL_ANALOG_CONVERTERS' manufacturer='QDEVIL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Qdac 2 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='DIGITAL_ANALOG_CONVERTERS' manufacturer='QDEVIL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Qdac 2 Power Supply using Qcodes Community, you can follow these steps:

@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Quantum Computing Control Systems
 sidebar_position: 3
 slug: /instruments-database/quantum-computing-control-systems/
+hide_table_of_contents: true
 ---
 
 # Controlling Quantum Computing Control Systems in Python

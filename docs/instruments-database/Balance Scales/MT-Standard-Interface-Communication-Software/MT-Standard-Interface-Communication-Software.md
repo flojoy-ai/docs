@@ -5,6 +5,7 @@ description: Instrument class to communicate with Mettler Toledo balances using 
 keywords: [balance scales, Mettler Toledo, InstrumentKit]
 slug: /instruments-database/balance-scales/mettler-toledo/mt-standard-interface-communication-software
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692394030/Instruments/Balance%20Scales/MT-Standard-Interface-Communication-Software/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Instrument class to communicate with Mettler Toledo balances using the MT-SICS S
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: METTLER</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806124/Instruments/Vendor%20Logos/Mettler_Toledo.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Mettler Toledo (NYSE: MTD) is a multinational manufacturer of scales and analyti
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='BALANCE_SCALES' manufacturer='METTLER'></FeaturedInstrumentVideo>
+
+
 ## Connect to the MT Standard Interface Communication Software in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='BALANCE_SCALES' manufacturer='METTLER'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 Here is an example Python script that uses Instrumentkit to connect to a Mettler Toledo balance using the MT Standard Interface Communication Software (MT-SICS):

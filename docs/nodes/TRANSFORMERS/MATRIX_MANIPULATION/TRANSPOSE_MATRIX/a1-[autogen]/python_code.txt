@@ -1,0 +1,9 @@
+from numpy import transpose
+from flojoy import flojoy, Matrix
+
+
+@flojoy
+def TRANSPOSE_MATRIX(default: Matrix) -> Matrix:
+    
+    
+    return Matrix(m=transpose(default.m, (1,0)))

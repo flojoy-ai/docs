@@ -5,6 +5,7 @@ description: The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) opt
 keywords: [spectrum analyzers, Signal Hound, QCodes]
 slug: /instruments-database/spectrum-analyzers/signal-hound/usb-sa-124-b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395695/Instruments/Spectrum%20Analyzers/USB-SA-124-B/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Signal Hound USB-SA44B is a Software Defined Receiver (SDR) optimized as a n
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: SIGNAL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806199/Instruments/Vendor%20Logos/Signalhound.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Signal Hound is a manufacturer of RF spectrum analyzers and signal generators.
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='SIGNAL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the USB SA 124 B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='SPECTRUM_ANALYZERS' manufacturer='SIGNAL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 ```python

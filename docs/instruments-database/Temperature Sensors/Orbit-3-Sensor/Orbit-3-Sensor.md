@@ -5,6 +5,7 @@ description: Orbit 3 is a wireless sensor for ambient temperature and humidity m
 keywords: [temperature sensors, Orbit3, PyTango]
 slug: /instruments-database/temperature-sensors/orbit3/orbit-3-sensor
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639362/Instruments/Temperature%20Sensors/Orbit-3-Sensor/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ORBIT3</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806128/Instruments/Vendor%20Logos/Maturix.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Maturix® is the smart solution addressing the needs of the construction and con
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='TEMPERATURE_SENSORS' manufacturer='ORBIT3'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Orbit 3 Sensor in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='TEMPERATURE_SENSORS' manufacturer='ORBIT3'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyTango" label="PyTango">
 
 ```python

@@ -1,3 +1,8 @@
+---
+title: ATTENUATION_LDA602
+description: The ATTENUATION_LDA602 node sets or queries the attenuation from a Vaunix LDA602.
+keywords: [python attenuation, python control, digital attenuation, instrument, python, Vaunix, LDA602, attenuation]
+---
 
 [//]: # (Custom component imports)
 
@@ -17,21 +22,21 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-    
-
 [//]: # (Examples)
 
 ## Examples
 
 import Example1 from './examples/EX1/example.md';
 import App1 from '!!raw-loader!./examples/EX1/app.json';
+import appImg from './examples/EX1/app.jpeg'
+import outputImg from './examples/EX1/output.jpeg'
 
 ### ATTENUATION_LDA602 example
 
 <AppDisplay
     nodeLabel='ATTENUATION_LDA602'
-    appImg={''}
-    outputImg={''}
+    appImg={appImg}
+    outputImg={outputImg}
     >
     {App1}
 </AppDisplay>
@@ -39,8 +44,6 @@ import App1 from '!!raw-loader!./examples/EX1/app.json';
 <Example1 />
 
 <SectionBreak />
-  
-    
 
 [//]: # (Appendix)
 

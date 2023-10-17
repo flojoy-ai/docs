@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Quantum Analyzers
 sidebar_position: 3
 slug: /instruments-database/quantum-analyzers/
+hide_table_of_contents: true
 ---
 
 # Controlling Quantum Analyzers in Python

@@ -16,6 +16,10 @@ Only use this method if your device does not show up with `PyVISA` list resource
 These changes require some permission changes or downloads from the internet. Proceed at your own risk.
 :::
 
+:::note
+Many VISA compatible instruments also have an ethernet/TCPIP connection in addition to a USB connection. This should require no drivers to use. If you do not have an available connection, an ethernet to USB adapter should suffice.
+:::
+
 Only proceed if you are sure your device does not appear with the following Python script (requires `pyvisa` *and* `pyvisa-py` packages):
 
 ```python
@@ -27,7 +31,7 @@ print(rm.list_resources())
 
 ## Linux
 
-For Unix systems, it may be required to allow non-root access to USB ports. You can do this for all device with the terminal command: 
+For Unix systems, it may be required to allow non-root access to USB ports. You can do this for all device with the terminal command:
 
 ```
 sudo echo 'SUBSYSTEM=="usb", MODE="0666", GROUP="usbusers"' >> /etc/udev/rules.d/99-com.rules
@@ -46,7 +50,7 @@ For Windows, the only change that should be required is to install a generic USB
 1. Download [Zadig](https://zadig.akeo.ie/) and replace/install the driver (mostly) automatically.
 2. Manually download the driver and install it in `Device Manager`.
 
-In both methods ensure your device is plugged in and showing up in `Device Manager`. 
+In both methods ensure your device is plugged in and showing up in `Device Manager`.
 
 ### 1. Zadig Method
 
@@ -61,6 +65,8 @@ In both methods ensure your device is plugged in and showing up in `Device Manag
 - Choose `WinUSB` (> v6.1) to the right of the green arrow.
 - Press `Install Driver`.
 - You may need to restart your system for the changes to work.
+
+You may also have to place the `libusb-1.0.dll` file in `C:/Windows/System32` as described below.
 
 ### 2. Manual Method
 

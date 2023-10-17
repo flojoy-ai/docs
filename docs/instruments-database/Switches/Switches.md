@@ -1,8 +1,8 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Switches
 sidebar_position: 3
 slug: /instruments-database/switches/
+hide_table_of_contents: true
 ---
 
 # Controlling Switches in Python

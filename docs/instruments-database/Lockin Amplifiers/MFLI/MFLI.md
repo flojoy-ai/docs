@@ -5,6 +5,7 @@ description: The Zurich Instruments MFLI is a digital lock-in amplifier that cov
 keywords: [lockin amplifiers, Zurich Instruments, QCodes]
 slug: /instruments-database/lockin-amplifiers/zurich-instruments/mfli
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395616/Instruments/Lockin%20Amplifiers/MFLI/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequ
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ZURICH</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806207/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='ZURICH'></FeaturedInstrumentVideo>
+
+
 ## Connect to the MFLI in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='ZURICH'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 The provided code is a stub for connecting to a Zurich Instruments MFLI Lock-in Amplifier using Qcodes. To establish a connection and interact with the lock-in amplifier, you can use the following code:

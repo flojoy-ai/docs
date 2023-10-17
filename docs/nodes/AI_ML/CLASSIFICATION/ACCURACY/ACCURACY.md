@@ -5,22 +5,19 @@ keywords: [AI, Classification, Python, DataFrame, Accuracy, Prediction]
 image: https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg
 ---
 
-[//]: # (Custom component imports)
+[//]: # 'Custom component imports'
 
-import DocString from '@site/src/components/DocString';
+
 import DocStringJSON from '@site/src/components/DocStringJSON';
 import PythonCode from '@site/src/components/PythonCode';
 import AppDisplay from '@site/src/components/AppDisplay';
 import SectionBreak from '@site/src/components/SectionBreak';
 import AppendixSection from '@site/src/components/AppendixSection';
 
-[//]: # (Docstring)
+[//]: # 'Docstring'
 
-import DocstringSource from '!!raw-loader!./a1-[autogen]/docstring.txt';
 import DocstringJson from '!!raw-loader!./a1-[autogen]/docstring.json';
 import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
-
-<DocString>{DocstringSource}</DocString>
 
 <DocStringJSON data={DocstringJson} />
 
@@ -28,7 +25,7 @@ import PythonSource from '!!raw-loader!./a1-[autogen]/python_code.txt';
 
 <SectionBreak />
 
-[//]: # (Examples)
+[//]: # 'Examples'
 
 ## Examples
 
@@ -48,14 +45,14 @@ import outputLight from './examples/EX1/output_light.jpeg'
     outputLight={outputLight}
     outputImg={outputImg}
     >
-    {App1}
+{App1}
 </AppDisplay>
 
 <Example1 />
 
 <SectionBreak />
 
-[//]: # (Appendix)
+[//]: # 'Appendix'
 
 ## Appendix
 
@@ -69,7 +66,7 @@ import Media from './appendix/media.md';
 
 <SectionBreak />
 
-[//]: # (Edit page on GitHub)
+[//]: # 'Edit page on GitHub'
 
 #### Edit this page on GitHub
 

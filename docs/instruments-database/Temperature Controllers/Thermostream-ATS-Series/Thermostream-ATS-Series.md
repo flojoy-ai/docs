@@ -5,6 +5,7 @@ description: Temptronic ThermoStreams are portable systems that deliver clean dr
 keywords: [temperature controllers, Temptronic, PyMeasure]
 slug: /instruments-database/temperature-controllers/temptronic/thermostream-ats-series
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395182/Instruments/Temperature%20Controllers/Thermostream-ATS-Series/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: TEMPTRONIC</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806163/Instruments/Vendor%20Logos/Temptronic.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Temptronic ThermoStreams are portable systems that deliver clean dry air for pre
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='TEMPERATURE_CONTROLLERS' manufacturer='TEMPTRONIC'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Thermostream ATS Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='TEMPERATURE_CONTROLLERS' manufacturer='TEMPTRONIC'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 Here is an example Python script that uses Pymeasure to connect to a Thermostream ATS Series Temperature Controller:

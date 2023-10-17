@@ -5,6 +5,7 @@ description: Currently no description
 keywords: [photon counting systems, Singlequantum, QCodes Community]
 slug: /instruments-database/photon-counting-systems/singlequantum/singlequantum
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719266/Instruments/Photon%20Counting%20Systems/Singlequantum/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Currently no description
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: SINGLEQUANTUM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806196/Instruments/Vendor%20Logos/SingleQuantum.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ At Single Quantum, we confront every challenge with innovation, dedication, and 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='PHOTON_COUNTING_SYSTEMS' manufacturer='SINGLEQUANTUM'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Singlequantum in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='PHOTON_COUNTING_SYSTEMS' manufacturer='SINGLEQUANTUM'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a Singlequantum Photon Counting System using Qcodes Community, you can use the provided `WebSQControlqcode` class. Here's an example script that demonstrates how to connect to the instrument and perform some basic operations:

@@ -5,6 +5,7 @@ description: The R&S SMR40 Signal Generator is designed as CW generator with pul
 keywords: [rf signal generators, Rohdes&Schwarz, QCodes Community]
 slug: /instruments-database/rf-signal-generators/rohdes-schwarz/smr-40
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395798/Instruments/RF%20Signal%20Generators/SMR-40/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The R&S SMR40 Signal Generator is designed as CW generator with pulse modulation
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ROHDES&SCHWARZ</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806194/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></FeaturedInstrumentVideo>
+
+
 ## Connect to the SMR 40 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to the SMR 40 RF Signal Generator using Qcodes Community, you can use the following Python script:

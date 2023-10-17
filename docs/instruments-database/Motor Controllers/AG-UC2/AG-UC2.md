@@ -5,6 +5,7 @@ description: The AG-UC2 Agilis™ Controller provides USB computer control for t
 keywords: [motor controllers, Newport, InstrumentKit]
 slug: /instruments-database/motor-controllers/newport/ag-uc2
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692387419/Instruments/Motor%20Controllers/AG-UC2/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The AG-UC2 Agilis™ Controller provides USB computer control for two Agilis axe
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: NEWPORT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806178/Instruments/Vendor%20Logos/Newport.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Newport provides a wide range of photonics technology and products designed to e
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='NEWPORT'></FeaturedInstrumentVideo>
+
+
 ## Connect to the AG-UC2 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='NEWPORT'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 

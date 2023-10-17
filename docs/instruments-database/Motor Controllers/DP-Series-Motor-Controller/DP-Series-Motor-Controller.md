@@ -5,6 +5,7 @@ description: Anaheim Automation manufactures a variety of Stepper Motor Driver P
 keywords: [motor controllers, Anaheim Automation, PyMeasure]
 slug: /instruments-database/motor-controllers/anaheim-automation/dp-series-motor-controller
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395186/Instruments/Motor%20Controllers/DP-Series-Motor-Controller/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Anaheim Automation manufactures a variety of Stepper Motor Driver Packs with Pro
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ANAHEIM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806171/Instruments/Vendor%20Logos/Anaheim_Automation.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Unable to find Vendor Description.
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='ANAHEIM'></FeaturedInstrumentVideo>
+
+
 ## Connect to the DP Series Motor Controller in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='ANAHEIM'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

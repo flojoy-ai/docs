@@ -5,6 +5,7 @@ description: The Ithaco 1211 Current Preamplifier measures current with full sca
 keywords: [lockin amplifiers, Ithaco, QCodes]
 slug: /instruments-database/lockin-amplifiers/ithaco/ithaco-1211
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719073/Instruments/Lockin%20Amplifiers/Ithaco-1211/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ The Ithaco 1211 Current Preamplifier measures current with full scale sensitivit
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: ITHACO</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806141/Instruments/Vendor%20Logos/Ithaco.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Artisan Technology Group ® is a team of top-talent engineers and customer servi
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='ITHACO'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Ithaco 1211 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='ITHACO'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to an Ithaco 1211 Lockin Amplifier using Qcodes, you can use the following Python script:

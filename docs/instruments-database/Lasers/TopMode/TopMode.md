@@ -5,6 +5,7 @@ description: TOPTICA’s TopMode lasers operate as easily as a HeNe, but also of
 keywords: [lasers, Toptica, InstrumentKit]
 slug: /instruments-database/lasers/toptica/topmode
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395116/Instruments/Lasers/TopMode/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ TOPTICA’s TopMode lasers operate as easily as a HeNe, but also offer higher po
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: TOPTICA</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806151/Instruments/Vendor%20Logos/Toptica.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ TOPTICA Photonics is a manufacturer of [lasers](https://en.wikipedia.org/wiki/
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='LASERS' manufacturer='TOPTICA'></FeaturedInstrumentVideo>
+
+
 ## Connect to the TopMode in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='LASERS' manufacturer='TOPTICA'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
 To connect to a TopMode laser using Instrumentkit, you can use the following Python script:

@@ -5,6 +5,7 @@ description: Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled 
 keywords: [cameras, Thorlabs, Instrumental]
 slug: /instruments-database/cameras/thorlabs/cc126mu
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395157/Instruments/Cameras/CC126Mu/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Kiralux 12.3 MP Monochrome CMOS Camera, Hermetically Sealed Cooled Package, USB 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: THORLABS</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126009/Instruments/Vendor%20Logos/Thorlabs.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ Thorlabs, Inc. is an American privately held optical equipment company headquart
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='CAMERAS' manufacturer='THORLABS'></FeaturedInstrumentVideo>
+
+
 ## Connect to the CC126Mu in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='CAMERAS' manufacturer='THORLABS'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 To connect to a CC126Mu camera using Instrumental, you can use the following Python script:

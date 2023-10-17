@@ -5,6 +5,7 @@ description: Incorporates all of the powerful features of the Gemini GV digital 
 keywords: [motor controllers, Parker, PyMeasure]
 slug: /instruments-database/motor-controllers/parker/gemini-gv6
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395446/Instruments/Motor%20Controllers/Gemini-GV6/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -42,7 +43,7 @@ Wide range of PWM frequencies for linear motor support
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: PARKER</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -55,10 +56,24 @@ Parker Hannifin Corporation, originally Parker Appliance Company, usually referr
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='MOTOR_CONTROLLERS' manufacturer='PARKER'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Gemini GV6 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='MOTOR_CONTROLLERS' manufacturer='PARKER'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

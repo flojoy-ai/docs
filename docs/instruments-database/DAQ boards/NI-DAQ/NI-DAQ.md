@@ -5,6 +5,7 @@ description: Data acquisition (DAQ) is the process of measuring an electrical or
 keywords: [daq boards, National Instruments, QCodes Community]
 slug: /instruments-database/daq-boards/national-instruments/ni-daq
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395713/Instruments/DAQ%20boards/NI-DAQ/file.jpg
+hide_table_of_contents: true
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,7 +34,7 @@ Data acquisition (DAQ) is the process of measuring an electrical or physical phe
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: NATIONAL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806169/Instruments/Vendor%20Logos/National_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -46,10 +47,24 @@ A producer of automated test equipment and virtual instrumentation software. Com
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='DAQ_BOARDS' manufacturer='NATIONAL'></FeaturedInstrumentVideo>
+
+
 ## Connect to the NI DAQ in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+
+import NodeCardCollection from '@site/src/components/NodeCardCollection';
+
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='DAQ_BOARDS' manufacturer='NATIONAL'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
 To connect to a NI DAQ board using Qcodes Community, you can use the following Python script:
