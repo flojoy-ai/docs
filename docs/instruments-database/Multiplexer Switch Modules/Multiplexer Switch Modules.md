@@ -1,5 +1,4 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Multiplexer Switch Modules
 sidebar_position: 3
 slug: /instruments-database/multiplexer-switch-modules/

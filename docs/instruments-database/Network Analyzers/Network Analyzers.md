@@ -1,5 +1,4 @@
 --- 
-hide_table_of_contents: true
 sidebar_label: Network Analyzers
 sidebar_position: 3
 slug: /instruments-database/network-analyzers/
