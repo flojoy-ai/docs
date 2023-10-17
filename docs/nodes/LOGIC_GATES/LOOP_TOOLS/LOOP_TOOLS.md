@@ -13,22 +13,20 @@ Here you can find information about all the Flojoy nodes that can be used to bui
 
 ## Loop Tool Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>BREAK</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOOP INDEX</figcaption>
-</figure>
-</a></div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
 
-</div>
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK/examples/EX1/output.jpeg",
+      "name": "BREAK",
+      "href": "/nodes/LOGIC_GATES/LOOP_TOOLS/BREAK"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX/examples/EX1/output.jpeg",
+      "name": "LOOP_INDEX",
+      "href": "/nodes/LOGIC_GATES/LOOP_TOOLS/LOOP_INDEX"
+   }
+]} />

@@ -13,14 +13,15 @@ Here you can find information about all the Flojoy nodes that can be used to del
 
 ## Timer Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/TIMERS/TIMER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/TIMERS/TIMER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TIMER</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-</div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
+
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/TIMERS/TIMER/examples/EX1/output.jpeg",
+      "name": "TIMER",
+      "href": "/nodes/LOGIC_GATES/TIMERS/TIMER"
+   }
+]} />

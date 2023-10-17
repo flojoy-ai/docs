@@ -13,22 +13,20 @@ Here you can find information about all the Flojoy nodes that can be used to bui
 
 ## Loop Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOPS/APPEND/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/APPEND/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>APPEND</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-<div className="p-4">
-<a href="/nodes/LOGIC_GATES/LOOPS/LOOP/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>LOOP</figcaption>
-</figure>
-</a></div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
 
-</div>
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/APPEND/examples/EX1/output.jpeg",
+      "name": "APPEND",
+      "href": "/nodes/LOGIC_GATES/LOOPS/APPEND"
+   },
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOGIC_GATES/LOOPS/LOOP/examples/EX1/output.jpeg",
+      "name": "LOOP",
+      "href": "/nodes/LOGIC_GATES/LOOPS/LOOP"
+   }
+]} />

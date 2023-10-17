@@ -5,6 +5,10 @@ sidebar_position: 1
 slug: /nodes/AI_ML/CLASSIFICATION/
 ---
 
+<!-- Custom component -->
+
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
+
 # CLASSIFICATION in Python
 
 Welcome to the Classification Nodes page!
@@ -13,46 +17,30 @@ Here you can find information about all the Flojoy nodes that classify data.
 
 ## Classification Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/ACCURACY/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ACCURACY</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>ONE HOT ENCODING</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>SUPPORT VECTOR MACHINE</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TORCHSCRIPT CLASSIFIER</figcaption>
-</figure>
-</a></div>
-
-<div className="p-4">
-<a href="/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>TRAIN TEST SPLIT</figcaption>
-</figure>
-</a></div>
-
-</div>
+<NodeSectionThumbnail images={[
+{
+src: "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ACCURACY/examples/EX1/output.jpeg",
+name: "ACCURACY",
+href: "/nodes/AI_ML/CLASSIFICATION/ACCURACY/"
+},
+{
+src: "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/examples/EX1/output.jpeg",
+name: "ONE HOT ENCODING",
+href: "/nodes/AI_ML/CLASSIFICATION/ONE_HOT_ENCODING/"
+},
+{
+src: "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/examples/EX1/output.jpeg",
+name: "SUPPORT VECTOR MACHINE",
+href: "/nodes/AI_ML/CLASSIFICATION/SUPPORT_VECTOR_MACHINE/"
+},
+{
+src: "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/examples/EX1/output.jpeg",
+name: "TORCHSCRIPT CLASSIFIER",
+href: "/nodes/AI_ML/CLASSIFICATION/TORCHSCRIPT_CLASSIFIER/",
+},
+{
+src: "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/examples/EX1/output.jpeg",
+name: "TRAIN TEST SPLIT",
+href: "/nodes/AI_ML/CLASSIFICATION/TRAIN_TEST_SPLIT/"
+}
+]} />

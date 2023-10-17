@@ -13,14 +13,15 @@ Here you can find information about all the Flojoy nodes that can be used to loa
 
 ## Remote File System Nodes
 
-<div className="flex flex-wrap" style={{ marginLeft: "-55px" }}>
 
-<div className="p-4">
-<a href="/nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/">
-<figure style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
-<img src="https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/examples/EX1/output.jpeg" style={{ width: "200px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>REMOTE FILE</figcaption>
-</figure>
-</a></div>
+<!-- Custom component -->
 
-</div>
+import NodeSectionThumbnail from '@site/src/components/NodeSectionThumbnail';
+
+<NodeSectionThumbnail images={[
+   {
+      "src": "https://raw.githubusercontent.com/flojoy-ai/docs/main/docs/nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE/examples/EX1/output.jpeg",
+      "name": "REMOTE_FILE",
+      "href": "/nodes/LOADERS/REMOTE_FILE_SYSTEM/REMOTE_FILE"
+   }
+]} />
