@@ -39,8 +39,7 @@ for path in page_paths:
                 category = path.split('/')[1].upper().replace(' ', '_').replace('-', '_')
                 mnfr = s.split(' by ')[1].split(' ')[0].strip().upper()
             except:
-                print(path)
-                print(traceback.format_exc())
+                print('100 chars: ', s[:100])
                 mnfr = 'UNKNOWN'
 
             print(category, '>>>>>>>>>>>>>>>', mnfr)
