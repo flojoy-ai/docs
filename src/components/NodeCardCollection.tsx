@@ -3,36 +3,37 @@ import CardCollection from '../components/CardCollection';
 import * as nodeSections from '@site/nodeSidebar.json';
 import * as nodeDescriptions from '@site/src/components/flat_docstring_lookup.json';
 
-type NodeCardCollectionProps = { sectionIDs: Array<String>; };
+type NodeCardCollectionProps = { category: String, manufacturer: String };
 
-function NodeCardCollection({sectionIDs}: NodeCardCollectionProps) {
 
-    let sectionContentData : Object = {};    
+function NodeCardCollection({category, manufacturer}: NodeCardCollectionProps) {
+
+    let sectionIDs : Array<String> = [];
+    let sectionContentData : Object = {};
+
+    if (category == 'OSCILLOSCOPES' && manufacturer == 'TEKTRONIX') {
+            sectionIDs.push('I/O > Oscilloscopes > Tektronix');
+    }
 
     sectionIDs.push(
-        "I/O > Protocols > SCPI"
+        "I/O > Protocols > SCPI",
+        "I/O > Protocols > GPIB",
     );
 
-    console.warn(sectionIDs);
-
     sectionIDs.map(sectionID => {  
-
         let cardData = [];
 
-        /*
-            Node card collection must have format like 
-            - "I/O > Oscilloscopes"
-            - "I/O > Protocols"
-            - etc
-            And match key format in nodeSidebar.json
-
-            SCPI, GPIB, and serial nodes are always included by default
-        */
-
         nodeSections[sectionID].map(nodePath => {
-            let cd = {};
+            let cd : Object = {};
             const nodeID = nodePath.split('/').slice(-1).toString();
-            let nodeHint = nodeDescriptions[nodeID];
+
+            console.warn(nodePath, nodeID);
+
+            let nodeHint = '';
+            if (nodeID in nodeDescriptions) {
+                nodeHint = nodeDescriptions[nodeID];
+            }
+
             let nodePageLink = nodePath.split('/'); nodePageLink.pop();
             nodePageLink = '/' + nodePageLink.join('/');
 
@@ -66,19 +67,23 @@ function NodeCardCollection({sectionIDs}: NodeCardCollectionProps) {
         });
     });
 
+    let setID = [...new Set(sectionIDs)];
+
     return (
         <>
-            {[...sectionIDs].map((sectionID) =>            
-                <>            
-                    <h2 className='mt-10 mb-10'>{sectionID}</h2>
-                    <div className='flex flex-col items-center'>
-                        <CardCollection 
-                            cardData ={sectionContentData[sectionID]} 
-                            displayWide={true} 
-                        />
-                    </div>
-                </>
-            )}
+            {setID.map(sID => {
+                return(
+                    <>            
+                        <h2 className='mt-10 mb-10'>{sID.replace('I/O > ', '')}</h2>
+                        <div className='flex flex-col items-center'>
+                            <CardCollection 
+                                cardData ={sectionContentData[sID]} 
+                                displayWide={true} 
+                            />
+                        </div>
+                    </>
+                )
+            })}
         </>
     );
   }
