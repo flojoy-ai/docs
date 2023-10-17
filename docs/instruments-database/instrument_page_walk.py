@@ -25,7 +25,6 @@ print(len(page_paths))
 
 for path in page_paths:
     if 'TDS2000' not in path:
-        s = ''
         with open(path, 'w+') as f:
             s = f.read()
             print('PAGE:', path)            
@@ -61,6 +60,8 @@ for path in page_paths:
 
             s = s.replace('<Tabs>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>' + tab_item)
 
-            f.write(s)
+            print('\n****************\n\n')
+
+            # f.write(s)
 
 
