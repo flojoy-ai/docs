@@ -25,7 +25,8 @@ print(len(page_paths))
 
 for path in page_paths:
     if 'TDS2000' not in path:
-        with open(path, 'rw') as f:
+        s = ''
+        with open(path, 'r') as f:
             s = f.read()
 
             # Hide sidebar
@@ -53,6 +54,7 @@ for path in page_paths:
 
             s.replace('<Tabs>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>' + tab_item)
 
+        with open(path, 'w') as f:
             f.write(s)
 
 
