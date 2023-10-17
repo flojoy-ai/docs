@@ -34,7 +34,7 @@ The S5i module is a RF source ranging from 40 MHz to 4 GHz, initially designed f
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: QUTECH</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806156/Instruments/Vendor%20Logos/QuTech.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ At QuTech, we work on a radically new technology with world-changing potential. 
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='QUTECH'></FeaturedInstrumentVideo>
 
 
 ## Connect to the S5i in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='QUTECH'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">

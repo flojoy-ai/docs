@@ -34,7 +34,7 @@ FJ Series - 120W regulated high voltage AC-DC power supplies with outputs from 0
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: GLASSMAN</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806188/Instruments/Vendor%20Logos/Glassman.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Looking for the leading manufacturer of AC-DC **power** supplies, DC-DC conver
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='GLASSMAN'></FeaturedInstrumentVideo>
 
 
 ## Connect to the FJ Series in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='POWER_SUPPLIES' manufacturer='GLASSMAN'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">

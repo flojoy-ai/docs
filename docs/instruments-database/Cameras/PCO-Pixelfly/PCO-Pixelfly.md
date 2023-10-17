@@ -34,7 +34,7 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: PCO</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806161/Instruments/Vendor%20Logos/PCO.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ The pco.pixelfly™ 1.3 SWIR is a high-performance machine vision camera due to 
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='CAMERAS' manufacturer='PCO'></FeaturedInstrumentVideo>
 
 
 ## Connect to the PCO Pixelfly in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='CAMERAS' manufacturer='PCO'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="Instrumental" label="Instrumental">

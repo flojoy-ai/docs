@@ -34,7 +34,7 @@ The M4i.66xx-x8 series arbitrary waveform generators (AWG) deliver the highest p
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: SPECTRUM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806179/Instruments/Vendor%20Logos/Spectrum.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Spectrum Instrumentation manufactures high-speed, high-resolution PC measurement
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='SPECTRUM'></FeaturedInstrumentVideo>
 
 
 ## Connect to the M4i.6631-x8 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='FUNCTION_GENERATORS' manufacturer='SPECTRUM'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">

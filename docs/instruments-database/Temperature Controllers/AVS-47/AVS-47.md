@@ -34,7 +34,7 @@ The Picowatt AVS 47 is a resistance bridge used to measure the resistance of low
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: PICOWATT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806114/Instruments/Vendor%20Logos/Picowatt.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ RV-Elektroniikka Oy PICOWATT is specialized in manufacturing instruments for the
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='TEMPERATURE_CONTROLLERS' manufacturer='PICOWATT'></FeaturedInstrumentVideo>
 
 
 ## Connect to the AVS 47 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='TEMPERATURE_CONTROLLERS' manufacturer='PICOWATT'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">

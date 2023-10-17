@@ -34,7 +34,7 @@ The PicoHarp 300 is a high-end, easy to use, plug and play Time-Correlated Singl
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: PICOQUANT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125981/Instruments/Vendor%20Logos/PicoQuant.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ The PicoQuant group was founded in 1996 to develop robust, compact, and easy to 
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='PHOTON_COUNTING_SYSTEMS' manufacturer='PICOQUANT'></FeaturedInstrumentVideo>
 
 
 ## Connect to the PicoHarp 300 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='PHOTON_COUNTING_SYSTEMS' manufacturer='PICOQUANT'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="PyTango" label="PyTango">

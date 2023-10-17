@@ -34,7 +34,7 @@ Touchscreen display device for power & energy measurement. Single-channel, multi
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: GENTEC</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692813160/Instruments/Vendor%20Logos/GentecEO.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Gentec-EO is a manufacturer of laser beam measurement technologies.
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='SCREEN_DISPLAYS' manufacturer='GENTEC'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Gentec EO Maestro in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='SCREEN_DISPLAYS' manufacturer='GENTEC'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">

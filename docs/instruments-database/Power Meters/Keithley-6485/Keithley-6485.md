@@ -34,7 +34,7 @@ The 5½-digit Model 6485 Picoammeter combines Keithley’s expertise in sensitiv
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: KEITHLEY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806202/Instruments/Vendor%20Logos/Keithley.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Keithley Instruments is a measurement and instrument company headquartered in So
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='POWER_METERS' manufacturer='KEITHLEY'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Keithley 6485 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='POWER_METERS' manufacturer='KEITHLEY'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="PyTango" label="PyTango">

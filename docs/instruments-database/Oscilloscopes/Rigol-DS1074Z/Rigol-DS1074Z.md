@@ -35,7 +35,7 @@ Built in 2 channel 25MHz waveform generator
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: RIGOL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806170/Instruments/Vendor%20Logos/Rigol.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,7 +51,7 @@ RIGOL’s line of products includes [digital storage oscilloscopes](https://www
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='RIGOL'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Rigol DS1074Z in Python
@@ -61,7 +61,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='OSCILLOSCOPES' manufacturer='RIGOL'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes" label="QCodes">

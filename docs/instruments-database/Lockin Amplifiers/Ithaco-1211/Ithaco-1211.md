@@ -34,7 +34,7 @@ The Ithaco 1211 Current Preamplifier measures current with full scale sensitivit
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: ITHACO</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806141/Instruments/Vendor%20Logos/Ithaco.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Artisan Technology Group ® is a team of top-talent engineers and customer servi
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='ITHACO'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Ithaco 1211 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='LOCKIN_AMPLIFIERS' manufacturer='ITHACO'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes" label="QCodes">

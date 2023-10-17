@@ -8,13 +8,6 @@ start_here = '.'
 instruments = set()
 page_paths = []
 
-tab_item = '''
-<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
-
-<NodeCardCollection category='CAT' manufacturer='MNFR'></NodeCardCollection>
-
-</TabItem>'''
-
 for root, cat, f_names in os.walk(start_here):
     fn = f_names[0]
     if len(cat) == 0 and '.md' in fn:
@@ -25,15 +18,8 @@ print(len(page_paths))
 
 for path in page_paths:
     if 'TDS2000' not in path:
-        with open(path, 'w+') as f:
+        with open(path) as f:
             s = f.read()
-            print('PAGE:', path)            
-            # Hide sidebar
-
-            if 'hide_table_of_contents: true' not in s:
-                s = s.replace('---\n', 'hide_table_of_contents: true\n---\n')
-
-            # isolate instrument category and mnfr
 
             try:
                 category = path.split('/')[1].upper().replace(' ', '_').replace('-', '_')
@@ -44,35 +30,12 @@ for path in page_paths:
 
             print(category, '>>>>>>>>>>>>>>>', mnfr)
 
-            # insert manufactuer name explicity
+            s = s.replace('MZ2000', mnfr)
+            s = s.replace('WIDGET2000', category)
 
-            s = s.replace('Manufacturer card: MZ2000', 'Manufacturer card: ' + mnfr)            
+        with open(path, 'w') as f2:
+            f2.write(s)
 
-            # Insert video component
 
-            s = s.replace('</ul>\n</details>\n', '</ul>\n</details>\n\n' + \
-                      "import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';\n\n<FeaturedInstrumentVideo category='CAT' manufacturer='MNFR'></FeaturedInstrumentVideo>\n\n".replace('CAT', category).replace('MNFR', mnfr))
-
-            # Insert Flojoy tab
-
-            tab_item = tab_item.replace('CAT', category).replace('MNFR', mnfr)
-
-            s = s.replace('<Tabs>
-
-<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
-
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
-
-</TabItem>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>
-
-<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
-
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
-
-</TabItem>' + tab_item)
-
-            print('\n****************\n\n')
-
-            # f.write(s)
 
 

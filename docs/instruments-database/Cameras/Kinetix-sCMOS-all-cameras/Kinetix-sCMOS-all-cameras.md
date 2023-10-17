@@ -34,7 +34,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: PVCAM</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692812958/Instruments/Vendor%20Logos/Teledyne_technologies.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ The Kinetix sCMOS delivers the highest speed and largest field of view with near
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='CAMERAS' manufacturer='PVCAM'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Kinetix sCMOS all-cameras in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='CAMERAS' manufacturer='PVCAM'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="Instrumental" label="Instrumental">

@@ -36,7 +36,7 @@ N6705B accepts the same modules as N6700 Modular Power System, with over 30 modu
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: KEYSIGHT</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,7 +51,7 @@ Keysight Technologies, or Keysight, is an American company that manufactures el
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Keysight N6705B in Python
@@ -61,7 +61,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='OSCILLOSCOPES' manufacturer='KEYSIGHT'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes" label="QCodes">

@@ -34,7 +34,7 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: BRISTOL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806185/Instruments/Vendor%20Logos/Bristol_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='BRISTOL'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Bristol 771  in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='SPECTRUM_ANALYZERS' manufacturer='BRISTOL'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="Instrumental" label="Instrumental">

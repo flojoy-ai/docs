@@ -34,7 +34,7 @@ The R. STAHL Series 8510 power supply provides a constant power supply for contr
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: STAHL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692373400/Instruments/Vendor%20Logos/Stahl.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ R. Stahl **AG** is a listed provider of products, systems and services for [
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='STAHL'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Power Supply Series 8510 in Python

@@ -34,7 +34,7 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: WEINSCHEL</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806106/Instruments/Vendor%20Logos/Weinschel.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Weinschel Associates designs and manufactures high-quality Broadband RF and Mic
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='DIGITAL_ATTENUATORS' manufacturer='WEINSCHEL'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Weinschel 8320 in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='DIGITAL_ATTENUATORS' manufacturer='WEINSCHEL'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="QCodes" label="QCodes">

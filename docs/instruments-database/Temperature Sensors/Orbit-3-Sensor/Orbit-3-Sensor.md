@@ -34,7 +34,7 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: ORBIT3</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806128/Instruments/Vendor%20Logos/Maturix.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -49,7 +49,7 @@ Maturix® is the smart solution addressing the needs of the construction and con
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='TEMPERATURE_SENSORS' manufacturer='ORBIT3'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Orbit 3 Sensor in Python
@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='TEMPERATURE_SENSORS' manufacturer='ORBIT3'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="PyTango" label="PyTango">

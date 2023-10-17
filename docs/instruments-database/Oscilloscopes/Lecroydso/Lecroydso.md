@@ -37,7 +37,7 @@ This Class Allows The Acquisition Of A Waveform (The Description And The Data), 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: LECROY</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806142/Instruments/Vendor%20Logos/Lecroy.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -52,7 +52,7 @@ Teledyne LeCroy, Inc. manufactures and distributes electronic measuring instrum
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='LECROY'></FeaturedInstrumentVideo>
 
 
 ## Connect to the Lecroydso
@@ -63,7 +63,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='OSCILLOSCOPES' manufacturer='LECROY'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="PyTango" label="PyTango">

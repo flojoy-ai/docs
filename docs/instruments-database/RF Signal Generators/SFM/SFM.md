@@ -36,7 +36,7 @@ RF upconverter, 5 to 1000 MHz, with high frequency resolution (1 Hz)
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer card: MZ2000</h2></summary>
+<summary><h2>Manufacturer card: ROHDES&SCHWARZ</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806194/Instruments/Vendor%20Logos/RohdeSchwarz.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,7 +51,7 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 
 import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
 
-<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+<FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></FeaturedInstrumentVideo>
 
 
 ## Connect to the SFM in Python
@@ -61,7 +61,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 <TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
 
-<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+<NodeCardCollection category='RF_SIGNAL_GENERATORS' manufacturer='ROHDES&SCHWARZ'></NodeCardCollection>
 
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
