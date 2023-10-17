@@ -47,6 +47,11 @@ The MG3690C series of broadband signal generators covers audio, HF, VHF, UHF, RF
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the From MG3690C Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)

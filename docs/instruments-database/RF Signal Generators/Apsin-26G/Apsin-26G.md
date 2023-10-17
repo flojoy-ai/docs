@@ -47,6 +47,11 @@ The APSINXXG is an analog signal generator (analog signal source) series coverin
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Apsin 26G in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)

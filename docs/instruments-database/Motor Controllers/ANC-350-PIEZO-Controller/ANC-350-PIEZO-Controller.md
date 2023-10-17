@@ -47,6 +47,11 @@ multi-functional piezo controller for closed loop positioners
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the ANC 350 PIEZO Controller in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)

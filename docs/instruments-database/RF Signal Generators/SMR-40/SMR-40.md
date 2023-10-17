@@ -47,6 +47,11 @@ Rohde & Schwarz GmbH & Co KG is an international electronics group specializing 
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the SMR 40 in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)

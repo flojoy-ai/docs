@@ -50,6 +50,11 @@ With a modern and intuitive user interface, you gain direct control and overview
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the Bluefors temperature controller
  in Python
 

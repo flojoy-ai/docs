@@ -50,6 +50,11 @@ ERASynth removes the cost barriers and makes quality RF signal synthesis accessi
 </ul>
 </details>
 
+import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVideo';
+
+<FeaturedInstrumentVideo category='WIDGET2000' manufacturer='MZ2000'></FeaturedInstrumentVideo>
+
+
 ## Connect to the ERASYNTH
  in Python
 
