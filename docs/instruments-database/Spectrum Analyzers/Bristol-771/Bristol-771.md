@@ -34,7 +34,7 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806185/Instruments/Vendor%20Logos/Bristol_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ The 771 Series Laser Spectrum Analyzer combines proven Michelson interferometer 
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 Based on the provided code, it seems that the Bristol 721 Spectrum Analyzer is supported by the Instrumental library. However, there is no specific support for the Bristol 771 Spectrum Analyzer mentioned in the code.

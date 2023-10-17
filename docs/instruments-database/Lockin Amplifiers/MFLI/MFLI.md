@@ -34,7 +34,7 @@ The Zurich Instruments MFLI is a digital lock-in amplifier that covers the frequ
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806207/Instruments/Vendor%20Logos/Zurich_Instruments.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ Zurich Instruments Ltd. is a privately owned company developing and selling adv
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 The provided code is a stub for connecting to a Zurich Instruments MFLI Lock-in Amplifier using Qcodes. To establish a connection and interact with the lock-in amplifier, you can use the following code:

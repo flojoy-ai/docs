@@ -33,7 +33,7 @@ The PT-104 is a four-channel temperature measuring data logger. It offers the ul
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806165/Instruments/Vendor%20Logos/PicoTechnology.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ Pico has always been recognized for providing innovative, cost-effective alterna
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyTango" label="PyTango">
 
 ```python

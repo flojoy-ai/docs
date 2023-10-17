@@ -34,7 +34,7 @@ Orbit 3 is a wireless sensor for ambient temperature and humidity monitoring. In
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806128/Instruments/Vendor%20Logos/Maturix.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ Maturix® is the smart solution addressing the needs of the construction and con
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyTango" label="PyTango">
 
 ```python

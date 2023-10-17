@@ -34,7 +34,7 @@ The Ithaco 1211 Current Preamplifier measures current with full scale sensitivit
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806141/Instruments/Vendor%20Logos/Ithaco.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ Artisan Technology Group ® is a team of top-talent engineers and customer servi
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to an Ithaco 1211 Lockin Amplifier using Qcodes, you can use the following Python script:

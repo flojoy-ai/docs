@@ -43,7 +43,7 @@ Wide range of PWM frequencies for linear motor support
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125990/Instruments/Vendor%20Logos/Parker.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -60,6 +60,12 @@ Parker Hannifin Corporation, originally Parker Appliance Company, usually referr
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
 

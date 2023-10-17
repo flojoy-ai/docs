@@ -34,7 +34,7 @@ Spectrum Control's Weinschel brand Model 8320 Series Multi-channel Programmable 
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806106/Instruments/Vendor%20Logos/Weinschel.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ Weinschel Associates designs and manufactures high-quality Broadband RF and Mic
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="QCodes" label="QCodes">
 
 To connect to a Weinschel 8320 Digital Attenuator using Qcodes, you can use the following Python script:

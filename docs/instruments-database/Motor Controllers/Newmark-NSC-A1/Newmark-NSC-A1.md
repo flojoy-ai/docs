@@ -34,7 +34,7 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806153/Instruments/Vendor%20Logos/Newmark.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ The NSC-A1 Series motion controller is a powerful single axis stepper motor cont
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 To connect to a Newmark-NSC-A1 Motion using Instrumental, you can use the following Python script:

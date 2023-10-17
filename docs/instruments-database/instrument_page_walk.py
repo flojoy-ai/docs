@@ -46,7 +46,7 @@ for path in page_paths:
 
             # insert manufactuer name explicity
 
-            s = s.replace('Manufacturer Card', 'Manufacturer card: ' + mnfr)            
+            s = s.replace('Manufacturer card: MZ2000', 'Manufacturer card: ' + mnfr)            
 
             # Insert video component
 
@@ -57,7 +57,19 @@ for path in page_paths:
 
             tab_item = tab_item.replace('CAT', category).replace('MNFR', mnfr)
 
-            s = s.replace('<Tabs>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>' + tab_item)
+            s = s.replace('<Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>', "import NodeCardCollection from '@site/src/components/NodeCardCollection';\n\n" + '<Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>' + tab_item)
 
             print('\n****************\n\n')
 

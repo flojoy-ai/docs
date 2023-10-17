@@ -34,7 +34,7 @@ The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-meg
 </div>
 
 <details style={{ marginTop: "15px"}}>
-<summary><h2>Manufacturer Card</h2></summary>
+<summary><h2>Manufacturer card: MZ2000</h2></summary>
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692806122/Instruments/Vendor%20Logos/RaspberryPi.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
@@ -51,6 +51,12 @@ The v2 Camera Module has a Sony IMX219 8-megapixel sensor (compared to the 5-meg
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 <Tabs>
+
+<TabItem value="Flojoy" label="Flojoy" className="flojoy-instrument-tabs">
+
+<NodeCardCollection category='WIDGET2000' manufacturer='MZ2000'></NodeCardCollection>
+
+</TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
 To use Instrumental to connect to a Pi Camera, you can follow these steps:
