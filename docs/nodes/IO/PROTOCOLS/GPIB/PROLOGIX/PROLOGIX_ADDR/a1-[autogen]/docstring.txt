@@ -1,0 +1,16 @@
+The PROLOGIX_ADDR node sets the GPIB address of an instrument using the Prologix USB-to-GPIB or USB-to-Ethernet adapter.
+
+    Inputs
+    ------
+    default: DataContainer
+        Any DataContainer - likely connected to the output of the OPEN_SERIAL node.
+
+    Parameters
+    ----------
+    connection: Serial
+        The open serial connection with the instrument.
+
+    Returns
+    -------
+    TextBlob
+        Response from the Prologix USB-to-GPIB controller.
