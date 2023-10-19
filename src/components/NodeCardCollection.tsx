@@ -26,8 +26,6 @@ function NodeCardCollection({category, manufacturer}: NodeCardCollectionProps) {
             let cd : Object = {};
             const nodeID = nodePath.split('/').slice(-1).toString();
 
-            console.warn(nodePath, nodeID);
-
             let nodeHint = '';
             if (nodeID in nodeDescriptions) {
                 nodeHint = nodeDescriptions[nodeID];
