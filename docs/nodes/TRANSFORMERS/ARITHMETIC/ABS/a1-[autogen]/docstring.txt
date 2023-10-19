@@ -1,7 +1,7 @@
 The ABS node take a numeric array, a vector, or a scalar as input and returns its absolute value.
 
-    Inputs
-    ------
+    Parameters
+    ----------
     default : OrderedPair|Vector|Scalar
         The input to apply the absolute value to.
 
