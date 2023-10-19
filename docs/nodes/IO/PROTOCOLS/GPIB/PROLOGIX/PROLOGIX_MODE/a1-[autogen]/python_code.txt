@@ -1,0 +1,30 @@
+import serial
+import traceback
+from flojoy import flojoy, SerialConnection, DataContainer, TextBlob
+from typing import cast, Optional, Literal
+
+
+@flojoy(deps={"pyserial": "3.5"}, inject_connection=True)
+def PROLOGIX_MODE(
+    connection: SerialConnection,
+    default: Optional[DataContainer] = None,
+    mode: Literal["CONTROLLER", "DEVICE"] = "CONTROLLER",
+) -> TextBlob:
+    
+
+    # Start serial communication with the instrument
+    ser = cast(serial.Serial, connection.get_handle())
+
+    if ser is None:
+        raise ValueError("Serial communication is not open")
+
+    mode_integer = 0
+    if mode == "CONTROLLER":
+        mode_integer = 1
+
+    cmd = "++mode " + str(mode_integer) + "\r\n"
+    ser.write(cmd.encode())
+
+    s = ser.read(256)
+
+    return TextBlob(s)
