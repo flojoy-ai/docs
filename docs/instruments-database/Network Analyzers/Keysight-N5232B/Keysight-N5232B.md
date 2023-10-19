@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight N5232B by Keysight in Python
-sidebar_label: Keysight N5232B
-description: The Keysight N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
+title: Connecting to Keysight (Agilent) N5232B by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N5232B
+description: The Keysight (Agilent) N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-n5232b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N5232B
+# Keysight (Agilent) N5232B
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
+The Keysight (Agilent) N5232B PNA-L series network analyzer is designed for S-parameter and simple nonlinear testing of passive components, amplifiers, and frequency converters. With the same core firmware as the PNA, the PNA-L offers the perfect balance of value and performance. The PNA-L provides efficiency and flexibility in both manufacturing and R&D applications, for industries ranging from mobile-telecomm and wireless-LAN component production to aerospace and defense.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight N5232B PNA-L series network analyzer is designed for S-parameter an
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='NETWORK_ANALYZERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N5232B in Python
+## Connect to the Keysight (Agilent) N5232B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -74,7 +74,7 @@ from qcodes.instrument_drivers.Keysight.Keysight_P9372A import Keysight_P9372A
 # Create a station to hold the instruments
 station = Station()
 
-# Connect to the Keysight N5232B Network Analyzer
+# Connect to the Keysight (Agilent) N5232B Network Analyzer
 na = Keysight_P9372A('na', 'TCPIP0::192.168.1.1::inst0::INSTR')
 station.add_component(na)
 
@@ -122,7 +122,7 @@ data = na.traces[0].get()
 print(data)
 ```
 
-Note: The above code assumes that the IP address of the Keysight N5232B Network Analyzer is `192.168.1.1`. Please replace it with the correct IP address of your instrument.
+Note: The above code assumes that the IP address of the Keysight (Agilent) N5232B Network Analyzer is `192.168.1.1`. Please replace it with the correct IP address of your instrument.
 
 </TabItem>
 </Tabs>

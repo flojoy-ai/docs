@@ -256,7 +256,7 @@ These are just a few examples of the instruments supported by InstrumentKit. The
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 3456A</figcaption>
+<figcaption>Keysight (Agilent) 3456A</figcaption>
 </figure>
 </a>
 
@@ -640,7 +640,7 @@ These are just a few examples of the instruments supported by InstrumentKit. The
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E3631A</figcaption>
+<figcaption>Keysight (Agilent) E3631A</figcaption>
 </figure>
 </a>
 
@@ -724,7 +724,7 @@ These are just a few examples of the instruments supported by InstrumentKit. The
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719424/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33220A</figcaption>
+<figcaption>Keysight (Agilent) 33220A</figcaption>
 </figure>
 </a>
 
@@ -941,7 +941,7 @@ These are just a few examples of the wide range of instruments supported by the 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 81110A</figcaption>
+<figcaption>Keysight (Agilent) 81110A</figcaption>
 </figure>
 </a>
 
@@ -1001,7 +1001,7 @@ These are just a few examples of the wide range of instruments supported by the 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 86100A</figcaption>
+<figcaption>Keysight (Agilent) 86100A</figcaption>
 </figure>
 </a>
 
@@ -1089,7 +1089,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33120A</figcaption>
+<figcaption>Keysight (Agilent) 33120A</figcaption>
 </figure>
 </a>
 
@@ -1101,7 +1101,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395418/Instruments/Function%20Generators/Keysight-8116A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8116A</figcaption>
+<figcaption>Keysight (Agilent) 8116A</figcaption>
 </figure>
 </a>
 
@@ -1137,7 +1137,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N7776C</figcaption>
+<figcaption>Keysight (Agilent) N7776C</figcaption>
 </figure>
 </a>
 
@@ -1257,7 +1257,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34450A</figcaption>
+<figcaption>Keysight (Agilent) 34450A</figcaption>
 </figure>
 </a>
 
@@ -1269,7 +1269,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4980A</figcaption>
+<figcaption>Keysight (Agilent) E4980A</figcaption>
 </figure>
 </a>
 
@@ -1305,7 +1305,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 3478A</figcaption>
+<figcaption>Keysight (Agilent) 3478A</figcaption>
 </figure>
 </a>
 
@@ -1365,7 +1365,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8722ES </figcaption>
+<figcaption>Keysight (Agilent) 8722ES </figcaption>
 </figure>
 </a>
 
@@ -1377,7 +1377,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight DSOX1102G</figcaption>
+<figcaption>Keysight (Agilent) DSOX1102G</figcaption>
 </figure>
 </a>
 
@@ -1581,7 +1581,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5767A</figcaption>
+<figcaption>Keysight (Agilent) N5767A</figcaption>
 </figure>
 </a>
 
@@ -1677,7 +1677,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719432/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33521A</figcaption>
+<figcaption>Keysight (Agilent) 33521A</figcaption>
 </figure>
 </a>
 
@@ -1713,7 +1713,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8657B</figcaption>
+<figcaption>Keysight (Agilent) 8657B</figcaption>
 </figure>
 </a>
 
@@ -1749,7 +1749,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 4156C</figcaption>
+<figcaption>Keysight (Agilent) 4156C</figcaption>
 </figure>
 </a>
 
@@ -1761,7 +1761,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4408B ESA-L</figcaption>
+<figcaption>Keysight (Agilent) E4408B ESA-L</figcaption>
 </figure>
 </a>
 
@@ -1773,7 +1773,7 @@ These are just a few examples of the wide range of instruments supported by PyMe
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692727806/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B1500A</figcaption>
+<figcaption>Keysight (Agilent) B1500A</figcaption>
 </figure>
 </a>
 
@@ -2088,7 +2088,7 @@ Now, let's explore some of the popular and commonly used instruments that can be
 
 1. Keithley 2400 Series SourceMeter: This instrument combines the functionality of a precision power supply, current source, and digital multimeter. It is widely used in semiconductor characterization, materials research, and device testing.
 
-2. Keysight E5071C Network Analyzer: This network analyzer is used for measuring the scattering parameters (S-parameters) of high-frequency electrical networks. It is commonly employed in RF and microwave engineering, telecommunications, and signal integrity analysis.
+2. Keysight (Agilent) E5071C Network Analyzer: This network analyzer is used for measuring the scattering parameters (S-parameters) of high-frequency electrical networks. It is commonly employed in RF and microwave engineering, telecommunications, and signal integrity analysis.
 
 3. Agilent 34401A Digital Multimeter: This versatile multimeter offers high accuracy and resolution for measuring voltage, current, resistance, and other electrical parameters. It is widely used in electronics testing, calibration, and research applications.
 
@@ -2158,7 +2158,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34934A</figcaption>
+<figcaption>Keysight (Agilent) 34934A</figcaption>
 </figure>
 </a>
 
@@ -2170,7 +2170,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A</figcaption>
+<figcaption>Keysight (Agilent) 34980A</figcaption>
 </figure>
 </a>
 
@@ -2182,7 +2182,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34980A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2242,7 +2242,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33210A</figcaption>
+<figcaption>Keysight (Agilent) 33210A</figcaption>
 </figure>
 </a>
 
@@ -2254,7 +2254,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33622A</figcaption>
+<figcaption>Keysight (Agilent) 33622A</figcaption>
 </figure>
 </a>
 
@@ -2374,7 +2374,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34401A</figcaption>
+<figcaption>Keysight (Agilent) 34401A</figcaption>
 </figure>
 </a>
 
@@ -2386,7 +2386,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34410A</figcaption>
+<figcaption>Keysight (Agilent) 34410A</figcaption>
 </figure>
 </a>
 
@@ -2398,7 +2398,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34411A</figcaption>
+<figcaption>Keysight (Agilent) 34411A</figcaption>
 </figure>
 </a>
 
@@ -2458,7 +2458,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395578/Instruments/Multimeters/Keysight-34410A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34410A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34410A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2470,7 +2470,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395579/Instruments/Multimeters/Keysight-34411A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34411A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34411A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2482,7 +2482,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34460A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34460A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2494,7 +2494,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395583/Instruments/Multimeters/Keysight-34461A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34461A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34461A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2506,7 +2506,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34465A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34465A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2518,7 +2518,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395586/Instruments/Multimeters/Keysight-34470A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34470A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34470A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2530,7 +2530,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395589/Instruments/Multimeters/Keysight-34980A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A</figcaption>
+<figcaption>Keysight (Agilent) 34980A</figcaption>
 </figure>
 </a>
 
@@ -2542,7 +2542,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 34980A Submodules</figcaption>
+<figcaption>Keysight (Agilent) 34980A Submodules</figcaption>
 </figure>
 </a>
 
@@ -2554,7 +2554,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E4980A</figcaption>
+<figcaption>Keysight (Agilent) E4980A</figcaption>
 </figure>
 </a>
 
@@ -2566,7 +2566,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395606/Instruments/Multimeters/Keysight-N6705B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
+<figcaption>Keysight (Agilent) N6705B</figcaption>
 </figure>
 </a>
 
@@ -2578,7 +2578,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 8753D</figcaption>
+<figcaption>Keysight (Agilent) 8753D</figcaption>
 </figure>
 </a>
 
@@ -2590,7 +2590,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 5222B</figcaption>
+<figcaption>Keysight (Agilent) 5222B</figcaption>
 </figure>
 </a>
 
@@ -2602,7 +2602,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5230C/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5230C</figcaption>
+<figcaption>Keysight (Agilent) N5230C</figcaption>
 </figure>
 </a>
 
@@ -2614,7 +2614,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5232B</figcaption>
+<figcaption>Keysight (Agilent) N5232B</figcaption>
 </figure>
 </a>
 
@@ -2626,7 +2626,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight P9374A</figcaption>
+<figcaption>Keysight (Agilent) P9374A</figcaption>
 </figure>
 </a>
 
@@ -2638,7 +2638,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5245A</figcaption>
+<figcaption>Keysight (Agilent) N5245A</figcaption>
 </figure>
 </a>
 
@@ -2698,7 +2698,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
+<figcaption>Keysight (Agilent) N6705B</figcaption>
 </figure>
 </a>
 
@@ -2830,7 +2830,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960XA-Series</figcaption>
+<figcaption>Keysight (Agilent) M960XA-Series</figcaption>
 </figure>
 </a>
 
@@ -2842,7 +2842,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395548/Instruments/Power%20Meters/Keysight-M960x-defs/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960x defs</figcaption>
+<figcaption>Keysight (Agilent) M960x defs</figcaption>
 </figure>
 </a>
 
@@ -2998,7 +2998,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960XA-Series</figcaption>
+<figcaption>Keysight (Agilent) M960XA-Series</figcaption>
 </figure>
 </a>
 
@@ -3010,7 +3010,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M960x defs</figcaption>
+<figcaption>Keysight (Agilent) M960x defs</figcaption>
 </figure>
 </a>
 
@@ -3178,7 +3178,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B2962A</figcaption>
+<figcaption>Keysight (Agilent) B2962A</figcaption>
 </figure>
 </a>
 
@@ -3190,7 +3190,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395605/Instruments/Power%20Supplies/Keysight-N6705B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
+<figcaption>Keysight (Agilent) N6705B</figcaption>
 </figure>
 </a>
 
@@ -3382,7 +3382,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8257D</figcaption>
+<figcaption>Keysight (Agilent) E8257D</figcaption>
 </figure>
 </a>
 
@@ -3394,7 +3394,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639247/Instruments/RF%20Signal%20Generators/Keysight-E8267D/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267D</figcaption>
+<figcaption>Keysight (Agilent) E8267D</figcaption>
 </figure>
 </a>
 
@@ -3406,7 +3406,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267C</figcaption>
+<figcaption>Keysight (Agilent) E8267C</figcaption>
 </figure>
 </a>
 
@@ -3430,7 +3430,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33250A</figcaption>
+<figcaption>Keysight (Agilent) 33250A</figcaption>
 </figure>
 </a>
 
@@ -3442,7 +3442,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395569/Instruments/RF%20Signal%20Generators/Keysight-33510B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33510B</figcaption>
+<figcaption>Keysight (Agilent) 33510B</figcaption>
 </figure>
 </a>
 
@@ -3454,7 +3454,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33511B</figcaption>
+<figcaption>Keysight (Agilent) 33511B</figcaption>
 </figure>
 </a>
 
@@ -3466,7 +3466,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395572/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33512B</figcaption>
+<figcaption>Keysight (Agilent) 33512B</figcaption>
 </figure>
 </a>
 
@@ -3478,7 +3478,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight 33522B</figcaption>
+<figcaption>Keysight (Agilent) 33522B</figcaption>
 </figure>
 </a>
 
@@ -3490,7 +3490,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639262/Instruments/RF%20Signal%20Generators/Keysight-N5173B-EXG/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5173B EXG</figcaption>
+<figcaption>Keysight (Agilent) N5173B EXG</figcaption>
 </figure>
 </a>
 
@@ -3502,7 +3502,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395596/Instruments/RF%20Signal%20Generators/Keysight-N5183B-MXG/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5183B MXG</figcaption>
+<figcaption>Keysight (Agilent) N5183B MXG</figcaption>
 </figure>
 </a>
 
@@ -3514,7 +3514,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N9030B PXA</figcaption>
+<figcaption>Keysight (Agilent) N9030B PXA</figcaption>
 </figure>
 </a>
 
@@ -3526,7 +3526,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395608/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N6705B</figcaption>
+<figcaption>Keysight (Agilent) N6705B</figcaption>
 </figure>
 </a>
 
@@ -3550,7 +3550,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight MAwgDef</figcaption>
+<figcaption>Keysight (Agilent) MAwgDef</figcaption>
 </figure>
 </a>
 
@@ -3562,7 +3562,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N5171B EXG</figcaption>
+<figcaption>Keysight (Agilent) N5171B EXG</figcaption>
 </figure>
 </a>
 
@@ -3658,7 +3658,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692728010/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B1500A</figcaption>
+<figcaption>Keysight (Agilent) B1500A</figcaption>
 </figure>
 </a>
 
@@ -3694,7 +3694,7 @@ These are just a few examples of the wide range of instruments that can be contr
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight B2200A</figcaption>
+<figcaption>Keysight (Agilent) B2200A</figcaption>
 </figure>
 </a>
 
@@ -3777,7 +3777,7 @@ Now, let's explore some of the popular and commonly used instruments supported b
 
 1. Keithley 2400 SourceMeter: This instrument is widely used for sourcing and measuring electrical signals. With QCodes Community, you can easily control the Keithley 2400, set voltage and current levels, and acquire measurement data with high precision.
 
-2. Keysight E8267D PSG Vector Signal Generator: This signal generator is commonly used in RF and wireless communication applications. QCodes Community provides a comprehensive interface to control the E8267D PSG, allowing users to generate complex waveforms, modulate signals, and perform frequency sweeps effortlessly.
+2. Keysight (Agilent) E8267D PSG Vector Signal Generator: This signal generator is commonly used in RF and wireless communication applications. QCodes Community provides a comprehensive interface to control the E8267D PSG, allowing users to generate complex waveforms, modulate signals, and perform frequency sweeps effortlessly.
 
 3. Tektronix DPO7000 Series Oscilloscope: QCodes Community offers seamless integration with Tektronix DPO7000 series oscilloscopes, enabling users to control various oscilloscope settings, acquire waveform data, and perform advanced triggering and analysis.
 
@@ -4229,7 +4229,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N3300A</figcaption>
+<figcaption>Keysight (Agilent) N3300A</figcaption>
 </figure>
 </a>
 
@@ -4289,7 +4289,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight J7211-A-B-C-Series</figcaption>
+<figcaption>Keysight (Agilent) J7211-A-B-C-Series</figcaption>
 </figure>
 </a>
 
@@ -4649,7 +4649,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E36313A</figcaption>
+<figcaption>Keysight (Agilent) E36313A</figcaption>
 </figure>
 </a>
 
@@ -4770,7 +4770,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight E8267D PSG</figcaption>
+<figcaption>Keysight (Agilent) E8267D PSG</figcaption>
 </figure>
 </a>
 
@@ -4782,7 +4782,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M3201A</figcaption>
+<figcaption>Keysight (Agilent) M3201A</figcaption>
 </figure>
 </a>
 
@@ -4794,7 +4794,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395775/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight M3202A</figcaption>
+<figcaption>Keysight (Agilent) M3202A</figcaption>
 </figure>
 </a>
 
@@ -4938,7 +4938,7 @@ These are just a few examples of the instruments supported by QCodes Community. 
 
 <figure style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }}>
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg" style={{ width: "185px", height: "200px", objectFit: "scale-down", marginRight: "15px" }} />
-<figcaption>Keysight N9000A</figcaption>
+<figcaption>Keysight (Agilent) N9000A</figcaption>
 </figure>
 </a>
 

@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight B2200A by Keysight in Python
-sidebar_label: Keysight B2200A
-description: The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
+title: Connecting to Keysight (Agilent) B2200A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) B2200A
+description: The Keysight (Agilent) B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
 keywords: [switches, Keysight, QCodes]
 slug: /instruments-database/switches/keysight/keysight-b2200a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight B2200A
+# Keysight (Agilent) B2200A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
+The Keysight (Agilent) B2200A fA leakage switch mainframe reduces the cost of test by enabling automatic characterization tests without compromising the measurement performance of the semiconductor parameter analyzer.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight B2200A fA leakage switch mainframe reduces the cost of test by enab
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='SWITCHES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight B2200A in Python
+## Connect to the Keysight (Agilent) B2200A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight B2200A Switch using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) B2200A Switch using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument.visa import VisaInstrument
@@ -89,7 +89,7 @@ switch.close()
 
 This script creates an instance of the `KeysightB2200` instrument, specifying the instrument name and address. Then, it connects to the instrument using the `connect_message()` method. After that, you can perform operations on the switch, such as connecting and disconnecting input/output pairs using the `connect()` and `disconnect()` methods. Finally, the connection to the instrument is closed using the `close()` method.
 
-Note: Make sure to replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your Keysight B2200A Switch.
+Note: Make sure to replace `'TCPIP0::192.168.1.1::inst0::INSTR'` with the actual address of your Keysight (Agilent) B2200A Switch.
 
 </TabItem>
 </Tabs>

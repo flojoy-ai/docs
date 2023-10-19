@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E3631A by HP in Python
-sidebar_label: Keysight E3631A
+title: Connecting to Keysight (Agilent) E3631A by HP in Python
+sidebar_label: Keysight (Agilent) E3631A
 description: E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 keywords: [power supplies, HP, InstrumentKit]
 slug: /instruments-database/power-supplies/hp/keysight-e3631a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E3631A
+# Keysight (Agilent) E3631A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ E3631A 80W Triple Output Power Supply, 6V, 5A & ±25V, 1A
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E3631A in Python
+## Connect to the Keysight (Agilent) E3631A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="InstrumentKit" label="InstrumentKit">
 
-To connect to a Keysight E3631A Power Supply using Instrumentkit, you can use the following Python script:
+To connect to a Keysight (Agilent) E3631A Power Supply using Instrumentkit, you can use the following Python script:
 
 ```python
 import instrumentkit as ik

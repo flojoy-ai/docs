@@ -285,7 +285,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.jpg'
     instrument={true}
 >
-    Keysight B2962A
+    Keysight (Agilent) B2962A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -293,7 +293,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395741/Instruments/Power%20Supplies/Keysight-E36313A/file.jpg'
     instrument={true}
 >
-    Keysight E36313A
+    Keysight (Agilent) E36313A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -301,7 +301,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692393999/Instruments/Power%20Supplies/Keysight-E3631A/file.jpg'
     instrument={true}
 >
-    Keysight E3631A
+    Keysight (Agilent) E3631A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -309,7 +309,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395547/Instruments/Power%20Supplies/Keysight-M960XA-Series/file.jpg'
     instrument={true}
 >
-    Keysight M960XA-Series
+    Keysight (Agilent) M960XA-Series
 </AppThumbnail>
 
 <AppThumbnail 
@@ -317,7 +317,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395549/Instruments/Power%20Supplies/Keysight-M960x-defs/file.jpg'
     instrument={true}
 >
-    Keysight M960x defs
+    Keysight (Agilent) M960x defs
 </AppThumbnail>
 
 <AppThumbnail 
@@ -325,7 +325,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395441/Instruments/Power%20Supplies/Keysight-N5767A/file.jpg'
     instrument={true}
 >
-    Keysight N5767A
+    Keysight (Agilent) N5767A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -333,7 +333,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395605/Instruments/Power%20Supplies/Keysight-N6705B/file.jpg'
     instrument={true}
 >
-    Keysight N6705B
+    Keysight (Agilent) N6705B
 </AppThumbnail>
 
 <AppThumbnail 

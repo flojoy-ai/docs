@@ -61,7 +61,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395587/Instruments/DAQ%20boards/Keysight-34934A/file.jpg'
     instrument={true}
 >
-    Keysight 34934A
+    Keysight (Agilent) 34934A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -69,7 +69,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg'
     instrument={true}
 >
-    Keysight 34980A
+    Keysight (Agilent) 34980A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -77,7 +77,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395590/Instruments/DAQ%20boards/Keysight-34980A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34980A Submodules
+    Keysight (Agilent) 34980A Submodules
 </AppThumbnail>
 
 <AppThumbnail 

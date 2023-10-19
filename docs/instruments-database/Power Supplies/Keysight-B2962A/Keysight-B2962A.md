@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight B2962A by Keysight in Python
-sidebar_label: Keysight B2962A
-description: The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
+title: Connecting to Keysight (Agilent) B2962A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) B2962A
+description: The Keysight (Agilent) B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
 keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-database/power-supplies/keysight/keysight-b2962a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395593/Instruments/Power%20Supplies/Keysight-B2962A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight B2962A
+# Keysight (Agilent) B2962A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
+The Keysight (Agilent) B2962A source / measure unit (SMU) is a 6.5-digit low noise power source that provides a power supply and source solution that meets the difficult measurement challenges researchers, designers, and developers face working on advanced components, circuits, and materials.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight B2962A source / measure unit (SMU) is a 6.5-digit low noise power s
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight B2962A in Python
+## Connect to the Keysight (Agilent) B2962A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

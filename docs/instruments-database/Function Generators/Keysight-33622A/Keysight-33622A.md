@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 33622A by Keysight in Python
-sidebar_label: Keysight 33622A
-description: The Keysight 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
+title: Connecting to Keysight (Agilent) 33622A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 33622A
+description: The Keysight (Agilent) 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
 keywords: [function generators, Keysight, QCodes]
 slug: /instruments-database/function-generators/keysight/keysight-33622a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33622A
+# Keysight (Agilent) 33622A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
+The Keysight (Agilent) 33622A function/arbitrary waveform generators offer the standard signals and features you expect, such as modulation, sweep, and burst. However, it also provides features that give you the capabilities and flexibility you need to get your job done quickly, no matter how complex. An intuitive front-panel user interface, for example, can be quickly and easily relearned when your attention has been focused elsewhere.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight 33622A function/arbitrary waveform generators offer the standard si
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33622A in Python
+## Connect to the Keysight (Agilent) 33622A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 33622A Function Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 33622A Function Generator using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX

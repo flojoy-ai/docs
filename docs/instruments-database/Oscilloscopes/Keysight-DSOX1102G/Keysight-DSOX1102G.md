@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight DSOX1102G by Keysight in Python
-sidebar_label: Keysight DSOX1102G
+title: Connecting to Keysight (Agilent) DSOX1102G by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) DSOX1102G
 description: The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channels, and waveform generator
 keywords: [oscilloscopes, Keysight, PyMeasure]
 slug: /instruments-database/oscilloscopes/keysight/keysight-dsox1102g
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight DSOX1102G
+# Keysight (Agilent) DSOX1102G
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The DSOX1102G oscilloscope provides 70, 100 MHz of bandwidth on 2 analog channel
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='OSCILLOSCOPES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight DSOX1102G in Python
+## Connect to the Keysight (Agilent) DSOX1102G in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

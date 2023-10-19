@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E8267D by Agilent in Python
-sidebar_label: Keysight E8267D
+title: Connecting to Keysight (Agilent) E8267D by Agilent in Python
+sidebar_label: Keysight (Agilent) E8267D
 description: E8267D PSG Vector Signal Generator, 100 kHz to 44 GHz
 keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-e8267d
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E8267D
+# Keysight (Agilent) E8267D
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ E8267D PSG Vector Signal Generator, 100 kHz to 44 GHz
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E8267D in Python
+## Connect to the Keysight (Agilent) E8267D in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight E8267D RF Signal Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) E8267D RF Signal Generator using Qcodes, you can use the following Python script:
 
 ```python
 import qcodes as qc
@@ -90,7 +90,7 @@ signal_generator.frequency(1e9)
 signal_generator.disconnect()
 ```
 
-Note that you need to replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual address of your Keysight E8267D RF Signal Generator.
+Note that you need to replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual address of your Keysight (Agilent) E8267D RF Signal Generator.
 
 </TabItem>
 </Tabs>

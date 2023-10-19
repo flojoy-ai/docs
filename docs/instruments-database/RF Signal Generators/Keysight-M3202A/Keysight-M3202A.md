@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight M3202A by Keysight in Python
-sidebar_label: Keysight M3202A
+title: Connecting to Keysight (Agilent) M3202A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) M3202A
 description: Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board FPGA with optional software tools that enable real-time sequencing, inter-module synchronization, and graphical FPGA design environment.
 keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-m3202a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight M3202A
+# Keysight (Agilent) M3202A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ Keysight's M3202A PXIe arbitrary waveform generator offers 4 channels, on-board 
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight M3202A in Python
+## Connect to the Keysight (Agilent) M3202A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
-To connect to a Keysight M3202A RF Signal Generator using Qcodes Community, you can use the following Python script:
+To connect to a Keysight (Agilent) M3202A RF Signal Generator using Qcodes Community, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.KeysightM3202A import M3202A

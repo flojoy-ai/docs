@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight P9374A by Keysight in Python
-sidebar_label: Keysight P9374A
-description: P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
+title: Connecting to Keysight (Agilent) P9374A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) P9374A
+description: P9374A Keysight (Agilent) Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-p9374a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight P9374A
+# Keysight (Agilent) P9374A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
+P9374A Keysight (Agilent) Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceless, USB vector network analyzer (VNA). Affordable full two-port VNA which dramatically reduces your size of test. Up to 20 GHz.
 
 </div>
 
@@ -38,7 +38,7 @@ P9374A Keysight Streamline USB Vector Network Analyzer, 20 GHz. Compact, faceles
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='NETWORK_ANALYZERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight P9374A in Python
+## Connect to the Keysight (Agilent) P9374A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

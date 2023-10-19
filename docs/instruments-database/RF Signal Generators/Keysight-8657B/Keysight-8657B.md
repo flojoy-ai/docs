@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 8657B by HP in Python
-sidebar_label: Keysight 8657B
+title: Connecting to Keysight (Agilent) 8657B by HP in Python
+sidebar_label: Keysight (Agilent) 8657B
 description: The Agilent Technologies 8657A and 8657B signal generators are designed to test AM, FM, and pulsed receivers as well as components.
 keywords: [rf signal generators, HP, PyMeasure]
 slug: /instruments-database/rf-signal-generators/hp/keysight-8657b
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 8657B
+# Keysight (Agilent) 8657B
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The Agilent Technologies 8657A and 8657B signal generators are designed to test 
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 8657B in Python
+## Connect to the Keysight (Agilent) 8657B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
-Here is a Python script that uses Pymeasure to connect to a Keysight 8657B RF Signal Generator:
+Here is a Python script that uses Pymeasure to connect to a Keysight (Agilent) 8657B RF Signal Generator:
 
 ```python
 from pymeasure.adapters import VISAAdapter

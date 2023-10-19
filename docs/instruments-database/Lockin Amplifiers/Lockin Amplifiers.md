@@ -53,7 +53,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395743/Instruments/Lockin%20Amplifiers/Keysight-J7211-A-B-C-Series/file.jpg'
     instrument={true}
 >
-    Keysight J7211/A/B/C-Series
+    Keysight (Agilent) J7211/A/B/C-Series
 </AppThumbnail>
 
 <AppThumbnail 

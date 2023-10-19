@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 34450A by Agilent in Python
-sidebar_label: Keysight 34450A
-description: Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
+title: Connecting to Keysight (Agilent) 34450A by Agilent in Python
+sidebar_label: Keysight (Agilent) 34450A
+description: Turbo charge your production line with the Keysight (Agilent) 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
 keywords: [multimeters, Agilent, PyMeasure]
 slug: /instruments-database/multimeters/agilent/keysight-34450a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 34450A
+# Keysight (Agilent) 34450A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
+Turbo charge your production line with the Keysight (Agilent) 34450A 5.5-digit multimeter with OLED display. With its fast speed of up to 190 readings per second, you can increase your manufacturing throughput tremendously.
 
 </div>
 
@@ -38,7 +38,7 @@ Turbo charge your production line with the Keysight 34450A 5.5-digit multimeter 
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 34450A in Python
+## Connect to the Keysight (Agilent) 34450A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

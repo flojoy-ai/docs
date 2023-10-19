@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E8267D PSG by Keysight in Python
-sidebar_label: Keysight E8267D PSG
+title: Connecting to Keysight (Agilent) E8267D PSG by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) E8267D PSG
 description: The E8267D PSG Vector Signal Generator is the highest performance, fully-integrated microwave vector signal generator from 100 kHz to 44 GHz, allowing you to create realistic wideband radar, electronic warfare (EW), and satellite communications (SATCOM) waveforms.
 keywords: [rf signal generators, Keysight, QCodes Community]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-e8267d-psg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E8267D PSG
+# Keysight (Agilent) E8267D PSG
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The E8267D PSG Vector Signal Generator is the highest performance, fully-integra
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E8267D PSG in Python
+## Connect to the Keysight (Agilent) E8267D PSG in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,13 +67,13 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
-To connect to a Keysight E8267D PSG RF Signal Generator using Qcodes Community, you can use the following Python script:
+To connect to a Keysight (Agilent) E8267D PSG RF Signal Generator using Qcodes Community, you can use the following Python script:
 
 ```python
 from qcodes.instrument.visa import VisaInstrument
 from qcodes.instrument_drivers.Keysight.Keysight_E8267D import Keysight_E8267D
 
-# Create an instance of the Keysight E8267D PSG RF Signal Generator
+# Create an instance of the Keysight (Agilent) E8267D PSG RF Signal Generator
 signal_generator = Keysight_E8267D("signal_generator", "TCPIP0::192.168.1.1::inst0::INSTR")
 
 # Connect to the signal generator
@@ -96,7 +96,7 @@ power = signal_generator.power()
 signal_generator.disconnect()
 ```
 
-Please note that you need to replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual VISA address of your Keysight E8267D PSG RF Signal Generator.
+Please note that you need to replace `"TCPIP0::192.168.1.1::inst0::INSTR"` with the actual VISA address of your Keysight (Agilent) E8267D PSG RF Signal Generator.
 
 </TabItem>
 </Tabs>

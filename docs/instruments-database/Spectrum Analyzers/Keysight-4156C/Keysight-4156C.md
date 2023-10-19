@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 4156C by Agilent in Python
-sidebar_label: Keysight 4156C
+title: Connecting to Keysight (Agilent) 4156C by Agilent in Python
+sidebar_label: Keysight (Agilent) 4156C
 description: 4156C Precision Semiconductor Parameter Analyzer
 keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-4156c
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 4156C
+# Keysight (Agilent) 4156C
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 4156C in Python
+## Connect to the Keysight (Agilent) 4156C in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -93,7 +93,7 @@ data = instrument.get_data()
 print(data)
 ```
 
-In this example, you would need to replace `"GPIB0::25"` with the appropriate address of your Keysight 4156C Spectrum Analyzer. You would also need to provide a valid JSON configuration file for the `configure` method.
+In this example, you would need to replace `"GPIB0::25"` with the appropriate address of your Keysight (Agilent) 4156C Spectrum Analyzer. You would also need to provide a valid JSON configuration file for the `configure` method.
 
 The script connects to the instrument, resets it, configures it using the JSON file, saves the desired data variables, performs a measurement, and retrieves the measured data as a pandas DataFrame. Finally, it prints the data.
 

@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 33210A by Keysight in Python
-sidebar_label: Keysight 33210A
-description: The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
+title: Connecting to Keysight (Agilent) 33210A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 33210A
+description: The Keysight (Agilent) (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
 keywords: [function generators, Keysight, QCodes]
 slug: /instruments-database/function-generators/keysight/keysight-33210a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33210A
+# Keysight (Agilent) 33210A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
+The Keysight (Agilent) (formerly Agilent) 33210A is the latest function/arbitrary waveform generator from Keysight. It uses direct digital synthesis techniques to create a stable, accurate output signal having clean, low distortion sine waves. For user defined waveforms, option 002 provides 14-bit 8k point arbitrary waveform generation
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight (formerly Agilent) 33210A is the latest function/arbitrary waveform
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33210A in Python
+## Connect to the Keysight (Agilent) 33210A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 33210A Function Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 33210A Function Generator using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX

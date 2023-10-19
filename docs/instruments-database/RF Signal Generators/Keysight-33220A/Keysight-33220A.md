@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 33220A by Agilent in Python
-sidebar_label: Keysight 33220A
-description: The Keysight 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
+title: Connecting to Keysight (Agilent) 33220A by Agilent in Python
+sidebar_label: Keysight (Agilent) 33220A
+description: The Keysight (Agilent) 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
 keywords: [rf signal generators, Agilent, InstrumentKit]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-33220a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719424/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33220A
+# Keysight (Agilent) 33220A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
+The Keysight (Agilent) 33220A is a 20 MHz synthesized function generator with built-in arbitrary waveform and pulse capabilities. Itscombination of bench-top and system features makes this function generator a versatile solution for your testing requirements now and in the future.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight 33220A is a 20 MHz synthesized function generator with built-in arb
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33220A in Python
+## Connect to the Keysight (Agilent) 33220A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -71,7 +71,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 ```python
 from instrumentkit import Instrument, SCPIInstrument
 
-# Define the SCPI commands for the Keysight 33220A RF Signal Generator
+# Define the SCPI commands for the Keysight (Agilent) 33220A RF Signal Generator
 class Keysight33220A(SCPIInstrument):
     def __init__(self, resource_name):
         super().__init__(resource_name)
@@ -88,7 +88,7 @@ class Keysight33220A(SCPIInstrument):
     def disable_output(self):
         self.send_command("OUTP OFF")
 
-# Connect to the Keysight 33220A RF Signal Generator
+# Connect to the Keysight (Agilent) 33220A RF Signal Generator
 signal_generator = Keysight33220A("TCPIP0::192.168.1.1::INSTR")
 
 # Set the frequency to 1 MHz
@@ -108,7 +108,7 @@ signal_generator.disable_output()
 signal_generator.disconnect()
 ```
 
-Make sure to replace `"TCPIP0::192.168.1.1::INSTR"` with the actual resource name or address of your Keysight 33220A RF Signal Generator.
+Make sure to replace `"TCPIP0::192.168.1.1::INSTR"` with the actual resource name or address of your Keysight (Agilent) 33220A RF Signal Generator.
 
 </TabItem>
 </Tabs>

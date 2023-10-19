@@ -53,7 +53,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639171/Instruments/Function%20Generators/Keysight-33120A/file.jpg'
     instrument={true}
 >
-    Keysight 33120A
+    Keysight (Agilent) 33120A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -61,7 +61,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395566/Instruments/Function%20Generators/Keysight-33210A/file.jpg'
     instrument={true}
 >
-    Keysight 33210A
+    Keysight (Agilent) 33210A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -69,7 +69,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395576/Instruments/Function%20Generators/Keysight-33622A/file.jpg'
     instrument={true}
 >
-    Keysight 33622A
+    Keysight (Agilent) 33622A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -77,7 +77,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg'
     instrument={true}
 >
-    Keysight 81110A
+    Keysight (Agilent) 81110A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -85,7 +85,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395418/Instruments/Function%20Generators/Keysight-8116A/file.jpg'
     instrument={true}
 >
-    Keysight 8116A
+    Keysight (Agilent) 8116A
 </AppThumbnail>
 
 <AppThumbnail 

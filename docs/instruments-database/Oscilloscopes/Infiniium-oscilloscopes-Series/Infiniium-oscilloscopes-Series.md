@@ -1,5 +1,5 @@
 ---
-title: Connecting to Infiniium oscilloscopes Series by Keysight in Python
+title: Connecting to Infiniium oscilloscopes Series by Keysight (Agilent) in Python
 sidebar_label: Infiniium oscilloscopes Series
 description: Infiniium series oscilloscopes feature application-specific software that allows you to gain valuable insight into your design. Whether you are solving tough jitter or noise problems, removing loss due to cables or probes, or simply looking at protocol, this series has the software tools to help you realize your best design.
 keywords: [oscilloscopes, Keysight, QCodes]
@@ -38,7 +38,7 @@ Infiniium series oscilloscopes feature application-specific software that allows
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>

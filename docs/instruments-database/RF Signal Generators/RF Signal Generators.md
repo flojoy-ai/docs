@@ -149,7 +149,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719424/Instruments/RF%20Signal%20Generators/Keysight-33220A/file.jpg'
     instrument={true}
 >
-    Keysight 33220A
+    Keysight (Agilent) 33220A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -157,7 +157,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395568/Instruments/RF%20Signal%20Generators/Keysight-33250A/file.jpg'
     instrument={true}
 >
-    Keysight 33250A
+    Keysight (Agilent) 33250A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -165,7 +165,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395569/Instruments/RF%20Signal%20Generators/Keysight-33510B/file.jpg'
     instrument={true}
 >
-    Keysight 33510B
+    Keysight (Agilent) 33510B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -173,7 +173,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395571/Instruments/RF%20Signal%20Generators/Keysight-33511B/file.jpg'
     instrument={true}
 >
-    Keysight 33511B
+    Keysight (Agilent) 33511B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -181,7 +181,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395572/Instruments/RF%20Signal%20Generators/Keysight-33512B/file.jpg'
     instrument={true}
 >
-    Keysight 33512B
+    Keysight (Agilent) 33512B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -189,7 +189,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719432/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.jpg'
     instrument={true}
 >
-    Keysight 33521A
+    Keysight (Agilent) 33521A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -197,7 +197,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg'
     instrument={true}
 >
-    Keysight 33522B
+    Keysight (Agilent) 33522B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -205,7 +205,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/RF%20Signal%20Generators/Keysight-8657B/file.jpg'
     instrument={true}
 >
-    Keysight 8657B
+    Keysight (Agilent) 8657B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -213,7 +213,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395529/Instruments/RF%20Signal%20Generators/Keysight-E8257D/file.jpg'
     instrument={true}
 >
-    Keysight E8257D
+    Keysight (Agilent) E8257D
 </AppThumbnail>
 
 <AppThumbnail 
@@ -221,7 +221,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639245/Instruments/RF%20Signal%20Generators/Keysight-E8267C/file.jpg'
     instrument={true}
 >
-    Keysight E8267C
+    Keysight (Agilent) E8267C
 </AppThumbnail>
 
 <AppThumbnail 
@@ -229,7 +229,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639247/Instruments/RF%20Signal%20Generators/Keysight-E8267D/file.jpg'
     instrument={true}
 >
-    Keysight E8267D
+    Keysight (Agilent) E8267D
 </AppThumbnail>
 
 <AppThumbnail 
@@ -237,7 +237,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395739/Instruments/RF%20Signal%20Generators/Keysight-E8267D-PSG/file.jpg'
     instrument={true}
 >
-    Keysight E8267D PSG
+    Keysight (Agilent) E8267D PSG
 </AppThumbnail>
 
 <AppThumbnail 
@@ -245,7 +245,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395744/Instruments/RF%20Signal%20Generators/Keysight-M3201A/file.jpg'
     instrument={true}
 >
-    Keysight M3201A
+    Keysight (Agilent) M3201A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -253,7 +253,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395775/Instruments/RF%20Signal%20Generators/Keysight-M3202A/file.jpg'
     instrument={true}
 >
-    Keysight M3202A
+    Keysight (Agilent) M3202A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -261,7 +261,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395610/Instruments/RF%20Signal%20Generators/Keysight-MAwgDef/file.jpg'
     instrument={true}
 >
-    Keysight MAwgDef
+    Keysight (Agilent) MAwgDef
 </AppThumbnail>
 
 <AppThumbnail 
@@ -269,7 +269,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395618/Instruments/RF%20Signal%20Generators/Keysight-N5171B-EXG/file.jpg'
     instrument={true}
 >
-    Keysight N5171B EXG
+    Keysight (Agilent) N5171B EXG
 </AppThumbnail>
 
 <AppThumbnail 
@@ -277,7 +277,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639262/Instruments/RF%20Signal%20Generators/Keysight-N5173B-EXG/file.jpg'
     instrument={true}
 >
-    Keysight N5173B EXG
+    Keysight (Agilent) N5173B EXG
 </AppThumbnail>
 
 <AppThumbnail 
@@ -285,7 +285,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395596/Instruments/RF%20Signal%20Generators/Keysight-N5183B-MXG/file.jpg'
     instrument={true}
 >
-    Keysight N5183B MXG
+    Keysight (Agilent) N5183B MXG
 </AppThumbnail>
 
 <AppThumbnail 
@@ -293,7 +293,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395608/Instruments/RF%20Signal%20Generators/Keysight-N6705B/file.jpg'
     instrument={true}
 >
-    Keysight N6705B
+    Keysight (Agilent) N6705B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -301,7 +301,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395600/Instruments/RF%20Signal%20Generators/Keysight-N9030B-PXA/file.jpg'
     instrument={true}
 >
-    Keysight N9030B PXA
+    Keysight (Agilent) N9030B PXA
 </AppThumbnail>
 
 <AppThumbnail 

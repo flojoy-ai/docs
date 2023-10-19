@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight N5767A by Keysight in Python
-sidebar_label: Keysight N5767A
+title: Connecting to Keysight (Agilent) N5767A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N5767A
 description: The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, LXI compliance, and analog/resistance control of output voltage and current. It delivers reliable performance and enhanced capabilities in a compact 1U package.
 keywords: [power supplies, Keysight, PyMeasure]
 slug: /instruments-database/power-supplies/keysight/keysight-n5767a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N5767A
+# Keysight (Agilent) N5767A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The single output, 1500 W N5767A, provides universal AC input, GPIB, LAN, USB, L
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N5767A in Python
+## Connect to the Keysight (Agilent) N5767A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
-Here is a Python script that uses Pymeasure to connect to a Keysight N5767A Power Supply:
+Here is a Python script that uses Pymeasure to connect to a Keysight (Agilent) N5767A Power Supply:
 
 ```python
 from pymeasure.instruments import Instrument
@@ -142,7 +142,7 @@ print("Is Enabled:", power_supply.is_enabled())
 power_supply.close()
 ```
 
-This script creates a class `KeysightN5767A` that represents the Keysight N5767A Power Supply. It defines properties and methods to control and measure the current and voltage of the power supply.
+This script creates a class `KeysightN5767A` that represents the Keysight (Agilent) N5767A Power Supply. It defines properties and methods to control and measure the current and voltage of the power supply.
 
 The script then creates a VISA adapter using `VISAAdapter("GPIB0::22::INSTR")`, where `"GPIB0::22::INSTR"` is the address of the power supply. You may need to change this address to match your setup.
 

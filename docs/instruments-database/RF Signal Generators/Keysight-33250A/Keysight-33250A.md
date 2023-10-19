@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 33250A by Keysight in Python
-sidebar_label: Keysight 33250A
+title: Connecting to Keysight (Agilent) 33250A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 33250A
 description: The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synthesis techniques to create a stable, accurate output on all waveforms, down to 1 µHz frequency resolution. The benefits are apparent in every signal you produce, from the sine wave frequency accuracy to the fast rise/fall times of square waves, to the ramp linearity.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33250a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33250A
+# Keysight (Agilent) 33250A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The 33250A 80 MHz Function/Arbitrary Waveform Generator uses direct digital-synt
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33250A in Python
+## Connect to the Keysight (Agilent) 33250A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 33250A RF Signal Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 33250A RF Signal Generator using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX

@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight N5245A by Keysight in Python
-sidebar_label: Keysight N5245A
-description: The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
+title: Connecting to Keysight (Agilent) N5245A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N5245A
+description: The Keysight (Agilent) N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
 keywords: [network analyzers, Keysight, QCodes]
 slug: /instruments-database/network-analyzers/keysight/keysight-n5245a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395603/Instruments/Network%20Analyzers/Keysight-N5245A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N5245A
+# Keysight (Agilent) N5245A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
+The Keysight (Agilent) N5245A Network Analyzer provides a wide range of measurement applications for amplifiers, converters, antennas, or mixers with a single connection.
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight N5245A Network Analyzer provides a wide range of measurement applic
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='NETWORK_ANALYZERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N5245A in Python
+## Connect to the Keysight (Agilent) N5245A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -81,7 +81,7 @@ print(n5245a.IDN())
 n5245a.close()
 ```
 
-This code imports the necessary modules and connects to the Keysight N5245A Network Analyzer using the `Keysight_N5245A` driver from the Qcodes library. It then prints the instrument ID and closes the connection.
+This code imports the necessary modules and connects to the Keysight (Agilent) N5245A Network Analyzer using the `Keysight_N5245A` driver from the Qcodes library. It then prints the instrument ID and closes the connection.
 
 </TabItem>
 </Tabs>

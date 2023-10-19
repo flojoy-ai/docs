@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 3478A by HP in Python
-sidebar_label: Keysight 3478A
+title: Connecting to Keysight (Agilent) 3478A by HP in Python
+sidebar_label: Keysight (Agilent) 3478A
 description: The HP 3478A 5.5 digit DMM with HP-IB interface
 keywords: [multimeters, HP, PyMeasure]
 slug: /instruments-database/multimeters/hp/keysight-3478a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 3478A
+# Keysight (Agilent) 3478A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The HP 3478A 5.5 digit DMM with HP-IB interface
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 3478A in Python
+## Connect to the Keysight (Agilent) 3478A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
-Here is a Python script that uses Pymeasure to connect to a Keysight 3478A Multimeter:
+Here is a Python script that uses Pymeasure to connect to a Keysight (Agilent) 3478A Multimeter:
 
 ```python
 from pymeasure.adapters import VISAAdapter

@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 33521A by Agilent in Python
-sidebar_label: Keysight 33521A
-description: Keysight 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
+title: Connecting to Keysight (Agilent) 33521A by Agilent in Python
+sidebar_label: Keysight (Agilent) 33521A
+description: Keysight (Agilent) 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
 keywords: [rf signal generators, Agilent, PyMeasure]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-33521a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719432/Instruments/RF%20Signal%20Generators/Keysight-33521A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33521A
+# Keysight (Agilent) 33521A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-Keysight 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
+Keysight (Agilent) 33500 Series function/arbitrary waveform generators offer the highest signal fidelity and implement a new breakthrough technology that provides you with the ability to generate more accurate arbitrary waveforms. With 10x better jitter than anything in their class, they offer unparalleled control of signal frequency for your most challenging measurements.
 
 </div>
 
@@ -38,7 +38,7 @@ Keysight 33500 Series function/arbitrary waveform generators offer the highest s
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33521A in Python
+## Connect to the Keysight (Agilent) 33521A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -96,7 +96,7 @@ instrument.disconnect()
 
 This script connects to the instrument using a VISA adapter and creates an instance of the `Agilent33500` class. It then sets the output waveform shape to sine, frequency to 1 kHz, amplitude to 1 Vpp, and enables the output. Finally, it disconnects from the instrument.
 
-Note: Make sure to replace `"GPIB::1"` with the appropriate address of your Keysight 33521A RF Signal Generator.
+Note: Make sure to replace `"GPIB::1"` with the appropriate address of your Keysight (Agilent) 33521A RF Signal Generator.
 
 </TabItem>
 </Tabs>

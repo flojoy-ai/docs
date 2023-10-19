@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 3456A by HP in Python
-sidebar_label: Keysight 3456A
+title: Connecting to Keysight (Agilent) 3456A by HP in Python
+sidebar_label: Keysight (Agilent) 3456A
 description: 3456A 6 1/2 Digit Digital Multimeter
 keywords: [multimeters, HP, InstrumentKit]
 slug: /instruments-database/multimeters/hp/keysight-3456a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 3456A
+# Keysight (Agilent) 3456A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 3456A in Python
+## Connect to the Keysight (Agilent) 3456A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

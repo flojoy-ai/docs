@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 33522B by Keysight in Python
-sidebar_label: Keysight 33522B
-description: Keysight 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
+title: Connecting to Keysight (Agilent) 33522B by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 33522B
+description: Keysight (Agilent) 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-33522b
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395574/Instruments/RF%20Signal%20Generators/Keysight-33522B/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33522B
+# Keysight (Agilent) 33522B
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-Keysight 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
+Keysight (Agilent) 33500B Series waveform generators with exclusive Trueform signal generation technology offer more capability, fidelity, and flexibility than previous generation DDS generators. Easily generate the full range of signals you need to your devices with confidence the signal generator is outputting the signals you expect.
 
 </div>
 
@@ -38,7 +38,7 @@ Keysight 33500B Series waveform generators with exclusive Trueform signal genera
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33522B in Python
+## Connect to the Keysight (Agilent) 33522B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 33522B RF Signal Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 33522B RF Signal Generator using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_33XXX import WaveformGenerator_33XXX
@@ -92,7 +92,7 @@ signal_generator.ch1.output('OFF')
 signal_generator.close()
 ```
 
-Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your Keysight 33522B RF Signal Generator.
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your Keysight (Agilent) 33522B RF Signal Generator.
 
 </TabItem>
 </Tabs>

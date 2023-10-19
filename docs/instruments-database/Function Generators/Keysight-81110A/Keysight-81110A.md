@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 81110A by Agilent in Python
-sidebar_label: Keysight 81110A
-description: Keysight 81110APulse Pattern Generator / 165/330 MHz
+title: Connecting to Keysight (Agilent) 81110A by Agilent in Python
+sidebar_label: Keysight (Agilent) 81110A
+description: Keysight (Agilent) 81110APulse Pattern Generator / 165/330 MHz
 keywords: [function generators, Agilent, Instrumental]
 slug: /instruments-database/function-generators/agilent/keysight-81110a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719057/Instruments/Function%20Generators/Keysight-81110A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 81110A
+# Keysight (Agilent) 81110A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-Keysight 81110A
+Keysight (Agilent) 81110A
 Pulse Pattern Generator / 165/330 MHz
 
 </div>
@@ -39,7 +39,7 @@ Pulse Pattern Generator / 165/330 MHz
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -53,7 +53,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 81110A in Python
+## Connect to the Keysight (Agilent) 81110A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -68,7 +68,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="Instrumental" label="Instrumental">
 
-To connect to a Keysight 81110A Function Generator using Instrumental, you can use the following Python script:
+To connect to a Keysight (Agilent) 81110A Function Generator using Instrumental, you can use the following Python script:
 
 ```python
 from instrumental import instrument, list_resources
@@ -76,7 +76,7 @@ from instrumental import instrument, list_resources
 # Find available resources
 resources = list_resources()
 
-# Connect to the Keysight 81110A Function Generator
+# Connect to the Keysight (Agilent) 81110A Function Generator
 func_gen = instrument(resources[0])
 
 # Now you can use the function generator

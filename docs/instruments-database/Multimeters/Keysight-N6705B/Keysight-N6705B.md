@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight N6705B by Keysight in Python
-sidebar_label: Keysight N6705B
+title: Connecting to Keysight (Agilent) N6705B by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N6705B
 description: The N6705B is a 4-slot mainframe that accepts up to 4 DC Power Modules, and up to 600 W total DC Power Module output power. The modules are ordered separately. N6705B accepts the same modules as N6700 Modular Power System, with over 30 modules to choose from
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-n6705b
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N6705B
+# Keysight (Agilent) N6705B
 
 ## Instrument Card
 
@@ -40,7 +40,7 @@ N6705B accepts the same modules as N6700 Modular Power System, with over 30 modu
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -54,7 +54,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N6705B in Python
+## Connect to the Keysight (Agilent) N6705B in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -69,7 +69,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight N6705B Power Supply using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) N6705B Power Supply using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_N6705B import Keysight_N6705B

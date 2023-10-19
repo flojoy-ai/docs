@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E8257D by Agilent in Python
-sidebar_label: Keysight E8257D
+title: Connecting to Keysight (Agilent) E8257D by Agilent in Python
+sidebar_label: Keysight (Agilent) E8257D
 description: Metrology-grade analog signal generator offering industry-leading output power, level accuracy, and phase noise, with frequency coverage from 100 kHz to 67 GHz (extendable to 500 GHz) for testing advanced RF and microwave radar
 keywords: [rf signal generators, Agilent, QCodes]
 slug: /instruments-database/rf-signal-generators/agilent/keysight-e8257d
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E8257D
+# Keysight (Agilent) E8257D
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ Metrology-grade analog signal generator offering industry-leading output power, 
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E8257D in Python
+## Connect to the Keysight (Agilent) E8257D in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight E8257D RF Signal Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) E8257D RF Signal Generator using Qcodes, you can use the following Python script:
 
 ```python
 import qcodes as qc

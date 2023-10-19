@@ -133,7 +133,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639188/Instruments/Multimeters/Keysight-34401A/file.jpg'
     instrument={true}
 >
-    Keysight 34401A
+    Keysight (Agilent) 34401A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -141,7 +141,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639190/Instruments/Multimeters/Keysight-34410A/file.jpg'
     instrument={true}
 >
-    Keysight 34410A
+    Keysight (Agilent) 34410A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -149,7 +149,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395578/Instruments/Multimeters/Keysight-34410A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34410A Submodules
+    Keysight (Agilent) 34410A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -157,7 +157,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg'
     instrument={true}
 >
-    Keysight 34411A
+    Keysight (Agilent) 34411A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -165,7 +165,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395579/Instruments/Multimeters/Keysight-34411A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34411A Submodules
+    Keysight (Agilent) 34411A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -173,7 +173,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395169/Instruments/Multimeters/Keysight-34450A/file.jpg'
     instrument={true}
 >
-    Keysight 34450A
+    Keysight (Agilent) 34450A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -181,7 +181,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395580/Instruments/Multimeters/Keysight-34460A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34460A Submodules
+    Keysight (Agilent) 34460A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -189,7 +189,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395583/Instruments/Multimeters/Keysight-34461A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34461A Submodules
+    Keysight (Agilent) 34461A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -197,7 +197,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395585/Instruments/Multimeters/Keysight-34465A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34465A Submodules
+    Keysight (Agilent) 34465A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -205,7 +205,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395586/Instruments/Multimeters/Keysight-34470A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34470A Submodules
+    Keysight (Agilent) 34470A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -213,7 +213,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692719191/Instruments/Multimeters/Keysight-3456A/file.jpg'
     instrument={true}
 >
-    Keysight 3456A
+    Keysight (Agilent) 3456A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -221,7 +221,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395416/Instruments/Multimeters/Keysight-3478A/file.jpg'
     instrument={true}
 >
-    Keysight 3478A
+    Keysight (Agilent) 3478A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -229,7 +229,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395589/Instruments/Multimeters/Keysight-34980A/file.jpg'
     instrument={true}
 >
-    Keysight 34980A
+    Keysight (Agilent) 34980A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -237,7 +237,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395591/Instruments/Multimeters/Keysight-34980A-Submodules/file.jpg'
     instrument={true}
 >
-    Keysight 34980A Submodules
+    Keysight (Agilent) 34980A Submodules
 </AppThumbnail>
 
 <AppThumbnail 
@@ -245,7 +245,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395174/Instruments/Multimeters/Keysight-E4980A/file.jpg'
     instrument={true}
 >
-    Keysight E4980A
+    Keysight (Agilent) E4980A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -253,7 +253,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395606/Instruments/Multimeters/Keysight-N6705B/file.jpg'
     instrument={true}
 >
-    Keysight N6705B
+    Keysight (Agilent) N6705B
 </AppThumbnail>
 
 <AppThumbnail 

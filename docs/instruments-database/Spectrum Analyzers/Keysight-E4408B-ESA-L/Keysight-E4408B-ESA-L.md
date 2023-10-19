@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E4408B ESA-L by Agilent in Python
-sidebar_label: Keysight E4408B ESA-L
+title: Connecting to Keysight (Agilent) E4408B ESA-L by Agilent in Python
+sidebar_label: Keysight (Agilent) E4408B ESA-L
 description: E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 keywords: [spectrum analyzers, Agilent, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/agilent/keysight-e4408b-esa-l
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E4408B ESA-L
+# Keysight (Agilent) E4408B ESA-L
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ E4408B ESA-L Basic Spectrum Analyzer, 9 kHz to 26.5 GHz
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E4408B ESA-L in Python
+## Connect to the Keysight (Agilent) E4408B ESA-L in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -103,7 +103,7 @@ trace_data = instrument.trace(1)
 trace_df = instrument.trace_df(1)
 ```
 
-This script connects to a Keysight E4408B ESA-L Spectrum Analyzer using a VISA adapter. It sets the start and stop frequencies, number of frequency points, frequency step, center frequency, and sweep time. It then retrieves the frequencies, trace data for trace 1, and trace data as a pandas DataFrame for trace 1.
+This script connects to a Keysight (Agilent) E4408B ESA-L Spectrum Analyzer using a VISA adapter. It sets the start and stop frequencies, number of frequency points, frequency step, center frequency, and sweep time. It then retrieves the frequencies, trace data for trace 1, and trace data as a pandas DataFrame for trace 1.
 
 </TabItem>
 </Tabs>

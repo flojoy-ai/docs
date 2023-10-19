@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 34411A by Agilent in Python
-sidebar_label: Keysight 34411A
-description: The Keysight Technologies, Inc. 34411A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34411A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
+title: Connecting to Keysight (Agilent) 34411A by Agilent in Python
+sidebar_label: Keysight (Agilent) 34411A
+description: The Keysight (Agilent) Technologies, Inc. 34411A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34411A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
 keywords: [multimeters, Agilent, QCodes]
 slug: /instruments-database/multimeters/agilent/keysight-34411a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395528/Instruments/Multimeters/Keysight-34411A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 34411A
+# Keysight (Agilent) 34411A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight Technologies, Inc. 34411A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34411A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
+The Keysight (Agilent) Technologies, Inc. 34411A multimeter gives you the performance you need for fast, accurate bench and system testing. The 34411A provides a combination of resolution, accuracy and speed that rivals DMMs costing many times more. 6½ digits of resolution
 
 </div>
 
@@ -38,7 +38,7 @@ The Keysight Technologies, Inc. 34411A multimeter gives you the performance you 
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='AGILENT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 34411A in Python
+## Connect to the Keysight (Agilent) 34411A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 34411A Multimeter using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 34411A Multimeter using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.Keysight_344XXA import Keysight_344XXA
@@ -84,7 +84,7 @@ multimeter.connect()
 multimeter.disconnect()
 ```
 
-Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your Keysight 34411A Multimeter.
+Note: Replace `'TCPIP0::192.168.1.1::INSTR'` with the actual VISA resource name or address of your Keysight (Agilent) 34411A Multimeter.
 
 </TabItem>
 </Tabs>

@@ -117,7 +117,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395545/Instruments/Power%20Meters/Keysight-M960XA-Series/file.jpg'
     instrument={true}
 >
-    Keysight M960XA-Series
+    Keysight (Agilent) M960XA-Series
 </AppThumbnail>
 
 <AppThumbnail 
@@ -125,7 +125,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395548/Instruments/Power%20Meters/Keysight-M960x-defs/file.jpg'
     instrument={true}
 >
-    Keysight M960x defs
+    Keysight (Agilent) M960x defs
 </AppThumbnail>
 
 <AppThumbnail 

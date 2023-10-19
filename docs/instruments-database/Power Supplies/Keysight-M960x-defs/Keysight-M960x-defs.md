@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight M960x defs by Keysight in Python
-sidebar_label: Keysight M960x defs
+title: Connecting to Keysight (Agilent) M960x defs by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) M960x defs
 description: PXI source/measure units are the source and measurement resources of voltage and current for test applications requiring high accuracy, high resolution, and measurement flexibility
 keywords: [power supplies, Keysight, QCodes]
 slug: /instruments-database/power-supplies/keysight/keysight-m960x-defs
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight M960x defs
+# Keysight (Agilent) M960x defs
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ PXI source/measure units are the source and measurement resources of voltage and
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight M960x defs in Python
+## Connect to the Keysight (Agilent) M960x defs in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-Here is a Python script that uses Qcodes to connect to a Keysight M960x Power Meter:
+Here is a Python script that uses Qcodes to connect to a Keysight (Agilent) M960x Power Meter:
 
 ```python
 import qcodes as qc

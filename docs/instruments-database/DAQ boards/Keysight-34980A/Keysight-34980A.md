@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight 34980A by Keysight in Python
-sidebar_label: Keysight 34980A
-description: The Keysight 34980A Multifunction Switch/Measure unit is designed for R&D andmanufacturing test engineers who are working in design verification, automatedtest or data acquisition and are either looking to upgrade their existing systems orare in need of a new, cost-effective alternative
+title: Connecting to Keysight (Agilent) 34980A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 34980A
+description: The Keysight (Agilent) 34980A Multifunction Switch/Measure unit is designed for R&D andmanufacturing test engineers who are working in design verification, automatedtest or data acquisition and are either looking to upgrade their existing systems orare in need of a new, cost-effective alternative
 keywords: [daq boards, Keysight, QCodes]
 slug: /instruments-database/daq-boards/keysight/keysight-34980a
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395588/Instruments/DAQ%20boards/Keysight-34980A/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 34980A
+# Keysight (Agilent) 34980A
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The Keysight 34980A Multifunction Switch/Measure unit is designed for R&D and
+The Keysight (Agilent) 34980A Multifunction Switch/Measure unit is designed for R&D and
 manufacturing test engineers who are working in design verification, automated
 test or data acquisition and are either looking to upgrade their existing systems or
 are in need of a new, cost-effective alternative
@@ -41,7 +41,7 @@ are in need of a new, cost-effective alternative
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -55,7 +55,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='DAQ_BOARDS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 34980A in Python
+## Connect to the Keysight (Agilent) 34980A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -70,7 +70,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-Here is a Python script that uses Qcodes to connect to a Keysight 34980A DAQ board:
+Here is a Python script that uses Qcodes to connect to a Keysight (Agilent) 34980A DAQ board:
 
 ```python
 import qcodes as qc

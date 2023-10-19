@@ -85,7 +85,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639225/Instruments/Oscilloscopes/Keysight-86100A/file.jpg'
     instrument={true}
 >
-    Keysight 86100A
+    Keysight (Agilent) 86100A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -93,7 +93,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395439/Instruments/Oscilloscopes/Keysight-DSOX1102G/file.jpg'
     instrument={true}
 >
-    Keysight DSOX1102G
+    Keysight (Agilent) DSOX1102G
 </AppThumbnail>
 
 <AppThumbnail 
@@ -101,7 +101,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395607/Instruments/Oscilloscopes/Keysight-N6705B/file.jpg'
     instrument={true}
 >
-    Keysight N6705B
+    Keysight (Agilent) N6705B
 </AppThumbnail>
 
 <AppThumbnail 

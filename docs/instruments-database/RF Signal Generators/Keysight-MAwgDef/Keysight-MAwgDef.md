@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight MAwgDef by Keysight in Python
-sidebar_label: Keysight MAwgDef
+title: Connecting to Keysight (Agilent) MAwgDef by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) MAwgDef
 description: Currently no description
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-mawgdef
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight MAwgDef
+# Keysight (Agilent) MAwgDef
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ Currently no description
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight MAwgDef in Python
+## Connect to the Keysight (Agilent) MAwgDef in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight MAwgDef RF Signal Generator using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) MAwgDef RF Signal Generator using Qcodes, you can use the following Python script:
 
 ```python
 import qcodes as qc

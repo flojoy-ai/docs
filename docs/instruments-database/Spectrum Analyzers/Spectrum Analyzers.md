@@ -53,7 +53,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395170/Instruments/Spectrum%20Analyzers/Keysight-4156C/file.jpg'
     instrument={true}
 >
-    Keysight 4156C
+    Keysight (Agilent) 4156C
 </AppThumbnail>
 
 <AppThumbnail 
@@ -61,7 +61,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692815185/Instruments/Spectrum%20Analyzers/Keysight-B1500A/file.jpg'
     instrument={true}
 >
-    Keysight B1500A
+    Keysight (Agilent) B1500A
 </AppThumbnail>
 
 <AppThumbnail 
@@ -69,7 +69,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639241/Instruments/Spectrum%20Analyzers/Keysight-E4408B-ESA-L/file.jpg'
     instrument={true}
 >
-    Keysight E4408B ESA-L
+    Keysight (Agilent) E4408B ESA-L
 </AppThumbnail>
 
 <AppThumbnail 
@@ -77,7 +77,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639275/Instruments/Spectrum%20Analyzers/Keysight-N9000A/file.jpg'
     instrument={true}
 >
-    Keysight N9000A
+    Keysight (Agilent) N9000A
 </AppThumbnail>
 
 <AppThumbnail 

@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 8116A by HP in Python
-sidebar_label: Keysight 8116A
+title: Connecting to Keysight (Agilent) 8116A by HP in Python
+sidebar_label: Keysight (Agilent) 8116A
 description: 8116A 50 MHZ PULSE/FUNCTION GENERATOR
 keywords: [function generators, HP, PyMeasure]
 slug: /instruments-database/function-generators/hp/keysight-8116a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 8116A
+# Keysight (Agilent) 8116A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 8116A in Python
+## Connect to the Keysight (Agilent) 8116A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 

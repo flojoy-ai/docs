@@ -1,7 +1,7 @@
 ---
-title: Connecting to Keysight N7776C by Keysight in Python
-sidebar_label: Keysight N7776C
-description: The new Keysight N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
+title: Connecting to Keysight (Agilent) N7776C by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N7776C
+description: The new Keysight (Agilent) N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
 keywords: [lasers, Keysight, PyMeasure]
 slug: /instruments-database/lasers/keysight/keysight-n7776c
 image: https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N7776C
+# Keysight (Agilent) N7776C
 
 ## Instrument Card
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-The new Keysight N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
+The new Keysight (Agilent) N7776C top line tunable laser source is designed to reach best-in-class accuracy in static and swept operation for outstanding test efficiency. Two-way sweeps up to 200 nm/s speed with sub-picometer repeatability and without impacting the specified dynamic accuracy accelerate wavelength-dependent alignment processes and the automated calibration of wavelength-selective devices. Shorter time to testing and faster swept-wavelength tests help reduce test cost per device, improve test margins and lower the cost of ownership.
 
 </div>
 
@@ -38,7 +38,7 @@ The new Keysight N7776C top line tunable laser source is designed to reach best-
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='LASERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N7776C in Python
+## Connect to the Keysight (Agilent) N7776C in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
-Here is a Python script that uses Pymeasure to connect to a Keysight N7776C Laser:
+Here is a Python script that uses Pymeasure to connect to a Keysight (Agilent) N7776C Laser:
 
 ```python
 import logging
@@ -83,7 +83,7 @@ LOCK_PW = 1234
 
 class KeysightN7776C(Instrument):
     """
-    This represents the Keysight N7776C Tunable Laser Source interface.
+    This represents the Keysight (Agilent) N7776C Tunable Laser Source interface.
     """
 
     def __init__(self, adapter, name="N7776C Tunable Laser Source", **kwargs):
@@ -283,7 +283,7 @@ class KeysightN7776C(Instrument):
         self.adapter.close()
 ```
 
-This script defines a class `KeysightN7776C` that represents the interface to the Keysight N7776C Tunable Laser Source. The class inherits from `Instrument` class provided by Pymeasure.
+This script defines a class `KeysightN7776C` that represents the interface to the Keysight (Agilent) N7776C Tunable Laser Source. The class inherits from `Instrument` class provided by Pymeasure.
 
 The class defines various properties and controls to interact with the laser source, such as `locked`, `output_enabled`, `wavelength`, `sweep_wl_start`, `sweep_wl_stop`, `sweep_speed`, `sweep_mode`, etc. These properties and controls allow you to set and get various parameters of the laser source, such as lock state, output power, wavelength, sweep parameters, etc.
 

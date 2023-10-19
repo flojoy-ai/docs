@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 34465A Submodules by Keysight in Python
-sidebar_label: Keysight 34465A Submodules
+title: Connecting to Keysight (Agilent) 34465A Submodules by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) 34465A Submodules
 description: The 34411A offers Temperature and Capacitance capabilities, in addition to those measurements you have come to expect, such as DCV, ACV, DCI, ACI, 2-wire and 4-wire Resistance, Frequency, Period, Continuity and Diode Test.
 keywords: [multimeters, Keysight, QCodes]
 slug: /instruments-database/multimeters/keysight/keysight-34465a-submodules
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 34465A Submodules
+# Keysight (Agilent) 34465A Submodules
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The 34411A offers Temperature and Capacitance capabilities, in addition to those
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='MULTIMETERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 34465A Submodules in Python
+## Connect to the Keysight (Agilent) 34465A Submodules in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,13 +67,13 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight 34465A Multimeter using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) 34465A Multimeter using Qcodes, you can use the following Python script:
 
 ```python
 import qcodes as qc
 from qcodes.instrument_drivers.Keysight.Keysight_344xxA import Keysight_34465A
 
-# Create an instance of the Keysight 34465A driver
+# Create an instance of the Keysight (Agilent) 34465A driver
 multimeter = Keysight_34465A('multimeter', 'TCPIP0::192.168.1.1::INSTR')
 
 # Connect to the multimeter

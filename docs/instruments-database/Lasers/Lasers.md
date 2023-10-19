@@ -29,7 +29,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395442/Instruments/Lasers/Keysight-N7776C/file.jpg'
     instrument={true}
 >
-    Keysight N7776C
+    Keysight (Agilent) N7776C
 </AppThumbnail>
 
 <AppThumbnail 

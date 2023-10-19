@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight 33120A by HP in Python
-sidebar_label: Keysight 33120A
+title: Connecting to Keysight (Agilent) 33120A by HP in Python
+sidebar_label: Keysight (Agilent) 33120A
 description: 33120A Function / Arbitrary Waveform Generator, 15 MHz
 keywords: [function generators, HP, PyMeasure]
 slug: /instruments-database/function-generators/hp/keysight-33120a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight 33120A
+# Keysight (Agilent) 33120A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125999/Instruments/Vendor%20Logos/HP.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='FUNCTION_GENERATORS' manufacturer='HP'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight 33120A in Python
+## Connect to the Keysight (Agilent) 33120A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -75,7 +75,7 @@ from pymeasure.instruments import HP33120A
 # Create a VISA adapter for communication
 adapter = VISAAdapter("GPIB0::10::INSTR")
 
-# Connect to the Keysight 33120A Function Generator
+# Connect to the Keysight (Agilent) 33120A Function Generator
 generator = HP33120A(adapter)
 
 # Set the waveform shape to sinusoid
@@ -99,7 +99,7 @@ generator.disconnect()
 
 This script first creates a VISA adapter using the `VISAAdapter` class from Pymeasure. The adapter is initialized with the VISA address of the instrument, which in this case is "GPIB0::10::INSTR".
 
-Then, an instance of the `HP33120A` class is created, passing the adapter as an argument. This represents the Keysight 33120A Function Generator.
+Then, an instance of the `HP33120A` class is created, passing the adapter as an argument. This represents the Keysight (Agilent) 33120A Function Generator.
 
 The script then sets the waveform shape to sinusoid, frequency to 1 kHz, and amplitude to 1 Vpp using the properties provided by the `HP33120A` class.
 

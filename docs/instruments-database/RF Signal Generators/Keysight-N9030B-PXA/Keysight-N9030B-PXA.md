@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight N9030B PXA by Keysight in Python
-sidebar_label: Keysight N9030B PXA
+title: Connecting to Keysight (Agilent) N9030B PXA by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N9030B PXA
 description: PXA signal analyzers are ideally suited for high-performance research and development (R&D) applications in aerospace/defense and commercial wireless communications. The PXA analyzes signals over wider bandwidths, reduces measurement uncertainty, and reveals previously hidden signals with noise floor extension (NFE). Unravel complex signals through the PXA’s broad set of measurement applications and demodulation capabilities or add real-time spectrum analysis capabilities with an upgradeable option.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-n9030b-pxa
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N9030B PXA
+# Keysight (Agilent) N9030B PXA
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ PXA signal analyzers are ideally suited for high-performance research and develo
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N9030B PXA in Python
+## Connect to the Keysight (Agilent) N9030B PXA in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-Here's an example Python script that uses Qcodes to connect to a Keysight N9030B PXA RF Signal Generator:
+Here's an example Python script that uses Qcodes to connect to a Keysight (Agilent) N9030B PXA RF Signal Generator:
 
 ```python
 from qcodes.instrument_drivers.Keysight.KeysightN9030B import KeysightN9030B

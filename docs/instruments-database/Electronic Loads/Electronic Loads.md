@@ -29,6 +29,6 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395746/Instruments/Electronic%20Loads/Keysight-N3300A/file.jpg'
     instrument={true}
 >
-    Keysight N3300A
+    Keysight (Agilent) N3300A
 </AppThumbnail>
 </div>

@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight B1500A by Keysight in Python
-sidebar_label: Keysight B1500A
+title: Connecting to Keysight (Agilent) B1500A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) B1500A
 description: It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
 keywords: [spectrum analyzers, Keysight, QCodes, PyMeasure]
 slug: /instruments-database/spectrum-analyzers/keysight/keysight-b1500a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight B1500A
+# Keysight (Agilent) B1500A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ It provides a wide range of measurement capabilities to cover the electrical cha
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692126006/Instruments/Vendor%20Logos/Agilent.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='SPECTRUM_ANALYZERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight B1500A in Python
+## Connect to the Keysight (Agilent) B1500A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes" label="QCodes">
 
-To connect to a Keysight B1500A Spectrum Analyzer using Qcodes, you can use the following code:
+To connect to a Keysight (Agilent) B1500A Spectrum Analyzer using Qcodes, you can use the following code:
 
 ```python
 from qcodes.instrument_drivers.Keysight.KeysightB1500 import KeysightB1500
@@ -89,7 +89,7 @@ This code creates an instance of the `KeysightB1500` instrument with the name 'b
 </TabItem>
 <TabItem value="PyMeasure" label="PyMeasure">
 
-Here is an example Python script that uses Pymeasure to connect to a Keysight B1500A Spectrum Analyzer:
+Here is an example Python script that uses Pymeasure to connect to a Keysight (Agilent) B1500A Spectrum Analyzer:
 
 ```python
 from pymeasure import Instrument

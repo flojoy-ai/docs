@@ -37,7 +37,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395597/Instruments/Network%20Analyzers/Keysight-5222B/file.jpg'
     instrument={true}
 >
-    Keysight 5222B
+    Keysight (Agilent) 5222B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -45,7 +45,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692639228/Instruments/Network%20Analyzers/Keysight-8722ES/file.jpg'
     instrument={true}
 >
-    Keysight 8722ES
+    Keysight (Agilent) 8722ES
 </AppThumbnail>
 
 <AppThumbnail 
@@ -53,7 +53,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395540/Instruments/Network%20Analyzers/Keysight-8753D/file.jpg'
     instrument={true}
 >
-    Keysight 8753D
+    Keysight (Agilent) 8753D
 </AppThumbnail>
 
 <AppThumbnail 
@@ -61,7 +61,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5230C/file.jpg'
     instrument={true}
 >
-    Keysight N5230C
+    Keysight (Agilent) N5230C
 </AppThumbnail>
 
 <AppThumbnail 
@@ -69,7 +69,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395598/Instruments/Network%20Analyzers/Keysight-N5232B/file.jpg'
     instrument={true}
 >
-    Keysight N5232B
+    Keysight (Agilent) N5232B
 </AppThumbnail>
 
 <AppThumbnail 
@@ -85,7 +85,7 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395601/Instruments/Network%20Analyzers/Keysight-P9374A/file.jpg'
     instrument={true}
 >
-    Keysight P9374A
+    Keysight (Agilent) P9374A
 </AppThumbnail>
 
 <AppThumbnail 

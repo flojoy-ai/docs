@@ -37,6 +37,6 @@ import AppThumbnail from '@site/src/components/AppThumbnail';
     img='https://res.cloudinary.com/dhopxs1y3/image/upload/w_600,q_auto,f_auto/e_bgremoval/v1692395592/Instruments/Switches/Keysight-B2200A/file.jpg'
     instrument={true}
 >
-    Keysight B2200A
+    Keysight (Agilent) B2200A
 </AppThumbnail>
 </div>

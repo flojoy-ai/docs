@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight E36313A by Keysight in Python
-sidebar_label: Keysight E36313A
+title: Connecting to Keysight (Agilent) E36313A by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) E36313A
 description: The triple output, 160 W, E36313A provides small, compact size for bench use; low output ripple and noise; built-in measurements and basic programmable features with USB and LAN, and optional GPIB interfaces.
 keywords: [power supplies, Keysight, QCodes Community]
 slug: /instruments-database/power-supplies/keysight/keysight-e36313a
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight E36313A
+# Keysight (Agilent) E36313A
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ The triple output, 160 W, E36313A provides small, compact size for bench use; lo
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='POWER_SUPPLIES' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight E36313A in Python
+## Connect to the Keysight (Agilent) E36313A in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
-To connect to a Keysight E36313A Power Supply using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) E36313A Power Supply using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument_drivers.Keysight.E36313A import E36313A

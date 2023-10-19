@@ -1,5 +1,5 @@
 ---
-title: Connecting to KtMAwg IVI-C by Keysight in Python
+title: Connecting to KtMAwg IVI-C by Keysight (Agilent) in Python
 sidebar_label: KtMAwg IVI-C
 description: Currently no description
 keywords: [rf signal generators, Keysight, QCodes]
@@ -38,7 +38,7 @@ Currently no description
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>

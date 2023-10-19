@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight J7211-A-B-C-Series by Keysight in Python
-sidebar_label: Keysight J7211-A-B-C-Series
+title: Connecting to Keysight (Agilent) J7211-A-B-C-Series by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) J7211-A-B-C-Series
 description: Currently no description
 keywords: [lockin amplifiers, Keysight, QCodes Community]
 slug: /instruments-database/lockin-amplifiers/keysight/keysight-j7211-a-b-c-series
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight J7211-A-B-C-Series
+# Keysight (Agilent) J7211-A-B-C-Series
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ Currently no description
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='LOCKIN_AMPLIFIERS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight J7211-A-B-C-Series in Python
+## Connect to the Keysight (Agilent) J7211-A-B-C-Series in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -67,7 +67,7 @@ import NodeCardCollection from '@site/src/components/NodeCardCollection';
 </TabItem>
 <TabItem value="QCodes Community" label="QCodes Community">
 
-To connect to a Keysight J7211/A/B/C-Series Lockin Amplifier using Qcodes, you can use the following Python script:
+To connect to a Keysight (Agilent) J7211/A/B/C-Series Lockin Amplifier using Qcodes, you can use the following Python script:
 
 ```python
 from qcodes.instrument.visa import VisaInstrument
@@ -77,7 +77,7 @@ from typing import Optional
 
 class Keysight_J7211(VisaInstrument):
     r"""
-    Qcodes driver for the Keysight J7211 Attenuation Control Unit.
+    Qcodes driver for the Keysight (Agilent) J7211 Attenuation Control Unit.
     Tested with J7211B.
 
     Args:
@@ -111,7 +111,7 @@ class Keysight_J7211(VisaInstrument):
         self.connect_message()
 ```
 
-This script defines a class `Keysight_J7211` that inherits from `VisaInstrument` in the `qcodes.instrument.visa` module. The class represents the Keysight J7211 Attenuation Control Unit.
+This script defines a class `Keysight_J7211` that inherits from `VisaInstrument` in the `qcodes.instrument.visa` module. The class represents the Keysight (Agilent) J7211 Attenuation Control Unit.
 
 To connect to the instrument, you can create an instance of the `Keysight_J7211` class by providing the necessary arguments:
 

@@ -1,6 +1,6 @@
 ---
-title: Connecting to Keysight N5171B EXG by Keysight in Python
-sidebar_label: Keysight N5171B EXG
+title: Connecting to Keysight (Agilent) N5171B EXG by Keysight (Agilent) in Python
+sidebar_label: Keysight (Agilent) N5171B EXG
 description: N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6 GHz frequency coverage, optimized for manufacturing with faster throughput and greater uptime at the right price.
 keywords: [rf signal generators, Keysight, QCodes]
 slug: /instruments-database/rf-signal-generators/keysight/keysight-n5171b-exg
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Keysight N5171B EXG
+# Keysight (Agilent) N5171B EXG
 
 ## Instrument Card
 
@@ -38,7 +38,7 @@ N5171B EXG X-Series RF analog mid-performance signal generators offer 9 kHz to 6
 
 <img src="https://res.cloudinary.com/dhopxs1y3/image/upload/v1692125973/Instruments/Vendor%20Logos/Keysight.png" style={{ width: "100%", height: "170px",objectFit: "scale-down" }} />
 
-Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
+Keysight (Agilent) Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.
 
 <ul>
   <li>Headquarters: USA</li>
@@ -52,7 +52,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 <FeaturedInstrumentVideo category='RF_SIGNAL_GENERATORS' manufacturer='KEYSIGHT'></FeaturedInstrumentVideo>
 
 
-## Connect to the Keysight N5171B EXG in Python
+## Connect to the Keysight (Agilent) N5171B EXG in Python
 
 [Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
 
@@ -74,7 +74,7 @@ from qcodes.instrument_drivers.Keysight.N51x1 import N51x1
 # Create a station to hold the instrument
 station = Station()
 
-# Connect to the Keysight N5171B EXG RF Signal Generator
+# Connect to the Keysight (Agilent) N5171B EXG RF Signal Generator
 n5171b = N51x1('n5171b', 'TCPIP0::192.168.1.1::inst0::INSTR')
 
 # Add the instrument to the station
@@ -99,7 +99,7 @@ n5171b.pulse_modulation(0)
 n5171b.close()
 ```
 
-This script connects to a Keysight N5171B EXG RF Signal Generator using the Qcodes driver `N51x1`. It creates a station to hold the instrument, connects to the instrument using the instrument's IP address, adds the instrument to the station, and then performs various operations on the instrument such as setting the frequency, power, enabling RF output, and disabling pulse modulation. Finally, it closes the connection to the instrument.
+This script connects to a Keysight (Agilent) N5171B EXG RF Signal Generator using the Qcodes driver `N51x1`. It creates a station to hold the instrument, connects to the instrument using the instrument's IP address, adds the instrument to the station, and then performs various operations on the instrument such as setting the frequency, power, enabling RF output, and disabling pulse modulation. Finally, it closes the connection to the instrument.
 
 </TabItem>
 </Tabs>
