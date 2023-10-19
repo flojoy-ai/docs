@@ -17,7 +17,7 @@ export default function FeaturedInstrumentVideo({ category, manufacturer }: Feat
             break;
     }
 
-    if (VIDEO_HERO == ''){
+    if (VIDEO_HERO == 'NOT FOUND'){
         return (<></>);
     }
 
