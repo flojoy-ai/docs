@@ -1,0 +1,12 @@
+The ORDERED_PAIR_2_VECTOR return the split components of an ordered pair as Vectors.
+
+    Inputs
+    ------
+    default : OrderedPair
+        The input OrderedPair.
+
+    Returns
+    -------
+    TypedDict:
+        x: Vector from input x
+        y: Vector from input y

@@ -1,0 +1,16 @@
+The EXTRACT_SWEEP_FSV node extracts the sweep trace from a FSV network analyzer.
+
+    Requires a CONNECTION_FSV node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
+
+    This node should also work with compatible R&S network analyzers.
+
+    Parameters
+    ----------
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_FSV node).
+
+    Returns
+    -------
+    DataContainer
+        OrderedPair: The sweep trace from the FSV is returned.
