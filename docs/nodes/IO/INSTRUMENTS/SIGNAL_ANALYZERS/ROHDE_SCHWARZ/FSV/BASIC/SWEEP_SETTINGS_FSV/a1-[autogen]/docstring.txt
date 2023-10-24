@@ -31,5 +31,5 @@ The SWEEP_SETTINGS_FSV node sets sweep settings for a FSV.
 
     Returns
     -------
-    DataContainer
-        TextBlob: Sweep settings summary.
+    TextBlob
+        Sweep settings summary.

@@ -16,5 +16,5 @@ The INIT_SWEEP_FSV node starts the sweep for the FSV.
 
     Returns
     -------
-    DataContainer
-        TextBlob: Display and sweep settings.
+    TextBlob
+        Display and sweep settings.
