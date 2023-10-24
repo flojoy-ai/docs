@@ -1,0 +1,24 @@
+The CHANNEL_ON_OFF_DS1074Z node turns the channels on or off for the DS1074Z.
+
+    Requires a CONNECTION_DS1074Z node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
+
+    This node should also work with compatible DS1000Z oscilloscopes
+
+    Parameters
+    ----------
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_DS1074Z node).
+    ch1: select
+        Turn channel 1 on or off.
+    ch2: select
+        Turn channel 2 on or off.
+    ch3: select
+        Turn channel 3 on or off.
+    ch4: select
+        Turn channel 4 on or off.
+
+    Returns
+    -------
+    TextBlob
+        Summary of channel settings.

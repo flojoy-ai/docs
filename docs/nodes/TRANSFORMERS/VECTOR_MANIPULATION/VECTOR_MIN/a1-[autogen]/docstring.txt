@@ -1,7 +1,7 @@
 The VECTOR_MIN node returns the minimum value from the Vector
 
-    Inputs
-    ------
+    Parameters
+    ----------
     v : Vector
         The input vector to use min peration
 
