@@ -12,5 +12,5 @@ The EXTRACT_SWEEP_FSV node extracts the sweep trace from a FSV network analyzer.
 
     Returns
     -------
-    DataContainer
-        OrderedPair: The sweep trace from the FSV is returned.
+    OrderedPair
+        The sweep trace from the FSV is returned.

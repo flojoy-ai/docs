@@ -39,12 +39,9 @@ The PEAK_DETECTION node finds peaks based on peak properties.
 
     Returns
     -------
-    TypedDict:
-        heights:
-            OrderedPair
-                x: x axis location for peaks
-                y: peak heights
-        widths:
-            OrderedPair
-                x: x axis location for peaks
-                y: peak widths
+    heights : OrderedPair
+        x: x axis location for peaks
+        y: peak heights
+    widths : OrderedPair
+        x: x axis location for peaks
+        y: peak widths

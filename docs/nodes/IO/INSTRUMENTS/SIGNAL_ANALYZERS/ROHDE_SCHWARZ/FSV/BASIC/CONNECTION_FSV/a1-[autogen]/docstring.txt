@@ -12,4 +12,4 @@ The CONNECTION_FSV node connects Flojoy to a FSV network analyzer.
     Returns
     -------
     DataContainer
-        Optional: None
+        None
