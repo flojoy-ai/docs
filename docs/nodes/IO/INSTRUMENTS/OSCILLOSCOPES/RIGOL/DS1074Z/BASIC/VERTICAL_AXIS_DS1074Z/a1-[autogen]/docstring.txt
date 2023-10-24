@@ -27,5 +27,5 @@ The VERTICAL_AXIS_DS1074Z node changes the vertical axis for the DS1074Z.
 
     Returns
     -------
-    DataContainer
-        TextBlob: summary of the vertical axis settings.
+    TextBlob
+        Summary of the vertical axis settings.

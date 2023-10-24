@@ -25,5 +25,5 @@ The TIME_AXIS_DS1074Z node changes the time axis for the DS1074Z.
 
     Returns
     -------
-    DataContainer
-        TextBlob: summary of the time axis settings.
+    TextBlob
+        summary of the time axis settings.

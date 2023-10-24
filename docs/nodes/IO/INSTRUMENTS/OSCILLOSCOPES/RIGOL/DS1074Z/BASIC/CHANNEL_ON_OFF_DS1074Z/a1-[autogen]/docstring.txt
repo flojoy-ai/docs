@@ -20,5 +20,5 @@ The CHANNEL_ON_OFF_DS1074Z node turns the channels on or off for the DS1074Z.
 
     Returns
     -------
-    DataContainer
-        TextBlob: summary of channel settings.
+    TextBlob
+        Summary of channel settings.

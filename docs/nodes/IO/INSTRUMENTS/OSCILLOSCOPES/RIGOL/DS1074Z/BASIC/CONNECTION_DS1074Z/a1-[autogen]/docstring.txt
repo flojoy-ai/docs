@@ -12,4 +12,4 @@ The CONNECTION_DS1074Z node connects Flojoy to a DS1074Z oscilloscope.
     Returns
     -------
     DataContainer
-        Optional: None
+        None

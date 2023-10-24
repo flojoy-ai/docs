@@ -25,5 +25,5 @@ The TRIGGER_DS1074Z node changes the trigger settings for the DS1074Z.
 
     Returns
     -------
-    DataContainer
-        TextBlob: The triggering settings.
+    TextBlob
+        The triggering settings.

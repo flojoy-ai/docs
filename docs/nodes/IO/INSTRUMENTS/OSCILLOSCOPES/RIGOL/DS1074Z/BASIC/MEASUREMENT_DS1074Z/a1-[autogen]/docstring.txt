@@ -25,5 +25,5 @@ The MEASUREMENT_DS1074Z node extracts waveform measurements from a DS1074Z.
 
     Returns
     -------
-    DataContainer
-        Scalar: The extracted measurement.
+    Scalar
+        The extracted measurement.
