@@ -28,5 +28,5 @@ The FUNCTION_GENERATION_2000 node controls wavefunction generation.
 
     Returns
     -------
-    DataContainer
-        TextBlob: Placeholder return currently
+    TextBlob
+        Placeholder return currently

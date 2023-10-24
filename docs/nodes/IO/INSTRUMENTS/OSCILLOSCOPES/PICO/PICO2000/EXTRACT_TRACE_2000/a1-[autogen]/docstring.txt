@@ -20,5 +20,5 @@ The EXTRACT_TRACE_2000 node extracts scope traces from the P2000.
 
     Returns
     -------
-    DataContainer
-        OrderedPair: The trace of the oscilloscope is returned.
+    OrderedPair
+        The trace of the oscilloscope is returned.

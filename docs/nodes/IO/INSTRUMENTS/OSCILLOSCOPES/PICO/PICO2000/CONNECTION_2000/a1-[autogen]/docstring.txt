@@ -9,5 +9,5 @@ The CONNECTION_2000 node connects Flojoy to an available Picoscope.
 
     Returns
     -------
-    DataContainer
-        TextBlob: Placeholder return currently
+    TextBlob
+        Placeholder return currently
