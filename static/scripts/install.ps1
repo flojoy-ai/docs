@@ -15,18 +15,14 @@ function cloneRepo {
     $repo, $location, $branch
     )
     $gitURL = "https://github.com/$repo.git"
-    git clone --branch $branch --recurse-submodules $gitURL $location
+    git clone --branch $branch $gitURL $location
     Set-Location $location
 }
 
 info_msg "Cloning flojoy-ai/studio repo..."
 
-cloneRepo "flojoy-ai/studio" "studio" "main"
-
-info_msg "Creating a python virtual environment..."
-
-& python -m venv venv
+cloneRepo "flojoy-ai/studio" "studio" "develop"
 
 info_msg "Starting the project..."
 
-& .\flojoy.ps1 -v venv
+& .\flojoy.ps1

@@ -10,18 +10,10 @@ info_msg() {
 
 info_msg "Cloning flojoy-ai/studio repo..."
 
-git clone --branch main --recurse-submodules https://github.com/flojoy-ai/studio.git studio
+git clone --branch develop https://github.com/flojoy-ai/studio.git studio
 
 cd studio
 
-info_msg "Creating a python virtual environment..."
-
-python3 -m venv venv
-
-if [ $? -ne 0 ]; then
-	python -m venv venv
-fi
-
 info_msg "Starting the project..."
 
-bash flojoy -v venv
+bash flojoy
