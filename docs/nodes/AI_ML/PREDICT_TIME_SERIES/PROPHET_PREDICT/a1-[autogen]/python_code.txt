@@ -1,10 +1,10 @@
-from flojoy import flojoy, run_in_venv, DataFrame
+from flojoy import DataFrame, flojoy, run_in_venv
 
 
 @flojoy
 @run_in_venv(
     pip_dependencies=[
-        "prophet==1.1.4",
+        "prophet==1.1.5",
     ]
 )
 def PROPHET_PREDICT(
@@ -14,9 +14,9 @@ def PROPHET_PREDICT(
 
     import os
     import sys
-    import pandas as pd
-    import numpy as np
 
+    import numpy as np
+    import pandas as pd
     import prophet
     from prophet.serialize import model_to_json
 

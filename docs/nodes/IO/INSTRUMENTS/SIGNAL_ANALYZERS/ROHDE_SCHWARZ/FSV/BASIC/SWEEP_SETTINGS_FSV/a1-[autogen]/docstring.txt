@@ -1,0 +1,35 @@
+The SWEEP_SETTINGS_FSV node sets sweep settings for a FSV.
+
+    Note that span/center and start/stop can be used equivalently if:
+    start = center - (span / 2) and stop = center + (span / 2).
+
+    Requires a CONNECTION_FSV node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
+
+    This node should also work with compatible R&S network analyzers.
+
+    Parameters
+    ----------
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_FSV node).
+    span_or_range: select
+        X axis range, span (center and span) or range (start and stop).
+    center: float
+        The center of the x axis range, in Hz.
+    span: float
+        The span of the x axis, in Hz.
+    start: float
+        The start point of the x axis, in Hz.
+    stop: float
+        The end point of the x axis, in Hz.
+    sweep_type: select
+        How the FSV sweeps along the x axis range.
+    counts: int
+        Number of sweeps to do, (average optional in INIT_SWEEP_FSV).
+    points: int
+        Number of x axis points to sweep.
+
+    Returns
+    -------
+    TextBlob
+        Sweep settings summary.
