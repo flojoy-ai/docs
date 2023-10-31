@@ -56,7 +56,7 @@ const config = {
               // or appendix section. If so, don't display it as a category
               // and instead make it a leaf.
               const filtered = item.items.filter(
-                x => x.label !== 'examples' && x.label !== 'appendix'
+                x => x.label !== 'examples' && x.label !== 'appendix',
               );
 
               if (filtered.length === 0 && item.link) {
@@ -137,14 +137,17 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '⭐ If you like Flojoy, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/flojoy-ai/studio">GitHub</a> ⭐',
+          '❗Announcement❗ This site has been migrated to <a target="_blank" rel="noopener noreferrer" href="https://docs.flojoy.ai">docs.flojoy.ai</a> to enhance your documentation experience!',
         backgroundColor: '#000',
         textColor: '#FFF',
         isCloseable: true,
       },
       metadata: [
-        {name: 'google-site-verification', content: 'vnTrpT2hj2y0bAD5_FltptHs2oDPgwU5N4amWmA1DbE'},
-      ],      
+        {
+          name: 'google-site-verification',
+          content: 'vnTrpT2hj2y0bAD5_FltptHs2oDPgwU5N4amWmA1DbE',
+        },
+      ],
       colorMode: {
         defaultMode: 'dark',
       },
@@ -177,7 +180,7 @@ const config = {
               {
                 href: '/instruments-database/all-instruments',
                 label: 'Instruments Database',
-              }              
+              },
             ],
           },
           {
