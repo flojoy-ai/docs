@@ -115,57 +115,67 @@ function HomepageHeader() {
             <br></br>
             <br></br>
           </div>
-          <div className="align-center flex-column-lg flex justify-center gap-6">
-            <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
-              <Link
-                className="dotted-btn flex items-center gap-2 hover:no-underline"
-                to={downloadLinks.windows}
-              >
-                <FaWindows />
-                Download For Windows
-              </Link>
-            </div>
-            <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
-              <Link
-                className="dotted-btn flex items-center gap-2 hover:no-underline"
-                to={downloadLinks.mac}
-              >
-                <FaApple />
-                <span className="">Download For Mac</span>
-              </Link>
-            </div>
-            <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover ">
-              <Link
-                className="dotted-btn flex items-center gap-2 hover:no-underline"
-                to={downloadLinks.linux}
-              >
-                <FaLinux />
-                <span className="">Download For Linux</span>
-              </Link>
-            </div>
+
+          <div className="flex flex-col items-center rounded-full transition duration-300 ease-in-out">
+            <Link
+              className="dotted-btn flex items-center gap-2 hover:no-underline"
+              to="https://docs.flojoy.ai"
+            >
+              Visit our new docs site
+            </Link>
           </div>
+
+          {/* <div className=""> */}
+          {/*   <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover "> */}
+          {/*     <Link */}
+          {/*       className="dotted-btn flex items-center gap-2 hover:no-underline" */}
+          {/*       to={downloadLinks.windows} */}
+          {/*     > */}
+          {/*       <FaWindows /> */}
+          {/*       Download For Windows */}
+          {/*     </Link> */}
+          {/*   </div> */}
+          {/*   <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover "> */}
+          {/*     <Link */}
+          {/*       className="dotted-btn flex items-center gap-2 hover:no-underline" */}
+          {/*       to={downloadLinks.mac} */}
+          {/*     > */}
+          {/*       <FaApple /> */}
+          {/*       <span className="">Download For Mac</span> */}
+          {/*     </Link> */}
+          {/*   </div> */}
+          {/*   <div className="rounded-full bg-accent1 transition duration-300 ease-in-out  hover:bg-accent1-hover "> */}
+          {/*     <Link */}
+          {/*       className="dotted-btn flex items-center gap-2 hover:no-underline" */}
+          {/*       to={downloadLinks.linux} */}
+          {/*     > */}
+          {/*       <FaLinux /> */}
+          {/*       <span className="">Download For Linux</span> */}
+          {/*     </Link> */}
+          {/*   </div> */}
+          {/* </div> */}
         </div>
       </header>
 
-      <h1 className="text-center">🕹️ Demos</h1>
+      {/* <h1 className="text-center">🕹️ Demos</h1> */}
+      {/**/}
+      {/* <div className="py-4" /> */}
 
-      <div className="py-4" />
+      {/* <div className="flex flex-col items-center px-6 sm:px-24 lg:px-48 3xl:px-72"> */}
+      {/*   <CardCollection cardData ={cardCollectionData} /> */}
+      {/* </div> */}
 
-      <div className="flex flex-col items-center px-6 sm:px-24 lg:px-48 3xl:px-72">
-        <CardCollection cardData ={cardCollectionData} />
-      </div>
-
-      <div className="py-8" />
-
-      <h1 className="text-center">🎛️ App showcase</h1>
-
-      <div className="py-4" />
-
-      <section className={clsx('mb-4', styles.backgroundSection)}>
-        <div className="container text-center">
-          <BrowserOnly>{() => <QuickStart />}</BrowserOnly>
-        </div>
-      </section>
+      {/* <div className="py-8" /> */}
+      {/**/}
+      {/* <h1 className="text-center">🎛️ App showcase</h1> */}
+      {/**/}
+      {/* <div className="py-4" /> */}
+      {/**/}
+      {/* <section className={clsx('mb-4', styles.backgroundSection)}> */}
+      {/*   <div className="container text-center"> */}
+      {/*     <BrowserOnly>{() => <QuickStart />}</BrowserOnly> */}
+      {/*   </div> */}
+      {/* </section> */}
     </>
   );
 }

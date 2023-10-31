@@ -54,4 +54,4 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 ## Connect to the Power Supply Series 8510 in Python
 
-[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/contribution/blocks/custom-flojoy-block/)

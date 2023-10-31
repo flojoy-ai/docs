@@ -59,7 +59,7 @@ import FeaturedInstrumentVideo from '@site/src/components/FeaturedInstrumentVide
 
 ## Connect to the Triton in Python
 
-[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/custom-nodes/creating-custom-node/)
+[Read our guide for turning Python scripts into Flojoy nodes.](https://docs.flojoy.ai/contribution/blocks/custom-flojoy-block/)
 
 import NodeCardCollection from '@site/src/components/NodeCardCollection';
 

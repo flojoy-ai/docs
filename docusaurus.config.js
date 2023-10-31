@@ -165,18 +165,18 @@ const config = {
             label: 'Resources',
             position: 'right',
             items: [
-              {
-                href: '/getting-started/install',
-                label: 'Installation',
-              },
-              {
-                href: '/nodes',
-                label: 'All nodes',
-              },
-              {
-                href: '/custom-nodes/',
-                label: 'Contributing',
-              },
+              // {
+              //   href: '/getting-started/install',
+              //   label: 'Installation',
+              // },
+              // {
+              //   href: '/nodes',
+              //   label: 'All nodes',
+              // },
+              // {
+              //   href: '/custom-nodes/',
+              //   label: 'Contributing',
+              // },
               {
                 href: '/instruments-database/all-instruments',
                 label: 'Instruments Database',
