@@ -1,6 +1,11 @@
 
 The CONNECT node establishes a connection to the Mecademic robot arm via its API.
 
+Parameters
+----------
+ip_address : str
+    The IP address of the robot arm.
+
 Returns
 -------
 String

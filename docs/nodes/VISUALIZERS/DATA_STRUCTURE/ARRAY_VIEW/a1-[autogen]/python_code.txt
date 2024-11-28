@@ -1,6 +1,6 @@
-from flojoy import flojoy, OrderedPair, DataFrame, Matrix, Image, Plotly
-import plotly.graph_objects as go
 import numpy as np
+import plotly.graph_objects as go
+from flojoy import DataFrame, Image, Matrix, OrderedPair, Plotly, flojoy
 
 CELL_SIZE = 50
 FONT_SIZE = 10

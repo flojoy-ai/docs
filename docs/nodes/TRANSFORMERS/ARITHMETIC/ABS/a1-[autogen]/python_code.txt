@@ -1,10 +1,11 @@
 import numpy as np
-from flojoy import flojoy, OrderedPair, Vector, Scalar
+from flojoy import OrderedPair, Scalar, Vector, flojoy
 
 
 @flojoy
 def ABS(default: OrderedPair | Vector | Scalar) -> OrderedPair:
     
+
     match default:
         case OrderedPair():
             x = default.x
