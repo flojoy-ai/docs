@@ -1,6 +1,7 @@
-from flojoy import flojoy, DataContainer, TextBlob
-import pyvisa
 from typing import Optional
+
+import pyvisa
+from flojoy import DataContainer, TextBlob, flojoy
 
 
 @flojoy(

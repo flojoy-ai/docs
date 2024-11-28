@@ -1,4 +1,4 @@
-from flojoy import flojoy, TextBlob
+from flojoy import TextBlob, flojoy
 from PYTHON.utils.mecademic_state.mecademic_state import add_handle, init_handle_map
 
 

@@ -1,5 +1,10 @@
 The LIST_VISA node lists all VISA instruments available.
 
+    Parameters
+    ----------
+    default : DataContainer
+        the input data container
+
     Returns
     -------
     DataContainer
