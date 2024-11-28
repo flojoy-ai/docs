@@ -1,0 +1,29 @@
+The TRIGGER_DS1074Z node changes the trigger settings for the DS1074Z.
+
+    If 'query_set' is set to query the trigger settings will be queried and
+    left unchanged.
+
+    Requires a CONNECTION_DS1074Z node at the start of the app to connect with
+    the instrument. The VISA address will then be listed under 'connection'.
+
+    This node should also work with compatible DS1000Z oscilloscopes
+
+    Parameters
+    ----------
+    connection: VisaConnection
+        The VISA address (requires the CONNECTION_DS1074Z node).
+    query_set: select:
+        "query" or "set" the trigger settings.
+    channel: select
+        Which channel to use as the trigger channel.
+    level: float
+        Set the triggering level, in Volts
+    slope: select
+        Which slope to detect the triggering time on.
+    coupling: select
+        Which coupling to use for the trigger signal.
+
+    Returns
+    -------
+    TextBlob
+        The triggering settings.

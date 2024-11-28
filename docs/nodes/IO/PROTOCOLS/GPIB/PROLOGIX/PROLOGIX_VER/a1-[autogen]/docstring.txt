@@ -1,0 +1,16 @@
+The PROLOGIX_VER command queries the Prologix USB-to-GPIB firmware version.
+
+    Inputs
+    ------
+    default: DataContainer
+        Any DataContainer - likely connected to the output of the OPEN_SERIAL node.
+
+    Parameters
+    ----------
+    connection: Serial
+        The open serial connection with the instrument.
+
+    Returns
+    -------
+    TextBlob
+        The Prologix controller available commands.

@@ -4,8 +4,8 @@ The ADD node adds two or more numeric arrays, matrices, dataframes, or constants
 
     If two arrays or matrices of different sizes are added, the output will be the size of the larger array or matrix with only the overlapping elements changed.
 
-    Inputs
-    ------
+    Parameters
+    ----------
     a : OrderedPair|Scalar|Vector
         The input a use to compute the sum of a and b.
     b : OrderedPair|Scalar|Vector
